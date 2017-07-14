@@ -212,6 +212,8 @@ With those three states in place, the VOTE token will operate as a political and
 
 [[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
 
+  PENDING.
+
 ===4.2 Hard Promises.===
 
 The building blocks of institutions consist of facts stored in contracts. But the kind of facts these agreements contain are of a very specific type. Institutions are not built with ''objective facts'' that are scientific, measurable and independent from human judgment; but rather ''inter-subjective facts'' that build the social world within a community setting the relations of property and rights. For example, the notion that every red can of soda belongs to the Coca Cola Corporation is not objective but an inter-subjective fact agreed upon all members of society acknowledging the intellectual property rights that company has over its products. In this way, institutional reality helps [http://unenumerated.blogspot.com.es/2017/02/money-blockchains-and-social-scalability.html scale economic relations and reduce the information required for organizations to transact].
