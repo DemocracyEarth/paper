@@ -28,6 +28,38 @@ The lack of contemporaneous political systems able to address citizens’ needs 
 
 ===1.1 Legacy System.===
 
+-
+
 ==2. Geopolitics & Encryption.==
 
+===2.1 Land versus Cloud.===
+
+===2.2 Artificial Intelligence.===
+
+===2.3 Sovereign Technology.===
+
+--
+
 ==3. Decentralized Democracy.==
+
+===3.1 Permissionless.===
+
+===3.2 Token.===
+
+===3.3 State.===
+
+===3.4 Risk.===
+
+===3.5 Scarcity.===
+
+===3.6 Utility.===
+
+===3.7 Divisibility.===
+
+--
+
+==4. Politics==
+
+===4.1 Proof of Identity.===
+
+===4.2 Hard Promises.===
