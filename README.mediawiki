@@ -17,7 +17,7 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires to build a new model that makes the existing model obsolete. On this paper we propose how to organize society and eradicate the corruption of traditional governments by connecting public resources to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized government with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
 
----
+
 
 <blockquote>
   Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
@@ -41,7 +41,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===1.1 Legacy.===
 
----
+
 
 ==2. Encryption.==
 
@@ -51,7 +51,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===2.3 Sovereign Technology.===
 
----
+
 
 ==3. Decentralization.==
 
@@ -69,7 +69,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===3.7 Divisibility.===
 
----
+
 
 ==4. Politics.==
 
@@ -85,7 +85,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ====4.5.1 Quadratic.====
 
----
+
 
 ==5. Economics.==
 
@@ -97,6 +97,6 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===5.4 End Game.===
 
----
+----
 
 ==6. Acknowledgements.==
