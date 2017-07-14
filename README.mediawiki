@@ -1,7 +1,7 @@
 <pre>
   DEF: 1
   Title: The Social Smart Contract
-  Author: [mailto:santi@democracy.earth Santiago Siri], [mailto:herb@democracy.earth Herb Stephens].
+  Author: Santiago Siri<santi@democracy.earth>, Herb Stephens<herb@democracy.earth>.
   Comments-Summary: No comments yet.
   Status: Active
   Type: Process
@@ -41,7 +41,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===1.1 Legacy.===
 
-
+----
 
 ==2. Encryption.==
 
@@ -51,7 +51,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===2.3 Sovereign Technology.===
 
-
+----
 
 ==3. Decentralization.==
 
@@ -69,7 +69,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ===3.7 Divisibility.===
 
-
+----
 
 ==4. Politics.==
 
@@ -85,7 +85,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ====4.5.1 Quadratic.====
 
-
+----
 
 ==5. Economics.==
 
