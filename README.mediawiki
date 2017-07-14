@@ -198,9 +198,13 @@ With those three states in place, the VOTE token will operate as a political and
 
 ===3.7 Divisibility.===
 
+  PENDING.
+
 ----
 
 ==4. Politics.==
+
+  PENDING.
 
 ===4.1 Proof of Identity.===
 
@@ -222,19 +226,19 @@ A liquid democracy is based on a dynamic representation model that works with a 
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-If Alice has a peer Bob that is knowledgeable on environmentalist issues, then Alice can delegate Bob her voting capacity to have him represent her on any issue with the ‘environment’ tag. At any given time Alice may override Bob’s vote if she is to have a  preference on a specific issue, but for the remaining time Bob will act as Alice’s representative. This representation model is not based on territory but on knowledge and can be applied anywhere with a common language. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, Wikipedia being a pioneering case. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (empowering specialized voices, long term thinking, accountability).
+If Alice has a peer Bob that is knowledgeable on environmentalist issues, then Alice can delegate Bob her voting capacity to have him represent her on any issue with the ‘environment’ tag. At any given time Alice may override Bob’s vote if she is to have a  preference on a specific issue, but for the remaining time Bob will act as Alice’s representative. This representation model is not based on territory but on knowledge and can be applied anywhere with a common language. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (empowering specialized voices, long term thinking, accountability).
 
 In the context of a blockchain, as the complexity of delegations increases, for users to be able to track their delegations (and keep delegates accountable) the simplest design for the network to scale requires using tokens that operate as political currency. If Bob receives delegations from Alice, Charlie and Dave, this accounts for the right to have a voting capacity of 4 votes (his own plus the 3 delegations). But at anytime Bob might decide to delegate his votes to Frank whom he considers a more knowledgeable authority. As a delegate he can either send his own vote or decide to transfer any of his received delegations as well. But if Dave does not desire for Frank to delegate the vote he has given to him, he must be able to specify this condition on a smart contract that will limit Frank’s capacity with Dave’s delegated tokens. The guiding principle is that a sovereign voter must always have full rights on how his voting tokens get used.
 
 ===4.4 Secrecy.===
 
-Among the few documented  liquid democracy implementations there is Google Votes. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the golden rule of liquid democracies:
+Among the few documented  liquid democracy implementations there is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the ''golden rule'' of liquid democracies:
 
 <blockquote>
   If I give you my vote, I can see what you do with it.
 </blockquote>
 
-In the same way congressmen votes are public, on liquid systems competing delegates on any given topic have an incentive to build a public reputation based on their voting record in order to attract more delegations. We consider that a system able to satisfy delegator trust while being coercion resistant must be able to separate vote casting security from vote verification.  The implementation of web based voting system Helios is  able to preserve voter anonymity without corrupting vote integrity. On this system the means to audit a vote can be verified with a private key issued for the voter once the vote is cast. Under  a liquid democracy context,  the audit key is generated for every delegator in the smart contract establishing the rules for the tokens sent to a delegate that will represent the delegator’s interest.
+In the same way congressmen votes are public, on liquid systems competing delegates on any given topic have an incentive to build a public reputation based on their voting record in order to attract more delegations. We consider that a system able to satisfy delegator trust while being coercion resistant must be able to separate vote casting security from vote verification. The implementation of [https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf web based voting system Helios] is  able to preserve voter anonymity without corrupting vote integrity. On this system the means to audit a vote can be verified with a private key issued for the voter once the vote is cast. Under  a liquid democracy context,  the audit key is generated for every delegator in the smart contract establishing the rules for the tokens sent to a delegate that will represent the delegator’s interest.
 
 ===4.5 Delegations.===
 
@@ -244,7 +248,7 @@ Another key finding from the Google Vote implementation was the lack of delegati
 
 ====4.5.1 Quadratic.====
 
-When the German Pirate Party implemented Liquid Feedback, a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates and led to a linguist professor becoming the most influential member of the party. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation rather than less. For this purpose a key setting on any liquid democracy system is to enable quadratic voting when it comes to delegations, where the cost for Alice to delegate votes to Bob increases exponentially. Alice may only be able to delegate Bob one, 2, 4, 8, 16 or even 128 or 512 votes hence making any significant delegation to him tax the delegator by drastically reducing her opportunity cost of delegating to other members. These will prevent the rise of any monopolies or duopolies within the market dynamics of the system, always granting an incentive to participate for every member of an organization.
+When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates and led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation rather than less. For this purpose a key setting on any liquid democracy system is to enable [http://ericposner.com/quadratic-voting/ quadratic voting when it comes to delegations], where the cost for Alice to delegate votes to Bob increases exponentially. Alice may only be able to delegate Bob one, 2, 4, 8, 16 or even 128 or 512 votes hence making any significant delegation to him tax the delegator by drastically reducing her opportunity cost of delegating to other members. These will prevent the rise of any monopolies or duopolies within the market dynamics of the system, always granting an incentive to participate for every member of an organization.
 
 ----
 
@@ -276,4 +280,14 @@ When the German Pirate Party implemented Liquid Feedback, a pioneering liquid de
 
 ----
 
-==6. Acknowledgements.==
+==6. About.==
+
+===6.1 Contributors.===
+
+====6.1.1 Founders.====
+
+====6.1.2 Partners.====
+
+====6.1.3 Community.====
+
+===6.2 Acknowledgements.===
