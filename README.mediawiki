@@ -1,7 +1,7 @@
 <pre>
-  BIP: 1
+  DEF: 1
   Title: The Social Smart Contract
-  Author: Santiago Siri<santi@democracy.earth>, Herb Stephens<herb@democracy.earth>.
+  Author: [mailto:santi@democracy.earth Santiago Siri], [mailto:herb@democracy.earth Herb Stephens].
   Comments-Summary: No comments yet.
   Status: Active
   Type: Process
@@ -10,14 +10,14 @@
   Replaces: 0
 </pre>
 
-=The Social Smart contract.=
+=The Social Smart Contract.=
 An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].
 
-===Abstract.===
+==Abstract.==
 
 The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires to build a new model that makes the existing model obsolete. On this paper we propose how to organize society and eradicate the corruption of traditional governments by connecting public resources to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized government with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
 
---
+---
 
 <blockquote>
   Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
@@ -39,11 +39,11 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 Our technology is a blockchain liquid democracy, a method that enables direct voting on issues or the ability to delegate voting power on specific topics to peers over a secure network without central authority. The goal is to guarantee the greatest amount of legitimacy in terms of participation while aiming to enforce the most efficient decision made by the crowd. By operating with tokens signaled on a blockchain, immediate audit rights can be granted to every voter without needing to provide access to servers or private infrastructure, thus making the system open and transparent for all. Our work is driven by open source software development practices and cooperates with key projects aiming to secure identity in decentralized environments including efforts from Blockstack, Civic and Consensys among others.
 
-===1.1 Legacy System.===
+===1.1 Legacy.===
 
 ---
 
-==2. Geopolitics & Encryption.==
+==2. Encryption.==
 
 ===2.1 Land versus Cloud.===
 
@@ -53,7 +53,7 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ---
 
-==3. Decentralized Democracy.==
+==3. Decentralization.==
 
 ===3.1 Permissionless.===
 
@@ -71,20 +71,32 @@ Our technology is a blockchain liquid democracy, a method that enables direct vo
 
 ---
 
-==4. Politics==
+==4. Politics.==
 
 ===4.1 Proof of Identity.===
 
 ===4.2 Hard Promises.===
 
-===4.3 Liquid===
+===4.3 Liquid.===
 
-===4.4 Secrecy===
+===4.4 Secrecy.===
 
-===4.5 Delegations===
+===4.5 Delegations.===
 
-====Quadratic Voting====
+====4.5.1 Quadratic.====
 
 ---
 
-==Acknowledgements==
+==5. Economics.==
+
+===5.1 Basic Income.===
+
+===5.2 Gift versus Debt.===
+
+===5.3 Bitcoin.===
+
+===5.4 End Game.===
+
+---
+
+==6. Acknowledgements.==
