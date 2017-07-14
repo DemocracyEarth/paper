@@ -186,6 +186,16 @@ It must be noted that even if we remain skeptical about the chances of Nation-St
 
 ===3.6 Utility.===
 
+The smart contract driving VOTEs will signal for every token three states aimed at satisfying the voting use cases for all kinds of organizations and providing the means to guarantee trust of a VOTE’s core function. Every VOTE token can then be:
+
+* '''Anonymous''': The token can be traded at market value and used for voting purposes if no identity is required for an organization implementing its use. Corporations and private institutions (often referred as ''Anonymous Societies'' in most jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets. As its detailed on section 3.7, VOTEs are designed for liquid democracies and can be used by organization’s as small as two people.
+
+* '''Identified''': The rights to a VOTE can be obtained without a monetary transaction by means of a ''Proof of Identity'' (detailed in section 3.5). A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified VOTE'' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the VOTE economy. If a VOTE has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
+
+* '''Corrupted''': Aware that attacks from adversaries aiming to subvert VOTE tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified VOTE'' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
+
+With those three states in place, the VOTE token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
+
 ===3.7 Divisibility.===
 
 ----
@@ -194,7 +204,15 @@ It must be noted that even if we remain skeptical about the chances of Nation-St
 
 ===4.1 Proof of Identity.===
 
+[https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain valid birth certificate. The process,  even though symbolic at the time, is relatively simple to replicate with everyday technology.
+
 ===4.2 Hard Promises.===
+
+The building blocks of institutions consist of facts stored in contracts. But the kind of facts these agreements contain are of a very specific type. Institutions are not built with objective facts that are scientific, measurable and independent from human judgment; but rather inter-subjective facts that build the social world within a community setting the relations of property and rights. For example, the notion that every red can of soda belongs to the Coca Cola Corporation is not objective but an inter-subjective fact agreed upon all members of society acknowledging the intellectual property rights that company has over its products. In this way, institutional reality helps scale economic relations and reduce the information required for organizations to transact.
+
+The bureaucracies that protect these agreements depend on promises, i.e. “all money kept in banks will be there tomorrow”. But as Andreas Antonopoulos states: “We’re used to systems of soft promises and reversible transactions.” If the government (or any other kind of central authority) wanted to confiscate private funds stored in a bank, nobody can stop them from breaking that promise. This has been the experience of Greek, Argentine, Venezuelan or Puerto Rican citizens with their own defaulting governments in the past decade. Blockchain based organizations offer an alternative of hard promises: agreements stored in smart contracts strictly protected by cryptographic keys that no single third party can corrupt. Corruption is at the core of every broken promise between representatives and their constituencies. It is due to the weak dynamics of central authority that fraudulent behavior gets rewarded. Inside trading, monetary inflation, capital controls are some of the behaviours that tend to apply to all but the friends of those in power. By removing the need of central authority, blockchain-based institutions (whether public or private) operate with higher defenses against corrupted authority. And as far as regulation goes, cryptography cannot be stopped since doing it would require prohibiting mathematics.
+
+The goal we have set for the Democracy Earth Foundation is to pioneer blockchain governance by implementing a universal voting token compatible with any kind of institution. This technology can be used for the decision making process of multi-stakeholder organizations, private or public, small or large. As a collective decision instrument, we are aware that the main challenge of democracy is not only scaling participation but also scaling the understanding of what is being voted. In that sense the aim for this token is to enforce the preferences of a specialized majority that is knowledgeable on the conflicting issues while  guaranteeing protections to all participating minorities.
 
 ===4.3 Liquid.===
 
