@@ -28,7 +28,7 @@ The lack of contemporaneous political systems able to address citizens’ needs 
 
 ===1.1 Legacy System.===
 
--
+---
 
 ==2. Geopolitics & Encryption.==
 
@@ -38,7 +38,7 @@ The lack of contemporaneous political systems able to address citizens’ needs 
 
 ===2.3 Sovereign Technology.===
 
---
+---
 
 ==3. Decentralized Democracy.==
 
@@ -56,10 +56,22 @@ The lack of contemporaneous political systems able to address citizens’ needs 
 
 ===3.7 Divisibility.===
 
---
+---
 
 ==4. Politics==
 
 ===4.1 Proof of Identity.===
 
 ===4.2 Hard Promises.===
+
+===4.3 Liquid===
+
+===4.4 Secrecy===
+
+===4.5 Delegations===
+
+====Quadratic Voting====
+
+---
+
+==Acknowledgements==
