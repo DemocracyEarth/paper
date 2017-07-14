@@ -145,7 +145,27 @@ A token granting participation rights has voting as its main function hence we w
 
 ===3.3 State.===
 
+A VOTE can be implemented with any possible ballot design and counting procedure. In elections ballots can be single choice, multiple choice, ranked choice among many other designs. Counting methods may include the D’Hont method (widely used by Nation-State elections) or the Schülze method  (commonly used by open source communities and Pirate Parties), depending on the chosen ballot design. In order to enable the information processing of the token, a VOTE transaction can signal a decision state from the voter that will act as a force modeling the institutional choices for the implementing organization. A VOTE transaction can then be a:
+
+* '''True Statement''': the VOTE is sent in approval of the attached ballot or in specific support to the interests related to a receiving address.
+
+* '''False Statement''': the VOTE transaction is sent in rejection.
+
+VOTEs store a binary decision state. For this purpose whether it’s in favor or against a specific issue, it must be explicitly stated in the ballot interface. For the final tally, polls using VOTEs must then set their scope in time and define the kind of decision being made:
+
+* '''Tactical''' (''Time limited polls''): These are decisions that receive VOTEs until a closing date is met, where a given block height within the blockchain implementing the VOTE smart contract can be set as the end line for the electoral process. Once the transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
+
+* '''Strategical''' (''Time unlimited polls''): Never-ending, open polls that are perpetually registering the consensus of a decision state. VOTEs can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a poll without closing date, it is part of the strategical decision.
+
+Customized conditions can be set with smart contracts that enforce a decision by unlocking coins if a result is met (i.e. reaching a certain amount of VOTEs on a specific blockchain address triggers a cryptocurrency transfer to allocate budget for approved action).
+
 ===3.4 Risk.===
+
+For VOTEs to be trusted tokens, the system must be protected against the two main  subversive strategies that democracies deal with:
+
+1. '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a sybil attack (a name taken from an homonymous 1976 film based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for a token to be activated it must get validated through a protocol (social and algorithmic) that works as Proof of Identity (addressed on section 3.5).
+
+2. '''Gossip Dissemination''' (a. k. a. ''fake news''): It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, fake news can be fought with a new institutional model able to store Hard Promises (addressed on section 3.6).
 
 ===3.5 Scarcity.===
 
