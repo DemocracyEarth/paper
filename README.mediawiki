@@ -17,17 +17,19 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires to build a new model that makes the existing model obsolete. On this paper we propose how to organize society and eradicate the corruption of traditional governments by connecting public resources to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized government with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
 
+----
 
-
+^
 <blockquote>
   Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
 </blockquote>
 '''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
+^
 
 ==1. Introduction.==
 Current democratic systems governing societies under the territorial domain of Nation-States have grown stagnant in terms of participation and are leading towards increased polarization. Constituencies are provided with tailor-made media that satisfies their own endogamic beliefs, pulling society apart as discourse has factual debate replaced by a post-truth mindset. This is a consequence of the drastic expansion in communication channels that shrank attention spans rendering thoughtful analysis expendable. Instances of political participation in the so-called modern democracies are not apt for information abundant contexts and have remained without change since their inception.
 
-[[File:/images/bipartizan-votes-from-1981-2015-usa.png|frame|Bi-partizan votes in the U.S. House of Representatives since 1981, source: [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507 The Rise of Partizanship (2015)].]]
+[[https://github.com/DemocracyEarth/paper/blob/master/images/bipartizan-votes-from-1981-2015-usa.png?raw=true|frame|Bi-partizan votes in the U.S. House of Representatives since 1981, source: [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507 The Rise of Partizanship (2015)].]]
 
 Engagement through the traditional channels is weaker among younger generations, [http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do often not going out to vote and unlikely to engage in party politics]. Meanwhile online activism is increasing with social media becoming the dominant arena for political clashes. This includes Facebook and Twitter (where gossip dissemination is predominant with ''fake news'', ''bots'' and ''trolling'' among other campaign optimizations) and emergent eco chambers like [http://www.4chan.org/ 4chan.org] where anonymity led to political incorrectness or [https://gab.ai/ gab.ai] consolidating the ''alt-right'' community in the US. Needless to say: endogamy only makes polarization stronger and no solution is in sight within these services but rather the risk of reinforcing present scenario of tribal polar societies relativizing truth while [https://www.nytimes.com/2017/06/01/climate/trump-paris-climate-agreement.html risking preservation of resources].
 
