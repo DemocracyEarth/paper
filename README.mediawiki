@@ -73,8 +73,8 @@ Secrecy is a fundamental property of free and fair elections as it is a mechanis
 
 <blockquote>
   I can’t let you do that, Dave.
+  '''HAL 9000''' on ''2001: A Space Odyssey'' (1968).
 </blockquote>
-'''HAL 9000''' on ''2001: A Space Odyssey'' (1968).
 
 The best civic tech is tech that gets used every day. Vertical apps that only get sporadic use are not able to move the needle. Facebook, Twitter and other social media platforms already became by proxy the main interface citizens use to influence everyday politics. But the unseen consequences of giving personal data away through centralized web services can be many and with relevant implications for the future of humanity.
 
@@ -108,6 +108,24 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 ----
 
 ==3. Decentralization.==
+
+We pioneered digital democracy having authored some of the most prominent open source democracy software as ranked by the Github community including the original design of DemocracyOS, a simple direct democracy project we created along the Partido de la Red in 2012. The experience and lessons learned led us toward the need of building a user friendly decentralized liquid democracy system.  We began development in October 2015, naming the project as Sovereign. Its codebase delivers a mobile and desktop application for voters and organizations willing to implement a blockchain based democracy.
+
+[[File:/images/sovereign.png|Sovereign.]]
+
+Our aim is to continue the paved road of implementations that enable cryptographic open-audit voting and integrate our software with blockchains able to guarantee the sovereign rights of users. An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
+
+* '''Secrecy''': voter must be able to cast vote in secret.
+
+* '''Verifiability''': voter must be able to verify tallied vote.
+
+* '''Integrity''': system must be able to verify correct vote tally.
+
+Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
+
+* '''Resistance''': voter must be able override own vote if necessary.
+
+In the work led by researchers Hosp & Vora, an Information Theory approach was taken to model voting systems leading to the conclusion that a natural tension exists with a system aiming for perfect integrity, perfect ballot secrecy and perfect tally verifiability. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s proof of work model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as mining), leading to a network “300 times more powerful than Google’s resources” according to Balaji Srinivasan, an Andreessen-Horowitz partner. For this reason, our design is based on tokens within a blockchain network operating as political cryptocurrency.
 
 ===3.1 Permissionless.===
 
