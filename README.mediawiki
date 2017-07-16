@@ -11,7 +11,7 @@
 </pre>
 
 =The Social Smart Contract.=
-===An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].===
+  An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].
 
 ==Abstract.==
 
@@ -99,7 +99,7 @@ Consciousness is the new political frontier being drawn. A line between machines
 <blockquote>
   Sovereign is he who decides to be the exception.
 </blockquote>
-'''Carl Schmitt'''.
+'''Carl Schmitt''', political theorist (1888-1985).
 
 The achilles heel of data hungry, attention farming, internet monopolies is their need of a centralized information architecture. They rose as the ''superhubs'' in what used to be the promise of a web shaped network by implementing the winning internet use cases. But the consequence has been a privatized ecosystem: closed code, walled gardens and surveillance capitalism as the defaults on what could otherwise be a borderless commons. When Sir Tim Berners-Lee, creator of the ''world wide web'' protocols, pointed out the intrinsic risks on today’s internet he requested the need to draft a [https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web Magna Carta for the Web].
 
