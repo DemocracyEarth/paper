@@ -11,7 +11,7 @@
 </pre>
 
 =The Social Smart Contract.=
-An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].
+<big>An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].</big>
 
 ==Abstract.==
 
@@ -25,7 +25,7 @@ The lack of contemporaneous political systems able to address citizens’ needs 
 </blockquote>
 '''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
 
-Current democratic systems governing societies under the territorial domain of Nation-States have grown stagnant in terms of participation and are leading towards increased polarization. Constituencies are provided with tailor-made media that satisfies their own endogamic beliefs, pulling society apart as discourse has factual debate replaced by a post-truth mindset. This is a consequence of the drastic expansion in communication channels that shrank attention spans rendering thoughtful analysis expendable. Instances of political participation in the so-called modern democracies are not apt for information abundant contexts and have remained without change since their inception.
+Current democratic systems governing societies under the territorial domain of Nation-States have grown stagnant in terms of participation and are leading towards increased polarization. Constituencies are provided with tailor-made media that satisfies their own endogamic beliefs, pulling society apart as discourse has factual debate replaced by a post-truth mindset. This is a consequence of the drastic expansion in communication channels that shrank attention spans rendering thoughtful analysis expendable. Centralized 20th century information distribution created uniform narratives, realities and identities. The Internet has fractured them. Instances of political participation in the so-called modern democracies are not apt for information abundant contexts and have remained without change since their inception.
 
 [[File:/images/bipartizan-votes-us-congress.png|Bi-partizan votes in the U.S. House of Representatives since 1981, source: The Rise of Partizanship (2015).]]
 
@@ -53,7 +53,7 @@ Traditional analog and electronic elections are strictly for long term represent
 
 ----
 
-==2. Encryption.==
+==2. Geopolitics.==
 
 A consequence of the U.S. Presidential Election of 2016 is that the [https://www.theguardian.com/us-news/2016/dec/16/qa-russian-hackers-vladimir-putin-donald-trump-us-presidential-election fear of foreign intervention] has become a leading threat to the security  of electoral processes. But foreign attacks rarely consist on hijacking voting machines: directly manipulating votes can be easily traced and it is very expensive to impact on a scale large enough to satisfy an attacker. A more efficient approach is [https://en.wikipedia.org/wiki/2016_Dyn_cyberattack instilling public fear by collapsing internet infrastructure days prior to an election] in a way that can help push favoritism on a candidate that is perceived stronger than the other one. This kind of cyberattack able to trigger a shift in voter perception is nearly impossible to trace as political subversion and reveals the inherent conflict that a digital commons has with territorial democracies.
 
@@ -73,8 +73,8 @@ Secrecy is a fundamental property of free and fair elections as it is a mechanis
 
 <blockquote>
   I can’t let you do that, Dave.
-  '''HAL 9000''' on ''2001: A Space Odyssey'' (1968).
 </blockquote>
+'''HAL 9000''' on ''2001: A Space Odyssey'' (1968).
 
 The best civic tech is tech that gets used every day. Vertical apps that only get sporadic use are not able to move the needle. Facebook, Twitter and other social media platforms already became by proxy the main interface citizens use to influence everyday politics. But the unseen consequences of giving personal data away through centralized web services can be many and with relevant implications for the future of humanity.
 
