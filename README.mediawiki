@@ -155,9 +155,9 @@ The blockchain backend of [http://sovereign.software Sovereign] consists of a se
 
 ====Collective====
 
-Usually the entity or institution running the servers implementing a Sovereign instance. For a <code>Collective</code> to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals. In some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
+The entity or institution running the servers implementing a Sovereign instance. For a <code>Collective</code> to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
 
-Here's an example of a Collective expressed in [http://json.org JSON] format:
+Here's an example of a <code>Collective</code> expressed in [http://json.org JSON] format:
 
   "Collective": {
     "name": "Democracy Earth",
@@ -208,9 +208,13 @@ Here's an example of a Collective expressed in [http://json.org JSON] format:
     ]
   }
 
+====Member====
+
+A
+
 ====Contract====
 
-A Collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network. A contract in its most basic form requires these elements:
+A <code>Collective</code> consists of a collection of <code>Contracts</code> that describe a decision to be made by the organization. Any <code>member</code> of a <code>Collective</code> can draft a <code>contract</code> in a similar way anyone can post content in a social network. A <code>contract</code> in its most basic form has this properties:
 
 * '''Title''': Overall description of the decision to be made.
 * '''Tags''': Categories that describe this decision within the collective. This helps member navigation across decisions and also sets the domain of delegations under liquid democracies.
