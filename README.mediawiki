@@ -135,7 +135,9 @@ In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org
 
 ===3.1 Auditing.===
 
-The advantages of democracies under decentralized networks are many and fundamental to its historical purpose. But it is important to notice the limitations democracies face in centralized environments in the first place. In our experience implementing digital voting systems for decisions of Partido de la Red we detected that if the election is high-stakes (all or most members have a biased  interest in the outcome), the likelihood of the system being corrupted increases.  The biggest risk lies in those who are responsible in controlling server and database integrity. We have found on [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] held in early 2017 discrepancies between information reported by database auditors and the logs voters kept in their local machines. Date manipulation in vote emission, erased records and sudden ban of registered accounts where proven and denounced leading to a generalized perception of fraud in the whole process. Offline techniques such as ''adversarial counting'' are used in traditional elections when the outcome is close to a tie, having authorities of all involved parties audit a manual vote count. But if an election happens within a large population ''adversarial counting'' reduces the cost to subvert it by having an attacker only needing to bribe a few authorities from a competing party to secure a result.
+The advantages of democracies under decentralized networks are many and fundamental to its historical purpose. But it is important to notice the limitations democracies face in centralized environments in the first place. In our experience implementing digital voting systems for decisions of Partido de la Red we detected that if the election is high-stakes (all or most members have a biased  interest in the outcome), the likelihood of the system being corrupted increases.  The biggest risk lies in those who are responsible in controlling server and database integrity. We have found on [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] held in early 2017 discrepancies between information reported by database auditors and the logs voters kept in their local machines. Date manipulation in vote emission, erased records and sudden ban of registered accounts where proven and denounced leading to a generalized perception of fraud in the whole process.
+
+Offline techniques such as ''adversarial counting'' are used in traditional elections when the outcome is close to a tie, having authorities of all involved parties audit a manual vote count. But if an election happens within a large population ''adversarial counting'' reduces the cost to subvert it by having an attacker only needing to bribe a few authorities from a competing party to secure a result.
 
 [[File:/images/blockchain-permissionless-audit-voting.png|Blockchain democracies enable permissionless audits.]]
 
@@ -155,9 +157,9 @@ The blockchain backend of [http://sovereign.software Sovereign] consists of a se
 
 ====Collective====
 
-The entity or institution running the servers implementing a Sovereign instance. For a <code>Collective</code> to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
+The entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
 
-Here's an example of a <code>Collective</code> expressed in [http://json.org JSON] format:
+Here's an example of a collective expressed in [http://json.org JSON] format:
 
   "Collective": {
     "name": "Democracy Earth",
@@ -210,16 +212,16 @@ Here's an example of a <code>Collective</code> expressed in [http://json.org JSO
 
 ====Member====
 
-A
+Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials, while others might require an approval of pre-existing members that might request a certain criteria to be met. The trust on the voting outcomes of a collective largely depend on how well the membership criteria is established and moderated by the community. 
 
 ====Contract====
 
-A <code>Collective</code> consists of a collection of <code>Contracts</code> that describe a decision to be made by the organization. Any <code>member</code> of a <code>Collective</code> can draft a <code>contract</code> in a similar way anyone can post content in a social network. A <code>contract</code> in its most basic form has this properties:
+A collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network. A contract in its most basic form has this properties:
 
 * '''Title''': Overall description of the decision to be made.
 * '''Tags''': Categories that describe this decision within the collective. This helps member navigation across decisions and also sets the domain of delegations under liquid democracies.
 * '''Signatures''': Authors of this proposal. It can remain anonymous if a collective's governance rules allows it.
-* '''Ballot''': The presented options for voters to participate on this decision. (See next bullet).
+* '''Ballot''': The presented options for voters to participate on this decision.
 * '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if decision is voted in support.
 
 ====Ballot====
