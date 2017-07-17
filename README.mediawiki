@@ -152,9 +152,9 @@ A token granting participation rights has voting as its main function hence we w
 
 ===3.3 Sovereign.===
 
-The development of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main objects on a Sovereign organization consist of:
+The development of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main objects of a Sovereign organization consist of:
 
-* '''Collective''': Usually the entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how this will be allocated to its members. The conditions for right allocation is a prerogative of the organization depending on its goals. In some cases it can be aligned with financial rights (e.g. the shareholders of a corporation); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction). Here's an example of a Collective in JSON format:
+* '''Collectives''': Usually the entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals. In some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs). Here's an example of a Collective expressed in JSON format:
 
   "Collective": {
     "name": "Democracy Earth",
@@ -166,7 +166,6 @@ The development of [http://sovereign.software Sovereign] consists of a set of sm
       }
     ],
     "createdAt": "January 12, 2015",
-
     "profile": {
       "website": "https://democracy.earth",
       "bio": "A planetary commons of peers.",
