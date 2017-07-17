@@ -217,8 +217,6 @@ The blockchain backend of [http://sovereign.software Sovereign] consists of a se
 ** '''Signatures''': Authors of this proposal. It can remain anonymous if a collective's governance rules allows it.
 
 
-[[File:/images/sovereign-mobile.png|Contract editor (desktop version).]]
-
 * '''Ballot'''
 
 ===3.3 Decisions.===
