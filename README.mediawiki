@@ -149,66 +149,15 @@ What differentiates a vote from money (or in broader terms: a ''political econom
 
 Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution. A token granting participation rights has voting as its main function hence we will brand our token simply as VOTE. The VOTE token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be detected. Nonetheless  we will develop and implement the first version of the VOTE token using [http://ethereum.org Ethereum] and take necessary steps to make our code compatible with emergent environments such as [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
-In terms of UX, we have created [http://sovereign.software Sovereign]: a web and mobile application that is able to operate with blockchain voting tokens. It has been developed using [http://nodejs.org Node.js] in consideration of javascript being a language able to run on any kind of computing machine. We will use the framework provided by this development to help describe how VOTE tokens can help communities be governed.
+In terms of UX, we have created [http://sovereign.software Sovereign]: a web and mobile application that is able to operate with blockchain voting tokens. It has been developed using [http://nodejs.org Node.js] considering javascript a language able to run on any kind of computing machine and with the greatest support from the open source community. We will use the framework provided by this development to help describe how VOTE tokens can help communities be governed.
 
 ===3.3 Sovereign.===
 
-The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main contracts constituting a Sovereign organization consist of <code>Collective</code>, <code>Members</code>, <code>Contracts</code> and <code>Ballots</code>.
+The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main contracts constituting a Sovereign organization consist of <code>Collectives</code>, <code>Members</code>, <code>Contracts</code> and <code>Ballots</code>.
 
 ====Collective====
 
 The entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
-
-Here's an example of a collective expressed in [http://json.org JSON] format:
-
-  "Collective": {
-    "name": "Democracy Earth",
-    "domain": "https://democracy.earth",
-    "emails": [
-      {
-        "address": "hello@democracy.earth",
-        "verified": true
-      }
-    ],
-    "createdAt": "January 12, 2015",
-    "profile": {
-      "website": "https://democracy.earth",
-      "bio": "A planetary commons of peers.",
-      "blockchain": {
-        "address": "0",
-        "coin": "VOTE"
-      },
-      "logo": "images/democracy-earth.png",
-      "jurisdiction": {
-        "legal": {
-            "taxId": "37-1776296",
-            "name": "Democracy Earth Foundation",
-            "type": "Non-Profit 501(c)3"
-        },
-        "location": {
-          "address": "Anywhere you find an Earth Flag",
-          "state": "New York",
-          "country": {
-            "name": "United States of America",
-            "code": "US"
-          }
-        }
-      },
-      "foundation": "January 12, 2015",
-      "wallet": {
-        "available": 21000000,
-        "balance": 21000000,
-        "placed": 0,
-        "transactions": []
-      }
-    },
-    "goal": "Free",
-    "authorities": [
-      {
-          "userId": "0"
-      }
-    ]
-  }
 
 ====Member====
 
@@ -230,7 +179,7 @@ A contract can be implemented with any possible ballot design and a counting pro
 
 * '''Single Choice''': One selectable options.
 * '''Multiple Choice''': One or more selectable options.
-* '''[https://en.wikipedia.org/wiki/Ranked_voting ''Ranked Choice'']''': Sortable option as ranked preferences.
+* '''[https://en.wikipedia.org/wiki/Ranked_voting Ranked Choice]''': Sortable option as ranked preferences.
 
 In order to enable the information processing of the VOTE tokens, the options present on a ballot attached to a voting transaction have specific types. This lets VOTE transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. Hence ballot options can be:
 
@@ -250,13 +199,13 @@ Finally, counting methods for the final result of a decision within a collective
 * '''Plurality Voting''': Simple majority wins decision.
 * '''Majority Voting''': A minimum percentage is required for winning decision.
 * '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on party lists.
-* '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Ccommonly used by open source communities and Pirate Parties using ranked choice.
+* '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice.
 
 Customized conditions can be set with smart contracts that enforce a decision by unlocking coins if a result is met (i.e. reaching a certain amount of VOTEs on a specific blockchain address triggers a cryptocurrency transfer to allocate budget for approved action).
 
 ===3.4 Risks.===
 
-For VOTEs to be trusted tokens, the system must be protected against the two main  subversive strategies that democracies deal with:
+For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
 
 # '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for a token to be activated it must get validated through a protocol (social and algorithmic) that works as '''''Proof of Identity''''' (addressed on section 3.5).
 
