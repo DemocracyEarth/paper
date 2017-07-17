@@ -151,7 +151,7 @@ In terms of UX, we have created [http://sovereign.software Sovereign]: a web and
 
 ===3.3 Sovereign.===
 
-The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main objects of a Sovereign organization consist of:
+The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main contracts of a Sovereign organization consist of ''Collectives'', ''Members'', ''Contracts'' and ''Ballots''.
 
 ====Collective====
 
