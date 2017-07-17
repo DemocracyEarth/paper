@@ -35,7 +35,7 @@ Democratic processes seen during high-stakes elections are often prone to fraudu
 
 This paper proposes a solution that will tackle both, the political and technical issues currently weakening the prospects of democracy in the world by offering an alternative that can be adopted directly by citizens and implemented using peer to peer networks. As the internet becomes the dominant force in modern politics we see an indispensable need to develop digital technology for voting that can be securely deployed in any geographical location and for communities of any size.
 
-With internet growth [http://www.bbc.com/news/technology-32884867 reaching over 3 billion lives] (far surpassing major religions and Nation-States) and the development of encrypted networks known as blockchains permitting incorruptible transactions with permissionless audits, there’s no reason stopping mankind from building a borderless commons that can help shape the next evolutionary leap for democratic governance. Even in regions where internet penetration is below 50%, the digital gap is not based on socio-economic factors but it is rather a generational divide. According to Rick Falkvinge, founder of the Pirate Party: “Politics moves at glacial speeds: nothing seems to happen until suddenly a strenduous noise gets everyone's attention. Change is driven by new generations and today we live in a world that has the offline generation in charge and the online generation growing up”.
+With internet growth [http://www.bbc.com/news/technology-32884867 reaching over 3 billion lives] (far surpassing major religions and Nation-States) and the development of encrypted networks known as blockchains permitting incorruptible transactions with permissionless audits, there’s no reason stopping mankind from building a borderless commons that can help shape the next evolutionary leap for democratic governance. Even in regions where internet penetration is below 50%, the digital gap is not based on socio-economic factors but it is rather a generational divide. According to Rick Falkvinge, founder of the [https://en.wikipedia.org/wiki/Pirate_Party Pirate Party]: “Politics moves at glacial speeds: nothing seems to happen until suddenly a strenduous noise gets everyone's attention. Change is driven by new generations and today we live in a world that has the offline generation in charge and the online generation growing up”.
 
 In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to limited territories, new forms of governance must acknowledge the networked commons connecting humanity and progressively weakening the legacy of national frontiers unable to address pressing issues such as climate change, rising inequality, terrorism, automation and migrations. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments led to the rise of these issues in the global agenda. We believe the technology stack that includes [http://bitcoin.com/bitcoin.pdf Bitcoin] as programmable money without Central Banks and [http://ethdocs.org/en/latest/index.html Ethereum] enabling smart contracts without the need of Judiciary Courts requires a third layer that signals incorruptible votes beyond the boundaries of Nation-States. This transnational network will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
@@ -117,7 +117,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-==3. Decentralization.==
+==3. Voting.==
 
 An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
 
@@ -133,7 +133,7 @@ Additionally, due to the risk that coercion through physical violence or threats
 
 In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to [http://twitter.com/balajis Balaji Srinivasan], an [http://twitter.com/a16z Andreessen-Horowitz] partner. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
 
-===3.1 Permissionless.===
+===3.1 Auditing.===
 
 The advantages of democracies under decentralized networks are many and fundamental to its historical purpose. In our experience implementing digital voting systems for decisions of Partido de la Red we detected that if the election is high-stakes (all or most members have a biased  interest in the outcome), the likelihood of the system being corrupted increases.  The biggest risk lies in those who are responsible in controlling server and database integrity. We have found on [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] held in early 2017 discrepancies between information reported by database auditors and the logs voters kept in their local machines. Date manipulation in vote emission, erased records and sudden ban of registered accounts where proven and denounced leading to a generalized perception of fraud in the whole process. Offline techniques such as ''adversarial counting'' are used in traditional elections when the outcome is close to a tie, having authorities of all involved parties audit a manual vote count. But if an election happens within a large population ''adversarial counting'' reduces the cost to subvert it by having an attacker only needing to bribe a few authorities from a competing party to secure a result.
 
@@ -143,15 +143,78 @@ Centralization of resources is the single point of failure in elections and is i
 
 ===3.2 Token.===
 
-Our design is based on modeling voting rights with transactional blockchain tokens. What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Hence rather than a ''coin offering'' we will model our token allocation process as a ''rights offering''.
+What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Hence rather than a ''coin offering'' we will model our token allocation process as a ''rights offering''.
 
-Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution. The conditions for right allocation can be set by the pre-established rules of an organization: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction).
+Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution.
 
-A token granting participation rights has voting as its main function hence we will brand our token simply as VOTE. The VOTE token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be detected. Nonetheless  we will develop and implement the first version of the VOTE token using [http://ethereum.org Ethereum] and take necessary steps to make our code compatible with emergent environments such as [http://www.rsk.co/ RSK’s bitcoin smart contract interpreter].
+A token granting participation rights has voting as its main function hence we will brand our token simply as VOTE. The VOTE token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be detected. Nonetheless  we will develop and implement the first version of the VOTE token using [http://ethereum.org Ethereum] and take necessary steps to make our code compatible with emergent environments such as [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
-===3.3 State.===
 
-A VOTE can be implemented with any possible ballot design and counting procedure. In elections ballots can be ''single choice'', ''multiple choice'', [https://en.wikipedia.org/wiki/Ranked_voting ''ranked choice''] among many other designs. Counting methods may include the [https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method] (widely used by Nation-State elections) or the [https://en.wikipedia.org/wiki/Schulze_method Schülze method]  (commonly used by open source communities and Pirate Parties), depending on the chosen ballot design. In order to enable the information processing of the token, a VOTE transaction can signal a decision state from the voter that will act as a force modeling the institutional choices for the implementing organization. A VOTE transaction can then be a:
+===3.3 Sovereign.===
+
+The development of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main objects on a Sovereign organization consist of:
+
+* '''Collective''': Usually the entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how this will be allocated to its members. The conditions for right allocation is a prerogative of the organization depending on its goals. In some cases it can be aligned with financial rights (e.g. the shareholders of a corporation); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction). Here's an example of a Collective in JSON format:
+
+  "Collective": {
+    "name": "Democracy Earth",
+    "domain": "https://democracy.earth",
+    "emails": [
+      {
+        "address": "hello@democracy.earth",
+        "verified": true
+      }
+    ],
+    "createdAt": "January 12, 2015",
+
+    "profile": {
+      "website": "https://democracy.earth",
+      "bio": "A planetary commons of peers.",
+      "blockchain": {
+        "address": "0",
+        "coin": "VOTE"
+      },
+      "logo": "images/democracy-earth.png",
+      "jurisdiction": {
+        "legal": {
+            "taxId": "37-1776296",
+            "name": "Democracy Earth Foundation",
+            "type": "Non-Profit 501(c)3"
+        },
+        "location": {
+          "address": "Anywhere you find an Earth Flag",
+          "state": "New York",
+          "country": {
+            "name": "United States of America",
+            "code": "US"
+          }
+        }
+      },
+      "foundation": "January 12, 2015",
+      "wallet": {
+        "available": 21000000,
+        "balance": 21000000,
+        "placed": 0,
+        "transactions": []
+      }
+    },
+    "goal": "Free",
+    "authorities": [
+      {
+          "userId": "0"
+      }
+    ]
+  }
+
+* '''Contract'''
+
+* '''Ballot'''
+
+===3.3 Decisions.===
+
+A VOTE can be implemented with any possible ballot design and counting procedure. In elections ballots can be ''single choice'', ''multiple choice'', [https://en.wikipedia.org/wiki/Ranked_voting ''ranked choice''] among many other designs. Counting methods may include the [https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method] (widely used by Nation-State elections) or the [https://en.wikipedia.org/wiki/Schulze_method Schülze method]  (commonly used by open source communities and Pirate Parties), depending on the chosen ballot design.
+
+In order to enable the information processing of the token, a VOTE transaction can signal a decision state from the voter that will act as a force modeling the institutional choices for the implementing organization. A VOTE transaction can then be a:
 
 * '''True Statement''': the VOTE is sent in approval of the attached ballot or in specific support to the interests related to a receiving address.
 
