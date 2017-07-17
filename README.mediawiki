@@ -206,7 +206,16 @@ The blockchain backend of [http://sovereign.software Sovereign] consists of a se
     ]
   }
 
-* '''Contract''': A Collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network.
+* '''Contract''': A Collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network. A contract requires the following components:
+
+** '''Title''': Overall description of the decision to be made.
+
+** '''Description''': A detailed account of the decision (e.g. a legislative project in detail).
+
+** '''Tags''': Categories that describe this decision within the collective. This helps member navigation across decisions and also sets the domain of delegations under liquid democracies.
+
+** '''Signatures''': Authors of this proposal. It can remain anonymous if a collective's governance rules allows it.
+
 
 [[File:/images/contract-editor.png|Contract editor (desktop version).]]
 
