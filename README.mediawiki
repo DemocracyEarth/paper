@@ -155,15 +155,15 @@ In terms of UX, we have created [http://sovereign.software Sovereign]: a web and
 
 The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main contracts constituting a Sovereign organization consist of <code>Collectives</code>, <code>Members</code>, <code>Contracts</code> and <code>Ballots</code>.
 
-====Collective====
+====Collective.====
 
 The entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
 
-====Member====
+====Member.====
 
 Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials, while others might require an approval of pre-existing members that can request a certain criteria to be met or vote on the status of an applicant as member. The trust on the voted decisions of a collective largely depend on how well the membership criteria is established and moderated by the community.
 
-====Contract====
+====Contract.====
 
 A collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network. A contract in its most basic form has this properties:
 
@@ -173,7 +173,7 @@ A collective consists of a collection of contracts that describe a decision to b
 * '''Ballot''': The presented options for voters to participate on this decision.
 * '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
 
-====Ballot====
+====Ballot.====
 
 A contract can be implemented with any possible ballot design and a counting procedure established by the ''constitutional smart contract'' of the collective. In elections ballots can be:
 
@@ -203,15 +203,7 @@ Finally, counting methods for the final result of a decision within a collective
 
 Customized conditions can be set with smart contracts that enforce a decision by unlocking coins if a result is met (i.e. reaching a certain amount of VOTEs on a specific blockchain address triggers a cryptocurrency transfer to allocate budget for approved action).
 
-===3.4 Risks.===
-
-For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
-
-# '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for a token to be activated it must get validated through a protocol (social and algorithmic) that works as '''''Proof of Identity''''' (addressed on section 3.5).
-
-# '''Gossip Dissemination''' (a. k. a. ''fake news''): It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store '''''Hard Promises''''' (addressed on section 3.6).
-
-===3.5 Scarcity.===
+===3.4 Scarcity.===
 
 [[File:/images/humans.png|Humans on Earth.]]
 
@@ -226,7 +218,6 @@ We will issue an initial setup of 7,500,000,000 VOTEs, setting the golden rule: 
 By connecting every VOTE to a living person, every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy. A VOTE’s ''Market Capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Collective Welfare], and the value of a single VOTE will become a unit reflecting the purchasing power of an individual if an even distribution of the token was ever to be reached. The Democracy Earth Foundation will keep track of the token distribution within each nation, making it a reliable metric for the penetration of digital and decentralized democracy in populations living under a common set of cultural and genetic values.
 
 It must be noted that even if we remain skeptical about the chances of Nation-States for planetary governance, this does not mean we don’t acknowledge the traditions and values binding the people of a nation together. In the same way blood ties evolved to signal identification of a family considering the widespread use of surnames attached to given names; territorial ties (nationality) is likely to become a third name among global citizens.
-
 
 ===3.6 Utility.===
 
@@ -248,7 +239,11 @@ With those three states in place, the VOTE token will operate as a political and
 
 ==4. Politics.==
 
-  PENDING.
+For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
+
+# '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for a token to be activated it must get validated through a protocol (social and algorithmic) that works as '''''Proof of Identity''''' (addressed on section 3.5).
+
+# '''Gossip Dissemination''' (a. k. a. ''fake news''): It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store '''''Hard Promises''''' (addressed on section 3.6).
 
 ===4.1 Proof of Identity.===
 
