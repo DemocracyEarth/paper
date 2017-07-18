@@ -261,9 +261,13 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
   VOTE must be:
   
 VALUED (constantly) representing power and cost
+
 DIVISIBLE (fixed) at two decimals or 100 CASTs
+
 GRANTED (initially, upon sign-up) fairly and broadly
+
 DRIPPED (daily) providing constant LIQUIDITY
+
 EARNED (at will) participating in organization(s)
 
 VALUE
