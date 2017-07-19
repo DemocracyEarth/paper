@@ -15,7 +15,11 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 ==Abstract.==
 
-The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires to build a new model that makes the existing model obsolete. On this paper we propose how to organize society and eradicate the corruption of traditional governments by connecting public resources to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized government with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
+The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires building a new model that makes the existing model obsolete. 
+
+In this 'white paper' we propose how to organize society and eradicate the corruption of traditional governments by connecting the public  to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. 
+
+We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized network with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
 
 
 ==1. Introduction.==
