@@ -153,15 +153,31 @@ In terms of UX, we have created [http://sovereign.software Sovereign]: a web and
 
 ===3.3 Sovereign.===
 
-The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. The main contracts constituting a Sovereign organization consist of <code>Collectives</code>, <code>Members</code>, <code>Contracts</code> and <code>Ballots</code>.
+The blockchain backend of [http://sovereign.software Sovereign] consists of a set of smart contracts that build the basic components for the governance of a decentralized organization. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components help establish the boundaries of a decision processing machine enabling any organization using these to become accountable to its members (and if public, to everyone).
 
-====Collective.====
+Corporations and public institutions are prone to corrupt behaviour because decisions often happen in secrecy behind closed doors. When problems arise, ''decision laundering'' is a common practice aiming to accommodate facts after consequences. Digital organizations that operate with distributed teams, using virtual environments, contributing ideas with open source methods have the advangtage of documenting their work throughout their whole process. In this sense, the open source movement has innovated on how can large groups can collaborate online but often relied on the voluntary contributions from those who support a project, lacked the means to reward efforts and governance depended on a ''benevolent dictator'' able to call the shots. With Sovereign we are aiming to provide a missing component by presenting a lightweight governance framework that permits all stakeholders of an organization participate in the decision process and enforce these through the use of smart contracts and cryptocurrency. Attempts at this have been modeled in the past: ''Distributed Autonomous Organizations'' (''DAO'') is a common concept within the blockchain communities.
 
-The entity or institution running the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
+The main contracts constituting a Sovereign organization consist of <code>Collectives</code>, <code>Members</code>, <code>Contracts</code> and <code>Ballots</code>.
+
+====3.3.1 Collective.====
+
+The entity or institution ru  nning the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with VOTEs. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one VOTE per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of VOTEs).
+
+=====Constitution=====
 
 ====Member.====
 
 Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials, while others might require an approval of pre-existing members that can request a certain criteria to be met or vote on the status of an applicant as member. The trust on the voted decisions of a collective largely depend on how well the membership criteria is established and moderated by the community.
+
+The smart contract driving VOTEs will signal for every token three states aimed at satisfying the voting use cases for all kinds of organizations and providing the means to guarantee trust of a VOTE’s core function. Every VOTE token can then be:
+
+* '''Anonymous''': The token can be traded at market value and used for voting purposes if no identity is required for an organization implementing its use. Corporations and private institutions (often referred as ''Anonymous Societies'' in most jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets. As its detailed on section 3.7, VOTEs are designed for liquid democracies and can be used by organization’s as small as two people.
+
+* '''Identified''': The rights to a VOTE can be obtained without a monetary transaction by means of a ''Proof of Identity'' (detailed in section 3.5). A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified VOTE'' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the VOTE economy. If a VOTE has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
+
+* '''Corrupted''': Aware that attacks from adversaries aiming to subvert VOTE tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified VOTE'' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
+
+With those three states in place, the VOTE token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
 ====Contract.====
 
@@ -221,15 +237,7 @@ It must be noted that even if we remain skeptical about the chances of Nation-St
 
 ===3.6 Utility.===
 
-The smart contract driving VOTEs will signal for every token three states aimed at satisfying the voting use cases for all kinds of organizations and providing the means to guarantee trust of a VOTE’s core function. Every VOTE token can then be:
 
-* '''Anonymous''': The token can be traded at market value and used for voting purposes if no identity is required for an organization implementing its use. Corporations and private institutions (often referred as ''Anonymous Societies'' in most jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets. As its detailed on section 3.7, VOTEs are designed for liquid democracies and can be used by organization’s as small as two people.
-
-* '''Identified''': The rights to a VOTE can be obtained without a monetary transaction by means of a ''Proof of Identity'' (detailed in section 3.5). A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified VOTE'' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the VOTE economy. If a VOTE has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
-
-* '''Corrupted''': Aware that attacks from adversaries aiming to subvert VOTE tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified VOTE'' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
-
-With those three states in place, the VOTE token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
 ===3.7 Divisibility.===
 
