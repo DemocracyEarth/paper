@@ -15,11 +15,25 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 ==Abstract.==
 
-The lack of contemporaneous political systems able to address citizens’ needs without corrupted mechanisms requires building a new model that makes the existing model obsolete. 
-
-In this 'white paper' we propose how to organize society and eradicate the corruption of traditional governments by connecting the public  to a democratic system using smart contracts. As humanity approaches Earth’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] with an expected population of 10 billion by 2100 we see indispensable the creation of a blockchain based organization for planetary governance that can guarantee preservation of life and natural resources in an age where [https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310 intelligence is breaking apart from organisms]. 
-
-We detail how to build a blockchain based democracy on a networked commons enforceable with encryption and we offer a path to fund this decentralized network with a rights offering mechanism (analogous to Initial Coin Offerings) that will use its assets to strengthen the political role of the internet across all jurisdictions.
+In an age of climate change and artificial intelligence, at a time when most people will be
+ connected to the new global jurisdiction that is the Internet, we need to build new models of
+ governance: new ways to deliberate, discuss and vote that are safe, regular and truly democratic,
+ new ways able to involve and engage all human beings.
+ 
+ Democracy Earth Foundation, a non-profit organization started in Argentina and now based in the
+ United State, is building free, open source software for incorruptible, blockchain-based identity,
+ voting and governance—governance that can happen within institutions of all sizes, from the
+ most local involving two people to the most global involving all of us.
+ 
+ In our Initial Rights Offering, Democracy Earth Foundation will offer our token, called VOTE, that
+ will grant participation rights to every human, with voting as its main function.
+ 
+ We envision our software (incorruptible governance beyond the borders of nation states) as a
+ complement to Bitcoin (programmable money beyond central banks) and Ethereum (smart
+ contracts beyond judicial courts).
+ 
+ We seek nothing less than true democractic governance for the Internet age, one of the
+ foundational building blocks that will change what it means to be human on planet Earth.
 
 
 ==1. Introduction.==
