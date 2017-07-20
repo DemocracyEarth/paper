@@ -320,46 +320,7 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 ==5. Economics.==
 
-  VOTE must be:
-  
-VALUED (constantly) representing power and cost
 
-DIVISIBLE (fixed) at two decimals or 100 CASTs
-
-GRANTED (initially, upon sign-up) fairly and broadly
-
-DRIPPED (daily) providing constant LIQUIDITY
-
-EARNED (at will) participating in organization(s)
-
-VALUE
-VOTEs are power; power is valuable. Therefore, we must place a specific value on VOTEs ...and then let the free markets of society determine ultimate value. 
-1 VOTE = $7.25
-
-DIVISIBILITY
-Because VOTEs are tokens, divisibility is possible and 1 VOTE can therefore represent more than one opinion or ‘CAST’.
-1 VOTE = 100 CASTS
-1 CAST = $0.0725 [7.25¢]
-
-GRANT
-Because a VOTE represents power, and the world has placed value on experience and wisdom, DEF has formulated the INITIAL GRANT quantity in terms of AGE:
-GRANT = IF(AGE<18,AGE*200,AGE*200+1800)
-Yes, older people will be granted more VOTEs, younger less. In many societies, voting is limited by age > 18, however, in many cases, society desires the ability to allow younger members to officially vote or to at least record a position. Some example GRANTS of representative AGEs:
-
-AGE 1: 200  [$1,450]
-AGE 12: 2,400  [$17,400]
-AGE 18: 5,400  [$39,150]
-AGE 50: 11,800  [$85,550]
-AGE 65: 14,800  [$107,300]
-
-DRIP
-Because voting is a 'basic right' and ongoing, voting tokens must drip on a daily basis to establish broad liquidity - an integral element of free will expression. Therefore, VOTEs will DRIP on a daily basis at the rate:
-
-DRIP = 0.55 VOTES  [~$4]
-
-EARNED
-Liquid Democracy enables the movement of power. To get a VOTE (or CAST) from the ORG, one must earn the delegation.
-.
 
 ===5.1 Basic Income.===
 
