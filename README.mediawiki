@@ -115,7 +115,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-==2. ''VOTE''.==
+==2.VOTE.==
 
 An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
 
@@ -131,7 +131,7 @@ Additionally, due to the risk that coercion through physical violence or threats
 
 In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to [http://twitter.com/balajis Balaji Srinivasan], an [http://twitter.com/a16z Andreessen-Horowitz] partner. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
 
-===2.1 Auditing.===
+===2.1 Decentralization===
 
 The advantages of democracies under decentralized networks are many and fundamental to its historical purpose. But it is important to notice the limitations democracies face in centralized environments in the first place. In our experience implementing digital voting systems for decisions of Partido de la Red we detected that if the election is high-stakes (all or most members have a biased  interest in the outcome), the likelihood of the system being corrupted increases.  The biggest risk lies in those who are responsible in controlling server and database integrity. We have found on [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] held in early 2017 discrepancies between information reported by database auditors and the logs voters kept in their local machines. Date manipulation in vote emission, erased records and sudden ban of registered accounts where proven and denounced leading to a generalized perception of fraud in the whole process.
 
@@ -141,7 +141,7 @@ Offline techniques such as ''adversarial counting'' are used in traditional elec
 
 Centralization of resources is the single point of failure in elections and is incompatible with democracy. Blockchains increase the defense of voting systems by enabling a shared resource that has scorekeeping as its main function while avoiding the need for central authority. This permits unprecedented designs of electoral systems: with a blockchain-based democracy every single voter can audit the votes without requiring any kind of access rights to specific infrastructure. By storing vote data in a blockchain rather than in private servers or ballot boxes, audit costs become abstracted and are turned into a guaranteed right for every actor. Voters are not just mere participants but also sovereign gatekeepers of the whole process. Every single one of them. This kind of transparency cannot be delivered by traditional electoral systems, analog or electronic.
 
-===2.2 Corruption.===
+====2.1.1 Corruption.====
 <blockquote>
   Do you know what politics is? What you say and do in a given point in time.
 </blockquote>
@@ -153,13 +153,13 @@ Digital organizations that operate with distributed teams, in virtual environmen
 
 With [http://sovereign.software Sovereign] we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components help establish the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members and if public, to everyone.
 
-===2.2 DAOs.===
+====2.1.2 Corruption.====
 
 Previous attempts at building decentralized organizations have been attempted in the past. ''Distributed Autonomous Organizations'' (or DAOs) aim to be blockchain entities constructed with smart contracts that entirely automate decision processes and run without any kind of human oversight. The code itself is meant to be the ultimate arbiter, hence these organizations claim that ''code is law'' making everything executed by pre-established code running on blockchains. But experience has taught that also ''bugs are law'': when German company [http://slock.it Slock.it] implemented [http://www.coindesk.com/understanding-dao-hack-journalists/ the largest crowdfunded DAO in May 2016 able to raise over USD 100 million], a hacker exploited the code using a security hole in the smart contract controlling all funds triggering a recursive call that leaked USD 55 million worth of ether from this DAO.
 
 We believe there is a clear lesson to be learnt from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries on the head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines by default and it is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is a sovereign instrument that empower decision processes taking all interested parties into account. For this purpose we believe its fundamental to model a standard voting token that can operate with any blockchain based system.
 
-===2.3 Token.===
+===2.2 Token.===
 
 What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution. A token granting participation rights has voting as its main function hence we will brand our token simply as ''VOTE''.
 
