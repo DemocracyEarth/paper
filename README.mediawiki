@@ -169,9 +169,9 @@ In terms of UX [http://sovereign.software Sovereign] provides an adaptive web an
 
 ====2.2.1 Contracts.====
 
-The modern architecture of computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. Digital technology prevailed as the generation running telecommunication companies under analogue technologies died out. As blockchains emerge in the center of digital evolution, the impact won't be strictly limited to information and communication but it will transform the institutional layer of society. With this in mind we focused on building an efficient design for a governance technology able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. These model is meant to be flexible and
+The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. As blockchains emerge in the center of digital evolution, the impact won't be strictly limited to information and communication but it will transform the institutional layer of society. With this in mind we focused on building an efficient design for a governance technology able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. Simplicity in the design and language used to express it also matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite.
 
-''VOTE'' tokens operate in the context of a Sovereign organization that demarcates its institutional boundaries under these smart contracts: <code>Collectives</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a scalable liquid democracy.
+''VOTE'' tokens operate in the context of a Sovereign organization that demarcates its institutional boundaries under these smart contracts: <code>Collectives</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
 ====2.2.2 Collective.====
 
@@ -181,15 +181,7 @@ The entity or institution implementing a Sovereign instance is referred as a ''C
 
 Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
 
-A strict control in the membership criteria of a collective is key for the guaranteed trust on any democratic process. Among the most common ways to subvert an election has to do with manipulation of the voter registry. Securing this aspect with cryptographic means and an agreed membership approval process is critical. Once a member is approved within a collective, gets a specific amount of ''VOTEs'' allocated to him or her that can be used for the governance of a collective. The members may interact with the collective executing ''VOTE'' transactions under different modes:
-
-* '''Anonymous''': Corporations and private institutions (often referred as ''Anonymous Societies'' in many jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets.
-
-* '''Identified''': The rights to a ''VOTE'' can be obtained without a monetary transaction by means of a ''Proof of Identity'' (detailed in section 3.5). A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified ''VOTE'''' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the ''VOTE'' economy. If a ''VOTE'' has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
-
-* '''Corrupted''': Aware that attacks from adversaries aiming to subvert ''VOTE'' tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified ''VOTE'''' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
-
-With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
+A strict control in the membership criteria of a collective is key for the trust on any democratic process. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means and a approval protocol is critical. Once a member is approved within a collective, he or she gets a specific amount of ''VOTEs'' allocated to be used for the governance of a collective.
 
 ====2.2.4 Decisions.====
 
@@ -313,9 +305,17 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 ----
 
-==4. Economics.==
+==4. Democracy Earth.==
 
-  PENDING.
+Members can interact with a collective using ''VOTE'' transactions under different modes:
+
+* '''Anonymous''': Corporations and private institutions (often referred as ''Anonymous Societies'' in many jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets and without the requirement of having an approved member signature attached to the transaction. Anonymous entities holding legitimate ''VOTEs'' can interact with a collective as long as the ''VOTEs'' have been granted by the collective's constitution.
+
+* '''Identified''': The rights to a ''VOTE'' can be obtained without a monetary transaction by means of a ''Proof of Identity''. A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified VOTE'' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the ''VOTE'' economy. If a ''VOTE'' has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
+
+* '''Corrupted''': Aware that attacks from adversaries aiming to subvert ''VOTE'' tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified VOTE'' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
+
+With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
 ===4.1 Basic Income.===
 
