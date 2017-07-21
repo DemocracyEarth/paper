@@ -131,6 +131,8 @@ Additionally, due to the risk that coercion through physical violence or threats
 
 In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to [http://twitter.com/balajis Balaji Srinivasan], an [http://twitter.com/a16z Andreessen-Horowitz] partner. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
 
+What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution. A token granting participation rights has voting as its main function hence we will brand our token simply as ''VOTE''.
+
 ===2.1 Decentralization===
 
 The advantages of democracies under decentralized networks are many and fundamental to its historical purpose. But it is important to notice the limitations democracies face in centralized environments in the first place. In our experience implementing digital voting systems for decisions of Partido de la Red we detected that if the election is high-stakes (all or most members have a biased  interest in the outcome), the likelihood of the system being corrupted increases.  The biggest risk lies in those who are responsible in controlling server and database integrity. We have found on [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] held in early 2017 discrepancies between information reported by database auditors and the logs voters kept in their local machines. Date manipulation in vote emission, erased records and sudden ban of registered accounts where proven and denounced leading to a generalized perception of fraud in the whole process.
@@ -161,31 +163,27 @@ We believe there is a clear lesson to be learnt from this: the need for governan
 
 ===2.2 Token.===
 
-What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights are not driven simply by holder self-interest but rather aim to satisfy overall legitimacy in the governance of an institution. A token granting participation rights has voting as its main function hence we will brand our token simply as ''VOTE''.
-
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be detected. Nonetheless we will develop and implement the first version of the ''VOTE'' token using [http://ethereum.org Ethereum] and take necessary steps to make our code compatible with emergent environments like [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
 In terms of UX [http://sovereign.software Sovereign] provides an adaptive web and mobile application that is able to operate with blockchain voting tokens. It has been developed using [http://nodejs.org Node.js] since javascript is a language that can run on any kind of computing machine and currently has the greatest support from the open source community. We will use the framework provided by this development to help describe how ''VOTE'' tokens can govern.
 
 ====2.2.1 Contracts.====
 
-The modern architecture of information technology designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. Digital technology prevailed as the generation running telecommunication companies using analogue technology died out. As blockchains emerge in the center of digital evolution, the impact won't be strictly limited to information and communication but it will fundamentally transform the institutional layer of society. With this in mind we focused on building an efficient design for a governance technology able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote.
+The modern architecture of computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. Digital technology prevailed as the generation running telecommunication companies under analogue technologies died out. As blockchains emerge in the center of digital evolution, the impact won't be strictly limited to information and communication but it will transform the institutional layer of society. With this in mind we focused on building an efficient design for a governance technology able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. These model is meant to be flexible and
 
-''VOTE'' tokens operate in the context of a Sovereign organization that demarcates its institutional boundaries under these smart contracts: <code>Collectives</code>, <code>Members</code>, <code>Contracts</code>, <code>Ballots</code> and <code>Budgets</code>.
+''VOTE'' tokens operate in the context of a Sovereign organization that demarcates its institutional boundaries under these smart contracts: <code>Collectives</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a scalable liquid democracy.
 
 ====2.2.2 Collective.====
 
-The entity or institution ru  nning the servers implementing a Sovereign instance. For a collective to be able to run with a blockchain, it must be funded with ''VOTE''s. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTE''s).
+The entity or institution implementing a Sovereign instance is referred as a ''Collective'' and it must be funded with ''VOTEs'' for its governance. Every collective has a ''constitutional smart contract'' able to receive the funds for the organization and determines how these will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTEs'').
 
-=====Constitution=====
+====2.2.3 Members.====
 
-====2.2.3 Collective.====
+Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
 
-Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials, while others might require an approval of pre-existing members that can request a certain criteria to be met or vote on the status of an applicant as member. The trust on the voted decisions of a collective largely depend on how well the membership criteria is established and moderated by the community.
+A strict control in the membership criteria of a collective is key for the guaranteed trust on any democratic process. Among the most common ways to subvert an election has to do with manipulation of the voter registry. Securing this aspect with cryptographic means and an agreed membership approval process is critical. Once a member is approved within a collective, gets a specific amount of ''VOTEs'' allocated to him or her that can be used for the governance of a collective. The members may interact with the collective executing ''VOTE'' transactions under different modes:
 
-The smart contract driving ''VOTE''s will signal for every token three states aimed at satisfying the voting use cases for all kinds of organizations and providing the means to guarantee trust of a ''VOTE''’s core function. Every ''VOTE'' token can then be:
-
-* '''Anonymous''': The token can be traded at market value and used for voting purposes if no identity is required for an organization implementing its use. Corporations and private institutions (often referred as ''Anonymous Societies'' in most jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets. As its detailed on section 3.7, ''VOTE''s are designed for liquid democracies and can be used by organization’s as small as two people.
+* '''Anonymous''': Corporations and private institutions (often referred as ''Anonymous Societies'' in many jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets.
 
 * '''Identified''': The rights to a ''VOTE'' can be obtained without a monetary transaction by means of a ''Proof of Identity'' (detailed in section 3.5). A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified ''VOTE'''' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the ''VOTE'' economy. If a ''VOTE'' has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
 
@@ -193,19 +191,19 @@ The smart contract driving ''VOTE''s will signal for every token three states ai
 
 With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
-====2.2.4 Contracts..====
+====2.2.4 Decisions.====
 
-A collective consists of a collection of contracts that describe a decision to be made by the organization. Any member of a collective can draft a contract in a similar way anyone can post content in a social network. A contract in its most basic form has this properties:
+A collective consists of a collection of contracts each describing a decision to be made by the organization. Any member of a collective can draft a decision in a similar way anyone can post content in a social network. A decision in its most basic form has this properties:
 
 * '''Title''': Overall description of the decision to be made.
-* '''Tags''': Categories that describe this decision within the collective. This helps member navigation across decisions and also sets the domain of delegations under liquid democracies.
+* '''Tags''': Categories that describe this decision within the collective. This helps member navigation across decisions and also sets the scope of delegations under liquid democracies.
 * '''Signatures''': Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
 * '''Ballot''': The presented options for voters to participate on this decision.
 * '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
 
 ====2.2.5 Ballot.====
 
-A contract can be implemented with any possible ballot design and a counting procedure established by the ''constitutional smart contract'' of the collective. In elections ballots can be:
+A decision can be implemented with any possible ballot design and a counting procedure established by the ''constitutional smart contract'' of the collective. Ballots can be:
 
 * '''Single Choice''': One selectable options.
 * '''Multiple Choice''': One or more selectable options.
@@ -214,24 +212,23 @@ A contract can be implemented with any possible ballot design and a counting pro
 In order to enable the information processing of the ''VOTE'' tokens, the options present on a ballot attached to a voting transaction have specific types. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. Hence ballot options can be:
 
 * '''True''': The option may carry different labels (e.g. 'Yes', 'Positive'), but it will signal a <code>true</code> boolean value if selected.
-* '''False''': Oppositive to true statements, these are <code>false</code> boolean ballots and can also be labeled in different ways (e.g. 'No', 'Negative').
+* '''False''': These are <code>false</code> boolean ballots and can also be labeled in different ways (e.g. 'No', 'Negative').
 * '''Linked''': The option is connected to another contract carrying a specific decision.
-* '''String''': The option is neither <code>true</code> or <code>false</code> but simply a textual preference.
 
 For the final tally, a contract's ballot must also set its scope in time and define the kind of decision being made:
 
-* '''Tactical''' (''Time limited polls''): These are contracts that receive ''VOTE''s until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contract can be set as the end line for the electoral process. Once the transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
+* '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contract can be set as the end line for the electoral process. Once the transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
 
-* '''Strategical''' (''Time unlimited polls''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTE''s can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision.
+* '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision.
 
-Finally, counting methods for the final result of a decision within a collective may include:
+Finally, counting methods for the final or ongoing result of a decision within a collective may include:
 
 * '''Plurality Voting''': Simple majority wins decision.
 * '''Majority Voting''': A minimum percentage is required for winning decision.
 * '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on party lists.
-* '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice.
+* '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 
-Customized conditions can be set with smart contracts that enforce a decision by unlocking coins if a result is met (i.e. reaching a certain amount of ''VOTE''s on a specific blockchain address triggers a cryptocurrency transfer to allocate budget for approved action).
+Customized conditions can be set with smart contracts that enforce a decision by unlocking coins if a result is met (i.e. reaching a certain amount of ''VOTEs'' on a specific blockchain address triggers a cryptocurrency transfer to allocate budget for approved action).
 
 ===2.4 Scarcity.===
 
@@ -239,7 +236,7 @@ Customized conditions can be set with smart contracts that enforce a decision by
 
 For a democracy to reach global scale, the tokens must find the means to effectively represent the interests of 7 billion lives and able to increase supply based on population growth. [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will reach population of 10 billion ''sapiens'']. This pressing fact goes to the core of what is behind the veils of climate change, refugees and rising inequality. How to optimize the distribution of opportunity to a population close to reaching the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] by the end of this century must be urgently addressed.
 
-We will issue an initial setup of 7,500,000,000 ''VOTE''s, setting the golden rule: one ''VOTE'' per living person. With [https://www.census.gov/population/international/ an estimated population growth rate of 1.1%], an average of 82,500,000 tokens will be added every year (i.e. a rate of 2.6 new tokens per second). Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, being Democracy Earth Foundation an organization aiming for planetary governance we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+We will issue an initial setup of 7,500,000,000 ''VOTEs'', setting the golden rule: one ''VOTE'' per living person. With [https://www.census.gov/population/international/ an estimated population growth rate of 1.1%], an average of 82,500,000 tokens will be added every year (i.e. a rate of 2.6 new tokens per second). Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, being Democracy Earth Foundation an organization aiming for planetary governance we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
 
 <blockquote>
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
@@ -250,7 +247,6 @@ By connecting every ''VOTE'' to a living person, every financial metric derived 
 It must be noted that even if we remain skeptical about the chances of Nation-States for planetary governance, this does not mean we don’t acknowledge the traditions and values binding the people of a nation together. In the same way blood ties evolved to signal identification of a family considering the widespread use of surnames attached to given names; territorial ties (nationality) is likely to become a third name among global citizens.
 
 ===2.6 Utility.===
-
 
 
 ===2.7 Divisibility.===
