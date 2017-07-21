@@ -153,7 +153,7 @@ Digital organizations that operate with distributed teams, in virtual environmen
 
 With [http://sovereign.software Sovereign] we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components help establish the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members and if public, to everyone.
 
-====2.1.2 Corruption.====
+====2.1.2 DAOs.====
 
 Previous attempts at building decentralized organizations have been attempted in the past. ''Distributed Autonomous Organizations'' (or DAOs) aim to be blockchain entities constructed with smart contracts that entirely automate decision processes and run without any kind of human oversight. The code itself is meant to be the ultimate arbiter, hence these organizations claim that ''code is law'' making everything executed by pre-established code running on blockchains. But experience has taught that also ''bugs are law'': when German company [http://slock.it Slock.it] implemented [http://www.coindesk.com/understanding-dao-hack-journalists/ the largest crowdfunded DAO in May 2016 able to raise over USD 100 million], a hacker exploited the code using a security hole in the smart contract controlling all funds triggering a recursive call that leaked USD 55 million worth of ether from this DAO.
 
