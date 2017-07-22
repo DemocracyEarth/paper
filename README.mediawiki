@@ -301,7 +301,54 @@ For Sovereign to be a trusted environment for decentralized governance under lar
 
 [[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
 
-  PENDING.
+  “The Internet was created without an identity layer.” 
+~Kim Cameron, Chief Architect of Identity for Microsoft
+
+A vote always takes place within an organization, which can be defined in many different ways, the most obvious being a Nation-State. An organization is defined by its valid and verifiable membership. The DEF liquid democracy voting / decision-making platform through smart contracts codifies any organizational membership rules and ratifications related to digitally established identification.
+
+Businesses, governments and citizens need legitimate, accessible evidence of identity to facilitate the assertion of fundamental economic, social, political and ultimately human  rights. For the electronic ecosystem to function seamlessly, all private and public entities need to know who they are dealing with, as well as be able to easily authenticate themselves remotely, all of which requires a digital identity. 
+
+There are three key areas in which digital ID systems have been found to have impact: efficient public service delivery, civil service reforms and support to democratic elections and citizen empowerment.The Boston Consulting Group indicates that digital ID systems generate gains in efficiency and convenience that could yield global taxpayer savings of up to $50 billion per year by 2020. Projections show that the number of digital government/citizen transactions worldwide will grow to about $67 billion (30%) by 2020, suggesting countries who do not implement digital ID systems may experience significant revenue shortfalls. 
+
+An Internet-like digital identity system would allow any person, organisation, or thing to have an identity relationship (something we call a “claim” in the world of identity) with any other. And to do this without the need for authorisation from someone else. Because anyone can use these identities and the resulting relationships without an intervening authority, they’re called “self-sovereign.”   
+
+Because identity is foundational to many transactions occurring within society, it is foundational to the achievement of personal sovereignty and therefore must a fundamental building block of any  system of voting and organizational governance.   The UN and World Bank ID4D initiatives set a goal of providing everyone on the planet with a legal ID by 2030. The organization ID2020 has similar objectives promoting digital IDs.
+
+Today’s standard identity systems are based on physical documents and processes, which create serious limitations.  Physical identity systems put users at risk due to overexposure of information and the high risk of information loss or theft; they also put society at risk due to the potential for identity theft, allowing illicit actors to access public and private services.
+As well populations are traveling and migrating more and more. Nation-state issued IDs are becoming obsolete and already insecure. Paper is quite easily forged, certainly relative to modern cryptography.
+
+Our modern, mobile app-centric approach to our online lives treats personal identity like a series of siloed gardens, where users must maintain identities for every site they interact with, a situation that is untenable over the long term.  Increasingly personal identity is a cog in a digital business model that sells personal data with little or no oversight or accountability, at significant profit. In short, applications, ISPs and mobile service providers are charging consumers for services that enable them to extract value from consumer data that is sometimes only tangentially related to the original transaction.  
+
+The result is a usability and privacy disaster for individuals that creates a multitude of data honeypots for hackers—the breach of which compromises trust in all Internet services.
+
+Now, with traditional physical identity systems breaking down, digital assets are moving online and trust itself is enabled by technologies and not institutions. The next evolution of the Internet will be the creation of a common identity layer that allows people, organisations and things to have their own self-sovereign identity—a digital identity they own and control, and which cannot be taken away from them. 
+
+Recent developments in distributed computing have allowed truly self-sovereign identity systems to be realised. Digital systems are emerging that for the first time ever enable the notion of a sovereign personal identity: the Bitcoin blockchain is eliminating the need for third parties, reducing costs and erasing previously-erected transaction borders. It is an era of disintermediation like one never before encountered in society, and signals broad shifts in power that have the capability to fundamentally reshape the economy. 
+
+ The biggest blockchain opportunity of all is to own and manage our own virtual identity which now is owned by the digital conglomerates like Google and Facebook.  In a centralized world there is no mechanism for us getting to keep or even share in the monetization. 
+
+Connectography by Parag Khanna predicts existing nation-state borders will morph not along historical lines drawn on a now-antiquated geophysical map, but rather along digital connection arteries. The World Economic Forum has called on financial institutions to lead the charge in developing robust digital identity solutions that would bring benefits to users, financial institutions, and society as a whole.  
+
+The world’s first transnational digital ID has already been pioneered by Estonia, with its e-Residency government-issued ID. Other examples of are moving forward  in Algeria, Cameroon, Jordan, Italy, Senegal and Thailand, the Netherlands, Bulgaria, Norway, Liberia, Poland, Jamaica, Sri Lanka, and Myanmar. Most of these programs now include biometrics, the majority in the form of fingerprints. 
+
+The world is evolving rapidly towards mobile and digital formats for many everyday tasks.  Key drivers for this trend are convenience and ease of use for transactions that require some form of identification. And one of the most used documents to confirm identity is looking at going down this route - the driver's license .  The primary goals of the driving license, whether physical or digital, remain to confirm identity and to confer the right to drive a vehicle.  Studies and pilots have been launched in several states in the US in 2015-16 to explore the technical feasibility of a digital driver's license.
+
+A digital driver's licenses (mobile driver's license) retains key visual aspects of a physical driver's license, displaying the driver's personal information (name, address and date of birth) with  a photo.  In August 2016, the U.S. Commerce Department's National Institute of Standards and Technology (NIST) awarded a $2 million grant to Gemalto to further support the development of trusted identities based on Digital Driver's License in the states of Idaho, Colorado, Maryland and Washington D.C.
+
+Yet for identities to be truly self-sovereign, they cannot be owned or controlled by governments, organizations or companies whose priority is value extraction from the user. The Gov.UK Verify and India’s ADHAR systems have been plagued by reports of improper security practices and data leaks (including banking details) compromising the privacy of millions of customers.  Confidentce that votes have been fairly and accurately counted strike at the very  basis of democratic society.  
+
+"We cannot count on the courts, the president, Congress or state legislatures to save us. It will take bipartisan cooperation among state and local election officials, facilitated by nongovernmental organizations committed to sound principles of election administration, to get us past this dangerous point."
+~Richard L. Hasen, Professor of law and political science at the University of California, Irvine, NY Times July 24, 2017 
+
+The evolution of internet identity is the result of trying to satisfy three basic requirements: 1. Security - the identity information must be protected from unintentional disclosure; 2. Control - the identity owner must be in control of who can see and access their data and for what purposes; 3. Portability - the user must be able to use their identity data wherever they want and not be tied into a single provider.
+
+In his article “The Path to Self-Sovereign Identity” , Christopher Allen charts the evolutionary path of the  online identity landscape.  His analysis describes 4 stages of development; in his vision, it is the the  flourishing  use of self-sovereign identity ushers in the post-silo world.
+
+The starting point for digital identity in blockchain is an unlinkable secure identity (a cryptographic public/private key pair) that is only linked to transactions, digital assets or other data with explicit user action.
+
+In the publication Digital Identity Issue Analysis (Consult Hyperion 2016) it is noted that centralized organizations currently serving as identity providers evolve to become "identity proofers" - someone still needs to carry out the checks that an individual is who they say they areas they bridge the digital and physical worlds. Standards of assurance will always need to be met and relying parties will always need to be able to trust such assurances: what will change is the ease and simplicity of doing such checks in an environment where individuals simply give permissiont to access verified data to satisfy the given criteria, and not be beholden to any one bastion of trust in order to have a digital identity. 
+
+Microsoft is backing an open source initiative to develop a system with Blockstack and ConsenSys that will enable cross-blockchain registrations of identifiers for self-sovereign identities --  a transparent, open source, blockchain-based naming and identity layer for the world. Users will own their identities and can prove ownership based on control of a private key linked to a known identifier.
 
 ===3.2 Hard Promises.===
 
