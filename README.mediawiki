@@ -151,7 +151,7 @@ Centralization of resources is the single point of failure in elections and is i
 
 Corporations and public institutions are prone to corrupt behaviour because decisions often happen in secrecy behind closed doors. When problems arise, ''decision laundering'' is a common practice aiming to accommodate the facts after fatal consequences happened. The lack of an incorruptible timeline storing financial and political decisions enables this kind of moves. The [https://en.wikipedia.org/wiki/Leviathan_(book) ''Leviathan'' State] is an inefficient machine: although it proclaims itself as the sovereign ruler for any given population by means of force, whoever is in charge of running its bureaucracy can still be corrupted. Blockchains have the ability to provide an unprecedented level of trust to any organization committed to store its decisions on them by avoiding shady manipulations using distributed cryptography verifying every transaction.
 
-Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate online. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects are often dependent on a ''benevolent dictator'' able to call the shots to allocate resources.
+Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources. 
 
 With [http://sovereign.software Sovereign] we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components help establish the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members (and if public, to everyone).
 
@@ -229,7 +229,7 @@ If the final tally of a decision reaches a certain value (<code>true</code> or <
 
 ----
 
-===3. Liquid.===
+==3. Liquid.==
 
 A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. Because power dislikes being democratized, there are few documented experiences of liquid democracies but all of these offer insights on how to improve its dynamics on future iterations.
 
