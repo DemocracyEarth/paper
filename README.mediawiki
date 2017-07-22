@@ -50,7 +50,7 @@ Sovereign's codebase is able to deliver a mobile and desktop application for vot
 
 ===1.2 Legacy.===
 
-We can consider elections implemented by states, provinces and city municipalities as democracies where we are reduced to being passive recipients of a monologue. Citizens are called every substantially long periods of time, during elections, to provide a basic input: essentially accept or reject players in the same system. That’s the bandwidth of the so-called ''modern democracies''. Under these systems less than one percent of the population is able to vote on legislation or execute budgets while the rest are legally forced to outsource their full citizenship rights to a representing minority that eventually figures out how to perpetuate itself. The technology behind ''representative democracies'' can be grouped in two sets:
+We can consider elections implemented by states, provinces and city municipalities as ''8 bit democracies''. If we consider each candidate a bit in the system then a citizen’s input during election day is limited to a few bits per cast vote. That’s the bandwidth of the so-called ''modern democracies''. Under these systems less than one percent of the population is able to vote on legislation or execute budgets while the rest are legally forced to outsource their full citizenship rights to a representing minority that eventually figures out how to perpetuate itself. The technology behind ''representative democracies'' can be grouped in two sets:
 
 * '''Analogue elections''': usually paper ballots and ballot boxes with authorities responsible for counting votes and reporting fraudulent behavior. Even though these systems are stable in developed nations, they suffer from severe lack of participation. Barriers are implemented with requirements such as the need to register to vote through an excessively bureaucratic process that ends up blocking a majority of disenfranchised voters. Authorities also gerrymander districts exploiting survey data in anticipation of electoral outcomes. Even though these systems are easier to audit, this also means that they’re easier to corrupt: in developing nations ''analogue elections'' get subverted by mobs representing large parties that burn or disappear ballot boxes, threatening auditors from smaller competitors and letting violence overrun the process on key districts. In our experience with the [http://partidodelared.org Partido de la Red] running for the City Congress of Buenos Aires in the 2013 elections we found out that no effort mattered more than having sufficient party auditors to cover every district in the city or otherwise votes would get stolen. The larger an election’s territory is, the less likely an analogue system can guarantee a fair process. And the high implementation costs end up limiting elections to a handful of days per year (if any), rendering democracy an exception rather than the norm on how governments get elected.
 
@@ -62,7 +62,7 @@ Traditional analog and electronic elections are strictly for long term represent
 
 ===1.3 Geopolitics.===
 
-A consequence of the U.S. Presidential Election of 2016 is that the [https://www.theguardian.com/us-news/2016/dec/16/qa-russian-hackers-vladimir-putin-donald-trump-us-presidential-election fear of foreign intervention] has become a leading threat to the security of electoral processes. But foreign attacks rarely consist on hijacking voting machines: directly manipulating votes can be easily traced and it is very expensive to impact on a scale large enough to satisfy an attacker. A more efficient approach is [https://en.wikipedia.org/wiki/2016_Dyn_cyberattack instilling public fear by collapsing internet infrastructure days prior to an election] in a way that can help push favoritism on a candidate that is perceived stronger than the other one. This kind of cyberattack able to trigger a shift in voter perception is nearly impossible to trace as political subversion and reveals the inherent conflict that a digital commons has with territorial democracies.
+A consequence of the U.S. Presidential Election of 2016 is that the [https://www.theguardian.com/us-news/2016/dec/16/qa-russian-hackers-vladimir-putin-donald-trump-us-presidential-election fear of foreign intervention] has become a leading threat to the security  of electoral processes. But foreign attacks rarely consist on hijacking voting machines: directly manipulating votes can be easily traced and it is very expensive to impact on a scale large enough to satisfy an attacker. A more efficient approach is [https://en.wikipedia.org/wiki/2016_Dyn_cyberattack instilling public fear by collapsing internet infrastructure days prior to an election] in a way that can help push favoritism on a candidate that is perceived stronger than the other one. This kind of cyberattack able to trigger a shift in voter perception is nearly impossible to trace as political subversion and reveals the inherent conflict that a digital commons has with territorial democracies.
 
 [[File:/images/the-land.png|The land: monopolies on force.]]
 
@@ -72,7 +72,7 @@ The 21st century is witnessing a growing conflict between ''The Land'': governme
 
 [[File:/images/the-cloud.png|The cloud: monopolies on data.]]
 
-The origins of digital cryptography go back to World War II when Alan Turing built the first proto-computers to decrypt Nazi messages. Since then encryption has been legislated in the USA in the same manner kept for traditional weapons: it is included in the ''Munitions List'' of the [https://www.pmddtc.state.gov/regulations_laws/itar.html International Traffic in Arms Regulations] and related software and hardware must deal with export restrictions. And even though encryption is often considered a right protected under the First Amendment arguing that “code is speech”, its defensive nature indicates that it must also be protected under the umbrella of the Second Amendment since it holds  the same reasoning behind  the “right to bear arms”: In an era where [http://twitter.com/Snowden whistleblowers] are revealing how the ''Deep State'' spies on citizens anywhere around the globe, encrypted information is the only realistic guarantee that anyone has to be protected from government abuses (and the corporations that back them).
+The origins of digital cryptography goes back to World War II when Alan Turing built the first proto-computers to decrypt Nazi messages. Since then encryption has been legislated in the USA in the same manner kept for traditional weapons: it is included in the ''Munitions List'' of the [https://www.pmddtc.state.gov/regulations_laws/itar.html International Traffic in Arms Regulations] and related software and hardware must deal with export restrictions. And even though encryption is often considered a right protected under the First Amendment arguing that “code is speech”, its defensive nature indicates that it must also be protected under the umbrella of the Second Amendment since it holds  the same reasoning behind  the “right to bear arms”: In an era where [http://twitter.com/Snowden whistleblowers] are revealing how the ''Deep State'' spies on citizens anywhere around the globe, encrypted information is the only realistic guarantee that anyone has to be protected from government abuses (and the corporations that back them).
 
 Secrecy is a fundamental property of free and fair elections as it is a mechanism that helps avoid coercion from those in power and prevents the risk of elections being bought and sold for money. Privacy is the best guarantee a conscious free mind can have to think for itself. But on the modern internet: privacy is illusory when using Facebook, Google or any web based service. Even though they pretend being the gatekeepers of online privacy, theoretically Facebook can still impersonate any of its 2 Billion registered users if they ever wanted to. They hold the largest set of identities in the world surpassing the governments of India and China. And the fact that [https://twitter.com/AdrianChen/status/832452637320556544 97% of the reported revenue from Google and Facebook comes from advertising] severely conditions the experience that users get with their technology. It is in their interest to gather as much information as possible to profile people in order to stay competitive in the attention market. And both companies filter information fed to users with [https://medium.com/@piamancini/future-scenarios-for-algorithmic-accountability-and-governance-17cd436d22a0 algorithms accountable] to anyone but their own board. None of their services are really free: personal sovereignty is given away in the same way the natives in the american continent got distracted watching their own ''selfies'' in shiny mirrors 500 years ago while the european conquistadors swept their entire way of life at a whim. Uncensored, free and sovereign debates on the future of humanity are being eaten by useless ''likes'' that only help perpetuate these corporate monopolies. And ''Fake news exploits'' (as they were used during the U.S. elections) or content spreading like wildfire (as it happened during the ''Arab Spring'') demonstrates that any effort to stop international influence on national politics is futile as societies spend their time online.
 
@@ -160,11 +160,9 @@ Previous attempts at building decentralized organizations have been attempted in
 
 We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries on the head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is a sovereign instrument that helps streamline decision processes taking the legitimate input from all interested parties into account. For this purpose it is fundamental to model a standard voting token that can operate with any blockchain based system and work in sync with other crypto assets.
 
-===2.4 Smart Contracts.===
+===2.4 Contracts.===
 
-The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean state for institutional decisions recorded with smart contracts.
-
-Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. At the same time, a democratic system should incentivize the pursuit of acquiring greater amounts of knowledge by the voters since the quality of a democracy will always be as good as the quality of the voters. Thoughtful debate and deliberation is a process as critical as the very act of voting itself.
+The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean state for institutional decisions recorded with smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite.
 
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be detected. Nonetheless we will develop and implement the first version of the ''VOTE'' token using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard] and take necessary steps to make our code compatible with emergent environments like [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
@@ -172,34 +170,34 @@ In terms of UX [http://sovereign.software Sovereign] provides an adaptive web an
 
 ''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Collectives</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
-====2.4.1 <code>Collectives</code>====
+====2.4.1 <code>Collective</code>====
 
 The entity or institution implementing a Sovereign instance is referred as a ''Collective'' and it must be funded with ''VOTEs'' for its governance. Every collective has a ''constitutional smart contract'' able to determine how funds will be allocated to members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTEs'').
 
-====2.4.2 <code>Members</code>====
+====2.4.2 Members.====
 
 Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
 
 A strict definition in the membership criteria of a collective is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means and an approval protocol is critical. Once a member is approved within a collective, he or she gets a specific amount of ''VOTEs'' to be used for the governance of a collective.
 
-====2.4.3 <code>Decisions</code>====
+====2.4.3 Decisions.====
 
 A collective consists of a collection of contracts each describing a decision to be made by the organization. In the ''constitutional smart contract'' of the collective it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has this properties:
 
-* <code>Description</code>: Text of the decision to be made.
-* <code>Tags</code>: Categories that describe this decision within the collective. This helps members navigate across decisions, define sub-areas or teams within a collective and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing domains or open taxonomies, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
-* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
-* <code>Ballot</code>: The presented options for voters to participate on this decision.
-* <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
-* <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
+* '''Description''': Text of the decision to be made.
+* '''Tags''': Categories that describe this decision within the collective. This helps members navigate across decisions, define sub-areas or teams within a collective and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing domains or open taxonomies, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
+* '''Signatures''': Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
+* '''Ballot''': The presented options for voters to participate on this decision.
+* '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
+* '''Timespan''': For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
 ** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
 ** '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of a collective.
 
-====2.4.4 <code>Ballot</code>====
+====2.4.4 Ballot.====
 
 A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the collective. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
-=====2.4.4.1 <code>Interface</code>=====
+=====2.4.4.1 Interface.=====
 
 By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
 
@@ -207,16 +205,15 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 * '''Multiple Choice''': One or more selectable options.
 * '''[https://en.wikipedia.org/wiki/Ranked_voting Ranked Choice]''': Sortable options as ranked preferences.
 
-=====2.4.4.2 <code>Options</code>=====
+=====2.4.4.2 Options.=====
 
 In order to enable the information processing of the ''VOTE'' tokens, ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
-* <code>True</code>: It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
-* <code>False</code>: Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
-* <code>Linked</code>: The option is connected to another decision within the collective.
-* <code>Candidate</code>: A member or list of members from the collective. This helps elect authorities within the collective or it can be used for membership approvals.
+* '''True''': It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
+* '''False''': Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
+* '''Linked''': The option is connected to another decision within the collective.
 
-=====2.4.4.3 <code>Criteria</code>=====
+=====2.4.4.3 Criteria.=====
 
 Finally, counting methods for the final or ongoing result of a decision within a collective.
 
@@ -225,7 +222,7 @@ Finally, counting methods for the final or ongoing result of a decision within a
 * '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on party lists.
 * '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 
-====2.4.5 <code>Budget</code>====
+====2.4.5 Budget.====
 
 If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the signature holders of a wallet or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
 
@@ -314,7 +311,7 @@ There are three key areas in which digital ID systems have been found to have im
 
 An Internet-like digital identity system would allow any person, organisation, or thing to have an identity relationship (something we call a “claim” in the world of identity) with any other. And to do this without the need for authorisation from someone else. Because anyone can use these identities and the resulting relationships without an intervening authority, they’re called “self-sovereign.”
 
-Because identity is foundational to many transactions occurring within society, it is foundational to the achievement of personal sovereignty and therefore must a fundamental building block of any  system of voting and organizational governance.   The UN and World Bank ID4D initiatives set a goal of providing everyone on the planet with a legal ID by 2030. The organization ID2020 has similar objectives promoting digital IDs.
+Because identity is foundational to many transactions occurring within society, it is foundational to the achievement of personal sovereignty and therefore must be a fundamental building block of any system of voting and organizational governance. The UN and World Bank ID4D initiatives set a goal of providing everyone on the planet with a legal ID by 2030. The organization ID2020 has similar objectives promoting digital IDs.
 
 Today’s standard identity systems are based on physical documents and processes, which create serious limitations.  Physical identity systems put users at risk due to overexposure of information and the high risk of information loss or theft; they also put society at risk due to the potential for identity theft, allowing illicit actors to access public and private services.
 As well populations are traveling and migrating more and more. Nation-state issued IDs are becoming obsolete and already insecure. Paper is quite easily forged, certainly relative to modern cryptography.
@@ -333,22 +330,22 @@ Connectography by Parag Khanna predicts existing nation-state borders will morph
 
 The world’s first transnational digital ID has already been pioneered by Estonia, with its e-Residency government-issued ID. Other examples of are moving forward  in Algeria, Cameroon, Jordan, Italy, Senegal and Thailand, the Netherlands, Bulgaria, Norway, Liberia, Poland, Jamaica, Sri Lanka, and Myanmar. Most of these programs now include biometrics, the majority in the form of fingerprints.
 
-The world is evolving rapidly towards mobile and digital formats for many everyday tasks.  Key drivers for this trend are convenience and ease of use for transactions that require some form of identification. And one of the most used documents to confirm identity is looking at going down this route - the driver's license .  The primary goals of the driving license, whether physical or digital, remain to confirm identity and to confer the right to drive a vehicle.  Studies and pilots have been launched in several states in the US in 2015-16 to explore the technical feasibility of a digital driver's license.
+The world is evolving rapidly towards mobile and digital formats for many everyday tasks.  Key drivers for this trend are convenience and ease of use for transactions that require some form of identification. And one of the most used documents to confirm identity is looking at going down this route - the driver's license . [PREVIOUS SENTENCE UNCLEAR]  The primary goals of the driving license, whether physical or digital, remain to confirm identity and to confer the right to drive a vehicle.  Studies and pilots have been launched in several states in the US in 2015-16 to explore the technical feasibility of a digital driver's license.
 
-A digital driver's licenses (mobile driver's license) retains key visual aspects of a physical driver's license, displaying the driver's personal information (name, address and date of birth) with  a photo.  In August 2016, the U.S. Commerce Department's National Institute of Standards and Technology (NIST) awarded a $2 million grant to Gemalto to further support the development of trusted identities based on Digital Driver's License in the states of Idaho, Colorado, Maryland and Washington D.C.
+A digital driver's license (mobile driver's license) retains key visual aspects of a physical driver's license, displaying the driver's personal information (name, address and date of birth) with  a photo.  In August 2016, the U.S. Commerce Department's National Institute of Standards and Technology (NIST) awarded a $2 million grant to Gemalto to further support the development of trusted identities based on Digital Driver's License in the states of Idaho, Colorado, Maryland and Washington D.C.
 
-Yet for identities to be truly self-sovereign, they cannot be owned or controlled by governments, organizations or companies whose priority is value extraction from the user. The Gov.UK Verify and India’s ADHAR systems have been plagued by reports of improper security practices and data leaks (including banking details) compromising the privacy of millions of customers.  Confidentce that votes have been fairly and accurately counted strike at the very  basis of democratic society.
+Yet for identities to be truly self-sovereign, they cannot be owned or controlled by governments, organizations or companies whose priority is value extraction from the user. The Gov.UK Verify and India’s ADHAR systems have been plagued by reports of improper security practices and data leaks (including banking details) compromising the privacy of millions of customers.  Confidence that votes have been fairly and accurately counted strike at the very  basis of democratic society.
 
 "We cannot count on the courts, the president, Congress or state legislatures to save us. It will take bipartisan cooperation among state and local election officials, facilitated by nongovernmental organizations committed to sound principles of election administration, to get us past this dangerous point."
 ~Richard L. Hasen, Professor of law and political science at the University of California, Irvine, NY Times July 24, 2017
 
 The evolution of internet identity is the result of trying to satisfy three basic requirements: 1. Security - the identity information must be protected from unintentional disclosure; 2. Control - the identity owner must be in control of who can see and access their data and for what purposes; 3. Portability - the user must be able to use their identity data wherever they want and not be tied into a single provider.
 
-In his article “The Path to Self-Sovereign Identity” , Christopher Allen charts the evolutionary path of the  online identity landscape.  His analysis describes 4 stages of development; in his vision, it is the the  flourishing  use of self-sovereign identity ushers in the post-silo world.
+In his article “The Path to Self-Sovereign Identity” , Christopher Allen charts the evolutionary path of the  online identity landscape.  His analysis describes 4 stages of development; in his vision, it is the flourishing use of self-sovereign identity that ushers in the post-silo world.
 
 The starting point for digital identity in blockchain is an unlinkable secure identity (a cryptographic public/private key pair) that is only linked to transactions, digital assets or other data with explicit user action.
 
-In the publication Digital Identity Issue Analysis (Consult Hyperion 2016) it is noted that centralized organizations currently serving as identity providers evolve to become "identity proofers" - someone still needs to carry out the checks that an individual is who they say they areas they bridge the digital and physical worlds. Standards of assurance will always need to be met and relying parties will always need to be able to trust such assurances: what will change is the ease and simplicity of doing such checks in an environment where individuals simply give permissiont to access verified data to satisfy the given criteria, and not be beholden to any one bastion of trust in order to have a digital identity.
+In the publication Digital Identity Issue Analysis (Consult Hyperion 2016) it is noted that centralized organizations currently serving as identity providers evolve to become "identity proofers" - someone still needs to carry out the checks that individuals are who they say they are as they bridge the digital and physical worlds. Standards of assurance will always need to be met and relying parties will always need to be able to trust such assurances: what will change is the ease and simplicity of doing such checks in an environment where individuals simply give permission to access verified data to satisfy the given criteria, and not be beholden to any one bastion of trust in order to have a digital identity.
 
 Microsoft is backing an open source initiative to develop a system with Blockstack and ConsenSys that will enable cross-blockchain registrations of identifiers for self-sovereign identities --  a transparent, open source, blockchain-based naming and identity layer for the world. Users will own their identities and can prove ownership based on control of a private key linked to a known identifier.
 
@@ -376,13 +373,23 @@ Members can interact with a collective using ''VOTE'' transactions under differe
 
 With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
-===4.1 Basic Income.===
+===4.1 Right versus Debt.===
+
+Plato’s “Republic”, the founding work of Western political philosophy, begins with the following question: “What is justice?” To which Kefalos (capital), a wealthy arms manufacturer, says: “pay your debts and don’t lie”. Socrates is quick to put the response into question, but the association of debt, morality and wars remained to be at the root of our economic mindset as a society.
+
+The origins of this mindset can be grasped from the historical context of the origin of coins. In broad historical terms, money in the form of coins was first created by the great empires as a means to finance wars, enabling the purchase of provisions for soldiers in distant regions and rewarding them for the battles they won. It was an excellent incentive because soldiers could loot silver and gold from their conquered cities and then easily exchange it afterwards. All the empires had to do was impose gold and silver coins as official trade tokens onto their citizens, thus creating a market. After distributing coins, empires would ask for a share of those coins to be given back, a tax, that was directed at the maintenance of the army. The moral narrative was that citizens were <a href="https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290">indebted</a> to the emperor for their security, for being alive.
+
+But before the creation of coins and inherent debt, trade was already performed daily, through another mode of exchange, which was trust-based credit. There was no physical form of currency, so citizens had tabs with each other and organized around trust and comradery. That form only worked within the confines of communities where citizens were interdependent and reliable. It could not coexist with expanding empires at war and their inherent violence because it was based on people being on good terms with one another. Coins, as opposed to credit, removed the precedence of social niceties from the picture. Therefore, the creation of physical money facilitated actions that broke the etiquette of good faith, upon which the previous system was based, giving a tokenized compensation for soldiers that went to war and performed violence and robbery. The moral imperative of debt was installed as a substitute for the original moral imperative of being fair. As a consequence, we have seen thoughout history that in name of debt, agents that are higher on any kind of vertical hierarchy have justified the forceful coercion of lower agents: be that in the system of countries, companies or individuals. 
+
+The transition from a trust economy to this new and impersonal form of trade was the same period where humans began to profoundly question morality and ethics. It is precisely in Miletus, the first Greek city to use coins in everyday transactions, where at the exact same time, Greek philosophy was invented. Philosophers were quickly able to grasp the simple problem with inherent debt: the fact that debt in itself implies an arrangement between two legally equivalent entities. It cannot be justified when there is any form of inequality or violent imposition in place, which was often the case. A token that is distributed equally as a RIGHT aims to frontally oppose the debt-moral logic, generating a new breeding ground for different models of financial operations between participants of a network. Not based on the possibilities of coercion and need, but instead on the possibility of positive outcomes for both parties. Meanwhile, a system of Universal Basic Income aims to bring equivalence to entities, restoring balance and fairness as the new moral standard.  
+
+===4.2 Basic Income.===
 
   PENDING.
 
-===4.2 Gift versus Debt.===
 
-  PENDING.
+
+
 
 ===4.3 Bitcoin.===
 
