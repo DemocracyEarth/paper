@@ -184,12 +184,12 @@ A strict definition in the membership criteria of a collective is key for the tr
 
 A collective consists of a collection of contracts each describing a decision to be made by the organization. In the ''constitutional smart contract'' of the collective it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has this properties:
 
-* '''Description''': Text of the decision to be made.
-* '''Tags''': Categories that describe this decision within the collective. This helps members navigate across decisions, define sub-areas or teams within a collective and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing domains or open taxonomies, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
-* '''Signatures''': Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
-* '''Ballot''': The presented options for voters to participate on this decision.
-* '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
-* '''Timespan''': For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
+* <code>Description</code>: Text of the decision to be made.
+* <code>Tags</code>: Categories that describe this decision within the collective. This helps members navigate across decisions, define sub-areas or teams within a collective and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing domains or open taxonomies, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
+* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
+* <code>Ballot</code>: The presented options for voters to participate on this decision.
+* <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
+* <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
 ** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
 ** '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of a collective.
 
@@ -209,9 +209,10 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 
 In order to enable the information processing of the ''VOTE'' tokens, ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
-* '''True''': It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
-* '''False''': Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
-* '''Linked''': The option is connected to another decision within the collective.
+* <code>True</code>: It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
+* <code>False</code>: Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
+* <code>Linked</code>: The option is connected to another decision within the collective.
+* <code>Candidate</code>: A member or list of members from the collective. This helps elect authorities within the collective or it can be used for membership approvals.
 
 =====2.4.4.3 <code>Criteria</code>=====
 
