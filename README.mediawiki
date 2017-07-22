@@ -190,10 +190,13 @@ A collective consists of a collection of contracts each describing a decision to
 * '''Signatures''': Members that are authoring the proposal. It can remain anonymous if a collective's governance rules allows it.
 * '''Ballot''': The presented options for voters to participate on this decision.
 * '''Budget''': An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
+* '''Timespan''': For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
+** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
+** '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of a collective.
 
 ====2.4.4 Ballot.====
 
-A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the collective. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code>, <code>Timespan</code> and <code>Criteria</code>.
+A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the collective. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
 =====2.4.4.1 Interface.=====
 
@@ -205,21 +208,13 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 
 =====2.4.4.2 Options.=====
 
-In order to enable the information processing of the ''VOTE'' tokens, ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. Options, independently of the label used to express them, can be:
+In order to enable the information processing of the ''VOTE'' tokens, ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
 * '''True''': It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
-* '''False''': These are <code>false</code> (e.g. 'No', 'Negative').
-* '''Linked''': The option is connected to another contract carrying a specific decision.
+* '''False''': Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
+* '''Linked''': The option is connected to another decision within the collective.
 
-=====2.4.4.3 Timespan.=====
-
-For the final tally, a contract's ballot proposal must also set its scope in time and define the kind of decision being made. There are two types of decisions:
-
-* '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
-
-* '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of a collective.
-
-=====2.4.4.4 Criteria.=====
+=====2.4.4.3 Criteria.=====
 
 Finally, counting methods for the final or ongoing result of a decision within a collective.
 
