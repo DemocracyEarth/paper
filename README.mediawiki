@@ -46,7 +46,7 @@ Our experience combining both, the political and technological challenges of dem
 
 [[File:/images/sovereign.png|Sovereign.]]
 
-Sovereign's codebase is able to deliver a mobile and desktop application for voters and organizations willing to implement a blockchain based democracy. Our aim with the ideas proposed on this paper is to continue the paved road of implementations that enable [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] and integrate our software with blockchains able to guarantee the sovereign rights of users.
+Sovereign's codebase delivers both a mobile and desktop application to voters and organizations standardizing on incorruptible decision-making in a blockchain based democracy. Our aim with the ideas proposed in this paper is to continue paving the road of implementations that enable [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] and integrate our software with blockchains able to guarantee the sovereign rights of users.
 
 ===1.2 Legacy.===
 
