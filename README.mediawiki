@@ -15,7 +15,15 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 ==Abstract.==
 
-In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to limited territories, we need to build new models of governance, deliberation and voting able to address pressing issues that are safe, regular and truly democratic, engaging all human beings. Democracy Earth Foundation is building free, open source software for incorruptible, blockchain-based voting that can happen within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments led to climate change, rising inequality, terrorism, and forced migrations. The technology stack that includes Bitcoin as programmable money without Central Banks and Ethereum enabling smart contracts without the need of Judiciary Courts requires a third layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance to the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''VOTE'' that will grant participation rights to every human with voting as its main function. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks that will change what it means to be human on Earth.
+In an age of climate change and artificial intelligence, at a time when most people will be connected to the new global jurisdiction that is the Internet, we need to build new models of governance: new ways to deliberate, discuss and vote that are safe, regular and truly democratic, new ways able to involve and engage all human beings.
+
+Democracy Earth Foundation, a non-profit organization started in Argentina and now based in the United State, is building free, open source software for incorruptible, blockchain-based identity, voting and governance that can happen within institutions of all sizes, from the most local involving two people to the most global involving all of us. 
+
+In our Initial Rights Offering, Democracy Earth Foundation will offer our token, called VOTE, that will grant participation rights to every human, with voting as its main function.
+
+We envision our software (incorruptible governance beyond the borders of nation states) as a complement to Bitcoin (programmable money beyond central banks) and Ethereum (smart contracts beyond judicial courts). This transnational network will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
+
+We seek nothing less than true democractic governance for the Internet age, one of the foundational building blocks that will change what it means to be human on planet Earth.
 
 ==1. Introduction.==
 
