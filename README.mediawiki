@@ -266,22 +266,6 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 ----
 
-===4. Earth.===
-
-[[File:/images/humans.png|Humans on Earth.]]
-
-For a democracy to reach global scale, the tokens must find the means to effectively represent the interests of 7 billion lives and able to increase supply based on population growth. [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will reach population of 10 billion ''sapiens'']. This pressing fact goes to the core of what is behind the veils of climate change, refugees and rising inequality. How to optimize the distribution of opportunity to a population close to reaching the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] by the end of this century must be urgently addressed.
-
-We will issue an initial setup of 7,500,000,000 ''VOTEs'', setting the golden rule: one ''VOTE'' per living person. With [https://www.census.gov/population/international/ an estimated population growth rate of 1.1%], an average of 82,500,000 tokens will be added every year (i.e. a rate of 2.6 new tokens per second). Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, being Democracy Earth Foundation an organization aiming for planetary governance we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
-
-<blockquote>
-  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
-</blockquote>
-
-By connecting every ''VOTE'' to a living person, every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy. A ''VOTE''’s ''Market Capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Collective Welfare], and the value of a single ''VOTE'' will become a unit reflecting the purchasing power of an individual if an even distribution of the token was ever to be reached. The Democracy Earth Foundation will keep track of the token distribution within each nation, making it a reliable metric for the penetration of digital and decentralized democracy in populations living under a common set of cultural and genetic values.
-
-It must be noted that even if we remain skeptical about the chances of Nation-States for planetary governance, this does not mean we don’t acknowledge the traditions and values binding the people of a nation together. In the same way blood ties evolved to signal identification of a family considering the widespread use of surnames attached to given names; territorial ties (nationality) is likely to become a third name among global citizens.
-
 ===2.6 Utility.===
 
 
@@ -365,6 +349,20 @@ The goal we have set for the Democracy Earth Foundation is to pioneer blockchain
 ----
 
 ==4. Democracy Earth.==
+
+[[File:/images/humans.png|Humans on Earth.]]
+
+For a democracy to reach global scale, the tokens must find the means to effectively represent the interests of 7 billion lives and able to increase supply based on population growth. [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will reach population of 10 billion ''sapiens'']. This pressing fact goes to the core of what is behind the veils of climate change, refugees and rising inequality. How to optimize the distribution of opportunity to a population close to reaching the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] by the end of this century must be urgently addressed.
+
+We will issue an initial setup of 7,500,000,000 ''VOTEs'', setting the golden rule: one ''VOTE'' per living person. With [https://www.census.gov/population/international/ an estimated population growth rate of 1.1%], an average of 82,500,000 tokens will be added every year (i.e. a rate of 2.6 new tokens per second). Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, being Democracy Earth Foundation an organization aiming for planetary governance we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+
+<blockquote>
+  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
+</blockquote>
+
+By connecting every ''VOTE'' to a living person, every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy. A ''VOTE''’s ''Market Capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Collective Welfare], and the value of a single ''VOTE'' will become a unit reflecting the purchasing power of an individual if an even distribution of the token was ever to be reached. The Democracy Earth Foundation will keep track of the token distribution within each nation, making it a reliable metric for the penetration of digital and decentralized democracy in populations living under a common set of cultural and genetic values.
+
+It must be noted that even if we remain skeptical about the chances of Nation-States for planetary governance, this does not mean we don’t acknowledge the traditions and values binding the people of a nation together. In the same way blood ties evolved to signal identification of a family considering the widespread use of surnames attached to given names; territorial ties (nationality) is likely to become a third name among global citizens.
 
 Members can interact with a collective using ''VOTE'' transactions under different modes:
 
