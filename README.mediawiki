@@ -126,7 +126,7 @@ An ideal voting system must be able to satisfy in the greatest possible extent t
 
 Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
 
-* '''Resistance''': voter must be able override own vote if necessary.
+* '''Resistance''': voter must be able to override own vote if necessary.
 
 In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to [http://twitter.com/balajis Balaji Srinivasan], an [http://twitter.com/a16z Andreessen-Horowitz] partner. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
 
