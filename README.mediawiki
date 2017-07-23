@@ -243,17 +243,17 @@ In the context of a blockchain, as the complexity of delegations increases, for 
 
 ===3.1 Secrecy.===
 
-Among the few documented  liquid democracy implementations there is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the ''golden rule'' of liquid democracies:
+Among the few documented liquid democracy implementations there is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the ''golden rule'' of liquid democracies:
 
 <blockquote>
   If I give you my vote, I can see what you do with it.
 </blockquote>
 
-In the same way congressmen votes are public, on liquid systems competing delegates on any given topic have an incentive to build a public reputation based on their voting record in order to attract more delegations. We consider that a system able to satisfy delegator trust while being coercion resistant must be able to separate vote casting security from vote verification. The implementation of [https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf web based voting system Helios] is  able to preserve voter anonymity without corrupting vote integrity. On this system the means to audit a vote can be verified with a private key issued for the voter once the vote is cast. Under  a liquid democracy context,  the audit key is generated for every delegator in the smart contract establishing the rules for the tokens sent to a delegate that will represent the delegator’s interest.
+In the same way congressmen votes are public, on liquid systems competing delegates on any given topic have an incentive to build a public reputation based on their voting record in order to attract more delegations. We consider that a system able to satisfy delegator trust while being coercion resistant must be able to separate vote casting security from vote verification. The implementation of [https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf web based voting system Helios] is able to preserve voter anonymity without corrupting vote integrity. On this system the means to audit a vote can be verified with a private key issued for the voter once the vote is cast. Under a liquid democracy context, the audit key is generated for every delegator in the smart contract establishing the rules for the tokens sent to a delegate that will represent the delegator’s interest.
 
 ===3.2 Delegations.===
 
-Another key finding from the Google Vote implementation was the lack of delegations: only 3.6% of votes were effectively delegated, keeping the system a direct democracy for the most part.
+Another key finding from the Google Vote implementation was the lack of delegations: only 3.6% of votes were effectively delegated, keeping the system a direct democracy for the most part. Aligned with this finding, blockchain liquid democracy enables the *right* to delegate or vote directly; it is not required or expected that direct paricipation or delegation will increase.  In today's political arenas, such delegation rights exist, they simply are allowed every few years and then frozen until next scheduled election.
 
   PENDING.
 
