@@ -1,0 +1,22 @@
+<pre>
+  DEF: 1
+  Titulo: El Contrato Social Inteligente
+  Autores: Santiago Siri <santi@democracy.earth>, Herb Stephens <herb@democracy.earth>.
+  Comments-Summary: No comments yet.
+  Status: Active
+  Type: Process
+  Created: 2017-07-14
+  License: MIT
+  Replaces: 0
+</pre>
+
+=El Contrato Social Inteligente.=
+El ''Initial Rights Offering'' de [http://democracy.earth Democracy Earth Foundation].
+
+==Sinopsis.==
+
+[TODO]
+
+==1. Introducción.==
+
+[TODO]
