@@ -1,0 +1,39 @@
+<pre>
+  DEF: 1
+  Titulo: El Contrato Social Inteligente
+  Autores: Santiago Siri <santi@democracy.earth>, Herb Stephens <herb@democracy.earth>.
+  Comments-Summary: No comments yet.
+  Status: Active
+  Type: Process
+  Created: 2017-07-14
+  License: MIT
+  Replaces: 0
+</pre>
+
+=El Contrato Social Inteligente.=
+El ''Initial Rights Offering'' de [http://democracy.earth Democracy Earth Foundation].
+
+==Sinopsis.==
+
+[TODO]
+
+==1. Introducción.==
+
+<blockquote>
+  La democracia es siempre una obra en progreso, nunca es una idea absoluta o de lo contrario sería una ideología totalitaria como todas las demás.
+</blockquote>
+'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', Presidente del Uruguay (2010–2015).
+
+Los sistemas democráticos contemporaneos que gobiernan las sociedades bajo el dominio territorial de Estado-Naciones se han estancado en términos de participación y están conduciendo hacia una mayor polarización. La población electoral tiene acceso a medios de comunicacion hechos a la medida para satisfacer sus propias creencias endogámicas, dividiendo a la sociedad mientras el debate basado en hechos objectivos es reemplazado por una mentalidad posverdad. Esta es una consecuencia de la drástica expansión de canales de comunicación que reducen la atención de las personas, haciendo que el análisis reflexivo sea prescindible. La distribución centralizada de la información del siglo XX creó narrativas, realidades e identidades uniformes. La Internet los ha fracturado. Los casos de participación política en las llamadas democracias modernas no son aptos para contextos de información abundate y han permanecido sin cambios desde sus inicios.
+
+[[File:../../images/bipartizan-votes-us-congress.png|Bi-partizan votes in the U.S. House of Representatives since 1981, source: The Rise of Partizanship (2015).]]
+
+La participación a través de los métodos tradicionales es más débil en las generaciones más jóvenes, [http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do que a menudo no van a votar y es improbable que se involucren en la política partidista]. Mientras tanto el ciberactivismo está aumentando con las redes sociales, convirtiéndose en el escenario dominante de enfrentamientos políticos. Esto incluye Facebook y Twitter (donde la diseminación de chismes es predominante con "noticias falsas", "bots" y "trolling" entre otras optimizaciones de campaña) y las más recientes cámaras de eco como [http://www.4chan.org/ 4chan.org] (donde el anonimato llevó a la incorrección política) o [https://gab.ai/ gab.ai] con la consolidación de la comunidad "alt-right" en los Estados Unidos. De más está decir que la endogamia sólo fortalece la polarización y que no hay solución a la vista dentro de estos servicios, sino más bien el riesgo de reforzar el escenario actual de sociedades tribales y polarizadas relativizando la verdad mientras [https://www.nytimes.com/2017/06/01/climate/trump-paris-climate-agreement.html se arriesga la preservación de recursos].
+
+Procesos democráticos presenciados durante elecciones de alto riesgo son a menudo propensos a jugadas fraudulentas como [https://en.wikipedia.org/wiki/Gerrymandering '' gerrymandering ''], convirtiéndose en algo cada día más común y con un fuerte vínculo entre lo que [https://www.ineteconomics.org/uploads/papers/WP_48_Ferguson_et_al.pdf los principales partidos políticos gastan y el porcentaje de votos que ganan]. En naciones en desarrollo, ese tipo de trampas son aun mas verídicas con la quema de urnas por grandes partidos para sofocar las posibilidades de competidores más pequeños.
+
+Este documento propone una solución que aborda los problemas políticos y técnicos que actualmente debilitan las perspectivas de democracia en el mundo y ofrece una alternativa que puede ser adoptada directamente por los ciudadanos y aplicada mediante redes de par a par. A medida que el Internet se convierte en la fuerza dominante en la política moderna, vemos una necesidad indispensable de desarrollar tecnología digital para votar que pueda desplegarse con seguridad en cualquier ubicación geográfica y para comunidades de cualquier tamaño.
+
+Con el crecimiento del Internet y su adopción por más de [http://www.bbc.com/news/technology-32884867 3 billones de personas] (superando con facilidad las principales religiones y Estado-naciones), más el desarrollo de redes ecriptadas conocidas como '' blockchains '' que permiten transacciones incorruptibles con auditorías sin permisos, no hay razón para impedir que la humanidad construya un espacio común sin fronteras que permita dar forma al siguiente salto evolutivo para la gobernabilidad democrática. Incluso en las regiones donde la penetración de Internet es inferior al 50%, la brecha digital no se basa en factores socioeconómicos, sino en una brecha generacional. Según Rick Falkvinge, fundador del [https://en.wikipedia.org/wiki/Pirate_Party Pirate Party]: "La política se mueve a velocidades glaciales: nada parece ocurrir hasta que de repente un ruido estridente capta la atención de todos. Es lento porque usualmente una generación tiene que morir para que la siguiente pueda hacerse cargo. Y hoy vivimos en un mundo que tiene la generación que crecio sin Internet a cargo y la generación que nacio con Internet en pleno crecimiento".
+
+En un mundo que ha logrado la globalización de los activos financieros y a la misma vez ha mantenido los derechos políticos limitados a territorios específicos, nuevas formas de gobierno tienen que reconocer los bienes comunes de la red que conecta a la humanidad y debilita progresivamente el legado de fronteras nacionales incapaces de abordar temas urgentes como el del cambio climático, el aumento de la desigualdad, el terrorismo, la automatización y las migraciones forzadas. La distribución desigual de oportunidades en todo el mundo debido a la confrontación perpetua entre los gobiernos nacionales ocasionó el surgimiento de estos temas en la agenda global. Creemos que el conjunto tecnológico que incluye [http://bitcoin.com/bitcoin.pdf Bitcoin] como dinero programable sin necesidad de bancos centrales y [http://ethdocs.org/en/latest/index.html Ethereum] que permite contratos inteligentes sin la necesidad de tribunales judiciales, requiere una tercera capa que permita votos incorruptibles más allá de los límites de los Estado-Naciones. Esta red transnacional actuará de acuerdo con la soberanía personal de sus miembros y protegerá sus derechos humanos mediante fundamentos de criptografia. 
