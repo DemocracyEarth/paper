@@ -378,6 +378,16 @@ Members can interact with a collective using ''VOTE'' transactions under differe
 
 With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
 
+===4.1 RIGHT versus DEBT.===
+
+Plato’s “Republic”, the founding work of Western political philosophy, begins with the following question: “What is justice?” To which Kefalos (capital), a wealthy arms manufacturer, says: “pay your debts and don’t lie”. Socrates immediately puts the response into question, but the association of debt, morality and wars remained to be at the root of the economic mental models of our society.
+
+The origins of this mindset can be grasped from the historical context of the origin of coins. Money in the form of coins was first created by the great empires as a means to finance wars, enabling the purchase of provisions for soldiers in distant regions and rewarding them for the battles they won. Soldiers could loot silver and gold from their conquered cities and then exchange it afterwards, as the emperors imposed gold and silver coins onto their citizens, thus creating a market. After distributing coins, empires would also ask for a share of those coins to be given back, a tax, that was directed at the maintenance of the army. The moral narrative was that citizens were <a href="https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290">indebted</a> to the emperor for their security, for being alive.
+
+Debt was transformed from being an oral contract, a promise, to a moral narrative capable to justify any form of coercion possible. Higher agents on vertical hierarchys could now enact forceful coercion onto lower agents: be that in the system of countries, companies or individuals. The transition from a trust economy to this new and impersonal form of trade was - not coincidentaly - the same period where humans began to profoundly question morality and ethics. It is in Miletus, the first Greek city to use coins in everyday transactions, where at the exact same time Greek philosophy was invented. Philosophers were quickly able to grasp the simple problem with inherent debt: the fact that debt in itself implies an arrangement between two legally equivalent entities. It cannot be justified when there is any form of inequality or violent imposition in place. 
+
+As a governance system, Democracy Earth Foundation's own token will be distributed equally as a RIGHT, opposing the debt-moral logic, and  generating a new breeding ground for different models of financial operations between participants of the network. Not based on the possibilities of coercion and need, but instead on the possibility of positive outcomes for both parties. Meanwhile, a system of Universal Basic Income aims to bring equivalence to entities, restoring balance and fairness as the new moral standard.
+
 ===4.1 Basic Income.===
 
 LIQUIDITY is needed for a true democracy to exist.  As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity.  Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right.
@@ -388,12 +398,6 @@ In addition to the VOTE token, DEF is creating a second token, designed to repre
 
 Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an annual basic income would be the equivalent of 200 hours.
 
-
-  PENDING.
-
-===4.2 Gift versus Debt.===
-
-  PENDING.
 
 ===4.3 Bitcoin.===
 
