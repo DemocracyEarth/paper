@@ -184,7 +184,7 @@ The entity or institution implementing a Sovereign instance is referred as a ''C
 
 Every collective has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the collective, setting how open or closed as an institution this entity will be. Some collectives may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
 
-A strict definition in the membership criteria of a collective is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means and an approval protocol is critical. Once a member is approved within a collective, he or she gets a specific amount of ''VOTEs'' to be used for the governance of a collective.
+A strict definition in the membership criteria of a collective is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within a collective, he or she gets a specific amount of ''VOTEs'' to be used for the governance of a collective.
 
 ====2.4.3 <code>Decisions</code>====
 
