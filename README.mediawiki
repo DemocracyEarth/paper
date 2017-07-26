@@ -385,6 +385,22 @@ As a governance system, Democracy Earth Foundation's own token will be distribut
 
 ===4.1 Basic Income.===
 
+The first recorded word for freedom in any human language is the Sumerian word "amargi" which literally means return to mother. That’s what would happen, as debt forgiveness was enacted through the biblical tradition of the Jubilee: debtors got to go home. As we can see, from the origins of the concept, freedom is a financial condition. Traditionally we think about politics and economics as two separate realms, but those divisions are imaginary. What happens in reality is that we operate in a system where the two are inherently connected:
+
+TIME means MONEY;
+
+MONEY means POWER;
+
+POWER means VOTES. 
+
+This system is not compatible with democracy as it disproportionately favors the priviledged few: through their economic power, a tiny percent of the society has the overwhelming majority of the impact over the electoral and legislative process. In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle, adressing the final missing link: with our token(S), 
+
+VOTES mean TIME 
+
+<img width="386" alt="screen shot 2017-07-25 at 4 59 20 pm" src="https://user-images.githubusercontent.com/18194034/28593545-0528fd94-7163-11e7-8e54-7c4fee4f33d8.png">
+
+Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model.
+
 LIQUIDITY is needed for a true democracy to exist.  As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity.  Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right.
 
 In addition to the VOTE token, DEF is creating a second token, designed to represent a citizen's right to be heard in public markets and as power represented by time.  The time token ["HOUR" or "HORA"] will be 'GRANTED', 'DRIPPED' AND 'EARNED' by every *Identified* VOTE token holder.
