@@ -251,23 +251,28 @@ If the final tally of a decision reaches a certain value (<code>true</code> or <
 
 ==3. Liquid.==
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. Because power dislikes being democratized, there are few documented experiences of liquid democracies but all of these offer insights on how to improve its dynamics on future iterations.
+A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (long term thinking, accountability). Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-If Alice has a peer Bob that is knowledgeable on environmentalist issues, then Alice can delegate Bob her voting capacity to have him represent her on any issue with the ‘environment’ tag. At any given time Alice may override Bob’s vote if she is to have a  preference on a specific issue, but for the remaining time Bob will act as Alice’s representative. This representation model is not based on territory but on knowledge and can be applied anywhere with a common language. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (empowering specialized voices, long term thinking, accountability).
+With the ''VOTE'' token, a liquid democracy is constructed with transactions on a blockchain that can be scrutinized by the governed community. There is a set of common transactions that are permitted under liquid democracies:
 
-In the context of a blockchain, as the complexity of delegations increases, for users to be able to track their delegations (and keep delegates accountable) the simplest design for the network to scale requires using tokens that operate as political currency. If Bob receives delegations from Alice, Charlie and Dave, this accounts for the right to have a voting capacity of 4 votes (his own plus the 3 delegations). But at anytime Bob might decide to delegate his votes to Frank whom he considers a more knowledgeable authority. As a delegate he can either send his own vote or decide to transfer any of his received delegations as well. But if Dave does not desire for Frank to delegate the vote he has given to him, he must be able to specify this condition on a smart contract that will limit Frank’s capacity with Dave’s delegated tokens. The guiding principle is that a sovereign voter must always have full rights on how his voting tokens get used.
+* '''Direct Vote''': Any selfish voter is allowed to use his or her tokens to vote directly on issues as in a direct democracy.
+
+* '''Basic Delegation''': Alice may delegate ''VOTEs'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+
+* '''Tag Limited Delegation''': Alice may delegate ''VOTEs'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''VOTEs'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+
+* '''Transitive Delegation''': If Bob received ''VOTEs'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract.
+
+* '''Overriding Vote''': If Bob already used the delegated ''VOTEs'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. All ''VOTEs'' within an organization are tied to their original member allocation and voters always have the final word on any given decision with their own ''VOTEs''.
+
+* '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
 ===3.1 Secrecy.===
 
 Among the few documented liquid democracy implementations there is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the ''golden rule'' of liquid democracies:
 
-<blockquote>
-  If I give you my vote, I can see what you do with it.
-</blockquote>
-
-In the same way congressmen votes are public, on liquid systems competing delegates on any given topic have an incentive to build a public reputation based on their voting record in order to attract more delegations. We consider that a system able to satisfy delegator trust while being coercion resistant must be able to separate vote casting security from vote verification. The implementation of [https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf web based voting system Helios] is able to preserve voter anonymity without corrupting vote integrity. On this system the means to audit a vote can be verified with a private key issued for the voter once the vote is cast. Under a liquid democracy context, the audit key is generated for every delegator in the smart contract establishing the rules for the tokens sent to a delegate that will represent the delegator’s interest.
 
 ===3.2 Delegations.===
 
