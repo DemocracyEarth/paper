@@ -184,9 +184,9 @@ Simplicity in the design and language used to express this design matters for th
 
 In terms of User Experience ("UX"), [http://sovereign.software Sovereign] provides an adaptive web and mobile application that is able to operate with blockchain voting tokens. It has been developed using javascript since it's a language that can run on any kind of computer and currently has the greatest support from the open source community.
 
-[[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
-
 ''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
+
+[[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
 ====2.4.1 <code>Organizations</code>====
 
