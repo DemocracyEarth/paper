@@ -198,24 +198,24 @@ Every Organization has members that get the right to vote on the decisions of th
 
 A strict definition in the membership criteria of an organization is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''VOTEs'' to be used for its governance.
 
-Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended. 
+Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
 
 ====2.4.3 <code>Decisions</code>====
 
 An organization consists of a collection of contracts each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has this properties:
 
 * <code>Description</code>: Text of the decision to be made.
-* <code>Tags</code>: Categories that describe this decision within the organization. This helps members navigate across decisions, define sub-areas or teams within an organization and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing a fixed taxonomy, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
-* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if a Organization's governance rules allows it.
+* <code>Tags</code>: Categories that describe this decision within the organization. This helps members navigate across decisions, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing a fixed taxonomy, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
+* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if an organization's governance rules allows it.
 * <code>Ballot</code>: The presented options for voters to participate on this decision.
 * <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
 * <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
-** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens are returned to the corresponding voters and can be used again on future decisions.
-** '''Strategical''' (''Time unlimited''): Never-ending, open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of a Organization.
+** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
+** '''Strategical''' (''Time unlimited''): Never-ending open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of an organization.
 
 ====2.4.4 <code>Ballot</code>====
 
-A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the Organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
+A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
 =====2.4.4.1 <code>Interface</code>=====
 
@@ -227,25 +227,25 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 
 =====2.4.4.2 <code>Options</code>=====
 
-In order to enable the information processing of the ''VOTE'' tokens, ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
+In order to enable the information processing of ''VOTEs'', ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
 * <code>True</code>: It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
 * <code>False</code>: Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
-* <code>Linked</code>: The option is connected to another decision within the Organization.
-* <code>Candidate</code>: A member or list of members from the Organization. This helps elect authorities within the Organization or it can be used for membership approvals.
+* <code>Linked</code>: The option is connected to another decision within the organization.
+* <code>Candidate</code>: A member or list of members from the organization. This helps elect authorities within the organization or it can be used for membership approvals.
 
 =====2.4.4.3 <code>Criteria</code>=====
 
-Finally, counting methods for the final or ongoing result of a decision within a Organization.
+Finally, counting methods for the final or ongoing result of a decision within an organization.
 
 * '''Plurality Voting''': Simple majority wins decision.
 * '''Majority Voting''': A minimum percentage is required for winning decision.
-* '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on party lists.
+* '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on member lists.
 * '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 
 ====2.4.5 <code>Budget</code>====
 
-If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the signature holders of a wallet or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
+If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the private key owners of an address or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
 
 ----
 
