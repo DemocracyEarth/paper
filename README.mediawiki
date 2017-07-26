@@ -120,7 +120,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-==2. VOTE.==
+==2. Token.==
 
 An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
 
@@ -174,7 +174,7 @@ We believe there is a clear lesson to be learned from this: the need for governa
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
 </blockquote>
 
-But it is important to state that we are not aiming for a democratic system based on mob-rule or blind [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. The past century offers sufficient examples on how a majority vote can end up failing the aspirations of a republic often putting demagogues in power. Our aim is to deliver a system able to guarantee the greatest amount of legitimacy in terms of participation while empowering the most knowledgeable voices to address the pressing issues faced by humanity. For this purpose, the model of a liquid democracy is able to satisfy these goals by having the ''VOTE'' token becoming a knob for voters to keep sovereign control. Liquid democracy organizations can still enable the participation of AIs within them, even letting bots receive ''VOTE'' delegations as if they where voting members as well. But it is important to set a clear understanding of the governance boundaries of these organizations by specifying the smart contract building blocks they require.
+But it is important to state that we are not aiming for a democratic system based on mob-rule or blind [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. The past century offers sufficient examples on how a majority vote can end up failing the aspirations of a republic often putting demagogues in power. Our aim is to deliver a system able to guarantee the greatest amount of legitimacy in terms of participation while empowering the most knowledgeable voices to address the pressing issues faced by humanity. For this purpose, the model of a liquid democracy is able to satisfy these goals by having the ''VOTE'' token becoming a lever for voters to keep sovereign control. Liquid democracy organizations can still enable the participation of AIs within them, even letting bots receive ''VOTE'' delegations as if they where voting members. But it is important to set a clear understanding of the governance boundaries of these organizations by specifying its smart contract building blocks.
 
 ===2.4 Smart Contracts.===
 
