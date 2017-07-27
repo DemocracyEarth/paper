@@ -421,7 +421,8 @@ In addition to the VOTE token, DEF is creating a second token, designed to repre
 
 1 UNIT =  1 HOUR
 
-Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an annual basic income would be the equivalent of 200 hours.
+Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an annual basic income would be the equivalent of 200 hours. It means that any organization deciding to adopt this currency has a 10% discount on the compensation it pays for its colaborators. 
+
 
 
 ===4.3 Bitcoin.===
