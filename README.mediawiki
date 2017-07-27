@@ -192,15 +192,15 @@ With the ''VOTE'' token, a liquid democracy is constructed with transactions on 
 
 ===2.4 UX.===
 
-Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations. We took the lessons learned from them to help define key aspects of the user experience provided by Sovereign.
+Because power dislikes being democratized, documented experiences of liquid democracies are few but offer insights on how to improve its dynamics on future iterations. We took the lessons learned from them to help define key aspects of the user experience provided by Sovereign.
 
 ====2.4.1 Liquid.====
 
-[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to vendor preferences. The key finding from this research was the lack of delegations: only 3.6% of votes were effectively delegated, making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
+[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to deciding the lunch menu. The key finding from this research was the lack of delegations: only 3.6% of votes were delegated making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
 
-We believe that it is key to provide a user experience that makes a delegation interaction immediate and simple reducing any kind of friction in the process and constantly exposing this option on the interface. For this purpose, the main widget on the Sovereign app is a ''liquid bar'' that is able to effectively communicate to the user his available tokens for any given decision or delegation (and the percentage of tokens currently placed either on ongoing polls or delegations). We see this interaction as an evolved deisgn from the ''like'' button pattern found in social media.
+We believe that it is key to provide a user experience that makes the delegation interaction immediate and simple reducing any kind of friction in the process. The delegation widget must be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that is able to effectively communicate to the user his available ''VOTEs'' to cast for any decision or delegation. We see this interaction as a step forward from the ''like'' pattern found in social media limiting voting interactinos to a single click or tap.
 
-  PENDING.
+[[File:/images/liquid-mobile-ux.png|Blockchain democracies enable permissionless audits.]]
 
 ====2.4.2 Delegations.====
 
