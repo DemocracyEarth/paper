@@ -19,11 +19,6 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 ==1. Introduction.==
 
-<blockquote>
-  Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
-</blockquote>
-'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
-
 Current democratic systems governing societies under the territorial domain of Nation-States have grown stagnant in terms of participation and are leading towards increased polarization. Constituencies are provided with tailor-made media that satisfies their own endogamic beliefs, pulling society apart as discourse and factual debate are replaced with a post-truth mindset. This is a consequence of the drastic expansion in communication channels that shrank attention spans rendering thoughtful analysis expendable. Centralized 20th century information distribution created uniform narratives, realities and identities. The Internet has fractured them. Instances of political participation in the so-called modern democracies are not apt for information abundant contexts and have remained without change since their inception.
 
 [[File:/images/bipartizan-votes-us-congress.png|Bi-partizan votes in the U.S. House of Representatives since 1981, source: The Rise of Partizanship (2015).]]
@@ -75,7 +70,7 @@ This happened two weeks before the US 2016 election when a botnet coordinated th
 <blockquote>
 In the near future, electrons and light flow freely, and corporate computer networks eclipse the stars. Despite great advances in computerization, countries and race are not yet obsolete…
 </blockquote>
-'''Introduction text''' on ''Ghost in the shell'' (1995).
+'''''Ghost in the shell''''', novel (1995).
 
 The 21st century is witnessing a growing conflict between ''The Land'': governments that monopolize the law on territorial jurisdictions by restricting the free movement of physical goods and bodies; and ''The Cloud'': corporations that monopolize access to user data able to track and target ideas via personalized advertising. In this world freedom is an illusion: our bodies belong to governments, our minds to corporations. Notorious battles from this conflict include the [https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute ''Apple versus FBI''] case requesting the jailbreak of an encrypted phone; or the historical dispute between [https://www.washingtonpost.com/news/the-switch/wp/2017/03/06/trumps-new-travel-ban-raises-the-same-silicon-valley-objections/?utm_term=.0854c54536d6 Silicon Valley’s cosmopolitanism seeking flexible visas and Washington D. C.’s nationalism raising migration barriers]. As this scenario unfolds, encryption plays a role of growing significance to protect the human rights of digital citizens as it can help them break apart from the ''cloud versus land'' trap.
 
@@ -121,17 +116,22 @@ Sovereign technology able to operate in peer to peer networks, preserving anonym
 
 Throughout history only three kinds of sovereigns prevailed: the ''sovereign tribe'' where a crowd follows a leader; the ''sovereign king'' loyal only to God; and the ''sovereign republic'' with continental lands governed under one law. Blockchains operating in cyberspace are giving rise to a fourth kind: the ''networked individual''. It’s not a far fetched possibility: conquering [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 personal sovereignty] is already a reality for those who run their finances with bitcoin and other crypto hodlings. As investor [http://twitter.com/naval Naval Ravikant] puts it: “You can cross an international border carrying a billion dollars in bitcoin entirely in your head.” This kind of sovereign act is unprecedented even for contemporaneous Heads of State.
 
-The widespread adoption of blockchains is giving rise to a model that initially grew under the shadows of established institutions but eventually will render them obsolete. Blockchains are automated bureaucracies that offer significant financial benefits in terms of transaction costs while completely abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose by restricting the right to vote or limiting access to capital. A technologically advanced society can flourish beyond territorial domains anywhere there is an internet connection with digital citizens emerging as a new kind of diaspora.
-
 ----
 
-==2. Democracy.==
+==2. Digital Democracy.==
 
-A liquid democracy is a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (long term thinking, accountability).
+<blockquote>
+  Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
+</blockquote>
+'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies. In a digital context, a liquid democracy is the most scalable and inclusive form of participation that can be built with software.
+Today's democracies are the birthchilds of the ''Printing Press Era''. The size of a Nation-State is ultimately limited by the capacity of central control a capital city has over a territorial domain. A printed constitutional system based on contracts and the speed of the postal service were the information technologies that led to a representative system. If the American or French revolutions were to happen again in the 21st century it is unlikely that a similar political outcome would happen. The Internet and the interactive nature of software opens up unprecedented possibilities for governance. Social media has already disrupted political discourse anywhere there is free speech: now every Head of State has the obligation to use a Twitter handle (at least). But as digital technology keeps evolving with blockchains enabling cryptographic transactions of all kinds, global citizenship will emerge as a diaspora governing itself under a new model that makes the existing model obsolete. Blockchains are automated bureaucracies that offer significant benefits in terms of transaction costs while completely abstracting the need of trusted intermediaries. They enable systems of free association that help break political and financial coercion that governments and banks impose either by restricting the right to vote or limiting access to capital.
+
+A liquid democracy is the most scalable and inclusive form of participation that can be built with software. It is a dynamic representation model that works with a bottom-up approach: citizens are able to elect within their social graph (friends, colleagues, family) who they want to have as their delegates representing their interests on specific topics. Liquid democracies help bridge the key attributes of direct democracies (legitimacy and sovereignty) with the best characteristics of representative democracy (long term thinking and accountability).
+
+There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
 
 ===2.1 Token.===
 
