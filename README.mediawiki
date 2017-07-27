@@ -416,7 +416,7 @@ This system is not compatible with democracy as it disproportionately favors the
 
 VOTES mean TIME
 
-<img width="386" alt="screen shot 2017-07-25 at 4 59 20 pm" src="https://user-images.githubusercontent.com/18194034/28593545-0528fd94-7163-11e7-8e54-7c4fee4f33d8.png">
+<img width="200" alt="screen shot 2017-07-27 at 12 02 14 am" src="https://user-images.githubusercontent.com/18194034/28652569-e61d4c14-725e-11e7-8f2b-32a95a52bea4.png">
 
 Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model.
 
