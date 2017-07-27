@@ -247,15 +247,15 @@ Finally, counting methods for the final or ongoing result of a decision within a
 
 If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the private key owners of an address or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
 
-----
+===2.5 Liquid.===
 
-==3. Liquid.==
+A liquid democracy is a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (long term thinking, accountability).
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. Liquid democracies bridge key attributes of direct democracies (legitimacy, voter sovereignty) with the best characteristics of representative democracy (long term thinking, accountability). Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations.
+There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies. In a digital context, a liquid democracy is the most scalable and inclusive form of participation that can be built with software.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-With the ''VOTE'' token, a liquid democracy is constructed with transactions on a blockchain that can be scrutinized by the governed community. There is a set of common transactions that are permitted under liquid democracies:
+With the ''VOTE'' token, a liquid democracy is constructed with transactions on a blockchain that can be scrutinized by the governed community. This is the set of common transactions that are permitted under liquid democracies:
 
 * '''Direct Vote''': Any selfish voter is allowed to use his or her tokens to vote directly on issues as in a direct democracy.
 
@@ -269,18 +269,17 @@ With the ''VOTE'' token, a liquid democracy is constructed with transactions on 
 
 * '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
-===3.1 Secrecy.===
+===2.6 Experiences.===
 
-Among the few documented liquid democracy implementations there is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Engineer Steve Hardt created a liquid democracy plug-in to be used on the internal network of Google+ made for the employees of the company. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The published paper states the ''golden rule'' of liquid democracies:
+Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations.
 
+====2.6.1 Google Votes.====
 
-===3.2 Delegations.===
-
-Another key finding from the Google Vote implementation was the lack of delegations: only 3.6% of votes were effectively delegated, keeping the system a direct democracy for the most part. Aligned with this finding, blockchain liquid democracy enables the *right* to delegate or vote directly; it is not required or expected that direct paricipation or delegation will increase.  In today's political arenas, such delegation rights exist, they simply are allowed every few years and then frozen until next scheduled election.
+[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The key finding from this research was the lack of delegations: only 3.6% of votes were effectively delegated, making the system a direct democracy for the most part. 
 
   PENDING.
 
-====3.3 Quadratic.====
+===2.7 Quadratic Voting.===
 
 When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates and led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation rather than less. For this purpose a key setting on any liquid democracy system is to enable [http://ericposner.com/quadratic-voting/ quadratic voting when it comes to delegations], where the cost for Alice to delegate votes to Bob increases exponentially. Alice may only be able to delegate Bob one, 2, 4, 8, 16 or even 128 or 512 votes hence making any significant delegation to him tax the delegator by drastically reducing her opportunity cost of delegating to other members. These will prevent the rise of any monopolies or duopolies within the market dynamics of the system, always granting an incentive to participate for every member of an organization.
 
@@ -289,14 +288,7 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 ----
 
-===2.6 Utility.===
-
-
-===2.7 Divisibility.===
-
-  PENDING.
-
-==3. Politics.==
+==3. Democracy Earth.==
 
 For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
 
