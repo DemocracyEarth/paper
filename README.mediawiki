@@ -269,19 +269,27 @@ With the ''VOTE'' token, a liquid democracy is constructed with transactions on 
 
 * '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
-===2.6 Experiences.===
+===2.6 UX.===
 
-Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations.
+Because power dislikes being democratized, documented experiences of liquid democracies are few but all of these offer insights on how to improve its dynamics on future iterations. We took the lessons learned from them to help define key aspects of the user experience provided by Sovereign.
 
-====2.6.1 Google Votes.====
+====2.6.1 Liquid Bar.====
 
-[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to setting vendor preferences. The key finding from this research was the lack of delegations: only 3.6% of votes were effectively delegated, making the system a direct democracy for the most part. 
+[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to vendor preferences. The key finding from this research was the lack of delegations: only 3.6% of votes were effectively delegated, making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
+
+We believe that it is key to provide a user experience that makes a delegation interaction immediate and simple reducing any kind of friction in the process and constantly exposing this option on the interface. For this purpose, the main widget on the Sovereign app is a ''liquid bar'' that is able to effectively communicate to the user his available tokens for any given decision or delegation (and the percentage of tokens currently placed either on ongoing polls or delegations). We see this interaction as an evolved deisgn from the ''like'' button pattern found in social media.
 
   PENDING.
 
-===2.7 Quadratic Voting.===
+====2.6.2 Quadratic Voting.====
 
-When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates and led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation rather than less. For this purpose a key setting on any liquid democracy system is to enable [http://ericposner.com/quadratic-voting/ quadratic voting when it comes to delegations], where the cost for Alice to delegate votes to Bob increases exponentially. Alice may only be able to delegate Bob one, 2, 4, 8, 16 or even 128 or 512 votes hence making any significant delegation to him tax the delegator by drastically reducing her opportunity cost of delegating to other members. These will prevent the rise of any monopolies or duopolies within the market dynamics of the system, always granting an incentive to participate for every member of an organization.
+When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates that led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. Also, a potential scenario that can unfold with a widespread liquid democracy is having ''celebrities'' or well known members suddenly being able to attract most of the delegated votes. An attacker willing to subvert a liquid democracy can promote a superstar on television wearing a QR code to get a sudden influx of delegations in the exposed address from fans and viewers, instantly becoming a monopolizing force.
+
+For this purpose a key setting on a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting when it comes to delegations]. This means that the cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic voting, Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation transaction tax the delegator by drastically reducing the opportunity cost of delegating to other members. This method prevents the rise of any monopolies or duopolies within the market dynamics of liquid democracies, granting an incentive to participate for every member of an organization. But if any user desires to delegate a significant amount of ''VOTEs'' to another member, it comes with the price of becoming powerless.
+
+====2.6.3 Micro Content.====
+
+When the German Pira
 
   PENDING. Content splitting. Colombia. Interface. Semantics.
 
