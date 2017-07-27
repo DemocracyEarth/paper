@@ -72,6 +72,11 @@ This happened two weeks before the US 2016 election when a botnet coordinated th
 
 ===1.4 Land vs. Cloud.===
 
+<blockquote>
+In the near future, electrons and light flow freely, and corporate computer networks eclipse the stars. Despite great advances in computerization, countries and race are not yet obsolete…
+</blockquote>
+'''Introduction text''' on ''Ghost in the shell'' (1995).
+
 The 21st century is witnessing a growing conflict between ''The Land'': governments that monopolize the law on territorial jurisdictions by restricting the free movement of physical goods and bodies; and ''The Cloud'': corporations that monopolize access to user data able to track and target ideas via personalized advertising. In this world freedom is an illusion: our bodies belong to governments, our minds to corporations. Notorious battles from this conflict include the [https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute ''Apple versus FBI''] case requesting the jailbreak of an encrypted phone; or the historical dispute between [https://www.washingtonpost.com/news/the-switch/wp/2017/03/06/trumps-new-travel-ban-raises-the-same-silicon-valley-objections/?utm_term=.0854c54536d6 Silicon Valley’s cosmopolitanism seeking flexible visas and Washington D. C.’s nationalism raising migration barriers]. As this scenario unfolds, encryption plays a role of growing significance to protect the human rights of digital citizens as it can help them break apart from the ''cloud versus land'' trap.
 
 [[File:/images/the-land.png|The land: monopolies on force.]]
