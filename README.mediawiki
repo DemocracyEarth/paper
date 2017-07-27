@@ -19,6 +19,11 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 ==1. Introduction.==
 
+<blockquote>
+  Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
+</blockquote>
+'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
+
 Current democratic systems governing societies under the territorial domain of Nation-States have grown stagnant in terms of participation and are leading towards increased polarization. Constituencies are provided with tailor-made media that satisfies their own endogamic beliefs, pulling society apart as discourse and factual debate are replaced with a post-truth mindset. This is a consequence of the drastic expansion in communication channels that shrank attention spans rendering thoughtful analysis expendable. Centralized 20th century information distribution created uniform narratives, realities and identities. The Internet has fractured them. Instances of political participation in the so-called modern democracies are not apt for information abundant contexts and have remained without change since their inception.
 
 [[File:/images/bipartizan-votes-us-congress.png|Bi-partizan votes in the U.S. House of Representatives since 1981, source: The Rise of Partizanship (2015).]]
@@ -121,9 +126,10 @@ Throughout history only three kinds of sovereigns prevailed: the ''sovereign tri
 ==2. Digital Democracy.==
 
 <blockquote>
-  Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
+  “What happened to the governments?” I inquired. 
+  “It is said that they gradually fell into disuse. Elections were called, wars were declared, taxes were levied, fortunes were confiscated, arrests were ordered, and attempts were made at imposing censorship — but no one on the planet paid any attention. The press stopped publishing pieces by those it called its ‘contributors,’ and also publishing their obituaries. Politicians had to find honest work; some became comedians, some witch doctors — some excelled at those occupations…”
 </blockquote>
-'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President of Uruguay (2010–2015).
+'''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
@@ -438,11 +444,6 @@ The era of mass market communications where companies avoided taking political s
 
 ===4.4 End Game.===
 
-<blockquote>
-  “What happened to the governments?” I inquired. 
-  “It is said that they gradually fell into disuse. Elections were called, wars were declared, taxes were levied, fortunes were confiscated, arrests were ordered, and attempts were made at imposing censorship — but no one on the planet paid any attention. The press stopped publishing pieces by those it called its ‘contributors,’ and also publishing their obituaries. Politicians had to find honest work; some became comedians, some witch doctors — some excelled at those occupations…”
-</blockquote>
-'''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
 
   PENDING.
 
