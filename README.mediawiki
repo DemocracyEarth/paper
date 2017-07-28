@@ -87,7 +87,7 @@ The origins of digital cryptography go back to World War II when Alan Turing bui
 
 Secrecy is a fundamental property of free and fair elections as it is a mechanism that helps avoid coercion from those in power and prevents the risk of elections being bought and sold for money. Privacy is the best guarantee a conscious free mind has to think for itself. But on the modern internet: privacy is illusory when using Facebook, Google or any web based service. Even though Internet monopolies pretend being the gatekeepers of online privacy, theoretically Facebook can still impersonate any of its 2 Billion registered users if they ever wanted to. Google and Facebook hold the largest identity databases in the world surpassing the governments of India and China, while [https://twitter.com/AdrianChen/status/832452637320556544 97% of their reported revenue comes from advertising] severely conditioning the kind of experience that users get with their technology. It is in their interest to gather as much information as possible to profile people in order to stay competitive in the attention market and both companies filter information fed to users with [https://medium.com/@piamancini/future-scenarios-for-algorithmic-accountability-and-governance-17cd436d22a0 algorithms accountable] to anyone but their own board. None of their services are really free: personal sovereignty is given away in the same way the natives in the American continent got distracted watching their own ''selfies'' in shiny mirrors 500 years ago while the European conquistadors swept their entire way of life at a whim. Uncensored, free and sovereign debates on the future of humanity are being eaten by useless ''likes'' that only help perpetuate these corporate entities. ''Fake news exploits'' (as they were used during the U.S. elections) or critical content spreading like wildfire (as it happened during the ''Arab Spring'') demonstrates that any effort to stop international influence on national politics is futile as societies spend their most of their time online. The Internet is incompatible with Nation-States.
 
-===1.5 Artificial Intelligence.===
+===1.5 Intelligence.===
 
 <blockquote>
   I can’t let you do that, Dave.
@@ -100,7 +100,7 @@ A looming threat is the use of unrestricted Artificial Intelligence (AI) that ge
 
 The issue on AI deciding on the fate of human lives opens up ethical and moral questions. Eventually not even human researchers are able to properly understand how an AI is behaving, becoming a threat if it is a key component of military grade technology. According to author Yuval Noah Harari: “intelligence is breaking apart from living organisms and it won’t be monopolized by carbon beings for long.” Consciousness is the new political frontier being drawn. A line between machines and humans. In other words: understanding whether we are using the machines or the machines are using us. How we structure human organizations —and govern the code running them— defines who is in charge. As the capacity of silicon intelligence matches Moore’s Law growth rates, humanity as a whole must ask itself how is going to govern the reins of this unprecedented power.
 
-===1.6 Sovereign Technology.===
+===1.6 Sovereignty.===
 
 <blockquote>
   Sovereign is he who decides to be the exception.
@@ -187,11 +187,9 @@ The ''VOTE'' token will operate as a currency for digital democracy and it can i
 
 ===2.4 UX.===
 
-Because power dislikes being democratized, documented experiences of liquid democracies are few but offer insights on how to improve its dynamics on future iterations. We took the lessons learned from them to help define key aspects of the user experience provided by Sovereign.
+User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the UI and UX can be owned by the user and must therefore emanate from the user's perspective. A user transacts with the world in only three distict modes: 1) as self, 2) as part of an organization or 3) annonymously. This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our UX and token designs.
 
 ====2.4.1 Liquid.====
-
-Among the most notable research projects on liquid democracy there is the effort of [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. With it he tested different ballot and tallying methods having over 15,000 participants making 371 decisions on a wide range of issues. The key finding from this project was the lack of delegations: only 3.6% of votes were delegated making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
 
 We believe that it is key to provide a user experience that makes the delegation interaction immediate and simple. Any friction in the process must be avoided at all costs and the delegation widget must be constantly exposed on the interface while browsing issues or looking at member profiles. Sovereign uses a ''liquid bar'' that is able to let the user perform these actions:
 
@@ -210,6 +208,8 @@ We believe that it is key to provide a user experience that makes the delegation
 We see this interaction as a step forward from the ''like'' pattern found in social media limiting voting interactinos to a single click or tap. A liquid context operating with ''VOTEs'' as tokens in a blockchain requires a proper communication of a user's current balance and the ability to easily trigger a transaction with one gesture.
 
 ====2.4.2 Delegations.====
+
+Among the most notable research projects on liquid democracy there is the effort of [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. With it he tested different ballot and tallying methods having over 15,000 participants making 371 decisions on a wide range of issues. The key finding from this project was the lack of delegations: only 3.6% of votes were delegated making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
 
 When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates that led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. Also, a potential scenario that can unfold with a widespread liquid democracy is having ''celebrities'' or well known members suddenly being able to attract most of the delegated votes. An attacker willing to subvert a liquid democracy can promote a superstar on television wearing a QR code to get a sudden influx of delegations in the exposed address from fans and viewers, instantly becoming a monopolizing force.
 
