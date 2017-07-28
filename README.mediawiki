@@ -128,6 +128,11 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ==2. Democracy.==
 
+<blockquote>
+  Today, having a voice is an accident of birth.
+</blockquote>
+[https://twitter.com/piamancini '''Pia Mancini'''], at OuiShare Fest 2017.
+
 A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Today's democracies are the birthchilds of the ''Printing Press Era''. The size of a Nation-State is ultimately limited by the capacity of central control a capital city has over a territorial domain. A printed constitutional system based on contracts and the speed of the postal service were the information technologies that led to representative systems. If the American or French revolutions were to happen again in the 21st century it is unlikely that a similar political outcome would happen.
 
 The Internet and the interactive nature of software opens up unprecedented possibilities for governance. Social media already disrupted political discourse anywhere there is free speech: for instance every Head of State has the need to use a Twitter handle. But as digital technology keeps evolving with blockchains enabling cryptographic transactions, global citizenship will emerge as a diaspora governing itself under a new model that makes the existing model obsolete. Blockchains are automated bureaucracies that offer significant benefits by abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose either by restricting the right to vote or limiting access to capital.
