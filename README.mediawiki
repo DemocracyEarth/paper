@@ -121,7 +121,6 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-
 ==2. Democracy.==
 
 <blockquote>
@@ -203,33 +202,37 @@ We believe that it is key to provide a user experience that makes liquid voting 
 
 [[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
 
-* '''Check available ''VOTEs''''': Since in a liquid democracy a user can have 1 or more delegated ''VOTEs'', having a constant reminder of the balance matters. If some of the ''VOTEs'' were delegated with strict conditions (e.g. limited to specific tags), this means that a user won't have the same amount of ''VOTEs'' available to spend on every issue.
+The ''liquid bar'' allows a user to perform these actions:
+
+* '''Check available ''VOTEs''''': Since in a liquid democracy a user can have 1 or more delegated ''VOTEs'', having a constant reminder of the balance helps the user understand his current power within the system. If some of the ''VOTEs'' were delegated with strict conditions (e.g. limited to specific tags), this means that a user won't have the same amount of ''VOTEs'' available to spend on every issue.
 
 * '''Check allocated ''VOTEs''''': A percentage value with the amount of ''VOTEs'' currently cast on other decisions or delegated to other members of the communtiy is shown. The user can tap or click at any time on that value to view a complete list of the issues where he's currently having a ''VOTE'' and decide whether to keep them there or change his mind.
 
-* '''Slide and ''VOTE''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he will be prompted a confirmation whether to make the ''VOTE'' transaction or not.
+* '''Slide and ''VOTE''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he will be prompted a confirmation request whether to ''VOTE'' or not.
 
-* '''Tap and ''VOTE''''': If the user does not want to allocate more than 1 vote, he can simply tap on the ''liquid bar'' handle once and he will be prompted to confirm the transaction for a single ''VOTE''.
+* '''Tap and ''VOTE''''': If the user does not want to allocate more than 1 vote, he can simply tap on the ''liquid bar'' handle once and he will be prompted to confirm the singe ''VOTE'' transaction.
 
-* '''Remove ''VOTEs''''': At any time, as long as the poll is still open, the user may remove his ''VOTEs'' from it by simply sliding the ''liquid bar'' handle back to the initial position.
+* '''Remove ''VOTEs''''': At any time, as long as the poll is still open, the user may remove his ''VOTEs'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media limiting voting interactinos to a single click or tap. A liquid context operating with ''VOTEs'' as tokens in a blockchain requires a proper communication of a user's current balance and the ability to easily trigger a transaction with one gesture.
+We see this interaction as a step forward from the ''like'' pattern found in social media that limits voting to clicks.
 
 ====2.4.2 Delegations.====
 
-The same implementation of the ''liquid bar'' also permits having a clear view on the ''VOTE'' delegation status a Sovereign user can have with any other member of an organization. Delegations go both ways: a user must be able to understand how many ''VOTEs'' he has received from someone else, while also be able to delegate any of his avaialble ''VOTEs''. Every time a user profile is displayed on Sovereign, the overall current delegation status is shown.
+The same implementation of the ''liquid bar'' also permits having a clear view on the ''VOTE'' delegation status a Sovereign user can have with any other member of an organization. Delegations go both ways: a user must be able to understand how many ''VOTEs'' he has received from someone else, while also be able to delegate any of his available ''VOTEs''. Every time a user profile is displayed on Sovereign, the overall current delegation status is shown.
 
 [[File:/images/delegation-relation-votes.png|View of vote delegation relation with another member.]]
 
-Sovereign also has a debating component for every issue codenamed ''agora''. Debating is likely as important as voting on any democracy. Agoras display ''threaded conversations'', a design made popular by [http://reddit.com Reddit] and [http://news.ycombinator.com Hacker News], since we consider this UX pattern as the best way to engage in thoughtful conversations, helping the most valued comments from the community to bubble up. But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite ''upvotes'' or ''downvotes'', if the user agrees with a comment from someone else in the platform by tapping the ''upvote'' button, this will trigger an instantaneous delegation of a single ''VOTE''. On the contrary, if a user disagrees with someone's comment, the ''downvote'' button can either retrieve a ''VOTE'' from the commenter to the user (if he has previously delegated any) or activate a single ''VOTE'' transaction to the organization running the Sovereign instance as a penalty. We believe this will make delegations more frequent across the platform. And as political debate becomes exposed to an environment always open to token transactions, develop a mechanisms that can reward good arguments and punish trolling attitudes.
+====2.4.3 Debate.====
 
-=====2.4.2.1 Protections.=====
+Sovereign also has a debating component for every issue codenamed ''agora''. Debating is likely as important as voting on any democracy. Agoras display ''threaded conversations'', a design made popular by [http://reddit.com Reddit] and [http://news.ycombinator.com Hacker News], since we consider this UX pattern as the best way to engage in thoughtful conversations online. The most valued comments bubble up and helps sort the information of a debate using the collective intelligence of the community. But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite ''upvotes'' or ''downvotes'', if the user agrees with a comment from someone else in the platform by tapping the ''upvote'' button, this will trigger an instantaneous delegation of a single ''VOTE''. On the contrary, if a user disagrees with someone's comment, the ''downvote'' button can either retrieve a ''VOTE'' from the commenter to the user if he has previously delegated ''VOTEs''. We believe this will make delegations more frequent across the platform and as political debate becomes exposed to an environment always open to token transactions, develop a mechanisms that can reward good arguments and severely punish trolling attitudes.
+
+====2.4.5 Protections.====
 
 Among the most notable research projects on liquid democracy there is the effort of [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. With it he tested different ballot and tallying methods having over 15,000 participants making 371 decisions on a wide range of issues. An insight from this project was the lack of delegations: only 3.6% of votes were delegated making the system a direct democracy for the most part. Delegations occured mostly among those users who actively campaigned to attract them. With this into consideration, the Sovereign UX needs constant iteration to help turn delegations a common habit and enable them not just in the application itself but also using other communication protocols so delegations can happen withing third party messaging applications or even tweets and e-mails sent with ''VOTE'' QR codes attached to them.
 
-On the other side of the spectrum, when the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates that led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. In liquid democracies ''celebrities'' can become extremely influential being able to attract most of the delegated votes: an attacker willing to subvert an election can promote a TV star wearing a QR code to get a sudden influx of delegations in the exposed address from fans and viewers, instantly becoming a monopolizing force.
+On the other side of the spectrum, when the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates that led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members. The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. In liquid democracies ''celebrities'' can become extremely influential being able to attract most of the delegated votes. An attacker willing to subvert an election can promote a TV star wearing a QR code to get a sudden influx of delegations from fans and viewers, instantly becoming a monopolizing force.
 
-For this purpose a key setting on a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] when it comes to delegations. This means that the cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' (from a limited original amount) but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to other members. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participatoin of all members relevant. Monopolies are a threat to liquid democracy environments since they can disincentivize participatoin from less fortunate voters and hijack the legitmacy of the decisions being made. But since some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can be disabled in the settings of a Sovereign implementation.
+For this purpose a key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] when it comes to delegations. This means that the cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to other members. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. Monopolies are a threat to liquid democracies since they can disincentivize less fortunate voters to participate, hijacking the legitmacy of the decisions being made. But if some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the settings of a Sovereign implementation.
 
 ===2.5 Governance.===
 <blockquote>
@@ -241,7 +244,7 @@ Corporations and public institutions are prone to corruption because decisions o
 
 Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources.
 
-With [http://sovereign.software Sovereign] we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization to participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components will help establishing the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members and if public, to everyone.
+With Sovereign we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization to participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components will help establishing the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members and if public, to everyone.
 
 ===2.6 DAOs.===
 
@@ -261,7 +264,7 @@ The modern architecture for computing machines designed by John von Neumann spec
 
 Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. At the same time, a democratic system should incentivize the pursuit of acquiring greater amounts of knowledge by the voters since the quality of a democracy will always be as good as the quality of the voters. Thoughtful debate and deliberation is a process as critical as the act of voting itself.
 
-In terms of User Experience ("UX"), [http://sovereign.software Sovereign] provides an adaptive web and mobile application that is able to operate with blockchain voting tokens. It has been developed using javascript since it's a language that can run on any kind of computer and currently has the greatest support from the open source community.
+In terms of User Experience [http://sovereign.software Sovereign] provides an adaptive web and mobile application that is able to operate with blockchain voting tokens. It has been developed using javascript since it's a language that can run on any kind of computer and currently has the greatest support from the open source community.
 
 ''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
@@ -325,7 +328,6 @@ Finally, counting methods for the final or ongoing result of a decision within a
 ====2.7.5 <code>Budget</code>====
 
 If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the private key owners of an address or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
-
 
 ----
 
