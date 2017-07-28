@@ -128,11 +128,19 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 </blockquote>
 [https://twitter.com/piamancini '''Pia Mancini'''], at OuiShare Fest 2017.
 
-A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems based on contracts and the speed of the postal service were the information technologies that led to representative systems. If the American or French revolutions were to happen again in the 21st century it is unlikely that a similar political outcome would happen.
+A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems based on contracts and the speed of the postal service were the information technologies that led to representative systems.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. Our design offers the building blocks to permit any organization establish their own kind of democratic governance. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that has led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+
+This paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], a web and mobile application for democratic governance that operates with blockchain tokens and a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+
+<blockquote>
+  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
+</blockquote>
+
+With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptocurrency. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power. Our aim is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices.
 
 ===2.1 Decentralization===
 
@@ -243,35 +251,25 @@ Corporations and public institutions are prone to corruption because decisions o
 
 Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources.
 
-With Sovereign we are aiming to provide the missing component by presenting a lightweight governance framework that permits all stakeholders of an organization to participate in the decision process and enforce these through the use of smart contracts using cryptocurrency. We intend this design to be as lightweight as possible and easy to implement on any programming language. This set of components will help establishing the boundaries of a ''decision processing machine'' enabling any organization to become accountable to its members and if public, to everyone.
-
-===2.6 DAOs.===
+====2.5.1 DAOs.====
 
 Building decentralized organizations has been attempted in the past. ''Distributed Autonomous Organizations'' (or DAOs) aim to be blockchain entities constructed with smart contracts that entirely automate decision processes and can run without any kind of human oversight. The code itself is meant to be the ultimate arbiter, hence these organizations claim that ''code is law''. But experience has taught that ''bugs are law'' too: when German company [http://slock.it Slock.it] implemented [http://www.coindesk.com/understanding-dao-hack-journalists/ the largest crowdfunded DAO in May 2016 able to raise over USD 100 million], a hacker exploited the code using a security hole in the smart contract controlling all funds triggering a recursive call that leaked USD 55 million worth of ether from this DAO.
 
-We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries in one's head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is a sovereign instrument that helps streamline decision processes, taking the legitimate input of all interested parties into account. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries in one's head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is an instrument that helps streamline decision processes, taking the legitimate input of all interested parties into account. Nonetheless, we are not against a complimentary implementation of AIs interacting with the system. Sovereign implementations can include AIs as participants that can even receive ''VOTE'' delegations and represent members. But it is the act of voting, rather than code that can escape the comprehension of participants, what keeps the system as a whole auditable and transparent. 
 
-<blockquote>
-  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
-</blockquote>
-
-But it is important to state that we are not aiming for a democratic system based on mob-rule or blind [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. The past century offers sufficient examples on how a majority vote can end up failing the aspirations of a republic often putting demagogues in power. Our aim is to deliver a system able to guarantee the greatest amount of legitimacy in terms of participation while empowering the most knowledgeable voices to address the pressing issues faced by humanity. For this purpose a liquid democracy model is able to satisfy these goals by having the ''VOTE'' token becoming a lever that lets voters be in control. Liquid democracy organizations can still enable the participation of AIs within them, even letting bots receive ''VOTE'' delegations as if they where voting members. But it is important to set a clear understanding of the governance boundaries of these organizations by specifying its smart contract building blocks.
-
-===2.7 Smart Contracts.===
+===2.6 Smart Contracts.===
 
 The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean state for institutional decisions recorded under smart contracts.
-
-Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device: no technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. At the same time, a democratic system should incentivize the pursuit of acquiring greater amounts of knowledge by the voters since the quality of a democracy will always be as good as the quality of the voters. Thoughtful debate and deliberation is a process as critical as the act of voting itself.
 
 ''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
 [[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
-====2.7.1 <code>Organizations</code>====
+====2.6.1 <code>Organizations</code>====
 
 The entity or institution implementing a Sovereign instance is referred as an ''Organization''. Every Organization has a ''constitutional smart contract'' able to determine how VOTEs will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTEs'').
 
-====2.7.2 <code>Members</code>====
+====2.6.2 <code>Members</code>====
 
 Every Organization has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the organization, setting how open or closed as an institution this entity will be. Some organizations may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
 
@@ -279,7 +277,7 @@ A strict definition in the membership criteria of an organization is key for the
 
 Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
 
-====2.7.3 <code>Decisions</code>====
+====2.6.3 <code>Decisions</code>====
 
 An organization consists of a collection of contracts each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has these properties:
 
@@ -292,11 +290,11 @@ An organization consists of a collection of contracts each describing a decision
 ** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
 ** '''Strategical''' (''Time unlimited''): Never-ending open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of an organization.
 
-====2.7.4 <code>Ballot</code>====
+====2.6.4 <code>Ballot</code>====
 
 A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
-=====2.7.4.1 <code>Interface</code>=====
+=====2.6.4.1 <code>Interface</code>=====
 
 By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
 
@@ -304,7 +302,7 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 * '''Multiple Choice''': One or more selectable options.
 * '''[https://en.wikipedia.org/wiki/Ranked_voting Ranked Choice]''': Sortable options as ranked preferences.
 
-=====2.7.4.2 <code>Options</code>=====
+=====2.6.4.2 <code>Options</code>=====
 
 In order to enable the information processing of ''VOTEs'', ballots carry boolean values expressed in their options. This lets ''VOTE'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
@@ -313,7 +311,7 @@ In order to enable the information processing of ''VOTEs'', ballots carry boolea
 * <code>Linked</code>: The option is connected to another decision within the organization.
 * <code>Candidate</code>: A member or list of members from the organization. This helps elect authorities within the organization or it can be used for membership approvals.
 
-=====2.7.4.3 <code>Criteria</code>=====
+=====2.6.4.3 <code>Criteria</code>=====
 
 Finally, counting methods for the final or ongoing result of a decision within an organization.
 
@@ -322,7 +320,7 @@ Finally, counting methods for the final or ongoing result of a decision within a
 * '''[https://en.wikipedia.org/wiki/D%27Hondt_method D’Hont method]''': Widely used by Nation-State elections based on member lists.
 * '''[https://en.wikipedia.org/wiki/Schulze_method Schülze method]''': Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 
-====2.7.5 <code>Budget</code>====
+====2.6.5 <code>Budget</code>====
 
 If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the private key owners of an address or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
 
