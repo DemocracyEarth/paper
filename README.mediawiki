@@ -188,11 +188,9 @@ With the ''VOTE'' token, a liquid democracy is constructed with transactions on 
 
 ===2.4 UX.===
 
-Because power dislikes being democratized, documented experiences of liquid democracies are few but offer insights on how to improve its dynamics on future iterations. We took the lessons learned from them to help define key aspects of the user experience provided by Sovereign.
+User Experience (or "UX") is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized Internet architecture, the user does not own the interface or experience. In a decentralized Internet architecture, the UI and UX can be owned by the user and must therefore eminate from the *user's* perspective. A user transacts with the world in only three distict modes: 1) as self, 2) as part of an organization or 3) annonymously. This undertanding of SELF/ORG/ANON 'shape-shifting requirement' highly influenced our UX and token designs.  
 
 ====2.4.1 Liquid.====
-
-[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] was an internal implementation made for Google employees led by engineer Steve Hardt. He created a liquid democracy plug-in to be used on the internal network of Google+ and tested different ballot and tallying methods. With 15,000 participants, 371 decisions were made on a wide range of issues that went from choosing office snacks to deciding the lunch menu. The key finding from this research was the lack of delegations: only 3.6% of votes were delegated making the system a direct democracy for the most part. Delegations happened mostly among those users who actively campaigned to attract them.
 
 [[File:/images/liquid-mobile-ux.png|Blockchain democracies enable permissionless audits.]]
 
