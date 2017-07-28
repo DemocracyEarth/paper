@@ -281,7 +281,7 @@ Compatibility with decentralized identity protocols is encouraged for the purpos
 
 ====2.7.3 <code>Decisions</code>====
 
-An organization consists of a collection of contracts each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has this properties:
+An organization consists of a collection of contracts each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has these properties:
 
 * <code>Description</code>: Text of the decision to be made.
 * <code>Tags</code>: Categories that describe this decision within the organization. This helps members navigate across decisions, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing a fixed taxonomy, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
@@ -352,21 +352,21 @@ Meanwhile, in our online lives our personal identities are stored in a series of
 
 For that reason, the biggest blockchain opportunity of all is to own, manage and monetize our virtual identity --  an opportunity that today rests solely in the hands of digital conglomerates like Google, Facebook and Twitter.
 
-The evolution of internet identity is the result of trying to satisfy three basic requirements: security (i.e. protected from unintentional disclosure), control (the identity owner enables access their data) and portability, as in, the user can access their identity without being tied to a particular provider(s).
+The evolution of internet identity is the result of trying to satisfy three basic requirements: security (i.e. protected from unintentional disclosure), control (the identity owner enables access to his data) and portability, as in, the user can access their identity without being tied to a particular provider(s).
 
 Recent developments in distributed computing are allowing the rise of  truly self-sovereign identity systems. Asymmetric cryptography ensures security from the user perspective, and trust between peers can arise in a decentralised manner, with the collection of credentials and reputation management. Because anyone can use these identities and the resulting benefits without an intervening authority, they’re called “self-sovereign.”
+
+With trust itself being enabled by technologies and not institutions, the next evolution of the Internet will be the creation of a common identity layer that allows people, organisations and things to have their own self-sovereign identity that is secure, under their control, and always available to them, with no need for intermediary permissions.
 
 [https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain valid birth certificate. [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 The process],  even though symbolic at the time, is relatively simple to replicate with everyday technology.
 
 [[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
 
-With trust itself being enabled by technologies and not institutions, the next evolution of the Internet will be the creation of a common identity layer that allows people, organisations and things to have their own self-sovereign identity that is secure, under their control, and always available to them, with no need for intermediary permissions.
-According to NYU professor David Yermack, newborn Roma Siri, born in San Francisco California, became the first baby to have a blockchain-validated birth certificate. The process, even though symbolic at the time, is relatively simple to replicate with everyday technology.
-
 The world’s first transnational digital ID has already been pioneered by Estonia, with its e-Residency government-issued ID. Other examples of are moving forward in more than a dozen countries, including Norway, the Netherlands, Italy Poland and Thailand. Most of these programs now include biometrics, the majority in the form of fingerprints.
+
 In his article “The Path to Self-Sovereign Identity”, Christopher Allen charts the evolutionary path of the online identity landscape, describing 4 stages of development; in his vision, it is the the flourishing use of self-sovereign identity that ushers in the post-silo world.
 
-[[[[[ IMAGE HERE ]]]]]]
+<img width="570" alt="screen shot 2017-07-28 at 3 54 31 pm" src="https://user-images.githubusercontent.com/18194034/28732612-d32aa4b6-73ae-11e7-8141-77a71a6eba66.png">
 
 Yet for identities to be truly self-sovereign, they cannot be owned or controlled by governments, organizations or companies whose priority is value extraction from the user-owner. The Gov.UK Verify and India’s Aadhaar systems have been plagued by reports of improper security practices and data leaks (including banking details) compromising the privacy of millions of customers.
 Microsoft is backing an open source initiative to develop a system with Blockstack and ConsenSys that will enable cross-blockchain registrations of identifiers for self-sovereign identities -- a transparent, open source, blockchain-based naming and identity layer for the world. Users will own their own self-sovereign identities and can prove ownership based on control of a private key linked to a known identifier.
