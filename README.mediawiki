@@ -195,7 +195,7 @@ Because power dislikes being democratized, documented experiences of liquid demo
 
 [[File:/images/liquid-mobile-ux.png|Blockchain democracies enable permissionless audits.]]
 
-We believe that it is key to provide a user experience that makes the delegation interaction immediate and simple reducing any kind of friction in the process. The delegation widget must be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that is able to effectively communicate to the user his available ''VOTEs'' to cast for any decision or delegation. We see this interaction as a step forward from the ''like'' pattern found in social media limiting voting interactinos to a single click or tap.
+We believe that it is key to provide a user experience that makes the delegation interaction immediate and simple reducing any kind of friction in the process. The delegation widget must be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that is able to effectively communicate to the user his available ''VOTEs'' to cast for any decision or delegation. We see this interaction as a step forward from the ''like'' pattern found in social media limiting voting interactinos to a single click or tap. In such condition members of the collective not only have to position themselves according to the proposal but also be smart on how they allocate their voting resources. This allows for a much more interesting dynamic for the users as voting becomes more complex and represents better an opinion rather than just being binary.
 
 ====2.4.2 Delegations.====
 
