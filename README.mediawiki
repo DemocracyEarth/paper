@@ -17,7 +17,7 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to territories, we need to build new models of democratic governance that enable humanity to colaborate and address pressing global issues. Democracy Earth Foundation is building free, open source software for incorruptible, blockchain-based voting within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments has led to accelerated climate change, rising inequality, terrorism and forced migrations.  Democracy Earth Foundation proposes that the technology stack that includes Bitcoin as programmable money without Central Banks, and Ethereum enabling smart contracts without the need of Judiciary Courts, requires a new layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance with the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''VOTE'' that will grant participation rights to every human with decision making as its main function. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks of an achievable, global peace and prosperity arising from an arc of technological innovations that will change what it means to be human on Earth.
 
-==1. Introduction.==
+==1. Manifesto.==
 
 <blockquote>
   Democracy is always a work in progress, it’s never an absolute idea or it would otherwise be a totalitarian ideology just like all the rest of them.
@@ -129,8 +129,6 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 [https://twitter.com/piamancini '''Pia Mancini'''], at OuiShare Fest 2017.
 
 A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems based on contracts and the speed of the postal service were the information technologies that led to representative systems. If the American or French revolutions were to happen again in the 21st century it is unlikely that a similar political outcome would happen.
-
-The Internet and the interactive nature of software opens up unprecedented possibilities for governance. Social media already disrupted political discourse having every Head of State using a Twitter handle. But as digital technology keeps evolving with blockchains enabling cryptographic transactions, global citizenship will emerge as a diaspora governing itself under a new model that makes the existing model obsolete. Blockchains are automated bureaucracies that offer significant benefits by abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose either by restricting the right to vote or limiting access to capital.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
