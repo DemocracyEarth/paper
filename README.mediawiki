@@ -27,7 +27,7 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 * [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
 
-We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (not doing so could otherwise be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done [[#Background extensive research]] on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
+We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (not doing so could otherwise be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done [[#Background|extensive research]] on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
 
 <div id="Manifesto">
 
@@ -135,7 +135,6 @@ Sovereign technology able to operate in peer to peer networks, preserving anonym
 
 Throughout history only three kinds of sovereigns prevailed: the ''sovereign tribe'' where a crowd follows a leader; the ''sovereign king'' loyal only to God; and the ''sovereign republic'' with continental lands governed under one law. Blockchains operating in cyberspace are giving rise to a fourth kind: the ''networked individual''. It’s not a far fetched possibility: conquering [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 personal sovereignty] is already a reality for those who run their finances with bitcoin and other crypto hodlings. As investor [http://twitter.com/naval Naval Ravikant] puts it: “You can cross an international border carrying a billion dollars in bitcoin entirely in your head.” This kind of sovereign act is unprecedented even for contemporaneous Heads of State.
 
-
 The widespread adoption of blockchains is giving rise to a model that initially grew under the shadows of established institutions but eventually will render them obsolete. Blockchains are automated bureaucracies that offer significant financial benefits in terms of transaction costs while completely abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose by restricting the right to vote or limiting access to capital. A technologically advanced society can flourish beyond territorial domains anywhere there is an internet connection with digital citizens emerging as a new kind of diaspora.
 
 ----
@@ -180,7 +179,6 @@ Centralization is the single point of failure in elections and is incompatible w
 
 An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
 
-
 * '''Secrecy''': voter must be able to cast vote in secret.
 
 * '''Verifiability''': voter must be able to verify tallied vote.
@@ -201,8 +199,7 @@ Considering that value [https://es.wikipedia.org/wiki/Dogecoin can be driven by 
 
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we recommend implementing the ''VOTE'' token under these smart contract environments:
 
-
-* '''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* ''''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
 
 * '''Rootstock''': Take necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain]
 
