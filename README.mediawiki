@@ -19,7 +19,7 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 ==ii. Contents.==
 
-This text is structured in 3 parts aimed to satisfy different kinds of readers (although these may all live under a same persona). You can skip directly to each part, although the pre-defined sequence is recommended.
+This text is structured in 3 parts aimed to satisfy different kinds of readers (although these may all live under a same persona.)
 
 * [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
 
@@ -27,7 +27,7 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 * [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
 
-We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (because no to do so could be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done extensive research on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal. 
+We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (because no to do so could be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done extensive research on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
 
 <div id="Manifesto">
 
@@ -211,7 +211,7 @@ The ''VOTE'' token aims to be a standard for digital democracy able to interoper
 
 ===2.4 UX.===
 
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the UI and UX can be owned by the user and must therefore emanate from the user's perspective. A user transacts with the world in only three distict modes:
+User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on user perspective. In this sense, transactions in the world get done only three distinct views:
 
 * '''Self''': Using a public identity related to an individual.
 
@@ -219,7 +219,7 @@ User Experience (UX) is a critical aspect of a decentralized architecture and be
 
 * '''Anonymous''': Without any connection to a public identity.
 
-This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our UX and token design. At any given time a Sovereign user can adopt any of this modes to interact with decentralized organizations.
+This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of this modes to interact with decentralized organizations.
 
 ====2.4.1 Liquid.====
 
