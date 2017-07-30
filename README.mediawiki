@@ -27,7 +27,7 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 * [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
 
-We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (because no to do so could be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done extensive research on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
+We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (not doing so could otherwise be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done [[#Background extensive research]] on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
 
 <div id="Manifesto">
 
@@ -52,6 +52,8 @@ With internet growth [http://www.bbc.com/news/technology-32884867 reaching over 
 
 New forms of governance must acknowledge the networked commons connecting humanity and progressively weaken the legacy of national frontiers and its inherent inability to address pressing global issues such as climate change, rising inequality, terrorism, automation and forced migrations. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments led to the rise of these issues in the global agenda. We believe the technology stack that includes [http://bitcoin.com/bitcoin.pdf Bitcoin] as programmable money without Central Banks and [http://ethdocs.org/en/latest/index.html Ethereum] enabling smart contracts without the need of Judiciary Courts requires a new layer that signals incorruptible votes beyond the boundaries of Nation-States. This transnational network will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
+<div id="Background">
+
 ===1.1 Background.===
 
 We pioneered digital democracy having authored some of the most prominent open source democracy software [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories as ranked by the Github community] including the original design of [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS], a simple direct democracy project we created in 2012. We founded the first digital political party in the Americas, the [http://partidodelared.org Partido de la Red] (Peers Party) that ran for its first election in the city of Buenos Aires in 2013 [http://www.wired.co.uk/article/e-voting obtaining 1.2% of the votes]. In 2014 we shared our experience [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED] reaching over 1.2 million viewers. During 2015 and 2016, Silicon Valley's [http://ycombinator.com Y Combinator] and [http://ffwd.org Fast Forward] funded our efforts to start the [http://democracy.earth Democracy Earth Foundation], a non-profit organization committed to the mission of borderless governance.
@@ -61,6 +63,8 @@ Our experience combining both the political and technological challenges of demo
 [[File:/images/sovereign.png|Sovereign.]]
 
 Sovereign's codebase delivers an adaptive mobile and desktop application to voters and organizations standardizing incorruptible decision-making in a blockchain based democracy. Our aim is to continue paving the road of implementations that enable [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] and integrate our software with blockchains able to guarantee the sovereign rights of users.
+
+</div>
 
 ===1.2 Legacy.===
 
@@ -131,6 +135,7 @@ Sovereign technology able to operate in peer to peer networks, preserving anonym
 
 Throughout history only three kinds of sovereigns prevailed: the ''sovereign tribe'' where a crowd follows a leader; the ''sovereign king'' loyal only to God; and the ''sovereign republic'' with continental lands governed under one law. Blockchains operating in cyberspace are giving rise to a fourth kind: the ''networked individual''. It’s not a far fetched possibility: conquering [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 personal sovereignty] is already a reality for those who run their finances with bitcoin and other crypto hodlings. As investor [http://twitter.com/naval Naval Ravikant] puts it: “You can cross an international border carrying a billion dollars in bitcoin entirely in your head.” This kind of sovereign act is unprecedented even for contemporaneous Heads of State.
 
+
 The widespread adoption of blockchains is giving rise to a model that initially grew under the shadows of established institutions but eventually will render them obsolete. Blockchains are automated bureaucracies that offer significant financial benefits in terms of transaction costs while completely abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose by restricting the right to vote or limiting access to capital. A technologically advanced society can flourish beyond territorial domains anywhere there is an internet connection with digital citizens emerging as a new kind of diaspora.
 
 ----
@@ -189,7 +194,17 @@ In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org
 
 What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights aim to satisfy overall legitimacy in the governance of an institution. While money is the language of self-interest, votes express the shared views of a community. Political currency is not strictly meant for individual trade but for social choice.
 
-Considering that value [https://es.wikipedia.org/wiki/Dogecoin is also driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''VOTE''. The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we will develop and implement the first version of the ''VOTE'' token using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard] and take necessary steps to make our code compatible with emergent environments like [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain] and the [http://lightning.network Lightning Network protocol].
+====2.2.1 Implementation.====
+
+Considering that value [https://es.wikipedia.org/wiki/Dogecoin can be driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''VOTE''.
+
+The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we recommend implementing the ''VOTE'' token under these smart contract environments:
+
+* ''''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+
+* '''Rootstock''': Take necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain]
+
+* '''Lightning''': With the activation of segregated witness in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''VOTE'' identifier.
 
 ===2.3 Voting.===
 
