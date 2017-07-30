@@ -29,6 +29,8 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arc of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (not doing so could otherwise be rather expensive if not fatal.) [http://democracy.earth Democracy Earth Foundation] has done [[#Background|extensive research]] on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction. This is our first proposal.
 
+<div id="Manifesto"></div>
+
 ==1. Manifesto.==
 
 <blockquote>
@@ -133,10 +135,9 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-
 <div id="Paper">
-
 ==2. Paper.==
+</div>
 
 <blockquote>
   Today, having a voice is an accident of birth.
@@ -358,9 +359,7 @@ If the final tally of a decision reaches a certain value (<code>true</code> or <
 
 ----
 
-</div>
-<div id="Plan">
-
+<div id="Plan"></div>
 ==3. Plan.==
 
 For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
