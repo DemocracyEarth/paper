@@ -52,8 +52,6 @@ With internet growth [http://www.bbc.com/news/technology-32884867 reaching over 
 
 New forms of governance must acknowledge the networked commons connecting humanity and progressively weaken the legacy of national frontiers and its inherent inability to address pressing global issues such as climate change, rising inequality, terrorism, automation and forced migrations. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments led to the rise of these issues in the global agenda. We believe the technology stack that includes [http://bitcoin.com/bitcoin.pdf Bitcoin] as programmable money without Central Banks and [http://ethdocs.org/en/latest/index.html Ethereum] enabling smart contracts without the need of Judiciary Courts requires a new layer that signals incorruptible votes beyond the boundaries of Nation-States. This transnational network will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
-<div id="Background">
-
 ===1.1 Background.===
 
 We pioneered digital democracy having authored some of the most prominent open source democracy software [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories as ranked by the Github community] including the original design of [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS], a simple direct democracy project we created in 2012. We founded the first digital political party in the Americas, the [http://partidodelared.org Partido de la Red] (Peers Party) that ran for its first election in the city of Buenos Aires in 2013 [http://www.wired.co.uk/article/e-voting obtaining 1.2% of the votes]. In 2014 we shared our experience [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED] reaching over 1.2 million viewers. During 2015 and 2016, Silicon Valley's [http://ycombinator.com Y Combinator] and [http://ffwd.org Fast Forward] funded our efforts to start the [http://democracy.earth Democracy Earth Foundation], a non-profit organization committed to the mission of borderless governance.
@@ -63,8 +61,6 @@ Our experience combining both the political and technological challenges of demo
 [[File:/images/sovereign.png|Sovereign.]]
 
 Sovereign's codebase delivers an adaptive mobile and desktop application to voters and organizations standardizing incorruptible decision-making in a blockchain based democracy. Our aim is to continue paving the road of implementations that enable [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] and integrate our software with blockchains able to guarantee the sovereign rights of users.
-
-</div>
 
 ===1.2 Legacy.===
 
