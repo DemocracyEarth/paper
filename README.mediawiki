@@ -19,7 +19,7 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 ==ii. Contents.==
 
-This text is structured in 3 parts aimed to satisfy different kinds of readers (although these may all live under a same persona.)
+This text is structured in 3 parts aimed to satisfy different kinds of readers (which may all live under a same persona.)
 
 * [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
 
@@ -196,7 +196,7 @@ Considering that value [https://es.wikipedia.org/wiki/Dogecoin can be driven by 
 
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we recommend implementing the ''VOTE'' token under these smart contract environments:
 
-* ''''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* '''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
 
 * '''Rootstock''': Take necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain]
 
