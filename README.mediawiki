@@ -21,11 +21,14 @@ In a world that has succeeded in the globalization of financial assets while kee
 
 This text is structured in 3 parts aimed to satisfy different readers. You can skip through directly to them, although the described sequence is recommended.
 
-* [1 Manifesto]: For idealists. Diagnoses global political context and argues for a paradigm change.
+* [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
 
-* [2 Paper]: For tool builders. Describes the building blocks for a system that can be implemented by anyone.
+* [[#Paper|Paper]]]: For tool builders. Describes the building blocks for a system that can be implemented by anyone.
 
-* [2 Plan]: For pragmatists. Specifies how to execute these ideas for impact.
+* [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
+
+
+<div id="Manifesto">
 
 ==1. Manifesto.==
 
@@ -130,6 +133,9 @@ Throughout history only three kinds of sovereigns prevailed: the ''sovereign tri
 The widespread adoption of blockchains is giving rise to a model that initially grew under the shadows of established institutions but eventually will render them obsolete. Blockchains are automated bureaucracies that offer significant financial benefits in terms of transaction costs while completely abstracting the need of trusted intermediaries. They enable systems of free association that help break the political and financial coercion that governments and banks impose by restricting the right to vote or limiting access to capital. A technologically advanced society can flourish beyond territorial domains anywhere there is an internet connection with digital citizens emerging as a new kind of diaspora.
 
 ----
+
+</div>
+<div id="Paper">
 
 ==2. Paper.==
 
@@ -343,7 +349,10 @@ If the final tally of a decision reaches a certain value (<code>true</code> or <
 
 ----
 
-==3. Action.==
+</div>
+<div id="Plan">
+
+==3. Plan.==
 
 For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
 
@@ -398,6 +407,7 @@ The goal we have set for the Democracy Earth Foundation is to pioneer blockchain
 
 
 ----
+</div>
 
 ==4. Token Economics ==
 
