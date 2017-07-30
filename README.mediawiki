@@ -13,9 +13,19 @@
 =The Social Smart Contract.=
 An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].
 
-==Abstract.==
+==i. Abstract.==
 
 In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to territories, we need to build new models of democratic governance that enable humanity to colaborate and address pressing global issues. Democracy Earth Foundation is building free, open source software for incorruptible, blockchain-based voting within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments has led to accelerated climate change, rising inequality, terrorism and forced migrations.  Democracy Earth Foundation proposes that the technology stack that includes Bitcoin as programmable money without Central Banks, and Ethereum enabling smart contracts without the need of Judiciary Courts, requires a new layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance with the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''VOTE'' that will grant participation rights to every human with decision making as its main function. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks of an achievable, global peace and prosperity arising from an arc of technological innovations that will change what it means to be human on Earth.
+
+==ii. Contents.==
+
+This text is structured in 3 parts aimed to satisfy different readers. You can skip through directly to them, although the described sequence is recommended.
+
+* [1 Manifesto]: For idealists. Diagnoses global political context and argues for a paradigm change.
+
+* [2 Paper]: For tool builders. Describes the building blocks for a system that can be implemented by anyone.
+
+* [2 Plan]: For pragmatists. Specifies how to execute these ideas for impact.
 
 ==1. Manifesto.==
 
