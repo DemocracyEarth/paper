@@ -158,7 +158,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 </blockquote>
 [https://twitter.com/piamancini '''Pia Mancini'''], hacktivist (1982).
 
-A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems based on contracts and the speed of the postal service were the information technologies that led to representative systems.
+A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems dependent on wet ink contracts and the speed of the postal service. Representative democracies are an accident of the information technologies of the 18th century.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
@@ -170,7 +170,11 @@ This paper details the implementation of a liquid democracy using [http://github
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
 </blockquote>
 
-With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptocurrency. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power. Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community.
+With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptocurrency. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
+
+[[File:/images/ideal-democracy.png|Ideal democracy.]]
+
+Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community.
 
 ===2.1 Token.===
 
