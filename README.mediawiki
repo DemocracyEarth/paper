@@ -174,7 +174,7 @@ With Sovereign we are aiming to provide a lightweight governance framework that 
 
 [[File:/images/ideal-democracy.png|Ideal democracy.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community.
+Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. While the art of politics consists in sustaining the fiction that breeds trust on established institutions, cryptographic proof of events delivers a more reliable method to store institutional facts. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence institutional arrangements storing votes and decisions in them get driven by facts rathern than promises.
 
 ===2.1 Token.===
 
