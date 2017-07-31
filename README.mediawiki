@@ -23,7 +23,7 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 * [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
 
-* [[#Paper|Paper]]: For builders. Describes the building blocks for a system that can be implemented by anyone.
+* [[#Paper|Paper]]: For builders. Describes the building blocks for a system that can be implemented by anyone, anywhere.
 
 * [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
 
@@ -133,7 +133,7 @@ Meanwhile, traditional elections have a technique known as ''adversarial countin
 
 [[File:/images/blockchain-permissionless-audit-voting.png|Blockchain democracies enable permissionless audits.]]
 
-Blockchains enable trustless systems, increasing the defenses of vote integrity by enabling a shared resource that has scorekeeping as its main function. This permits unprecedented designs of electoral systems: with a blockchain-based democracy every single voter can audit the votes without requiring any kind of access rights to specific infrastructure. By storing vote data in a blockchain rather than in private servers or ballot boxes, audit costs become abstracted and are turned into a guaranteed right for every participant. Voters are not just mere spectators but also sovereign gatekeepers of the whole process. This kind of transparency cannot be delivered by traditional electoral systems, analog or electronic.
+Decentralization is a requirement of democracy. It cannot be guaranteed without it. Blockchains enable trustless systems eroding the need of human authority and increasing the defenses of vote integrity by enabling a shared resource that has scorekeeping as its main function. This permits unprecedented designs of electoral systems: '''With a blockchain-based democracy votes become censorship resistant and every single voter can audit an election without requiring any kind of access rights to specific infrastructure.''' By storing vote data in a blockchain rather than in private servers or ballot boxes, audit costs become abstracted and are turned into a guaranteed right for every participant. Voters are not just mere spectators but also sovereign gatekeepers of the whole process. This kind of transparency cannot be delivered by traditional electoral systems, analog or electronic.
 
 ===1.6 Sovereignty.===
 
