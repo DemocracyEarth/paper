@@ -41,6 +41,8 @@ Our experience combining both the political and technological challenges of demo
 
 Sovereign's codebase delivers an adaptive mobile and desktop application to voters and organizations standardizing incorruptible decision-making in a blockchain based democracy. Our aim is to continue paving the road of implementations that enable [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] and integrate our software with blockchains able to guarantee the sovereign rights of users.
 
+----
+
 <div id="Manifesto"></div>
 
 ==1. Manifesto.==
