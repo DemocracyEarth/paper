@@ -174,7 +174,7 @@ With Sovereign we are aiming to provide a lightweight governance framework that 
 
 [[File:/images/ideal-democracy.png|Ideal democracy.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. While the art of politics consists in sustaining the fiction that breeds trust on established institutions, cryptographic proof of events delivers a more reliable method to store institutional facts. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence institutional arrangements storing votes and decisions in them get driven by facts rathern than promises.
+Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. While the art of politics consists in sustaining the fiction that breeds trust on established institutions, cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rathern than promises.
 
 ===2.1 Token.===
 
@@ -210,7 +210,7 @@ Multi-chain implementations are encouraged in the spirit of seeking greater expe
 
 ===2.2 Voting.===
 
-The ''VOTE'' token aims to be a standard for digital democracy able to interoperate with other tokens as well, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies a specific set of voting transactions is permitted with ''VOTE'' tokens:
+The ''VOTE'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies a specific set of voting transactions is permitted with ''VOTE'' tokens:
 
 * '''Direct Vote''': Any selfish voter is allowed to use his or her tokens to vote directly on issues as in a direct democracy.
 
@@ -224,7 +224,13 @@ The ''VOTE'' token aims to be a standard for digital democracy able to interoper
 
 * '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
-* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations. A road to be researched on is operating with blockchains designed for anonymous transactions with a proven track record: [https://z.cash ZCash] implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs] and [https://getmonero.org Monero] uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses]. A lighter implementation can be made to satisfy communities with less risk of coercion, but it is encouraged to pursue research regarding the integration with proven anonymous networks. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data.
+* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. A road to be researched on is operating with blockchains designed for anonymous transactions with a proven track record. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data, hence further research with integration with these networks is encouraged:
+
+** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
+
+** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
+
+
 
 ===2.3 UX.===
 
