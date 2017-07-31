@@ -224,7 +224,7 @@ The ''VOTE'' token aims to be a standard for digital democracy able to interoper
 
 * '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
-* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. A road to be researched on is operating with blockchains designed for anonymous transactions with a proven track record. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data, hence further research with integration with these networks is encouraged:
+* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. We recommend the following two:
 
 ** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
 
