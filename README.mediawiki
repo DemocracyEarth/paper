@@ -255,11 +255,16 @@ The ''liquid bar'' allows these actions:
 
 * '''Remove ''VOTEs''''': At any time, as long as the poll is still open, the user may remove his or her ''VOTEs'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''VOTEs'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding on how the interaction will influence a specific decision. ''VOTEs'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporation.
+We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''VOTEs'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding how a user's interaction will influence a specific decision. ''VOTEs'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporations.
 
 ====2.3.2 Delegations.====
 
-The same implementation of the ''liquid bar'' also permits having a clear view on the ''VOTE'' delegation status a Sovereign user can have with any other member of an organization. Delegations go both ways: a user must be able to understand how many ''VOTEs'' he has received from someone else, while also be able to delegate any of his available ''VOTEs''. Every time a user profile is displayed on Sovereign, the overall current delegation status is shown.
+A ''liquid bar'' also displays the ''VOTE'' delegation relation a user has with any other member of an organization. Delegations go both ways:
+
+* '''Sent''': A user must be able to delegate any of his available ''VOTEs'' while checking the current delegated amount (if any).
+* '''Received''': A user must be able to understand how many ''VOTEs'' were received from someone else.
+
+Every time a member profile is displayed on Sovereign, the current delegation status between the user and the member is shown. 
 
 [[File:/images/delegation-relation-votes.png|View of vote delegation relation with another member.]]
 
