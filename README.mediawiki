@@ -281,19 +281,50 @@ But unlike web based applications, Sovereign does not allow testimonial interact
 
 * '''Downvote''': If a user disagrees with someone's comment, a ''downvote'' can either retrieve a ''VOTE'' from the commenter back to the user if there was a previous delegation. If no delegation relation exists among them, then a ''downvote'' will act as a penalty sending a ''VOTE'' from the commenter back to the funds of the organization implementing the Sovereign instance. The criteria for this kind of penalty can be set in the ''constitutional smart contract'' of the implementing organization.
 
-We believe this will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''VOTE'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
+This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''VOTE'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
 
 ===2.4 Smart Contracts.===
 
-The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean state for institutional decisions recorded under smart contracts.
+The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean value for institutional decisions recorded under smart contracts.
 
-''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Decisions</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
+''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Issues</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
 [[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
 ====2.4.1 <code>Organizations</code>====
 
-The entity or institution implementing a Sovereign instance is referred as an ''Organization''. Every Organization has a ''constitutional smart contract'' able to determine how VOTEs will be allocated to its members. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTEs'').
+The entity or institution implementing a Sovereign instance is referred as an ''Organization''. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''VOTE'' tokens. For this purpose, every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract.
+
+=====2.4.1.1 Constitution=====
+
+The ''constitutional smart contract'' determines how ''VOTEs'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''VOTE'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''VOTEs'').
+
+The basic settings to be found on a constitution are:
+
+* '''Information''': A basic description of the organization including its name, website, address, jurisdiction (if applicable).
+
+* '''Funding''': The amount of ''VOTE'' tokens this organization will manage and how these will be allocated to every member.
+
+* '''Membership Approval''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
+
+** '''Open''': Anyone can freely join an organization.
+** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
+** '''Fee''': The organization requires a payment for membership approval.
+
+* '''Content''': Defines who is allowed to post issues on the organization.
+
+** '''Open''': Anyone (whether its a member or not) can post issues. Only members get the right to vote.
+** '''Members''': Only approved members have the right to post issues.
+** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''VOTEs'' or ''VOTEs'' received under a specific tag) have the right to post issues.
+
+* '''Moderation''': Describes the rules that help define a code of conduct among members of an organization.
+
+** '''Ban''': An amount of ''downvotes'' required to ban a member from participating in the organization and the penalty attached to it (e.g. a period of time)
+** '''Expulsion''': If an organization is based on ''Voted Membership Approval'', a member can receive negative votes from other members signalling that such identity has been corrupted or is no longer part of the organization. This criteria can be established as a minimum percentage required.
+
+* '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization.
+
+Templates defining common practices for specific kinds of organizations are encouraged to simplify the setup. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others.
 
 ====2.4.2 <code>Members</code>====
 
@@ -318,9 +349,9 @@ An organization consists of a collection of contracts each describing a decision
 
 ====2.4.4 <code>Ballot</code>====
 
-A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
+A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Choice</code>, <code>Options</code> and <code>Criteria</code>.
 
-=====2.4.4.1 <code>Interface</code>=====
+=====2.4.4.1 <code>Choice</code>=====
 
 By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
 
@@ -374,7 +405,7 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. In liquid democracies ''celebrities'' can become extremely influential being able to attract most of the delegated votes. An attacker willing to subvert an election can promote a TV star wearing a QR code to get a sudden influx of delegations from fans and viewers, instantly becoming a monopolizing force. Monopolies are a threat to liquid democracies since they can disincentivize less fortunate voters to participate, hijacking the legitmacy of the decisions being made.
 
-=====2.5.1.1. Quadratic Voting.=====
+=====2.5.2.1. Quadratic Voting.=====
 
 For this purpose a key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
