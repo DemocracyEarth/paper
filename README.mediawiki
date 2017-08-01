@@ -305,53 +305,56 @@ The basic settings to be found on a constitution are:
 
 * '''Funding''': The amount of ''VOTE'' tokens this organization will manage and how these will be allocated to every member.
 
-* '''Membership Approval''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
+* '''Membership''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
 
 ** '''Open''': Anyone can freely join an organization.
 ** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
 ** '''Fee''': The organization requires a payment for membership approval.
 
-* '''Content''': Defines who is allowed to post issues on the organization.
+* '''Content''': Defines who is allowed to post <code>Issues</code> on the organization.
 
-** '''Open''': Anyone (whether its a member or not) can post issues. Only members get the right to vote.
-** '''Members''': Only approved members have the right to post issues.
-** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''VOTEs'' or ''VOTEs'' received under a specific tag) have the right to post issues.
+** '''Open''': Anyone (whether its a member or not) can post. Only members get the right to vote.
+** '''Members''': Only approved members have the right to post.
+** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''VOTEs'' or ''VOTEs'' received under a specific tag) have the right to post.
+** '''Anonymous''': Defines whether anonymous content is allowed to be posted.
 
 * '''Moderation''': Describes the rules that help define a code of conduct among members of an organization.
 
 ** '''Ban''': An amount of ''downvotes'' required to ban a member from participating in the organization and the penalty attached to it (e.g. a period of time)
 ** '''Expulsion''': If an organization is based on ''Voted Membership Approval'', a member can receive negative votes from other members signalling that such identity has been corrupted or is no longer part of the organization. This criteria can be established as a minimum percentage required.
 
-* '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization.
+* '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization and specific settings such as ''quadratic voting''.
+
+* '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
 
 Templates defining common practices for specific kinds of organizations are encouraged to simplify the setup. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others.
 
 ====2.4.2 <code>Members</code>====
 
-Every Organization has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the organization, setting how open or closed as an institution this entity will be. Some organizations may allow for members to be instantly approved once they register with their credentials or pay a membership fee, while others might require an approval of pre-existing members that can vote on the status of an applicant as member.
+Every Organization has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the organization, setting how open or closed as an institution this entity will be.
 
 A strict definition in the membership criteria of an organization is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''VOTEs'' to be used for its governance.
 
 Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
 
-====2.4.3 <code>Decisions</code>====
+====2.4.3 <code>Issues</code>====
 
-An organization consists of a collection of contracts each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. A decision in its most basic form has these properties:
+An organization consists of a collection of ''issues'' each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. An issue in its most basic form has these properties:
 
 * <code>Description</code>: Text of the decision to be made.
-* <code>Tags</code>: Categories that describe this decision within the organization. This helps members navigate across decisions, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs'' under liquid democracies. If the implementation is done with blockchain environments managing a fixed taxonomy, a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
+* <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
 * <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if an organization's governance rules allows it.
 * <code>Ballot</code>: The presented options for voters to participate on this decision.
 * <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
 * <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
-** '''Tactical''' (''Time limited''): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
-** '''Strategical''' (''Time unlimited''): Never-ending open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members signalling approval of other members within the community of an organization.
+** '''Tactical''' (limited in time): These are contracts that receive ''VOTEs'' until a closing date is met, where a given block height within the blockchain implementing the ''VOTE'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
+** '''Strategical''' (unlimited in time): Never-ending open polls that are perpetually registering the consensus of a decision state. ''VOTEs'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members voting for approval of other members within the community of an organization.
 
 ====2.4.4 <code>Ballot</code>====
 
-A decision can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Choice</code>, <code>Options</code> and <code>Criteria</code>.
+An issue can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
-=====2.4.4.1 <code>Choice</code>=====
+=====2.4.4.1 <code>Interface</code>=====
 
 By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
 
@@ -379,11 +382,11 @@ Finally, counting methods for the final or ongoing result of a decision within a
 
 ====2.4.5 <code>Budget</code>====
 
-If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins to the private key owners of an address or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to a decision.
+If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to the final tally of a voted issue.
 
 ===2.5 Security.===
 
-Liquid democracias can be gamed in different ways. From documented experiences we where able to detect two main outcomes that can risk the desired dyanmics for a liquid democracy to take off, each being the opposing ends of a same spectrum: lack of delegations leading to a ''polyopoly'' (extremely fragmented voting power) and abundance of delegations leading to a ''monopoly'' (extremely concentrated voting power).
+Liquid democracias can be gamed in different ways. From documented experiences we where able to detect two main outcomes that can risk democratic dynamics, each being the opposing ends of a same spectrum: lack of delegations leading to a ''polyopoly'' (extreme fragmentation of voting power) and abundance of delegations leading to a ''monopoly'' (extreme concentration of voting power).
 
 ====2.5.1 Polyopoly.====
 
@@ -395,9 +398,9 @@ Among the most notable research projects on the field is [http://www.tdcommons.o
 
 * '''3.6% of delegated votes''' in total.
 
-Google Votes operated more as a direct democracy than a liquid democracy. Delegations occured mostly among those users who actively campaigned to attract them (e.g. vegans in a team hoping to gather power to choose office snacks). This fact is the leading reason we have put most of our efforts in the development of a reliable UX that can turn delegations into a common habit reducing as much friction as possible in the interaction.
+Google Votes operated more as a direct democracy than a liquid democracy. Delegations occured mostly among those users who actively campaigned to attract them (e.g. vegans in a team hoping to gather power to choose office snacks). The risk of a liquid democracy with few delegations is that, as it becomes a direct democracy it is open to mob rule and majoritarism. Although this might keep legitimacy high, it risks the quality of the decisions being made by an organization as it becomes more political than factual.
 
-Also since the ''VOTE'' token operates in its own network, delegations don't need to necessarily happen within the Sovereign application. Messaging applications, tweets and e-mails can be sent with ''VOTE'' addresses or QR codes attached to them, making the ''VOTE'' token broadcastable across multiple networks.
+This fact is the leading reason we have put most of our efforts in the development of a reliable UX that can turn delegations into a common habit reducing as much friction as possible in the interaction. Also since the ''VOTE'' token operates in a blockchain, delegations don't need to necessarily happen within the Sovereign application. Messaging applications, tweets and e-mails can be sent with ''VOTE'' addresses or QR codes attached to them making the ''VOTE'' token broadcastable across multiple networks.
 
 ====2.5.2 Monopoly.====
 
@@ -407,7 +410,7 @@ The consequences of having a monopolizing leader in a liquid democracy environme
 
 =====2.5.2.1. Quadratic Voting.=====
 
-For this purpose a key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
+A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
 ----
 
