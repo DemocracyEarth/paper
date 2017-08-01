@@ -153,11 +153,11 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ==2. Paper.==
 
-A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard: having a voice is an accident of birth. Their individual and collective voices have been politically and economically silenced by ‘illiquidity’ - given no instruments to broadcast or amplify their marginalized voices. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems dependent on wet ink contracts and the speed of the postal service. Representative democracies are an accident of the information technologies of the 18th century.
+A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard: having a voice is an accident of birth. Individual and collective voices are politically and economically silenced by ‘illiquidity’ - the marginalized are given no instruments to broadcast or amplify their voice. Modern democracies are the birthchilds of the ''Printing Press Era'': printed constitutional systems dependent on wet ink contracts and the speed of the postal service. Representative democracies are an accident of the information technologies of the 18th century.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time Western Civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
 
 This paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], our democratic governance application that operates with blockchain tokens using a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device. No technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
 
@@ -165,11 +165,11 @@ This paper details the implementation of a liquid democracy using [http://github
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
 </blockquote>
 
-With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptocurrency. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
+With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptography. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
 
 [[File:/images/ideal-democracy.png|Ideal democracy.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. While the art of politics consists in sustaining the fiction that breeds trust on established institutions, cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rathern than promises.
+Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. While the art of politics consists in sustaining the fiction that breeds trust on established institutions, cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rathern than promises. Corruption can be fought at its root as we develop a new sense of citizenship based on digital networks.
 
 ===2.1 Token.===
 
@@ -185,7 +185,7 @@ Additionally, due to the risk that coercion through physical violence or threats
 
 * '''Resistance''': voter must be able to override own vote if necessary.
 
-In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to [http://twitter.com/balajis Balaji Srinivasan], an [http://twitter.com/a16z Andreessen-Horowitz] partner. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
+In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to pioneer [http://twitter.com/balajis Balaji Srinivasan]. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
 
 What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights aim to satisfy overall legitimacy in the governance of an institution. While money is the language of self-interest, votes express the shared views of a community. Political currency is not strictly meant for individual trade but for social choice.
 
@@ -195,45 +195,43 @@ Considering that value [https://es.wikipedia.org/wiki/Dogecoin can be driven by 
 
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we are working on implementing the ''VOTE'' token under these smart contract environments:
 
-* '''Ethereum''': Create a set of [https://github.com/ethereum/solidity solidity] smart contracts using the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* '''Ethereum''': Using a set of [https://github.com/ethereum/solidity solidity] smart contracts under the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
 
-** '''Rootstock''': Take necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain]
+** '''Rootstock''': We are taking the necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
-* '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''VOTE'' identifier.
+* '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''VOTE'' identifier. Blockchain settlement cost must be covered by the implementing organization.
 
-Multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
+Also, multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
 
 ===2.2 Voting.===
 
-The ''VOTE'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies a specific set of voting transactions is permitted with ''VOTE'' tokens:
+The ''VOTE'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with ''VOTEs'':
 
-* '''Direct Vote''': Any selfish voter is allowed to use his or her tokens to vote directly on issues as in a direct democracy.
+* '''Direct Vote''': Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
 
 * '''Basic Delegation''': Alice may delegate ''VOTEs'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
 
 * '''Tag Limited Delegation''': Alice may delegate ''VOTEs'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''VOTEs'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
 
-* '''Transitive Delegation''': If Bob received ''VOTEs'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract.
+* '''Transitive Delegation''': If Bob received ''VOTEs'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of ''VOTEs'' from an organization to its members carries a signature indicating who is the sovereign owner of the ''VOTEs''.
 
-* '''Overriding Vote''': If Bob already used the delegated ''VOTEs'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. All ''VOTEs'' within an organization are tied to their original member allocation and voters always have the final word on any given decision with their own ''VOTEs''.
+* '''Overriding Vote''': If Bob already used the delegated ''VOTEs'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''VOTEs''.
 
 * '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''VOTEs''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
-* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. We recommend the following two:
+* '''Secret Vote''': A method able to guarantee ''VOTE'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''VOTE'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''VOTE'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''VOTEs'' with these blockchains:
 
 ** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
 
 ** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
 
+===2.3 User Experience.===
 
-
-===2.3 UX.===
-
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on user perspective. In this sense, transactions in the world get done only three distinct views:
+User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
 
 * '''Self''': Using a public identity related to an individual.
 
-* '''Organization''': In representation of an organization that extended representation rights (e.g. workplace, club, political party, etc).
+* '''Organization''': In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
 
 * '''Anonymous''': Without any connection to a public identity.
 
@@ -241,23 +239,23 @@ This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly inf
 
 ====2.3.1 Liquid.====
 
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. Sovereign uses a ''liquid bar'' that permits transacting ''VOTEs'' with a single gesture either on mobile and desktop devices.
+Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''VOTEs'' with a single gesture either on mobile and desktop devices.
 
 [[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
 
 The ''liquid bar'' allows these actions:
 
-* '''Check available ''VOTEs''''': Since in a liquid democracy a user can have 1 or more delegated ''VOTEs'', having a constant reminder of the balance helps the user understand his current power within the system. If some of the ''VOTEs'' were delegated with strict conditions (e.g. limited to specific tags), this means that a user won't have the same amount of ''VOTEs'' available to spend on every issue.
+* '''See available ''VOTEs''''': Since in a liquid democracy a user can have 1 or more delegated ''VOTEs'', having a constant reminder of the balance helps the user understand his or her current power within the system. If some of the ''VOTEs'' were delegated with strict conditions (e.g. a ''Tag Limited Delegation''), this means that a user won't have the same amount of ''VOTEs'' available to spend on every issue.
 
-* '''Check allocated ''VOTEs''''': A percentage value with the amount of ''VOTEs'' currently cast on other decisions or delegated to other members of the communtiy is shown. The user can tap or click at any time on that value to view a complete list of the issues where he's currently having a ''VOTE'' and decide whether to keep them there or change his mind.
+* '''See cast ''VOTEs''''': A percentage value with the amount of ''VOTEs'' currently cast on other decisions or delegated to other members of the communtiy is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''VOTE'' and decide whether to keep them there or make a strategic change.
 
-* '''Slide and ''VOTE''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he will be prompted a confirmation request whether to ''VOTE'' or not.
+* '''Slide to ''VOTE''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he or she will be prompted a confirmation request whether to ''VOTE'' or not.
 
-* '''Tap and ''VOTE''''': If the user does not want to allocate more than 1 vote, he can simply tap on the ''liquid bar'' handle once and he will be prompted to confirm the singe ''VOTE'' transaction.
+* '''Tap to ''VOTE''''': If the user does not want to allocate more than 1 vote, he or she can simply tap on the ''liquid bar'' handle once and will be prompted to confirm a single ''VOTE'' transaction.
 
-* '''Remove ''VOTEs''''': At any time, as long as the poll is still open, the user may remove his ''VOTEs'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
+* '''Remove ''VOTEs''''': At any time, as long as the poll is still open, the user may remove his or her ''VOTEs'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media that limits voting to clicks.
+We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''VOTEs'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding on how the interaction will influence a specific decision. ''VOTEs'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporation.
 
 ====2.3.2 Delegations.====
 
