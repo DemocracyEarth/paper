@@ -431,13 +431,18 @@ For this purpose, [http://democracy.earth Democracy Earth] will constitute itsel
 
 Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, as an organization with the mission to give people everywhere greater access to governance, we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration. By connecting ''VOTEs'' to global population, every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy. A ''VOTE''’s ''Market Capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and the Democracy Earth Foundation will keep track of the token distribution within each nation, making it also a reliable metric for the penetration of decentralized digital democracy in populations living under a common set of cultural values.
 
+The ''VOTE'' token will operate as a civic machine able to attract resources that will help flourish a peer to peer democracy. With our Initial Rights Offering mechanism we will allocate all proceeds to the development of technology.
+
+
+===3.1 Mining.===
+
 For Sovereign to be a trusted environment for decentralized governance under large communities (cities, nations or global scale), the system must be protected against the two main subversive strategies that democracies must deal with:
 
 # '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for a token to be activated it must get validated through a protocol (social and algorithmic) that works as '''''Proof of Identity''''' (addressed on section 3.1).
 
 # '''Gossip Dissemination''' (a. k. a. ''fake news''): It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store '''''Hard Promises''''' (addressed on section 3.2).
 
-===2.4 Governance.===
+===3.2 Governance.===
 
 <blockquote>
   Do you know what politics is? What you say and do in a given point in time.
@@ -448,7 +453,7 @@ Corporations and public institutions are prone to corruption because decisions o
 
 Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources.
 
-====2.4.1 DAOs.====
+====3.2.1 DAOs.====
 
 <blockquote>
   Technology for democracy must be understood by the vast majority of citizens. It is the technology that we do not control the one that it is used to control us.
@@ -460,7 +465,7 @@ Building decentralized organizations has been attempted in the past. ''Distribut
 We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries in one's head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is an instrument that helps streamline decision processes, taking the legitimate input of all interested parties into account. Nonetheless, we are not against a complimentary implementation of AIs interacting with the system. Sovereign implementations can include AIs as participants that can even receive ''VOTE'' delegations and represent members. But it is the act of voting, rather than code that can escape the comprehension of participants, what keeps the system as a whole auditable, transparent and democratic.
 
 
-===3.1 Proof of Identity.===
+===3.3 Proof of Identity.===
 
  “The Internet was created without an identity layer.”
 
@@ -496,7 +501,7 @@ Microsoft is backing an open source initiative to develop a system with Blocksta
 
 In the publication Digital Identity Issue Analysis (Consult Hyperion 2016) it is noted that centralized organizations currently serving as identity providers will evolve to become "identity proofers" - someone still needs to carry out the checks that an individual is who they say they are as they bridge the digital and physical worlds. Standards of assurance will always need to be met and relying parties will always need to be able to trust such assurances: what will change is the ease and simplicity of doing such checks in an environment where individuals simply give permission to access verified data to satisfy the given criteria, and not be beholden to any one bastion of trust in order to have a digital identity.
 
-===3.2 Hard Promises.===
+===3.4 Hard Promises.===
 
 The building blocks of institutions consist of facts stored in contracts. But the kind of facts these agreements contain are of a very specific type. Institutions are not built with ''objective facts'' that are scientific, measurable and independent from human judgment; but rather ''inter-subjective facts'' that build the social world within a community setting the relations of property and rights. For example, the notion that every red can of soda belongs to the Coca Cola Corporation is not objective but an inter-subjective fact agreed upon all members of society acknowledging the intellectual property rights that company has over its products. In this way, institutional reality helps [http://unenumerated.blogspot.com.es/2017/02/money-blockchains-and-social-scalability.html scale economic relations and reduce the information required for organizations to transact].
 
@@ -505,32 +510,7 @@ The bureaucracies that protect these agreements depend on promises, i.e. “all 
 The goal we have set for the Democracy Earth Foundation is to pioneer blockchain governance by implementing a '''universal voting token''' compatible with any kind of institution. This technology can be used for the decision making process of multi-stakeholder organizations, private or public, small or large. As a Organization decision instrument, we are aware that the main challenge of democracy is not only scaling participation but also scaling the understanding of what is being voted. In that sense the aim for this token is to enforce the preferences of a specialized majority that is knowledgeable on the conflicting issues while guaranteeing protections to all participating minorities.
 
 
-
-----
-
-==4. Token Economics ==
-
-[[File:/images/humans.png|Humans on Earth.]]
-
-For a democracy to reach global scale, the tokens must find the means to effectively represent the interests of 7 billion lives and able to increase supply based on population growth. [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will reach population of 10 billion ''sapiens'']. This pressing fact goes to the core of what is behind the veils of climate change, refugees and rising inequality. How to optimize the distribution of opportunity to a population close to reaching the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] by the end of this century must be urgently addressed.
-
-We will issue an initial setup of 7,500,000,000 ''VOTEs'', setting the golden rule: one ''VOTE'' per living person. With [https://www.census.gov/population/international/ an estimated population growth rate of 1.1%], an average of 82,500,000 tokens will be added every year (i.e. a rate of 2.6 new tokens per second). Even though we are aware that it’s unrealistic to reach 100% of the globe’s population by taking the precedent of Facebook’s current user base of 2 Billion, being Democracy Earth Foundation - an organization giving people everywhere greater access to governance - we will tie our monetary policy to the constant reminder of how many lives are at stake and whose interests must be taken into consideration.
-
-By connecting every ''VOTE'' to a living person, every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy. A ''VOTE''’s ''Market Capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Organization Welfare], and the value of a single ''VOTE'' will become a unit reflecting the purchasing power of an individual if an even distribution of the token was ever to be reached. The Democracy Earth Foundation will keep track of the token distribution within each nation, making it a reliable metric for the penetration of digital and decentralized democracy in populations living under a common set of cultural and genetic values.
-
-It must be noted that even if we remain skeptical about the chances of Nation-States for planetary governance, this does not mean we don’t acknowledge the traditions and values binding the people of a nation together. In the same way blood ties evolved to signal identification of a family considering the widespread use of surnames attached to given names; territorial ties (nationality) is likely to become a third name among global citizens.
-
-Members can interact with a Organization using ''VOTE'' transactions under different modes:
-
-* '''Anonymous''': Corporations and private institutions (often referred as ''Anonymous Societies'' in many jurisdictions) can benefit by having a voting token secured over a blockchain that can easily interoperate with other crypto assets and without the requirement of having an approved member signature attached to the transaction. Anonymous entities holding legitimate ''VOTEs'' can interact with a Organization as long as the ''VOTEs'' have been granted by the Organization's constitution.
-
-* '''Identified''': The rights to a ''VOTE'' can be obtained without a monetary transaction by means of a ''Proof of Identity''. A self sovereign citizen able to provide reliable evidence of his/her own identity and, in order to avoid any kind of central authority, also able to gather sufficient peer approval of this proof measured with a reputation algorithm  will have an ''Identified VOTE'' token. This state has as an incentive granting the holder rights to participate in all governance decisions related to the ''VOTE'' economy. If a ''VOTE'' has been connected to an identity, it cannot be traded on the market and instead it will trigger a ''Basic Income Mechanism'' (detailed in section 4.3) aimed specifically to the token holder.
-
-* '''Corrupted''': Aware that attacks from adversaries aiming to subvert ''VOTE'' tokens are likely to happen, a feedback loop able to detect corrupted tokens will be put in place using the same voting algorithms implemented for approvals. If sufficient peers voted on the falsehood of a ''Proof of Identity'' tied to an ''Identified VOTE'' (reasons being duplicate detection, false information or fraud) then the token acquires a corrupted state and all the tied benefits to it are instantaneously lost locking out holder’s ability to transact in any way with it. If the token was used to signal votes, all peers or issues will loose these votes. Scrutiny of corrupted tokens will be of relevant used for the further improvement of vote tallying and ''Proof of Identity'' algorithms.
-
-With those three states in place, the ''VOTE'' token will operate as a political and civic machine able to attract resources that will help flourish a peer to peer democracy anywhere.
-
-===4.1 Right versus debt.===
+===3.5 Right versus debt.===
 
 Plato’s “Republic”, the founding work of Western political philosophy, begins with the following question: “What is justice?” To which Kefalos (capital), a wealthy arms manufacturer, says: “pay your debts and don’t lie”. Socrates immediately puts the response into question, but the association of debt, morality and wars remained to be at the root of the economic mental models of our society.
 
@@ -539,7 +519,7 @@ The origins of this mindset can be grasped from the historical context of the or
 Debt was transformed from being an oral contract, a promise, to a moral narrative capable to justify any form of coercion possible. Higher agents on vertical hierarchys could now enact forceful coercion onto lower agents: be that in the system of countries, companies or individuals. The transition from a trust economy to this new and impersonal form of trade coincided with the origins of philosophy, as the great Greek thinkers quickly grasped the inherent problem with debt: that it implies an arrangement between two legally equivalent entities. Democracy Earth Foundation's token will be distributed equally as a RIGHT, opposing the historical association of DEBT and moral, and thus generating a new breeding ground for transactions that are not based on the possibilities of coercion and need. Meanwhile, a system of Universal Basic Income aims to bring equivalence to entities, restoring balance and fairness as the new moral standard.
 
 
-===4.2 Basic Income.===
+===3.6 Basic Income.===
 
 The first recorded word for freedom in any human language is the Sumerian word "amargi" which literally means return to mother. That’s what would happen as debt forgiveness was enacted: debtors got to go home. As we can see, from the origins of the concept, freedom is a financial condition. Traditionally we think about politics and economics as two separate realms, but in reality we operate in a system where the two are inherently connected: money means power, and power means votes. This system is not compatible with democracy as a tiny percent of the society has a dispropotionate impact over the electoral and legislative process through their economic power. In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. Therefore, VOTEs will be distributed through time, an asset that is, by nature, acessible to all.
 
@@ -555,11 +535,7 @@ Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time
 
 Adoption of the token is also incentivized as a political position: the era of mass market communications where companies avoided taking political stances is coming to an end. Increasingly consumption is becoming a political act, with products being articulators of one's identity and worldview. Consumers are becoming community members, and companies are being requested to be transparent about it's internal practices on the aquarium of the internet and social media. As the concept of currencies undergoes a massive disruption caused by distributed ledger technology, we offer a coin that is an articulator of human rights and democracy. What it means is that by utilizing our token organizations will be able to embody and promote those values. So on the great endeavor of building a true democracy, anyone trading on this network, or purchasing products from it, will be a contributor. An act of consumption will become as powerful as a vote.
 
-===4.3 Bitcoin.===
-
-  PENDING.
-
-===4.4 End Game.===
+===3.7 End Game.===
 
 <blockquote>
   “What happened to the governments?” I inquired. 
@@ -571,28 +547,28 @@ Adoption of the token is also incentivized as a political position: the era of m
 
 ----
 
-==5. About.==
+==4. About.==
 
   HISTORY.
 
 TED, FastForward, Y Combinator, Singularity University, World Economic Forum.
 
-===5.1 Contributors.===
+===4.1 Contributors.===
 
   PENDING.
 
-====5.1.1 Founders.====
+====4.1.1 Founders.====
 
   PENDING.
 
-====5.1.2 Partners.====
+====4.1.2 Partners.====
 
   PENDING.
 
-====5.1.3 Community.====
+====4.1.3 Community.====
 
   PENDING.
 
-===5.2 Acknowledgements.===
+===4.2 Acknowledgements.===
 
 Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics);
