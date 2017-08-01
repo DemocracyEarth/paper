@@ -423,6 +423,11 @@ A key setting of a liquid democracy system is to permit [http://ericposner.com/q
 
 ==3. Plan.==
 
+<blockquote>
+  It is the technology that we do not control the one that it is used to control us.
+</blockquote>
+[https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
+
 [[File:/images/humans.png|Humans on Earth.]]
 
 A pressing fact that goes to the core of what is behind the political and economical challenges of the 21st century is the rise in population growth: [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will reach 10 billion ''sapiens'']. Optimizing the distribution of opportunity to a population close to reaching the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] by the end of this century must be urgently addressed.
@@ -454,11 +459,6 @@ Corporations and public institutions are prone to corruption because decisions o
 Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources.
 
 ====3.2.1 DAOs.====
-
-<blockquote>
-  Technology for democracy must be understood by the vast majority of citizens. It is the technology that we do not control the one that it is used to control us.
-</blockquote>
-[https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
 
 Building decentralized organizations has been attempted in the past. ''Distributed Autonomous Organizations'' (or DAOs) aim to be blockchain entities constructed with smart contracts that entirely automate decision processes and can run without any kind of human oversight. The code itself is meant to be the ultimate arbiter, hence these organizations claim that ''code is law''. But experience has taught that ''bugs are law'' too: when German company [http://slock.it Slock.it] implemented [http://www.coindesk.com/understanding-dao-hack-journalists/ the largest crowdfunded DAO in May 2016 able to raise over USD 100 million], a hacker exploited the code using a security hole in the smart contract controlling all funds triggering a recursive call that leaked USD 55 million worth of ether from this DAO.
 
