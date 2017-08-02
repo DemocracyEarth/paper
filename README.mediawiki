@@ -156,7 +156,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 ==2. Paper.==
 
 <blockquote>
-  It is the technology that we do not control the one that it is used to control us.
+  It is the technology that we do not control the one that is used to control us.
 </blockquote>
 [https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
 
