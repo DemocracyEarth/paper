@@ -359,7 +359,8 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 
 * <code>SingleChoice</code>: One selectable option.
 * <code>MultipleChoice</code>: One or more selectable options.
-* [https://en.wikipedia.org/wiki/Ranked_voting <code>RankedChoice</code>]: Sortable options as ranked preferences.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal</code>]: A given score per option with a pre-defined range of value.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code>Ranked</code>]: Sortable options as ranked preferences.
 
 =====2.4.4.2 <code>Options</code>=====
 
@@ -445,15 +446,31 @@ A pressing fact that goes to the core of what is behind the political and econom
 
 Clues on the risks of running out of resources can be found in the cultural legacy of islands. A far away land such as [https://en.wikipedia.org/wiki/History_of_Easter_Island Easter Island] was during most of its history a closed system lacking any contact with the rest of the world. Its population had no means for survival other than its own resources, constantly facing the dangers of famine, epidemics and civil war. Even though these menaces seem far under a globalized economy, the sudden rise in human population during the past century is the driving force behind increasing CO2 levels in the atmosphere and the collapse of public infrastructure unable to deal with massive migrations. Refugees are escaping wars that seek to secure energy resources for a future that is coming at us fast as the pace of technological innovation accelerates. Even though some escape plans are already in place, including private efforts to reach Mars in the upcoming decades (resembling the biblical story of Noah's Ark), the urgent call to safeguard humanity as a whole must be picked. Distribution of opportunities and intelligent collaboration accross the globe cannot be achieved peacefully unless every voice gets heard, without exceptions. Global governance is the next logical step in a world already connected over the Internet. Blockchains lead towards the possibility of liquid governance laying out the foundations for a democracy of peers. Permission from established Nation-States is not required: citizens anywhere in the world can embrace this change using sovereign networks.
 
-===3.1 Initial Rights Offering.===
+===3.1 Rights vs. Debt===
+<blockquote>
+   “What is justice?”
+   “Pay your debts and don’t lie” Kefalos (capital), a wealthy arms manufacturer.
+</blockquote>
+'''Plato''', ''Republic''. Philosopher (428-348 BC).
 
-[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Offering'' of ''VOTE'' tokens. Our commitment is to guarantee ''VOTE'' rights to every living person by granting these as a Universal Basic Income designed to reach 7,500,000,000 humans. Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
+The association of debt, morality and wars remains at the root of the economic mental models of society. Coins were first created by the great empires with the mean of financing wars, enabling the purchase of provisions for soldiers in distant regions and rewarding them for won battles. Soldiers could loot silver and gold from conquered cities and then exchange it afterwards, as the emperors imposed gold and silver coins onto their citizens creating a market. Eventually empires would also ask for a share of those coins to be given back as a tax that was directed at the maintenance of the army. The moral narrative being that citizens were ''indebted'' to the emperor for their security. For being alive. Debt evolved to justify any form of coercion sustaining the vertical hierarchies of power in countries anywhere.
+
+The ''VOTE'' token will be distributed equally as a '''Right''', opposing the historical association of '''Debt''' and moral, and thus generating a new breeding ground for transactions that are not based on the possibility of coercion and need using a system of ''Universal Basic Income'' aimed at bringing equivalence to entities, restoring balance and fairness as the new moral standard.
+
+Democracy Earth Foundation's core motivation is enabling freedom and personal sovereignty. We see the entire experience of all cryptocurrencies, from design to present time, as an effort to find out how to validate, agree upon and trust a collective infrastructure for information without a government body that coerces individuals to obey. Freedom is the fundamental notion that attracts both anarchists and liberals to Bitcoin. The organic function of the blockchain is freedom. But freedom is a possibility only if individuals are able to say no, and go for a new order of things. This cannot be effectively achieved and scaled without a governance mechanism for humans. Voting is the key social technology that enables decision making, while sublimating armed conflict. The innovation we bring with ''VOTEs'' is the ability to have governance without the need for a political obligation. Dissociating decision making from allegiance to a country. We enable that through a new layer that signals incorruptible votes on the blockchain, beyond the territorial boundaries of Nation-States.
+
+There is another dimension inherent to the freedom equation: economics. The primary way through which political obligation is enforced is in the form of tax payments. Lack of liquidity is the most tangible and immediate barrier to freedom under which the vast majority of humanity finds themselves in. If you look at the first recorded word for freedom in any human language, it is the Sumerian word "amargi",  which literally means return to mother. That’s what would happen as debt forgiveness was enacted: debtors got to go home. As we can see, from the origins of the concept, freedom is inherently tied to a financial condition.
+
+Traditionally we think about politics and economics as two separate realms, but in reality the connection is abundantly evident: money means power, and power means votes. The way in which the current system works isn't compatible with democracy, as a minority of the society has a dispropotionate impact over the electoral and legislative process through their economic power. Therefore, in order to effectively promote democracy it is essential to adress both politics and economics at the same time. Historically, war-making states created currencies to fulfill their needs to provide for armies. Since then, fiat currencies have always been issued by nation-states. As Democracy Earth Foundation works to build a decentralized government through distributed ledger technology and smart contracts, we create  a cryptocurrency that works as an articulator of individual sovereignty, prosperity and peace. As Andreas Antonopoulos puts it: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
+
+For that purpose, our VOTE token will operate under two different modalities: a political one, as a mechanism for decision making, and an economic one, as a cryptocurrency. The concept is as new as it is intuitive. We see basic liquidity as a fundamental right, in the same way that identity is.
+
 
 {| class="wikitable"
 |-
 ! scope="col"| Feature
-! scope="col"| BTC
-! scope="col"| VOTE
+! scope="col"| Coins
+! scope="col"| Votes
 |-
 ! scope="row"| Fungible
 | Yes
@@ -463,6 +480,18 @@ Clues on the risks of running out of resources can be found in the cultural lega
 | Computational
 | Attention
 |}
+
+
+
+===3.1 Initial Rights Offering.===
+
+
+
+[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Offering'' of ''VOTE'' tokens. Our commitment is to guarantee ''VOTE'' rights to every living person by granting these as a Universal Basic Income designed to reach 7,500,000,000 humans. Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
+
+
+
+
 
 The Initial Rights Offering mechanism will grant ''VOTEs'' in two ways:
 
@@ -551,10 +580,6 @@ Building decentralized organizations has been attempted in the past. ''Distribut
 We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries in one's head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is an instrument that helps streamline decision processes, taking the legitimate input of all interested parties into account. Nonetheless, we are not against a complimentary implementation of AIs interacting with the system. Sovereign implementations can include AIs as participants that can even receive ''VOTE'' delegations and represent members. But it is the act of voting, rather than code that can escape the comprehension of participants, what keeps the system as a whole auditable, transparent and democratic.
 
 
-===3.3 Proof of Identity.===
-
-
-
 ===3.4 Hard Promises.===
 
 The building blocks of institutions consist of facts stored in contracts. But the kind of facts these agreements contain are of a very specific type. Institutions are not built with ''objective facts'' that are scientific, measurable and independent from human judgment; but rather ''inter-subjective facts'' that build the social world within a community setting the relations of property and rights. For example, the notion that every red can of soda belongs to the Coca Cola Corporation is not objective but an inter-subjective fact agreed upon all members of society acknowledging the intellectual property rights that company has over its products. In this way, institutional reality helps [http://unenumerated.blogspot.com.es/2017/02/money-blockchains-and-social-scalability.html scale economic relations and reduce the information required for organizations to transact].
@@ -563,26 +588,6 @@ The bureaucracies that protect these agreements depend on promises, i.e. “all 
 
 The goal we have set for the Democracy Earth Foundation is to pioneer blockchain governance by implementing a '''universal voting token''' compatible with any kind of institution. This technology can be used for the decision making process of multi-stakeholder organizations, private or public, small or large. As an organization decision instrument, we are aware that the main challenge of democracy is not only scaling participation but also scaling the understanding of what is being voted. In that sense the aim for this token is to enforce the preferences of a specialized majority that is knowledgeable on the conflicting issues while guaranteeing protections to all participating minorities.
 
-
-===3.5 Right versus debt.===
-
-Plato’s “Republic”, the founding work of Western political philosophy, begins with the following question: “What is justice?” To which Kefalos (capital), a wealthy arms manufacturer, says: “pay your debts and don’t lie”. Socrates immediately puts the response into question, but the association of debt, morality and wars remained to be at the root of the economic mental models of our society.
-
-The origins of this mindset can be grasped from the historical context of the origin of coins. Money in the form of coins was first created by the great empires as a means to finance wars, enabling the purchase of provisions for soldiers in distant regions and rewarding them for the battles they won. Soldiers could loot silver and gold from their conquered cities and then exchange it afterwards, as the emperors imposed gold and silver coins onto their citizens, thus creating a market. After distributing coins, empires would also ask for a share of those coins to be given back, a tax, that was directed at the maintenance of the army. The moral narrative was that citizens were <a href="https://www.amazon.com/Debt-First-5-000-Years/dp/1612191290">indebted</a> to the emperor for their security, for being alive.
-
-Debt was transformed from being an oral contract, a promise, to a moral narrative capable to justify any form of coercion possible. Higher agents on vertical hierarchies could now enact forceful coercion onto lower agents: be that in the system of countries, companies or individuals. The transition from a trust economy to this new and impersonal form of trade coincided with the origins of philosophy, as the great Greek thinkers quickly grasped the inherent problem with debt: that it implies an arrangement between two legally equivalent entities. Democracy Earth Foundation's token will be distributed equally as a RIGHT, opposing the historical association of DEBT and moral, and thus generating a new breeding ground for transactions that are not based on the possibilities of coercion and need. Meanwhile, a system of Universal Basic Income aims to bring equivalence to entities, restoring balance and fairness as the new moral standard.
-
-===3.6 One toke, two modes of operation.===
-
-Democracy Earth Foundation's core motivation is enabling freedom, or more specifically *personal sovereignty*. We see the entire experience of all cryptocurrencies, from design to present time, as an effort to find out how to validate, agree upon and trust a collective infrastructure for information without a government body that coerces individuals to obey. Freedom is the fundamental notion that attracts both anarchists and different kinds of liberals towards Bitcoin. +The organic function of the blockchain is freedom.+ And freedom is a possibility only if individuals are able to say no, and go for a new order of things. This cannot be effectively achieved and scaled without a governance mechanism for humans. Voting is the key social technology that enables decision making, while sublimating armed conflict. The innovation we bring with VOTEs, is the ability to have governance without the need for a political obligation. Dissociating decision making from allegiance to a country. And we enable that through a new layer that signals incorruptible votes on the blockchain, beyond the territorial boundaries of Nation-States.
-
-Yet, there is another dimension inherent to the freedom equation: economics. The primary way through which political obligation is enforced is in the form of tax payments. Lack of liquidity is the most tangible and immediate barrier to freedom under which the vast majority of humanity finds themselves in. If you look at the first recorded word for freedom in any human language, it is the Sumerian word "amargi",  which literally means return to mother. That’s what would happen as debt forgiveness was enacted: debtors got to go home. As we can see, from the origins of the concept, freedom is inherently tied to a financial condition.
-
-Traditionally we think about politics and economics as two separate realms, but in reality the connection is abundantly evident: money means power, and power means votes. The way in which the current system works isn't compatible with democracy, as a minority of the society has a dispropotionate impact over the electoral and legislative process through their economic power. Therefore, in order to effectively promote democracy it is essential to adress both politics and economics at the same time. Historically, war-making states created currencies to fulfill their needs to provide for armies. Since then, fiat currencies have always been issued by nation-states. As Democracy Earth Foundation works to build a decentralized government through distributed ledger technology and smart contracts, we create  a cryptocurrency that works as an articulator of individual sovereignty, prosperity and peace. As Andreas Antonopoulos puts it: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
-
-For that purpose, our VOTE token will operate under two different modalities: a political one, as a mechanism for decision making, and an economic one, as a cryptocurrency. The concept is as new as it is intuitive. We see basic liquidity as a fundamental right, in the same way that identity is.
-
-<img width="461" alt="screen shot 2017-08-04 at 4 10 37 pm" src="https://user-images.githubusercontent.com/18194034/28983293-8032bede-792f-11e7-9bae-94d14abe4280.png">
 
 ===3.7 Basic Income.===
 
