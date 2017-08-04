@@ -248,7 +248,7 @@ The ''liquid bar'' allows these actions:
 
 * '''See available ''VOTEs''''': Since in a liquid democracy a user can have 1 or more delegated ''VOTEs'', having a constant reminder of the balance helps the user understand his or her current power within the system. If some of the ''VOTEs'' were delegated with strict conditions (e.g. a ''Tag Limited Delegation''), this means that a user won't have the same amount of ''VOTEs'' available to spend on every issue.
 
-* '''See cast ''VOTEs''''': A percentage value with the amount of ''VOTEs'' currently cast on other decisions or delegated to other members of the communtiy is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''VOTE'' and decide whether to keep them there or make a strategic change.
+* '''See cast ''VOTEs''''': A percentage value with the amount of ''VOTEs'' currently cast on other decisions or delegated to other members of the community is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''VOTE'' and decide whether to keep them there or make a strategic change.
 
 * '''Slide to ''VOTE''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he or she will be prompted a confirmation request whether to ''VOTE'' or not.
 
