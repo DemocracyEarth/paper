@@ -449,46 +449,21 @@ Clues on the risks of running out of resources can be found in the cultural lega
 ===3.1 Rights vs. Debt===
 <blockquote>
    “What is justice?” the philosopher asked.
-   “Pay your debts and don’t lie” Kefalos (capital), a wealthy arms manufacturer, replied.
+   “Pay your debts and don’t lie” Kefalos [[capital]], a wealthy arms manufacturer, replied.
 </blockquote>
 '''Plato''', ''Republic''. Philosopher (428-348 BC).
 
 Although politics and economics are often perceived as different realms, history teaches that money means power and power means votes. In order to effectively promote democracy it is essential to adress both.
 
-
-{| class="wikitable"
-|-
-! scope="col"| Feature
-! scope="col"| Coins
-! scope="col"| Votes
-|-
-! scope="row"| Fungible
-| Yes
-| No
-|-
-! scope="row"| Mining
-| Computation
-| Attention
-|-
-! scope="row"| Liquidity
-| Scarce
-| Right
-|}
-
-The association of debt, morality and wars remains at the root of the economic mental models of society. Coins were first created by the great empires to finance wars by enabling the purchase of provisions for soldiers in distant regions and rewarding them for victory. Soldiers could loot silver and gold from conquered cities and then exchange it afterwards as the emperors minted gold and silver coins for their citizens in order to create markets. Eventually empires would also ask for a share of those coins to be given back as a tax that was directed at the maintenance of the army. The moral narrative was that citizens were ''indebted'' to the emperor for their security, for being alive. Debt evolved to justify any form of coercion sustaining the power hierarchies in countries anywhere. Lack of liquidity is the most tangible and immediate barrier to freedom under which the majority of humanity finds themselves in.
+The association of debt, morality and wars remains at the root of the economic mental models of society. Coins were first created by the great empires to finance wars by enabling the purchase of provisions for soldiers in distant regions and rewarding them for victory. Soldiers could loot silver and gold from conquered cities and then exchange it afterwards as the emperors minted coins with the precious metals in order to create markets. Eventually empires would also ask for a share of those coins to be given back as a tax that was directed at the maintenance of the army. The moral narrative was that citizens were ''indebted'' to the emperor for their security, for being alive. Debt evolved to justify any form of coercion sustaining the power hierarchies in countries anywhere. Lack of liquidity is the most tangible and immediate barrier to freedom under which the majority of humanity finds themselves in.
 
 The ''VOTE'' token will be distributed as a '''Right''' opposing the historical association of '''Debt''' and morals, generating a new breeding ground for transactions that are not based on the possibility of coercion. It will be granted as a ''Universal Basic Income'' aimed at bringing equivalence to transacting entities, restoring balance and fairness as the new moral standard. Democracy Earth's core motivation is enabling freedom and personal sovereignty, a possibility that can only be reached if individuals are able to say 'no' and go for a new order of things uncoerced and free. This cannot be achieved with induced scarcity as it is often found on most crypto assets, but rather through a guaranteed access to ''VOTEs'' to every member of society turning governance rights into a liquid asset.
 
-As Andreas Antonopoulos puts it: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
-
-For that purpose, our VOTE token will operate under two different modalities: a political one, as a mechanism for decision making, and an economic one, as a cryptocurrency. The concept is as new as it is intuitive. We see basic liquidity as a fundamental right, in the same way that identity is.
-
-
 ===3.1 Initial Rights Offering.===
 
-[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Offering'' of ''VOTE'' tokens. Our commitment is to guarantee ''VOTE'' rights to every living person by granting these as a Universal Basic Income designed to reach 7,500,000,000 humans. Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
+[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Offering'' of ''VOTE'' tokens for every living person by granting these as a ''Universal Basic Income'' designed to reach 7,500,000,000 people. Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
 
-The Initial Rights Offering mechanism will grant ''VOTEs'' in two ways:
+The key to sustain the market value of the ''VOTE'' token is to effectively validate all participating identities through a decentralized process that is also able to create, update or revoke keys by constantly monitoring against duplicated participants. Hence, our ''Initial Rights Offering'' mechanism will grant ''VOTEs'' in two ways:
 
 * '''Verified Self-Sovereign Identities''': Identity is foundational to the achievement of personal sovereignty and the kernel of voting systems. Today’s standard identity systems are based on certifications provided by a central authority where users are forced to share private information risking identity theft if authorities gets hacked. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Therefore [http://sovereign.software Sovereign] is organization-centric as a technology, unless the identity verification process of an organization becomes decentralized. For this reason, ''VOTEs'' can be obtained at no financial cost to anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity''.
 
@@ -582,6 +557,26 @@ The building blocks of institutions consist of facts stored in contracts. But th
 The bureaucracies that protect these agreements depend on promises, i.e. “all money kept in banks will be there tomorrow”. But as [https://twitter.com/aantonop Andreas Antonopoulos] states: “We’re used to systems of ''soft promises'' and reversible transactions.” If the government (or any other kind of central authority) wanted to confiscate private funds stored in a bank, nobody can stop them from breaking that promise. This has been the experience of Greek, Argentine, Venezuelan or Puerto Rican citizens with their own defaulting governments in the past decade. Blockchain based organizations offer an alternative of ''hard promises'': agreements stored in smart contracts strictly protected by cryptographic keys that no single third party can corrupt. Corruption is at the core of every broken promise between representatives and their constituencies. It is due to the weak dynamics of central authority that fraudulent behavior gets rewarded. Inside trading, monetary inflation, capital controls are some of the behaviours that tend to apply to all but the friends of those in power. By removing the need of central authority, blockchain-based institutions (whether public or private) operate with higher defenses against corrupted authority. And as far as regulation goes, cryptography cannot be stopped since doing it would require prohibiting mathematics.
 
 The goal we have set for the Democracy Earth Foundation is to pioneer blockchain governance by implementing a '''universal voting token''' compatible with any kind of institution. This technology can be used for the decision making process of multi-stakeholder organizations, private or public, small or large. As an organization decision instrument, we are aware that the main challenge of democracy is not only scaling participation but also scaling the understanding of what is being voted. In that sense the aim for this token is to enforce the preferences of a specialized majority that is knowledgeable on the conflicting issues while guaranteeing protections to all participating minorities.
+
+
+{| class="wikitable"
+|-
+! scope="col"| Feature
+! scope="col"| Coins
+! scope="col"| Votes
+|-
+! scope="row"| Function
+| Exchange of goods.
+| Social choice.
+|-
+! scope="row"| Mining
+| Computation (e.g. Proof of Work)
+| Attention (e.g. Proof of Identity)
+|-
+! scope="row"| Liquidity
+| Scarce, designed for economic behaviour.
+| Guaranteed, designed for uncoerced political behaviour.
+|}
 
 
 ===3.7 Basic Income.===
