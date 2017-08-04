@@ -192,7 +192,7 @@ What differentiates a vote from money (or in broader terms: a ''political econom
 
 ====2.1.1 Implementation.====
 
-Considering that value [https://es.wikipedia.org/wiki/Dogecoin can be driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''VOTE''.
+Considering that value [https://en.wikipedia.org/wiki/Dogecoin can be driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''VOTE''.
 
 The ''VOTE'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we are working on implementing the ''VOTE'' token under these smart contract environments:
 
