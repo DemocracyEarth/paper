@@ -340,6 +340,7 @@ Compatibility with decentralized identity protocols is encouraged for the purpos
 
 An organization consists of a collection of ''issues'' each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. An issue in its most basic form has these properties:
 
+* <code>Title</code>: Title of the decision to be made, also used as unique identifier and url slug.
 * <code>Description</code>: Text of the decision to be made.
 * <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
 * <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if an organization's governance rules allows it.
