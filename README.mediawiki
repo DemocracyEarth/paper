@@ -330,7 +330,7 @@ Templates defining common practices for specific kinds of organizations are enco
 
 ====2.4.2 <code>Members</code>====
 
-Every Organization has members that get the right to vote on the decisions of the organization. Membership approval is defined in the ''constitutional smart contract'' of the organization, setting how open or closed as an institution this entity will be.
+Every Organization has members that get the right to vote on the decisions of the organization. Membership is defined in the ''constitutional smart contract''.
 
 A strict definition in the membership criteria of an organization is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''VOTEs'' to be used for its governance.
 
@@ -338,7 +338,7 @@ Compatibility with decentralized identity protocols is encouraged for the purpos
 
 ====2.4.3 <code>Issues</code>====
 
-An organization consists of a collection of ''issues'' each describing a decision to be made by the members. In the ''constitutional smart contract'' of an organization it can be defined whether any member or a subset with special rights (e.g. members that have a minimum amount of ''VOTEs'') can post an open decision to be voted. An issue in its most basic form has these properties:
+An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define member's voting and posting rights. An issue in its most basic form has these properties:
 
 * <code>Description</code>: Text of the decision to be made.
 * <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''VOTEs''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags helps making the democratic environment of an organization more fair as it avoids members trying to control naming conventions for their own benefit.
