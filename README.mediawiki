@@ -25,7 +25,7 @@ This text is structured in 3 parts aimed to satisfy different kinds of readers (
 
 * [[#Paper|Paper]]: For builders. Describes the building blocks for a system that can be implemented by anyone, anywhere.
 
-* [[#Plan|Plan]]: For pragmatists. Specifies how to execute these ideas for impact.
+* [[#Execution|Execution]]: For pragmatists. Specifies how to execute these ideas for impact.
 
 We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone. Democracy as the ability to trust each other in the greatest possible extent is a defining force in the arrow of history. Our aim is to help echo a mission encompassed in all of humanity as we see the need to make of our shared home an utopia (not doing so could otherwise be rather expensive if not fatal). [http://democracy.earth Democracy Earth Foundation] has done [[#Background|extensive research]] on voting systems, cyberpolitics and blockchain networks to trigger a public conversation regarding the internet as a planetary jurisdiction.
 
@@ -436,7 +436,7 @@ These two subversive strategies attack the core of how a decentralized organizat
 
 ----
 
-<div id="Plan"></div>
+<div id="Execution"></div>
 
 ==3. Execution.==
 
@@ -478,7 +478,7 @@ Although politics and economics are often perceived as different realms, history
 | Social choice.
 |-
 ! scope="row"| Value
-| Space (materialism).
+| Space (material goods).
 | Time (information).
 |}
 
@@ -486,11 +486,11 @@ The association of debt, morality and wars remains at the root of the economic m
 
 The ''VOTE'' token will be distributed as a '''Right''' opposing the historical association of '''Debt''' and morals, generating a new breeding ground for transactions that are not based on the possibility of coercion. It will be granted as a ''Universal Basic Income'' aimed at bringing equivalence to transacting entities, restoring balance and fairness as the new moral standard. Democracy Earth's core motivation is enabling freedom and personal sovereignty, a possibility that can only be reached if individuals are able to say 'no' and go for a new order of things uncoerced and free. This cannot be achieved with induced scarcity as it is often found on most crypto assets, but rather through a guaranteed access to ''VOTEs'' to every member of society turning governance rights into a liquid asset.
 
-===3.1 Initial Rights Offering.===
+===3.2 Initial Rights Offering.===
 
 [http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Offering'' of ''VOTE'' tokens for every living person by granting these as a ''Universal Basic Income'' designed to reach 7,500,000,000 people. Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
 
-The key to sustain the market value of the ''VOTE'' token is to effectively validate all participating identities through a decentralized process that is able to create, update or revoke keys by constantly monitoring against duplicated participants. Hence, our ''Initial Rights Offering'' mechanism will grant ''VOTEs'' in two ways:
+The key to sustain the market value of the ''VOTE'' token is to effectively validate all participating identities through a decentralized process that is able to create, update or revoke keys by constantly monitoring against duplicated ids throughout time. Hence, our ''Initial Rights Offering'' mechanism will grant ''VOTEs'' to two kinds of participants:
 
 * '''Verified Self-Sovereign Identities''': Identity is foundational to the achievement of personal sovereignty and the kernel of voting systems. Today’s standard identity systems are based on certifications provided by a central authority where users are forced to share private information risking identity theft if authorities gets hacked. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Therefore [http://sovereign.software Sovereign] is organization-centric as a technology, unless the identity verification process of an organization becomes decentralized. For this reason, ''VOTEs'' can be obtained, at no financial cost, to anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity''. ''VOTEs'' obtained under this mechansim will trigger an allocation mechanism throughout time in the claimed public address of the identity.
 
@@ -500,7 +500,7 @@ The key to sustain the market value of the ''VOTE'' token is to effectively vali
 ** '''15% for Operations''': Legal and accounting, travel expenses, office and co-working spaces.
 ** '''15% for Community''': Customer service, marketing and outreach efforts, social media, communicatoin, events and meetups.
 
-===3.2 Attention Mining.===
+===3.3 Attention Mining.===
 
 <blockquote>
   In the blockchain nobody knows you are an AI.
