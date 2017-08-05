@@ -1,10 +1,10 @@
 <pre>
   DEF: 1
   Title: The Social Smart Contract
-  Author: Santiago Siri <santi@democracy.earth>, Herb Stephens <herb@democracy.earth>.
+  Author: @santisiri, @herbstephens.
   Comments-Summary: No comments yet.
   Status: Active
-  Type: Process
+  Type: Paper
   Created: 2017-07-14
   License: MIT
   Replaces: 0
@@ -492,7 +492,7 @@ The ''VOTE'' token will be distributed as a '''Right''' opposing the historical 
 
 The key to sustain the market value of the ''VOTE'' token is to effectively validate all participating identities through a decentralized process that is able to create, update or revoke keys by constantly monitoring against duplicated ids throughout time. Hence, our ''Initial Rights Offering'' mechanism will grant ''VOTEs'' to two kinds of participants:
 
-* '''Verified Self-Sovereign Identities''': Identity is foundational to the achievement of personal sovereignty and the kernel of voting systems. Today’s standard identity systems are based on certifications provided by a central authority where users are forced to share private information risking identity theft if authorities gets hacked. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Therefore [http://sovereign.software Sovereign] is organization-centric as a technology, unless the identity verification process of an organization becomes decentralized. For this reason, ''VOTEs'' can be obtained, at no financial cost, by anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity''. ''VOTEs'' obtained under this mechansim will trigger an allocation throughout time in the claimed public address of the identity.
+* '''Self-Sovereign Identities''': Identity is foundational to the achievement of personal sovereignty and the kernel of voting systems. Today’s standard identity systems are based on certifications provided by a central authority where users are forced to share private information risking identity theft if authorities gets hacked. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Therefore [http://sovereign.software Sovereign] is organization-centric as a technology, unless the identity verification process of an organization becomes decentralized. For this reason, ''VOTEs'' can be obtained, at no financial cost, by anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity''. ''VOTEs'' obtained under this mechansim will trigger an allocation throughout time in the claimed public address of the identity.
 
 * '''Supporters of Democracy Earth Foundation''': ''VOTE'' tokens can be obtained at a financial cost based on its current market value in exchange for Bitcoin, Ether or ZCash. All proceeds will be used to continue efforts to strengthen the reach and impact of the ''VOTE'' network by committing the use of funds in the following way:
 
@@ -500,24 +500,9 @@ The key to sustain the market value of the ''VOTE'' token is to effectively vali
 ** '''15% for Operations''': Legal and accounting, travel expenses, office and co-working spaces.
 ** '''15% for Community''': Customer service, marketing and outreach efforts, social media, communication, events and meetups.
 
-Supporters holding ''VOTE'' tokens can use them as an asset among their crypto holdings and on custom implementations of Sovereign liquid democracies. Democracy Earth Foundation will only recognize for its governance purposes ''VOTES'' only granted via ''Proof of Identity''.
+Supporters holding ''VOTE'' tokens can use them as an asset among their crypto holdings and on custom implementations of Sovereign liquid democracies. Democracy Earth Foundation will only recognize for its governance purposes ''VOTES'' granted via ''Proof of Identity''.
 
-===3.3 Attention Mining.===
-
-<blockquote>
-  In the blockchain nobody knows you are an AI.
-</blockquote>
-'''Satoshi Nakamoto'''.
-
-The capacity of ''VOTEs'' to guarantee borderless governance is kept as long as they can be granted using a decentralized protocol for identity verification where participants that have been successfully verified in the network can use their allocated ''VOTEs'' to validate (or disapprove) new applicants. In computer-space identities are nothing but pointers: algorithms lack any awareness about the patterns they are trained to recognize. Identities strictly belong to the human realm (i.e. only a person can really recognize another person). So rather than harnessing ''distributed computing power'' to verify transactions as it happens with most cryptocurrencies, ''VOTEs'' use ''distributed attention power'' to verify self-generated identities.
-
-[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
-
-A well known precedent of attention mining are CAPTCHA tests often found in the login of high-traffic websites. CAPTCHA is an acronym for ''Completetly Automated Public Turing test to tell Computers and Humans Apart''. These consist of simple vision excercises that can be completed by a human more easily than by a computer. A field [https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf pioneered by researcher Louis Von Ahn], where he used this technique to help build datasets able to train machine learning algorithms capable of reading printed words. As a Google engineer Von Ahn created a simple test distributed across all login pages that displayed two words obtained from scanned pictures. A user would write both words in a text input field to prove he is human and not a machine. The system already knows the meaning of the first word (hence validating the user is human) but it gets trained with the second input as it uses this information to further optimize its character recognition algorithms. This simple excercise has been extended to train all kinds of pattern recognition systems and it contributed to the security of websites preventing bots (and botnets) from intruding.
-
-Attention can also serve as the computational foundation to validate human identities on a decentralized network similar to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. Bitcoin is able to synchronize its network without central authorities by rewarding miners that contribute computing capacity to verify the validity of blocks containing transactions. Each miner generates a POW hash per block that meets a difficulty target shared across the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without banks. A democracy without governments can work the same way but instead of verifying encrypted blocks, human attention serves the purpose to validate ''VOTErs''.
-
-====3.3.1 Proof of Identity====
+===3.3 Proof of Identity===
 
 A self-sovereign identity must be voluntarily generated by the user claiming it. For this purpose the user must broadcast a proof of his or her identity that strictly satisfies a criteria that can only be met by human judgment. Due to the complexity of validating an identity, the proof shall be in a format that requires a large amount of cerebral bandwidth: video. This video proof can be done with any recording application as long as it satisfies the requirements of the protocol. In it the user must follow a series of scripted steps in order to help validators judge:
 
@@ -546,12 +531,27 @@ A self-sovereign identity must be voluntarily generated by the user claiming it.
 
 [[File:/images/roma-siri-blockchain-baby.png|Roma Siri's blockchain birth certificate.]]
 
-[https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain certified birth certificate on November 6, 2015. [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 The process], even though symbolic at the time, followed the same simple steps described here. Once the video was filmed, a cryptographic hash of the digital file was generated using the service provided by [htts://proofofexistence.com ProofofExistence.com] and that code was included in a bitcoin transaction. This means that regardless where the video is stored, the permanent record of its hash on the bitcoin blockchain can verify that its data was not corrupted by anyone and that it existed at the time the proof was generated.
+[https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain certified birth certificate on November 7, 2015. [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 The process], even though symbolic at the time, followed the same simple steps described here. Once the video was filmed, a cryptographic hash of the digital file was generated using the service provided by [https://proofofexistence.com ProofofExistence.com] that included the hash in a bitcoin transaction for a small fee. This means that regardless where the video is stored, the permanent record of its hash on the bitcoin blockchain can verify that its data was not corrupted and that it existed at the time the proof was generated.
 
-Sovereign individuals willing to ''VOTE'' 
+Sovereign individuals willing to get ''VOTEs'' shall simply generate this proof with any digital device and, once hashed, broadcast it to the internet for verification. Smartphone applications that simplify the process of generating the video proof are encouraged.
+
+===3.4 Attention Mining.===
+
+<blockquote>
+  In the blockchain nobody knows you are an AI.
+</blockquote>
+'''Satoshi Nakamoto'''.
+
+The capacity of ''VOTEs'' to guarantee borderless governance is kept as long as they can be granted using a decentralized protocol for identity verification where participants that have been successfully verified in the network can use their allocated ''VOTEs'' to validate (or disapprove) new applicants. In computer-space identities are nothing but pointers: algorithms lack any awareness about the patterns they are trained to recognize. Identities strictly belong to the human realm (i.e. only a person can really recognize another person). So rather than harnessing ''distributed computing power'' to verify transactions as it happens with most cryptocurrencies, ''VOTEs'' use ''distributed attention power'' to verify self-generated identities.
+
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
+A well known precedent of attention mining are CAPTCHA tests often found in the login of high-traffic websites. CAPTCHA is an acronym for ''Completetly Automated Public Turing test to tell Computers and Humans Apart''. These consist of simple vision excercises that can be completed by a human more easily than by a computer. A field [https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf pioneered by researcher Louis Von Ahn], where he used this technique to help build datasets able to train machine learning algorithms capable of reading printed words. As a Google engineer Von Ahn created a simple test distributed across all login pages that displayed two words obtained from scanned pictures. A user would write both words in a text input field to prove he is human and not a machine. The system already knows the meaning of the first word (hence validating the user is human) but it gets trained with the second input as it uses this information to further optimize its character recognition algorithms. This simple excercise has been extended to train all kinds of pattern recognition systems and it contributed to the security of websites preventing bots (and botnets) from intruding.
+
+Attention can also serve as the computational foundation to validate human identities on a decentralized network similar to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. Bitcoin is able to synchronize its network without central authorities by rewarding miners that contribute computing capacity to verify the validity of blocks containing transactions. Each miner generates a POW hash per block that meets a difficulty target shared across the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without banks. A democracy without governments can work the same way but instead of verifying encrypted blocks, human attention serves the purpose to validate ''VOTErs''.
 
 
-====3.1.2 Reward====
+====3.3.2 Reward====
 
 Recent developments in distributed computing are allowing the rise of  truly self-sovereign identity systems. Asymmetric cryptography ensures security from the user perspective, and trust between peers can arise in a decentralised manner, with the collection of credentials and reputation management. Because anyone can use these identities and the resulting benefits without an intervening authority, they’re called “self-sovereign.”
 
