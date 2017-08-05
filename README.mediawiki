@@ -550,6 +550,8 @@ A well known precedent of attention mining are CAPTCHA tests often found in the 
 
 Attention can also serve as the computational foundation to validate human identities on a decentralized network similar to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. Bitcoin is able to synchronize its network without central authorities by rewarding miners that contribute computing capacity to verify the validity of blocks containing transactions. Each miner generates a POW hash per block that meets a difficulty target shared across the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without banks. A democracy without governments can work the same way but instead of verifying encrypted blocks, human attention serves the purpose to validate ''VOTErs''.
 
+Note: AM is the way to fight BB
+
 ====3.3.2 SocialRank.====
 
 The capacity of ''VOTEs'' to guarantee borderless governance is kept as long as they can be granted using a decentralized protocol for identity verification where participants that have been successfully verified in the network can use their allocated ''VOTEs'' to validate (or disapprove) new applicants.
