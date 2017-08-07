@@ -560,15 +560,16 @@ The capacity of ''VOTEs'' to guarantee borderless governance is kept as long as 
 
 ===3.7 Basic Income.===
 
-In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. Therefore, VOTEs will be distributed through time, an asset that is, by nature, acessible to all.
+In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. Therefore, VOTEs will be distributed through time, an asset that is equally acessible to all, ensuring fairness of the distribution.
 
 <img width="200" alt="screen shot 2017-07-27 at 12 02 14 am" src="https://user-images.githubusercontent.com/18194034/28652569-e61d4c14-725e-11e7-8f2b-32a95a52bea4.png">
 
-Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model. LIQUIDITY is needed for a true democracy to exist. As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity.  Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right. In a world where economies are interdependent, only a basic income that is truly Universal and not bounded by territorial nation-states can effectively tackle the coming challlenges of automation and artificial intelligence onto the labour market.
+Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. We utilize Bitcoin's block size of 10 minutes as a time parameter as it serves the function of syncing human labour while being optimized by machines.
 
-In addition to the VOTE token, DEF is creating a second token, designed to represent a citizen's right to be heard in public markets and as power represented by time.  The time token ["HOUR" or "HORA"] will be 'GRANTED', 'DRIPPED' AND 'EARNED' by every *Identified* VOTE token holder.
+1 VOTE = 1 Bitcoin block = 10 minutes
 
-1 UNIT =  1 HOUR
+Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model. LIQUIDITY is needed for a true democracy to exist. As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity. Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right. In a world where economies are interdependent, only a basic income that is truly Universal and not bounded by territorial nation-states can effectively tackle the coming challlenges of automation and artificial intelligence onto the labour market.
+
 
 Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an annual basic income would be the equivalent of 200 hours. It means that any organization deciding to adopt this currency has a 10% discount on the compensation it pays for its colaborators.
 
