@@ -550,6 +550,16 @@ A well known precedent of attention mining are CAPTCHA tests often found in the 
 
 Attention can also serve as the computational foundation to validate human identities on a decentralized network similar to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. Bitcoin is able to synchronize its network without central authorities by rewarding miners that contribute computing capacity to verify the validity of blocks containing transactions. Each miner generates a POW hash per block that meets a difficulty target shared across the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without banks. A democracy without governments can work the same way but instead of verifying encrypted blocks, human attention serves the purpose to validate ''VOTErs''.
 
+In perfect juxtapositon to Bitcoin's Proof of Work, which is based on computing power, attention computation will synchronize itself without the need for a central authority by utilising and rewarding **human** work. The network will be established through peer to peer verification of self-generated Proof of Identity videos by casting VOTE's that signal if POI is legitimate or corrupt. Attention will be scanning for:
+
+- Protocol requirements (Name, Nationality, Birthday, etc.); 
+- Searching for duplicates; 
+- Asserting that person is alive or dead;
+
+An algorithm rank will weight VOTEs and reward attention miners according to the lenght of the videos verified and their ability to correctly identify legitimate or corrupt self-generated POIs over time. In order to avoid unfair rewards, video length will be limited to Bitcoin's block size: 10 minutes.
+
+The new self-sovereign frontiers will be set by miners and their "distributed attention power”, outperforming centralised identity providers in terms of accuracy as its nodes are constantly incentivized to maintain legitimacy within the network. The probability of corruption diminishes exponentially over time as identified users and nodes grow their reputation and rely on that for mining and transacting with other nodes. Distributed attention power not only brings consciousness to a system once blind to Artificial Intelligence, but also is the very key through which members can own their identities without being obligated to share it with any centralized validator that could monetize from it or utilize it for control purposes.
+
 ====3.3.2 SocialRank.====
 
 The capacity of ''VOTEs'' to guarantee borderless governance is kept as long as they can be granted using a decentralized protocol for identity verification where participants that have been successfully verified in the network can use their allocated ''VOTEs'' to validate (or disapprove) new applicants.
