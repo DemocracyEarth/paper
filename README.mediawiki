@@ -553,7 +553,8 @@ A proof can be done with any recording application as long as it satisfies the r
 
 # '''Declaration''': To guarantee that the person generating his or her identity proof is not being coerced by an unseen attacker, it is mandatory to make a declaration of self-sovereignty (any language is admitted):
 
-  I, (Personal Name), declare that I'm making this video as a self-sovereign act and will be the sole user of all the ''VOTEs'' allocated under my identity. No one else has the right to use these allocated ''VOTEs'', all of which are my sovereign right. 
+  I, (Personal Name), declare that I'm making this video as a self-sovereign act.
+  I will be the sole user of all the ''VOTEs'' allocated under my identity. 
 
 # '''Timestamp''': Current block height of the bitcoin blockchain at the time this video is being shot. A manual proof can simply film the screen of a blockchain explorer application displaying the last block number and the hash corresponding to it. Since this might be complex for most users, apps designed to generate this proof can automatically add this content to the video. This information once the proof is hashed with a blockchain transaction will certify the video was not modified in any possible way by a third party after it was broadcasted to the network.
 
