@@ -561,7 +561,7 @@ Once the digital file with the proof of the self-sovereign identity has been gen
 
 Considering that an average bitcoin transaction consists of 226 bytes with a mining fee as of August 2017 at 27,120 satoshis, the cost for hashing a proof directly on the blockchain is at 1 US dollar per proof. This can be relatively expensive for a majority of people, hence we recommend scaling this process by also enabling a [https://github.com/aantonop/chainpoint Chainpoint] implementation able to store up to 10,000 proofs per transaction by putting the hashed data on a [https://en.wikipedia.org/wiki/Merkle_tree Merkle Tree] and encoding the Merkle root in the OP_RETURN script instead. This will also significantly reduce the memory requirements of the Bitcoin blockchain, being this a public resource that must not be abused from.
 
-Any evidence that goes through this process in a digital context is guaranteed to not be corrupted in any way. The digital files being used as proof can be stored anywhere and copied without restrictions. As long as there is a transaction in the blockchain that can validate the encoded hash with the structure of the digital file, then the evidence is valid. The Bitcoin blockchain offers the strongest resistance to corruption since it has the largest amount of hashing power in the world. Leveraging this capacity will only make the bureaucracy of a borderless democracy stronger than any other government on Earth under any objective metric.
+Any proof that goes through this process in a digital context is guaranteed to not be corrupted in any way. The digital files being used as proof can be stored anywhere and copied without restrictions. As long as there is a transaction in the blockchain that can validate the encoded hash with the structure of the digital file, then the evidence is valid. The Bitcoin blockchain offers the strongest resistance to corruption since it has the largest amount of hashing power in the world. With this mechanism in place, the Bitcoin blockchain will function as a decentralized index of self-sovereign identities.  Leveraging this capacity will only make the bureaucracy of a borderless democracy stronger than any other government on Earth under any objective metric.
 
 ====3.3.2 Attention Mining.====
 
@@ -580,7 +580,7 @@ Attention can also serve as the foundation to validate human identities on a dec
 
 ====3.3.3 Little Brothers.====
 
-<<blockquote>
+<blockquote>
   Who watches the watchmen?
 </blockquote>
 [https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
@@ -593,11 +593,10 @@ They should observe for:
 
 * Protocol compatibility (Properly filming face, mentioning name and vital signs, including declaration, etc).
 * Flagging duplicates (one person appearing on two or more proof videos).
-* Asserting that person is alive or dead.
+* Asserting that an identity is alive, a correct age of birth is mentioned or dead.
 
+The interest to contribute in the validation of identities directly relates to the value of the ''VOTE'' token itself. The legitimacy of
 
-
-This is how ''Big Brother'' is killed.
 
 An algorithm rank will weight VOTEs and reward attention miners according to the lenght of the videos verified and their ability to correctly identify legitimate or corrupt self-generated POIs over time. In order to avoid unfair rewards, video length will be limited to Bitcoin's block size: 10 minutes.
 
