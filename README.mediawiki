@@ -580,7 +580,14 @@ Attention can also serve as the foundation to validate human identities on a dec
 
 ====3.3.3 Little Brothers.====
 
-Those who contribute with their attention to verify identities simply scan videos feeded to them. Their responsibility is to search for clues that either satisfy or not the protocol requirements. If they agree that an identity is valid, they cast a ''VOTE'' including a <code>Ballot</code> with a <code>true</code> checked option on it. Otherwise they must cast a ''VOTE'' in rejection. All POI related decisions are <code>Strategical</code>: without a closing date where allocated ''VOTEs'' impact in real time. At any time a verifier can switch his or her ''VOTE'' if it has found evidence that modifies the judgement. Also, ''VOTEs'' validating an identity can be removed if the identity already has input from sufficient validators, making the allocation of those ''VOTEs'' redundant.
+<<blockquote>
+  Who watches the watchmen?
+</blockquote>
+[https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
+
+Those who contribute with their attention to verify identities simply scan videos feeded to them. Their responsibility is to search for clues that either satisfy or not the protocol requirements in the content of the videos. Their role replaces the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity guaranteeing the legitimacy of a system, as it is the case of Facebook or Nation-States. By harnessing distributed attention instead of an all-observing eye, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt little brothers].
+
+If they agree that an identity is valid, they cast a ''VOTE'' including a <code>Ballot</code> with a <code>true</code> checked option on it. Otherwise they must cast a ''VOTE'' in rejection. All POI related decisions are <code>Strategical</code>: without a closing date where allocated ''VOTEs'' impact in real time. At any time a verifier can switch the ''VOTE'' value if it has found evidence that modifies his or her judgement. Also, ''VOTEs'' validating an identity can be removed if the identity already has input from sufficient validators which makes allocation of additional ''VOTEs'' redundant. To prevent any kind of centralization regarding the identity verification process, only one ''VOTE'' per validator is allowed to approve or disapprove an identity.
 
 They should observe for:
 
@@ -692,4 +699,4 @@ TED, FastForward, Y Combinator, Singularity University, World Economic Forum.
 
 ===4.2 Acknowledgements.===
 
-Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico;
+Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast;
