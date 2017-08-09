@@ -506,6 +506,8 @@ Even though we are aware that it’s unrealistic to reach the entirety of the gl
 
 The key to sustain the value of the ''VOTE'' token is to effectively validate all participating identities through a decentralized process that can create, update or revoke keys. Identity is foundational to personal sovereignty and the kernel of voting systems. Today’s standard identity systems are based on certifications provided by a central authority where users are forced to share private information risking identity theft if authorities gets hacked. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Therefore [http://sovereign.software Sovereign] is organization-centric as a technology unless the identity verification process of an organization becomes decentralized. For this reason, ''VOTEs'' can be obtained, at no financial cost, by anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity'' (POI). ''VOTEs'' obtained under this mechansim will trigger an allocation throughout time in the claimed public address of the identity.
 
+This process requires a self-hosted wallet that is connected to the content used for a ''Proof of Identity''. The wallet contains a private key known only to its user connected to a public key able to receive ''VOTEs''. If sufficient ''VOTEs'' validate the evidence used for the ''Proof of Identity'', the wallet will start receiving a corresponding amount of ''VOTEs'' based on a ''Universal Basic Income'' dynamic.
+
 ====3.2.2 Financial Access.====
 
 ''VOTE'' tokens can be obtained at a financial cost based on its current market value in exchange for Bitcoin, Ether and eventually other cryptocurrencies. All proceeds will be used to continue efforts to strengthen the reach and impact of the ''VOTE'' democracy by committing the use of funds in the following way:
@@ -515,7 +517,9 @@ The key to sustain the value of the ''VOTE'' token is to effectively validate al
 * '''12% for Operations''': Legal and accounting, travel expenses, office and co-working spaces.
 * '''3% for Identities''': A fixed pool will be used to subsidize the cost of hashing ''Proof of Identity'' transactions.
 
-Those who accessed the ''VOTE'' token through a financial mechanism can use ''VOTEs'' as an asset among their crypto holdings and with custom implementations of liquid democracies of any kind.
+Those who accessed the ''VOTE'' token through a financial mechanism can use ''VOTEs'' as an asset among their crypto holdings and for custom implementations of liquid democracies of any kind. These ''VOTEs'' are not connected to a proven identity and can be used for private purposes.
+
+Value of the ''VOTE'' token can be measured by the size of the network it can establish as an alternative to closed systems. An example can be found on the Facebook network, currently valuing 2 Billion users with a market capitalization of ~$ 500 Billion averaging an estimate of $ 250 per user. Unlike ''Likes'', ''VOTEs'' directly empower its holders with the right to participate on any financial benefit that can be connected to their use. With the creation of Sovereign as an interface for blockchain-based liquid democracies operating with ''VOTE'' tokens, Democracy Earth Foundation's hope is to deliver a ''Linux moment'' to Facebook: analogous to the rise of open source operating systems in the early 1990's as an alternative to the monopolizing force of Microsoft's Windows that dominated the market of personal computers back then, a free and open Internet must pursue the creation of a social network where no single entity can excercise algorithmical control of ideas in exchange for private information.  
 
 ===3.3 Proof of Identity.===
 
@@ -610,6 +614,8 @@ To prevent any kind of centralization regarding the identity verification proces
 
 In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. VOTEs will be distributed through time, an asset that is, by nature, acessible to all.
 
+Avoids Tragedy of the Commons.
+
 Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model. LIQUIDITY is needed for a true democracy to exist. As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity.  Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right. In a world where economies are interdependent, only a basic income that is truly Universal and not bounded by territorial nation-states can effectively tackle the coming challlenges of automation and artificial intelligence onto the labour market.
 
 In addition to the VOTE token, DEF is creating a second token, designed to represent a citizen's right to be heard in public markets and as power represented by time.  The time token ["HOUR" or "HORA"] will be 'GRANTED', 'DRIPPED' AND 'EARNED' by every *Identified* VOTE token holder.
@@ -622,7 +628,7 @@ Adoption of the token is also incentivized as a political position: the era of m
 
 Andreas Antonopoulos: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
 
-====3.3.2 Reward====
+===3.5 Value===
 
 Recent developments in distributed computing are allowing the rise of  truly self-sovereign identity systems. Asymmetric cryptography ensures security from the user perspective, and trust between peers can arise in a decentralised manner, with the collection of credentials and reputation management. Because anyone can use these identities and the resulting benefits without an intervening authority, they’re called “self-sovereign.”
 
@@ -632,7 +638,7 @@ Microsoft is backing an open source initiative to develop a system with Blocksta
 In the publication Digital Identity Issue Analysis (Consult Hyperion 2016) it is noted that centralized organizations currently serving as identity providers will evolve to become "identity proofers" - someone still needs to carry out the checks that an individual is who they say they are as they bridge the digital and physical worlds. Standards of assurance will always need to be met and relying parties will always need to be able to trust such assurances: what will change is the ease and simplicity of doing such checks in an environment where individuals simply give permission to access verified data to satisfy the given criteria, and not be beholden to any one bastion of trust in order to have a digital identity.
 
 
-===3.2 Governance.===
+===3.6 Governance.===
 
 <blockquote>
   Do you know what politics is? What you say and do in a given point in time.
@@ -643,14 +649,14 @@ Corporations and public institutions are prone to corruption because decisions o
 
 Digital organizations that operate with distributed teams in virtual environments have the advantage of always documenting their work throughout every process by default. In this sense the open source movement has innovated on how large groups can collaborate. But they often rely on voluntary contributions, lack the means to reward efforts and governance is still in feudal times: projects can be dependent on a ''benevolent dictator'' able to discretionally call the shots to allocate resources.
 
-====3.2.1 DAOs.====
+====3.6.1 DAOs.====
 
 Building decentralized organizations has been attempted in the past. ''Distributed Autonomous Organizations'' (or DAOs) aim to be blockchain entities constructed with smart contracts that entirely automate decision processes and can run without any kind of human oversight. The code itself is meant to be the ultimate arbiter, hence these organizations claim that ''code is law''. But experience has taught that ''bugs are law'' too: when German company [http://slock.it Slock.it] implemented [http://www.coindesk.com/understanding-dao-hack-journalists/ the largest crowdfunded DAO in May 2016 able to raise over USD 100 million], a hacker exploited the code using a security hole in the smart contract controlling all funds triggering a recursive call that leaked USD 55 million worth of ether from this DAO.
 
 We believe there is a clear lesson to be learned from this: the need for governance cannot be abstracted. Voting matters. The neural networks with the accumulated trained sets of a lifetime each human carries in one's head is a fundamental resource for savvy decision making. DAO driven entities surrender the political frontier between mankind and machines entirely to the machines. It is a well known risky path: financial markets have been dealing with [https://en.wikipedia.org/wiki/Flash_crash flash crashes] and erratic glitches from trading bots [https://en.wikipedia.org/wiki/Black_Monday_(1987) since the introduction of the first computers]. Bitcoin's ongoing scaling debate between those who build its software and those who provide mining hardware suffers from the lack of a clear protocol for decision making often stagnating innovation. The vote is an instrument that helps streamline decision processes, taking the legitimate input of all interested parties into account. Nonetheless, we are not against a complimentary implementation of AIs interacting with the system. Sovereign implementations can include AIs as participants that can even receive ''VOTE'' delegations and represent members. But it is the act of voting, rather than code that can escape the comprehension of participants, what keeps the system as a whole auditable, transparent and democratic.
 
 
-===3.4 Hard Promises.===
+===3.6.2 Hard Promises.===
 
 The building blocks of institutions consist of facts stored in contracts. But the kind of facts these agreements contain are of a very specific type. Institutions are not built with ''objective facts'' that are scientific, measurable and independent from human judgment; but rather ''inter-subjective facts'' that build the social world within a community setting the relations of property and rights. For example, the notion that every red can of soda belongs to the Coca Cola Corporation is not objective but an inter-subjective fact agreed upon all members of society acknowledging the intellectual property rights that company has over its products. In this way, institutional reality helps [http://unenumerated.blogspot.com.es/2017/02/money-blockchains-and-social-scalability.html scale economic relations and reduce the information required for organizations to transact].
 
@@ -667,8 +673,6 @@ The goal we have set for the Democracy Earth Foundation is to pioneer blockchain
 </blockquote>
 '''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
 
-  PENDING.
-
 ----
 
 ==4. About.==
@@ -677,22 +681,14 @@ The goal we have set for the Democracy Earth Foundation is to pioneer blockchain
 
 TED, FastForward, Y Combinator, Singularity University, World Economic Forum.
 
-===4.1 Contributors.===
+===4.1 Awards.===
 
   PENDING.
 
-====4.1.1 Founders.====
+===4.2 Community.===
 
   PENDING.
 
-====4.1.2 Partners.====
-
-  PENDING.
-
-====4.1.3 Community.====
-
-  PENDING.
-
-===4.2 Acknowledgements.===
+===4.3 Acknowledgements.===
 
 Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast;
