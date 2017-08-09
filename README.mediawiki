@@ -423,7 +423,7 @@ With Sovereign we are aiming to provide a lightweight governance framework that 
 
 Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. We consider indispensable to measure the democratic quality of a Sovereign organization, being an ideal configuration the one that is able to keep legitimacy and factual debate as high as possible. The difference between fact and promise is simple: while the art of politics consists in sustaining the fiction that breeds trust on established institutions (e.g. politicians during campaigns), cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rathern than promises. Corruption can be fought at its root as we develop a new sense of citizenship based on digital networks.
 
-Still, liquid democracies can be gamed in different ways. From documented experiences we where able to detect two main outcomes that can risk its dynamics, each being the opposing ends of a same spectrum:
+Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum: 
 
 * Lack of delegations leading to a ''polyopoly'': extreme fragmentation of voting power.
 * Abundance of delegations leading to a ''monopoly'': extreme concentration of voting power.
