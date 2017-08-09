@@ -495,9 +495,12 @@ The ''VOTE'' token will be distributed as a '''Right''' opposing the historical 
 
 ===3.2 Initial Rights Offering.===
 
-[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization issuing an ''Initial Rights Offering'' of ''VOTE'' tokens designed to reach everyone on Earth. This means there will be a native way of getting ''VOTE'' tokens via a political mechanism that lets anyone ''mine'' his or her corresponding share of ''VOTEs'', and a financial mechanism for those who want to allocate resources that strengthen the development of a global democracy.
+[http://democracy.earth Democracy Earth Foundation] will constitute itself as a Sovereign organization and will issue an ''Initial Rights Offering'' of ''VOTE'' tokens designed to reach everyone on Earth. This process will offer two mechanisms:
 
-Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie our monetary policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
+* '''Political Access''': A native way of getting ''VOTE'' tokens where anyone can ''mine'' his or her corresponding share of ''VOTEs'' through a ''Proof of Identity'' process.
+* '''Financial Access''': For those who want to allocate resources to strengthen the development of a global democracy with the ''VOTE'' token.
+
+Even though we are aware that it’s unrealistic to reach the entirety of the globe’s population with the precedent of Facebook’s 2 Billion user base, we will tie Democracy Earth's Foundation token policy to the constant reminder of global population. Every financial metric derived from the token will instantly reflect the capacity of its holders to promote and build a borderless self-sovereign democracy anywhere in the world. A ''VOTE''’s ''market capitalization'' will be synonym of [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare] and we will keep track of the token distribution within each nation making it also a reliable benchmark for the penetration of decentralized digital democracy in populations living under a common set of laws and cultural values.
 
 ====3.2.1 Political Access.====
 
@@ -514,7 +517,7 @@ The key to sustain the value of the ''VOTE'' token is to effectively validate al
 * '''12% for Operations''': Legal and accounting, travel expenses, office and co-working spaces.
 * '''3% for Identities''': A fixed pool will be used to subsidize the cost of hashing ''Proof of Identity'' transactions.
 
-Those who accessed the ''VOTE'' token through a financial mechanism can use ''VOTEs'' as an asset among their crypto holdings and with custom implementations of liquid democracies of any kind. Democracy Earth Foundation will only recognize for its governance purposes ''VOTES'' granted via ''Proof of Identity''.
+Those who accessed the ''VOTE'' token through a financial mechanism can use ''VOTEs'' as an asset among their crypto holdings and with custom implementations of liquid democracies of any kind.
 
 ===3.3 Proof of Identity.===
 
@@ -591,23 +594,23 @@ Attention can also validate human identities on a decentralized network, analogo
 
 Those who contribute with their attention to verify identities simply scan videos feeded to them. Their responsibility is to search for clues that satisfy or not the protocol requirements in the content of the videos. Their role replaces the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They should observe for:
 
-* '''Protocol compatibility''': Properly filming face, mentioning name and vital signs, real age, self-sovereign declaration, etc).
+* '''Protocol compatibility''': Properly filming face, mentioning name and vital signs, real age, self-sovereign declaration, etc.
 * '''Flagging duplicates''': A same person appearing on two or more proof videos for him or herself.
 * '''Proof of Life''': Asserting that an identity is alive or dead.
+
+This mechanism is not designed to approve or disapprove memberships to an organization, but is strictly designed to define if a person is currently alive and is stating the truth on the POI video. ''VOTEs'' cannot be inherited so if an identity is marked as dead by the verifiers, those ''VOTEs'' will be nullified.
 
 To certify an identity is valid, verifiers cast a ''VOTE'' including a <code>Ballot</code> with a <code>true</code> checked <code>Option</code> on it. Otherwise they must cast a ''VOTE'' in rejection with a <code>false</code> checked <code>Option</code>.
 
 All POI related decisions are <code>Strategical</code>: without a closing date where allocated ''VOTEs'' impact in real time. At any time a verifier can switch the ''VOTE'' value if it has found evidence that modifies previous judgement. Also, ''VOTEs'' validating an identity can be removed if the identity already has input from sufficient validators which makes allocation of additional ''VOTEs'' redundant.
 
-To prevent any kind of centralization regarding the identity verification process and police against dishonest participants, the ''VOTEs'' used for verification operate the same way as liquid delegations: ''VOTEs'' get exponentially more expensive to allocate (as in quadratic voting) and, if the identity is approved, a delegation is established with the verifier's ''VOTEs''. This helps bootstrap a liquid democracy while also enabling rapid coordinated action against dishonest participants. 
+To prevent any kind of centralization regarding the identity verification process and police against dishonest participants, the ''VOTEs'' used for verification operate the same way as liquid delegations: ''VOTEs'' get exponentially more expensive to allocate (as in quadratic voting) and, if the identity is approved, a delegation is established with the verifier's ''VOTEs''. This helps bootstrap a liquid democracy while also enabling rapid coordinated action against dishonest verifiers.
 
 ''Little brothers'' can outperform centralized identity providers in terms of accuracy as they are constantly incentivized to maintain legitimacy within the network. The interest to contribute in the proper validation of identities is directly tied to the value of the ''VOTE'' token itself. The legitimacy of any democracy is based on the maintenance of a proper voter registry. By being backed with a decentralized identity index using an incorruptible blockchain that gets maintained with distributed attention, the ''VOTE'' token becomes a trusted device for a digital democracy to emerge. Distributed attention power not only brings consciousness to a system once blind to Artificial Intelligences, but also allows participants to own their identities without being coerced to share it with any centralized validator that could monetize from it without consent.
 
 ===3.4 Basic Income.===
 
-In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. Therefore, VOTEs will be distributed through time, an asset that is, by nature, acessible to all.
-
-<img width="200" alt="screen shot 2017-07-27 at 12 02 14 am" src="https://user-images.githubusercontent.com/18194034/28652569-e61d4c14-725e-11e7-8f2b-32a95a52bea4.png">
+In order to create a truly democratic system for governance, we see necessary to bring the political-economic logic full circle. VOTEs will be distributed through time, an asset that is, by nature, acessible to all.
 
 Every identified member of the network will have access to a Universal Basic Income that will be dripping through time. Time is a valuable and limited asset, therefore tradable. Tokenizing TIME and utilizing that as gas to VOTE liquidates a posession that every member of the network posesses equally, while ensuring their rights over the decision making process. On this context a Liquid Democracy is not only liquid because of how votes are unfrozen and can constantly change, but because every member of the network will literally have liquidity. We see this as an extremely intuitive innovation, a natural next step on the evolution of how humans organize. A new mental model. LIQUIDITY is needed for a true democracy to exist. As in free markets, voices must be able to be heard in order to count. Without ballots an election has no liquidity; without currency, a free market has no liquidity.  Just as voting is a 'right', a Universal Basic Income (or "UBI") is a fundamental human right. In a world where economies are interdependent, only a basic income that is truly Universal and not bounded by territorial nation-states can effectively tackle the coming challlenges of automation and artificial intelligence onto the labour market.
 
