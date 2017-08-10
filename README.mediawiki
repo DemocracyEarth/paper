@@ -592,7 +592,13 @@ Attention can also validate human identities on a decentralized network, analogo
 </blockquote>
 [https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
 
-Those who contribute with their attention to verify identities simply scan videos feeded to them. Their responsibility is to search for clues that satisfy or not the protocol requirements in the content of the videos. Their role replaces the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They should observe for:
+Those who contribute with their attention to verify identities perform a series of tasks that help determine the validity of a proof on two aspects:
+
+* '''Objective''': 
+* '''Singular''':
+
+
+Their responsibility is to search for clues that satisfy or not the protocol requirements in the content of the videos. Their role replaces the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They should observe for:
 
 * '''Protocol compatibility''': Properly filming face, mentioning name and vital signs, real age, self-sovereign declaration, etc.
 * '''Flagging duplicates''': A same person appearing on two or more proof videos for him or herself.
