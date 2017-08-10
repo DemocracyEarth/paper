@@ -125,7 +125,7 @@ The issue on AI deciding on the fate of human lives opens up ethical and moral q
 <blockquote>
   Sovereign is he who decides on the exception.
 </blockquote>
-[https://es.wikipedia.org/wiki/Carl_Schmitt '''Carl Schmitt'''], political theorist (1888-1985).
+[https://wikipedia.org/wiki/Carl_Schmitt '''Carl Schmitt'''], political theorist (1888-1985).
 
 The achilles heel of data hungry, attention farming internet monopolies is their need of a centralized information architecture. They rose as the ''superhubs'' in what used to be the promise of a web shaped network by implementing the winning solutions to the leading online use cases. But the consequence has been a privatized ecosystem: closed code, walled gardens and surveillance capitalism as the defaults on what could otherwise be a borderless commons. When Sir Tim Berners-Lee, creator of the ''world wide web'' protocols, pointed out the intrinsic risks on today’s internet he requested the need to draft a [https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web Magna Carta for the Web]: “Unless we have an open, neutral internet we can rely on without worrying about what's happening at the back door, we can't have open government, good democracy, connected communities and diversity of culture. It's not naive to think we can have that, but it is naive to think we can just sit back and get it.“
 
