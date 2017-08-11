@@ -151,6 +151,8 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
+With this diagnosis, on [[#Paper|Section 2]] we map the basic building blocks for a decentralized liquid democracy. Once the tools are defined, [[#Execution|Section 3]] proposes an implementations that focuses on making the system secure, open and inclusive. 
+
 <div id="Paper"></div>
 
 ==2. Paper.==
@@ -425,8 +427,8 @@ Our main goal is to deliver a system able to guarantee the greatest amount of le
 
 Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum:
 
-* Lack of delegations leading to a ''polyopoly'': extreme fragmentation of voting power.
-* Abundance of delegations leading to a ''monopoly'': extreme concentration of voting power.
+* '''Lack of delegationg''' leading to a ''polyopoly'': extreme fragmentation of voting power.
+* '''Abundance of delegations''' leading to a ''monopoly'': extreme concentration of voting power.
 
 Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''VOTE'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
 
@@ -483,11 +485,9 @@ A liquid democracy operating across a decentralized network has delegations done
 
 Words define political ideas. The social narrative built by the art of politics consists of deciding semantic intention. Power defines the theatrical impressions that imprint our memories each time we say ''left'', ''right'', ''free'', ''equal''. Language is a legacy code that enables large scale human collaboration and its virtues cannot be dennied.
 
----
-
-All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth as an organization allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on Section 3 a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
-
 ----
+
+All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth as an organization allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on [[#Execution|Section 3]] a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
 
 <div id="Execution"></div>
 
