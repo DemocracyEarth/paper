@@ -430,6 +430,8 @@ Still, liquid democracies can be gamed in different ways with outcomes dominated
 
 Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''VOTE'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
 
+To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against different kinds of sabotages:
+
 ====2.5.1 Polyopoly.====
 
 Among the most notable research projects on the field is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. The project had the following numbers in terms of impact:
@@ -454,15 +456,33 @@ The consequences of having a monopolizing leader in a liquid democracy environme
 
 A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''VOTEs'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
-====2.5.3 Subversion.====
+===2.5.5 Sybil Attack.===
+<blockquote>
+  a.k.a. '''Identity Theft'''
+</blockquote>
 
-To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against the two main kinds of sabotages that democracies deal with:
+Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for ''VOTEs'' to be granted they must get validated through a protocol (social and algorithmic) that works as ''Proof of Identity''.
 
-# '''Identity Manipulation''' (a.k.a. ''sybil attacks''): Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for ''VOTEs'' to be granted they must get validated through a protocol (social and algorithmic) that works as ''Proof of Identity''.
+===2.5.6 Fake news.===
+<blockquote>
+  a.k.a. '''Gossip'''
+</blockquote>
 
-# '''Gossip Dissemination''' (a. k. a. ''fake news''): It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store ''Hard Promises''.
+It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store ''Hard Promises''.
 
-These two subversive strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth as an organization allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on Section 3 a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
+====2.5.4 Squatting.====
+
+A liquid democracy operates across domains. Setting up an <code>Organization</code> within a network of delegatable ''VOTEs'' is analogous to spinning up a server on the web. Domain squatting is the practice of occupying abandoned or unused web addresses in expectation of a profit. This has led to a billion dollar market having the most commonly used words (identifiers) as the best kind of digital real estate, e.g. [http://sex.com Sex.com] [https://en.wikipedia.org/wiki/Sex.com#Highest_price_paid_for_domain being the highest price paid domain].
+
+Under a large scale, liquid democracy's game eventually grows around the <code>Tags</code> being used to describe delegations and issues. In a closed system, the most used <code>Tags</code> lead to a reduced universe of relevant voters. Reduced voter participation increases the prediction ability of a democracy, rendering moments open up for collective decision-making useless. Democracy thrives as long as participation is incentivized. To prevent this exploit, financial and political interests must be aligned. ''Tag squatting'' can be prevented if the taxonomy used to make liquid delegations and issue descriptions, operates in an open network: <code>Tags</code> refer to <code>Organizations</code> that are registered under a decentralized domain name system. Afterall, every <code>Organization</code> needs a domain name. [Blockstack.org Blockstack's blockchain] specializes on decentralized domain names currently managing over 70,000 Dentralized IDs (DIDs). These are obtained via a ''Proof of Burn'' process where users burn Bitcoin in exchange for Blockstack tokens that permit registering a new namespace.
+
+A liquid democracy operating across a decentralized network has delegations done in representation of multiple <code>Organizations</code> that a <code>Member</code> belongs too. Besides helping describe an issue being voted within the network, <code>Members</code> have an incentive to belong in organizations: they provide '''reputation'''. For this reason, a ''Proof of Identity'' process has among those starting up <code>Organizations</code> a relevant role validating decentralized identites.
+
+Words define political ideas. The social narrative built by the art of politics consists of deciding semantic intention. Power defines the theatrical impressions that imprint our memories each time we say ''left'', ''right'', ''free'', ''equal''. Language is a legacy code that enables large scale human collaboration and its virtues cannot be dennied.
+
+----
+
+All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth as an organization allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on Section 3 a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
 
 ----
 
@@ -631,6 +651,9 @@ Adoption of the token is also incentivized as a political position: the era of m
 Andreas Antonopoulos: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
 
 ===3.5 Value===
+
+
+===3.5 Revolution ===
 
 
 
