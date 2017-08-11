@@ -323,7 +323,7 @@ The modern architecture for computing machines designed by John von Neumann spec
 
 The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''VOTE'' tokens. For this purpose, every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract.
 
-<code>Organizations</code> can be referenced with a Decentralized ID (DID) on a blockchain capable of managing decentralized domains, identifiable with a domain name that can be used as a <code>Tag</code> to describe <code>Issues</code> by its <code>Members</code>. 
+<code>Organizations</code> can be referenced with a Decentralized ID (DID) on a blockchain capable of managing decentralized domains, identifiable with a domain name that can be used as a <code>Tag</code> to describe <code>Issues</code> by its <code>Members</code>.
 
 =====2.4.1.1 <code>Constitution</code>=====
 
@@ -627,21 +627,13 @@ Attention can also validate human identities on a decentralized network, analogo
 </blockquote>
 [https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
 
-The interest to validate a ''Proof of Identity'' is among <code>Organizations</code> that approve applicants as <code>Members</code>.
+The interest to validate a ''Proof of Identity'' is among <code>Organizations</code> that approve applicant identities as <code>Members</code>. Those who have the rights to approve new memberships replace the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They contribute with their attention to verify proofs by using ''VOTEs'' sginalling <code>true</code> or <code>false</code> states on:
 
-Those who contribute with their attention to verify identities perform a series of tasks that help determine the validity of a proof on two aspects:
-
-* '''Objective''':
-* '''Singular''':
-
-
-Their responsibility is to search for clues that satisfy or not the protocol requirements in the content of the videos. Their role replaces the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They should observe for:
-
-* '''Protocol compatibility''': Properly filming face, mentioning name and vital signs, real age, self-sovereign declaration, etc.
-* '''Flagging duplicates''': A same person appearing on two or more proof videos for him or herself.
+* '''Biometrics''': Evaluating any objective data used in proof (e.g. age matches facial look, properly filming face, etc).
+* '''Singularity''': Avoiding duplicate identities from participating within an <code>Organization</code>.
 * '''Proof of Life''': Asserting that an identity is alive or dead.
 
-This mechanism is not designed to approve or disapprove memberships to an organization, but is strictly designed to define if a person is currently alive and is stating the truth on the POI video. ''VOTEs'' cannot be inherited so if an identity is marked as dead by the verifiers, those ''VOTEs'' will be nullified.
+If approved: ''VOTEs'' cannot be inherited so if an identity is marked as dead by the verifiers, those ''VOTEs'' will be nullified.
 
 To certify an identity is valid, verifiers cast a ''VOTE'' including a <code>Ballot</code> with a <code>true</code> checked <code>Option</code> on it. Otherwise they must cast a ''VOTE'' in rejection with a <code>false</code> checked <code>Option</code>.
 
