@@ -331,7 +331,7 @@ The basic settings to be found on a constitution are:
 
 * '''Information''': A basic description of the organization including its name, website, address, jurisdiction (if applicable).
 
-* '''Funding''': The amount of ''VOTE'' tokens this organization will manage and how these will be allocated to every member.
+* '''Funding''': The amount of ''VOTE'' tokens this organization will manage and how these will be allocated to every member and grant access to <code>Budgets</code>.
 
 * '''Membership''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
 
@@ -415,7 +415,11 @@ Finally, counting methods for the final or ongoing result of a decision within a
 
 ====2.4.5 <code>Budget</code>====
 
-If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending assets to a specific address. Budgets specify the conditions and funds attached to the final tally of a voted issue.
+Every <code>Organization</code> can have 1 or more cryptocurrency addresses to fund its efforts. Sovereign permits to fund an <code>Organization</code> with Bitcoin and in its <code>Constitution</code> define a criteria on how these assets get distributed among <code>Members</code>:
+
+* '''Percentage for ''Proof of Identity''''': Applicant <code>Members</code> can submit their ''Proof of Identity'' evidence to get membership approval to an <code>Organization</code>. If ''VOTEs'' approve the new member, it strengthens the reputation of a self-sovereign identity in the open network by rewarding him or her a fixed amount of Bitcoin to permit hashing the ''Proof of Identity'' on a blockchain. Some <code>Organizations</code> may allow a bigger reward than others, effectively creating a Reputation score that can protect the network against ''Sybils'' or false identities. This process is detailed on [[#Executive|Section 3]].
+
+* '''Percentage for <code>Issues</code>''': <code>Members</code> seeking to use resources from the <code>Organization</code> can request them by attaching a <code>Budget</code> to an <code>Issue</code> that will be obtained from the allocated percentage of the total funds. If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending assets to a specific address. <code>Budgets</code> specify the conditions and funds attached to the final tally of a voted issue.
 
 ===2.5 Security.===
 
@@ -493,7 +497,7 @@ Words define political ideas. The social narrative built by the art of politics 
 
 ----
 
-All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth as an organization allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on [[#Execution|Section 3]] a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
+All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth allocates ''VOTEs'' to its members on the blockchain as a decentralized entity. For this reason, we detail on [[#Execution|Section 3]] a rollout plan for ''VOTEs'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
 
 <div id="Execution"></div>
 
