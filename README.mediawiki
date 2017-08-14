@@ -321,9 +321,11 @@ The modern architecture for computing machines designed by John von Neumann spec
 
 ====2.4.1 <code>Organizations</code>====
 
-The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''VOTE'' tokens. For this purpose, every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract.
+The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''VOTE'' tokens. Since <code>Organizations</code> can live in a decentralized network, the requirements to make an entity able to operate with ''VOTEs'' are similar to those found while setting up a website:
 
-<code>Organizations</code> can be referenced with a Decentralized ID (DID) on a blockchain capable of managing decentralized domains, identifiable with a domain name that can be used as a <code>Tag</code> to describe <code>Issues</code> by its <code>Members</code>.
+* <code>Domain</code>: Every organization must have its own domain name (e.g. ''democracy.earth'' on the Hypertext Transfer Protocol or HTTP). Some may even have a namespace running as a Top Level Domain or TLD (e.g. ''.earth''). This reference code for an <code>Organization</code> within an open network, whether its the legacy web as in HTTP or new emergent networks for decentralized domains such as [https://blockstack.org Blockstack], is crucial to help build a semantic layer that effecitvely describes <code>Issues</code> without the risk of having voters manipulating tags in a closed system (referred on Section 2.5.4 as ''squatting''). Domain names help describe an <code>Issue</code> as well as restricting the scope of a delegation contract.
+
+* <code>Constitution</code>: Every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract. The ''constitutional smart contract'' describes how <code>Members</code>, <code>Issues</code> and ''VOTEs'' connect within the system. 
 
 =====2.4.1.1 <code>Constitution</code>=====
 
