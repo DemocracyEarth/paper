@@ -313,7 +313,7 @@ This will make delegations more frequent across the platform. Debates constantly
 
 ===2.4 Smart Contracts.===
 
-The modern architecture for computing machines designed by John von Neumann specified that computers should be built with a rapid access memory (RAM), an information storage device and a central processing unit (CPU). The arrangement of these components led to the [https://www.amazon.it/Turings-Cathedral-Origins-Digital-Universe/dp/1400075998 ''big bang'' of the digital universe] that took the world by surprise in the second half of the 20th century. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean value for institutional decisions recorded under smart contracts.
+When Claude Shannon wrote his [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf foundational 1948 paper on Information Theory], he was able to demonstrate how circuits can perform logic functions by expressing a binary state of 1 and 0 (<code>true</code> or <code>false</code> states). Since then, digital technology shaped the dynamics of all kinds of information systems. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''VOTEs'' signal a boolean value for institutional decisions to be recorded under smart contracts.
 
 ''VOTE'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Issues</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
 
@@ -592,7 +592,7 @@ A proof can be done with any recording application as long as it satisfies the r
 ## Nationality (territorial-based identity, it can include place of residence or tax paying jurisdiction).
 ## Alternatively the user can use a nickname if avoiding connection to other identities is desired.
 
-# '''Oath''': Say out loud or demonstrate in a reliable way any of these indicators. This information will be considered to be under oath by the self-sovereign.
+# '''Biometrics''': Say out loud or demonstrate in a reliable way any of these indicators.
 ## Birthday (day, month and year). This is mandatory since allocation of ''VOTEs'' will be based on age.
 ## Height (inches or centimeters).
 ## Weight (pounds or kilograms).
