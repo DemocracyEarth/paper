@@ -641,7 +641,7 @@ Attention can also validate human identities on a decentralized network, analogo
 
 The interest to validate a ''Proof of Identity'' is among <code>Organizations</code> that approve applicant identities as <code>Members</code>. Those who within an <code>Organizantion</code> have the rights to approve new memberships replace the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They contribute with their attention to verify proofs by using ''VOTEs'' sginalling <code>true</code> or <code>false</code> states on:
 
-* '''Oath Data''': Evaluating any objective data used in proof (e.g. age matches facial look, properly filming face, etc).
+* '''Biometrics''': Evaluating any objective data used in proof (e.g. age matches facial look, properly filming face, etc).
 * '''Singularity''': Avoiding duplicate identities from participating within an <code>Organization</code>.
 * '''Proof of Life''': Asserting that an identity is alive or dead.
 
@@ -663,9 +663,11 @@ Time is a valuable and limited asset, therefore tradable. Tokenizing time and ut
 
 ===3.4.1 Time.===
 
-The rate at which 1 ''VOTE'' will be dripped to a verified identity will be hourly. This means that 1 ''VOTE'' equals 1 hour of lifetime. Since the ''Proof of Identity'' process must include a date of birth, once an identity gets validated the corresponding share of ''VOTEs'' will be instantly allocated based on the current lifetime of the approved person. For example: a 30 year old self-sovereign individual that gets approved during his birthday will get a total 262,800 ''VOTEs'' (24 hours × 365 days × 30 years). All dates of birth will be accounted starting at 0.00 hs.
+The rate at which 1 ''VOTE'' will be dripped to a verified identity will be syncronized with the Bitcoin blockchain. This means that 1 ''VOTE'' equals 1 block (or 10 minutes worth of transactions in the blockchain). Consensus on an ideal Basic Income averages around 10% of earnings. Considering global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an Annual Basic Income should be the equivalent of 200 hours or 1,200 blocks per year. This means that any organization deciding to adopt this currency has a 10% discount on the compensation it pays for its colaborators.
 
-Consensus ideal basic income is 10% of earnings.  Average global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an annual basic income would be the equivalent of 200 hours. It means that any organization deciding to adopt this currency has a 10% discount on the compensation it pays for its colaborators.
+Since the ''Proof of Identity'' process must include a date of birth, once an identity gets validated the corresponding share of ''VOTEs'' will be instantly allocated based on the current lifetime of the approved person. For example: a 30 year old self-sovereign individual that gets approved during his birthday will get a total 36,000 ''VOTEs'':
+
+  200 hours per year x 6 blocks per hour × 30 years = 36,000 VOTEs
 
 Adoption of the token is also incentivized as a political position: the era of mass market communications where companies avoided taking political stances is coming to an end. Increasingly consumption is becoming a political act, with products being articulators of one's identity and worldview. Consumers are becoming community members, and companies are being requested to be transparent about it's internal practices on the aquarium of the internet and social media. As the concept of currencies undergoes a massive disruption caused by distributed ledger technology, we offer a coin that is an articulator of human rights and democracy. What it means is that by utilizing our token organizations will be able to embody and promote those values. So on the great endeavor of building a true democracy, anyone trading on this network, or purchasing products from it, will be a contributor. An act of consumption will become as powerful as a vote.
 
