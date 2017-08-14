@@ -15,7 +15,7 @@ An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundati
 
 ==i. Abstract.==
 
-In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to territories, we need to build new models of democratic governance that enable humanity to colaborate and address pressing global issues. Democracy Earth Foundation is building free, open source software for incorruptible blockchain-based voting within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments has led to accelerated climate change, rising inequality, terrorism and forced migrations.  Democracy Earth Foundation proposes that the technology stack that includes Bitcoin as programmable money without Central Banks, and Ethereum enabling smart contracts without the need of Judiciary Courts, requires a new layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance with the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''VOTE'' that will grant participation rights to every human with decision making as its main function. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks of an achievable global peace and prosperity arising from an arc of technological innovations that will change what it means to be human on Earth.
+In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to territories, we need to build new models of democratic governance that enable humanity to collaborate and address pressing global issues. Democracy Earth Foundation is building free, open source software for incorruptible blockchain-based voting within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments has led to accelerated climate change, rising inequality, terrorism and forced migrations.  Democracy Earth Foundation proposes that the technology stack that includes Bitcoin as programmable money without Central Banks, and Ethereum enabling smart contracts without the need of Judiciary Courts, requires a new layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance with the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''VOTE'' that will grant participation rights to every human with decision making as its main function. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks of an achievable global peace and prosperity arising from an arc of technological innovations that will change what it means to be human on Earth.
 
 ==ii. Contents.==
 
@@ -543,6 +543,8 @@ The ''VOTE'' token will be distributed as a '''Right''' opposing the historical 
 
 Identity is foundational to personal sovereignty and the kernel of voting systems. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Today’s standard identity systems are based on central authorities forcing users to share private information risking identity theft if they get hacked. Precedents include [https://gov.uk United Kingdom's Gov.UK] and [https://uidai.gov.in/ India’s Aadhaar], both which have been plagued by reports of improper security practices including leaks that compromised the privacy of millions. For identities to be self-sovereign, they cannot be owned or controlled by governments, organizations or corporations that ultimately have as a priority the extraction of value from their users. Our approach with [http://sovereign.software Sovereign] is that it is organization-centric as a technology, but an organization can become decentralized if its identity verification process lacks the need of authority. Therefore, the key to sustain the value of the ''VOTE'' token as a means for a borderless democracy is to effectively validate all participating identities through a decentralized process that can create, update or revoke keys. This is how Democracy Earth Foundation will grant access to ''VOTEs'' as a right.
 
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
 ''VOTEs'' can be obtained at no financial cost by anyone able to demonstrate his or her own identity under a decentralized protocol referred as ''Proof of Identity'' (POI). ''VOTEs'' obtained under this mechansim will trigger an allocation throughout time in the claimed public address of the identity. This process requires a self-hosted wallet that is connected to the content and data used for a ''Proof of Identity''. The wallet contains a private key known only to its user that is related to a public key able to receive ''VOTEs''. If sufficient ''VOTEs'' validate the evidence used for the ''Proof of Identity'', the wallet will unfreeze a corresponding amount of ''VOTEs'' following the rules of a ''Universal Basic Income'' dynamic that allocates tokens throughout time.
 
 ====3.2.2 Financial Access.====
@@ -562,13 +564,13 @@ Unlike ''Likes'', ''VOTEs'' directly empower its holders with the right to parti
 
 A self-sovereign identity must be voluntarily generated by the user claiming it. For this purpose the user must broadcast a proof of his or her identity that strictly satisfies a criteria that can be met by human judgment in order to avoid AIs interfering with the process. Hence, the proof shall be in a format that requires a large amount of cerebral bandwidth: video. The proof shall satisfy three key aspects:
 
-* '''Incorruptible''': The video file must be protected against any modifications made once it has been used as a source for proof.
+* '''Incorruptible''': The video file must be protected against any modifications once it has been used as a source for proof.
 * '''Truthful''': The contents expressed in the proof must be proven by other parties as valid or invalid.
-* '''Singular''': The proof shall validate a single identity and forbid having the same identity using other proofs.
+* '''Singular''': The proof shall validate a single identity and forbid having a same identity connected to other proofs.
 
-Even though any digital governance system can benefit from the trust already present in existing networks that validate identities (i.e. Facebook or Nation-States), for the political purposes of authentic personal sovereignty is that a decentralized protocol for validating self-sovereigns must be put in place. The benefits of this public record in the networked commons can eventually be used by governments or private organizations in different ways. Here we propose a new method for validating identites without the need of a ''Big Brother''. 
+Even though any digital governance system can benefit from the trust already present in existing networks that validate identities (i.e. Facebook or Nation-States), for the political purposes of authentic personal sovereignty is that a decentralized protocol for validating self-sovereigns must be put in place. The benefits of this public record in the networked commons can eventually be used by governments or private organizations in different ways (e.g. verifying age or nationality). Here we propose a new method for validating identites without the need of a ''Big Brother''.
 
-[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+====3.3.1 Demo.====
 
 There is a precedent that helps to illustrate this. [https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain valid birth certificate on November 7, 2015. [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 The process], even though symbolic at the time, consisted of a video showing baby Roma that described her vital signs and included witnesses of her birth. Once the video was filmed, a cryptographic hash of the digital file was generated and enconded into a Bitcoin transaction. This means that regardless where the video is stored, the permanent record of its hash on the Bitcoin blockchain can verify that the file's data was not corrupted and that it existed at the time the proof was generated. With this incorruptible evidence, Roma became a blockchain-certified citizen.
 
@@ -578,7 +580,7 @@ This demo serves as an example for the steps that need to be followed for a dece
 # '''Hash proof''' on a blockchain to guarante incorruptibility of evidence.
 # '''Validate proof''' through a voting process among peers (''Attention Mining'').
 
-====3.3.1 Proof Video.====
+====3.3.2 Proof Video.====
 
 A proof can be done with any recording application as long as it satisfies the requirements of the protocol. An extension no longer than 2 minutes is recommended for the video. In it the user must follow a series of scripted steps in order to help validators judge:
 
@@ -590,7 +592,7 @@ A proof can be done with any recording application as long as it satisfies the r
 ## Nationality (territorial-based identity, it can include place of residence or tax paying jurisdiction).
 ## Alternatively the user can use a nickname if avoiding connection to other identities is desired.
 
-# '''Vital Signs''': Say out loud or demonstrate in a reliable way these indicators:
+# '''Oath''': Say out loud or demonstrate in a reliable way any of these indicators. This information will be considered to be under oath by the self-sovereign.
 ## Birthday (day, month and year). This is mandatory since allocation of ''VOTEs'' will be based on age.
 ## Height (inches or centimeters).
 ## Weight (pounds or kilograms).
@@ -609,7 +611,7 @@ A proof can be done with any recording application as long as it satisfies the r
 
 Even though this process can be more complex than the average sign-up form found on most applications, it is important to state that it is also a political act declaring independency from central authority of any kind. This video is the personal manifesto anyone can make to break free from coercion and a step taken towards a borderless democracy.
 
-====3.3.1 Hashing.====
+====3.3.3 Hashing.====
 
 Once the digital file with the self-sovereign proof has been generated, a [https://en.wikipedia.org/wiki/Cryptographic_hash_function cryptographic hash function] applied to it is calculated. Following the steps of the implementation made by Manuel Araoz and Esteban Ordano with [https://proofofexistence.com ProofofExistence.com], a standard [https://en.wikipedia.org/wiki/SHA-2 SHA-256] digest is recommended. Once the hash has been generated, it can be encoded in a Bitcoin transaction using an [https://en.bitcoin.it/wiki/OP_RETURN OP_RETURN] script that also includes a marker that helps track identity-related proofs. We suggest using 'IDPROOF' (0x494450524f4f46) for this particular use case.
 
@@ -617,7 +619,7 @@ Considering that an average bitcoin transaction consists of 226 bytes with a min
 
 Any proof that goes through this process in a digital context is guaranteed to not be corrupted in any way. The digital files being used as proof can be stored anywhere, copied without restrictions and even kept in secret without sharing it with anyone. As long as there is a transaction in the blockchain that can validate the encoded hash with the structure of the digital file, then the evidence is valid. The Bitcoin blockchain offers the strongest resistance to corruption since it has the largest amount of hashing power in the world. With this mechanism in place, the Bitcoin blockchain will function as a decentralized index of self-sovereign identities. Leveraging this capacity will only make the bureaucracy of a borderless democracy stronger than any other government on Earth under any objective metric.
 
-====3.3.2 Attention Mining.====
+====3.3.4 Attention Mining.====
 
 <blockquote>
   In the blockchain nobody knows you are an AI.
@@ -630,16 +632,16 @@ A well known precedent of attention mining are CAPTCHA tests often found in the 
 
 Attention can also validate human identities on a decentralized network, analogous to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. In Bitcoin, each miner generates its own blockchain-compatible proof hash for a new block of transactions and broadcasts it to the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without central banks. A democracy without central governments works the same way but instead of verifying encrypted blocks, human attention serves the purpose to vote on self-generated identities in order to grant them ''VOTEs'' which can eventually be used for new verifications.
 
-====3.3.3 Little Brothers.====
+====3.3.5 Little Brothers.====
 
 <blockquote>
   Who watches the watchmen?
 </blockquote>
 [https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
 
-The interest to validate a ''Proof of Identity'' is among <code>Organizations</code> that approve applicant identities as <code>Members</code>. Those who have the rights to approve new memberships replace the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They contribute with their attention to verify proofs by using ''VOTEs'' sginalling <code>true</code> or <code>false</code> states on:
+The interest to validate a ''Proof of Identity'' is among <code>Organizations</code> that approve applicant identities as <code>Members</code>. Those who within an <code>Organizantion</code> have the rights to approve new memberships replace the historical function of a ''Big Brother'', the Orwellian metaphor often used to refer to a monopolizing entity that enforces its legitimacy on a system, as it is the case with Facebook or Nation-States. By harnessing distributed attention instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers'']. They contribute with their attention to verify proofs by using ''VOTEs'' sginalling <code>true</code> or <code>false</code> states on:
 
-* '''Biometrics''': Evaluating any objective data used in proof (e.g. age matches facial look, properly filming face, etc).
+* '''Oath Data''': Evaluating any objective data used in proof (e.g. age matches facial look, properly filming face, etc).
 * '''Singularity''': Avoiding duplicate identities from participating within an <code>Organization</code>.
 * '''Proof of Life''': Asserting that an identity is alive or dead.
 
