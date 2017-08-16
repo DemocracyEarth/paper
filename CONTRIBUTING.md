@@ -6,7 +6,7 @@ In the end, how a paper is made can be almost as important as its content. What 
 
 In our opinion, Git provides the perfect set of tools to visualize the work behind writing a paper. Through commits, pull requests and  issues one can see who contributed, and in what way and what effect it had on the final version. In adittion, we see a paper like _The social smart contract_ to be a living document that is constantly updated and amended. As developers we know the documentation of democracy's evolution, like democracy itself, is always a work in progress. 
 
-We decided to use this technology to draft _The social smart contract_ and we encourage others to do the same to bring more transparency and collaboration to this process.
+We decided to use this technology to draft _The Social Smart Contract_ and we encourage others to join in to bring more transparency and collaboration to this process.
 
 # Guidelines for contribution
 
@@ -17,7 +17,7 @@ We decided to use this technology to draft _The social smart contract_ and we en
 
 ### Using Github _Issues_
 
-Use issues to :
+Use issues to:
 - make general comments
 - raise your concerns
 - ask a question
