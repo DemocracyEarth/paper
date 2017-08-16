@@ -657,7 +657,7 @@ To prevent any kind of centralization regarding the identity verification proces
 
 ''Little brothers'' can outperform centralized identity providers in terms of accuracy as they are constantly incentivized to maintain legitimacy within the network. The interest to contribute in the proper validation of identities is directly tied to the value of the ''vote'' token itself. The legitimacy of any democracy is based on the maintenance of a proper voter registry. By being backed with a decentralized identity index using an incorruptible blockchain that gets maintained with distributed attention, the ''vote'' token becomes a trusted device for a digital democracy to emerge. Distributed attention power not only brings consciousness to a system once blind to Artificial Intelligences, but also allows participants to own their identities without being coerced to share it with any centralized validator that could monetize from it without consent.
 
-===3.4 Universal Basic Income. ['''wip'' / '''help 🙏''']===
+===3.4 Universal Basic Income. ['''wip''' / '''help 🙏''']===
 
 The ability to develop a reliable self-sovereign identity validation process, not only guarantees the legitimate value for ''votes'' to express social choice but it also opens a path able to establish a ''Universal Basic Income'' (UBI) mechanism that can reach everyone on Earth. Therefore in order to bring the political and economical logic full circle, once an identity gets approved by its peers to participate in the network, the corresponding share of ''votes'' for each identity on the system is allocated throughout time.
 
