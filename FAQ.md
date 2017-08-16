@@ -17,26 +17,46 @@ For the purposes of our Initial Rights Offering all collaborations are encourage
 
 Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In adittion to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
-**4 - What is Liquid Democracy?**
+**4 - What is "liquid democracy"?**
 
-It's a combination of Direct Democracy and Representative Democracy:
+Liquid democracy is a combination of direct democracy and representative democracy:
 
-In _Direct Democracy_ everyone votes on every issue. 
+In _direct democracy_ everyone votes on every issue. 
 
-In _Representative Democracy_ we choose other people to represent us. 
+In _representative democracy_ we choose other people to represent us. 
 
-Liquid Democracy combines both to allow the voter to make decisions on the matters he/she cares about, and _delegate_ votes when there is someone that he/she trusts and considers to be more knowledgeable on the matter. A good way to think about it, is that we already live in Liquid Democracy, but its _frozen_: we can't change our vote for a certain period of time, only when there is a new election. Representative Democracy was the best that Nation-states could do with the technology of the time, but the internet and blockchain technologies allow us to do better now. 
-
-**How does open source voting work - wouldn't it be easier to hack?**
+Liquid democracy combines both to allow the voter to make decisions on the matters he/she cares about, and _delegate_ votes when there is someone that he/she trusts and considers to be more knowledgeable on the matter. A good way to think about it, is that we already live in liquid democracy, but it's _frozen_: we can't change our vote for a certain period of time, only when there is a new election. Representative democracy was the best that Nation-states could do with the technology of the time, but the internet and blockchain technologies allow us to do better now. 
 
 **Isn't Open Source too new to be implementable in elections?**
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas)  San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
+**How does open source voting work - wouldn't it be easier to hack?**
+
+**What is a VOTE token?**
 
 **How do I get VOTE tokens?**
+
+**Can I sell or give away my VOTE tokens?**
 
 **What does a VOTE token have to do with Universal Basic Income?**
 
 **Is voter fraud easier when voters vote by mobile phone?**
+
+**What does self-sovereign mean?**
+
+**Could everyone in the world use Sovereign to vote on the same issue?**
+
+**Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**
+
+**Will digital elections increase voter partiicpation?**
+
+The answer is, we don't know. Our mission is to strengthen democracy by opening up more ways of participating, which Sovereign accomplishes.  Our greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
+
+**Because blockchain elections are far cheaper, is there a danger of voters getting "election fatigue"?
+
+**How does bockchain technology enable incorruptible decision-making?**
+
+
+
  
