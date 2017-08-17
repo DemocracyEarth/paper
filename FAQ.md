@@ -51,9 +51,9 @@ Open-source systems are already playing a role in some elections, for example, N
 
 **Will digital elections increase voter partiicpation?**
 
-The answer is, we don't know. Our mission is to strengthen democracy by opening up more ways of participating, which Sovereign accomplishes.  Our greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
+The answer is, we don't know. The Democracy Earth Foundation mission is to strengthen democracy by opening up more ways of participating, which Sovereign accomplishes.  Our greatest impact will not necessarily be to make governments more democratic, but rather to make _any kind and size of institution_, whether public or private, more engaging. 
 
-**Because blockchain elections are far cheaper, is there a danger of voters getting "election fatigue"?
+**Because blockchain elections are far cheaper, is there a danger of voters getting "election fatigue"?**
 
 **How does bockchain technology enable incorruptible decision-making?**
 
