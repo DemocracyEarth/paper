@@ -648,7 +648,7 @@ Self-sovereign identities must be valued on two key metrics that help define the
 * '''Reputation''': A social indicator that a given identity is to be trusted.
 * '''Singularity''': An individual indicator that certifies an identity is uniquely tied to a single person.
 
-====3.2.5.1 Reputation.====
+=====3.2.5.1 Reputation.=====
 
 The interest on effectively validating a ''Proof of Identity'' is among <code>Organizations</code> that must deal with applicant identities willing to become <code>Members</code> able to use their ''votes'' for the decisions related to the entity. Those who within an <code>Organizantion</code> have the rights to approve or disapprove new memberships replace the historical function of a ''Big Brother'' by contributing a share of the reputation an <code>Organization</code> has to the applicant identity if approved. By harnessing distributed attention across multiple <code>Organizations</code> instead of an all-observing central power, validators are in effect an army of [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt ''little brothers''] who can collaboratively score the reputation of self-sovereign identities in the network.
 
@@ -658,7 +658,7 @@ Since <code>Organizations</code> are ultimately <code>domains</code> in a networ
 
 <code>Organizations</code> in the network can be as small as two people or as large as the whole population in the planet. But regardless of their size, any ''votes'' allocated for their governance purposes will be locked if they are reported to allow [https://en.wikipedia.org/wiki/Replicant ''replicants''] as <code>Members</code>: identities that get reported as duplicates in their ''Proof of Identity'', failing on the singularity score used to value the individuality of participants in the network. ''Replicant'' is a term coined for the 1982 film ''Blade Runner'' that refers to androids able to simulate being real people.
 
-====3.2.5.2 Singularity.====
+=====3.2.5.2 Singularity.=====
 
 Since the goal of Democracy Earth Foundation is to scale the right to use ''votes'' to every human, the overall challenge of a successful decentralized ''Proof of Identity'' dynamic is to use the available attention in the network to check for ''replicants'' (duplicated identities) that are requesting a share of ''votes''.
 
