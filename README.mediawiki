@@ -581,7 +581,7 @@ This demo serves as an example for the steps that need to be followed for a dece
 
 For a network of self-sovereign identities to sustain itself in the long-term we consider it necessary to add the following step:
 
-# '''Validate proof''' through a voting process among peers ( ref: [3.3.4''Attention Mining''](https://github.com/DemocracyEarth/paper#334_Attention_Mining) ).
+# '''Validate proof''' through a voting process among peers (Section 3.3.4''Attention Mining'').
 
 ====3.3.2 Proof Video.====
 
@@ -633,7 +633,7 @@ A well known precedent of attention mining are CAPTCHA tests often found in the 
 
 Attention can also validate human identities on a decentralized network, analogous to [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] used by mining nodes to timestamp peer to peer transactions. In Bitcoin, each miner generates its own blockchain-compatible proof hash for a new block of transactions and broadcasts it to the network. If 51% of the nodes in the network accept the verified block, it gets chained to the blockchain and the miner starts working on the next transaction block using the accepted block as the previous hash. This technique permits monetary transactions without central banks. A democracy without central governments instead of verifying encrypted blocks, human attention serves the purpose to vote on self-generated identities in order to grant them ''votes'' which can eventually be used for new verifications.
 
-Most of the research concerning how to prevent Sybil Attacks on peer to peer networks revolves around requiring entities to perform a task that a SybiL attacker would not be able to perform. Attention mining requires validators to observe certain aspects of Proof of Identity videos. Because only a person can recognize another person and _see_ and _understand_ certain aspects of a video, the system will generate distorted videos to induce non-human attackers to error. The distortions can be created through cropping certain sections out of a video, inserting images in it, distorting voices, etc. It will be a video version of a Captcha test, aimed to securely distinguish between real human validators and Sybils. 
+Most of the research concerning how to prevent Sybil Attacks on peer to peer networks revolves around requiring entities to perform a task that a SybiL attacker would not be able to perform. Attention mining requires validators to observe certain aspects of Proof of Identity videos. Because only a person can recognize another person and _see_ and _understand_ certain aspects of a video, the system will generate distorted videos to induce non-human attackers to error. The distortions can be created through cropping certain sections out of a video, inserting images in it, distorting voices, etc. It will be a video version of a Captcha test, aimed to securely distinguish between real human validators and Sybils.
 
 ====3.3.5 Little Brothers.====
 
