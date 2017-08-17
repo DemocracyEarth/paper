@@ -661,6 +661,9 @@ Time is a valuable and limited asset, therefore tradable. Tokenizing time and ut
 
 ===3.4.1 Time.===
 
+<blockquote>
+Now is the time to make real the promise of democracy.  ~Martin Luther King Jr.
+</blockquote>
 The rate at which 1 ''vote'' will be dripped to a verified identity will be syncronized with the Bitcoin blockchain. This means that 1 ''vote'' equals 1 block (or 10 minutes worth of transactions in the blockchain). Consensus on an ideal Basic Income averages around 10% of earnings. Considering global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an Annual Basic Income should be the equivalent of 200 hours or 1,200 blocks per year. This means that any organization deciding to adopt this currency has a 10% discount on the compensation it pays for its colaborators.
 
 Since the ''Proof of Identity'' process must include a date of birth, once an identity gets validated the corresponding share of ''votes'' will be instantly allocated based on the current lifetime of the approved person. For example: a 30 year old self-sovereign individual that gets approved during his birthday will get a total 36,000 ''votes'':
