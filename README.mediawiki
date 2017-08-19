@@ -716,7 +716,7 @@ Then the ''votes'' a self-sovereign identity is allowed to use in the system can
 
   V = (T - B) / S
 
-As long as the ''Proof of Identity'' has been validated by the community and smart contract is synced with an active blockchain node, then the value of '''V''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has on his wallet, or if it's an untrusted participant, all votes will be nullified.
+As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of '''V''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if it's an untrusted participant, the participant's votes get nullified.
 
 ====3.3.2 Value====
 
