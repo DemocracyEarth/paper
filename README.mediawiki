@@ -676,33 +676,48 @@ The validation process is the same as in every Sovereign voting dynamic: Validat
 The <code>Criteria</code> used for the ''Singularity score'' is also subject for voting by every validated ''POI'' participating in the network. Democracies are a always a work in progress, perpetually self-correcting with a feedback loop that defines how the observers get observed. The threshold that establishes the sovereign right to ''vote'' must constantly adapt to the exponential growth of computing capacity that can risk subverting the network. By being backed with a decentralized identity index using an incorruptible blockchain that gets maintained with distributed attention (i.e. an open face book), the ''vote'' token becomes a trusted device for a digital democracy to emerge anywhere. Allocating attention to secure the network not only brings consciousness to a system otherwise blind to Artificial Intelligences, but also allows participants to own their identities without being coerced by a centralized power that could monetize from it without consent. Conscious attention must always be put in the service of strengthening a global democracy because it is only in the realm of human consciousness that we can define what it means to be human.
 
 ===3.3 Universal Basic Income.===
-
-The ability to develop a reliable self-sovereign identity validation process, not only guarantees the legitimate value for ''votes'' to express social choice throughout the globe but it also establishes a bedrock element for the infrastructure required to enable a ''Universal Basic Income'' (UBI) mechanism that can reach everyone on Earth. Therefore in order to consolidate the political and financial logic able to establish a borderless democracy, once a ''Proof of Identity'' is validated by peers, the corresponding share of ''votes'' for each participant will be allocated throughout time.
-
-Time is a valuable and limited asset, therefore tradable. Tokenizing time and utilizing that as the fuel for ''votes'', liquidates a posession that every member of a global democracy posesses equally while ensuring their rights over decision making processes. Liquidity is a requirement for any democracy that aims to avoid coercion. Voices must be able to be heard in order to count and by granting ''votes'' via ''UBI'' we are tapping on delivering a human right that can effectively empower individuals facing the coming challenges of automation and Artificial Intelligence. This is a natural evolutionary leap on human organization that avoids the [https://en.wikipedia.org/wiki/Tragedy_of_the_commons ''tragedy of the commons''] and aims to deliver a new mental model for governance that goes beyond debt and Nation-states. An achievement only thinkable until the emergence of the Internet and blockchain-based networks in modern civilization.
-
-====3.3.1 Time.====
 <blockquote>
   Now is the time to make real the promise of democracy.
 </blockquote>
-'''Martin Luther King Jr.''', ''Republic''. Minister and activist (1929-1968).
+'''Martin Luther King Jr.''', Minister and activist (1929-1968).
 
-The rate at which 1 ''vote'' will be dripped to a verified identity will be syncronized with the Bitcoin blockchain. This means that 1 ''vote'' equals 1 block (or 10 minutes worth of transactions in the blockchain). Consensus on an ideal Basic Income averages around 10% of earnings. Considering global 'earnable' time is 8 hours per day, 5 days per week, 50 weeks per year - or 2,000 hours per year.  Therefore, an Annual Basic Income should be the equivalent of 200 hours or 1,200 blocks per year. This means that any organization deciding to adopt this token has a 10% discount on the compensation it pays for its collaborators.
+The ability to develop a reliable self-sovereign identity validation process, not only guarantees the legitimate value for ''votes'' to express social choice but it also establishes a bedrock element for the infrastructure required to make a ''Universal Basic Income'' (UBI) mechanism that can reach everyone on Earth. Therefore in order to consolidate the political and financial logic able to establish a borderless democracy, once a ''Proof of Identity'' is validated by peers the distribution mechanism triggered for ''vote'' will be based on time.
 
-Since the ''Proof of Identity'' process must include a date of birth, once an identity gets validated the corresponding share of ''votes'' will be instantly allocated based on the current lifetime of the approved person. For example: a 30 year old self-sovereign individual that gets approved during his birthday will get a total 36,000 ''votes'':
+Time is a valuable and limited asset, therefore tradable. Tokenizing time and using it as the basis for allocating ''votes'', liquidates a posession that every member of a global democracy posesses on equal terms. Liquidity is a requirement for any democracy that aims to avoid coercion: voices must be able to be heard in order to count and by granting ''votes'' as a ''UBI'' we are tapping on delivering a human right that can effectively empower individuals that will have to face the coming challenges of automation. ''Votes'' given as a right avoids the [https://en.wikipedia.org/wiki/Tragedy_of_the_commons ''tragedy of the commons''] while sets the foundations for a governance model that goes beyond debt and Nation-States. A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
-  200 hours per year x 6 blocks per hour × 30 years = 36,000 VOTEs
+* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip on the user's wallet.
+* '''Delegate''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
+* '''Grant''': <code>Organizations</code> may grant ''votes'' to new participants on its own terms. Participants can create or fund <code>Organizations</code> using their own ''votes''.
+
+====3.3.1 Dripping====
+
+The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. Bitcoin chains a new block to the blockchain every 10 minutes. Which can be defined as:
+
+  1 hour = 6 blocks.
+
+So in order to sync ''vote'' dripping with Bitcoin, a valid ''Proof of Identity'' gets the right to 1 ''vote'' per every new block:
+
+  1 Identity = 1 ''vote'' x block.
+
+Considering that earnable time across the globe is based on 8 hour work days:
+
+  8 hours per day -> 5 days per week -> 50 weeks per year = 2,000 hours per year.
+
+Consensus on an ideal basic income rate averages around 10% of an individual's earnings. Any organization deciding to adopt this token has a 10% discount on the compensation it pays for its collaborators. This means that an ''Annual Basic Income'' should be equivalent to 200 hours per year:
+
+  1 Identity = 200 hours x 6 ''votes'' per hour = 1,200 ''votes'' per year.
 
 Adoption of the token is also incentivized as a political position: the era of mass market communications where companies avoided taking political stances is coming to an end. Increasingly consumption is becoming a political act, with products being articulators of one's identity and worldview. Consumers are becoming community members, and companies are being requested to be transparent about it's internal practices on the aquarium of the internet and social media. As the concept of currencies undergoes a massive disruption caused by distributed ledger technology, we offer a coin that is an articulator of human rights and democracy. What it means is that by utilizing our token organizations will be able to embody and promote those values. So on the great endeavor of building a true democracy, anyone trading on this network, or purchasing products from it, will be a contributor. An act of consumption will become as powerful as a vote.
 
 Andreas Antonopoulos: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
+This is a natural evolutionary leap on human organizations only possible until the emergence of the Internet and blockchain networks
 
 ====3.3.2 Value====
 
 Elections. Minimum Wage.
 
 
-===3.7 End Game.===
+===3.4 End Game.===
 
 <blockquote>
   “What happened to the governments?” I inquired. 
@@ -720,6 +735,8 @@ To those who argue about electronic voting using Facebook ''likes'': [https://en
 
 TED, FastForward, Y Combinator, Singularity University, World Economic Forum.
 
-===4.3 Acknowledgements.===
+===4.1 Acknowledgements.===
 
-Nubis Bruno (Bitex.la); Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast; Harry Halpin;
+These are some of the friends and colleagues that inspired the ideas expressed on this document.
+
+Nubis Bruno (Bitex.la); Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Muneeb Ali (Blockstack); Luis Cuende (Aragon); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast; Harry Halpin;
