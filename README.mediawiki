@@ -703,14 +703,21 @@ Considering that earnable time across the globe is based on 8 hour work days:
 
   8 hours per day -> 5 days per week -> 50 weeks per year = 2,000 hours per year.
 
-Consensus on an ideal basic income rate averages around 10% of an individual's earnings. Any organization deciding to adopt this token has a 10% discount on the compensation it pays for its collaborators. This means that an ''Annual Basic Income'' should be equivalent to 200 hours per year:
+Consensus on an ideal basic income rate averages around 10% of an individual's earnings. Any organization deciding to adopt the ''vote'' token gets a 10% discount on the compensation it pays for its collaborators. This means that an ''Annual Basic Income'' should be equivalent to 200 hours per year:
 
   1 Identity = 200 hours x 6 ''votes'' per hour = 1,200 ''votes'' per year.
 
-Adoption of the token is also incentivized as a political position: the era of mass market communications where companies avoided taking political stances is coming to an end. Increasingly consumption is becoming a political act, with products being articulators of one's identity and worldview. Consumers are becoming community members, and companies are being requested to be transparent about it's internal practices on the aquarium of the internet and social media. As the concept of currencies undergoes a massive disruption caused by distributed ledger technology, we offer a coin that is an articulator of human rights and democracy. What it means is that by utilizing our token organizations will be able to embody and promote those values. So on the great endeavor of building a true democracy, anyone trading on this network, or purchasing products from it, will be a contributor. An act of consumption will become as powerful as a vote.
+Considering the following variables:
 
-Andreas Antonopoulos: "For millenia, sovereignty defined currency. The monopolistic control of currency has been the basis of sovereignty. After 2008, currency creates sovereignty."
-This is a natural evolutionary leap on human organizations only possible until the emergence of the Internet and blockchain networks
+* '''T''' = Present block height (i.e. current ''Time'').
+* '''B''' = Block containing the hash of a ''Proof of Identity''  (i.e. block birth).
+* '''S''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
+* '''V''' = Total quantity of ''votes''.
+
+Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on the local client as long as its ''Proof of Identity'' has been validated by the community and synced with an active blockchain node:
+
+  V = (T - B) / S
+
 
 ====3.3.2 Value====
 
