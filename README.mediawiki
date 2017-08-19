@@ -689,8 +689,6 @@ Time is a valuable and limited asset, therefore tradable. Tokenizing time and us
 * '''Delegate''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
 * '''Grant''': <code>Organizations</code> may grant ''votes'' to new participants on its own terms. Participants can create or fund <code>Organizations</code> using their own ''votes''.
 
-====3.3.1 Dripping====
-
 The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. Bitcoin chains a new block to the blockchain every 10 minutes. Which can be defined as:
 
   1 hour = 6 blocks.
@@ -701,28 +699,28 @@ So in order to sync ''vote'' dripping with Bitcoin, a valid ''Proof of Identity'
 
 Considering that earnable time across the globe is based on 8 hour work days:
 
-  8 hours per day -> 5 days per week -> 50 weeks per year = 2,000 hours per year.
+  8 hours per day x 5 days per week x 50 weeks per year = 2,000 hours per year.
 
-Consensus on an ideal basic income rate averages around 10% of an individual's earnings. Any organization deciding to adopt the ''vote'' token gets a 10% discount on the compensation it pays for its collaborators. This means that an ''Annual Basic Income'' should be equivalent to 200 hours per year:
+And assuming that the consensus on an ideal basic income rate averages around 10% of an individual's earnings, then an ''Annual Basic Income'' should be equivalent to 200 hours per year.
 
-  1 Identity = 200 hours x 6 ''votes'' per hour = 1,200 ''votes'' per year.
+  1 Identity = 200 hours per year x 6 ''votes'' per hour = 1,200 ''votes'' per year.
 
-Considering the following variables:
+So by taking into account the following variables:
 
 * '''T''' = Present block height (i.e. current ''Time'').
-* '''B''' = Block containing the hash of a ''Proof of Identity''  (i.e. block birth).
+* '''B''' = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
 * '''S''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
 * '''V''' = Total quantity of ''votes''.
 
-Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on the local client as long as its ''Proof of Identity'' has been validated by the community and synced with an active blockchain node:
+Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with a very simple formula:
 
   V = (T - B) / S
 
+As long as the ''Proof of Identity'' has been validated by the community and smart contract is synced with an active blockchain node, then the value of '''V''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has on his wallet, or if it's an untrusted participant, all votes will be nullified.
 
 ====3.3.2 Value====
 
 Elections. Minimum Wage.
-
 
 ===3.4 End Game.===
 
