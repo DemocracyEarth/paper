@@ -707,10 +707,10 @@ And assuming that the consensus on an ideal basic income rate averages around 10
 
 So by taking into account the following variables:
 
-* '''''T''''' = Present block height (i.e. current ''Time'').
-* '''''B''''' = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
-* '''''S''''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
-* '''''V''''' = Total quantity of ''votes''.
+* '''T''' = Present block height (i.e. current ''Time'').
+* '''B''' = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
+* '''S''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
+* '''V''' = Total quantity of ''votes''.
 
 Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with a very simple formula:
 
@@ -722,13 +722,15 @@ As long as the ''Proof of Identity'' has been validated by the community and a s
 
 The described dynamic ends up benefitting early-adopters, as it is often the case with financial-oriented cryptocurrencies. Bitcoin can be described as cryptographically induced scarcity as an instrument able to measure wealth in terms of economical resources. But with the ''vote'' token we are building a network that complements financial cryptocurrencies by issuing a right that can be granted to anyone as long as it can proof his or her singular identity, making the ''vote'' a political rather than a financial instrument. It is about cryptographically induced equality: such is the basis for any real democracy. For this reason, we introduce another variable to the ''UBI'' algorithm:
 
-* '''''E''''' = Amount of ''votes'' allocated to the most recently validated ''Proof of Identity'' on present blockheight ('''''B''''').
+* '''E''' = Amount of ''votes'' allocated to the most recently validated ''Proof of Identity'' on present blockheight ('''B''').
 
 With this information, the next ''Proof of Identity'' validated by the network won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than its predecessor in time. And since this rule applies to every participant, also means that it will guarantee ''Equality'': everyone has the same amount of ''root votes'' than everyone else, extending the ''UBI'' formula:
 
   Vᵢ = ((T - B) + E) / S
 
-Example: If the second participant got validated 500 blocks after the first one, will get a total of 500 ''votes'' matching the present balance mined by the first participant so far. Both will continue to mine ''votes'' on equal terms, block after block. Even though the inflation rate might scare economically-minded analysts, the value of this network does not recide on the simulated scarcity but rather the uncoerced decisions able to be made among self-sovereigns through an egalitarian set of rules protected by blockchain incorruptibility. As ''votes'' get granted on equal terms throughout time to everyone, they also operate as tokens able to register historical events for the record of future generations and as a feasible language connecting the decisions of institutions and individuals through an open network. 
+With the ''Equality'' variable, if a second participant Bob got validated 500 blocks after the first one Alice, he won't begin from 0 but rather get a total of 500 ''votes'' matching Alice's mined ''votes'' so far. Both will continue to mine ''votes'' on equal terms with Alice block after block ever since. If a third participant Charlie generates a valid ''Proof of Identity'' 200 blocks later, he will get granted 700 ''votes'' (the total mined by Bob so far, and consequentially Alice too). Everyone is guaranteed an ''equal'' share. 
+
+Even though the inflation rate might scare economically-minded analysts, the value of this network does not recide on the simulated scarcity but rather the uncoerced decisions able to be made among self-sovereigns through an egalitarian ground protected by blockchain incorruptibility. As ''votes'' get granted on equal terms throughout time, they also operate as tokens able to register historical events for the record of future generations. By being granted as an egalitarian ''UBI'', ''votes'' express a language connecting the decisions of institutions and individuals throughout an open network.
 
 ====3.3.3 Value====
 
