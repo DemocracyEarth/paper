@@ -707,18 +707,30 @@ And assuming that the consensus on an ideal basic income rate averages around 10
 
 So by taking into account the following variables:
 
-* '''T''' = Present block height (i.e. current ''Time'').
-* '''B''' = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
-* '''S''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
-* '''V''' = Total quantity of ''votes''.
+* '''''T''''' = Present block height (i.e. current ''Time'').
+* '''''B''''' = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
+* '''''S''''' = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
+* '''''V''''' = Total quantity of ''votes''.
 
 Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with a very simple formula:
 
-  V = (T - B) / S
+  Vᵢ = (T - B) / S
 
-As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of '''V''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if it's an untrusted participant, the participant's votes get nullified.
+As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of '''''V''''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if it's an untrusted participant, the participant's votes get nullified.
 
-====3.3.2 Value====
+====3.3.2 Equality====
+
+The described dynamic ends up benefitting early-adopters, as it is often the case with financial-oriented cryptocurrencies. Bitcoin can be described as cryptographically induced scarcity as an instrument able to measure wealth in terms of economical resources. But with the ''vote'' token we are building a network that complements financial cryptocurrencies by issuing a right that can be granted to anyone as long as it can proof his or her singular identity, making the ''vote'' a political rather than a financial instrument. It is about cryptographically induced equality: such is the basis for any real democracy. For this reason, we introduce another variable to the ''UBI'' algorithm:
+
+* '''''E''''' = Amount of ''votes'' allocated to the most recently validated ''Proof of Identity'' on present blockheight ('''''B''''').
+
+With this information, the next ''Proof of Identity'' validated by the network won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than its predecessor in time. And since this rule applies to every participant, also means that it will guarantee ''Equality'': everyone has the same amount of ''root votes'' than everyone else, extending the ''UBI'' formula:
+
+  Vᵢ = ((T - B) + E) / S
+
+
+
+====3.3.3 Value====
 
 Elections. Minimum Wage.
 
