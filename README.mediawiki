@@ -671,7 +671,7 @@ While governments need to verify the family tree of a potential new citizen and 
 
 To certify an identity is valid, verifiers are exposed to two simultaneous ''PoI'' videos that can be chosen at random from all the indexed and hashed videos found on the blockchain. A face-matching algorithm that seeks similarities among facial expressions can be used to optimize the test. Validators must use ''votes'' to agree whether these ''PoI'' videos belong to a same person or not, being the ongoing result of this decision a ''Singularity score'' for the identity.
 
-The validation process is the same as in every Sovereign voting dynamic: Validators can approve by casting a ''vote'' that includes a <code>Ballot</code> with a <code>true</code> checked <code>Option</code> on it. Otherwise they must cast a ''vote'' in rejection with a <code>false</code> checked <code>Option</code>. All ''PoI'' related decisions are <code>Strategical</code>: without a closing date where allocated ''votes'' impact in real time. At any time a validator can override the ''vote'' value if it has found evidence that modifies previous judgement. Also ''votes'' validating a ''PoI'' can be removed if the identity already has input from sufficient validators which makes allocation of additional ''votes'' redundant. Anyone who ends up being voted as a ''replicant'' will see his or her granted ''votes'' useless.
+The validation process is the same as in every Sovereign voting dynamic: Validators can approve by casting a ''vote'' that includes a <code>Ballot</code> with a <code>true</code> checked <code>Option</code> on it. Otherwise they must cast a ''vote'' in rejection with a <code>false</code> checked <code>Option</code>. All ''PoI'' related decisions are <code>Strategical</code>: without a closing date where allocated ''votes'' impact in real time. At any time a validator can override the ''vote'' value if it has found evidence that modifies previous judgement. Also ''votes'' validating a ''PoI'' can be removed if the identity already has input from sufficient validators which makes allocation of additional ''votes'' redundant. As with any Sovereign decision, the end result of a ''PoI'' related vote will end up on either a <code>true</code> or <code>false</code> value. Anyone who ends up being voted as a ''replicant'' will see his or her granted ''votes'' useless.
 
 The <code>Criteria</code> used for the ''Singularity score'' is also subject for voting by every validated ''PoI'' participating in the network. Democracies are always a work in progress, perpetually self-correcting with a feedback loop that defines how the observers get observed. The threshold that establishes the sovereign right to ''vote'' must constantly adapt to the exponential growth of computing capacity that can risk subverting the network. By being backed with a decentralized identity index using an incorruptible blockchain that gets maintained with distributed attention (i.e. an open face book), the ''vote'' token becomes a trusted device for a digital democracy to emerge anywhere. Allocating attention to secure the network not only brings consciousness to a system otherwise blind to Artificial Intelligences, but also allows participants to own their identities, without being coerced by a centralized power that could monetize from it without consent. Conscious attention must always be put in the service of strengthening a global democracy because it is only in the realm of human consciousness that we can define what it means to be human.
 
@@ -681,42 +681,51 @@ The <code>Criteria</code> used for the ''Singularity score'' is also subject for
 </blockquote>
 '''Martin Luther King Jr.''', Minister and activist (1929-1968).
 
-The ability to develop a reliable self-sovereign identity validation process, not only guarantees the legitimate value for ''votes'' to express social choice but it also establishes a bedrock element for the infrastructure required to make a ''Universal Basic Income'' (UBI) mechanism that can reach everyone on Earth. Therefore in order to consolidate the political and financial logic able to establish a borderless democracy, once a ''Proof of Identity'' is validated by peers the distribution mechanism triggered for ''vote'' will be based on time.
+The ability to develop a reliable self-sovereign identity validation process, not only guarantees the legitimate value for ''votes'' to express social choice but it also establishes a bedrock element for the infrastructure required to make a ''Universal Basic Income'' (UBI) mechanism that can reach everyone on Earth. Therefore in order to consolidate the political and financial logic able to establish a borderless democracy, once a ''Proof of Identity'' is validated by peers the distribution mechanism triggered for ''votes'' will be based on time as a ''UBI''.
 
-Time is a valuable and limited asset, therefore tradable. Tokenizing time and using it as the basis for allocating ''votes'', liquidates a posession that every member of a global democracy posesses on equal terms. Liquidity is a requirement for any democracy that aims to avoid coercion: voices must be able to be heard in order to count and by granting ''votes'' as a ''UBI'' we are tapping on delivering a human right that can effectively empower individuals that will have to face the coming challenges of automation. ''Votes'' given as a right avoids the [https://en.wikipedia.org/wiki/Tragedy_of_the_commons ''tragedy of the commons''] while sets the foundations for a governance model that goes beyond debt and Nation-States. A self-sovereign then, is able to obtain ''votes'' in three different ways:
+Time is a valuable and limited asset, therefore tradable. One cannot buy, rent or hire more time: it has an inelastic supply no matter how high the demand. [https://books.google.com/books?id=sjlVAAAAcAAJ&pg=PA5&lpg=PA5&dq=what+is+money+man%27s+birthright+time&source=bl&ots=uxfZPDT94J&sig=gWf_LpHeEA-g6ukveZ1-mQI3FE4&hl=es&sa=X&ved=0ahUKEwjgyuHR2ejVAhUK7iYKHUX0AzgQ6AEILjAB#v=onepage&q=what%20is%20money%20man's%20birthright%20time&f=false Time is the only standard of value by which to test all the labour, either manual or mental, done by men and women]. And by tokenizing time and using it as the basis for allocating ''votes'', it liquidates a posession that every member of a global democracy posesses on equal terms. Liquidity is a requirement for any democracy that aims to avoid coercion: voices must be able to be heard in order to count and by granting ''votes'' as a ''UBI'' we are tapping on delivering a human right that can effectively empower individuals that will have to face the coming challenges of automation. ''Votes'' granted throughout time as a right avoids the [https://en.wikipedia.org/wiki/Tragedy_of_the_commons ''tragedy of the commons''] while sets the foundations for a governance model that goes beyond debt and Nation-States.
 
-* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip on the user's wallet.
-* '''Delegate''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
+A self-sovereign then, is able to obtain ''votes'' in three different ways:
+
+* '''Delegation''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
 * '''Grant''': <code>Organizations</code> may grant ''votes'' to new participants on its own terms. Participants can create or fund <code>Organizations</code> using their own ''votes''.
+* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip on the user's wallet throughout time.
 
-The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. Bitcoin chains a new block to the blockchain every 10 minutes. Which can be defined as:
+====3.3.1 Dripping.====
 
-  1 hour = 6 blocks.
+The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means:
 
-So in order to sync ''vote'' dripping with Bitcoin, a valid ''Proof of Identity'' gets the right to 1 ''vote'' per every new block:
+  1 hour = 6 blocks
 
-  1 identity = 1 vote x block.
+Assuming that earnable time across the globe is based on 8 hour work days:
 
-Considering that earnable time across the globe is based on 8 hour work days:
+  8 hours per day x 5 days per week x 52 weeks per year = 2,080 hours per year
 
-  8 hours per day x 5 days per week x 50 weeks per year = 2,000 hours per year.
+Or, in block time:
 
-And assuming that the consensus on an ideal basic income rate averages around 10% of an individual's earnings, then an ''Annual Basic Income'' should be equivalent to 200 hours per year.
+  2,080 hours = 12,480 blocks
 
-  1 identity = (2000 hours per year x 10%) x 6 votes per hour = 1,200 votes per year.
+Considering that established consensus on [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 an ideal basic income rate averages around 10% of an individual's earnings], then:
+
+  10% earnings Annual Basic Income = 208 hours per year = 1,248 blocks
+
+Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 1,248 blocks are accounted for rewarding a ''UBI''. So to sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings, a valid ''Proof of Identity'' should reward 1 ''vote'' every 42.1 blocks (i.e. 1 ''vote'' every 7 hours). Since blocks are not fractionable in Bitcoin, the ''UBI'' reward based on 10% earnings will be set every [https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 42] blocks:
+
+  1 vote = 42 blocks
 
 So by taking into account the following variables:
 
 * T = Present block height (i.e. current ''Time'').
-* B = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
-* S = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state (1 or 0).
-* Vᵢ = Total quantity of ''votes'' per ''identity''.
+* r = Vote allocation rate, set at 1 vote every 42 blocks in time.
+* Hᵢ = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
+* Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity.
+* Vᵢ = Total quantity of ''votes'' per ''identity'' expressed as an integer.
 
-Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with a very simple formula:
+Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with the formula:
 
-  Vᵢ = (T - B) / S
+  Vᵢ = [ (T - Hᵢ) / r ] / Sᵢ
 
-As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of '''''V''''' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if it's an untrusted participant, the participant's votes get nullified.
+As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of ''V'' will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if it's an untrusted ''PoI'', the participant's votes get nullified.
 
 ====3.3.2 Equality====
 
@@ -726,7 +735,7 @@ The described dynamic ends up benefitting early-adopters, as it is often the cas
 
 With this information, the next ''Proof of Identity'' validated by the network won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than its predecessor in time. And since this rule applies to every participant, also means that it will guarantee ''Equality'': everyone has the same amount of ''root votes'' than everyone else, extending the ''UBI'' formula:
 
-  Vᵢ = ((T - B) + E) / S
+  Vᵢ = ((T - Hᵢ) + E) / Sᵢ
 
 With the ''Equality'' variable, if a second participant Bob got validated 500 blocks after the first one Alice, he won't begin from 0 but rather get a total of 500 ''votes'' matching Alice's mined ''votes'' so far. Both will continue to mine ''votes'' on equal terms with Alice block after block ever since. If a third participant Charlie generates a valid ''Proof of Identity'' 200 blocks later, he will get granted 700 ''votes'' (the total mined by Bob so far, and consequentially Alice too). Everyone is guaranteed an ''equal'' share.
 
