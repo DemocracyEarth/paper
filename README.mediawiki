@@ -717,15 +717,15 @@ So by taking into account the following variables:
 
 * T = Present block height (i.e. current ''Time'').
 * r = Vote allocation rate, set at 1 vote every 42 blocks in time.
-* Hᵢ = Block containing the hash of a ''Proof of Identity'' (i.e. block birth).
+* Pᵢ = ''Proof of Identity'' block containing its corresponding hash.
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity.
-* Vᵢ = Total quantity of ''votes'' per ''identity'' expressed as an integer.
+* Vᵢ = Total quantity of ''votes'' for an identity expressed as an integer.
 
 Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with the formula:
 
-[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Hᵢ) / r) * Sᵢ]]
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
 
-As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of Vᵢ will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or if it's an untrusted ''PoI'', the participant's votes get nullified.
+As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of Vᵢ will either be an integer number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or if the ''PoI'' is rejected (i.e. Sᵢ = 0), then the participant's available votes become zero.
 
 ====3.3.2 Equality====
 
@@ -735,7 +735,7 @@ The described dynamic ends up benefitting early-adopters, as it is often the cas
 
 With this information, the next ''Proof of Identity'' validated by the network won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than its predecessor in time. And since this rule applies to every participant, also means that it will guarantee ''Equality'': everyone has the same amount of ''root votes'' than everyone else, extending the ''UBI'' formula:
 
-  Vᵢ = ((T - Hᵢ) + E) / Sᵢ
+  Vᵢ = ((T - Pᵢ) + E) / Sᵢ
 
 With the ''Equality'' variable, if a second participant Bob got validated 500 blocks after the first one Alice, he won't begin from 0 but rather get a total of 500 ''votes'' matching Alice's mined ''votes'' so far. Both will continue to mine ''votes'' on equal terms with Alice block after block ever since. If a third participant Charlie generates a valid ''Proof of Identity'' 200 blocks later, he will get granted 700 ''votes'' (the total mined by Bob so far, and consequentially Alice too). Everyone is guaranteed an ''equal'' share.
 
