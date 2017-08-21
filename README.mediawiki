@@ -737,7 +737,7 @@ By issuing ''votes'' as a right that can be granted to anyone as long as his or 
 
 We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' that gets validated by the network. With this information, the next validated identity won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than the first participant in the network currently has. Since this rule applies to every participant it will guarantee ''Equality'' in terms of participation, letting everyone have the same amount of Sovereign ''votes'' than everyone else, extending the ''UBI'' formula as follows:
 
-  [[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
+[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
 
 With the ''Equality'' variable, if a second participant Bob got validated 500 blocks after the first one Alice, he won't begin from 0 but rather get a total of 500 ''votes'' matching Alice's mined ''votes'' so far. Bob will continue to mine ''votes'' on equal terms with Alice block after block ever since. If a third participant Charlie generates a valid ''Proof of Identity'' 200 blocks later, he will get granted 700 ''votes'' (the total mined by Bob so far, and consequentially Alice too). Everyone is guaranteed an ''equal'' share in participating rights.
 
