@@ -361,7 +361,8 @@ The basic settings to be found on a constitution are:
 
 * '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
 
-Templates defining common practices for specific kinds of organizations are encouraged to simplify the setup. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others.
+Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup.  This will be aided and abetted through work with DEF partner Aragon, who is even now creating a digital jurisdiction that will make decentralized organizations very efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that your company will always work, even in the face of malicious tampering by hostile third parties or governments. In the same way that Democracy Earth enables self-sovereignty by making it possible for everyone in the world to vote, Aragon, by making it more efficient for entities in the world to organize, [https://aragon.one/ enables the borderless, permissionless creation of value].
+
 
 ====2.4.2 <code>Members</code>====
 
