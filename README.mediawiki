@@ -709,9 +709,9 @@ Considering that established consensus on [https://medium.com/economicsecproj/ho
 
   10% earnings Annual Basic Income = 208 hours per year = 1,248 blocks
 
-Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 1,248 blocks are accounted for rewarding a ''UBI''. So to sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings, a valid ''Proof of Identity'' should reward 1 ''vote'' every 42.1 blocks (i.e. 1 ''vote'' every 7 hours). Since blocks are not fractionable in Bitcoin, the ''UBI'' reward based on 10% earnings will be set every [https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 42] blocks:
+Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 208 votes are accounted for rewarding a ''UBI'' per year. So to sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings, a valid ''Proof of Identity'' should reward 1 ''vote'' every 253 blocks (i.e. 1 ''vote'' every 42 hours). Since blocks are not fractionable in Bitcoin, the ''UBI'' reward based on 10% earnings will be set every [https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 42] blocks:
 
-  1 vote = 42 blocks
+  1 vote = 253 blocks
 
 So by taking into account the following variables:
 
