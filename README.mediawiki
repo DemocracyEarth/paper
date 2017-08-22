@@ -756,6 +756,23 @@ At any time, any self-sovereign is allowed to either delegate ''votes'' to someo
 
 ====3.3.3 Value====
 
+We take two approaches to define the value of the ''vote'' token:
+
+* '''Market''': Traditional elections offer useful insights on how votes are valued today.
+* '''Labour''': A ''Universal Basic Income'' perspective offers useful insights on how time is being valued.
+
+=====3.3.3.1 Market=====
+
+The cost for the 2016 Presidential Race in the United States went as high as [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696] and, even though it had the lowest voter turnout in 20 years, it had an estimated total of [https://en.wikipedia.org/wiki/Voter_turnout_in_the_United_States_presidential_elections ~138,847,000 voters]. Hence, a simple calculation can price the vote token issued by the US government for this electoral process at '''$ 17.18 per vote'''. Other nations offer a similar reference: Argentine elections in 2017 had an estimated cost of [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones-pero-casi-no-definiran-candidatos $ 164,705,882] with a total of [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 voters], setting the price at '''$ 6.7 per vote'''.
+
+[[File:/images/cost-of-us-elections.png|Cost of US Elections.]]
+
+It is within that range of value Nation-States invest resources to guarantee voting rights to all its citizens.
+But unlike the ''vote'' token proposed on this paper, severe restrictions apply to the electoral system proposed by this nation:
+
+* Votes cannot be reused in any way.
+* Only 1 vote is granted per
+
 Elections. Minimum Wage.
 
 Scarcity emerges from
