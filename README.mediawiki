@@ -716,7 +716,7 @@ Which means that of the ~52,560 blocks that register a full year of activity on 
 So by taking into account the following variables:
 
 * T = Present block height (i.e. current ''Time'').
-* r = Vote allocation rate, set at 1 vote every 42 blocks in time.
+* r = Vote allocation rate, set at 1 vote every 253 blocks in time.
 * Pᵢ = ''Proof of Identity'' block containing its corresponding hash.
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity.
 * Vᵢ = Total quantity of ''votes'' for an identity expressed as an integer.
