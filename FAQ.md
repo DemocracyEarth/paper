@@ -33,7 +33,7 @@ Low voter turnout is closely linked to the decrease in trust on our current demo
 
 **6 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enable incorruptible decision-making?**
 
-The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered it can never be altered, making virtual blockchain-based votes immensely superior to analogue votes in terms of fraud prevention. Adittionally, this technology enables all members of the organization to audit the _votes_.
+The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered it can never be altered, making virtual blockchain-based votes immensely superior to analogue votes in terms of fraud prevention. Additionally, this technology enables all members of the organization to audit the _votes_.
 
 **7 - What is a _vote_ token?**
 
@@ -49,7 +49,7 @@ Yes - the tokens are tradable and transferable as any other crypto holding.
 
 **10 - What does a _vote_ token have to do with Universal Basic Income?**
 
-True sovereignty cannot be achieved in an environment of induced scarcity. In order to effectively promote democracy, it is essential then to adress both the political and economic realms. For that reason we are turning governance rights into a liquid instrument and issuing it as a right granted to every member of society through the mecanism of a Universal Basic Income. 
+True sovereignty cannot be achieved in an environment of induced scarcity. In order to effectively promote democracy, it is essential then to address both the political and economic realms. For that reason we are turning governance rights into a liquid instrument and issuing it as a right granted to every member of society through the mecanism of a Universal Basic Income.
 
 **11 - What does self-sovereign mean?**
 
