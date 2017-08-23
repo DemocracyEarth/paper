@@ -67,6 +67,16 @@ As of this moment we have not encountered an alternative to the Proof of Identit
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire - USA has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas), San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
+**15. What does post nation state mean?**
+
+
+
+**16. What is the difference between decentralization and distributed?**
+
+
+
+**17. What is blockchain technology?** 
+
 
 
 
