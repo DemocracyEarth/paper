@@ -832,7 +832,7 @@ Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilso
 
 =====4.4 Supporters=====
 
-These organizations supported our work through grants and support to our research and development efforts.
+These organizations supported our work through grants and recognition to our research and development efforts.
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
 
