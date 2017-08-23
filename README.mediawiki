@@ -820,19 +820,19 @@ The Democracy Earth Foundation is an effort made possible by collaborators, dono
 
 =====4.1 Team & Collaborators=====
 
-🇦🇷 Santiago Siri, 🇫🇷 Virgile Deville, , 🇧🇷 Paula Berman, 🇺🇸 Herb Stephens, 🇺🇸 Sandra Stephens, 🇺🇸 Dwight Wilson, 🇦🇷 Mair Williams, 🇺🇸 Dan Swislow, 🇫🇷 Louis Margot-Duclot, 🇨🇴 Felipe Alvarez, 🇨🇦 Cyprien Grau, 🇺🇸 Peter Schurman, 🇺🇸 Andew James Benson
+Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Stephens, Dwight Wilson, Mair Williams, Dan Swislow, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andew James Benson
 
 =====4.2 Advisory Board=====
 
-🇮🇹 Pia Mancini, 🇦🇷 Matias Mosse, 🇧🇷 Ariel Kogan, 🇦🇷 Ernesto Dal Bó, 🇺🇸 Kate Courteau, 🇦🇲 Alexis Ohanian, 🇨🇱 Giorgio Jackson, 🇻🇪 Julio Coco
+Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco
 
 =====4.3 Individual Donors=====
 
-🇦🇷 Ricardo Gorodisch, 🇦🇷 Matias Mosse, 🇮🇳 Krishna Bahrat, 🇦🇷 Wenceslao Casares, 🇺🇸 Dwight Wilson, 🇦🇷 Marcos Galperin, 🇦🇷 Alejandro Estrada, 🇺🇸 Chris & Hedy Eyre, 🇺🇸 Kevin	Barenblat, 🇺🇸 Clinton Yara, 🇺🇸 Tom Preston-Werner, 🇺🇸 Lloyd Nimetz, 🇻🇪 Eduardo Medina, 🇺🇸 Jim D'Amico, 🇺🇸 Erik Walter, 🇮🇳 Vivek Krishnappa, 🇺🇸 Kevin Berk, 🇺🇸 Micah Rosenbloom, 🇦🇲 Karén Gyulbudaghyan, 🌎 Satoshi Nakamoto, 🇺🇸 Paul Wehrley, 🇺🇸 Josh Jacobson, 🇺🇸 Allison Sparks, 🇺🇸 Ahin Thomas, 🇺🇸 Ron Hirson, 🇺🇸 Ken	Ettinger, 🇺🇸 Sharon Goldstein, 🇮🇳 Shreenath Regunathan, 🇺🇸 Matt Price, 🇺🇸 Josh Zaretsky, 🇰🇷 Heejae Lim, 🇺🇸 Allison	Koblick.
+Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
 
 =====4.4 Supporters=====
 
-These organizations supported our work through grants and support to our research and development efforts. 
+These organizations supported our work through grants and support to our research and development efforts.
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
 
