@@ -718,14 +718,16 @@ Considering that established consensus on [https://medium.com/economicsecproj/ho
 
   10% earnings Annual Basic Income = 208 hours per year = 1,248 blocks
 
-Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 1,248 blocks are accounted for rewarding a ''UBI'' per year. So to sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings, a valid ''Proof of Identity'' should reward 1 ''vote'' every 42.1 blocks (i.e. 1 ''vote'' every 7 hours). Since blocks are not fractionable in Bitcoin, the ''UBI'' reward based on 10% earnings will be set every [https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#Answer_to_the_Ultimate_Question_of_Life.2C_the_Universe.2C_and_Everything_.2842.29 42] blocks:
+Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 1,248 blocks are accounted for rewarding a ''UBI'' per year. To sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings for every working hour, the ''vote'' token should then drip every ~42 hours or 253 blocks:
 
-  1 vote = 42 blocks
+  1 vote = 253 blocks
+
+Which means that every valid ''PoI'' gets granted a total of '''207 ''votes'' per year'''.
 
 So by taking into account the following variables:
 
 * T = Present block height (i.e. current ''Time'').
-* r = A constant for ''vote'' allocation rate, set at 1 vote every 42 blocks in time.
+* r = A constant for ''vote'' allocation rate, set at 1 vote every 253 blocks in time.
 * Pᵢ = The ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity (i).
 * Vᵢ = Total quantity of ''votes'' for a given identity (i) expressed as an integer.
@@ -748,7 +750,7 @@ We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' tha
 
 [[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
 
-With the ''Equality'' variable, if a second participant Bob got validated 504 blocks after a first one Alice, he won't begin with 0 ''votes'' but rather get an initial amount matching Alice's current balance at that moment (i.e. at a rate of 1 ''vote'' per 42 blocks, it is a total of 12 ''votes''). Bob will continue to get ''votes'' dripped on equal terms with Alice block after block after that. If a third participant Charlie generates a valid ''Proof of Identity'' 210 blocks later, he will begin with the equivalent amount of ''votes'' that Alice and Bob each currently have by then as well (i.e. a total of 17 ''votes'' each). With this inflation process that rewards every new participant (diluting all pre-existing ones), everyone is guaranteed an ''equal'' share in the overall participating rights of the network. As long as ''replicants'' get successfully banned, the ''vote'' network is a genuinely democratic global commons.
+With the ''Equality'' variable, if a second participant Bob got validated 1265 blocks after a first one Alice, he won't begin with 0 ''votes'' but rather get an initial amount matching Alice's current balance at that moment (i.e. at a rate of 1 ''vote'' per 253 blocks, it is a total of 5 ''votes''). Bob will continue to get ''votes'' dripped on equal terms with Alice block after block after that. If a third participant Charlie generates a valid ''Proof of Identity'' 759 blocks later, he will begin with the equivalent amount of ''votes'' that Alice and Bob each currently have by then as well (i.e. a total of 8 ''votes'' each). With this inflation process that rewards every new participant (diluting all pre-existing ones), everyone is guaranteed an ''equal'' share in the overall participating rights of the network. As long as ''replicants'' get successfully banned, the ''vote'' network is a genuinely democratic global commons.
 
 [[File:/images/chart-votes-coins-time.png|Vote emission and inflation rate.]]
 
