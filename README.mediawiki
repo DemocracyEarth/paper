@@ -768,8 +768,9 @@ The cost for the 2016 Presidential Race in the United States went as high as [ht
 [[File:/images/cost-of-us-elections.png|Cost of US Elections.]]
 
 It is within that range of value Nation-States invest resources to guarantee voting rights to all its citizens.
-But unlike the ''vote'' token proposed on this paper, severe restrictions apply to the electoral system proposed by this nation:
+But unlike the ''vote'' token proposed on this paper, severe restrictions apply to the electoral systems proposed by nations:
 
+* ''Proof of Identity'' 
 * Votes cannot be reused in any way.
 * Only 1 vote is granted per
 
