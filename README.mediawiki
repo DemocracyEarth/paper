@@ -758,7 +758,7 @@ Marketers that operate the Facebook advertising machine price ''likes'' in a ran
 
 With the creation of Sovereign as an interface for blockchain-based democracies operating with ''vote'' tokens, Democracy Earth Foundation's aim is to deliver a ''Linux moment'' to Facebook: analogous to the rise of open source operating systems in the early 1990's, Linux became an alternative to the monopolizing force of Microsoft's Windows that dominated the market of personal computers and internet servers. A free and open Internet must pursue the creation of a social network where no single entity can excercise algorithmical control of the shared ideas in exchange for the private information of its users. And while Facebook mines user attention for profit, the Democracy Earth network will use the same resource to strengthen the trust of the ''vote'' token in a process referred to as ''Proof of Identity''. As we acknowledge the growing political influence social media already has in the world, the urgency of laying out an open social network that is uncensorable, sovereign and free becomes pressing.
 
-====3.3.3 Value====
+===3.5 Value===
 
 We take three approaches to define the value of the ''vote'' token:
 
@@ -794,7 +794,7 @@ By allowing at least 2 decimal positions in the token, a ''microVote'' can be us
 
 We consider that the user experience of 2 decimals is sufficient to satisfy a common monetary use case for the token, while it also enables the ''vote'' token to gain instant gratification since users aiming to mine the token through a ''Proof of Identity'' process, once verified, won't need to wait a period of 42 hours until their first ''vote'' gets dripped.
 
-===3.4 End Game.===
+===3.6 End Game.===
 
 <blockquote>
   “What happened to the governments?” I inquired. 
