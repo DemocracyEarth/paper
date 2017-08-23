@@ -539,24 +539,6 @@ The ''vote'' token will be distributed as a '''Right''' opposing the historical 
 
 For this reason, [http://democracy.earth Democracy Earth Foundation] will generate an ''Initial Rights Offering'' of ''vote'' tokens designed to reach everyone on Earth under a process that will offer two mechanisms: crypto funding for anyone willing to allocate resources that strengthen the development of a global democracy with the ''vote'' token; and a rights mechanism as a native way of getting ''vote'' tokens by anyone able to ''mine'' his or her corresponding share of ''votes'' through a ''Proof of Identity'' process.
 
-====3.1.1 Crypto Funding.====
-
-''Vote'' tokens can be obtained based on market value in exchange for Bitcoin and Ether. All founding members of Democracy Earth Foundation will allocate a share of their corresponding ''votes'' under a Sovereign organization to fund efforts that strengthen the reach and impact of the ''vote'' democracy by committing the use of raised funds in the following way:
-
-* '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to debugging practices.
-* '''15% for Community''': Support, outreach, media, events and meetups.
-* '''15% for Operations''': Legal, accounting, travel, workplace.
-
-Those who accessed the ''vote'' token through funding can use ''votes'' as an asset among their crypto holdings and custom implementations of democracies of any kind.
-
-A comparative benchmark for the value of the ''vote'' token can be found on the Facebook network currently valuing 2 billion users with a market capitalization of ~$500 billion averaging an estimate of $250 per user. Democracy Earth Foundation regards Facebook's ''like'' function analogous to using ''votes'' in an open network. It is hard to estimate the quantity of ''likes'' made on this platform since it's private information and raw estimates project ''likes'' happening in the amount of trillions on a daily basis. Marketers that operate the Facebook advertising machine price ''likes'' in a range that can go from $0.10 to as high as $25 based on the reputation and popularity of the account being used to capture user attention. Unlike ''likes'', ''votes'' directly empower holders with the right to participate in any financial benefit that can be connected to their use. With ''votes'', profiting from user data will no longer be the exclusive domain of the Facebook middleman but instead will be enabled by a native token generation mechanism that is based on the principles established by the [http://www.un.org/en/universal-declaration-human-rights/ Universal Declaration of Human Rights]:
-
-<blockquote>
-  Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Everyone has the right to freedom of peaceful assembly and association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives.
-</blockquote>
-
-With the creation of Sovereign as an interface for blockchain-based democracies operating with ''vote'' tokens, Democracy Earth Foundation's aim is to deliver a ''Linux moment'' to Facebook: analogous to the rise of open source operating systems in the early 1990's, Linux became an alternative to the monopolizing force of Microsoft's Windows that dominated the market of personal computers and internet servers. A free and open Internet must pursue the creation of a social network where no single entity can excercise algorithmical control of the shared ideas in exchange for the private information of its users. And while Facebook mines user attention for profit, the Democracy Earth network will use the same resource to strengthen the trust of the ''vote'' token in a process referred to as ''Proof of Identity''. As we acknowledge the growing political influence social media already has in the world, the urgency of laying out an open social network that is uncensorable, sovereign and free becomes pressing.
-
 ====3.1.2 Initial Rights Offering.====
 
 Identity is foundational to personal sovereignty and the kernel of all voting systems. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Today’s standard identity systems are based on central authorities forcing users to share private information risking identity theft if they get hacked. Precedents include [https://gov.uk United Kingdom's Gov.UK] and [https://uidai.gov.in/ India’s Aadhaar], both which have been plagued by reports of improper security practices that included leaks compromising the privacy of millions.
@@ -756,28 +738,61 @@ With the ''Equality'' variable, if a second participant Bob got validated 1265 b
 
 At any time, any self-sovereign is allowed to either delegate ''votes'' to someone else or use them to start an <code>Organization</code> in the network, hence the ''Equality'' variable is a starting point aiming for a meritocratic ecosystem. Even though the inflation rate might initially seem too aggressive, the total supply of ''votes'' is still fixed to a maximum cap based on the quantity of participants in the network. As more participants engage the overall inflation will tend to limit 0% since new ''votes'' have a reduced impact in the political economy as a whole. When compared to uncapped ''likes'' and ''retweets'' in other social applications, it must be noted that from the subjectivity of each individual the allocation of ''votes'' is still a decision based on a limited resource that implies opportunity costs. The value of the network does not reside on the simulated scarcity but on its ability to register uncoerced decisions among self-sovereigns. As ''votes'' get granted on equal terms throughout time, they also operate as a signal able to register events that keep a record that will be available for future generations due to the use of an incorruptible blockchain. ''Votes'' express a language that connects the decisions of institutions and individuals throughout history.
 
+===3.4 Funding.===
+
+''Vote'' tokens can be obtained based on market value in exchange for Bitcoin and Ether. Democracy Earth Foundation will issue an initial  amount of ''votes'' as an ERC20 compatible token to be used under a Sovereign organization in order to fund efforts that strengthen the reach and impact of the ''vote'' democracy by committing the use of funds in the following way:
+
+* '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to debugging practices.
+* '''15% for Community''': Support, outreach, media, events and meetups.
+* '''15% for Operations''': Legal, accounting, travel, workplace.
+
+Those who accessed the ''vote'' token through funding can use ''votes'' as an asset among their crypto holdings and custom implementations of democracies of any kind.
+
+A comparative benchmark for the value of the ''vote'' token can be found on the Facebook network currently valuing 2 billion users with a market capitalization of ~$500 billion averaging an estimate of '''$250 per user'''. Democracy Earth Foundation regards Facebook's ''like'' function analogous to using ''votes'' in an open network. It is hard to estimate the quantity of ''likes'' made on this platform since it's private information and raw estimates project ''likes'' happening in the amount of trillions on a daily basis.
+
+Marketers that operate the Facebook advertising machine price ''likes'' in a range that can go from '''$0.10 to as high as $25''' based on the reputation and popularity of the account being used to capture user attention. Unlike ''likes'', ''votes'' directly empower holders with the right to participate in any financial benefit that can be connected to their use. With ''votes'', profiting from user data will no longer be the exclusive domain of the Facebook middleman but instead will be enabled by a native token generation mechanism that is based on the principles established by the [http://www.un.org/en/universal-declaration-human-rights/ Universal Declaration of Human Rights]:
+
+<blockquote>
+  Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers. Everyone has the right to freedom of peaceful assembly and association. Everyone has the right to take part in the government of his country, directly or through freely chosen representatives.
+</blockquote>
+
+With the creation of Sovereign as an interface for blockchain-based democracies operating with ''vote'' tokens, Democracy Earth Foundation's aim is to deliver a ''Linux moment'' to Facebook: analogous to the rise of open source operating systems in the early 1990's, Linux became an alternative to the monopolizing force of Microsoft's Windows that dominated the market of personal computers and internet servers. A free and open Internet must pursue the creation of a social network where no single entity can excercise algorithmical control of the shared ideas in exchange for the private information of its users. And while Facebook mines user attention for profit, the Democracy Earth network will use the same resource to strengthen the trust of the ''vote'' token in a process referred to as ''Proof of Identity''. As we acknowledge the growing political influence social media already has in the world, the urgency of laying out an open social network that is uncensorable, sovereign and free becomes pressing.
+
 ====3.3.3 Value====
 
-We take two approaches to define the value of the ''vote'' token:
+We take three approaches to define the value of the ''vote'' token:
 
-* '''Market''': Traditional elections offer useful insights on how votes are valued today.
-* '''Labour''': A ''Universal Basic Income'' perspective offers useful insights on how time is being valued.
+* '''Work and Time''': A ''Universal Basic Income'' perspective offers useful insights on how time is being valued.
+* '''Nation-Sates''': Traditional elections offer useful insights on how votes are valued today.
+* '''Social Media''': These networks offer another reference to how ''likes'' get valued online.
 
-=====3.3.3.1 Market=====
+The labour approach is the simplest one. Coming from a ''Universal Basic Income'' perspective, a useful reference that values time and labour is the proposed [https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States minimum wage in the US] based on federal, state and local laws across the country. As of July 2016 it has been set at '''$7.25 per hour'''.
 
-The cost for the 2016 Presidential Race in the United States went as high as [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696] and even though it had the lowest voter turnout in 20 years it had an estimated total of [https://en.wikipedia.org/wiki/Voter_turnout_in_the_United_States_presidential_elections ~138,847,000 voters]. Hence, a simple calculation can price the vote token issued by the US government for this electoral process at '''$ 17.18 per vote'''. On the other end of the spectrum, developing nations like Argentina offer a similar reference: their 2017 legislative election had an estimated cost of [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones-pero-casi-no-definiran-candidatos $ 164,705,882] with a total of [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 voters], setting the price at '''$ 6.7 per vote'''. It is within that range of value that Nation-States invest resources to guarantee voting rights to all its citizens.
+[[File:/images/minimum-wage-us.png|Minimum wage in the US.]]
+
+For the ''vote'' token to effectively become a device for ''UBI'' this helps set an expectation regarding its pricing dynamic considering that 1 ''vote'' unit is equivalent to 1 hour of work. Hence this anchors the initial price of the token at:
+
+  1 vote = $ 7.25
+
+From a Nation-State perspective, a useful reference can be found in the cost for implementing national elections. The 2016 Presidential Race in the United States had a total cost as high as [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696]. Even though it had the lowest voter turnout in 20 years, an estimated total of [https://en.wikipedia.org/wiki/Voter_turnout_in_the_United_States_presidential_elections ~138,847,000 voters] participated. Hence, a simple calculation can price the vote token issued by the US government for this electoral process at '''$ 17.18 per vote'''. On the other end of the spectrum, developing nations like Argentina offer a similar reference: their 2017 legislative election had an estimated cost of [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones-pero-casi-no-definiran-candidatos $ 164,705,882] with a total of [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 voters], setting the price at '''$ 6.7 per vote'''. It is within that range of value that Nation-States invest resources to guarantee voting rights to all its citizens.
 
 [[File:/images/cost-of-us-elections.png|Cost of US Elections.]]
 
-Unlike the ''vote'' token proposed on this paper, severe restrictions apply to these electoral systems:
+According to Facebook's seed investor Peter Thiel, a rule of thumb for technological innovation is that in order to beat a precedent paradigm, an innovation must outperform the task of the previous way of doing things [http://zerotoonebook.com/ by at least a factor of 10] in terms of cost and utility. For example: the digital word processor became successful because it does what a typewriter did in a way that can be considered at least ten times better and ten times cheaper. The same applies to fax in contrast to the postal service; and e-mail in contrast to fax. Hence the transition from traditional voting to a new standard of blockchain based voting should work on the same basis.
 
-* '''Expensive Security''': Nation-State ''Proof of Identity'' demands several resources to identify citizens during many stages of their life. Birth certificates, passports, driver's license, national ID cards, social security, wedding certificates are all aimed at keeping the public record of citizens up to date. This is the leading function of the State and it often leads to persecutory behaviour.
+A simple comparison shows the strict limitations electoral votes have in comparison with the ''vote'' token proposed on this paper:
+
+* '''Expensive Security''': Nation-State's ''Proof of Identity'' demands several resources to identify citizens during many stages of their life. Birth certificates, passports, driver's license, national ID cards, social security, wedding certificates, death certificates are all aimed at keeping the public record of citizens up to date. This is the leading function of the State and it can lead to persecutory behaviour.
 * '''Limited Utility''': Once a citizen casts a vote during an election, it cannot be modified until 4 to 6 years later when the elected positions get renovated. Only those among the elected positions (i.e. senators and congressmen) get the right to spend more votes than the rest of the citizens.
 * '''Reduced Bandwidth''': Citizens get to choose from a handful of options only once every 2 or 4 years. If we consider each option as a bit on the system then traditional elections can be regarded as ''8 bit democracies'', such is the current bandwidth for participation under most governments.
 
-According to Facebook's seed investor Peter Thiel, a rule of thumb for technological innovation is that in order to beat a precedent paradigm, an innovation must outperform the task of the previous way of doing things [http://zerotoonebook.com/ by at least a factor of 10] in terms of cost and utility. For example: the digital word processor became successful because it does what a typewriter did in a way that can be considered at least ten times better and ten times cheaper. The same applies to fax in contrast to the postal service; and e-mail in contrast to fax. Hence the transition from traditional voting to a new standard of blockchain based voting should work on the same basis.
+In order to mantain the reference price set at the minimum wage in the US while being able to be at least 10 times more efficient than any traditional election, ''vote'' utility must be extended by making the token divisible.
 
-Scarcity emerges from
+By allowing at least 2 decimal positions in the token, a ''microVote'' can be used in the same way than ''votes'' at a cost that is comparatively ~10 times more efficient than the cost for issuing a vote on a Nation-State election:
+
+  0.01 votes = 2.53 blocks = $ 0.0725
+
+We consider that the user experience of 2 decimals is sufficient to satisfy a common monetary use case for the token, while it also enables the ''vote'' token to gain instant gratification since users aiming to mine the token through a ''Proof of Identity'' process, once verified, won't need to wait a period of 42 hours until their first ''vote'' gets dripped.
 
 ===3.4 End Game.===
 
