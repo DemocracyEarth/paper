@@ -836,7 +836,7 @@ These organizations supported our work through grants and recognition to our res
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
 
-===4.1 Acknowledgements.===
+=====4.5 Acknowledgements.=====
 
 These are some of the minds that inspired the ideas expressed on this document.
 
