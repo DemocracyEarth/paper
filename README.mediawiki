@@ -539,7 +539,7 @@ The ''vote'' token will be distributed as a '''Right''' opposing the historical 
 
 For this reason, [http://democracy.earth Democracy Earth Foundation] will generate an ''Initial Rights Offering'' of ''vote'' tokens designed to reach everyone on Earth under a process that will offer two mechanisms: crypto funding for anyone willing to allocate resources that strengthen the development of a global democracy with the ''vote'' token; and a rights mechanism as a native way of getting ''vote'' tokens by anyone able to ''mine'' his or her corresponding share of ''votes'' through a ''Proof of Identity'' process.
 
-====3.1.2 Initial Rights Offering.====
+====3.1.1 Initial Rights Offering.====
 
 Identity is foundational to personal sovereignty and the kernel of all voting systems. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Today’s standard identity systems are based on central authorities forcing users to share private information risking identity theft if they get hacked. Precedents include [https://gov.uk United Kingdom's Gov.UK] and [https://uidai.gov.in/ India’s Aadhaar], both which have been plagued by reports of improper security practices that included leaks compromising the privacy of millions.
 
