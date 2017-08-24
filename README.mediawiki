@@ -733,7 +733,7 @@ With the ''Equality'' variable, if a second participant Bob got validated 1280 b
 
 [[File:/images/chart-votes-coins-time.png|Vote emission and inflation rate.]]
 
-Even though the inflation rate might initially seem too aggressive, the total supply of ''votes'' is still fixed to a maximum cap based on the quantity of participants in the network. As more participants engage the overall inflation will tend to limit 0% since new ''votes'' have a reduced influence in the economy as a whole. When compared to uncapped ''likes'' and ''retweets'' in other social applications, it must be noted that from the subjectivity of each individual the allocation of ''votes'' is still a decision based on a limited resource that implies opportunity costs, forcing a more rational behaviour rather than impulsive liking (i.e. trolling).
+Even though the inflation rate might initially seem too aggressive, the total supply of ''votes'' is still fixed to a maximum cap based on the quantity of participants in the network. As more participants engage, the overall inflation will tend to limit 0% since new ''votes'' have a reduced influence in the economy as a whole. When compared to uncapped ''likes'' and ''retweets'' in other social applications, it must be noted that from the subjectivity of each individual the allocation of ''votes'' is still a decision based on a limited resource that implies opportunity costs, forcing a more rational behaviour rather than impulsive liking (i.e. trolling).
 
 ====3.3.3 Decentralization====
 
@@ -745,7 +745,7 @@ Significant efforts on quantifying decentralization are being made, including Ba
 
 The importante of measuring decentralization relies on finding a metric able to certify the ability of a network to be censorship resistant, being this a fundamental property for self-sovereign currencies such as Bitcoin. But ultimately the question of who is in control of the entities running a networked system must be addressed as well. By establishing a reference network that guarantees an egalitarian distribution of its token based on a ''Proof of Identity'' mechanism designed to prevent ''replicants'', this brings in a new perspective that can help increase the resolution of the Nakamoto Coefficient by means of discernible equal access.
 
-By guaranteeing an equal starting point for every participant regardless of the time they decide to join the network, the ''vote'' network operates as a genuine meritocracy. The proposed ''Equality'' variable is simply a rule for establishing a starting point and by no means a permanent imposition: at any time, any self-sovereign is allowed to either delegate ''votes'' to someone else or use them to start an <code>Organization</code> in the network. In this way, the ''vote'' token can work as a device fit to foster a wave of entrepreneurship even among today's disenfranchised individuals left out by the legacy financial and political systems. But as this happens on the individual level, the overall statistics of the network itself can keep a reference framework in which to effectively measure decentralization down to each human across the globe and identify opportunities where its needed as it grows.
+By guaranteeing an equal starting point for every participant regardless of the time they decide to join the network, the ''vote'' network operates as a genuine meritocracy. The proposed ''Equality'' variable is simply a rule for establishing a starting point and by no means a permanent imposition: at any time, any self-sovereign is allowed to either delegate ''votes'' to someone else or use them to start an <code>Organization</code> in the network. In this way, the ''vote'' token can work as a device fit to foster a wave of entrepreneurship even among today's disenfranchised individuals left out by the legacy financial and political systems. But as this happens on the individual level, the overall statistics of the network itself works as a reference framework in which to effectively measure decentralization down to each human across the globe and identify opportunities where its needed as it grows.
 
 The value of the network does not reside on the simulated scarcity but on its ability to register uncoerced decisions among self-sovereigns on the basis of equality. Initially the ''vote'' token might be able to compete with pollsters and any other rudimentary simulations that aim to predict elections, but eventually it can become a sovereign system on its own right as citizenship migrates online. ''Votes'' operate as a signal able to register events recorded on an incorruptible blockchain that stores political history that cannot be erased or modified in any way. Future generations get exposed to their past without intermediaries.
 
@@ -807,9 +807,9 @@ In order to mantain the reference price set at the minimum wage in the US while 
 
 By allowing at least 2 decimal positions in the token, a ''microVote'' can be used in the same way than ''votes'' at a cost that is comparatively ~10 times more efficient than the cost for issuing a vote on a Nation-State election:
 
-  0.01 votes = 2.53 blocks = $ 0.0725
+  0.01 votes = 2.56 blocks = $ 0.0725
 
-We consider that the user experience of 2 decimals is sufficient to satisfy monetary use case for the token while it also enables ''votes'' to deliver instant gratification since users aiming to mine the token through a ''Proof of Identity'' process, once verified, won't need to wait a period of 42 hours until their first ''vote'' gets dripped.
+We consider that the user experience of 2 decimals is sufficient to satisfy monetary use case for the token.
 
 ===3.6 End Game.===
 
