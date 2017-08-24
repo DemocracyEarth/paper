@@ -737,7 +737,7 @@ Even though the inflation rate might initially seem too aggressive, the total su
 
 ====3.3.3 Decentralization====
 
-[https://news.21.co/quantifying-decentralization-e39db233c28e Significant efforts on quantifying decentralization are being made, including Balaji Srinivasan's work on establishing a ''Nakamoto Coefficient''] defined as:
+Significant efforts on quantifying decentralization are being made, including Balaji Srinivasan's work on establishing a [https://news.21.co/quantifying-decentralization-e39db233c28e ''Nakamoto Coefficient''] defined as:
 
 <blockquote>
   The minimum number of entities in a given subsystem required to get to 51% of the total capacity.
