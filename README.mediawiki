@@ -151,7 +151,7 @@ The widespread adoption of blockchains is giving rise to a model that initially 
 
 ----
 
-With this diagnosis, on [[#Paper|Section 2]] we map the basic building blocks for a decentralized liquid democracy. Once the tools are defined, [[#Execution|Section 3]] proposes an implementations that focus on making the system secure and inclusive.
+With this diagnosis, on [[#Paper|Section 2]] we map the basic building blocks for a decentralized liquid democracy. Once the tools are defined, [[#Execution|Section 3]] proposes an implementation that focus on making the system secure and inclusive.
 
 <div id="Paper"></div>
 
@@ -247,7 +247,7 @@ The ''vote'' token aims to be a standard for digital democracy able to interoper
 
 * '''Overriding Vote''': If Bob already used the delegated ''votes'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''votes''.
 
-* '''Public Vote''': Often referred as the ''golden rule'' of liquid democraices, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+* '''Public Vote''': Often referred as the ''golden rule'' of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
 
 * '''Secret Vote''': A method able to guarantee ''vote'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''vote'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''vote'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''votes'' with these blockchains:
 
@@ -323,7 +323,7 @@ When Claude Shannon wrote his [http://math.harvard.edu/~ctm/home/text/others/sha
 
 The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''vote'' tokens. Since <code>Organizations</code> can live in a decentralized network, the requirements to make an entity able to operate with ''votes'' are similar to those found while setting up a website:
 
-* <code>Domain</code>: Every organization must have its own domain name (e.g. ''democracy.earth'' on the Hypertext Transfer Protocol or HTTP). Some may even have a namespace running as a Top Level Domain or TLD (e.g. ''.earth''). This reference code for an <code>Organization</code> within an open network, whether its the legacy web as in HTTP or new emergent networks for decentralized domains such as [https://blockstack.org Blockstack], is crucial to help build a semantic layer that effecitvely describes <code>Issues</code> without the risk of having voters manipulating tags in a closed system (referred on Section 2.5.4 as ''squatting''). Domain names help describe an <code>Issue</code> as well as restricting the scope of a delegation contract.
+* <code>Domain</code>: Every organization must have its own domain name (e.g. ''democracy.earth'' on the Hypertext Transfer Protocol or HTTP). Some may even have a namespace running as a Top Level Domain or TLD (e.g. ''.earth''). This reference code for an <code>Organization</code> within an open network, whether its the legacy web as in HTTP or new emergent networks for decentralized domains such as [https://blockstack.org Blockstack], is crucial to help build a semantic layer that effectively describes <code>Issues</code> without the risk of having voters manipulating tags in a closed system (referred on Section 2.5.4 as ''squatting''). Domain names help describe an <code>Issue</code> as well as restricting the scope of a delegation contract.
 
 * <code>Constitution</code>: Every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract. The ''constitutional smart contract'' describes how <code>Members</code>, <code>Issues</code> and ''votes'' connect within the system.
 
@@ -539,7 +539,7 @@ The ''vote'' token will be distributed as a '''Right''' opposing the historical 
 
 For this reason, [http://democracy.earth Democracy Earth Foundation] will generate an ''Initial Rights Offering'' of ''vote'' tokens designed to reach everyone on Earth under a process that will offer two mechanisms: crypto funding for anyone willing to allocate resources that strengthen the development of a global democracy with the ''vote'' token; and a rights mechanism as a native way of getting ''vote'' tokens by anyone able to ''mine'' his or her corresponding share of ''votes'' through a ''Proof of Identity'' process.
 
-====3.1.2 Initial Rights Offering.====
+====3.1.1 Initial Rights Offering.====
 
 Identity is foundational to personal sovereignty and the kernel of all voting systems. Votes (on any system) are valid if and only if membership is verified within an organization, no democracy can run on corrupted identities. Today’s standard identity systems are based on central authorities forcing users to share private information risking identity theft if they get hacked. Precedents include [https://gov.uk United Kingdom's Gov.UK] and [https://uidai.gov.in/ India’s Aadhaar], both which have been plagued by reports of improper security practices that included leaks compromising the privacy of millions.
 
