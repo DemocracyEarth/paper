@@ -361,8 +361,7 @@ The basic settings to be found on a constitution are:
 
 * '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
 
-Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup.  This will be aided and abetted through work with DEF partner Aragon, who is even now creating a digital jurisdiction that will make decentralized organizations very efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that your company will always work, even in the face of malicious tampering by hostile third parties or governments. In the same way that Democracy Earth enables self-sovereignty by making it possible for everyone in the world to vote, Aragon, by making it more efficient for entities in the world to organize, [https://aragon.one/ enables the borderless, permissionless creation of value].
-
+Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
 
 ====2.4.2 <code>Members</code>====
 
@@ -803,13 +802,13 @@ We consider that the user experience of 2 decimals is sufficient to satisfy mone
 
 ====3.4.4 Funding.====
 
-''Vote'' tokens can be obtained based on market value in exchange for Bitcoin and Ether. Democracy Earth Foundation will issue an initial  amount of ''votes'' as an [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible token] able to operate on the Ethereum blockchain to be used under a Sovereign organization in order to fund efforts that strengthen the reach and impact of the ''vote'' democracy by committing the use of funds in the following way:
+''Vote'' tokens can be obtained based on their market value in exchange for Bitcoin and Ether. Democracy Earth Foundation will issue an initial amount of [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] able to operate on the Ethereum blockchain and refferred with the ''VOTE'' and ''VOT'' ticker. These tokens will initially constitute a fund that will operate as the  [http://merkle.com/papers/DAOdemocracyDraft.pdf Collective Welfare] of the Democracy Earth Foundation and will serve the purpose to reward efforts that strengthen the reach and impact of the ''vote'' democracy by committing the use of funds in the following way:
 
 * '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to debugging practices.
 * '''15% for Community''': Support, outreach, media, events and meetups.
 * '''15% for Operations''': Legal, accounting, travel, workplace.
 
-Those who accessed the ''vote'' token through our funding mechanism can use ''votes'' as an asset among their crypto holdings and custom implementations of democracies of any kind.
+The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign Github repository].
 
 ===3.5 End Game.===
 
@@ -841,7 +840,7 @@ Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilso
 
 =====4.4 Supporters=====
 
-These organizations supported our work through grants and recognition to our research and development efforts.
+These organizations supported our work through grants, partnerships and recognition to our research and development efforts.
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
 
@@ -849,4 +848,4 @@ These organizations supported our work through grants and recognition to our res
 
 These are some of the minds that inspired the ideas expressed on this document.
 
-Nick Szabo; Nubis Bruno (Bitex.la); Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Muneeb Ali (Blockstack); Luis Cuende (Aragon); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast; Harry Halpin; Guy Standing (University of London);
+Nick Szabo; Nubis Bruno (Bitex.la); Cesar Hidalgo (MIT); Balajis Srinivasan (21.co & Anderssen Horowitz); Andrea Antonopoulos (Bitcoin Evangelist); Peter Asaro (Stanford); Naval Ravikant (Angel List); Guillermo Rauch (Zeit); Andrew DeSantis (E8); Greg Slepak (Open Turtles); Demian Brener (Zeppelin); Manuel Araoz (Zeppelin); Ralph Merkle; Satoshi Nakamoto (Bitcoin); Vitalik Buterin (Ethereum); Vlad Zamfir (Ethereum); Joseph Lubin (Consensys); Ryan Shea (Blockstack); Muneeb Ali (Blockstack); Luis Cuende (Aragon); Vinny Lingham (Civic); Luke Duncan; David Graeber (London School of Economics); Peter Schurman (One Global Democracy); Jim D'Amico; Federico Ast; Harry Halpin;
