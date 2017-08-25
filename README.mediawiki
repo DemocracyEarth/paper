@@ -680,8 +680,6 @@ A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
 ====3.3.1 Dripping.====
 
-[[File:/images/proof-of-identity-dripping.png|Dripping mechanism for mined votes.]]
-
 The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means:
 
   1 hour = 6 blocks
@@ -705,6 +703,8 @@ Which means that of the ~52,560 blocks that register a full year of activity on 
 So every valid POI gets granted a total of:
 
   205 votes per year
+
+[[File:/images/proof-of-identity-dripping.png|Dripping mechanism for mined votes.]]
 
 Therefore by taking into account the following variables:
 
