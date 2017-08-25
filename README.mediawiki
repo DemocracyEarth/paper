@@ -474,21 +474,21 @@ The consequences of having a monopolizing leader in a liquid democracy environme
 
 A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''votes'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
-====2.5.5 Sybil Attack.====
+====2.5.3 Sybil Attack.====
 <blockquote>
   a.k.a. ''Identity Theft''
 </blockquote>
 
 Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for ''votes'' to be granted they must get validated through a protocol (social and algorithmic) that works as ''Proof of Identity''.
 
-====2.5.6 Fake news.====
+====2.5.4 Fake news.====
 <blockquote>
   a.k.a. ''Gossip''
 </blockquote>
 
 It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store ''Hard Promises''.
 
-=====2.5.6.1 Hard Promises=====
+=====2.5.4.1 Hard Promises=====
 
 Corporations and public institutions are prone to corruption because decisions often happen in secrecy behind closed doors while accounting happens over time. Effectively, organizations are ''decision laundering'' by disconnecting accountability from the decisions. The lack of an incorruptible timeline storing financial and political decisions enables such inaccountability. The [https://en.wikipedia.org/wiki/Leviathan_(book) ''Leviathan'' State] is an inefficient machine: although it proclaims itself as the sovereign ruler for any given population by means of force, whoever is in charge of running its bureaucracy can still be corrupted making the whole house of cards fall apart. This distance between fact and accounting is the source of gossip.
 
@@ -496,7 +496,7 @@ The building blocks of institutions consist on facts that define agreements. But
 
 The bureaucracies that protect these agreements depend on promises, i.e. “all money kept in banks will be there tomorrow”. But as [https://twitter.com/aantonop/ Andreas Antonopoulos] states: “We’re used to systems of soft promises and reversible transactions.” If the government (or any other kind of central authority) wanted to confiscate private funds stored in a bank, nobody can stop them from breaking that promise. This has been the experience of Greek, Argentine, Venezuelan or Puerto Rican citizens with their own defaulting governments in the past decade. Blockchain based organizations on the other hand offer an alternative of ''hard promises'': agreements stored in smart contracts strictly protected by cryptography that no single third party can corrupt. Rather than regulating human behaviour post-facto as government law does, blockchains guarantee transparency by default incentivizing honest behaviour since every participant is aware that institutional events will be available for open scrutiny.
 
-====2.5.4 Squatting.====
+====2.5.5 Squatting.====
 <blockquote>
   a.k.a. ''Big brother''
 </blockquote>
