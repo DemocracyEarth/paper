@@ -1,0 +1,40 @@
+---
+def: 1
+author: DemocracyEarth
+created: 2017-08-27
+status: draft
+original_title: The Social Smart Contract
+original_created: 2017-07-14
+license: MIT
+layout: page
+lang: pt-BR
+---
+
+=O Contrato Social Inteligente=
+
+Uma oferta inicial de direitos da [http://democracy.earth ''Democracy Earth Foundation''] (Fundação Democracia da Terra).
+
+==i. Resumo==
+Em um mundo que conquistou a globalização dos ativos financeiros, mantendo os direitos políticos encapsulados por territórios, 
+precisamos construir novos modelos de governança democrática que permitam a humanidade colaborar e 
+abordar questões globais urgentes. A ''Democracy Earth Foundation'' está criando softwares gratuítos e de código aberto 
+para votação incorruptível baseada ''blockchain'' dentro de instituições de todos os tamanhos, 
+do mais local envolvendo duas pessoas, ao mais global envolvendo todos nós.
+
+A distribuição desigual de oportunidades em todo o mundo devido ao confronto perpétuo entre os governos nacionais 
+levou à aceleração das mudanças climáticas, ao aumento da desigualdade, ao terrorismo e às migrações forçadas. 
+A ''Democracy Earth Foundation'' propõe que o conjunto de tecnologias 
+que inclui o Bitcoin como "dinheiro programável sem bancos centrais" 
+e o Ethereum como tecnologia para contratos inteligentes sem a necessidade de tribunais judiciais, 
+exige uma nova camada que proporcione votos incorruptíveis além dos limites territoriais dos Estados-Nação. (...)
+
+==ii. Contents==
+
+...
+
+<div id="Background"></div>
+
+==iii. Background.==
+
+...
+
