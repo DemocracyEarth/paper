@@ -758,6 +758,8 @@ We take three approaches to define the value of the ''vote'' token:
 * '''Work & Time''': A ''Universal Basic Income'' perspective offers useful insights on how labour time is being valued.
 * '''Nation-Sates''': Traditional elections offer useful insights on how votes are valued today.
 
+With those references, we then discuss the divisibility of the ''vote'' token and its implementation to govern a Democratic Welfare Fund.
+
 ====3.4.1 Status-Quo====
 
 A comparative benchmark for the value of the ''vote'' token can be found on the Facebook network currently valuing 2 billion users with a market capitalization of ~$500 billion averaging an estimate of '''$250 per user'''. Democracy Earth Foundation regards Facebook's ''like'' function analogous to using ''votes'' in an open network. It is hard to estimate the quantity of ''likes'' made on this platform since it's private information and raw estimates project ''likes'' happening in the amount of trillions on a daily basis.
@@ -798,15 +800,15 @@ A simple comparison shows the strict limitations electoral votes have in compari
 
 In order to maintain the reference price set at the minimum wage in the US while being able to be at least ~10X more efficient than any traditional election, ''vote'' utility must be extended by making the token divisible.
 
-====3.4.4 Revolutions====
+====3.4.4 Divisibility====
 
-The waiting period of 250 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~42 hours. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to the minimum possible fraction of human attention.
+The waiting period of 250 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~42 hours. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to a minimum fraction of human attention.
 
 Considering that,
 
   1 vote = 250 blocks = 2,500 minutes = 150,000 seconds
 
-Without increasing decimal complexity while adapting the dripping rate to the shortest possible span of human attention, the ''vote'' network should perform a revolution every 15 seconds:
+To keep the shortest possible decimal extension while adapting the dripping rate to the minimum span of human attention, the ''vote'' network should perform a revolution every 15 seconds:
 
   15 seconds = 0.0001 votes
 
@@ -818,7 +820,7 @@ Which can also be expressed as,
 
   1 revolution = 0.0001 votes
 
-By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' bring almost instant access to political cryptocurrency keeping the same utility capacity as ''votes'' with a cost that is comparatively ~10,000X times more efficient than Nation-State elections:
+By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' bring almost instant access to political rights while keeping the same utility capacity as ''votes'' with a cost that is comparatively ~10,000X times more efficient than Nation-State elections:
 
   1 revolution = 0.0001 votes = $ 0.000725
 
