@@ -810,7 +810,7 @@ Without increasing decimal complexity while adapting the dripping rate to the sh
 
   15 seconds = 0.0001 votes
 
-Hence, in the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satsohi = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'',
+In the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satsohi = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'',
 
   1 vote = 10,000 revolutions
 
@@ -818,19 +818,25 @@ Which can also be expressed as,
 
   1 revolution = 0.0001 votes
 
-By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' have the same utility value as ''votes'' at a cost that is comparatively ~10000X times more efficient than Nation-State elections:
+By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' bring almost instant access to political cryptocurrency keeping the same utility capacity as ''votes'' with a cost that is comparatively ~10,000X times more efficient than Nation-State elections:
 
   1 revolution = 0.0001 votes = $ 0.000725
 
-====3.4.4 Funding.====
+For the identification of the token in third party applications, we suggest the ''VOTE'' and ''VOT'' tickers.
 
-''Vote'' tokens can be obtained based on their market value in exchange for Bitcoin and Ether. Democracy Earth Foundation will issue an initial amount of [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] able to operate on the Ethereum blockchain and refferred with the ''VOTE'' and ''VOT'' ticker. These tokens will initially constitute a fund that will operate as the  [http://merkle.com/papers/DAOdemocracyDraft.pdf Collective Welfare] of the Democracy Earth Foundation and will serve the purpose to reward efforts that strengthen the reach and impact of the ''vote'' democracy by committing the use of funds in the following way:
+====3.4.5 Democratic Welfare Fund.====
 
-* '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to debugging practices.
+The Democracy Earth Foundation will issue an initial amount of 10,000,000 ''votes'' as  [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] at $7.25 per unit and offered in exchange for Bitcoin or Ether for its Initial Rights Offering. The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign GitHub repository].
+
+These tokens will constitute the [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare Fund] of the Democracy Earth Foundation that will initially serve the purpose to reward efforts that are focused on the development and impact of the ''vote'' democracy by committing its use for,
+
+* '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to our debugging practices.
 * '''15% for Community''': Support, outreach, media, events and meetups.
 * '''15% for Operations''': Legal, accounting, travel, workplace.
 
-The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign GitHub repository].
+As the ''Proof of Identity'' dynamic described on this paper becomes stable and is able to grow the network with valid participants, the corresponding % of POI mined ''votes'' will gain the right to vote on the use of the Democratic Welfare Fund. As this process unfolds, we see an incentive for every developer and contributor of the project to secure the POI mechanism while also providing an incentive for newcomers to participate in the network.
+
+We expect that the Democratic Welfare Fund becomes a public resource for global governance. The Democracy Earth Foundation will work to engage donors of all kinds, including state-actors, institutions and individuals, to allocate at least 5% of their donating capacity to be decided by a legitimate global vote. We hope to provide a path for the sustainability of organizations able to execute projects focused on climate change, refugees, technological education, corruption fighting and ''Universal Basic Income'' among other pressing issues. Our goal is to establish a new layer for governance that is able to speed up global cooperation. A commons able to guarantee equal participation rights while being resistant to any kind of corruption is the key to unleash a true democracy, anywhere in the world.
 
 ===3.5 End Game.===
 
