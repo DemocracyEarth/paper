@@ -680,36 +680,36 @@ A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
 ====3.3.1 Dripping.====
 
-The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means:
+The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means,
 
   1 hour = 6 blocks
 
-Assuming that earnable time across the globe is based on 8 hour work days:
+Assuming that earnable time across the globe is based on 8 hour work days,
 
   8 hours per day x 5 days per week x 52 weeks per year = 2,080 hours per year
 
-Or, in block time:
+Or in block time,
 
   2,080 hours = 12,480 blocks
 
-Considering that established consensus on [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 an ideal basic income rate averages around 10% of an individual's earnings], we can define that:
+And considering that established consensus on [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 an ideal basic income rate averages around 10% of an individual's earnings] we can define that,
 
   10% earnings Annual Basic Income = 208 hours per year = 1,248 blocks
 
-Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin, 1,248 blocks are accounted for rewarding a UBI per year. To sync ''vote'' dripping with Bitcoin as a ''Universal Basic Income'' based on 10% earnings for every working hour, 1 full unit of a ''vote'' token should then drip every ~42 hours (or ~253 blocks). We consider that a useful approach is to set the block interval based on a power of 2 so any calculation on the ''vote'' economy becomes easier for human and machine interpretation, hence establishing the following rate:
+Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin's blockchain, a total of 1,248 blocks should be accounted for rewarding a UBI per year. To sync ''vote'' dripping with Bitcoin as a UBI mechanism based on 10% earnings for every working hour, 1 full unit of a ''vote'' token should then drip every ~42 hours (or ~252 blocks). For the purpose of guaranteeing a feasible divisibility of the ''vote'' token so it can be dripped every few seconds (while it also becomes easier for human and machine interpretation), we set the dripping rate at,
 
-  1 vote = 256 blocks
+  1 vote = 250 blocks
 
 So every valid POI gets granted a total of:
 
-  205 votes per year
+  210 votes per year
 
 [[File:/images/proof-of-identity-dripping.png|Dripping mechanism for mined votes.]]
 
 Therefore by taking into account the following variables:
 
 * T = Present block height (i.e. current Time).
-* r = A constant for ''vote'' allocation rate, set at 1 vote every 256 blocks in time.
+* r = A constant for ''vote'' allocation rate, set at 1 vote every 250 blocks in time.
 * Pᵢ = The ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity (i).
 * Vᵢ = Total quantity of ''votes'' for a given identity (i).
@@ -730,7 +730,7 @@ We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' tha
 
 [[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
 
-With the ''Equality'' variable, if a second participant Bob got validated 1280 blocks after a first one Alice, he won't begin with 0 ''votes'' but rather get an initial amount matching Alice's current balance at that moment (i.e. at a rate of 1 ''vote'' per 256 blocks, it is a total of 5 ''votes''). Bob will continue to get ''votes'' dripped on equal terms with Alice block after block after that. If a third participant Charlie generates a valid ''Proof of Identity'' 768 blocks later, he will begin with the equivalent amount of ''votes'' that Alice and Bob each currently have by then as well (i.e. a total of 8 ''votes'' each). With this inflation process that rewards every new participant (diluting all pre-existing ones), everyone is guaranteed an ''equal'' share in the overall participating rights of the network. As long as ''replicants'' get successfully banned, the ''vote'' network is a genuinely democratic global commons.
+With the ''Equality'' variable, if a second participant Bob got validated 1500 blocks after a first one Alice, he won't begin with 0 ''votes'' but rather get an initial amount matching Alice's current balance at that moment (i.e. at a rate of 1 ''vote'' per 250 blocks, it is a total of 6 ''votes''). Bob will continue to get ''votes'' dripped on equal terms with Alice block after block after that. If a third participant Charlie generates a valid ''Proof of Identity'' 1000 blocks later, he will begin with the equivalent amount of ''votes'' that Alice and Bob each currently have by then as well (i.e. a total of 10 ''votes'' each). With this inflation process that rewards every new participant (diluting all pre-existing ones), everyone is guaranteed an ''equal'' share in the overall participating rights of the network. As long as ''replicants'' get successfully banned, the ''vote'' network is a genuinely democratic global commons.
 
 [[File:/images/chart-votes-coins-time.png|Vote emission and inflation rate.]]
 
@@ -776,9 +776,11 @@ Coming from a ''Universal Basic Income'' perspective, a useful reference that va
 
 [[File:/images/minimum-wage-us.png|Minimum wage in the US.]]
 
-For the ''vote'' token to effectively become a device for UBI this helps set an expectation regarding its pricing dynamic considering that 1 ''vote'' unit is equivalent to 1 hour of work. Hence this anchors the initial price of the token at:
+For the ''vote'' token to effectively become a useful network able to index UBI on a global scale, an expectation regarding its pricing dynamic must be set at 1 ''vote'' unit as equivalent to 1 hour of work. Hence this anchors the initial price of the token at:
 
   1 vote = $ 7.25
+
+As long as the network successfully bans ''replicants'' and rewards validated self-sovereign identities indexed on the Bitcoin blockchain, then any UBI initiative can trust the present data to allocate resources without the risk of abuse.
 
 ====3.4.3 Nation-States====
 
@@ -794,13 +796,31 @@ A simple comparison shows the strict limitations electoral votes have in compari
 * '''Limited Utility''': Once a citizen casts a vote during an election, it cannot be modified until 4 to 6 years later when the elected positions get renovated. Only those among the elected positions (i.e. senators and congressmen) get the right to spend more votes than the rest of the citizens.
 * '''Reduced Bandwidth''': Citizens get to choose from a handful of options only once every 2 or 4 years. If we consider each option as a bit on the system then traditional elections can be regarded as ''8 bit democracies'', such is the current bandwidth for participation under most governments.
 
-In order to maintain the reference price set at the minimum wage in the US while being able to be at least 10 times more efficient than any traditional election, ''vote'' utility must be extended by making the token divisible.
+In order to maintain the reference price set at the minimum wage in the US while being able to be at least ~10X more efficient than any traditional election, ''vote'' utility must be extended by making the token divisible.
 
-By allowing at least 2 decimal positions in the token, a ''microVote'' can be used in the same way than ''votes'' at a cost that is comparatively ~10 times more efficient than the cost for issuing a vote on a Nation-State election:
+====3.4.4 Revolutions====
 
-  0.01 votes = 2.56 blocks = $ 0.0725
+The waiting period of 250 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~42 hours. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to the minimum possible fraction of human attention.
 
-We consider that the user experience of 2 decimals is sufficient to satisfy monetary use case for the token.
+Considering that,
+
+  1 vote = 250 blocks = 2,500 minutes = 150,000 seconds
+
+Without increasing decimal complexity while adapting the dripping rate to the shortest possible span of human attention, the ''vote'' network should perform a revolution every 15 seconds:
+
+  15 seconds = 0.0001 votes
+
+Hence, in the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satsohi = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'',
+
+  1 vote = 10,000 revolutions
+
+Which can also be expressed as,
+
+  1 revolution = 0.0001 votes
+
+By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' have the same utility value as ''votes'' at a cost that is comparatively ~10000X times more efficient than Nation-State elections:
+
+  1 revolution = 0.0001 votes = $ 0.000725
 
 ====3.4.4 Funding.====
 
@@ -820,7 +840,7 @@ The tokens will gain all the described utility for ''votes'' as we deploy the fi
 </blockquote>
 '''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
 
-To those who argue about electronic voting online scoring their arguments with Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''the medium is the message'']. The need to establish trusted relations in digital environments is mandatory as human cooperation scales to the whole globe. But the generational opportunity to collaboratively build this possibility must be able to learn from the great lessons of History. The origins of computing goes back to [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM the first tabulating machine built by IBM for the 1890 US census] and the tallying of national elections after that. The very first proto-computers built by Alan Turing where made as a war effort able to beat nazi encryption ultimately demonstrating how intelligence can beat violence. The transition from analog to digital communications began with the [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ Magna Carta of the Information Age] published by Claude Shannon in 1948 laying out the foundations for digital code and vast networks for the transmission of intelligence, a vision made real by Sir Tim Berners-Lee's creation of the ''world wide web'' protocols. When Satoshi Nakamoto published the Bitcoin paper he inaugurated a the era that is giving rise to the transition from analog to digital ''institutions''. An inevitable leap from maturing our shared understanding of the properties of information security. Blockchains are giving our world a new canvas in which to lay foundations that shall govern us all to the point of being worthy of not needing governance anymore. After all [https://en.wikiquote.org/wiki/Alfred_North_Whitehead civilization advances by extending the number of important operations which we can perform without thinking about them]. Digital technology has proven to posess a greater capacity in the reach and quality of its messaging capacities and as new generations grow connected under a global commons, information architectures will regulate our political and financial relations without the physical restrictions of the past. The undeniable success of the Bitcoin experiment consistently beating even the most radical forecasts throughout a decade speaks greatly about the unleashed potential humanity has found. The status-quo will always speak from a skeptical position since halting progress can only come from a position of comfort. But just as the Internet didn't wait for the adaptation of age-old empires, blockchains won't care for political promises: a technologically advanced society can enter agreements of mutual cooperation without falling back to the means of coercion and violence. Such is the consequence of disintermediation of trust without boundaries, and this reality won't emerge on a single isolated region of the planet but rather distributed accross the whole globe. The ''next America'' is not in a far out land but the internet itself rising as the one true open, free and sovereign network of peers.
+To those who argue about electronic voting online scoring their arguments with Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''the medium is the message'']. The need to establish trusted relations in digital environments is mandatory as human cooperation scales to the whole globe. But the generational opportunity to collaboratively build this possibility must be able to learn from the great lessons of History. The origins of computing goes back to [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM the first tabulating machine built by IBM for the 1890 US census] and the tallying of national elections after that. The very first proto-computers built by Alan Turing where made as a war effort able to beat nazi encryption ultimately demonstrating how intelligence can beat violence. The transition from analog to digital communications began with the [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ Magna Carta of the Information Age] published by Claude Shannon in 1948 laying out the foundations for digital code and vast networks for the transmission of intelligence, a vision made real by Sir Tim Berners-Lee's creation of the ''world wide web'' protocols. When Satoshi Nakamoto published the Bitcoin paper he inaugurated a the era that is giving rise to the transition from analog to digital ''institutions''. An inevitable leap from maturing our shared understanding of the properties of information security. Blockchains are giving our world a new canvas in which to lay foundations that shall govern us all to the point of being worthy of not needing governance anymore. After all [https://en.wikiquote.org/wiki/Alfred_North_Whitehead civilization advances by extending the number of important operations which we can perform without thinking about them]. Digital technology has proven to posess a greater capacity in the reach and quality of its messaging capacities and as new generations grow connected under a global commons, information architectures will regulate our political and financial relations without the physical restrictions of the past. The undeniable success of the Bitcoin experiment consistently beating even the most radical forecasts throughout a decade speaks greatly about the unleashed potential humanity has found. The status-quo will always speak from a skeptical position since halting progress can only come from a position of comfort. But just as the Internet didn't wait for the adaptation of age-old empires, blockchains won't care for political promises: a technologically advanced society can enter agreements of mutual cooperation without falling back to the means of coercion and violence. Such is the remarkable consequence of disintermediation of trust without boundaries, a reality that won't emerge in a single isolated part of a country or region of the globe, but will be distributed across the entire planet. The ''next Silicon Valley'' is not in a far away land or on any land at all, but a new frontier of the internet itself rising as the one true open, free and sovereign network of peers.
 
 ----
 
