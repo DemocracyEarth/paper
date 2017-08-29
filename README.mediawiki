@@ -828,9 +828,13 @@ For the identification of the token in third party applications, we suggest the 
 
 ====3.4.5 Democratic Welfare Fund.====
 
-The Democracy Earth Foundation will issue an initial amount of 10,000,000 ''votes'' as  [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] at $7.25 per unit and offered in exchange for Bitcoin or Ether for its Initial Rights Offering. The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign GitHub repository].
+The Democracy Earth Foundation will issue a total amount of 20,000,000 ''votes'' as  [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] that shall be distributed in the following way,
 
-These tokens will constitute the [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare Fund] of the Democracy Earth Foundation that will initially serve the purpose to reward efforts that are focused on the development and impact of the ''vote'' democracy by committing its use for,
+* 10,000,000 ''votes'' will be offered open to the market at $7.25 per unit in exchange for Bitcoin or Ether.
+* 5,000,000 ''votes'' for the Democracy Earth Foundation with a 2 year lock-up aimed to incentivize growth for the ''vote'' economy.
+* 5,000,000 ''votes'' to be allocated across all team members that have actively worked on Democracy Earth Foundation since 2015.
+
+The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign GitHub repository]. The tokens offered to the open market will constitute the [http://merkle.com/papers/DAOdemocracyDraft.pdf Democratic Welfare Fund] of the Democracy Earth Foundation that will initially serve the purpose to reward efforts that are focused on the development and impact of the ''vote'' democracy by committing its use for,
 
 * '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to our debugging practices.
 * '''15% for Community''': Support, outreach, media, events and meetups.
@@ -838,7 +842,7 @@ These tokens will constitute the [http://merkle.com/papers/DAOdemocracyDraft.pdf
 
 As the ''Proof of Identity'' dynamic described on this paper becomes stable and is able to grow the network with valid participants, the corresponding % of POI mined ''votes'' will gain the right to vote on the use of the Democratic Welfare Fund. As this process unfolds, we see an incentive for every developer and contributor of the project to secure the POI mechanism while also providing an incentive for newcomers to participate in the network.
 
-We expect that the Democratic Welfare Fund becomes a public resource for global governance. The Democracy Earth Foundation will work to engage donors of all kinds, including state-actors, institutions and individuals, to allocate at least 5% of their donating capacity to be decided by a legitimate global vote. We hope to provide a path for the sustainability of organizations able to execute projects focused on climate change, refugees, technological education, corruption fighting and ''Universal Basic Income'' among other pressing issues. Our goal is to establish a new layer for governance that is able to speed up global cooperation. A commons able to guarantee equal participation rights while being resistant to any kind of corruption is the key to unleash a true democracy, anywhere in the world.
+We expect that the Democratic Welfare Fund becomes a public resource for global governance. The Democracy Earth Foundation will work to engage donors of all kinds, including state-actors, institutions and individuals, to allocate at least 5% of their donating capacity to be decided by a legitimate global vote. We hope to provide a path for the sustainability of organizations able to execute projects focused on pressing issues. Our goal is to establish a new layer for governance that is able to speed up global cooperation. A commons able to guarantee equal participation rights while being resistant to any kind of corruption is the key to unleash a true democracy, anywhere in the world.
 
 ===3.5 End Game.===
 
