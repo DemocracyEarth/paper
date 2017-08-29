@@ -17,24 +17,28 @@ Uma oferta inicial de direitos da [http://democracy.earth ''Democracy Earth Foun
 ==i. Resumo==
 Em um mundo que conquistou a globalização dos ativos financeiros, mantendo os direitos políticos encapsulados por territórios, 
 precisamos construir novos modelos de governança democrática que permitam a humanidade colaborar e 
-abordar questões globais urgentes. A ''Democracy Earth Foundation'' está criando softwares gratuítos e de código aberto 
-para votação incorruptível baseada ''blockchain'' dentro de instituições de todos os tamanhos, 
-do mais local envolvendo duas pessoas, ao mais global envolvendo todos nós.
+abordar questões globais urgentes. A ''Democracy Earth Foundation'' está criando softwares gratuitos e de código aberto 
+para votação incorruptível baseada no ''blockchain'', dentro de instituições de todos os tamanhos, 
+da mais local envolvendo duas pessoas, á mais global envolvendo todos nós.
 
 A distribuição desigual de oportunidades em todo o mundo devido ao confronto perpétuo entre os governos nacionais 
 levou à aceleração das mudanças climáticas, ao aumento da desigualdade, ao terrorismo e às migrações forçadas. 
 A ''Democracy Earth Foundation'' propõe que o conjunto de tecnologias 
-que inclui o Bitcoin como "dinheiro programável sem bancos centrais" 
+que inclui o Bitcoin como dinheiro programável sem Bancos Centrais 
 e o Ethereum como tecnologia para contratos inteligentes sem a necessidade de tribunais judiciais, 
-exige uma nova camada que proporcione votos incorruptíveis além dos limites territoriais dos Estados-Nação. (...)
+exige uma nova camada que proporcione votos incorruptíveis além dos limites territoriais dos Estados-Nação. Esta rede transnacional atuará de acordo com a soberania pessoal de seus membros e protegerá seus direitos humanos com criptografia. Em nossa Oferta Inicial de Direitos, oferecemos um token chamado vote que concederá direitos de participação a cada ser humano com a tomada de decisão como sua principal função. Buscamos nada menos que uma verdadeira governança democrática para a era da Internet, um dos elementos fundamentais de uma paz e prosperidade globais alcançáveis decorrentes de um arco de inovações tecnológicas que mudará o que significa ser humano na Terra.
 
-==ii. Contents==
+==ii. Conteúdo.==
 
-...
+Este texto está estruturado em 3 partes destinadas a satisfazer diferentes tipos de leitores (que podem viver em uma mesma persona).
 
-<div id="Background"></div>
+* [[#Manifesto|Manifesto]]: Para idealistas. Diagnostica o contexto político global e defende uma mudança de paradigma.
 
-==iii. Background.==
+* [[#Paper|Paper]]: Para construtores. Descreve os blocos de construção para um sistema que pode ser implementado por qualquer pessoa, em qualquer lugar.
 
-...
+* [[#Execução|Execução]]: Para pragmáticos. Especifica como executar essas idéias para obter impacto.
+
+Não pretendemos que este texto permaneça fixo. Ele está publicado sob uma licença de código aberto e encorajamos contribuições de qualquer pessoa, pois buscamos que este documento seja um roteiro vivo para a governança planetária. A democracia como a capacidade de confiarmos uns aos outros na maior extensão possível é uma força determinante na flecha da história. Nosso objetivo é ajudar a ecoar uma missão abrangendo toda a humanidade, pois vemos a necessidade de tornar nosso lar um lugar para convivência pacífica. A Democracy Earth Foundation realizou extensas pesquisas sobre sistemas de votação, ciberpolítica e redes de blockchain para desencadear uma conversa pública sobre a internet como uma jurisdição planetária.
+
+Além disso, deve-se notar que mais de 30.000 linhas de código escritas desde outubro de 2015 conduziram nossa pesquisa levando às idéias apresentadas aqui. Tomando o exemplo de Satoshi Nakamoto, nós escrevemos o código primeiro para entender corretamente o que pode ser feito antes de dar o passo para compartilhar nossas idéias por escrito. Esta é a nossa proposta.
 
