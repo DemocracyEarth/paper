@@ -67,19 +67,17 @@ As of this moment we have not encountered an alternative to the Proof of Identit
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire - USA has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas), San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
-**15. What does post nation state mean?**
+**15. What does planetary jurisdiction mean?**
 
+The blockchain knows no borders, it is a transnational technology. Allowing individuals from all nations to cooperate and make decisions together will create a new jurisdiction that encompasses the entire planet. Territorial divisions and the perpetual conflict between Nation-states have led to accelerated climate change, rising inequality, terrorism and forced migrations. Those are global issues that can only be addressed through the cooperation between different parts of the globe, regarding the planet as one jurisdiction towards which all members are equally responsible and entitled to.    
 
+**16. What is the difference between centralized, decentralized and distributed?**
 
-**16. What is the difference between decentralization and distributed?**
-
-
+There is a lot of debate about it. For the purposes of our work we aim towards both architectural and political decentralization (or distribution, depending on who you ask). The first concerns the number of computers running the system, and the second concerns how many individuals or organizations controls those computers. Our solution is designed for blockchain networks, which are by nature not controllable by any single organization and have no single point of faillure. 
 
 **17. What is blockchain technology?** 
 
-
-
-
+Blockchain technology refers to a database that is held and maintained by a distributed network, therefore being reliable. This database can be programmed to record any type of valuable information within its blocks, and each block is chained to the previous one through [cryptographic hashing](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function). The implied security of blockchains dramatically increases trust, allowing peers within the network to operate and transact with each other without the need for intermediators.
 
 
 
