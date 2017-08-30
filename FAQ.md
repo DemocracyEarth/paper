@@ -59,7 +59,7 @@ Self-sovereign is anything that is fully under control of itself. Central author
 
 Yes. Sovereign is intended for planetary governance as much as it is suitable to be used by an organization consisted of two members.
 
-**13 - Does Sovereign excludes people who have no access to video (for the Proof of Identity protocol)?**
+**13 - Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**
 
 As of this moment we have not encountered an alternative to the Proof of Identity protocol that does not involve central authorities, but we and the digital hive mind will continue exploring options in order to make Sovereign available to all human kind.
 
