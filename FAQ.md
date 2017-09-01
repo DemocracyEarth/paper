@@ -80,8 +80,11 @@ There is a lot of debate about it. For the purposes of our work we aim towards b
 Blockchain technology refers to a database that is held and maintained by a distributed network, therefore being reliable. This database can be programmed to record any type of valuable information within its blocks, and each block is chained to the previous one through [cryptographic hashing](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function). The implied security of blockchains dramatically increases trust, allowing peers within the network to operate and transact with each other without the need for intermediators.
 
 **18. What does post nation state mean?**
+
 **19. What is a digital ID?** 
+
 **20. What does a "public key" refer to?**
+
 **21. What does a "private key" refer to?**
 
 
