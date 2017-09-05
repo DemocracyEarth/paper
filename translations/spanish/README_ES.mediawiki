@@ -62,9 +62,24 @@ El ''Initial Rights Offering'' de [http://democracy.earth Democracy Earth Founda
 
 <div id="Paper"></div>
 
-==2. Paper.==
+==2. Documento.==
 
-[agregar traduccion aqui]
+<blockquote>
+  Es la tecnología que no controlamos la que se utiliza para controlarnos.
+</blockquote>
+[https://twitter.com/earlkman '''Emiliano Kargieman'''],  hacker espacial (1975).
+
+Un principio fundamental de la democracia es el derecho a ser escuchado. Hoy en día la mayoría de la población mundial no es escuchada: tener voz es un accidente de nacimiento. Las voces individuales y colectivas son silenciadas política y económicamente por la ‘no liquidez’ - los marginados no tienen instrumentos para difundir o ampliar su voz. La democracia moderna es consecuencia de la ''era de la imprenta'': sistemas constitucionales impresos dependientes de los contratos de tinta húmeda y la velocidad del servicio postal. Las democracias representativas son un accidente de las tecnologías de información del siglo XVIII.
+
+[[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
+
+Una democracia líquida se basa en un modelo dinámico de representación que funciona de abajo hacia arriba: los ciudadanos son capaces de elegir libremente dentro de su gráfico social (amigos, colegas, familia) a quienes quieren tener como representantes sobre un conjunto específico de temas. Es la forma más flexible de gobernabilidad democrática que se puede construir con tecnología digital, operando como un híbrido que permite la votación directa o delegada en cualquier momento. Existen pocos precedentes confiables que funcionan de abajo hacia arriba que resultaron en un contenido respetado, [https://www.wikipedia.org/ Wikipedia] siendo un caso pionero. Pero si la historia es una guía, la última vez que la civilización se enfrentó [https://en.wikipedia.org/wiki/Age_of_Enlightenment a un cambio de paradigma con respecto a la iluminación enciclopédica], fue precisamente en la época anterior al surgimiento de las democracias modernas.
+
+Este documento detalla la implementación de una democracia líquida usando [http://github.com/DemocracyEarth/sovereign Sovereign], nuestra aplicación de gobernabilidad democrática que opera con tokens de blockchain usando un conjunto básico de contratos inteligentes. La sencillez en el diseño y el lenguaje utilizado para expresar este diseño tiene importancia para el propósito final de un dispositivo genuinamente democrático. Ninguna tecnología será capaz de satisfacer las aspiraciones democráticas si sólo puede ser entendida por una élite. Como el criptógrafo [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] declaró:
+
+<blockquote>
+  No invitamos a ciudadanos ordinarios y sin entrenamiento a realizar cirugías, volar aviones, diseñar computadoras o llevar a cabo las otras innumerables tareas necesarias para mantener la sociedad en funcionamiento, ¿qué hace diferente la gobernanza? El problema se entiende fácilmente: si damos gobernanza a "expertos", ellos tomarán decisiones en sus propios intereses, no en el mejor interés de todos nosotros.
+</blockquote>
 
 ===2.1 Token.===
 
