@@ -839,24 +839,6 @@ By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a
 
 For the identification of the token in third party applications, we suggest the ''VOTE'' and ''VOT'' tickers.
 
-====3.4.5 Democracy Support Fund.====
-
-The Democracy Earth Foundation will issue a total amount of 20,000,000 ''votes'' as  [https://theethereum.wiki/w/index.php/ERC20_Token_Standard ERC20 compatible tokens] that shall be distributed in the following way,
-
-* '''50%''' will be offered open to the market at $7.25 per unit in exchange for Bitcoin or Ether.
-* '''25%''' for the Democracy Earth Foundation with a 2 year lock-up aimed to incentivize growth for the ''vote'' economy.
-* '''25%''' to be allocated across all team members and partners that have actively worked with Democracy Earth Foundation since 2015.
-
-The tokens will gain all the described utility for ''votes'' as we deploy the first release of an Ethereum compatible version of Sovereign. The development roadmap and code contributions to Sovereign can be followed in real time on its [https://github.com/DemocracyEarth/sovereign GitHub repository]. The tokens offered to the open market will constitute the [http://merkle.com/papers/DAOdemocracyDraft.pdf Democracy Support Fund] of the Democracy Earth Foundation that will initially serve the purpose to reward efforts that are focused on the development and impact of the ''vote'' democracy by committing its use for,
-
-* '''70% for Development''': For all contributors of Democracy Earth's open source git repositories and infrastructure costs. We will use Sovereign for the governance of all projects deciding with ''votes'' how to reward each contribution. This process aligns every possible incentive within the organization as it is not only ''putting our money where our mouth is'' but also key to our debugging practices.
-* '''15% for Community''': Support, outreach, media, events and meetups — costs externally supporting Democracy Earth and token.
-* '''15% for Operations''': Staff, legal, accounting, travel, workplace - costs internally supporting Democracy Earth and token.
-
-As the ''Proof of Identity'' dynamic described on this paper becomes stable and is able to grow the network with valid participants, the corresponding % of POI mined ''votes'' will gain the right to vote on the use of the Democracy Support Fund. As this process unfolds, we see an incentive for every developer and contributor of the project to secure the POI mechanism while also providing an incentive for newcomers to participate in the network.
-
-We expect that the Democracy Support Fund becomes a public resource managed via global governance. The Democracy Earth Foundation will work to engage donors of all kinds, including state-actors, institutions and individuals, to allocate at least 5% of their donating capacity to be managed by a legitimate global vote. We hope to provide a path for the sustainability of organizations able to execute projects focused on pressing issues. Our goal is to establish a new layer for governance that is able to speed up global cooperation. A commons able to guarantee equal participation rights while being resistant to any kind of corruption is the key to unleash a true democracy, anywhere in the world.
-
 ===3.5 End Game.===
 
 <blockquote>
