@@ -311,7 +311,7 @@ But unlike web based applications, Sovereign does not allow testimonial interact
 
 This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''vote'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
 
-=== 2.3.4 Liquid Democracy: A Use Case ===
+=== 2.4 Pilot ===
 
 <blockquote>
   Blockchain could disrupt voting, just as it has currency, and could apply to any democratic government.
@@ -324,7 +324,7 @@ In October 2016, following a shocking, almost universally unexpected No to peace
 
 The pilot study had the [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf additional impact] of increasing the media and political profile of blockchain-enabled, decentralized liquid democracy in Colombia; a blockchain-savvy political party has sprung up, the Partido de la Red Colombia party (“The Net Party”), while the Colombian government’s Centre for Digital Public Innovation (CDPI) investigating the technology as well.
 
-===2.4 Smart Contracts.===
+===2.5 Smart Contracts.===
 
 When Claude Shannon wrote his [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf foundational 1948 paper on Information Theory], he was able to demonstrate how circuits can perform logic functions by expressing a binary state of 1 and 0 (<code>true</code> or <code>false</code> states). Since then, digital technology shaped the dynamics of all kinds of information systems. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''votes'' signal a boolean value for institutional decisions to be recorded under smart contracts.
 
@@ -332,7 +332,7 @@ When Claude Shannon wrote his [http://math.harvard.edu/~ctm/home/text/others/sha
 
 [[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
-====2.4.1 <code>Organizations</code>====
+====2.5.1 <code>Organizations</code>====
 
 The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''vote'' tokens. Since <code>Organizations</code> can live in a decentralized network, the requirements to make an entity able to operate with ''votes'' are similar to those found while setting up a website:
 
@@ -340,7 +340,7 @@ The entity or institution implementing a Sovereign instance is referred as an <c
 
 * <code>Constitution</code>: Every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract. The ''constitutional smart contract'' describes how <code>Members</code>, <code>Issues</code> and ''votes'' connect within the system.
 
-=====2.4.1.1 <code>Constitution</code>=====
+=====2.5.1.1 <code>Constitution</code>=====
 
 The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''votes'').
 
@@ -376,7 +376,7 @@ The basic settings to be found on a constitution are:
 
 Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
 
-====2.4.2 <code>Members</code>====
+====2.5.2 <code>Members</code>====
 
 Every Organization has members that get the right to vote on the decisions of the organization. Membership criteria is defined in the ''constitutional smart contract'' and is key for the trust on any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''votes'' to be used for its governance.
 
@@ -384,7 +384,7 @@ All <code>Organizations</code> who take the responsibility to approve or disappr
 
 Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
 
-====2.4.3 <code>Issues</code>====
+====2.5.3 <code>Issues</code>====
 
 An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define member's voting and posting rights. An issue in its most basic form has these properties:
 
@@ -397,11 +397,11 @@ An organization consists of a collection of ''issues'' each describing a decisio
 ** <code>Tactical</code> (limited in time): These are contracts that receive ''votes'' until a closing date is met, where a given block height within the blockchain implementing the ''vote'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
 ** <code>Strategical</code> (unlimited in time): Never-ending open polls that are perpetually registering the consensus of a decision state. ''votes'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members voting for approval of other members within the community of an organization.
 
-====2.4.4 <code>Ballot</code>====
+====2.5.4 <code>Ballot</code>====
 
 An issue can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
 
-=====2.4.4.1 <code>Interface</code>=====
+=====2.5.4.1 <code>Interface</code>=====
 
 By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
 
@@ -413,7 +413,7 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 ** '''Non-dictatoship''': no single voter possesses the power to always determine social preference.
 ** '''Pareto Efficiency''': if every voter prefers an option to another, then so must the resulting societal preference order.
 
-=====2.4.4.2 <code>Options</code>=====
+=====2.5.4.2 <code>Options</code>=====
 
 In order to enable the information processing of ''votes'', ballots carry boolean values expressed in their options. This lets ''vote'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
 
@@ -422,7 +422,7 @@ In order to enable the information processing of ''votes'', ballots carry boolea
 * <code>Linked</code>: The option is connected to another decision within the organization.
 * <code>Candidate</code>: A member or list of <code>Members</code> from the organization. This helps elect authorities within the organization or it can be used for membership approvals.
 
-=====2.4.4.3 <code>Criteria</code>=====
+=====2.5.4.3 <code>Criteria</code>=====
 
 Finally, counting methods for the final or ongoing result of a decision within an organization.
 
@@ -432,7 +432,7 @@ Finally, counting methods for the final or ongoing result of a decision within a
 * [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 * [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Counts votes weighting voter reputation in a graph.
 
-====2.4.5 <code>Budget</code>====
+====2.5.5 <code>Budget</code>====
 
 Every <code>Organization</code> can have 1 or more cryptocurrency addresses to fund its efforts. Sovereign permits to fund an <code>Organization</code> with Bitcoin and in its <code>Constitution</code> define a criteria on how these assets get distributed among <code>Members</code>:
 
@@ -440,7 +440,7 @@ Every <code>Organization</code> can have 1 or more cryptocurrency addresses to f
 
 * '''Percentage for <code>Issues</code>''': <code>Members</code> seeking to use resources from the <code>Organization</code> can request them by attaching a <code>Budget</code> to an <code>Issue</code>. A <code>Member</code> can request to used funds from a pool specifically reserved for this. If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending the requested assets to a specific address.
 
-===2.5 Security.===
+===2.6 Security.===
 
 With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptography. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
 
@@ -457,7 +457,7 @@ Each outcome impacts one of the two axes measuring the quality of democratic gov
 
 To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against different kinds of attackers: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
 
-====2.5.1 Polyopoly.====
+====2.6.1 Polyopoly.====
 <blockquote>
   a.k.a. ''Mobs''
 </blockquote>
@@ -474,7 +474,7 @@ The small percentage in delegations means that Google Votes operated more as a d
 
 To increase delegation frequency, these happen every time self-sovereigns get validated. On the ''Proof of Identity'' process (see Section 3), users are able to natively generate their own ''votes'' as long as their individuality gets endorsed by other identities. Also since the ''vote'' token operates in a blockchain, delegations don't need to necessarily happen within the Sovereign application: messaging applications, tweets and e-mails can be sent with vote addresses or QR codes attached to them making the vote token able to be broadcasted across multiple networks.
 
-====2.5.2 Monopoly.====
+====2.6.2 Monopoly.====
 <blockquote>
   a.k.a. ''Corporations''
 </blockquote>
@@ -483,25 +483,25 @@ When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFe
 
 The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. In liquid democracies ''celebrities'' can become extremely influential being able to attract most of the delegated votes. An attacker willing to subvert an election can promote a TV star wearing a QR code to get a sudden influx of delegations from fans and viewers, instantly becoming a monopolizing force. Monopolies are a threat to liquid democracies since they can disincentivize less fortunate voters to participate, hijacking the legitimacy of the decisions being made.
 
-=====2.5.2.1. Quadratic Voting.=====
+=====2.6.2.1. Quadratic Voting.=====
 
 A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''votes'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
-====2.5.3 Sybil Attack.====
+====2.6.3 Sybil Attack.====
 <blockquote>
   a.k.a. ''Identity Theft''
 </blockquote>
 
 Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider indispensable that for ''votes'' to be granted they must get validated through a protocol (social and algorithmic) that works as ''Proof of Identity''.
 
-====2.5.4 Fake news.====
+====2.6.4 Fake news.====
 <blockquote>
   a.k.a. ''Gossip''
 </blockquote>
 
 It is no coincidence that the battlefield of modern democracies is disputed in the media. News organizations have unprecedented capacity to shape voter perception. Across different jurisdictions worldwide, governments wage an internal war between the State and the largest local media conglomerate. This is the playbook behind Donald Trump and his fight against the CNN & New York Times tandem; or the reason Vladimir Putin invested significant resources to create Russia Today in order to have a way of presenting alternative facts. Controlling the message tends to matter more than truth itself. Free media and independent journalism are a fundamental requirement for stable democracies. But if evidence of institutional facts are hard to prove, the room for manipulation is greater than the room for truth to prevail. Traditional institutions are secretive and lack transparency even if they are public offices. Blockchains enable a way of storing institutional facts that guarantees transparency in organizations. In this sense, ''fake news'' can be fought with a new institutional model able to store ''Hard Promises''.
 
-=====2.5.4.1 Hard Promises=====
+=====2.6.4.1 Hard Promises=====
 
 Corporations and public institutions are prone to corruption because decisions often happen in secrecy behind closed doors while accounting happens over time. Effectively, organizations are ''decision laundering'' by disconnecting accountability from the decisions. The lack of an incorruptible timeline storing financial and political decisions enables such inaccountability. The [https://en.wikipedia.org/wiki/Leviathan_(book) ''Leviathan'' State] is an inefficient machine: although it proclaims itself as the sovereign ruler for any given population by means of force, whoever is in charge of running its bureaucracy can still be corrupted making the whole house of cards fall apart. This distance between fact and accounting is the source of gossip.
 
@@ -509,7 +509,7 @@ The building blocks of institutions consist on facts that define agreements. But
 
 The bureaucracies that protect these agreements depend on promises, i.e. “all money kept in banks will be there tomorrow”. But as [https://twitter.com/aantonop/ Andreas Antonopoulos] states: “We’re used to systems of soft promises and reversible transactions.” If the government (or any other kind of central authority) wanted to confiscate private funds stored in a bank, nobody can stop them from breaking that promise. This has been the experience of Greek, Argentine, Venezuelan or Puerto Rican citizens with their own defaulting governments in the past decade. Blockchain based organizations on the other hand offer an alternative of ''hard promises'': agreements stored in smart contracts strictly protected by cryptography that no single third party can corrupt. Rather than regulating human behaviour post-facto as government law does, blockchains guarantee transparency by default incentivizing honest behaviour since every participant is aware that institutional events will be available for open scrutiny.
 
-====2.5.5 Squatting.====
+====2.6.5 Squatting.====
 <blockquote>
   a.k.a. ''Big brother''
 </blockquote>
