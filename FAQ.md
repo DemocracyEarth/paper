@@ -1,5 +1,5 @@
 
-# Frequently Asked Questions and Glossary of Terms
+# Frequently Asked Questions
 
 
 
