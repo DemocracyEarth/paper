@@ -85,11 +85,11 @@ Our deeply interconnected world requires a suitable governance system that is po
 
 **19. What is a decentralized ID (DID)?** 
 
-A decentralized ID is one that has not been authenticated by a central authority. Blockchain provides the decentralized aspect of it, enabling principals to control their own data and secure it cryptographically.
+A decentralized ID is one that has not been authenticated by a central authority. It needs to enable principals to control their own data and secure it cryptographically.
 
-**20. What does a "public and private key" refer to?**
+**20. What does "public and private key" refers to?**
 
-Putting it simply, public and private keys refer to a cryptography method: instead of having only one key to encrypt or decrypt a message, you create a pair, and keep one of the two private and one public. This way, every message that has been encrypted with you public key can only be decrypted with your private key ( so you can receive messages securely ), and every message that has been encrypted with you private key can only be decrypted with your public key ( so other can be sure that the message came from you ). A pair of keys can be used to store all kinds of valuable information.
+Putting it simply, public and private keys refer to a cryptography method: instead of having only one key to encrypt or decrypt a message, you create a pair, and keep one of the two private and the other public. This way, every message that has been encrypted with your public key can only be decrypted with your private key ( so you can receive messages securely ), and every message that has been encrypted with your private key can only be decrypted with your public key ( so others can be sure that the message came from you ). A pair of keys can be used to store all kinds of valuable information.
 
 **21. Are the smart contracts going to connect to Sovereign ?**
 
