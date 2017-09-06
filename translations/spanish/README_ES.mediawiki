@@ -20,13 +20,34 @@ En un mundo que ha sido exitosamente globalizado en los mercados financieros mie
 
 ==ii. Contenido.==
 
-[agregar traduccion aqui]
+Este texto está estructurado en tres partes, cada una apuntando a un grupo de lector (y una sola persona si es el grupo coincide con él mismo)
+
+* [[#Manifesto|Manifiesto]]: Para idealistas. Diagnostica el contexto político global y argumenta las necesidaddes de los cambios de paradigmas.
+
+* [[#Paper|Paper]]: Para desarrolladores. Describe la construcción de bloques para un sistema que puede implementado por quien sea, donde sea.
+
+* [[#Execution|Ejecución]]: Para pragmaticos. Especifica como ejecutar estas ideas para impacto.
+
+No pretendemos que este texto permanezca cerrado. Está publicado con licencia de código abierto (open source) y todos son bienvenidos para contribuir, ya que nuestra meta es que este documento sea una hoja de ruta para un gobiernos globales. La democracia como habilidad para confiar el uno al otro hasta los extremos es una fuerza definitiva que moldea la trayectoria de la historia. Nuestra misión es hacer eco urgente, globalizando a toda la humanidad: la necesidad de hacer de nuestro hogar un lugar para la coexistencia pacifica. 
+La [http://democracy.earth Fundación Democracy Earth] ha realizado [[#Background|extensas investigaciones]] sobre sistemas de votos, ciber-política y cadena de bloques. Queremos proponer una conversación pública sobre el internet como una única jurisdicción global.
+
+Siguiendo [https://twitter.com/lsukernik/status/892101885771034628 el ejemplo de Satoshi Nakamoto], previo a nuestras ideas hemos escrito primero el código para entender adecuadamente que hemos hecho. Para este fin, más de [https://github.com/DemocracyEarth/sovereign 30,000 lineas de código fueron escritas desde Octubre del 2015], el cual nos ha llevado a llevado esta investigación y las ideas presentadas. Esta es nuestra propuesta.
 
 <div id="Background"></div>
 
 ==iii. Experiencia previa.==
 
-[agregar traduccion aqui]
+Somos pioneros en la democracia digital habiendo desaroolado algunos de los más prominentes softwares de código abierto [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories evaluado por la comunidad de Github] incluyendo el diseño de [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS], un proyecto simple y democrático que creamos en el 2012. Fundamos el primer partido digital de las Américas, el [http://partidodelared.org Partido de la Red] (Peers Party) que participó en su primera elección [http://www.wired.co.uk/article/e-voting en Buenos Aires en el año 2013]. En el año 2014 compartimos nuestra experiencia en [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED], llegando a 1.2 millones de visualizaciones. Durante 2016 y 2016, [http://ycombinator.com Y Combinator] y [http://ffwd.org Fast Foward] -ambos de Silicon Valley-, financiaron nuestros esfuerzos de iniciar [http://democracy.earth la Fundación Democracy Earth], una organización no gubernamental con la misión de gobernanza sin fronteras.
+
+Nuestra experiencia junto con los desafios tecnologicos, políticos de la democracia nos llevó a pensar y diseñar la noción de que podemos construir un partido político mediante contratos inteligentes, o mejor dicho una forma de gobierno ligera que pueda ser implementada un bajo costo. Empezamos con [http://sovereign.software Sovereign], una '''''cadena de bloques líquida''''' que permite el voto directo en tópicos o la habilidad de los delegados para votar sobre tópicos especificos sobre una red inteligente sin autoridad central. Operando estos bloques señalizados en la cadena de bloques todos los votos se vuelven resistentes a la censura y los derechos de auditoría pueden ser entregados a cada elector sin la necesidad de proveer acceso a los servidores o la infraestructura, además de hacer el sistema limpio y transparente para todos.
+
+Nuestro trabajo está hecho en las practicas de código abierto y coopera con proyectos claves apuntando a la seguridad de la identidad, incluyendo esfuerzos de [https://blockstack.org/blockstack_usenix16.pdf Blockstack], [http://civic.com Civic] y [https://whitepaper.uport.me/uPort_whitepaper_DRAFT20170221.pdf Consensys] entre otros.
+
+[[File:/images/sovereign.png|El software Sovereign.]]
+
+[https://github.com/DemocracyEarth/sovereign El Código base de Sovereign] entrega una aplicación adaptada al móvil y al escritorio para los electores y organizaciones estandarizando la toma de decisiones democráticas con cadenas de bloques incorruptibles.
+
+Nuestra meta es continuar la ruta de implementación que permita [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf el voto auditable] e integrarle con nuestro software de cadena de bloques permitiendo garantizar la soberanía de los derechos de los usuarios.
 
 ----
 
