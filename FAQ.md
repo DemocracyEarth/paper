@@ -1,5 +1,5 @@
 
-# Frequently Asked Questions
+# Frequently Asked Questions and Glossary of Terms
 
 
 
@@ -15,7 +15,7 @@ For the purposes of our Initial Rights Offering all collaborations are encourage
 
 **3 - How is an Intial Rights Offering different from an Initial Coin Offering?**
 
-Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In adittion to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
+Our token _vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In adittion to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  liquid democracy transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
 **4 - What is "liquid democracy"?**
 
@@ -33,7 +33,7 @@ Low voter turnout is closely linked to the decrease in trust on our current demo
 
 **6 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enable incorruptible decision-making?**
 
-The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered it can never be altered, making virtual blockchain-based votes immensely superior to analogue votes in terms of fraud prevention. Additionally, this technology enables all members of the organization to audit the _votes_.
+The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered on a blockchain it can never be altered, Additionally, this technology enables all members of the organization to audit the _votes_. Those two factors make mobile blockchain-based votes immensely superior to analogue votes in terms of fraud prevention and incorruptibility. 
 
 **7 - What is a _vote_ token?**
 
@@ -79,20 +79,39 @@ There is a lot of debate about it. For the purposes of our work we aim towards b
 
 Blockchain technology refers to a database that is held and maintained by a distributed network, therefore being reliable. This database can be programmed to record any type of valuable information within its blocks, and each block is chained to the previous one through [cryptographic hashing](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function). The implied security of blockchains dramatically increases trust, allowing peers within the network to operate and transact with each other without the need for intermediators.
 
-**18. What does post nation state mean?**
+**18. What does post Nation-state mean?**
 
-**19. What is a digital ID?** 
+Our deeply interconnected world requires a suitable governance system that is post Nation-state, meaning beyond the national level - encompassing the entire planet as one jurisdiction. Blockchain enables that because it works as a superstructure that transcends the control of the infrastructure that has built it (the old bureaucracy of states, corporations and banks). 
 
-**20. What does a "public key" refer to?**
+**19. What is a decentralized ID (DID)?** 
 
-**21. What does a "private key" refer to?**
+A decentralized ID is one that has not been authenticated by a central authority. Blockchain provides the decentralized aspect of it, enabling principals to control their own data and secure it cryptographically.
+
+**20. What does a "public and private key" refer to?**
+
+Putting it simply, public and private keys refer to a cryptography method: instead of having only one key to encrypt or decrypt a message, you create a pair, and keep one of the two private and one public. This way, every message that has been encrypted with you public key can only be decrypted with your private key ( so you can receive messages securely ), and every message that has been encrypted with you private key can only be decrypted with your public key ( so other can be sure that the message came from you ). A pair of keys can be used to store all kinds of valuable information.
+
+**21. Are the smart contracts going to connect to Sovereign ?**
+
+Yes.
 
 
+**22. Are you creating a new blockchain?**
 
+No. _Vote_ will be an ERC20 compliant token, and all of its transactions will be kept on the ETH ledger.
 
+**23. How is the _vote_ tokensale related to the smart contracts that DEF's development team is writing?**
 
+The smart contracts that our development team is working on are for the actual voting. For the IRO itself the smart contracts will be handled by OpenZepellin.
 
+**24. Whenever there is a new organization, member or topic, will that imply in new smart contracts?**
 
+Yes, similar to object-oriented programming, every contract is an ‘object ’ that can do things (functions) and know things (data variables).
 
+**25. Is sovereign meant to be a SAAS software or "run your instance"?**
 
- 
+It will be open for anyone to run their instance.
+
+**26. What happens with the Votes purchased during the IRO? Will people with more financial power become more powerful?**
+
+Our standard is _one person, one vote_, meaning that in each decision, not matter how many votes a person has, he or she will only be able to cast one _vote_. In addition to that, every human being will be entitled to a Universal Basic Income of _votes_ through the Proof of Identity protocol, ensuring their rights to participation. 
