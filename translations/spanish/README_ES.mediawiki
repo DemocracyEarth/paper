@@ -240,7 +240,15 @@ Este documento detalla la implementación de una democracia líquida usando [htt
 
 ===3.2 Proof of Identity.===
 
-[agregar traduccion aqui]
+Una identidad auto-soberana tiene que haber sido generada voluntariamente por el usuario que la reclama. Para este propósito el usuario tiene que haber difundido una prueba de su identidad que satisfaga estrictamente un criterio que pueda ser satisfecho por el juicio humano y capaz de evitar que una inteligencia artificial interfiera con el proceso. Por , la prueba debe ser en un formato que requiere una gran cantidad de ancho de banda cerebral: video. Una prueba satisfactoria deberá reunir todas estas propiedades,
+
+* '''Incorruptible''': El archivo de video debe estar protegido contra cualquier modificación una vez ha sido usado como fuente de prueba.
+* '''Singular''': La prueba debe validar una única identidad sin permitir participantes duplicados en la red (''replicantes'')
+* '''Acreditado''': Cualquier <code>Organización</code> que valida una PDE adjunta su reputación a la identidad probada con su firma.
+
+Aunque cualquier sistema de gobierno digital se puede beneficiar de la confianza ya presenta en redes existentes que validan identidades (p.e. Naciones-Estados), un protocolo descentralizado para validar identidades sirve el objetivo político de la soberanía personal. Los beneficios de este registro público en un común conectado (?) puede a la larga se usado por gobiernos u organizaciones privadas en diferentes maneras (p.e. verificar la edad o la nacionalidad). Proponemos un nuevo método para validar identidades sin la necesidad de ningún ''Gran Hermano''.
+
+Una ''Prueba de Identidad'' caduca después de un período de tiempo determinado para evitar ataques Sybil y asegurar que sólo usuarios vivos participan en la red. Para mantener la validez del par de claves público-privada sugerimos que un período de 1 año es suficiente para generar una nueva prueba que actualice la anterior. De la misma forma que identidades físicas son comprobadas comparando fotografías con personas, los usuarios necesitarán recrear su ''Prueba de Identidad'' y emitirla para ser verificada para autenticar su legitimidad. Este período de un año es conocido coloquialmente como el ''blockbirth'' de un individo y, si se desea, se celebra cada año de la misma manera que las naciones celebran su día de la independencia (o nacional?). De la misma manera que añaden a los recién nacidos a un registro bajo esta jurisdicción global, los ''blockbirths'' se sincronizan con las fechas de nacimiento y podrán atestar de manera incorruptible la edad al mismo tiempo que gradualmente se reduce el trabajo de los autenticadores a lo largo del tiempo.
 
 ====3.2.1 Demo.====
 
