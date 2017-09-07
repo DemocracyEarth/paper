@@ -19,20 +19,19 @@ Dans un monde qui a réussi à mondialiser les actifs financiers mais où les dr
 
 ==ii. Contenus.==
 
-This text is structured in three parts, each aiming to satisfy a different readership target (and all of whom may reside within the same persona.)
+Ce texte est structuré en trois parties, chacune visant à satisfaire une cible de lectorat différente (ces trois personas pouvant se retrouver dans la même personne).
 
-* [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
+* [[#Manifeste|Manifesto]] : Pour les idéalistes. Diagnostique le contexte politique mondial et plaide pour un changement de paradigme.
 
-* [[#Paper|Paper]]: For builders. Describes the building blocks for a system that can be implemented by anyone, anywhere.
+* [[#Article|Paper]] : Pour les bâtisseurs. Décrit les fondations d'un système qui peut être mis en œuvre par n'importe qui, n'importe où.
 
-* [[#Execution|Execution]]: For pragmatists. Specifies how to execute these ideas for impact.
+* [[#Exécution|Execution]]: Pour les pragmatistes. Explique comment exécuter ces idées pour avoir un impact.
 
-We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone, as our goal is for this document to be a living roadmap for planetary governance. Democracy as the ability to trust each other to the greatest possible extent is a defining force shaping the trajectory of history. Our mission echoes urgently across the globe,  encompassing all of humanity: the need to make of our home a place of peaceful coexistence. The [http://democracy.earth Democracy Earth Foundation] has performed [[#Background|extensive research]] on voting systems, cyberpolitics and blockchain networks; we stand at the forefront of a public conversation regarding the internet as a planetary jurisdiction.
+Nous ne voulons pas que ce texte reste figé. Publié sous une licence open source, nous accueillons toutes contributions, notre objectif est que ce document constitue une feuille de route pour la gouvernance mondiale. La démocratie comme cadre de confiance pour le grand nombre est une force déterminante qui définit la trajectoire de l'histoire. Notre message résonne de par le monde, englobant toute l'humanité face à la nécessité de faire de la planète terre un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a exploré [[#Background |différents axes de recherche]] sur les systèmes de vote, la cyberpolitique et les réseaux blockchain; nous positionnant ainsi à l'avant-garde de la conversation mondiale consistant à considérer Internet comme nouvelle juridiction planétaire.
 
-Following [https://twitter.com/lsukernik/status/892101885771034628 the example of Satoshi Nakamoto], prior to sharing our ideas in written form we have undertaken to write code first, in order to properly understand what can be done. To this end, more than [https://github.com/DemocracyEarth/sovereign 30,000 lines of code have been written since October 2015], which in turn has driven our research and the ideas presented herein. This is our proposal.
+En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons produit du code informatique afin de prendre la mesure du possible avant d'exposer nos idées dans cet article. À cette fin, les quelques [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015] ont guidées nos recherches et façonner les idées présentées ici.
 
 <div id="Background"></div>
-
 ==iii. Background.==
 
 We pioneered digital democracy having authored some of the most prominent open source democracy software [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories as ranked by the GitHub community] including the original design of [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS], a simple direct democracy project we created in 2012. We founded the first digital political party in the Americas, the [http://partidodelared.org Partido de la Red] (Peers Party) that ran for its first election in the city of  [http://www.wired.co.uk/article/e-voting Buenos Aires in 2013]. In 2014 we shared our experience in [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED] reaching over 1.2 million viewers. During 2015 and 2016, Silicon Valley's [http://ycombinator.com Y Combinator] and [http://ffwd.org Fast Forward] funded our efforts to start the [http://democracy.earth Democracy Earth Foundation], a non-profit organization committed to the mission of borderless governance.
