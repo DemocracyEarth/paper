@@ -155,20 +155,20 @@ With this diagnosis, on [[#Paper|Section 2]] we map the basic building blocks fo
 
 <div id="Paper"></div>
 
-==2. Paper.==
+==2. Article.==
 
 <blockquote>
-  It is the technology that we do not control the one that is used to control us.
+  C'est la techonologie que nous ne contrôlons pas qui est utilisée pour nous contrôler.
 </blockquote>
 [https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
 
-A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard: having a voice is an accident of birth. Individual and collective voices are politically and economically silenced by ‘illiquidity’ - the marginalized are given no instruments to broadcast or amplify their voice. Modern democracy is the birthchild of the ''Printing Press Era'': printed constitutional systems dependent on wet ink contracts and the speed of the postal service. Representative democracies are an accident of the information technologies of the 18th century.
+Le droit d'avoir une voix est l'un des principes fondateurs de la démocratie. Aujourd'hui, la plupart de la population mondiale n'est pas entendue: la voix de ceux qui le sont relève d'un accident de naissance. Les voix individuelles et collectives sont parfois mises sous silence par leur 'illiquidité' économique et politique - les marges ne sont pas équipées des instruments qui nécessaires pour diffuser ou amplifier leurs voix. La démocratie moderne étant née à l'ère de la presse écrite, ses systèmes constitutionnels imprimés dépendent de contrats flous rédigés à l'encre et de la lenteur des services postaux. Les démocraties représentatives relèvent d'un autre accident, celui du parcours des technologies de communication et d'information qui datent du XVIIIème siècle.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+Une démocratie liquide est fondée sur un modèle de représentation dynamique qui fonctionne à partir d'une approche ascendante: ses citoyens peuvent élire la personne qu'ils souhaitent dans leur entourage (amis, collègues, famille) afin de les représenter sur une problématique donnée. C'est la forme de gouvernance démocratique la plus flexible qui puisse être construite grâce aux technologies digitales, un hybride permettant de déléguer les votes à tout instant. Il existe peu d'exemples d'environnements ascendants fiables qui aient généré des contenus autoritaires,[https://www.wikipedia.org/ Wikipedia] étant un cas d'école en la matière. Si l'histoire peut nous servir de guide, la dernières civilisation qui ait fait face [https://fr.wikipedia.org/wiki/Siècle_des_Lumières à un changement de paragisme concernant le savoir encyclopédique] est précisément celle qui, au siècle des Lumières, a préparé l'avènement des démocraties modernes.
 
-This paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], our democratic governance application that operates with blockchain tokens using a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device. No technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+deuThis paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], our democratic governance application that operates with blockchain tokens using a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device. No technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
 
 <blockquote>
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
