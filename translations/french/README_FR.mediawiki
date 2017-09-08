@@ -525,30 +525,30 @@ All of these strategies attack the core of how a decentralized organization inst
 
 <div id="Execution"></div>
 
-==3. Execution.==
+==3. Exécution.==
 
-[[File:/images/humans.png|Humans on Earth.]]
+[[File:/images/humans.png|Population humaine exponentielle au cours du temps.]]
 
-A pressing fact that goes to the core of what is behind the political and economical challenges of the 21st century is the rise in population growth: [https://esa.un.org/unpd/wpp/ United Nations estimates that by the year 2100 the world will surpass 10,000,000,000 sapiens]. In other words: the planet’s [https://en.wikipedia.org/wiki/Carrying_capacity carrying capacity] will be reached by the end of this century.
+L'augmentation de la population est au cœur des défis économiques et politiques du 21<sup>e</sup> siècle : [https://esa.un.org/unpd/wpp/ Les Nations Unies estiment que d'ici l'an 2100 la population mondiale surpassera les 10 000 000 000 individus]. En d'autres termes, la [https://fr.wikipedia.org/wiki/Capacit%C3%A9_porteuse capacité porteuse] de la planète sera atteinte d'ici la fin du siècle.
 
-Clues on the risks of running out of resources can be found in the cultural legacy of islands. A far away land such as [https://en.wikipedia.org/wiki/History_of_Easter_Island Easter Island] was during most of its history a closed system lacking any contact with the rest of the world. Its population had no means for survival other than its own resources, constantly facing the dangers of famine, epidemics and civil war. Even though these menaces seem far off under a globalized economy, the sudden rise in human population during the past century is the driving force behind increasing CO2 levels in the atmosphere and the collapse of public infrastructure unable to deal with massive migrations. Refugees are escaping wars that seek to secure energy resources for a future that is coming at us fast as the pace of technological innovation accelerates. Though some have already put escape plans into place, including private efforts to reach Mars in the upcoming decades (resembling the biblical story of Noah's Ark), the urgent call to safeguard humanity as a whole must be both amplified and answered.
+On peut trouver des indices sur les conséquences de l'apauvrissement en ressources en étudiant l'histoire des îles. Une île lointaine comme [https://fr.wikipedia.org/wiki/Histoire_de_l%27%C3%AEle_de_P%C3%A2ques l'île de Pâques] a été durant son histoire un système fermé, coupé de tout contact avec l'exterieur, dont la population n'avait pas d'autre moyens de survie que ses propres ressources, faisant sans cesse face aux dangers de famine, d'épidémie, et de guerre civile. Bien que ces menaces semblent lointaines dans une économie mondiale, la hausse soudaine de la population humaine au cours du siècle dernier est en majorité responsable de l'augmentation du niveau de CO<sub>2</sub> dans l'atmosphère et de l'effondrement du système public, incapable de gérer les migrations massives. Les réfugiés fuient des guerres d'annexion de ressources énergétiques pour un futur qui s'approche toujours plus vite, au rythme des innovations technologiques. Bien que certains préparent déjà des échappatoires, notamment le secteur privé avec la colonisation de Mars dans les prochaines décennies (qui n'est pas sans rappeler l'Arche de Noé), l'appel urgent à la sauvegarde de l'humanité toute entière doit être amplifié et répondu.
 
-Distribution of opportunity and intelligent collaboration accross the globe cannot be achieved peacefully unless every voice gets heard, without exceptions. Global governance is the next logical step in a world already connected over the Internet. Blockchains lead towards the possibility of liquid governance laying out the foundations for a democracy of peers. Permission from established Nation-States is not required: citizens anywhere in the world can embrace this change using sovereign networks.
+Une distribution des opportunités et une collaboration mondiale intelligente ne peuvent être obtenues pacifiquement qu'à condition que toutes les voix puissent se faire entendre, sans exception. La gouvernance globale est la prochaine étape logique dans un monde déjà connecté via Internet. Les blockchains creusent les fondations d'une démocratie de pairs et nous guident vers la possibilité d'une gouvernance liquide. La permission des États-Nations en place n'est pas requise : les citoyens du monde peuvent accueillir ce changement par biais de réseaux souverains.
 
-===3.1 Rights vs. Debt.===
+===3.1 Droits vs. Dette.===
 <blockquote>
-   “What is justice?” the philosopher asked.
-   “Pay your debts and don’t lie” Kefalos (capital), a wealthy arms manufacturer, replied.
+   "Qu'est-ce que la justice ?" demanda le philosophe.
+   "Paie tes dettes et ne mens pas" répondit Kefalos (capital), un riche fabricant d'armes.
 </blockquote>
-'''Plato''', ''Republic''. Philosopher (428-348 BC).
+'''Platon''', ''La Republique''. Philosophe (428-348 av. J.-C).
 
-Although politics and economics are often perceived as different realms, history teaches that money means power and power means votes. In order to effectively promote democracy it is essential to address both.
+Bien que la politique et l'économie soient souvent considérées comme des domaines distincts, l'histoire nous enseigne que l'argent donne du pouvoir, et que le pouvoir donne des votes. Afin de promouvoir la démocratie de façon efficace, il est indispensable de s'occuper des deux.
 
-The association of debt, morality and wars remains at the root of the economic mental models of society. Coins were first created by the great empires to finance wars by enabling the purchase of provisions for soldiers in distant regions and rewarding them for victory. Soldiers could loot silver and gold from conquered cities and then exchange it afterwards as the emperors minted coins with the precious metals in order to create markets. Eventually empires would also ask for a share of those coins to be given back as a tax that was directed at the maintenance of the army. The moral narrative was that citizens were ''indebted'' to the emperor for their security, for being alive. Debt evolved to justify any form of coercion sustaining the power hierarchies in countries anywhere. Lack of liquidity is the most tangible and immediate barrier to freedom under which the majority of humanity finds themselves.
+Les modèles économiques actuels sont toujours enracinés dans une intrication de la dette, de la morale et des guerres. La monnaie a été inventée par les grands empires financiers pour permettre aux soldats d'acheter des provisions dans des contrées lointaines, et les récompenser de leurs victoires. Ils pouvaient ainsi piller l'or et l'argent des cités conquises et l'échanger plus tard aux empereurs qui s'en servaient pour émettre des pièces et développer des marchés. Les empires finirent par réclamer une partie de ces pièces sous forme de taxe, afin de financer l'armée. La morale de l'histoire fut que les citoyens devinrent ''endettés'' auprès de leur empereur pour leur sécurité, pour pouvoir rester en vie. La dette a évolué comme justification des formes de coercition maintenant les hiérarchies de pouvoir en place dans tous les pays. Le manque d'argent est l'entrave à la liberté la plus immédiate et la plus tangible pour la plupart des êtres humains.
 
-The ''vote'' token will be distributed as a '''Right''' opposing the historical association of '''Debt''' and morals, generating a new breeding ground for transactions that are not based on the possibility of coercion. It aims to bring equivalence to transacting entities, restoring balance and fairness as the new moral standard. Democracy Earth's core motivation is enabling freedom and personal sovereignty, a possibility that can only be reached if individuals are able to say 'no' and choose an alternative order uncoerced and free. This cannot be achieved with induced scarcity as it is often found on most crypto assets, but rather through a guaranteed access to ''votes'' to every member of society turning governance rights into a liquid instrument.
+Le bulletin de ''vote'' sera distribué comme un '''Droit''' opposant l'association historique de la '''Dette''' et de la morale, générant un terrain fertile pour des transactions libres de coercition. Il a pour but de rendre équivalentes les entités de part et d'autre d'une transaction, ainsi que de rétablir la justice et l'équilibre en tant que standards moraux. La liberté et la souveraineté personnelle sont la mission de Democracy Earth, qui ne peut être remplie que si tous les individus ont la possibilité de dire "non" et de choisir sans contraintes des solutions alternatives. Cela ne pouvant pas être atteint avec la rareté induite qu'on retrouve sur la plupart des cryptomonnaies, il faut garantir un accès équitable aux ''votes'' à tous les membres de la société, transformant le droit de vote en instrument liquide.
 
-For this reason, [http://democracy.earth Democracy Earth Foundation] will generate an ''Initial Rights Offering'' of ''vote'' tokens designed to reach everyone on Earth under a process that will offer two mechanisms: crypto funding for anyone willing to allocate resources that strengthen the development of a global democracy with the ''vote'' token; and a rights mechanism as a native way of getting ''vote'' tokens by anyone able to ''mine'' his or her corresponding share of ''votes'' through a ''Proof of Identity'' process.
+Pour cette raison, la [http://democracy.earth Fondation Democracy Earth] génèrera une ''Offre Initiale de Droits'' en bulletins de ''vote'', dans le but de traiter équitablement tout le monde dans un processus qui offrira deux mécanismes : le financement cryptographique pour quiconque souhaite allouer des ressources pour renforcer le développement d'une démocratie globale au moyen du bulletin de ''vote'' ; et un état de droit comme moyen d'obtenir des bulletins de ''vote'', pour quiconque pouvant ''miner'' sa part de ''votes'' au travers d'un processus connu sous le nom de ''Preuve de l'Identité''.
 
 ====3.1.1 Initial Rights Offering.====
 
@@ -850,30 +850,30 @@ To those who argue about electronic voting online scoring their arguments with F
 
 ----
 
-==4. About.==
+==4. À Propos.==
 
-The Democracy Earth Foundation is an effort made possible by collaborators, donors and supporters of all kinds. We are a 501 (c) 3 not for profit organization from California and with presence in New York, Paris, Buenos Aires and San Francisco.
+La Fondation Democracy Earth ne peut exister que grâce à ses collaborateurs, donateurs et partenaires en tous genres. Nous sommes une organisation californienne à but non lucratif 501©3, présente à New York, Paris, Buenos Aires et San Fransisco.
 
-===4.1 Team & Collaborators.===
+===4.1 Équipe & Collaborateurs.===
 
 Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
 
-===4.2 Advisory Board.===
+===4.2 Conseil.===
 
 Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
 
-===4.3 Individual Donors.===
+===4.3 Donateurs.===
 
 Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
 
-===4.4 Acknowledgements.===
+===4.4 Remerciements.===
 
-These are some of the minds that inspired the ideas expressed on this document.
+Quelques-uns des esprits ayant inspiré des idées exprimées dans ce document.
 
 Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
 
-===4.5 Supporters.===
+===4.5 Partenaires.===
 
-These organizations supported our work through grants, partnerships and recognition to our research and development efforts.
+Ces organisations nous ont apporté leur support par le biais de financements, partenariats, et reconnaissance de nos travaux de recherche et de développement.
 
-[[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
+[[File:/images/grants-awards-support-organizations.png|Financements, médailles et support de la part de ces organisations.]]
