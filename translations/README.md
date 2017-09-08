@@ -1,6 +1,6 @@
 # How to help with translation
 
-Hello there, first thing first **thanks a lot for helping us with translation we really appreciate this kind of contribution.** ❤️
+Hello there, first thing first: **thanks a lot for helping us with translation we really appreciate this kind of contribution.** ❤️
 
 ## General information
 
