@@ -1,5 +1,7 @@
 # How to help with translation
 
+Hello there, first thing first **thanks a lot for helping us with translation we really appreciate this kind of contribution.** ❤️
+
 ## General information
 
 Source language is **English**, source file is [here](https://github.com/DemocracyEarth/paper/blob/master/README.mediawiki). The file is formatted in wiki markup, here are some [guidelines](https://www.mediawiki.org/wiki/Help:Formatting) to get you started if you are not familiar with it.
