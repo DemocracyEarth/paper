@@ -148,7 +148,19 @@ La descentralización es un requisito de las elecciones democráticas. Sin ella 
 
 ===1.6 Sovereignty.===
 
-[agregar traduccion aqui]
+En Internet de hoy en día, la votación todavía ha surgido como la principal interacción. Cada vez que los usuarios dan ''like'', ''upvote'', ''heart'', ''link'' o ''retweet'', están señalando una preferencia que sirve un feedback loop generando mejores recomendaciones para ellos. Pero la acción no va más allá: es un ''voto falso'' que carece de implicaciones institucionales. Los ''gustos'' de los medios sociales funcionan como fichas sin valor que pueden inflarse con un solo clic, a pesar de que fijan el precio de los dólares publicitarios. Los efectos de red convirtieron esta interacción en una métrica que resalta la influencia de una idea específica dentro de una multitud, siendo a menudo una herramienta para que quienes están en el poder encuesten las necesidades de la sociedad. Sin embargo, los beneficios financieros y políticos de estas transacciones son totalmente mantenidos por [https://www.nytimes.com/2016/10/16/technology/peter-thiel-donald-j-trump.htmllos dueños de la red].
+
+[[File:/images/web-voting.png|Voto web.]]
+
+La tecnología de Sovereign es capaz de operar en redes peer to peer. La validación de la identidad, la preservación del anonimato, el cifrado de datos, la descentralización de la infraestructura, con el código abierto libre (''libre como en libertad'') pueden interrumpir completamente el paisaje descrito.
+
+A lo largo de la historia sólo triunfaron tres clases de soberanos: la ''tribu soberana'', donde una multitud sigue a un líder; el ''rey soberano'' leal sólo a Dios; y la ''república soberana'', con tierras continentales regidas bajo una sola ley. Las cadenas de bloque que operan en el ciberespacio están dando lugar a un cuarto tipo: el ''individuo en red''. No es una posibilidad extravagante: conquistar [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 soberanía personal] ya es una realidad para aquellos que manejan sus finanzas con bitcoin y otros criptos valores en cartera. Como dice el inversionista: "Usted puede cruzar una frontera internacional con un billón de dólares en bitcoin enteramente en su cabeza". Este tipo de acto soberano es sin precedentes incluso para los Jefes de Estado contemporáneos .
+
+La adopción generalizada de cadenas de bloque está dando lugar a un modelo que inicialmente creció bajo las sombras de las instituciones establecidas, pero finalmente las hará obsoletas. Blockchains son burocracias automatizadas que ofrecen beneficios financieros significativos en términos de costos de transacción mientras que resumen la necesidad de intermediarios. Ellos posibilitan sistemas de libre asociación que ayudan a romper la coerción política y financiera que los gobiernos y los bancos imponen al restringir el derecho al voto o limitar el acceso al capital. Una sociedad tecnológicamente avanzada puede florecer más allá de los dominios territoriales dondequiera que haya una conexión a Internet con ciudadanos digitales que se conviertan en parte de un nuevo tipo de diáspora.
+
+----
+
+Con este diagnóstico, en la [[#Paper|Sección 2]] trazamos los componentes básicos de una democracia líquida descentralizada. Una vez definidas las herramientas, en la [[#Execution|Sección 3]] se propone una implementación que se enfoca en hacer que el sistema sea seguro e incluyente.
 
 <div id="Paper"></div>
 
