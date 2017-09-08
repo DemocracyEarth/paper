@@ -528,7 +528,7 @@ All of these strategies attack the core of how a decentralized organization inst
 
 ==3. Exécution.==
 
-[[File:/images/humans.png|Population humaine sur Terre au cours du temps.]]
+[[File:/images/humans.png|Population humaine exponentielle au cours du temps.]]
 
 L'augmentation de la population est au cœur des défis économiques et politiques du 21<sup>e</sup> siècle : [https://esa.un.org/unpd/wpp/ Les Nations Unies estiment que d'ici l'an 2100 la population mondiale surpassera les 10 000 000 000 individus]. En d'autres termes, la [https://fr.wikipedia.org/wiki/Capacit%C3%A9_porteuse capacité porteuse] de la planète sera atteinte d'ici la fin du siècle.
 
@@ -851,30 +851,30 @@ To those who argue about electronic voting online scoring their arguments with F
 
 ----
 
-==4. About.==
+==4. À Propos.==
 
-The Democracy Earth Foundation is an effort made possible by collaborators, donors and supporters of all kinds. We are a 501 (c) 3 not for profit organization from California and with presence in New York, Paris, Buenos Aires and San Francisco.
+La Fondation Democracy Earth ne peut exister que grâce à ses collaborateurs, donateurs et partenaires en tous genres. Nous sommes une organisation californienne à but non lucratif 501©3, présente à New York, Paris, Buenos Aires et San Fransisco.
 
-===4.1 Team & Collaborators.===
+===4.1 Équipe & Collaborateurs.===
 
 Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
 
-===4.2 Advisory Board.===
+===4.2 Conseil.===
 
 Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
 
-===4.3 Individual Donors.===
+===4.3 Donateurs.===
 
 Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
 
-===4.4 Acknowledgements.===
+===4.4 Remerciements.===
 
-These are some of the minds that inspired the ideas expressed on this document.
+Quelques-uns des esprits ayant inspiré des idées exprimées dans ce document.
 
 Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
 
-===4.5 Supporters.===
+===4.5 Partenaires.===
 
-These organizations supported our work through grants, partnerships and recognition to our research and development efforts.
+Ces organisations nous ont apporté leur support par le biais de financements, partenariats, et reconnaissance de nos travaux de recherche et de développement.
 
-[[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
+[[File:/images/grants-awards-support-organizations.png|Financements, médailles et support de la part de ces organisations.]]
