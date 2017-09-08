@@ -117,11 +117,19 @@ El secreto es una propiedad fundamental de elecciones libres y justas, ya que es
 
 ===1.4 Inteligencia.===
 
-[agregar traduccion aqui]
+<blockquote>
+  No puedo dejartelo hacer Dave.
+</blockquote>
+'''HAL 9000''' en ''2001: A Space Odyssey'' (1968).
+
+La mejor tecnología cívica es la tecnología que se utiliza todos los días. Facebook, Twitter y otras plataformas de medios sociales se han convertido en el proxy de la interfaz principal que los ciudadanos utilizan para influir en la política cotidiana. Pero las consecuencias invisibles de dar datos personales a través de servicios web centralizados pueden ser muchas y con implicaciones relevantes para el futuro de la humanidad. La arquitectura de la información sobre cómo se almacenan, comparten y monetizan los datos personales es fundamental para comprender la soberanía en el siglo XXI.
+
+Una amenaza inminente es el uso de la Inteligencia Artificial (AI) sin restricciones que se alimenta con contenido generado por el usuario sin ningún tipo de supervisión pública. Eso fue evidente en la revelación de un ex empleado de Blackwater sobre cómo los datos se armonizan: desde una oficina en Dubai fue capaz de conducir y obtener la alimentación en vivo de un zumbido volando sobre Siria o Pakistán, pero sorprendentemente la decisión de si matar el objetivo no fue realizada por el operador humano (o una autoridad supervisora), sino por un AI que llamó a los disparos a través de Internet "al menos el 90% del tiempo". Esta IA fue proporcionada por una compañía de Silicon Valley a menudo 'acreditado' con el suministro de servicios de inteligencia de la CIA y con haber encontrado a Osama Bin Laden en 2011.
+
+El tema de la IA que decide sobre el destino de las vidas humanas abre cuestiones éticas y morales. Finalmente, ni siquiera los investigadores humanos son capaces de comprender correctamente cómo se está comportando un AI, convirtiéndose en una amenaza si es un componente clave de la tecnología de grado militar. Según el autor Yuval Noah Harari: "la inteligencia se deshace de los organismos vivos y no será monopolizada por los seres de carbono durante mucho tiempo". La conciencia es la nueva frontera política que se está dibujando. Una línea entre las máquinas y los seres humanos. En otras palabras: la comprensión de si estamos utilizando las máquinas o las máquinas nos están utilizando. La forma en que estructuramos las organizaciones humanas -y gobiernan el código que las ejecuta- define quién está a cargo. A medida que la capacidad de la inteligencia del silicio coincide con las tasas de crecimiento de la Ley de Moore, la humanidad en su conjunto debe preguntarse cómo va a gobernar las riendas de este poder sin precedentes.
 
 ===1.5 Decentralización.===
 
-[agregar traduccion aqui]
 
 ===1.6 Sovereignty.===
 
