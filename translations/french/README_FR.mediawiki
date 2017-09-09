@@ -173,23 +173,23 @@ This paper details the implementation of a liquid democracy using [http://github
   We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
 </blockquote>
 
-===2.1 Token.===
+===2.1 Jeton.===
 
-An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
+Un système de vote idéal doit être capable de satisfaire les conditions suivantes :
 
-* '''Secrecy''': voter must be able to cast vote in secret.
+* '''Discrétion''': l'électeur doit pouvoir voter en secret.
 
-* '''Verifiability''': voter must be able to verify tallied vote.
+* '''Vérification''': l'électeur doit pouvoir vérifier les scrutins.
 
-* '''Integrity''': system must be able to verify correct vote tally.
+* '''Intégrité''': le système doit être capable de corriger le décompte.
 
-Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
+De plus, en raison du risque de coercition à travers la violence physique ou de menances dans des contextes politiques instables, une option de protection des électeurs doit être introduite :
 
-* '''Resistance''': voter must be able to override own vote if necessary.
+* '''Résistance''': l'électeur doit être capable d'annuler son vote si nécessaire.
 
-In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to pioneer [http://twitter.com/balajis Balaji Srinivasan]. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
+D'après le travail mené par les chercheurs Hosp & Vora, une [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf approche de la théorie de l'information a été utilisée pour modéliser les systèmes de vote], menant ses auteurs à conclure qu'une tension naturelle existe au sein d'un système informatique entre ''l'intégrité parfaite'', ''la discrétion parfaite du scrutin'' et ''la vérification parfaite du décompte''. Les trois éléments ne peuvent pas être satisfaits simultanément si un adversaire n'est pas soumis à la puissance de calcul commune, et capable de forcer un système informatique, dans le cas où il disposerait par exemple d'un temps illimité ou d'un espace de stockage suffisant. Pour ces raisons, nous considérons qu'il est indispensable de mettre en oeuvre des démocraties digitales qui utilisent la blockchain. Avec les effets de réseau déjà en place, la blockchain est capable de vérifier l'intégrité des transactions et de prévenir la dépense multiple d'un même jeton. Les modèles bitcoins [https://fr.wikipedia.org/wiki/Preuve_de_travail ''preuve de travail''] récompensent une capacité de calcul en vérifiant les blocks de transaction (à travers les ''mines''), générant à des réseaux “300 fois plus puissant que les ressources de Google” selon le mineur pionnier [http://twitter.com/balajis Balaji Srinivasan]. C'est pourquoi notre design est fondé sur des jetons avec des réseau de blockchain qui fonctionnent comme une ''cryptomonnaie politique''.
 
-What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights aim to satisfy overall legitimacy in the governance of an institution. While money is the language of self-interest, votes express the shared views of a community. Political currency is not strictly meant for trade but for social choice.
+Ce qui différencie un vote d'une monnaie (ou une ''économie politique'' d'une ''économie financière'') tient du fait que les jetons sont pensés pour guarantir le doit à la participation d'après des conditions justes entre tous les membres d'une organisation. Les droits ont pour objectif de satisfaire une gouvernance légitime au sein d'une institution. Tandis que la monnaie est le langage de l'intérêt particulier, le vote exprime l'intérêt partagé d'une communauté. Les jetons politiques ne servent pas seulement l'échange, mais aussi le choix social.
 
 {| class="wikitable"
 |-
