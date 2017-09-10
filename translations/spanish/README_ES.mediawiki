@@ -215,7 +215,15 @@ Si Bob ya usó los ''votos'' delegados que recibió de Alice, pero ella tiene un
 
 ===2.3 User Experience.===
 
-[agregar traduccion aqui]
+Experiencia de usuario (UX) es un aspecto crítico de una arquitectura descentralizada y se vuelve aún más importante a medida que las capas redundantes de arquitecturas centralizadas se condensan para el usuario. En una arquitectura centralizada de Internet, el usuario no posee la interfaz o la experiencia. En una arquitectura descentralizada de Internet, la interfaz de usuario (UI) debe basarse en la perspectiva del usuario. En este sentido, las transacciones se realizan bajo tres puntos de vista distintos:
+
+* '''Self''': Usando una identidad pública relacionada con un individuo.
+
+* '''Organización''': En representación de una organización que amplía los derechos de representación a individuos (por ejemplo, lugar de trabajo, club, partido político, etc.).
+
+* '''Anónimo''': Sin conexión a una identidad pública.
+
+Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó mucho en nuestro diseño de interfaces y fichas. En cualquier momento, un usuario de Sovereign puede adoptar cualquiera de estos modos para interactuar con las organizaciones descentralizadas.
 
 ====2.3.1 Liquid.====
 
