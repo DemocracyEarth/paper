@@ -11,7 +11,7 @@
 </pre>
 
 =Le contrat social intelligent.=
-Une offre initiale de droits par la [http://democracy.earth Democracy Earth].
+Une offre initiale de droits par la [http://democracy.earth Fondation Democracy Earth].
 
 ==i. Résumé.==
 
@@ -27,9 +27,9 @@ Ce texte est structuré en trois parties, chacune visant à satisfaire une cible
 
 * [[#Exécution|Execution]]: Pour les pragmatistes. Explique comment exécuter ces idées pour avoir un impact.
 
-Nous ne voulons pas que ce texte reste figé. Publié sous une licence open source, nous accueillons toutes contributions, notre objectif est que ce document constitue une feuille de route pour la gouvernance mondiale. La démocratie comme cadre de confiance pour le grand nombre est une force déterminante qui définit la trajectoire de l'histoire. Notre message résonne de par le monde, englobant toute l'humanité face à la nécessité de faire de la planète terre un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a exploré [[#Background |différents axes de recherche]] sur les systèmes de vote, la cyberpolitique et les réseaux blockchain; nous positionnant ainsi à l'avant-garde de la conversation mondiale consistant à considérer Internet comme nouvelle juridiction planétaire.
+Nous ne voulons pas que ce texte reste figé. Publié sous une licence open source, nous accueillons toutes contributions, notre objectif étant que ce document constitue une feuille de route pour la gouvernance mondiale. La démocratie comme cadre de confiance pour le plus grand nombre est une force déterminante qui définit la trajectoire de l'histoire. Notre message résonne de par le monde, englobant toute l'humanité face à la nécessité de faire de la planète Terre un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a exploré [[#Background|différents axes de recherche]] sur les systèmes de vote, la cyberpolitique et les réseaux blockchain ; nous positionnant ainsi à l'avant-garde de la conversation mondiale consistant à considérer Internet comme la nouvelle juridiction planétaire.
 
-En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons produit du code informatique afin de prendre la mesure du possible avant d'exposer nos idées dans cet article. À cette fin, les quelques [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015] ont guidées nos recherches et façonner les idées présentées ici.
+En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons produit du code informatique afin de prendre la mesure du possible avant d'exposer nos idées dans cet article. À cette fin, quelques [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015] qui ont guidé nos recherches et façonné les idées présentées ici.
 
 <div id="Background"></div>
 ==iii. Background.==
