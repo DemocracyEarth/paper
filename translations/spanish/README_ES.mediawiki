@@ -193,11 +193,37 @@ Este documento detalla la implementación de una democracia líquida usando [htt
 
 ===2.2 Voting.===
 
-[agregar traduccion aqui]
+El símbolo de ''voto'' pretende ser un estándar para la democracia digital capaz de interoperar con otros testigos, estableciendo un lenguaje común para el gobierno de las organizaciones basadas en cadenas de bloque. En el contexto de las democracias líquidas, se permite una serie de transacciones de votación con ''votos'':
+
+* '''Voto directo''': Al votante egoísta Alice se le permite usar sus fichas para votar directamente sobre temas como en una democracia directa.
+
+* '''Delegación Básica''': Alice puede delegar ''votos''a Bob. Mientras Bob tenga acceso a esos tokens, puede usarlos para votar en nombre de Alice.
+
+* '''Delegación limitada a las etiquetas''': Alice puede delegar ''votos'' a Charlie bajo la condición especificada de que sólo puede usar estos tokens en los asuntos que llevan una etiqueta específica. Si la delegación especifica que los ''votos'' delegados sólo se pueden usar en las decisiones con la etiqueta ''#environment'', Charlie no podrá usarlos en ningún otro lugar, excepto en esos temas específicos. Esto conduce a un modelo de representación no basado en el territorio, sino en el conocimiento.
+
+* '''Delegación Transitiva''': Si Bob recibió ''votos'' de Alice, él puede delegarlos a Frank. Esto genera una cadena de delegaciones que ayuda a capacitar a jugadores específicos dentro de una comunidad. Si Alice no desea que terceros reciban los votos que delegó a Bob, puede desactivar el ajuste transitivo en el contrato de delegación. Las delegaciones circulares (por ejemplo, Alicia recibiendo las fichas que envió a Bob de Frank) están prohibidas, ya que la asignación original de ''votos'' de una organización a sus miembros lleva una firma que indica quién es el propietario soberano de los votos.
+
+Si Bob ya usó los ''votos'' delegados que recibió de Alice, pero ella tiene una opinión diferente sobre un tema dado, ya que la soberana propietaria de sus votos Alice siempre puede anular la decisión de Bob. Los votantes siempre tienen la última palabra sobre cualquier decisión dada con sus ''votos'' originales.
+
+* ''Voto público''': A menudo referido como la ''regla de oro'' de las democracias líquidas, todos los delegados tienen derecho a saber cómo su delegado ha votado sobre cualquier asunto con sus ''votos''. De la misma manera que los votos de los congresistas son públicos, en las democracias líquidas los delegados que compiten en cualquier etiqueta tienen un incentivo para construir una reputación pública basada en su récord de votos para atraer más delegaciones.
+
+* '''Voto secreto''': Es un método que garantiza las transacciones de ''votos'' que no pueden ser rastreados por el votante. Esto es indispensable en los contextos de las elecciones públicas celebradas dentro de grandes poblaciones que tienen un alto riesgo de coerción. Incluso si se logra un secreto perfecto en la transacción ''voto'', los usuarios todavía pueden tener sus huellas dactilares con metadatos expuestos. Por esta razón, se fomenta la investigación sobre la integración con cadenas bloqueadas diseñadas para transacciones anónimas con un historial probado. Esto podría incluir una cuota de minería para liquidar la transacción de ''voto'' que puede ser subvencionada por la organización implementadora o pagada directamente por los votantes. Recomendamos la investigación e integración de ''votos'' secretos con estos bloqueos:
+
+** [https://z.cash ZCash] implementa transacciones blindadas usando [https://en.wikipedia.org/wiki/Zero-knowledge_proof knowledge proof]
+
+** [https://getmonero.org Monero]: utiliza [https://en.wikipedia.org/wiki/Ring_signature firma de anillo con direcciones de sigilo].
 
 ===2.3 User Experience.===
 
-[agregar traduccion aqui]
+Experiencia de usuario (UX) es un aspecto crítico de una arquitectura descentralizada y se vuelve aún más importante a medida que las capas redundantes de arquitecturas centralizadas se condensan para el usuario. En una arquitectura centralizada de Internet, el usuario no posee la interfaz o la experiencia. En una arquitectura descentralizada de Internet, la interfaz de usuario (UI) debe basarse en la perspectiva del usuario. En este sentido, las transacciones se realizan bajo tres puntos de vista distintos:
+
+* '''Self''': Usando una identidad pública relacionada con un individuo.
+
+* '''Organización''': En representación de una organización que amplía los derechos de representación a individuos (por ejemplo, lugar de trabajo, club, partido político, etc.).
+
+* '''Anónimo''': Sin conexión a una identidad pública.
+
+Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó mucho en nuestro diseño de interfaces y fichas. En cualquier momento, un usuario de Sovereign puede adoptar cualquiera de estos modos para interactuar con las organizaciones descentralizadas.
 
 ====2.3.1 Liquid.====
 
