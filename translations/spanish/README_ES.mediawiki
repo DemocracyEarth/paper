@@ -185,7 +185,48 @@ Este documento detalla la implementación de una democracia líquida usando [htt
 
 ===2.1 Token.===
 
-[agregar traduccion aqui]
+Un sistema de votación ideal debe ser capaz de satisfacer en la mayor medida posible estas condiciones:
+
+* '''Secreto''': el votante debe poder votar en secreto.
+
+* '''Verificabilidad''': el votante debe ser capaz de verificar el voto computado.
+
+* '''Integridad''': el sistema debe ser capaz de verificar la cuenta de votos correcta.
+
+Además, debido al riesgo de que la coerción a través de la violencia física o amenazas en contextos propensos a la violencia política, una opción capaz de proteger a los votantes coaccionados debe ser introducido:
+
+* '''Resistencia''': el votante debe poder anular su propio voto si es necesario.
+
+En el trabajo llevado a cabo por los investigadores Hosp & Vora, se tomó un [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf enfoque de Teoría de la Información para modelar los sistemas de votación], llegando a la conclusión de que existe una tensión natural con un sistema que busca '''integridad perfecta''', '''secreto de boleta perfecto''' y '''verificación de conteo perfecto'''. Los tres no pueden ser alcanzados simultáneamente cuando un adversario tiene poder de cómputo ilimitado, capaz de quebrantar a fuerza bruta un sistema si el tiempo o la memoria ilimitada están disponibles. Por esta razón consideramos imprescindible implementar democracias digitales utilizando '''blockchains'''. Con los efectos de red ya implementados, los '''blockchains''' son capaces de verificar la integridad de la transacción y evitar el doble gasto del token. El modelo de [https://en.wikipedia.org/wiki/Proof-of-work_system '''proof of work''' de Bitcoin] lo logra recompensando la capacidad de verificación de bloques de transacciones (lo que a menudo se denomina ''minería''), lo que lleva a una red "300 veces más potente que los recursos de Google", según el pionero [http://twitter.com/balajis Balaji Srinivasan]. Por esta razón, nuestro diseño se basa en fichas dentro de un '''blockchain''' que operan como criptomoneda política.
+
+Lo que diferencia un voto del dinero (o en términos más amplios: una economía política de una economía financiera) es que la moneda política está diseñada para garantizar los derechos de participación en condiciones justas a todos los miembros dentro de una organización. Los derechos buscan satisfacer la legitimidad general en el gobierno de una institución. Mientras que el dinero es el lenguaje del interés propio, los votos expresan las opiniones compartidas de una comunidad. La moneda política no es estrictamente para el comercio, sino para la elección social.
+
+{| class="wikitable"
+|-
+! scope="col"| Caracteristicas
+! scope="col"| Dinero
+! scope="col"| Votos
+|-
+! scope="row"| Utilidad
+| Comercio
+| Gobernancia
+|-
+! scope="row"| Mineria
+| Computo ('''Proof of Work''')
+| Atención (Prueba de identidad)
+|-
+! scope="row"| Liquidez
+| Escaso
+| Garantizado
+|-
+! scope="row"| Señal
+| Interes propio
+| Elección social
+|-
+! scope="row"| Valor
+| Espacio (bienes materiales).
+| Tiempo (información).
+|}
 
 ====2.1.1 Implementation.====
 
