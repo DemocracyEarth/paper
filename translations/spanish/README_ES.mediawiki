@@ -228,9 +228,19 @@ Lo que diferencia un voto del dinero (o en términos más amplios: una economía
 | Tiempo (información).
 |}
 
-====2.1.1 Implementation.====
+====2.1.1 Implementación.====
 
-[agregar traduccion aqui]
+Teniendo en cuenta que el valor [https://en.wikipedia.org/wiki/Dogecoin puede ser impulsado por la capacidad memética], el token de la Fundación Democracy Earth que otorga los derechos de voto se asociará con el mensaje más importante que cualquier democracia puede transmitir: ''vote''.
+
+El token de ''vote'' puede ser implementado usando un código de contrato inteligente a través de una variedad de '''blockchains''' que permiten scripts [https://en.wikipedia.org/wiki/Turing_completeness '''Turing Complete'''], incluyendo Bitcoin. Nuestro diseño no es para un tipo  '''blockchains''' específico, por reconocimiento a un campo de la informática todavía en su infancia donde las innovaciones significativas aún no se han inventado. No obstante, estamos trabajando en la implementación del token de ''vote'' bajo estos entornos de contratos inteligentes:
+
+* '''Ethereum''': Usando un conjunto de contratos inteligentes de [https://github.com/ethereum/solidity solidity] bajo el [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token estándar].
+
+** '''Rootstock''': Estamos tomando las medidas necesarias para que el código de solidity sea compatible con [http://www.rsk.co/ el intérprete de contrato inteligente de Rootstock para el Bitcoin '''blockchain'''].
+
+* '''Lightning''': Con la activación de [https://en.bitcoin.it/wiki/Segregated_Witness '''segregated witness'''] en el protocolo Bitcoin que permite el enrutamiento de canales de pago con la [http://lightning.network Lightning Network Protocol], las delegaciones de democracia líquida pueden ser mapeadas usando transacciones de nivel satoshi con un identificador de ''vote'' adjunto. El costo de liquidación relacionado al '''blockchain''' debe ser cubierto por la organización implementadora.
+
+Además, se alientan las implementaciones '''multi-chain''' para fomentar una mayor experimentación y colaboración con respecto a estas tecnologías.
 
 ===2.2 Voting.===
 
