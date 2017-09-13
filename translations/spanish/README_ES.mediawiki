@@ -369,7 +369,13 @@ El bajo porcentaje de delegaciones señala que Google Votes funcionó más como 
 Para incrementar la frecuencia de las delegaciones, éstas deben suceder cada vez que un soberano autónomo es validado. En el proceso de ''Prueba de Identidad'' (ver Sección 3), los usuarios son capaces de generar sus propios ''votos'' de manera nativa en la medida que su identidad sea respaldada por otras identidades. Además, dado que el token de ''voto'' opera sobre un blockchain, las delegaciones no necesariamente deben suceder en la aplicación Sovereign: aplicaciones de mensajería instantánea, tweets y e-mails pueden enviarse adjuntando direcciones de voto o códigos QR para que el token de ''voto'' pueda ser transmitido a través de múltiples redes.
 
 ====2.6.2 Monopoly.====
-[agregar traduccion aqui]
+<blockquote>
+  a.k.a. ''Corporations''
+</blockquote>
+
+Cuando el Partido Pirata Alemán implementó [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], un software pionero en democracia líquida desarrollado en 2009, alcanzó un nivel de participación de ~550 afiliados que llevó a [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html que un profesor de lingüística se convirtiera en el miembro más influyente del partido]. Martin Haase estaba a cargo de traducir todas las propuestas subidas en el sistema a un lenguaje neutro para evitar cualquier sesgo ideológico, y ser reconocido por eso le hizo captar 167 delegaciones de otros miembros. 
+
+Las consecuencias de tener un líder monopolizante en un entorno de democracia líquida van en contra del espíritu de un ecosistema que busca incentivar la participación. En democracias líquidas, las “celebridades” pueden devenir extremadamente influyentes, siendo capaces de atraer gran parte de los votos delegados. Un atacante dispuesto a subvertir una elección puede promover un código QR mediante una estrella de televisión para obtener una afluencia repentina de delegaciones de los aficionados y espectadores, convirtiéndose instantáneamente en una fuerza monopolizante. Los monopolios son una amenaza para las democracias líquidas: pueden desincentivar la participación de los votantes menos afortunados, secuestrando la legitimidad de las decisiones que se toman.
 
 =====2.6.2.1. Quadratic Voting.=====
 
