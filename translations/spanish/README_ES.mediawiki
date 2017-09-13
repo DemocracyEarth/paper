@@ -350,7 +350,23 @@ Cada uno de estos resultados impacta sobre uno de los dos ejes que miden la cali
 Para convertirse en un ambiente fiable de gobernanza descentralizada de comunidades grandes (a escala local, nacional o global), Sovereign tiene que estar protegido contra diferentes tipos de atacantes: ''Turbas enfurecidas'', ''Corporaciones'', ''Sybils'', ''Fakes'' y el ''Gran Hermano''.
 
 ====2.6.1 Polipolio.====
-[agregar traduccion aqui]
+
+<blockquote>
+a.k.a. ''Turbas enfurecidas''
+</blockquote>
+
+Entre los proyectos de investigación más notables en el campo está el de [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Fue una implementación interna diseñada para empleados de Google y liderada por el ingeniero Steve Hardt, que creó un plug-in de democracia líquida para ser usado en la versión interna de Google+. 
+En términos de impacto, el proyecto obtuvo los siguientes números:
+
+* 15,000 participantes.
+
+* 371 decisiones.
+
+* '''3.6% votos delegados''' en total.
+
+El bajo porcentaje de delegaciones señala que Google Votes funcionó más como una democracia directa que como una democracia líquida. Las delegaciones ocurrieron mayormente entre aquellos usuarios que activamente hicieron campaña para atraerlas (ej: veganos en un equipo con la esperanza de reunir el poder para elegir los snacks de la oficina). El riesgo de tener pocas delegaciones es que expone la democracia a los peligros que conlleva una mob rule, el dominio de turbas enfurecidas. Aunque esto puede mantener una alta legitimidad, la calidad de las decisiones tomadas por una organización se vuelve más política que fáctica. Las voces reconocidas por su idoneidad para tratar ciertos problemas en una comunidad quedan sin poder.
+
+Para incrementar la frecuencia de las delegaciones, éstas deben suceder cada vez que un soberano autónomo es validado. En el proceso de ''Prueba de Identidad'' (ver Sección 3), los usuarios son capaces de generar sus propios ''votos'' de manera nativa en la medida que su identidad sea respaldada por otras identidades. Además, dado que el token de ''voto'' opera sobre un blockchain, las delegaciones no necesariamente deben suceder en la aplicación Sovereign: aplicaciones de mensajería instantánea, tweets y e-mails pueden enviarse adjuntando direcciones de voto o códigos QR para que el token de ''voto'' pueda ser transmitido a través de múltiples redes.
 
 ====2.6.2 Monopoly.====
 [agregar traduccion aqui]
