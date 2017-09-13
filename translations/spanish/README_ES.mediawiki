@@ -288,47 +288,51 @@ Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó 
 
 [agregar traduccion aqui]
 
-===2.4 Smart Contracts.===
+===2.4 Piloto.===
 
 [agregar traduccion aqui]
 
-====2.4.1 <code>Organizations</code>====
+===2.5 Smart Contracts.===
 
 [agregar traduccion aqui]
 
-=====2.4.1.1 <code>Constitution</code>=====
+====2.5.1 <code>Organizations</code>====
 
 [agregar traduccion aqui]
 
-====2.4.2 <code>Members</code>====
+=====2.5.1.1 <code>Constitution</code>=====
 
 [agregar traduccion aqui]
 
-====2.4.3 <code>Issues</code>====
+====2.5.2 <code>Members</code>====
 
 [agregar traduccion aqui]
 
-====2.4.4 <code>Ballot</code>====
+====2.5.3 <code>Issues</code>====
 
 [agregar traduccion aqui]
 
-=====2.4.4.1 <code>Interface</code>=====
+====2.5.4 <code>Ballot</code>====
 
 [agregar traduccion aqui]
 
-=====2.4.4.2 <code>Options</code>=====
+=====2.5.4.1 <code>Interface</code>=====
 
 [agregar traduccion aqui]
 
-=====2.4.4.3 <code>Criteria</code>=====
+=====2.5.4.2 <code>Options</code>=====
 
 [agregar traduccion aqui]
 
-====2.4.5 <code>Budget</code>====
+=====2.5.4.3 <code>Criteria</code>=====
 
 [agregar traduccion aqui]
 
-===2.5 Seguridad.===
+====2.5.5 <code>Budget</code>====
+
+[agregar traduccion aqui]
+
+===2.6 Seguridad.===
 
 Con Sovereign buscamos proporcionar un marco de gobernanza ligero, que permita a todas las partes interesadas de una organización participar y reforzar decisiones mediante el uso de criptografía. Es importante dejar en claro que no estamos apuntando a [diseñar] un sistema democrático que se apoye en la ley del más fuerte o en una [https://es.wikipedia.org/wiki/Democracia#La_tiran.C3.ADa_de_la_mayor.C3.ADa ''tiranía de la mayoría'']. La historia ofrece ejemplos suficientes en los que una mayoría ciega acaba fallando en sus aspiraciones de ser república, poniendo a demagogos en el poder.
 
@@ -345,27 +349,27 @@ Cada uno de estos resultados impacta sobre uno de los dos ejes que miden la cali
 
 Para convertirse en un ambiente fiable de gobernanza descentralizada de comunidades grandes (a escala local, nacional o global), Sovereign tiene que estar protegido contra diferentes tipos de atacantes: ''Turbas enfurecidas'', ''Corporaciones'', ''Sybils'', ''Fakes'' y el ''Gran Hermano''.
 
-====2.5.1 Polipolio.====
+====2.6.1 Polipolio.====
 [agregar traduccion aqui]
 
-====2.5.2 Monopoly.====
+====2.6.2 Monopoly.====
 [agregar traduccion aqui]
 
-=====2.5.2.1. Quadratic Voting.=====
-
-[agregar traduccion aqui]
-
-====2.5.3 Sybil Attack.====
-[agregar traduccion aqui]
-
-====2.5.4 Fake news.====
-[agregar traduccion aqui]
-
-=====2.5.4.1 Hard Promises=====
+=====2.6.2.1. Quadratic Voting.=====
 
 [agregar traduccion aqui]
 
-====2.5.5 Squatting.====
+====2.6.3 Sybil Attack.====
+[agregar traduccion aqui]
+
+====2.6.4 Fake news.====
+[agregar traduccion aqui]
+
+=====2.6.4.1 Hard Promises=====
+
+[agregar traduccion aqui]
+
+====2.6.5 Squatting.====
 [agregar traduccion aqui]
 
 <div id="Execution"></div>
