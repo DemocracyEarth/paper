@@ -328,11 +328,24 @@ Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó 
 
 [agregar traduccion aqui]
 
-===2.5 Security.===
+===2.5 Seguridad.===
 
-[agregar traduccion aqui]
+Con Sovereign buscamos proporcionar un marco de gobernanza ligero, que permita a todas las partes interesadas de una organización participar y reforzar decisiones mediante el uso de criptografía. Es importante dejar en claro que no estamos apuntando a [diseñar] un sistema democrático que se apoye en la ley del más fuerte o en una [https://es.wikipedia.org/wiki/Democracia#La_tiran.C3.ADa_de_la_mayor.C3.ADa ''tiranía de la mayoría'']. La historia ofrece ejemplos suficientes en los que una mayoría ciega acaba fallando en sus aspiraciones de ser república, poniendo a demagogos en el poder.
 
-====2.5.1 Polyopoly.====
+[[File:/images/ideal-democracy.png|Ideal democracy.]]
+
+Nuestro objetivo principal es proporcionar un sistema capaz de garantizar la mayor cantidad de legitimidad, potenciando las voces más experimentadas de una comunidad. La diferencia entre el hecho y la promesa es simple: mientras que el arte de la política consiste en sostener la ficción que genera confianza en las instituciones establecidas (ej: políticos en campaña), la prueba criptográfica de un acontecimiento proporciona un método fiable para gobernar. La naturaleza incorruptible de las transacciones realizadas en el blockchain provee un incentivo para que las personas no mientan, por lo cual las organizaciones que usan esa tecnología para almacenar votos y decisiones pueden ser impulsadas por hechos en lugar de promesas. La corrupción puede combatirse en su origen si desarrollamos un nuevo sentido de ciudadanía basada en redes digitales.
+
+Sin embargo, las democracias líquidas pueden ser manipuladas de distintas formas con resultados dominados por las consecuencias no esperadas de dos dinamicas pertenecientes a extremos opuestos en el espectro de la participación:
+
+* '''Falta de delegación''' que deriva en un ''polipolio'': fragmentación extrema del poder de voto. 
+* '''Exceso de delegación''' que deriva en un ''monopolio'': extrema concentración del poder de voto.
+
+Cada uno de estos resultados impacta sobre uno de los dos ejes que miden la calidad del gobierno democrático. Los incentivos en la economía política del voto son designados para mantener estable el equilibrio entre esos ejes: máximo nivel de legitimidad y la toma de decisiones basadas en hechos. 
+
+Para convertirse en un ambiente fiable de gobernanza descentralizada de comunidades grandes (a escala local, nacional o global), Sovereign tiene que estar protegido contra diferentes tipos de atacantes: ''Turbas enfurecidas'', ''Corporaciones'', ''Sybils'', ''Fakes'' y el ''Gran Hermano''.
+
+====2.5.1 Polipolio.====
 [agregar traduccion aqui]
 
 ====2.5.2 Monopoly.====
