@@ -377,22 +377,46 @@ Cuando el Partido Pirata Alemán implementó [https://en.wikipedia.org/wiki/Liqu
 
 Las consecuencias de tener un líder monopolizante en un entorno de democracia líquida van en contra del espíritu de un ecosistema que busca incentivar la participación. En democracias líquidas, las “celebridades” pueden devenir extremadamente influyentes, siendo capaces de atraer gran parte de los votos delegados. Un atacante dispuesto a subvertir una elección puede promover un código QR mediante una estrella de televisión para obtener una afluencia repentina de delegaciones de los aficionados y espectadores, convirtiéndose instantáneamente en una fuerza monopolizante. Los monopolios son una amenaza para las democracias líquidas: pueden desincentivar la participación de los votantes menos afortunados, secuestrando la legitimidad de las decisiones que se toman.
 
-=====2.6.2.1. Quadratic Voting.=====
+=====2.6.2.1. Votación Cuadrática.=====
 
-[agregar traduccion aqui]
+Un punto clave de un sistema de democracia líquida es permitir [http://ericposner.com/quadratic-voting/ un sistema de voto con ecuación cuadrática] para delegaciones. Esto es: el costo de que Alice delegue votos a Bob incrementa exponencialmente a medida que se delegan votos. Con delegaciones cuadráticas, Alice solo puede delegar en Bob 1, 2, 4, 8, 16 o hasta 128 o 512 votos, pero ningún valor intermedio. Eso significa que cada delegación supone para el delegador un costo alto si se delega a un solo miembro de la comunidad, reduciendo el costo de oportunidad de delegar a varios miembros. Este método previene la emergencia de monopolios al interior de las dinámicas de mercado de una democracia líquida, volviendo relevantes a todos los integrantes de la comunidad. Si algunas organizaciones (ej: corporaciones) desean una cadena de comando más vertical, la votación cuadrática siempre pude desactivarse en las opciones de “contrato inteligente constitucional” de una implementación de Sovereign. 
 
 ====2.6.3 Sybil Attack.====
-[agregar traduccion aqui]
+<blockquote>
+  a.k.a. ''Robo de identidad''
+</blockquote>
 
-====2.6.4 Fake news.====
-[agregar traduccion aqui]
+Quien tiene la capacidad de controlar el registro de votantes de una elección puede influir directamente en el resultado final. Un ejemplo clásico es el registro de miembros difuntos de la sociedad en un padrón electoral. En redes descentralizadas esto se conoce comúnmente como un [https://es.wikipedia.org/wiki/Ataque_Sybil Sybil Attack], o ataque Sybil (un nombre tomado de la [https://www.youtube.com/watch?v=8kPIDt3yu1M película homónima] de 1976 basada en un personaje que sufre del síndrome de personalidad múltiple). Los nodos Sybil son aquellos que se identifican como actores independientes de la red cuando en realidad se encuentran todos bajo el control de un solo operador. En entornos descentralizados, los ataques Sybil son la amenaza más común y por esta razón consideramos indispensable que la asignación de votos se lleve adelante luego de que el usuario valide su identidad mediante un protocolo (social y algorítmico) que funciona como ''“Prueba de Identidad”''.
 
-=====2.6.4.1 Hard Promises=====
+====2.6.4 Noticias falsas.====
+<blockquote>
+  a.k.a. ''Chismes''
+</blockquote>
 
-[agregar traduccion aqui]
+No es casual que el campo de batalla de las democracias modernas sean los medios de comunicación. Éstos tienen hoy una capacidad sin precedentes para moldear la percepción de los votantes. A lo largo de diferentes jurisdicciones de todo el mundo, los gobiernos llevan adelante una guerra interna entre el Estado y el conglomerado de medios local más grande. Este es el libro de jugadas detrás de Donald Trump y su pelea contra los tándems de CNN y New York Times; o la razón por la que Vladimir Putin invirtió significativos recursos en la creación de Russia Today, con el fin de generar una via para presentar ''“hechos alternativos”''. Controlar el mensaje tiende a ser más importante que la verdad misma. Los medios independientes y el periodismo independiente son un requisito fundamental para tener democracias estables. Pero si la evidencia de los hechos institucionales es difícil de probar, el espacio para la manipulación es mayor que el espacio para que la verdad prevalezca. Las instituciones actuales son excesivamente reservadas y carecen de transparencia incluso cuando son oficinas públicas. Los blockchains habilitan una forma de almacenar hechos institucionales que pueden garantizar la transparencia de las organizaciones. En este sentido, las ''“noticias falsas”'' se pueden combatir con un nuevo modelo institucional capaz de almacenar ''“Promesas duras”''.
+
+=====2.6.4.1 Promesas Duras=====
+
+Las corporaciones y las instituciones públicas son propensas a la corrupción porque las decisiones a menudo ocurren en el secreto a puertas cerradas mientras que la contabilidad sucede en el transcurso del tiempo. Efectivamente, las organizaciones hacen un “lavado de decisión” al desconectar la rendición de cuentas de las propias decisiones. Tal falta de responsabilidad es posible porque no hay una línea de tiempo incorruptible en la que registrar, a medida que suceden, decisiones políticas y financieras. El [https://es.wikipedia.org/wiki/Leviat%C3%A1n_(Hobbes) Estado “leviatán”] es una máquina ineficiente: aunque se autoproclama como el regente soberano de cualquier población por vía de la fuerza, quien esté a cargo de manejar su burocracia puede aun ser corrompido, haciendo que el castillo de naipes se desmorone. Esta distancia entre el hecho y la rendición de cuentas es la fuente de chismes y rumores.
+
+Los bloques sobre los que se construyen las instituciones consisten en hechos que se definen en acuerdos. Pero el tipo de hechos que los acuerdos contienen son de un tipo muy específico: las instituciones no se construyen con hechos objetivos que sean científicos, medibles e independientes del juicio humano; sino hechos inter-subjetivos que construyen el mundo social dentro de una comunidad que establece las relaciones de propiedad y derechos. Por ejemplo, la idea de que cada lata roja de soda pertenece a la Corporación Coca Cola no es objetiva, pero un hecho intersubjetivo acordó que todos los miembros de la sociedad reconozcan los derechos de propiedad intelectual que una empresa tiene sobre su producto. De esta manera, la realidad institucional ayuda a escalar las relaciones económicas y reducir la información necesaria para que las organizaciones puedan realizar transacciones.
+
+Las burocracias que protegen estos acuerdos dependen de promesas, como, digamos: "todo el dinero guardado en los bancos estará allí mañana". Pero como explica [https://twitter.com/aantonop/ Andreas Antonopoulos]: "Estamos acostumbrados a sistemas de promesas suaves y transacciones reversibles". Si el gobierno (o cualquier otra autoridad central) quisiera confiscar fondos privados almacenados en un banco, nadie puede impedir que rompan su anterior promesa. Esta ha sido la experiencia de los ciudadanos griegos, argentinos, venezolanos o puertorriqueños con sus propios gobiernos incumplidores en la última década. Por otro lado, las organizaciones basadas en Blockchains ofrecen una alternativa de ''promesas duras'': acuerdos almacenados en contratos inteligentes estrictamente protegidos por criptografía que ningún tercero puede corromper. En lugar de regular el comportamiento humano post-facto, como lo hace la ley gubernamental, los blockchains garantizan la transparencia por defecto incentivando el comportamiento honesto ya que cada participante es consciente de que los eventos institucionales estarán disponibles para un escrutinio abierto.
 
 ====2.6.5 Squatting.====
-[agregar traduccion aqui]
+<blockquote>
+  a.k.a. ''Gran Hermano''
+</blockquote>
+
+Una democracia líquida opera a través de varios dominios. Crear una <code>Organización</code> dentro de una red de “votos” delegables es análogo a inaugurar un servidor en la web. La toma de dominios es la práctica de ocupar direcciones en la web que están abandonadas o sin usar a la espera de un beneficio. Esto ha llevado a un mercado de un billón de dólares que tiene a las palabras más comúnmente usadas (identificadores) como el mejor clase de bienes raíces digitales, ej: [http://sex.com Sex.com] [https://en.wikipedia.org/wiki/Sex.com#Highest_price_paid_for_domain siendo el dominio mejor valuado].
+
+A gran escala, el juego de la democracia líquida eventualmente crece en torno a las <code>Etiquetas</code> que se utilizan para describir las delegaciones y los temas. En un sistema cerrado, las <code>Etiquetas</code> más utilizadas apuntan a un universo reducido de votantes relevantes que lideran en delegaciones en los temas relacionados con ellas. Una participación electoral reducida incrementa la capacidad de predicción de una democracia, reduciendo los momentos abiertos para la toma de decisiones colectiva. La democracia prospera en tanto la participación es incentivada. Para evitar los abusos, los intereses económicos y políticos deben estar alineados. La “toma de etiquetas” puede ser prevenida si la taxonomía usada para hacer delegaciones líquidas y descripciones de temas opera en una red abierta: <code>Etiquetas</code> que se referencian con <code>Organizaciones</code> que están registradas bajo un nombre de dominio descentralizado, considerando que cada <code>Organización</code> necesita un nombre de dominio. [Blockstack.org Blockstack] se especializa en nombres de dominio descentralizados y gestiona actualmente más de 70.000 IDs descentralizadas (DIDs). Se obtienen a través de un proceso de “Proof of Burn”, un proceso donde los usuarios “queman” (destruyen) Bitcoin a cambio de tokens Blockstack que permite registrar un nuevo nombre. 
+
+Las palabras definen ideas políticas. La narrativa social construida por el arte de la política consiste en decidir la intención semántica. El poder define las impresiones teatrales que quedan grabadas en nuestra memoria cada vez que decimos “izquierda”, “derecha”, “libre” o “igual”. El lenguaje es un código de herencia que hace posible la colaboración humana a gran escala y sus virtudes no pueden ser negadas.
+
+----
+
+Todas estas estrategias atacan la esencia de cómo una organización descentralizada se institucionaliza a sí misma. En otras palabras: definen los riesgos en la forma en que Democracy Earth asigna “votos” a sus miembros sobre el blockchain como estructura descentralizada. Por esta razón, detallamos en la [[#Ejecución|Sección 3]] un plan de lanzamiento de ''votos'' que levanta fuertes defensas contra este tipo de ataques y allana el camino para una democracia global.
 
 <div id="Execution"></div>
 
