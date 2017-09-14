@@ -233,15 +233,15 @@ Sovereign pretende hacer que el voto líquido sea inmediato y simple. Se debe ev
 
 La ''barra líquida'' permite estas acciones:
 
-* '''Ver ''votos'' disponibles''': Dado que en una democracia líquida un usuario puede tener uno o más ''votos'' delegados, tener un recordatorio constante de la balanza ayuda al usuario a entender su poder actual dentro del sistema. Si algunos de los ''votos'' fueron delegados con condiciones estrictas (por ejemplo, una ''Delegación limitada de etiquetas''), esto significa que un usuario no tendrá la misma cantidad de votos disponibles para gastar en cada asunto.
+*'''Ver ''votos'' disponibles''': Dado que en una democracia líquida un usuario puede tener uno o más ''votos'' delegados, tener un recordatorio constante de la balanza ayuda al usuario a entender su poder actual dentro del sistema. Si algunos de los ''votos'' fueron delegados con condiciones estrictas (por ejemplo, una ''Delegación limitada de etiquetas''), esto significa que un usuario no tendrá la misma cantidad de votos disponibles para gastar en cada asunto.
 
-* '''Ver ''votos'''': Se muestra un valor porcentual con la cantidad de ''votos''emitidos actualmente en otras decisiones o delegados a otros miembros de la comunidad. El usuario puede tocar o hacer clic en cualquier momento en ese valor para ver una lista completa de los temas en los que él o ella actualmente está teniendo un voto y decidir si mantenerlos allí o hacer un cambio estratégico.
+*'''Ver ''votos'''': Se muestra un valor porcentual con la cantidad de ''votos''emitidos actualmente en otras decisiones o delegados a otros miembros de la comunidad. El usuario puede tocar o hacer clic en cualquier momento en ese valor para ver una lista completa de los temas en los que él o ella actualmente está teniendo un voto y decidir si mantenerlos allí o hacer un cambio estratégico.
 
-* '''Deslice a ''voto'''': El usuario puede usar su pulgar (o clic del ratón) para deslizar el mango de la ''barra líquida'' y al soltarlo se le pedirá una confirmación pedir ''votar'' o no.
+*'''Deslice a ''voto'''': El usuario puede usar su pulgar (o clic del ratón) para deslizar el mango de la ''barra líquida'' y al soltarlo se le pedirá una confirmación pedir ''votar'' o no.
 
-* '''Remover ''voto''''': Si el usuario no quiere asignar más de un voto, simplemente puede tocar en el control de la ''barra líquida'' una sola vez y se le pedirá que confirme una única transacción de ''voto''.
+*'''Remover ''voto''''': Si el usuario no quiere asignar más de un voto, simplemente puede tocar en el control de la ''barra líquida'' una sola vez y se le pedirá que confirme una única transacción de ''voto''.
 
-* '''Eliminar' ''votos''''': En cualquier momento, mientras el sondeo continúe abierto, el usuario puede retirar sus ''votos'' de una decisión simplemente deslizando la barra ''líquida'' vuelva a la posición inicial.
+*'''Eliminar' ''votos''''': En cualquier momento, mientras el sondeo continúe abierto, el usuario puede retirar sus ''votos'' de una decisión simplemente deslizando la barra ''líquida'' vuelva a la posición inicial.
 
 Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en las redes sociales. Los ''Likes'' limita la votación a los clics sin mente y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''likes'' solo sirven a sus corporaciones que controlan.
 
@@ -257,9 +257,9 @@ Sovereign también tiene un componente de debate con el nombre código ''Ágora'
 
 Pero a diferencia de las aplicaciones basadas en la web, Sovereign no permite interacciones testimoniales: en lugar de permitir infinitas ''upvotes'' o ''downvotes'', si el usuario está de acuerdo con un comentario de otra persona en la plataforma, se disparará una delegación instantánea de un solo ''voto'', por lo tanto las Agoras permiten:
 
-* '''Upvote''': Envíe una solo ''voto'' delegado del usuario al comentarista.
+*'''Upvote''': Envíe una solo ''voto'' delegado del usuario al comentarista.
 
-* '''Downvote''': Si un usuario no está de acuerdo con el comentario de alguien, un ''downvote'' puede recuperar un ''voto'' desde el comentario hasta el usuario si hubo una delegación anterior. O si no existe una relación de delegación entre ellos, entonces un ''downvote'' actuará como una sanción enviando un ''voto'' desde el comentarista a los fondos de la organización que implementa la instancia Sovereign. Los criterios para este tipo de penalidad pueden establecerse en el ''contrato inteligente constitucional'' de la organización implementadora.
+*'''Downvote''': Si un usuario no está de acuerdo con el comentario de alguien, un ''downvote'' puede recuperar un ''voto'' desde el comentario hasta el usuario si hubo una delegación anterior. O si no existe una relación de delegación entre ellos, entonces un ''downvote'' actuará como una sanción enviando un ''voto'' desde el comentarista a los fondos de la organización que implementa la instancia Sovereign. Los criterios para este tipo de penalidad pueden establecerse en el ''contrato inteligente constitucional'' de la organización implementadora.
 
 Esto hará que las delegaciones sean más frecuentes en toda la plataforma. Los debates constantemente expuestos al riesgo de transacciones de ''voto'' significan que están sujetos a un verdadero impacto político. Este mecanismo puede ayudar a recompensar los buenos argumentos y castigar la influencia del curricán sin requerir la necesidad de desarrollar autoridades moderadoras en el sistema.
 
