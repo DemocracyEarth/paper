@@ -247,6 +247,9 @@ Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en
 
 ====2.3.2 Delegations.====
 
+Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en las redes sociales. Los ''likes'' limita la votación a los clics sin mente y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. Los ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''Likes'' solo sirven a sus corporaciones que controlan.
+
+[[File:/images/delegation-relation-votes.png|Vista del voto delegado en relación con otro miembro.]]
 
 ====2.3.3 Agora.====
 
