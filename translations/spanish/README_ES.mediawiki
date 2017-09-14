@@ -368,7 +368,7 @@ El bajo porcentaje de delegaciones señala que Google Votes funcionó más como 
 
 Para incrementar la frecuencia de las delegaciones, éstas deben suceder cada vez que un soberano autónomo es validado. En el proceso de ''Prueba de Identidad'' (ver Sección 3), los usuarios son capaces de generar sus propios ''votos'' de manera nativa en la medida que su identidad sea respaldada por otras identidades. Además, dado que el token de ''voto'' opera sobre un blockchain, las delegaciones no necesariamente deben suceder en la aplicación Sovereign: aplicaciones de mensajería instantánea, tweets y e-mails pueden enviarse adjuntando direcciones de voto o códigos QR para que el token de ''voto'' pueda ser transmitido a través de múltiples redes.
 
-====2.6.2 Monopoly.====
+====2.6.2 Monopolio.====
 <blockquote>
   a.k.a. ''Corporations''
 </blockquote>
