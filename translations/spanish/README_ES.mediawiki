@@ -227,11 +227,26 @@ Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó 
 
 ====2.3.1 Liquid.====
 
-[agregar traduccion aqui]
+Sovereign pretende hacer que el voto líquido sea inmediato y simple. Se debe evitar cualquier fricción en el proceso y el widget de delegación debe estar constantemente expuesto en la interfaz mientras navega por los problemas o mira los perfiles de los miembros. Con este fin, Sovereign utiliza una "barra de líquidos" que permite realizar transacciones de "votos" con un solo gesto, ya sea en dispositivos móviles y de escritorio.
+
+[[File:/images/liquid-mobile-ux.png|Interfaz móvil de Sovereign que muestra la decisión, las votaciones y el voto líquido.]]
+
+La ''barra líquida'' permite estas acciones:
+
+* '''Ver ''votos'' disponibles''': Dado que en una democracia líquida un usuario puede tener uno o más ''votos'' delegados, tener un recordatorio constante de la balanza ayuda al usuario a entender su poder actual dentro del sistema. Si algunos de los ''votos'' fueron delegados con condiciones estrictas (por ejemplo, una ''Delegación limitada de etiquetas''), esto significa que un usuario no tendrá la misma cantidad de votos disponibles para gastar en cada asunto.
+
+* '''Ver ''votos'''': Se muestra un valor porcentual con la cantidad de ''votos''emitidos actualmente en otras decisiones o delegados a otros miembros de la comunidad. El usuario puede tocar o hacer clic en cualquier momento en ese valor para ver una lista completa de los temas en los que él o ella actualmente está teniendo un voto y decidir si mantenerlos allí o hacer un cambio estratégico.
+
+* '''Deslice a ''voto'''': El usuario puede usar su pulgar (o clic del ratón) para deslizar el mango de la ''barra líquida'' y al soltarlo se le pedirá una confirmación pedir ''votar'' o no.
+
+* '''Remover ''voto''''': Si el usuario no quiere asignar más de un voto, simplemente puede tocar en el control de la ''barra líquida'' una sola vez y se le pedirá que confirme una única transacción de ''voto''.
+
+* '''Eliminar' ''votos''''': En cualquier momento, mientras el sondeo continúe abierto, el usuario puede retirar sus ''votos'' de una decisión simplemente deslizando la barra ''líquida'' vuelva a la posición inicial.
+
+Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en las redes sociales. Los ''Likes'' limita la votación a los clics sin mente y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''likes'' solo sirven a sus corporaciones que controlan.
 
 ====2.3.2 Delegations.====
 
-[agregar traduccion aqui]
 
 ====2.3.3 Agora.====
 
