@@ -27,66 +27,76 @@ In _representative democracy_ we choose other people to represent us.
 
 Liquid democracy combines both to allow the voter to make decisions on the matters he/she cares about, and _delegate_ votes when there is someone that he/she trusts and considers to be more knowledgeable on the matter. A good way to think about it, is that we already live in liquid democracy, but it's _frozen_: we can't change our vote for a certain period of time, only when there is a new election. Representative democracy was the best that Nation-states could do with the technology of the time, but the internet and blockchain technologies allow us to do better now, permitting each voter to customize the extent of his participation. 
 
-**5 - Will digital elections increase voter particpation?**
-
-Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorrutible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
-
-**6 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enable incorruptible decision-making?**
-
-The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered it can never be altered, making virtual blockchain-based votes immensely superior to analogue votes in terms of fraud prevention. Additionally, this technology enables all members of the organization to audit the _votes_.
-
-**7 - What is a _vote_ token?**
+**5 - What is a _vote_ token?**
 
 A _vote_ token is what users will utilize to cast their decisions in organizations that operate with liquid democracy. It also works as any other crypto asset and its value is connected to the penetration of decentralized decision making within society.
 
-**8 - How do I get _vote_ tokens?**
+**6 - How do I get _vote_ tokens?**
 
 _Vote_ tokens can be obtained at a financial cost, based on its current market value, in exchange for Bitcoin and Ether. Adittionally, every validated identity will receive a Universal Basic Income of _votes_ as a granted right. In order to learn more about the process of validation please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
 
-**9 - Can I sell or give away my _vote_ tokens?**
+**7 - Can I sell or give away my _vote_ tokens?**
 
 Yes - the tokens are tradable and transferable as any other crypto holding.
 
-**10 - What does a _vote_ token have to do with Universal Basic Income?**
+**8 - What does a _vote_ token have to do with Universal Basic Income?**
 
-True sovereignty cannot be achieved in an environment of induced scarcity. In order to effectively promote democracy, it is essential then to address both the political and economic realms. For that reason we are turning governance rights into a liquid instrument and issuing it as a right granted to every member of society through the mecanism of a Universal Basic Income.
+True sovereignty cannot be achieved in an environment of induced scarcity. In order to effectively promote democracy, it is essential then to address both the political and economic realms. For that reason we are turning governance rights into a liquid instrument and issuing it as a right granted to every member of society through the mechanism of a Universal Basic Income.
 
-**11 - What does self-sovereign mean?**
+**9 - How can _votes_ be crypto assets? Doesn’t that empowers the rich to have more impact over decision-making processes?**
+
+Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. It is important to remember that attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
+ 
+Blockchain-based voting system costs are, by comparison, vanishingly small, and conveniently built in as ‘mining fees’ - very small amounts taken at the time of a voting transaction. For this reason, the vote token must have a market-determined value - which in this case is an amount anchored to society’s value of an hour of time. The key aspect being DIVISIBILITY: a single vote token is divisible to four decimal places. At $7.25, the smallest unit of a vote is 1/10,000 or $0.000725 per “revolution” (a revolution therefore equals 1/10,000th of a vote).  
+ 
+The vote token offers an alternative to an historically unfair connection between money and decision-making. We are granting votes as a right that is distributed through a Universal Basic Income mechanism, and we introduce cryptographically enabled equality through a calculation that ensures all members receive an equal allocation of votes, despite the date in which they join the network. Those mechanisms are aimed at creating an environment in which members are not vulnerable to coercion due to lack of liquidity, induced scarcity and forced debt.
+ 
+Finally, while it is true that liquid democracy enables any member, through delegation, to control more than one vote for any given votable decision, ultimately every voter is bound by the constitutional rules of the organization implementing the vote. Any voter's impact over outcomes is a combination of delegation and organizational governance. Our goal is to enable flexible institutional designs that can be customizable to attend all kinds of purposes.
+
+
+**10 - Will digital elections increase voter particpation?**
+
+Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorrutible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
+
+**11 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?**
+
+The advances on crypthography and distributed ledger technology enable incorruptible decision-making because after a vote is registered it can never be altered, making virtual blockchain-based votes immensely superior to analogue votes in terms of fraud prevention. Additionally, this technology enables all members of the organization to audit the _votes_.
+
+**12 - What does self-sovereign mean?**
 
 Self-sovereign is anything that is fully under control of itself. Central authorities validade, control and sell data related to others identities. A self-sovereign identity is one that cannot be controlled by central authorities.
 
-**12 - Could everyone in the world use Sovereign to vote on the same issue?**
+**13 - Could everyone in the world use Sovereign to vote on the same issue?**
 
 Yes. Sovereign is intended for planetary governance as much as it is suitable to be used by an organization consisted of two members.
 
-**13 - Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**
+**14 - Does Sovereign excludes people who have no access to video (for the Proof of Identity protocol)?**
 
-As of this moment we have not encountered an alternative to the Proof of Identity protocol that does not involve central authorities, but we and the digital hive mind will continue exploring options in order to make Sovereign available to all human kind.
+As of this moment we have not encountered an alternative to the Proof of Identity protocol that does not involve central authorities, but we and the digital hive mind will continue exploring options in order to make Sovereign available to all humankind.
 
-**14 - Isn't Open Source too new to be implementable in elections?**
+**15 - Isn't Open Source too new to be implementable in elections?**
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire - USA has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas), San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
-**15. What does planetary jurisdiction mean?**
+**16. What does planetary jurisdiction and post Nation-state mean?**
 
-The blockchain knows no borders, it is a transnational technology. Allowing individuals from all nations to cooperate and make decisions together will create a new jurisdiction that encompasses the entire planet. Territorial divisions and the perpetual conflict between Nation-states have led to accelerated climate change, rising inequality, terrorism and forced migrations. Those are global issues that can only be addressed through the cooperation between different parts of the globe, regarding the planet as one jurisdiction towards which all members are equally responsible and entitled to.    
+The blockchain knows no borders, it is a transnational technology. Allowing individuals from all nations to cooperate and make decisions together will create a new jurisdiction that encompasses the entire planet. Territorial divisions and the perpetual conflict between Nation-states have led to accelerated climate change, rising inequality, terrorism and forced migrations. Those are global issues that can only be addressed through a new model, where different parts of the globe cooperate, regarding the planet as one jurisdiction towards which all members are equally responsible and entitled to - we call that post Nation-state governance.    
 
-**16. What is the difference between centralized, decentralized and distributed?**
+**17. What is the difference between centralized, decentralized and distributed?**
 
 There is a lot of debate about it. For the purposes of our work we aim towards both architectural and political decentralization (or distribution, depending on who you ask). The first concerns the number of computers running the system, and the second concerns how many individuals or organizations controls those computers. Our solution is designed for blockchain networks, which are by nature not controllable by any single organization and have no single point of faillure. 
 
-**17. What is blockchain technology?** 
+**18. What is blockchain technology?** 
 
 Blockchain technology refers to a database that is held and maintained by a distributed network, therefore being reliable. This database can be programmed to record any type of valuable information within its blocks, and each block is chained to the previous one through [cryptographic hashing](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function). The implied security of blockchains dramatically increases trust, allowing peers within the network to operate and transact with each other without the need for intermediators.
 
-**18. What does post nation state mean?**
+**19. What is a descentralized ID (DID)?** 
 
-**19. What is a digital ID?** 
+Decentralized identifiers are intended for a verifiable digital identity that is self-sovereign.
 
-**20. What does a "public key" refer to?**
+**20. What does "public and private key" refer to?**
 
-**21. What does a "private key" refer to?**
-
+Public and private keys are generated as a cryptographic pair that works together, meaning that a message encrypted with the public key can only be decrypted with it's correspondent private key and vice-versa. This method is utilized to safely transmit messages, create crypto wallets, DIDs, etc. 
 
 
 
