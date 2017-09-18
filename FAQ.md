@@ -33,7 +33,15 @@ A _vote_ token is what users will utilize to cast their decisions in organizatio
 
 **6 - How do I get _vote_ tokens?**
 
-_Vote_ tokens can be obtained at a financial cost, based on its current market value, in exchange for Bitcoin and Ether. Adittionally, every validated identity will receive a Universal Basic Income of _votes_ as a granted right. In order to learn more about the process of validation please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
+_Vote_ tokens can be obtained in five ways: 
+
+1) purchased directly from non-profit Democracy Earth Foundation holdings to fund development and ongoing operations, 
+2) mined and granted free-of-charge upon Proof of Idendity(*),
+3) mined and dripped free-of-charge over time as Universal Basic Income, subsequent to Proof of Identity,
+4) mined and earned if organization purchases on behalf of organization member, and
+5) purchased, based on its current market value, from cryptocurrency exchange (trading in _vote_ tokens previously purchased from either Foundation or public). 
+
+(*)In order to learn more about the process of idendity validation, please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
 
 **7 - Can I sell or give away my _vote_ tokens?**
 
