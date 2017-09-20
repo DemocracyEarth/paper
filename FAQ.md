@@ -36,12 +36,12 @@ A _vote_ token is what users will utilize to cast their decisions in organizatio
 _Vote_ tokens can be obtained in five ways: 
 
 1) purchased directly from non-profit Democracy Earth Foundation holdings to fund development and ongoing operations, 
-2) mined and granted free-of-charge upon Proof of Idendity(*),
+2) mined and granted free-of-charge upon Proof of Identity(*),
 3) mined and dripped free-of-charge over time as Universal Basic Income, subsequent to Proof of Identity,
 4) mined and earned if organization purchases on behalf of organization member, and
 5) purchased, based on its current market value, from cryptocurrency exchange (trading in _vote_ tokens previously purchased from either Foundation or public). 
 
-(*)In order to learn more about the process of idendity validation, please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
+(*)In order to learn more about the process of identity validation, please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
 
 **7 - Can I sell or give away my _vote_ tokens?**
 
@@ -62,7 +62,7 @@ The vote token offers an alternative to an historically unfair connection betwee
 Finally, while it is true that liquid democracy enables any member, through delegation, to control more than one vote for any given votable decision, ultimately every voter is bound by the constitutional rules of the organization implementing the vote. Any voter's impact over outcomes is a combination of delegation and organizational governance. Our goal is to enable flexible institutional designs that can be customizable to attend all kinds of purposes.
 
 
-**10 - Will digital elections increase voter particpation?**
+**10 - Will digital elections increase voter participation?**
 
 Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorrutible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
 
