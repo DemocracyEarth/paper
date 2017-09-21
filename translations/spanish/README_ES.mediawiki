@@ -360,7 +360,13 @@ Por esta razón, [http://democracy.earth Democracy Earth Foundation] generará u
 
 ====3.1.1 Initial Rights Offering.====
 
-[agregar traduccion aqui]
+La identidad es fundamental para la soberanía personal y es el núcleo de todos los sistemas de votación. Los votos (en cualquier sistema) son válidos si y sólo si se verifica la pertenencia dentro de una organización, ninguna democracia puede funcionar con identidades corruptas. Los sistemas de identidad estándar de hoy se basan en que las autoridades centrales obligan a los usuarios a compartir información privada arriesgando el robo de identidad si son hackeados. Los precedentes incluyen [https://gov.uk Gov.UK de Reino Unido] y [https://uidai.gov.in/ Aadhaar de la India], ambos han sido plagados por informes de prácticas de seguridad impropias que incluyeron fugas comprometiendo la privacidad de millones.
+
+Para que las identidades sean auto-soberanas, no pueden ser propiedad ni controladas por gobiernos, organizaciones o corporaciones que en última instancia tengan como prioridad la extracción de valor de sus usuarios. Nuestro enfoque con [http://sovereign.software Sovereign] es que está centrado en la organización como tecnología, pero una organización puede descentralizar si su proceso de verificación de identidad carece de la necesidad de autoridad. En última instancia, cualquier proceso que dependa de la identidad descentralizada es parte de un patrimonio común ya que el principio de una identidad de soberanía propia hace que cualquier "hermano mayor" sea irrelevante. Por lo tanto, la clave para sostener el valor del testigo ''voto'' como medio para una democracia sin fronteras es validar efectivamente todas las identidades participantes a través de un proceso descentralizado que puede crear, actualizar o revocar claves. Así es como la Democracy Earth Foundation otorgará acceso a los ''votos'' como un derecho humano.
+
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
+Cualquier persona que pueda demostrar su propia identidad en virtud de un protocolo descentralizado denominado ''Prueba de Identidad'' (POI por sus siglas en inglés) puede operar con una proporción correspondiente de ''votos''. Este mecanismo activará una asignación a lo largo del tiempo en la dirección pública reivindicada de la identidad que es accesible a través de una billetera auto-alojada conectada al contenido y datos utilizados para el POI. Si suficientes ''votos'' validan la evidencia utilizada para la ''Prueba de Identidad'', la cartera descongelará una cantidad correspondiente de ''votos'' siguiendo las reglas de una dinámica de ''Renta Básica Universal'' que asigna tokens a lo largo del tiempo que utiliza la cadena de bloque Bitcoin como un reloj universal.
 
 ===3.2 Proof of Identity.===
 
