@@ -343,7 +343,20 @@ En el legado cultural de las islas se pueden encontrar pistas sobre los riesgos 
 La distribución de oportunidades y la colaboración inteligente en todo el mundo no se puede lograr pacíficamente a menos que cada voz se escucha, sin excepciones. La gobernanza global es el siguiente paso lógico en un mundo ya conectado a través de Internet. Los bloqueos conducen a la posibilidad de una gobernanza líquida que sienta los cimientos de una democracia de pares. No se requiere permiso de los Estados Nación establecidos: los ciudadanos de cualquier parte del mundo pueden aceptar este cambio usando redes soberanas.
 
 ===3.1 Rights vs. Debt.===
-[agregar traduccion aqui]
+
+<blockquote>
+"¿Qué es la justicia?", Preguntó el filósofo.
+"Pagar sus deudas y no mentir" respondió Kefalos (capital), un fabricante de armas rico.
+</blockquote>
+'''Platón''', ''República''. Filósofo (428-348 AC).
+
+Aunque la política y la economía son a menudo percibidas como reinos diferentes, la historia enseña que el dinero significa poder y el poder significa votos. Para promover eficazmente la democracia, es esencial abordar ambas cuestiones.
+
+La asociación de la deuda, la moral y las guerras sigue siendo la raíz de los modelos mentales económicos de la sociedad. Las monedas fueron creadas primero por los grandes imperios para financiar guerras permitiendo la compra de provisiones para los soldados en regiones distantes y recompensándolas por la victoria. Los soldados podían saquear la plata y el oro de las ciudades conquistadas y luego intercambiarlas después, cuando los emperadores acuñaban monedas con los metales preciosos para crear mercados. Finalmente, los imperios también pedirían que se devuelva una parte de esas monedas como un impuesto que se dirigía al mantenimiento del ejército. La narrativa moral era que los ciudadanos estaban ''endeudados'' con el emperador por su seguridad, por estar vivos. La deuda evolucionó para justificar cualquier forma de coerción que sostuviera las jerarquías de poder en los países dondequiera. La falta de liquidez es la barrera más tangible e inmediata a la libertad bajo la cual se encuentra la mayoría de la humanidad.
+
+El token de ''voto'' se distribuirá como un ''Derecho'' oponiéndose a la asociación histórica de la "Deuda" y la moral, generando un nuevo caldo de cultivo para las transacciones que no se basan en la posibilidad de coerción . Su objetivo es equiparar a las entidades transaccionales, restableciendo el equilibrio y la equidad como el nuevo estándar moral. Democracia La motivación central de la Tierra es permitir la libertad y la soberanía personal, una posibilidad que sólo puede alcanzarse si los individuos son capaces de decir ''no'' y elegir una orden alternativa sin coacción y libre. Esto no se puede lograr con la escasez inducida, ya que a menudo se encuentra en la mayoría de los activos criptográficos, sino más bien a través de un acceso garantizado a los votos a todos los miembros de la sociedad convirtiendo los derechos de gobierno en un instrumento líquido.
+
+Por esta razón, [http://democracy.earth Democracy Earth Foundation] generará una ''Oferta Inicial de Derechos'' de fichas de ''voto'' diseñadas para llegar a todos en la Tierra bajo un proceso que ofrecerá dos mecanismos: el financiamiento criptográfico para cualquiera que esté dispuesto a asignar recursos que fortalezcan el desarrollo de una democracia global con el token de ''voto''; y un mecanismo de derechos como una forma nativa de obtener ''votos'' por cualquier persona capaz de ''mina'' su correspondiente cuota de ''votos'' a través de un proceso de ''Prueba de Identidad''.
 
 ====3.1.1 Initial Rights Offering.====
 
