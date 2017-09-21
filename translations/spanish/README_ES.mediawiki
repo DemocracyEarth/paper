@@ -448,14 +448,39 @@ Todas estas estrategias atacan la esencia de cómo una organización descentrali
 
 ==3. Execution.==
 
-[agregar traduccion aqui]
+[[File:/images/humans.png|Humnos en la tierra.]]
+
+Un hecho apremiante que va al núcleo de los desafíos políticos y económicos del siglo XXI es el aumento del crecimiento demográfico: [https://esa.un.org/unpd/wpp/ Las Naciones Unidas calculan que para el año 2100 el mundo superará los 10.000.000.000 de sapiens]. En otras palabras: [https://en.wikipedia.org/wiki/Carrying_capacity la capacidad de transporte del planeta] se alcanzará a finales de este siglo.
+
+En el legado cultural de las islas se pueden encontrar pistas sobre los riesgos de quedarse sin recursos. Una tierra lejana tal como [https://en.wikipedia.org/wiki/History_of_Easter_Island Isla de Pascua] era durante la mayor parte de su historia un sistema cerrado sin ningún contacto con el resto del mundo. Su población no tenía medios de supervivencia más que sus propios recursos, enfrentándose constantemente a los peligros del hambre, las epidemias y la guerra civil. A pesar de que estas amenazas parecen lejanas en una economía globalizada, el repentino aumento de la población humana durante el siglo pasado es la fuerza impulsora de los crecientes niveles de CO<sup>2</sup> en la atmósfera y el colapso de la infraestructura pública incapaz de hacer frente a las migraciones masivas. Los refugiados están escapando de las guerras que buscan asegurar los recursos energéticos para un futuro que nos viene rápido a medida que el ritmo de la innovación tecnológica se acelera. Aunque algunos ya han puesto en marcha planes de escape, incluyendo esfuerzos privados para llegar a Marte en las próximas décadas (parecido a la historia bíblica del Arca de Noé), el llamado urgente a salvaguardar a la humanidad en su conjunto debe ser amplificado y contestado.
+
+La distribución de oportunidades y la colaboración inteligente en todo el mundo no se puede lograr pacíficamente a menos que cada voz se escucha, sin excepciones. La gobernanza global es el siguiente paso lógico en un mundo ya conectado a través de Internet. Los bloqueos conducen a la posibilidad de una gobernanza líquida que sienta los cimientos de una democracia de pares. No se requiere permiso de los Estados Nación establecidos: los ciudadanos de cualquier parte del mundo pueden aceptar este cambio usando redes soberanas.
 
 ===3.1 Rights vs. Debt.===
-[agregar traduccion aqui]
+
+<blockquote>
+"¿Qué es la justicia?", Preguntó el filósofo.
+"Pagar sus deudas y no mentir" respondió Kefalos (capital), un fabricante de armas rico.
+</blockquote>
+'''Platón''', ''República''. Filósofo (428-348 AC).
+
+Aunque la política y la economía son a menudo percibidas como reinos diferentes, la historia enseña que el dinero significa poder y el poder significa votos. Para promover eficazmente la democracia, es esencial abordar ambas cuestiones.
+
+La asociación de la deuda, la moral y las guerras sigue siendo la raíz de los modelos mentales económicos de la sociedad. Las monedas fueron creadas primero por los grandes imperios para financiar guerras permitiendo la compra de provisiones para los soldados en regiones distantes y recompensándolas por la victoria. Los soldados podían saquear la plata y el oro de las ciudades conquistadas y luego intercambiarlas después, cuando los emperadores acuñaban monedas con los metales preciosos para crear mercados. Finalmente, los imperios también pedirían que se devuelva una parte de esas monedas como un impuesto que se dirigía al mantenimiento del ejército. La narrativa moral era que los ciudadanos estaban ''endeudados'' con el emperador por su seguridad, por estar vivos. La deuda evolucionó para justificar cualquier forma de coerción que sostuviera las jerarquías de poder en los países dondequiera. La falta de liquidez es la barrera más tangible e inmediata a la libertad bajo la cual se encuentra la mayoría de la humanidad.
+
+El token de ''voto'' se distribuirá como un ''Derecho'' oponiéndose a la asociación histórica de la "Deuda" y la moral, generando un nuevo caldo de cultivo para las transacciones que no se basan en la posibilidad de coerción . Su objetivo es equiparar a las entidades transaccionales, restableciendo el equilibrio y la equidad como el nuevo estándar moral. Democracia La motivación central de la Tierra es permitir la libertad y la soberanía personal, una posibilidad que sólo puede alcanzarse si los individuos son capaces de decir ''no'' y elegir una orden alternativa sin coacción y libre. Esto no se puede lograr con la escasez inducida, ya que a menudo se encuentra en la mayoría de los activos criptográficos, sino más bien a través de un acceso garantizado a los votos a todos los miembros de la sociedad convirtiendo los derechos de gobierno en un instrumento líquido.
+
+Por esta razón, [http://democracy.earth Democracy Earth Foundation] generará una ''Oferta Inicial de Derechos'' de fichas de ''voto'' diseñadas para llegar a todos en la Tierra bajo un proceso que ofrecerá dos mecanismos: el financiamiento criptográfico para cualquiera que esté dispuesto a asignar recursos que fortalezcan el desarrollo de una democracia global con el token de ''voto''; y un mecanismo de derechos como una forma nativa de obtener ''votos'' por cualquier persona capaz de ''mina'' su correspondiente cuota de ''votos'' a través de un proceso de ''Prueba de Identidad''.
 
 ====3.1.1 Initial Rights Offering.====
 
-[agregar traduccion aqui]
+La identidad es fundamental para la soberanía personal y es el núcleo de todos los sistemas de votación. Los votos (en cualquier sistema) son válidos si y sólo si se verifica la pertenencia dentro de una organización, ninguna democracia puede funcionar con identidades corruptas. Los sistemas de identidad estándar de hoy se basan en que las autoridades centrales obligan a los usuarios a compartir información privada arriesgando el robo de identidad si son hackeados. Los precedentes incluyen [https://gov.uk Gov.UK de Reino Unido] y [https://uidai.gov.in/ Aadhaar de la India], ambos han sido plagados por informes de prácticas de seguridad impropias que incluyeron fugas comprometiendo la privacidad de millones.
+
+Para que las identidades sean auto-soberanas, no pueden ser propiedad ni controladas por gobiernos, organizaciones o corporaciones que en última instancia tengan como prioridad la extracción de valor de sus usuarios. Nuestro enfoque con [http://sovereign.software Sovereign] es que está centrado en la organización como tecnología, pero una organización puede descentralizar si su proceso de verificación de identidad carece de la necesidad de autoridad. En última instancia, cualquier proceso que dependa de la identidad descentralizada es parte de un patrimonio común ya que el principio de una identidad de soberanía propia hace que cualquier "hermano mayor" sea irrelevante. Por lo tanto, la clave para sostener el valor del testigo ''voto'' como medio para una democracia sin fronteras es validar efectivamente todas las identidades participantes a través de un proceso descentralizado que puede crear, actualizar o revocar claves. Así es como la Democracy Earth Foundation otorgará acceso a los ''votos'' como un derecho humano.
+
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
+Cualquier persona que pueda demostrar su propia identidad en virtud de un protocolo descentralizado denominado ''Prueba de Identidad'' (POI por sus siglas en inglés) puede operar con una proporción correspondiente de ''votos''. Este mecanismo activará una asignación a lo largo del tiempo en la dirección pública reivindicada de la identidad que es accesible a través de una billetera auto-alojada conectada al contenido y datos utilizados para el POI. Si suficientes ''votos'' validan la evidencia utilizada para la ''Prueba de Identidad'', la cartera descongelará una cantidad correspondiente de ''votos'' siguiendo las reglas de una dinámica de ''Renta Básica Universal'' que asigna tokens a lo largo del tiempo que utiliza la cadena de bloque Bitcoin como un reloj universal.
 
 ===3.2 Proof of Identity.===
 
