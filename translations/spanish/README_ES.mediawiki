@@ -334,7 +334,13 @@ Esto hará que las delegaciones sean más frecuentes en toda la plataforma. Los 
 
 ==3. Execution.==
 
-[agregar traduccion aqui]
+[[File:/images/humans.png|Humnos en la tierra.]]
+
+Un hecho apremiante que va al núcleo de los desafíos políticos y económicos del siglo XXI es el aumento del crecimiento demográfico: [https://esa.un.org/unpd/wpp/ Las Naciones Unidas calculan que para el año 2100 el mundo superará los 10.000.000.000 de sapiens]. En otras palabras: [https://en.wikipedia.org/wiki/Carrying_capacity la capacidad de transporte del planeta] se alcanzará a finales de este siglo.
+
+En el legado cultural de las islas se pueden encontrar pistas sobre los riesgos de quedarse sin recursos. Una tierra lejana tal como [https://en.wikipedia.org/wiki/History_of_Easter_Island Isla de Pascua] era durante la mayor parte de su historia un sistema cerrado sin ningún contacto con el resto del mundo. Su población no tenía medios de supervivencia más que sus propios recursos, enfrentándose constantemente a los peligros del hambre, las epidemias y la guerra civil. A pesar de que estas amenazas parecen lejanas en una economía globalizada, el repentino aumento de la población humana durante el siglo pasado es la fuerza impulsora de los crecientes niveles de CO<sup>2</sup> en la atmósfera y el colapso de la infraestructura pública incapaz de hacer frente a las migraciones masivas. Los refugiados están escapando de las guerras que buscan asegurar los recursos energéticos para un futuro que nos viene rápido a medida que el ritmo de la innovación tecnológica se acelera. Aunque algunos ya han puesto en marcha planes de escape, incluyendo esfuerzos privados para llegar a Marte en las próximas décadas (parecido a la historia bíblica del Arca de Noé), el llamado urgente a salvaguardar a la humanidad en su conjunto debe ser amplificado y contestado.
+
+La distribución de oportunidades y la colaboración inteligente en todo el mundo no se puede lograr pacíficamente a menos que cada voz se escucha, sin excepciones. La gobernanza global es el siguiente paso lógico en un mundo ya conectado a través de Internet. Los bloqueos conducen a la posibilidad de una gobernanza líquida que sienta los cimientos de una democracia de pares. No se requiere permiso de los Estados Nación establecidos: los ciudadanos de cualquier parte del mundo pueden aceptar este cambio usando redes soberanas.
 
 ===3.1 Rights vs. Debt.===
 [agregar traduccion aqui]
