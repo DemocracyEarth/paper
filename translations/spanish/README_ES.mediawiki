@@ -523,8 +523,21 @@ Una ''Prueba de Identidad'' caduca después de un período de tiempo determinado
 
 [agregar traduccion aqui]
 
-===3.3 Universal Basic Income.===
-[agregar traduccion aqui]
+===3.3 Ingreso Básico Universal.===
+<blockquote>
+  Ahora es el momento de hacer realidad la promesa de la democracia.
+</blockquote>
+'''Martin Luther King Jr.''', Ministro y activista (1929-1968).
+
+La capacidad de desarrollar un proceso de validación de identidad autónomo fiable no sólo garantiza el legítimo valor de los votos para expresar la elección social, sino que también establece la base para la infraestructura necesaria para crear un mecanismo de "ingreso básico universal" que pueda beneficiar a todos en la Tierra. La relación simbiótica entre IBU y democracia ha sido bien fundamentada. Según la investigación presentada en Basic Income Earth Network (Munich, septiembre de 2012), la implementación del ingreso básico [http://basicincome.org/bien/pdf/munich2012/Choi.pdf puede contribuir en gran medida a la realización de los principios de la democracia, así como el establecimiento de su base sustancial]. Por lo tanto, con el fin de consolidar la lógica política y financiera capaz de establecer una democracia sin fronteras, una vez que una "Prueba de Identidad" es validada por sus pares, el mecanismo de distribución desencadenado por "votos" se basará en el tiempo como IBU.
+
+El tiempo es un activo valioso y limitado, por lo tanto, negociable. Uno no puede comprar, alquilar o contratar más tiempo: tiene un suministro inelástico sin importar qué tan alta sea la demanda. [https://books.google.com/books?id=sjlVAAAAcAAJ&pg=PA5&lpg=PA5&dq=what+is+money+man%27s+birthright+time&source=bl&ots=uxfZPDT94J&sig=gWf_LpHeEA-g6ukveZ1-mQI3FE4&hl=es&sa=X&ved=0ahUKEwjgyuHR2ejVAhUK7iYKHUX0AzgQ6AEILjAB#v=onepage&q=what%20is%20money%20man's%20birthright%20time&f=false El tiempo es el único estándar de valor para comprobar trabajo, bien sea manual o mental, realizado por hombres y mujeres.] Al marcar el tiempo y usarlo como base para asignar ''votos'', liquida una posesión que todos los miembros de una democracia global poseen en igualdad de condiciones. La liquidez es un requisito para cualquier democracia que pretenda evitar la coerción: las voces deben poder ser escuchadas para que cuenten, y al otorgar "votos" en forma de IBU, estamos aprovechando la entrega de un derecho humano que puede efectivamente capacitar a individuos que tendran que lidiar con los retos que traerá la automatización. ''Votos'' concedidos a lo largo del tiempo como un derecho evita la [https://es.wikipedia.org/wiki/Tragedia_de_los_comunes ''tragedia de los comunes''], mientras que establece las bases para un modelo de gobierno que va más allá de la deuda y las Naciones Unidas.
+
+Un auto-soberano entonces es capaz de obtener ''votos'' por tres medios distintos:
+
+* '''Delegación''': Cualquier <code>Miembro</code> dentro de una <code>Organización</code> funcionando como una democracia líquida puede obtener ''votos'' delegados.
+* '''Concesión''': <code>Organizaciones</code> pueden conceder ''votos'' a participantes nuevos de acuerdo a sus propios términos. Los participantes pueden crear o financiar <code>Organizaciones</code> utilizando sus propios ''votos''.
+* '''Goteo''': Una vez que una ''Prueba de Identidad'' se vuelve válida, ''votos'' empiezan a gotear en la cartera de un usuario a lo largo del tiempo.
 
 ====3.3.1 Dripping.====
 
