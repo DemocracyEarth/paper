@@ -496,18 +496,69 @@ Una ''Prueba de Identidad'' caduca después de un período de tiempo determinado
 
 ====3.2.1 Demo.====
 
-[agregar traduccion aqui]
+Hay un precedente que ayuda a ilustrar cómo funciona una '''Prueba de Identidad'''. [https://youtu.be/Irc-VMuUs3c?t=55m20s Según el profesor de la NYU, David Yermack], recién nacido Roma Siri se convirtió en el primer bebé a tener un certificado de nacimiento válido blockchain el 7 de noviembre de 2015. El proceso, aunque simbólica en el momento, consistía en [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20y%20Pia%20Mancini%20%28mother%29.MOV?Dl=0 un video mostrando al bebé Roma que describió sus signos vitales e incluyó testigos de su nacimiento]. Una vez que el video fue filmado, un hash criptográfico del archivo digital se generó y se codificó en una transacción de Bitcoin. Esto significa que independientemente del lugar donde se almacena el vídeo, el registro permanente de su hash en la cadena de bloques de Bitcoin puede verificar que los datos del archivo no estaban dañados y que existía en el momento en que se generó la prueba. Con esta evidencia incorruptible, Roma se convirtió en un ciudadano global certificado por un bloque de bloqueos.
+
+Esta demostración sirve de ejemplo para los pasos que deben seguirse para una '''Prueba de Identidad''' descentralizada:
+
+# '''Prueba de película''' con cualquier teléfono o cámara disponible.
+# '''Hash proof''' en una cadena de bloqueo para garantizar la incorruptibilidad de la evidencia.
+# '''Validar prueba''' a través de un proceso de votación entre pares (''Atención Minera'').
 
 ====3.2.2 Video Proof.====
 
-[agregar traduccion aqui]
+Una prueba se puede hacer con cualquier aplicación de grabación, siempre y cuando cumpla con los requisitos del protocolo. Se recomienda una extensión de no más de 3 minutos para el video. En él el usuario debe seguir una serie de pasos guiados para ayudar a los validadores a juzgar con su atención:
+
+Frente a la luz frontal, la expresión frontal de la película (como cuando se toma un ''selfie'') y cada lado de la cabeza sin usar anteojos, sombreros, maquillaje o máscaras de cualquier tipo.
+
+# '''Nombres''': Diga en voz alta los siguientes indicadores:
+## Nombre completo (identidad basada en el idioma).
+## Apellido completo (identidad basada en la sangre, además puede indicar información sobre la madre y el padre).
+## Nacionalidad (identidad territorial, puede incluir lugar de residencia o jurisdicción de pago de impuestos).
+## Alternativamente el usuario puede usar un apodo si es un puntero más común a su uno mismo.
+
+# '''Biometría''' (Opcional): Diga en voz alta o demuestre de manera fiable cualquiera de estos indicadores. Esto puede ser útil para casos de uso específicos como certificados de nacimiento.
+## Cumpleaños (día, mes y año).
+Altura (pulgadas o centímetros).
+Peso (libras o kilogramos).
+## Género (masculino, femenino, etc).
+
+# ''''Testigos'''' (Opcional): Las identidades previamente validadas pueden actuar como testigos de esta identidad. Pueden estar físicamente localizados y aparecer en el video indicando sus nombres completos y claves públicas para endosar una nueva identidad.
+## Los testigos pueden obtener los derechos de revocar, actualizar o cancelar esta prueba (por ejemplo, en caso de pérdida de claves privadas o muerte biológica).
+Gemelos Aquellos que tienen un hermano gemelo o hermana deben especificar esto para evitar ser marcados como un replicante durante el proceso de verificación.
+## Certificaciones. A pesar de que esto sería volver a la autoridad central, legado reputación de documentos emitidos por el Estado puede ayudar a hacer una prueba de vídeo más fácil confiar. Esto puede incluir un certificado de nacimiento, licencia de conducir o una identificación nacional, siempre y cuando no contenga información confidencial (por ejemplo, usando un número de seguro social en los Estados Unidos).
+
+# '''Declaración''': Para garantizar que la persona que genera su prueba de identidad es consciente de los derechos que recibirá al ser aprobado en la red y no está siendo coaccionado por un atacante invisible, es obligatorio hacer una declaración de auto-soberanía que también incluye un juramento con respecto a los hechos declarados: <blockquote>Yo, (nombre personal), declaro que estoy haciendo este video de acuerdo a mi soberanía personal como ciudadano de la Tierra y todas las declaraciones hechos son verdaderos. Seré el único usuario de todos los ''votos'' asignados en nombre de esta prueba y estoy actuando sin ninguna amenaza o coacción contra mi libre albedrío. </blockquote>
+
+# '''Clave Pública''': Una dirección donde ''votos'' serán asignados si la identidad es validada. Éste será el identificador descentralizado (DID) [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md] que señala a este usuario. Si esta identidad finalmente se vota como dañada o el usuario (o cualquier testigo en la lista) la revoca, entonces los ''votos'' asignados serán invalidados para uso futuro.
+
+# '''Timestamp''': Altura del bloque actual de la cadena de bloqueo utilizada para deshacer este video para evitar que cualquier vídeo no relacionado con el momento en que se está generando el POI se utilice como prueba. Una marca de tiempo manual puede simplemente filmar la pantalla de una aplicación de explorador de bloques que muestra el último número de bloque y el hash correspondiente. Dado que esto puede ser complejo para la mayoría de los usuarios, las aplicaciones diseñadas para generar esta prueba pueden agregar automáticamente este contenido al vídeo. Esta información, una vez que la prueba es hashed con una transacción blockchain certificará que el video no fue modificado de ninguna manera por un tercero después de que fue transmitido a la red.
+
+A pesar de que este proceso puede ser más complejo que el formulario de inscripción promedio que se encuentra en la mayoría de las aplicaciones, es importante señalar que es también un acto político que declara la independencia de las autoridades de cualquier tipo. Este video es el manifiesto personal que cualquiera puede hacer para liberarse de la coerción y un paso hacia una democracia sin fronteras.
 
 ====3.2.3 Hashing.====
 
-[agregar traduccion aqui]
+Una vez que se genera el archivo digital con la prueba de auto-soberanía, se calcula una [https://en.wikipedia.org/wiki/Cryptographic_hash_function función de hash criptográfica] aplicada a ella. Siguiendo los pasos de la implementación realizada por Manuel Araoz y Esteban Ordano con [https://proofofexistence.com ProofofExistence.com], un resumen estándar [https://en.wikipedia.org/wiki/SHA-2 SHA-256] es recomendado. Una vez que se ha generado el hash, se puede codificar en una transacción Bitcoin mediante un script [https://en.bitcoin.it/wiki/OP_RETURN OP_RETURN] que también incluye un marcador que ayuda a rastrear las pruebas relacionadas con la identidad. Sugerimos utilizar 'IDPROOF' (0x494450524f4f46) para este caso de uso en particular.
+
+Teniendo en cuenta que una transacción media bitcoin consiste en 226 bytes con una cuota de minería a partir de agosto de 2017 en 27.120 satoshis, el costo de hash una prueba directamente en la cadena de bloqueo es de ~$1 por prueba. Esto puede ser relativamente costoso para la mayoría de la gente, por lo tanto, recomendamos escalar este proceso al permitir una implementación [https://github.com/aantonop/chainpoint Chainpoint] capaz de almacenar hasta 10.000 pruebas por transacción poniendo los datos hash en a [https://en.wikipedia.org/wiki/Merkle_tree Merkle Tree] y codificando la raíz Merkle en el script OP_RETURN en su lugar. Esto también reducirá significativamente los requisitos de memoria de la cadena de bloque Bitcoin, un recurso público que no debe ser abusado. Alternativamente, los cadenas virtuales que se ejecutan en la parte superior de la cadena de bloqueo Bitcoin que tienen un enfoque en la identidad y espacios de nombres como [http://blockstack.org Blockstack] se pueden utilizar para satisfacer este caso de uso y la gestión del par de claves público-privado.
+
+Cualquier prueba que pase por este proceso en un contexto digital está garantizado para no ser dañado de ninguna manera. Los archivos digitales que se utilizan como prueba se pueden almacenar en cualquier lugar, copiado sin restricciones o incluso mantenerse en secreto sin compartirlo con nadie. Mientras exista una transacción en la cadena de bloques que pueda validar el hash codificado con los datos del archivo digital, entonces la evidencia es válida. La cadena de bloques Bitcoin ofrece la mayor resistencia a la corrupción ya que tiene la mayor cantidad de poder de hashing en el mundo que protege su infraestructura. Con este mecanismo en su lugar, la cadena de bloque Bitcoin puede funcionar como un índice descentralizado de identidades de auto-soberanía. Aprovechar esta capacidad sólo hará que la burocracia de una democracia sin fronteras sea más fuerte que cualquier otro gobierno en la Tierra.
 
 ====3.2.4 Attention Mining.====
-[agregar traduccion aqui]
+
+<blockquote>
+  En la cadena de bloques, nadie sabe que eres un AI
+</blockquote>
+'''Satoshi Nakamoto'''.
+
+[[File:/images/proof-of-identity.png|Prueba de identidad.]]
+
+En el espacio de ordenadores, las identidades no son sino punteros: los algoritmos carecen de conocimiento sobre los patrones que están capacitados para reconocer. Las identidades pertenecen estrictamente al reino humano (es decir, sólo una persona puede reconocer a otra persona). Así que en lugar de aprovechar el poder de la computación distribuida para verificar las transacciones como sucede con la mayoría de las criptocurrencias, los votos usan el poder de atención distribuido para verificar las pruebas de identidad autogeneradas. Esta atención es traída por los participantes humanos que actúan como validadores.
+
+Un precedente bien conocido de la minería de atención son pruebas CAPTCHA a menudo se encuentran en el inicio de sesión de sitios web de alto tráfico. CAPTCHA es un acrónimo (en español) para ''Prueba de Turing Público Completamente Automatizada para decir a Computadoras y Humanos Aparte''. Éstos consisten en ejercicios simples de la visión que pueden ser completados por un humano más fácilmente que por una computadora. Un campo [https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf iniciado por el investigador Louis Von Ahn], utilizó esta técnica para ayudar a construir conjuntos de datos capaces de entrenar algoritmos de aprendizaje de máquina para leer palabras impresas en papel. A medida que un ingeniero de Google Von Ahn creó una prueba sencilla distribuida en todas las páginas de inicio de sesión que mostraban dos palabras obtenidas de las imágenes escaneadas. Un usuario escribiría ambas palabras en un campo de entrada de texto para demostrar que es humano y no una máquina. El sistema ya conocía el significado de la primera palabra (validando así que el usuario es humano) pero se entrenó con la segunda entrada, ya que utiliza esta información en el conjunto de datos para los algoritmos de reconocimiento de caracteres. Este ejercicio simple se ha extendido para entrenar todo tipo de sistemas de reconocimiento de patrones y contribuyó a la seguridad de los sitios web que impidieron que intrusos (y botnets) de bots.
+
+La atención también puede validar las identidades humanas en una red descentralizada, análoga a [https://bitcoin.com/bitcoin.pdf El algoritmo de prueba de trabajo de Bitcoin (POW por siglas en inglés)] utilizado por los nodos de minería para registrar temporalmente las transacciones de igual a igual. En Bitcoin, cada minero genera su propio hash de prueba compatible con bloques de bloques para un nuevo bloque de transacciones y lo transmite a la red. Si el 51% de los nodos de la red aceptan el bloque verificado, se encadena a la cadena de bloques y el minero comienza a trabajar en el siguiente bloque de transacción utilizando el bloque aceptado como el hash anterior. Esta técnica permite transacciones monetarias sin bancos centrales. En una democracia sin gobiernos centrales en lugar de verificar los bloques codificados, la atención humana sirve al propósito de votar sobre identidades autogeneradas a fin de otorgarles ''votos'' que pueden ser utilizados para nuevas verificaciones.
+
+La mayoría de las investigaciones sobre cómo prevenir ataques de sybil (falsificación de identidad en redes peer to peer) gira alrededor de requerir que las entidades realicen una tarea que un atacante sybil no podría realizar. La minería de la atención requiere que los validadores observen ciertos aspectos de los videos de ''Prueba de Identidad'' que sólo una persona puede reconocer. Con el fin de tener un mecanismo que impide que los robots, el sistema puede generar vídeos modificados para inducir a los atacantes a error. Estas distorsiones pueden ser creadas cortando ciertas secciones de un video, mezclándolo con otras o distorsionando las voces para trabajar como una versión de video de una prueba CAPTCHA dirigida a distinguir de forma segura entre los validadores humanos reales y botnets.
 
 ====3.2.5 Little Brothers.====
 [agregar traduccion aqui]
