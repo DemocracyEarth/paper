@@ -384,7 +384,34 @@ Esta demostración sirve de ejemplo para los pasos que deben seguirse para una '
 
 ====3.2.2 Video Proof.====
 
-[agregar traduccion aqui]
+Una prueba se puede hacer con cualquier aplicación de grabación, siempre y cuando cumpla con los requisitos del protocolo. Se recomienda una extensión de no más de 3 minutos para el video. En él el usuario debe seguir una serie de pasos guiados para ayudar a los validadores a juzgar con su atención:
+
+Frente a la luz frontal, la expresión frontal de la película (como cuando se toma un ''selfie'') y cada lado de la cabeza sin usar anteojos, sombreros, maquillaje o máscaras de cualquier tipo.
+
+# '''Nombres''': Diga en voz alta los siguientes indicadores:
+## Nombre completo (identidad basada en el idioma).
+## Apellido completo (identidad basada en la sangre, además puede indicar información sobre la madre y el padre).
+## Nacionalidad (identidad territorial, puede incluir lugar de residencia o jurisdicción de pago de impuestos).
+## Alternativamente el usuario puede usar un apodo si es un puntero más común a su uno mismo.
+
+# '''Biometría''' (Opcional): Diga en voz alta o demuestre de manera fiable cualquiera de estos indicadores. Esto puede ser útil para casos de uso específicos como certificados de nacimiento.
+## Cumpleaños (día, mes y año).
+Altura (pulgadas o centímetros).
+Peso (libras o kilogramos).
+## Género (masculino, femenino, etc).
+
+# ''''Testigos'''' (Opcional): Las identidades previamente validadas pueden actuar como testigos de esta identidad. Pueden estar físicamente localizados y aparecer en el video indicando sus nombres completos y claves públicas para endosar una nueva identidad.
+## Los testigos pueden obtener los derechos de revocar, actualizar o cancelar esta prueba (por ejemplo, en caso de pérdida de claves privadas o muerte biológica).
+Gemelos Aquellos que tienen un hermano gemelo o hermana deben especificar esto para evitar ser marcados como un replicante durante el proceso de verificación.
+## Certificaciones. A pesar de que esto sería volver a la autoridad central, legado reputación de documentos emitidos por el Estado puede ayudar a hacer una prueba de vídeo más fácil confiar. Esto puede incluir un certificado de nacimiento, licencia de conducir o una identificación nacional, siempre y cuando no contenga información confidencial (por ejemplo, usando un número de seguro social en los Estados Unidos).
+
+# '''Declaración''': Para garantizar que la persona que genera su prueba de identidad es consciente de los derechos que recibirá al ser aprobado en la red y no está siendo coaccionado por un atacante invisible, es obligatorio hacer una declaración de auto-soberanía que también incluye un juramento con respecto a los hechos declarados: <blockquote>Yo, (nombre personal), declaro que estoy haciendo este video de acuerdo a mi soberanía personal como ciudadano de la Tierra y todas las declaraciones hechos son verdaderos. Seré el único usuario de todos los ''votos'' asignados en nombre de esta prueba y estoy actuando sin ninguna amenaza o coacción contra mi libre albedrío. </blockquote>
+
+# '''Clave Pública''': Una dirección donde ''votos'' serán asignados si la identidad es validada. Éste será el identificador descentralizado (DID) [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md] que señala a este usuario. Si esta identidad finalmente se vota como dañada o el usuario (o cualquier testigo en la lista) la revoca, entonces los ''votos'' asignados serán invalidados para uso futuro.
+
+# '''Timestamp''': Altura del bloque actual de la cadena de bloqueo utilizada para deshacer este video para evitar que cualquier vídeo no relacionado con el momento en que se está generando el POI se utilice como prueba. Una marca de tiempo manual puede simplemente filmar la pantalla de una aplicación de explorador de bloques que muestra el último número de bloque y el hash correspondiente. Dado que esto puede ser complejo para la mayoría de los usuarios, las aplicaciones diseñadas para generar esta prueba pueden agregar automáticamente este contenido al vídeo. Esta información, una vez que la prueba es hashed con una transacción blockchain certificará que el video no fue modificado de ninguna manera por un tercero después de que fue transmitido a la red.
+
+A pesar de que este proceso puede ser más complejo que el formulario de inscripción promedio que se encuentra en la mayoría de las aplicaciones, es importante señalar que es también un acto político que declara la independencia de las autoridades de cualquier tipo. Este video es el manifiesto personal que cualquiera puede hacer para liberarse de la coerción y un paso hacia una democracia sin fronteras.
 
 ====3.2.3 Hashing.====
 
