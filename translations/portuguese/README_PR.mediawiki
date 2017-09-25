@@ -858,30 +858,30 @@ To those who argue about electronic voting online scoring their arguments with F
 
 ----
 
-==4. About.==
+==4. Sobre.==
 
-The Democracy Earth Foundation is an effort made possible by collaborators, donors and supporters of all kinds. We are a 501 (c) 3 not for profit organization from California and with presence in New York, Paris, Buenos Aires and San Francisco.
+A Democracy Earth Foundation é um esforço feito por colaboradores, doadores e apoiadores de todos os tipos. Somos uma organização 501 (c) 3 sem fins lucrativos da Califórnia e com presença em Nova York, Paris, Buenos Aires e São Francisco.
 
-===4.1 Team & Collaborators.===
+===4.1 Time & Colaboradores.===
 
 Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
 
-===4.2 Advisory Board.===
+===4.2 Conselho Consultivo.===
 
 Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
 
-===4.3 Individual Donors.===
+===4.3 Doadores Individuais.===
 
 Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
 
-===4.4 Acknowledgements.===
+===4.4 Agradecimentos.===
 
-These are some of the minds that inspired the ideas expressed on this document.
+Estas são algumas das mentes que inspiraram as ideias expressas neste documento.
 
 Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
 
 ===4.5 Supporters.===
 
-These organizations supported our work through grants, partnerships and recognition of our research and development efforts.
+Estas organizações apoiaram nosso trabalho através de grants, parcerias e reconhecimento de nossos esforços de pesquisa e desenvolvimento.
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
