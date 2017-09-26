@@ -181,7 +181,7 @@ Nós não invocamos cidadãos comuns não treinados para realizar cirurgias, pil
 
 Um sistema de votação ideal deve ser capaz de satisfazer, na maior medida possível, as seguintes condições:
 
-* '''Secrecy''': o eleitor deve poder votar em segredo.
+* '''Sigilo''': o eleitor deve poder votar em segredo.
 
 * '''Verificabilidade''': o eleitor deve poder verificar a votação acumulada.
 
@@ -225,208 +225,210 @@ O que diferencia um voto de dinheiro (ou em termos mais amplos: uma ''economia p
 
 ====2.1.1 Implementação.====
 
-Considerando que o valor [https://en.wikipedia.org/wiki/Dogecoin pode ser conduzido pela capacidade memética], o token da Democracy Earth que concede direitos de voto será marcado com a mensagem mais importante que qualquer democracia possa transmitir: "vote".
+Considerando que o valor [https://en.wikipedia.org/wiki/Dogecoin pode ser conduzido pela capacidade memética], o token da Democracy Earth que concede direitos de voto será marcado com a mensagem mais importante que qualquer democracia possa transmitir: ''vote''.
 
-O token ''vote'' pode ser implementado usando um código de smart contract em uma variedade de blockchains que permitem scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing Completos], incluindo a Bitcoin. Nosso design é agnóstico á redes de blockchain,  em reconhecimento de um campo de informática ainda na sua infância, onde as inovações significativas ainda não foram inventadas. No entanto, estamos trabalhando na implementação do token ''vote'' sob os seguintes ambientes de smart contracts:
+O token ''vote'' pode ser implementado usando um código de smart contract em uma variedade de blockchains que permitem scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing Completos], incluindo a Bitcoin. Nosso design é agnóstico á redes de blockchain,  em reconhecimento de um campo de informática em sua infância, onde as inovações significativas ainda não foram inventadas. No entanto, estamos trabalhando na implementação do token ''vote'' sob os seguintes ambientes de smart contracts:
 
 * '''Ethereum''': Usando um conjunto de smart contracts [https://github.com/ethereum/solidity solidity] sob o [https://theethereum.wiki/w/index.php/ERC20_Token_Standard token padrão Ethereum ERC20].
 
-** '''Rootstock''': Estamos a tomar as medidas necessárias para tornar o código de solidez compatível com [http://www.rsk.co/ Interpretador de contrato inteligente da Rootstock para a cadeia de bitcoin].
+** '''Rootstock''': Estamos tomando as medidas necessárias para tornar o código ''solidity'' compatível com o [http://www.rsk.co/  interpretador de smart contracts da Rootstock para a blockchain da Bitcoin].
 
-* '''Lightning''': com a ativação de uma [https://en.bitcoin.it/wiki/Segregated_Witness testemunha segregada] no protocolo Bitcoin que permite o roteamento de canais de pagamento com o [http://lightning.network Protocolo da rede Lightning], as delegações da democracia líquida podem ser mapeadas usando transações de nível satoshi com um identificador de ''vote''. O custo de liquidação Blockchain deve ser coberto pela organização implementadora.
+* '''Lightning''': com a ativação de uma [https://en.bitcoin.it/wiki/Segregated_Witness testemunha segregada] no protocolo Bitcoin que permite o roteamento de canais de pagamento com o [http://lightning.network Protocolo da rede Lightning], as delegações da democracia líquida podem ser mapeadas usando transações de nível satoshi com um identificador de ''vote''. O custo de liquidação da Blockchain deve ser coberto pela organização implementadora.
 
 Além disso, as implementações de multi-chain são encorajadas no espírito de buscar uma maior experimentação e colaboração em relação a essas tecnologias.
 
-===2.2 Voting.===
+===2.2 Votação.===
 
-The ''vote'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with ''votes'':
+O token ''vote'' pretende ser um padrão para a democracia digital capaz de interoperar com outros tokens, estabelecendo uma linguagem comum para a governança de organizações baseadas em blockchains. No contexto das democracias líquidas, é permitido um leque de transações de voto com ''votes'':
 
-* '''Direct Vote''': Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
+* '''Votação Direta''': Eleitor egoísta Alice pode usar seus tokens para votar diretamente em questões como em uma democracia direta.
 
-* '''Basic Delegation''': Alice may delegate ''votes'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+* '''Delegação Básica''': Alice pode delegar ''votes'' para Bob. Enquanto ele tiver acesso a esses tokens, pode usá-los para votar em nome de Alice.
 
-* '''Tag Limited Delegation''': Alice may delegate ''votes'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''votes'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+* '''Delegação Limitada por Tag''': Alice pode delegar ''votes'' para Charlie sob a condição especificada de que ele só pode usar esses tokens em questões que carregam uma tag específica. Se a delegação específica que os ''votes'' delegados só podem ser usados em decisões com a tag ''#meioambiente'', então Charlie não poderá usá-los em nenhum outro lugar que não seja relacionado a questões específicas de meio ambiente. Isto leva a um modelo de representação não baseado em território, mas em conhecimento.
 
-* '''Transitive Delegation''': If Bob received ''votes'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of ''votes'' from an organization to its members carries a signature indicating who is the sovereign owner of the ''votes''.
+* '''Delegação Transitiva''': Se Bob recebeu '' votes '' de Alice, ele pode então delegar isso à Frank. Isso gera uma cadeia de delegações que ajuda a capacitar os atores específicos dentro de uma comunidade. Se Alice não deseja ter terceiros recebendo os votos que ela delegou para Bob, ela pode desligar a configuração transitiva no contrato de delegação. As delegações circulares (por exemplo, Alice recebendo os tokens que ela enviou à Bob de Frank) são proibidas, uma vez que a alocação original de ''votes'' de uma organização para seus membros contém uma assinatura que indica quem é o proprietário soberano dos ''votes''.
 
-* '''Overriding Vote''': If Bob already used the delegated ''votes'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''votes''.
+* '''Alteração de voto''': Se Bob já usou os votos delegados que ele recebeu de Alice, mas ela tem uma opinião diferente sobre uma questão dada, como o dona soberana de seus votos Alice sempre pode anular a decisão de Bob. Os eleitores sempre têm a última palavra em qualquer decisão com seus ''votes'' originais.
 
-* '''Public Vote''': Often referred as the ''golden rule'' of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+* '''Votação pública''': Muitas vezes referida como a ''regra de ouro'' das democracias líquidas, todos os delegadores têm o direito de saber como seu delegado votou em qualquer questão com seus ''votes''. Da mesma forma que os votos dos congressistas são públicos, em democracias líquidas os delegados concorrentes em qualquer tag têm um incentivo para construir uma reputação pública com base em seu registro de votação, a fim de atrair mais delegações.
 
-* '''Secret Vote''': A method able to guarantee ''vote'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''vote'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''vote'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''votes'' with these blockchains:
+* '''Voz Secreta''': Um método capaz de garantir transações ''voto'' não rastreáveis de volta para o eleitor. Isso é indispensável em contextos de eleições públicas realizadas em grandes populações que apresentam alto risco de coerção. Mesmo que o sigilo perfeito na transação '' vote '' seja alcançado, os usuários ainda podem ser rastreáveis com meta-dados expostos. Por esse motivo, é incentivada a pesquisa sobre integração com blockchains projetadas para transações anônimas com histórico comprovado. Isso pode incluir uma taxa de mineração para liquidar a operação de ''vote'' que pode ser subsidiada pela organização implementadora ou diretamente paga pelos eleitores. Recomendamos a pesquisa e a integração de ''votes'' secretos com as seguintes redes de blockchain:
 
-** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
+** [https://z.cash ZCash]: implementa transações blindadas usando [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-prova de conhecimento]
 
-** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
+** [https://getmonero.org Monero]: usa [https://en.wikipedia.org/wiki/Ring_signature assinaturas ring signatures com endereços furtivos].
 
 ===2.3 User Experience.===
 
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+A ''user experience'' (UX) é um aspecto crítico de uma arquitetura descentralizada e torna-se ainda mais importante à medida que as camadas redundantes de arquiteturas centralizadas se condensam para o usuário. Em uma arquitetura de internet centralizada, o usuário não é dono da interface ou da experiência. Em uma arquitetura de internet descentralizada, a interface do usuário (UI) deve ser baseada na perspectiva do usuário. Nesse sentido, as transações são feitas sob três pontos de vista distintos:
 
-* '''Self''': Using a public identity related to an individual.
+* '''Self''': Usando uma identidade pública relacionada a um indivíduo.
 
-* '''Organization''': In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+* '''Organização''': Em representação de uma organização que ampliou direitos de representação para indivíduos (por exemplo, local de trabalho, clube, partido político, etc.).
 
-* '''Anonymous''': Without any connection to a public identity.
+* '''Anônimo''': Sem nenhuma conexão com uma identidade pública.
 
-This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations.
+Essa compreensão do requisito '' SELF / ORG / ANON '' influenciou muito nosso projeto de interface e token. Em qualquer momento, um usuário soberano pode adotar qualquer um desses modos para interagir com organizações descentralizadas. 
 
-====2.3.1 Liquid.====
+==== 2.3.1 Líquida. ====
 
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile or desktop devices.
+O Sovereign pretende tornar a votação líquida imediata e simples. Qualquer fricção no processo deve ser evitada e a ferramenta de delegação deve ser constantemente exposta na interface ao navegar em questões (issues) ou procurar perfis de membros. Para esse fim, o Sovereign usa uma "barra líquida" que permite transações de ''votes'' com um único gesto em dispositivos móveis ou desktop.
 
-[[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
+[[Arquivo: /images/liquid-mobile-ux.png | Interface móvel do Sovereign exibindo decisão, cédula e votação líquida.]]
 
-The ''liquid bar'' allows these actions:
+A "barra líquida" permite as seguintes ações:
 
-* '''See available ''votes''''': Since in a liquid democracy a user can have 1 or more delegated ''votes'', having a constant reminder of the balance helps the user understand his or her current power within the system. If some of the ''votes'' were delegated with strict conditions (e.g. a ''Tag Limited Delegation''), this means that a user won't have the same amount of ''votes'' available to spend on every issue.
+* ''' Ver ''votes'' disponíveis ''': Uma vez que em uma democracia líquida, um usuário pode ter 1 ou mais ''votes'' delegados, ter um lembrete constante do balanço ajuda o usuário a entender seu poder atual dentro do sistema. Se alguns dos ''votes'' fossem delegados com condições estritas (por exemplo, uma "Delegação Limitada"), isso significa que um usuário não terá a mesma quantidade de ''votes'' disponíveis para gastar em todas as questões.
 
-* '''See cast ''votes''''': A percentage value with the amount of ''votes'' currently cast on other decisions or delegated to other members of the community is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''vote'' and decide whether to keep them there or make a strategic change.
+* ''' Ver ''votes'' lançados ''': É mostrado um valor percentual com a quantidade de ''votes'' atualmente lançados em outras decisões ou delegados a outros membros da comunidade. O usuário pode tocar ou clicar em qualquer momento nesse valor para ver uma lista completa das questões (issues) em que ele está atualmente tendo um ''vote'' e decidir se mantê-los ou fazer uma mudança estratégica.
 
-* '''Slide to ''vote''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he or she will be prompted a confirmation request whether to ''vote'' or not.
+* '''Deslize para votar''': O usuário pode usar o polegar (ou clique do mouse) para deslizar a alça da ''barra líquida'' e, após a liberação, ele será solicitado uma confirmação de que quer votar ou não.
 
-* '''Tap to ''vote''''': If the user does not want to allocate more than 1 vote, he or she can simply tap on the ''liquid bar'' handle once and will be prompted to confirm a single ''vote'' transaction.
+* '''Toque para votar ''': Se o usuário não quiser alocar mais de 1 voto, ele ou ela pode simplesmente tocar na ''barra líquida'' uma vez e será solicitado a confirmar uma única transação de ''vote''.
 
-* '''Remove ''votes''''': At any time, as long as the poll is still open, the user may remove his or her ''votes'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
+* '''Remover ''votes'' ''': em qualquer momento, desde que a enquete ainda esteja aberta, o usuário pode remover seus ''votes'' de uma decisão simplesmente deslizando a alça da ''barra líquida'' de volta à posição inicial.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''votes'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding how a user's interaction will influence a specific decision. ''votes'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporations.
+Vemos essa interação como um passo adiante do padrão ''like'' encontrado nas mídias sociais. ''Likes'' limitam a votação a cliques descuidados e podem ser inflados à vontade. Uma vez que os ''votes'' funcionam como um recurso escasso no sistema, eles não podem ser gerados a vontade e sempre exigem um mínimo de pensamento tático sobre como a interação de um usuário influenciará uma decisão específica. '' Votes '' têm implicações reais para o usuário como um participante de uma organização descentralizada, enquanto ''likes'' apenas servem suas corporações de controle.
 
-====2.3.2 Delegations.====
+====2.3.2 Delegações.====
 
-A ''liquid bar'' also displays the ''vote'' delegation relation a user has with any other member of an organization. Delegations go both ways:
+Uma "barra líquida" também exibe a relação de delegação de ''votes'' que um usuário possui com qualquer outro membro de uma organização. As delegações podem ser de ambas maneiras:
 
-* '''Sent''': A user must be able to delegate any of his available ''votes'' while checking the current delegated amount (if any).
+* '''Enviado''': Um usuário deve poder delegar qualquer de seus ''votes'' disponíveis enquanto verifica o valor delegado atual (se houver).
 
-* '''Received''': A user must be able to understand how many ''votes'' were received from someone else.
+* '''Recebido''': Um usuário deve ser capaz de entender quantos '' votes '' foram recebidos de outra pessoa.
 
-Every time a member profile is displayed on Sovereign, the current delegation status between the user and the member is shown.
+Toda vez que um perfil de membro é exibido no Sovereign, o status atual da delegação entre o usuário e o membro é mostrado.
 
-[[File:/images/delegation-relation-votes.png|View of vote delegation relation with another member.]]
+[[Arquivo: /images/delegation-relation-votes.png | Visualização da relação de delegação de ''votes'' com outro membro.]]
+
 
 ====2.3.3 Agora.====
 
-Sovereign also has a debating component codenamed ''Agora''. Debating is likely as important as voting in any democracy. Agoras display ''threaded conversations'', a successful design pioneered by [http://reddit.com Reddit] and [http://news.ycombinator.com Hacker News]. We consider this UX pattern as the best way to engage in thoughtful conversations online as they have the most valued comments bubble up, helping sort the information for a debate using the collective intelligence of the community.
+O Sovereign também tem um componente de debate com o codinome '' Agora ''. Debater é provavelmente tão importante quanto votar em qualquer democracia. Agoras exibem conversas "threaded", um design bem sucedido iniciado por [http://reddit.com Reddit] e [http://news.ycombinator.com Hacker News]. Consideramos este padrão UX como a melhor forma de se envolver em conversas pensativas on-line, pois eles têm os comentários mais valorados expostos no topo, ajudando a classificar a informação para um debate que utiliza a inteligência coletiva da comunidade.
 
-But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite ''upvotes'' or ''downvotes'', if the user agrees with a comment from someone else in the platform, it will trigger an instantaneous delegation of a single ''vote''. Hence Agoras permit:
+Mas, ao contrário dos aplicativos baseados na web, o Sovereign não permite interações testemunhais: em vez de permitir "upvotes" ou "downvotes" infinitos, se o usuário concordar com um comentário de outra pessoa na plataforma, ele irá desencadear uma delegação instantânea de um ''vote'' único. Assim, Agoras permitem:
 
-* '''Upvote''': Send a single ''vote'' delegation from the user to the commenter.
+* '''Upvote''': envio de uma única delegação '' vote '' do usuário para o comentarista.
 
-* '''Downvote''': If a user disagrees with someone's comment, a ''downvote'' can either retrieve a ''vote'' from the commenter back to the user if there was a previous delegation. Or if no delegation relation exists among them, then a ''downvote'' will act as a penalty sending a ''vote'' from the commenter back to the funds of the organization implementing the Sovereign instance. The criteria for this kind of penalty can be set in the ''constitutional smart contract'' of the implementing organization.
+* '''Downvote''': se um usuário não concorda com o comentário de alguém, um 'downvote' 'pode recuperar um ''vote'' 'do comentador de volta ao usuário se houver uma delegação anterior. Ou se nenhuma relação de delegação existe entre eles, então um 'downvote' 'agirá como uma penalidade enviando um ''vote'' do comentarista de volta aos fundos da organização que implementa a instância Sovereign. Os critérios para este tipo de penalidade podem ser definidos no ''smart contract constitucional'' da organização implementadora.
 
-This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''vote'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
+Isso tornará as delegações mais frequentes em toda a plataforma. Debates constantemente expostos ao risco de transações de ''vote'' estão sujeitas a um impacto político real. Este mecanismo pode ajudar a recompensar bons argumentos e punir a influência do trolling sem exigir a necessidade de desenvolver autoridades moderadoras no sistema.
 
 === 2.4 Pilot ===
 
 <blockquote>
-  Blockchain could disrupt voting, just as it has currency, and could apply to any democratic government.
+  A Blockchain pode transformar votos, assim como fez com as moedas, e pode ser aplicada a qualquer governo democrático.
 </blockquote>
-[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''The Organization for Economic Cooperation and Development'''], Embracing innovation in government: global trends (2016).
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''Organização para Cooperação e Desenvolvimento Econômico'''], Abraçando a inovação no governo: tendências globais (2016).
 
-In October 2016, following a shocking, almost universally unexpected No to peace in the Colombian referendum that put at risk years of negotiation between the government & the marxist narco-guerrillas, Democracy Earth piloted the Sovereign liquid democracy platform in a [http://plebiscitodigital.co/ digital plebiscite] enacting a symbolic vote among the diaspora of ~6 million expatriate citizens. Instead of giving a voter the binary option, the pilot enabled people to vote separately on seven separate sub-themes of the proposed treaty, as well as to delegate their votes to more knowledgeable voters, with results revealing important nuances in voter preferences not captured in the referendum, including the [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker that emerged]: an overwhelming “No” among pilot participants to one particular statement of the treaty regarding political participation of the FARC.
+Em outubro de 2016, após um deslumbrante, quase universalmente inesperado ''Não'' para a paz no referendo colombiano, que colocou em risco anos de negociação entre o governo e os narcotraficantes marxistas, a Democracy Earth pilotou a plataforma de democracia líquida Sovereign em um [http: // plebiscitodigital.co / plebiscito digital] promulgando um voto simbólico entre a diáspora de ~ 6 milhões de cidadãos expatriados. Em vez de dar a um eleitor a opção binária, o piloto permitiu que as pessoas votassem separadamente em sete subtemas separadas do tratado proposto, bem como delegassem seus votos para eleitores mais conhecedores, com resultados que revelaram nuances importantes nas preferências dos eleitores não capturados no referendo, incluindo o [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker que surgiu]: um ''Não'' esmagador entre os participantes do piloto em uma declaração particular do tratado sobre a participação política das FARC.
 
-[[File:/images/colombia-use-case.png|Colombia use case data..]]
+[[Arquivo: /images/colombia-use-case.png |  Dados do case Colômbia.]]
 
-The pilot study had the [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf additional impact] of increasing the media and political profile of blockchain-enabled, decentralized liquid democracy in Colombia; a blockchain-savvy political party has sprung up, the Partido de la Red Colombia party (“The Net Party”), while the Colombian government’s Centre for Digital Public Innovation (CDPI) is investigating the technology as well.
+O estudo piloto teve o [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf impacto adicional] de aumentar a mídia e o perfil político da democracia líquida habilitada para blockchains na Colômbia; surgiu o Partido de la Red Colômbia ("The Net Party") com conhecimento sobre blockchains, enquanto o Centro de Inovação Pública Digital (CDPI) do governo colombiano está investigando a tecnologia também.
 
 ===2.5 Smart Contracts.===
 
-When Claude Shannon wrote his [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf foundational 1948 paper on Information Theory], he was able to demonstrate how circuits can perform logic functions by expressing a binary state of 1 or 0 (<code>true</code> or <code>false</code> states). Since then, digital technology shaped the dynamics of all kinds of information systems. With this in mind we focused on building an efficient design for a governance machine able to operate with blockchains that keeps its human operators as sovereign rulers by means of the vote. In the same way bits move in computers signalling a <code>true</code> or <code>false</code> state, ''votes'' signal a boolean value for institutional decisions to be recorded under smart contracts.
+Quando Claude Shannon escreveu seu [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf artigo fundacional de 1948 sobre a Teoria da Informação], ele pôde demonstrar como os circuitos podem executar funções de lógica expressando um estado binário de 1 ou 0 (estados <code>verdadeiro</code> ou <code>falso </code>). Desde então, a tecnologia digital moldou a dinâmica de todos os tipos de sistemas de informação. Com isso em mente, nos concentramos em construir um design eficiente para uma máquina de governança capaz de operar com blockchains que mantém seus operadores humanos como governantes soberanos por meio do voto. Da mesma forma que os bits se movem nos computadores sinalizando um estado <code>verdadeiro</code> ou <code>falso</code>, ''votes'' indicam um valor booleano para que as decisões institucionais sejam registradas em smart contracts.
 
-''vote'' tokens operate within the institutional boundaries created by this set of contracts: <code>Organizations</code>, <code>Members</code>, <code>Issues</code>, <code>Ballots</code> and <code>Budgets</code>. These are the building blocks that help create a governance circuit that can scale to operate liquid democracies within communities of any size.
+Os tokens ''vote'' operam dentro dos limites institucionais criados por este conjunto de contratos: <code>Organizações</code>, <code>Membros</code>, <code>Questões</code>, <code>Cédulas</code> e <code>Orçamentos</code>. Estes são os blocos de construção que ajudam a criar um circuito de governança que pode escalar para operar democracias líquidas dentro de comunidades de qualquer tamanho.
 
-[[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
+[[Arquivo: /images/vote-liquid-democracy-smart-contracts.png | Smart contracts de democracia líquida do VOTE ..]]
 
-====2.5.1 <code>Organizations</code>====
+====2.5.1 <code>Organizações</code>====
 
-The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''vote'' tokens. Since <code>Organizations</code> can live in a decentralized network, the requirements to make an entity able to operate with ''votes'' are similar to those found while setting up a website:
+A entidade ou instituição que implementa uma instância Sovereign é referida como uma <code>Organização</code>. Esta entidade atua como uma autoridade governante que define quem são os <code>Membros</code> autorizados a participar de suas decisões e conceder-lhes tokens de ''vote''. Uma vez que <code>Organizações</code> podem viver em uma rede descentralizada, os requisitos para tornar uma entidade capaz de operar com ''votes'' são semelhantes aos encontrados ao configurar um site:
 
-* <code>Domain</code>: Every organization must have its own domain name (e.g. ''democracy.earth'' on the Hypertext Transfer Protocol or HTTP). Some may even have a namespace running as a Top Level Domain or TLD (e.g. ''.earth''). This reference code for an <code>Organization</code> within an open network, whether its the legacy web as in HTTP or new emergent networks for decentralized domains such as [https://blockstack.org Blockstack], is crucial to help build a semantic layer that effectively describes <code>Issues</code> without the risk of having voters manipulating tags in a closed system (referred on Section 2.5.4 as ''squatting''). Domain names help describe an <code>Issue</code> as well as restricting the scope of a delegation contract.
+* <código> Domínio </code>: Toda organização deve ter seu próprio nome de domínio (por exemplo, ''democracy.earth'' no Protocolo de Transferência de Hipertexto ou HTTP). Alguns podem até ter um namespace em execução como um domínio de nível superior ou TLD (por exemplo, '' .earth ''). Este código de referência para uma <code> Organização </code> dentro de uma rede aberta, seja a rede herdada como em HTTP ou novas redes emergentes para domínios descentralizados, como [https://blockstack.org Blockstack], é crucial para ajudar a criar uma camada semântica que descreva efetivamente <code> Questões </code> sem o risco de ter eleitores manipulando tags em um sistema fechado (referido na Seção 2.5.4 como "squatting"). Os nomes de domínio ajudam a descrever uma <code> Questão </code>, bem como restringir o escopo de um contrato de delegação.
 
-* <code>Constitution</code>: Every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract. The ''constitutional smart contract'' describes how <code>Members</code>, <code>Issues</code> and ''votes'' connect within the system.
+* <code> Constituição </ code>: Toda organização possui uma '' Constituição '' que define suas regras fundamentais sob a forma de um smart contract. O ''smart contract constitucional'' descreve como <code> Membros </code>, <code> Questões </code> e '' votes '' se conectam dentro do sistema.
 
-=====2.5.1.1 <code>Constitution</code>=====
+=====2.5.1.1 <code>Constituição</code>=====
 
-The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''votes'').
+O "smart contract constitucional" determina como os ''votes'' serão atribuídos aos membros entre outras decisões de governança. As condições de alocação são uma prerrogativa da organização, de acordo com seus objetivos: em alguns casos, pode ser alinhada com os direitos financeiros (por exemplo, os acionistas de uma corporação obtendo um ''vote'' por ação); em outros casos pode ser atribuído com base em uma distribuição igualitária a todos os membros (por exemplo, contribuintes dentro de uma jurisdição, cada um obtendo uma mesma quantidade de ''votos'').
 
-The basic settings to be found on a constitution are:
+As configurações básicas a serem encontradas em uma constituição são:
 
-* '''Decentralized ID''' (or URL): An identifier that helps refer to the <code>Organization</code> anywhere on the network and that it is connected to its <code>Domain</code>.
+* '''ID decentralizada'''(ou URL): um identificador que ajuda a se referir á <código> Organização </code> em qualquer lugar da rede e que está conectado ao seu <código> Domínio </code>.
 
-* '''Bio''': A basic description of the organization including its name, website, address, jurisdiction (if applicable).
+* '''Bio''': Uma descrição básica da organização, incluindo seu nome, site, endereço, jurisdição (se aplicável).
 
-* '''Funding''': The amount of ''vote'' tokens this organization will manage and how these will be allocated to every member and grant access to <code>Budgets</code>.
+* ''' Financiamento''': A quantidade de tokens ''vote'' que essa organização irá gerenciar e como estes serão alocados para cada membro e concederão acesso a <code> Orçamentos </code>.
 
-* '''Membership''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
+* '''Associação''': Requisitos para se tornar um membro válido dentro da organização. Este critério define o registro eleitoral que garante um processo eleitoral justo de uma democracia e pode ser examinado por seus membros.
 
-** '''Open''': Anyone can freely join an organization.
-** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
-** '''Fee''': The organization requires a payment for membership approval.
+** '''Aberta''': Qualquer pessoa pode participar livremente de uma organização.
+** '''Votada''': Os membros existentes devem votar nos membros candidatos. Um critério de porcentagem deve ser estabelecido para aprovação.
+** '''Taxa''': A organização exige um pagamento pela aprovação da associação.
 
-* '''Content''': Defines who is allowed to post <code>Issues</code> on the organization.
+* '''Conteúdo''': Define quem tem permissão para postar <code> Questões </code> na organização.
 
-** '''Open''': Anyone (whether its a member or not) can post. Only members get the right to vote.
-** '''Members''': Only approved members have the right to post.
-** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''votes'' or ''votes'' received under a specific tag) have the right to post.
-** '''Anonymous''': Defines whether anonymous content is allowed to be posted.
+** '''Aberto''': Qualquer pessoa (seja seu membro ou não) pode postar. Somente os membros obtêm o direito de votar.
+** '''Membros''': Somente os membros aprovados têm o direito de publicar.
+** '''Membros especiais'': Os membros que atendem a determinados critérios (por exemplo, um mínimo de ''votes'' ou ''votes'' delegados recebidos sob uma marca específica) têm o direito de publicar.
+** '''Anônimo''': Define se conteúdo anônimo pode ser postado.
 
-* '''Moderation''': Describes the rules that help define a code of conduct among members of an organization.
+* '''Moderação''': Descreve as regras que ajudam a definir um código de conduta entre os membros de uma organização.
 
-** '''Ban''': An amount of ''downvotes'' required to ban a member from participating in the organization and the penalty attached to it (e.g. a period of time)
-** '''Expulsion''': If an organization is based on ''Voted Membership Approval'', a member can receive negative votes from other members signalling that such identity has been corrupted or is no longer part of the organization. This criteria can be established as a minimum percentage required.
+** '''Ban''': Uma quantidade de 'downvotes' 'necessária para proibir um membro de participar da organização e a penalidade anexada a ele (por exemplo, um período de tempo).
+** '''Expulsão''': se uma organização se basear em ''Aprovação de Membros Votada'', um membro pode receber votos negativos de outros membros que sinalizam que esta identidade foi corrompida ou já não é parte da organização. Este critério pode ser estabelecido como uma porcentagem mínima exigida.
 
-* '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization and specific settings such as ''quadratic voting''.
+* '''Votação''': As <code> Cédulas </code> permitidas para serem usadas para as decisões a serem feitas pela organização e configurações específicas, como '' votação quadrática ''.
 
-* '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
+* '''Reforma''': Os requisitos para alterar qualquer uma das regras estabelecidas em uma ''Constituição'' (por exemplo, uma maioria especial).
 
-Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
+Os modelos que definem práticas comuns para tipos específicos de organizações são encorajados a simplificar a configuração organizacional. Isso será auxiliado e encorajado através do trabalho de parceria da Democracy Earth Foundation com a [https://aragon.one/ Aragon], que está trabalhando em uma jurisdição digital que tornará eficientes as organizações descentralizadas. O Sovereign incluirá modelos para empresas, partidos políticos, sindicatos, clubes e cooperativas, entre outros; Seja como for, a organização descentralizada da Aragon garante que uma empresa sempre funcionará, mesmo diante de manipulações mal-intencionadas por terceiros hostis ou governos abusivos.
 
-====2.5.2 <code>Members</code>====
+====2.5.2 <code>Membros</code>====
 
-Every Organization has members that get the right to vote on the decisions of the organization. Membership criteria is defined in the ''constitutional smart contract'' and is key for the trust in any democratic environment. Among the most common ways to subvert an election is the manipulation of voter registry. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''votes'' to be used for its governance.
+Toda Organização tem membros que obtêm o direito de votar nas decisões da organização. O critério de associação é definido no ''smart contract constitucional" e é fundamental para a confiança em qualquer ambiente democrático. Entre as formas mais comuns de subverter uma eleição é a manipulação do registro de eleitores. Garantir este aspecto com meios criptográficos, bem como um protocolo de aprovação é crítico. Uma vez que um membro é aprovado dentro de uma organização, ele ou ela recebe uma quantidade específica de ''votes''para serem usados para sua governança.
 
-All <code>Organizations</code> who take the responsibility to approve or disapprove <code>Members</code>, contribute with this task to the ''Proof of Identity'' process described on Section 3.3.
+Todas as <code> Organizações </code> que assumem a responsabilidade de aprovar ou desaprovar <code> Membros </ code>, contribuem com esta tarefa para o processo de "Prova de Identidade" descrito na Seção 3.3.
 
-Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
+A compatibilidade com os protocolos de identidade descentralizados é incentivada com a finalidade de garantir a governança descentralizada. A especificação [https://opencreds.github.io/did-spec/ de DIDs (identificadores descentralizados análogos aos URIs da web)], proposta pelo [https://www.w3.org/ W3C] permitindo identidades digitais auto-soberanas e verificáveis.
 
-====2.5.3 <code>Issues</code>====
+====2.5.3 <code>Questões</code>====
 
-An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define member's voting and posting rights. An issue in its most basic form has these properties:
+Uma organização consiste em uma coleção de ''questões'', cada uma descrevendo uma decisão a ser feita pelos membros. As propriedades de associação descritas no ''smart contract constitucional'' definem os direitos de voto e postagem do membro. Uma questão em sua forma mais básica tem as seguintes propriedades:
 
-* <code>Description</code>: Text of the decision to be made.
-* <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''votes''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags based on decentralized domains helps making the democratic environment more fair as it avoids members trying to control naming conventions for their own benefit. For this reason, within an open network <code>Tags</code> that describe <code>Issues</code> or are used to constraint delegations, are pointers to other <code>Organizations</code>. This is detailed in the ''Proof of Identity'' process.
-* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if an organization's governance rules allows it.
-* <code>Ballot</code>: The presented options for voters to participate on this decision.
-* <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
-* <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
-** <code>Tactical</code> (limited in time): These are contracts that receive ''votes'' until a closing date is met, where a given block height within the blockchain implementing the ''vote'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
-** <code>Strategical</code> (unlimited in time): Never-ending open polls that are perpetually registering the consensus of a decision state. ''votes'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members voting for approval of other members within the community of an organization.
+* <code> Descrição </code>: Texto da decisão a ser tomada.
+* <code> Tags </code>: categorias que descrevem a decisão dentro da organização. Isso ajuda os membros a navegar por questões, definir áreas ou equipes dentro de uma organização e limitar o alcance de uma delegação de ''votes''. Se a implementação for feita com os ambientes blockchain que são usados para gerenciar uma taxonomia fixa (como [http://blockstack.org Blockstack]), um idioma comum distribuído para tags com base em domínios descentralizados ajuda a tornar o ambiente democrático mais justo à medida que ele evita membros que tentam controlar as convenções de nomeação para seu próprio benefício. Por esse motivo, dentro de uma rede aberta <code> Tags </code> que descrevem <code> Questões </code> ou são usadas para delegações limitadas, são indicadores para outras <code>Organizações </code>. Isto é detalhado no processo '' Prova de Identidade ''.
+* <código> Assinaturas </code>: Membros que estão criando a proposta. Pode permanecer anônimo se as regras de governança de uma organização o permitirem.
+* <code> Cédula </code>: as opções apresentadas para que os eleitores participem nesta decisão.
+* <code> Orçamento </code>: Um elemento opcional que pode incluir fundos bloqueados em um endereço de criptografia que pode desencadear uma ação se uma decisão for votada em suporte.
+* <code> Período </code>: Para a contagem final, uma pesquisa aberta também deve definir seu período no tempo e definir o tipo de decisão que está sendo tomada. Existem dois tipos de decisões:
+** <code> Tática </code> (limitada no tempo): estes são contratos que recebem '' votes '' até que uma data de encerramento seja cumprida, onde uma determinada altura de bloco dada dentro da blockchain que estiver implementando os smart contracts do ''vote'' pode ser definida como a linha final para o processo eleitoral. Uma vez que todas as transações foram computadas e um resultado final é gravado, todos os tokens são devolvidos aos eleitores correspondentes e podem ser usados novamente em decisões futuras.
+** <code> Estratégica </code> (ilimitada no tempo): pesquisas intermináveis que estão perpetuamente registrando o consenso de um estado de decisão. Os ''votes'' podem ser recuperados pelos eleitores em qualquer momento se estes sentirem a necessidade de interromper sua voz em apoio ou rejeição de uma decisão. Mas enquanto o token for designado para sinalizar uma preferência em uma cédula sem data de encerramento, faz parte da decisão estratégica. Um uso comum para decisões estratégicas pode ser para os membros que votarem pela aprovação de outros membros dentro da comunidade de uma organização.
 
-====2.5.4 <code>Ballot</code>====
+====2.5.4 <code>Cédula</code>====
 
-An issue can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
+Uma questão pode ser implementada com qualquer possível roteiro de acordo com as especificações definidas no ''smart contract contrato constitucional'' da organização. Os blocos de construção para uma cédula são sua <code> Interface </code>, <code> Opções </code> e <code> Critérios </code>.
 
 =====2.5.4.1 <code>Interface</code>=====
 
-By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
+Como padrão, o Sovereign fornece os mecanismos de escolha mais utilizados para a interação com a cédula. É incentivada a inovação adicional nas interfaces de cédula.
 
-* <code>SingleChoice</code>: One selectable option.
-* <code>MultipleChoice</code>: One or more selectable options.
-* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal</code>]: A given score per option with a pre-defined range of value.
-* [https://en.wikipedia.org/wiki/Ranked_voting <code>Ranked</code>]: Sortable options as ranked preferences. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem Arrow's impossibility theorem] must be taken into consideration for any innovation regarding ranked ballots. This theorem states that rank-based electoral systems are not able to satisfy fairness on three key aspects at the same time:
-** '''Unrestricted domain''': all preferences of all voters are allowed.
-** '''Non-dictatoship''': no single voter possesses the power to always determine social preference.
-** '''Pareto Efficiency''': if every voter prefers an option to another, then so must the resulting societal preference order.
+* <code> EscolhaÚnica</code>: uma opção selecionável.
+* <code> MúltiplaEscolha </code>: uma ou mais opções selecionáveis.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code> Cardinal < code>]: Uma pontuação em cada opção com um intervalo de valores pré-definido.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code> Classificado </code>]: opções de classificação como preferências classificadas. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem O teorema da impossibilidade da seta] deve ser levado em consideração para qualquer inovação em relação às cédulas classificadas. Este teorema afirma que os sistemas eleitorais baseados em rank não são capazes de satisfazer ao mesmo tempo a equidade em três aspectos principais:
+** '''domínio não restrito''': todas as preferências de todos os eleitores são permitidas.
+** '''Não-ditadura''': nenhum eleitor único possui o poder de determinar sempre a preferência social.
+** '''Eficiência de Pareto''' se cada eleitor prefere uma opção para outra, então a ordem de preferência social resultante deve corresponder.
 
-=====2.5.4.2 <code>Options</code>=====
 
-In order to enable the information processing of ''votes'', ballots carry boolean values expressed in their options. This lets ''vote'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
+=====2.5.4.2 <code>Opções</code>=====
 
-* <code>True</code>: It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
-* <code>False</code>: Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
-* <code>Linked</code>: The option is connected to another decision within the organization.
-* <code>Candidate</code>: A member or list of <code>Members</code> from the organization. This helps elect authorities within the organization or it can be used for membership approvals.
+Para permitir o processamento de informações de ''votes'', as cédulas carregam valores booleanos expressados nas suas opções. Isso permite que as transações ''vote'' sinalizem um ''estado de decisão'' que atuará como uma força que modela as escolhas institucionais para a organização implementadora. Isso torna todas as organizações descentralizadas também em instituições programáveis. As opções podem então ser:
 
-=====2.5.4.3 <code>Criteria</code>=====
+* <code> Verdadeiro </code>: ele irá sinalizar um valor booleano <code> verdadeiro </code> se selecionado (muitas vezes descrito com seqüências de caracteres "Sim" ou "Positivo").
+* <code> Falso </code>: Significa um estado <code> falso </code> (por exemplo, pode exibir os rótulos 'Não' ou 'Negativo').
+* <code> Link </code>: A opção está conectada a outra decisão dentro da organização.
+* <code> Candidato </code>: Um membro ou lista de <code> Membros </code> da organização. Isso ajuda a eleger autoridades dentro da organização ou pode ser usado para aprovação de membros.
+
+=====2.5.4.3 <code>Critério</code>=====
 
 Finally, counting methods for the final or ongoing result of a decision within an organization.
 
