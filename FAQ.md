@@ -45,7 +45,9 @@ _Vote_ tokens can be obtained in five ways:
 
 **7 - Can I sell or give away my _vote_ tokens?**
 
-Yes - the tokens are tradable and transferable as any other crypto holding.
+Yes - the tokens are tradable and transferable as any other crypto holding. Because they operate within a liquid democracy, votes are meant to be delegated to others. We are actively working on breeding economic value to them and to prevent vote selling would be coercive. Its up to every Organization in the system (not the vote holders) to determine how votes are to be used inside the organization. That's where restrictions apply and if you want to make a 'one vote one person' system, its totally doable.
+
+In addition to that tokens will be distributed by using an Equality variable that stabilizes the allocation for every member of the network to have a same starting line. In that sense we are aiming to make the vote economy as meritocratic as possible (in the real sense of giving a fair starting line for everyone).
 
 **8 - What does a _vote_ token have to do with Universal Basic Income?**
 
