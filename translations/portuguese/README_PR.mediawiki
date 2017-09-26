@@ -153,87 +153,89 @@ A adoção generalizada de blockchains está dando origem a um modelo que inicia
 
 ----
 
-With this diagnosis, on [[#Paper|Section 2]] we map the basic building blocks for a decentralized liquid democracy. Once the tools are defined, [[#Execution|Section 3]] proposes an implementation that focus on making the system secure and inclusive.
+Com este diagnóstico, na [[#Paper | Seção 2]], mapeamos os blocos fundamentais para a construção de uma democracia líquida descentralizada. Uma vez que as ferramentas são definidas, a [[#Execution | Seção 3]] propõe uma implementação que se concentra em tornar o sistema seguro e inclusivo.
 
 <div id="Paper"></div>
 
 ==2. Paper.==
 
 <blockquote>
-  It is the technology that we do not control the one that is used to control us.
+  É a tecnologia que não controlamos que é usada para nos controlar.
 </blockquote>
-[https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
+[https://twitter.com/earlkman '''Emiliano Kargieman'''], hacker espacial (1975).
 
-A foundational principle of democracy is the right to be heard. Today most of the world’s population is not heard: having a voice is an accident of birth. Individual and collective voices are politically and economically silenced by ‘illiquidity’ - the marginalized are given no instruments to broadcast or amplify their voice. Modern democracy is the birthchild of the ''Printing Press Era'': printed constitutional systems dependent on wet ink contracts and the speed of the postal service. Representative democracies are an accident of the information technologies of the 18th century.
+Um princípio fundamental da democracia é o direito de ser ouvido. Hoje, a maior parte da população mundial não é ouvida: ter uma voz é um acidente de nascimento. As vozes individuais e coletivas são silenciadas politicamente e economicamente por 'iliquidez' - os marginalizados não recebem instrumentos para transmitir ou ampliar sua voz. A democracia moderna nasce da ''Era da Imprensa'': sistemas constitucionais impressos dependentes dos contratos de tinta molhada e da velocidade do serviço postal. As democracias representativas são um acidente das tecnologias da informação do século XVIII.
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+Uma democracia líquida é baseada em um modelo de representação dinâmica que trabalha com uma abordagem de baixo para cima: os cidadãos podem escolher livremente dentro do seu gráfico social (amigos, colegas, familiares) quem eles querem ter como representantes em um conjunto específico de tópicos. É a forma mais flexível de governança democrática que pode ser construída com tecnologia digital, operando como um híbrido que permite a votação direta ou delegada em qualquer momento. Há poucos precedentes de ambientes bottom-up confiáveis que levaram a um conteúdo autoritativo, [https://www.wikipedia.org/ Wikipedia] sendo um caso pioneiro. Mas se a história é um guia, a última vez que a civilização enfrentou [https://en.wikipedia.org/wiki/Age_of_Enlightenment uma mudança de paradigma em relação à iluminação enciclopédica] foi precisamente na época anterior ao surgimento das democracias modernas.
 
-This paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], our democratic governance application that operates with blockchain tokens using a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device. No technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+
+Este artigo detalha a implementação de uma democracia transparente usando o[http://github.com/DemocracyEarth/sovereign Sovereign], nossa aplicação de governança democrática que opera com tokens em blockchain usando um conjunto básico de contratos inteligentes. Simplicidade no design e no idioma usados ​​para expressar este modelo são importantes para um dispositivo genuinamente democrático. Nenhuma tecnologia jamais poderá satisfazer as aspirações democráticas, se só pode ser entendida por uma elite. Como o criptógrafo [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] declarou:
 
 <blockquote>
-  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
+Nós não invocamos cidadãos comuns não treinados para realizar cirurgias, pilotar aviões, projetar computadores ou realizar as demais inúmeras tarefas necessárias para manter a sociedade funcionando, o que torna a governança diferente? O problema é fácilmente compreendido: se entregamos a governança para "experts" eles tomarão decisões em seu próprio interesse, não no melhor interesses de todos nós.
 </blockquote>
 
 ===2.1 Token.===
 
-An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
+Um sistema de votação ideal deve ser capaz de satisfazer, na maior medida possível, as seguintes condições:
 
-* '''Secrecy''': voter must be able to cast vote in secret.
+* '''Secrecy''': o eleitor deve poder votar em segredo.
 
-* '''Verifiability''': voter must be able to verify tallied vote.
+* '''Verificabilidade''': o eleitor deve poder verificar a votação acumulada.
 
-* '''Integrity''': system must be able to verify correct vote tally.
+* '''Integridade''': o sistema deve ser capaz de verificar a contagem correta dos votos.
 
-Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
+Além disso, devido ao risco de que a coerção através de violência física ou ameaças em contextos propensos a violência política, uma opção capaz de proteger eleitores forçados deve ser introduzida:
 
-* '''Resistance''': voter must be able to override own vote if necessary.
+* '''Resistência''': o eleitor deve poder cancelar e alterar seu próprio voto, se necessário.
 
-In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider it indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to pioneer [http://twitter.com/balajis Balaji Srinivasan]. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
+No trabalho liderado pelos pesquisadores Hosp & Vora, foi tomada uma abordagem [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf foi tomada uma abordagem de Teoria da Informação para modelar sistemas de votação] levando à conclusão de que existe uma tensão natural com um sistema visando "integridade perfeita", "segredo de cédula perfeito" e "verificabilidade de contagem perfeita". Todos os três não podem ser alcançados simultaneamente quando um adversário é computacionalmente ilimitado, capaz de utilizar força bruta em um sistema se houver tempo ou memória ilimitados estiverem disponíveis. Por esta razão, consideramos indispensável implementar democracias digitais usando blockchains. Com os efeitos da rede já instalados, as blockchains são capazes de verificar a integridade das transações e evitar a duplicação (double-spendind) do token. O modelo de [https://en.wikipedia.org/wiki/Proof-ofworkwork_system ''proof of work''] da Bitcoin alcança isso, recompensando a capacidade computacional de verificação de blocos de transação (o que muitas vezes é referido como ''mineração''), levando a uma rede "300 vezes mais poderosa do que os recursos do Google" de acordo com o pioneiro [http://twitter.com/balajis Balaji Srinivasan]. Por esse motivo, nosso projeto é baseado em tokens dentro de uma rede de blockchain, operando como uma ''criptomoeda política''.
 
-What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights aim to satisfy overall legitimacy in the governance of an institution. While money is the language of self-interest, votes express the shared views of a community. Political currency is not strictly meant for trade but for social choice.
+O que diferencia um voto de dinheiro (ou em termos mais amplos: uma ''economia política" de uma ''economia financeira'') é que a moeda política destina-se a garantir direitos de participação em condições justas a todos os membros de uma organização. Os ''direitos'' visam satisfazer a legitimidade geral na governança de uma instituição. Enquanto o ''dinheiro'' é a linguagem do interesse próprio, os votos expressam as visões compartilhadas de uma comunidade. A moeda política não é estritamente voltada para o comércio, mas para a escolha social.
+
 
 {| class="wikitable"
 |-
-! scope="col"| Feature
-! scope="col"| Coins
-! scope="col"| Votes
+! scope="col"| Característica
+! scope="col"| Moedas
+! scope="col"| Votos
 |-
-! scope="row"| Utility
-| Trade.
-| Governance.
+! scope="row"| Utilidade
+| Comércio.
+| Governança.
 |-
-! scope="row"| Mining
-| Computation (e.g. Proof of Work).
-| Attention (e.g. Proof of Identity).
+! scope="row"| Mineração
+| Computação (ex: Proof of Work).
+| Atenção (ex: Prova de Identidade).
 |-
-! scope="row"| Liquidity
-| Scarce.
-| Guaranteed.
+! scope="row"| Liquidez
+| Escaça.
+| Garantida.
 |-
-! scope="row"| Signal
-| Self interest.
-| Social choice.
+! scope="row"| Sinal
+| Interesse próprio.
+| Escolha social.
 |-
-! scope="row"| Value
-| Space (material goods).
-| Time (information).
+! scope="row"| Valor
+| Espaço (bens materiais).
+| Tempo (informação).
 |}
 
-====2.1.1 Implementation.====
+====2.1.1 Implementação.====
 
-Considering that value [https://en.wikipedia.org/wiki/Dogecoin can be driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''vote''.
+Considerando que o valor [https://en.wikipedia.org/wiki/Dogecoin pode ser conduzido pela capacidade memética], o token da Democracy Earth que concede direitos de voto será marcado com a mensagem mais importante que qualquer democracia possa transmitir: "vote".
 
-The ''vote'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we are working on implementing the ''vote'' token under these smart contract environments:
+O token ''vote'' pode ser implementado usando um código de smart contract em uma variedade de blockchains que permitem scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing Completos], incluindo a Bitcoin. Nosso design é agnóstico á redes de blockchain,  em reconhecimento de um campo de informática ainda na sua infância, onde as inovações significativas ainda não foram inventadas. No entanto, estamos trabalhando na implementação do token ''vote'' sob os seguintes ambientes de smart contracts:
 
-* '''Ethereum''': Using a set of [https://github.com/ethereum/solidity solidity] smart contracts under the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* '''Ethereum''': Usando um conjunto de smart contracts [https://github.com/ethereum/solidity solidity] sob o [https://theethereum.wiki/w/index.php/ERC20_Token_Standard token padrão Ethereum ERC20].
 
-** '''Rootstock''': We are taking the necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
+** '''Rootstock''': Estamos a tomar as medidas necessárias para tornar o código de solidez compatível com [http://www.rsk.co/ Interpretador de contrato inteligente da Rootstock para a cadeia de bitcoin].
 
-* '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''vote'' identifier. Blockchain settlement cost must be covered by the implementing organization.
+* '''Lightning''': com a ativação de uma [https://en.bitcoin.it/wiki/Segregated_Witness testemunha segregada] no protocolo Bitcoin que permite o roteamento de canais de pagamento com o [http://lightning.network Protocolo da rede Lightning], as delegações da democracia líquida podem ser mapeadas usando transações de nível satoshi com um identificador de ''vote''. O custo de liquidação Blockchain deve ser coberto pela organização implementadora.
 
-Also, multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
+Além disso, as implementações de multi-chain são encorajadas no espírito de buscar uma maior experimentação e colaboração em relação a essas tecnologias.
 
 ===2.2 Voting.===
 
