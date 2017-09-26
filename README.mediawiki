@@ -265,7 +265,7 @@ User Experience (UX) is a critical aspect of a decentralized architecture and be
 
 * '''Anonymous''': Without any connection to a public identity.
 
-This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations.
+This understanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations.
 
 ====2.3.1 Liquid.====
 
