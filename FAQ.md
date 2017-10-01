@@ -15,7 +15,7 @@ For the purposes of our Initial Rights Offering all collaborations are encourage
 
 **3 - How is an Intial Rights Offering different from an Initial Coin Offering?**
 
-Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In adittion to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
+Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In addition to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
 **4 - What is "liquid democracy"?**
 
