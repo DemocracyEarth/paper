@@ -66,7 +66,7 @@ Finally, while it is true that liquid democracy enables any member, through dele
 
 **10 - Will digital elections increase voter participation?**
 
-Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorrutible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
+Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorruptible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
 
 **11 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?**
 
