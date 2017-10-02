@@ -469,7 +469,13 @@ La mayoría de las investigaciones sobre cómo prevenir ataques de sybil (falsif
 
 ===3.4 Value===
 
-[agregar traduccion aqui]
+Tomamos tres enfoques para definir el valor del token ''voto'':
+
+* '''Status-Quo''': Medios de comunicación social ofrece una referencia clara sobre cómo ''le gusta'' obtener valorados en línea.
+* '''Trabajo & Tiempo''': Una perspectiva de ''Riesgo Básico Universal'' ofrece ideas útiles sobre cómo se está valorando el tiempo de trabajo.
+* '''Nation-Sates''': Las elecciones tradicionales ofrecen ideas útiles sobre cómo se valoran los votos hoy.
+
+Con esas referencias, discutiremos la divisibilidad de la ficha de ''voto'' y su implementación para gobernar un Fondo de Apoyo a la Democracia.
 
 ====3.4.1 Status-Quo====
 
