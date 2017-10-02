@@ -491,8 +491,15 @@ Con la creación de Sovereign como una interfaz para las democracias basadas en 
 
 ====3.4.2 Work & Time====
 
-[agregar traduccion aqui]
+Viniendo de una perspectiva ''Renta Básica Universal'', una referencia útil que valora el tiempo y el trabajo es el salario mínimo propuesto en los estados federales, estatales y locales leyes en todo el país. A partir de julio de 2016 se ha fijado en '''$ 7.25 por hora'''.
 
+[[File: /images/minimum-wage-us.png | Salario mínimo en los Estados Unidos.]]
+
+Para que la ficha de ''voto'' se convierta efectivamente en una red útil capaz de indexar UBI a escala global, una expectativa con respecto a su dinámica de precios debe establecerse en 1 unidad de ''voto'' como equivalente a 1 hora de trabajo. Por lo tanto esto ancla el precio inicial del token en:
+
+ 1 voto = $ 7.25
+
+ Mientras la red prohíba con éxito ''replicantes'' y recompense identidades de auto-soberanía validadas indexadas en la cadena de bloque Bitcoin, cualquier iniciativa de UBI puede confiar en los datos actuales para asignar recursos sin el riesgo de abuso.
 ====3.4.3 Nation-States====
 
 [agregar traduccion aqui]
