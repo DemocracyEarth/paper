@@ -452,7 +452,7 @@ Our main goal is to deliver a system able to guarantee the greatest amount of le
 
 Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum:
 
-* '''Lack of delegationg''' leading to a ''polyopoly'': extreme fragmentation of voting power.
+* '''Lack of delegation''' leading to a ''polyopoly'': extreme fragmentation of voting power.
 * '''Abundance of delegations''' leading to a ''monopoly'': extreme concentration of voting power.
 
 Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''vote'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
