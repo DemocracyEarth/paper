@@ -168,7 +168,7 @@ A foundational principle of democracy is the right to be heard. Today most of th
 
 [[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
 
-A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
+A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that have led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely in the epoch preceding the rise of modern democracies.
 
 This paper details the implementation of a liquid democracy using [http://github.com/DemocracyEarth/sovereign Sovereign], our democratic governance application that operates with blockchain tokens using a basic set of smart contracts. Simplicity in the design and language used to express this design matters for the purpose of a genuinely democratic device. No technology will ever be able to satisfy democratic aspirations if it can only be understood by an elite. As cryptographer [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
 
@@ -178,7 +178,7 @@ This paper details the implementation of a liquid democracy using [http://github
 
 ===2.1 Token.===
 
-An ideal voting system must be able to satisfy in the greatest possible extent these conditions:
+An ideal voting system must be able to satisfy to the greatest possible extent these conditions:
 
 * '''Secrecy''': voter must be able to cast vote in secret.
 
@@ -227,9 +227,9 @@ Considering that value [https://en.wikipedia.org/wiki/Dogecoin can be driven by 
 
 The ''vote'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we are working on implementing the ''vote'' token under these smart contract environments:
 
-* '''Ethereum''': Using a set of [https://github.com/ethereum/solidity solidity] smart contracts under the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* '''Ethereum''': Using a set of [https://github.com/ethereum/solidity Solidity] smart contracts under the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
 
-** '''Rootstock''': We are taking the necessary steps to make solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
+** '''Rootstock''': We are taking the necessary steps to make Solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
 * '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''vote'' identifier. Blockchain settlement cost must be covered by the implementing organization.
 
