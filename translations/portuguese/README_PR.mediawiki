@@ -430,64 +430,64 @@ Para permitir o processamento de informações de ''votes'', as cédulas carrega
 
 =====2.5.4.3 <code>Critério</code>=====
 
-Finally, counting methods for the final or ongoing result of a decision within an organization.
+Finalmente, métodos de contagem para o resultado final ou contínuo de uma decisão dentro de uma organização.
 
-* <code>Plurality</code>: Simple majority wins decision.
-* <code>Majority</code> A minimum percentage is required for winning decision.
-* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Widely used by Nation-State elections based on member lists.
-* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Commonly used by open source communities and Pirate Parties using ranked choice ballots.
-* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Counts votes weighting voter reputation in a graph.
+* <code> Pluralidade </ code>: a maioria simples ganha decisão.
+* <code> Maioria </ code> Uma porcentagem mínima é necessária para ganhar a decisão.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code> DHont </code>]: Amplamente utilizado pelas eleições de Estados-Nação com base em listas de membros.
+* [https://en.wikipedia.org/wiki/Schulze_method <code> Schulze </code>]: Comumente usado por comunidades de código aberto e por partidos piratas usando opções de escolhas "rankeadas".
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code> PageRank </code>]: Conta votos que ponderam a reputação do eleitor em um gráfico social.
 
-====2.5.5 <code>Budget</code>====
+====2.5.5 <code>Orçamento</code>====
 
-Every <code>Organization</code> can have 1 or more cryptocurrency addresses to fund its efforts. Sovereign permits to fund an <code>Organization</code> with Bitcoin and in its <code>Constitution</code> define a criteria on how these assets get distributed among <code>Members</code>:
+Toda <código> Organização </code> pode ter 1 ou mais endereços de criptomoeda para financiar seus esforços. O Sovereign autoriza a financiar uma <code> Organização </ code> com Bitcoin e em sua <code> Constituição </code> definir um critério sobre como esses recursos são distribuídos entre os <code> Membros </code>:
 
-* '''Percentage for ''Proof of Identity''''': Applicant <code>Members</code> can submit their ''Proof of Identity'' evidence to get membership approval to an <code>Organization</code>. If ''votes'' approve the new member, it strengthens the reputation of a self-sovereign identity in the open network by rewarding him or her a fixed amount of Bitcoin to permit hashing the ''Proof of Identity'' on a blockchain. Some <code>Organizations</code> may allow a bigger reward than others, effectively creating a Reputation score that can protect the network against ''Sybils'' or false identities. This process is detailed on [[#Executive|Section 3]].
+* '''Porcentagem para ''Prova de Identidade''''': <code> Membros </code> requerentes podem enviar a evidência da '' Prova de Identidade '' para obter a aprovação de associação em uma <código> Organização </code >. Se ''votes'' aprovarem o novo membro, fortalece a reputação de uma identidade auto-soberana na rede aberta, recompensando-lhe uma quantidade fixa de Bitcoin para permitir que a ''Prova de Identidade'' seja ''hashed'' em uma blockchain. Algumas <code> Organizações </code> podem permitir uma recompensa maior do que outras, efetivamente criando uma pontuação de Reputação que pode proteger a rede contra "Sybils" ou identidades falsas. Este processo é detalhado em [[#Executive | Seção 3]].
 
-* '''Percentage for <code>Issues</code>''': <code>Members</code> seeking to use resources from the <code>Organization</code> can request them by attaching a <code>Budget</code> to an <code>Issue</code>. A <code>Member</code> can request to use funds from a pool specifically reserved for this. If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending the requested assets to a specific address.
+* '' 'Porcentagem para <code> Questões </ code>' '': <code> Membros </ code> procurando usar recursos da <code> Organização </ code> podem solicitar-lhes anexando um <code>Orçamento</ code> à uma <code>Questão</code>. Um <code> Membro </ code> pode solicitar o uso de fundos de um pool especificamente reservado para isso. Se o resultado final de uma decisão atingir um valor (<código> verdadeiro </ code> ou <código> falso </ code>), ele pode então impor a decisão final destravando moedas ou desencadeando uma transação enviando os ativos solicitados para um endereço específico.
 
-===2.6 Security.===
+===2.6 Segurança.===
 
-With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptography. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
+Com a Sovereign, procuramos fornecer uma estrutura leve de governança que permita a todas as partes interessadas de uma organização participar e impor decisões através do uso da criptografia. Mas é importante afirmar que não estamos apontando para um sistema democrático baseado na força da massa ou [https://en.wikipedia.org/wiki/Majoritarianism '' majoritarismo '']. A história oferece exemplos suficientes sobre como uma maioria cega pode acabar falhando nas aspirações de uma república, muitas vezes colocando os demagogos no poder.
 
-[[File:/images/ideal-democracy.png|Ideal democracy.]]
+[[Arquivo: /images/ideal-democracy.png | Democracia ideal.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. The difference between fact and promise is simple: while the art of politics consists in sustaining the fiction that breeds trust on established institutions (e.g. politicians during campaigns), cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rather than promises. Corruption can be fought at its root as we develop a new sense of citizenship based on digital networks.
+Nosso principal objetivo é oferecer um sistema capaz de garantir a maior legitimidade enquanto empodera as vozes mais conhecedoras em qualquer comunidade. A diferença entre fato e promessa é simples: enquanto a arte da política consiste em sustentar a ficção que cria confiança em instituições estabelecidas (por exemplo, políticos durante campanhas), a prova criptográfica de eventos oferece um método mais confiável para a governança. A natureza incorruptível das transações em blockchain constitui um incentivo para as pessoas não mentirem, portanto, as organizações que armazenam votos e as decisões neles são orientadas pelos fatos, em vez de promessas. A corrupção pode ser combatida na sua raiz à medida que desenvolvemos um novo senso de cidadania com base em redes digitais.
 
-Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum:
+Ainda assim, as democracias líquidas podem ser manipuladas de maneiras diferentes com os resultados dominados pelas conseqüências não desejadas de duas dinâmicas que representam os pontos extremos do espectro de participação:
 
-* '''Lack of delegationg''' leading to a ''polyopoly'': extreme fragmentation of voting power.
-* '''Abundance of delegations''' leading to a ''monopoly'': extreme concentration of voting power.
+* ''' Falta de delegação ''' que leva a um ''polipólio'': fragmentação extrema do poder de voto.
+* '''Abundância de delegações''' levando a um ''monopólio'': concentração extrema de poder de voto.
 
-Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''vote'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
+Cada resultado afeta um dos dois eixos que mede a qualidade da governança democrática. Os incentivos à economia política do ''vote'' são projetados para manter um equilíbrio estável visando garantir o mais alto nível de legitimidade e tomada de decisão baseada em fatos.
 
-To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against different kinds of attackers: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
+Para se tornar um ambiente confiável para a governança descentralizada sob grandes comunidades (cidades, nações ou escala global), o Sovereign deve ser protegido contra diferentes tipos de atacantes: ''Mobs'', ''Corporações'', ''Sybils'', ''Fakes'' e ''Big Brother''.
 
-====2.6.1 Polyopoly.====
+====2.6.1 Polipólio.====
 <blockquote>
-  a.k.a. ''Mobs''
+  a.k.a. ''Massas''
 </blockquote>
 
-Among the most notable research projects on the field is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. The project had the following numbers in terms of impact:
+Entre os projetos de pesquisa mais notáveis no campo está o [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Esta foi uma implementação interna feita para os funcionários do Google liderados pelo engenheiro Steve Hardt, onde criou um plug-in de democracia líquida para ser usado na versão interna do Google+. O projeto teve os seguintes números em termos de impacto:
 
-* 15,000 participants.
+* 15.000 participantes.
 
-* 371 decisions.
+* 371 decisões.
 
-* '''3.6% of delegated votes''' in total.
+* ''' 3,6% dos votos delegados ''' no total.
 
-The small percentage in delegations means that Google Votes operated more as a direct democracy than a liquid democracy. Delegations occured mostly among those users who actively campaigned to attract them (e.g. vegans in a team hoping to gather power to choose office snacks). The risk of few delegations is that it opens the democracy to the known risks of mob rule. Although this might keep legitimacy high, the quality of the decisions being made by an organization becomes more political than factual. Knowledgeable voices able to address specific problems within a community become disempowered.
+A pequena porcentagem nas delegações significa que o Google Votes operou mais como democracia direta do que uma democracia líquida. As delegações ocorreram principalmente entre os usuários que ativamente fizeram campanha para atraí-las (por exemplo, veganos em uma equipe na esperança de reunir o poder para escolher os lanches do escritório). O risco de poucas delegações é que ele abre a democracia aos conhecidos riscos da dominação de massas. Embora isso possa manter a legitimidade elevada, a qualidade das decisões tomadas por uma organização torna-se mais política do que factual. Vozes competentes capazes de resolver problemas específicos dentro de uma comunidade tornam-se destituídas de poder.
 
-To increase delegation frequency, these happen every time self-sovereigns get validated. On the ''Proof of Identity'' process (see Section 3), users are able to natively generate their own ''votes'' as long as their individuality gets endorsed by other identities. Also since the ''vote'' token operates in a blockchain, delegations don't need to necessarily happen within the Sovereign application: messaging applications, tweets and e-mails can be sent with vote addresses or QR codes attached to them making the vote token able to be broadcasted across multiple networks.
+Para aumentar a frequência da delegação, estas acontecem sempre que os soberanos próprios são validados. No processo ''Prova de Identidade '' (ver Seção 3), os usuários podem gerar nativamente seus próprios ''votes'', desde que sua identidade seja endossada por outras identidades. Além disso, uma vez que o token '' vote '' opera em uma cadeia de blocos, as delegações não precisam necessariamente acontecer dentro do aplicativo Sovereign: aplicativos de mensagens, tweets e e-mails podem ser enviados com endereços de votação ou códigos QR anexados a eles tornando o token ''vote'' capaz de ser transmitido em várias redes.
 
-====2.6.2 Monopoly.====
+====2.6.2 Monopólio.====
 <blockquote>
-  a.k.a. ''Corporations''
+  a.k.a. ''Corporações''
 </blockquote>
 
-When the German Pirate Party implemented [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], a pioneering liquid democracy software developed in 2009, it reached a participation level of ~550 affiliates that led to [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html a linguist professor becoming the most influential member of the party]. Martin Haase was in charge of translating all uploaded propositions in the system to a neutral language in order to avoid any ideological bias, making him grasp 167 delegations from other members.
+Quando o Partido Pirata Alemão implementou o [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], um software pioneiro de democracia líquida desenvolvido em 2009, atingiu um nível de participação de cerca de 550 afiliados que levaram [http: // www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html um professor linguista a se tornar o membro mais influente do partido]. Martin Haase foi encarregado de traduzir todas as proposições carregadas no sistema para uma linguagem neutra, a fim de evitar qualquer viés ideológico, fazendo ele capturar 167 delegações de outros membros.
 
-The consequences of having a monopolizing leader in a liquid democracy environment goes against the spirit of an ecosystem that aims to incentivize more participation. In liquid democracies ''celebrities'' can become extremely influential being able to attract most of the delegated votes. An attacker willing to subvert an election can promote a TV star wearing a QR code to get a sudden influx of delegations from fans and viewers, instantly becoming a monopolizing force. Monopolies are a threat to liquid democracies since they can disincentivize less fortunate voters to participate, hijacking the legitimacy of the decisions being made.
+As conseqüências de ter um líder monopolista em um ambiente de democracia líquida vão contra o espírito de um ecossistema que visa incentivar mais participação. Nas democracias líquidas, ''celebridades'' podem se tornar extremamente influentes, podendo atrair a maioria dos votos delegados. Um atacante disposto a subverter uma eleição pode promover uma estrela de TV vestindo um código QR para obter um influxo súbito de delegações de fãs e telespectadores, tornando-se instantaneamente uma força de monopolização. Os monopólios são uma ameaça para as democracias líquidas, uma vez que podem desincentivar os eleitores menos afortunados a participar, seqüestrando a legitimidade das decisões que estão sendo feitas.
 
 =====2.6.2.1. Quadratic Voting.=====
 
