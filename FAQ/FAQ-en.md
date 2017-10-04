@@ -94,13 +94,13 @@ The blockchain knows no borders, it is a transnational technology. Allowing indi
 
 **17. What is the difference between centralized, decentralized and distributed?**
 
-There is a lot of debate about it. For the purposes of our work we aim towards both architectural and political decentralization (or distribution, depending on who you ask). The first concerns the number of computers running the system, and the second concerns how many individuals or organizations controls those computers. Our solution is designed for blockchain networks, which are by nature not controllable by any single organization and have no single point of faillure. 
+There is a lot of debate about it. For the purposes of our work we aim towards both architectural and political decentralization (or distribution, depending on who you ask). The first concerns the number of computers running the system, and the second concerns how many individuals or organizations controls those computers. Our solution is designed for blockchain networks, which are by nature not controllable by any single organization and have no single point of failure. 
 
 **18. What is blockchain technology?** 
 
 Blockchain technology refers to a database that is held and maintained by a distributed network, therefore being reliable. This database can be programmed to record any type of valuable information within its blocks, and each block is chained to the previous one through [cryptographic hashing](https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function). The implied security of blockchains dramatically increases trust, allowing peers within the network to operate and transact with each other without the need for intermediators.
 
-**19. What is a descentralized ID (DID)?** 
+**19. What is a decentralized ID (DID)?** 
 
 Decentralized identifiers are intended for a verifiable digital identity that is self-sovereign.
 
