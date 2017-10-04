@@ -15,7 +15,7 @@ For the purposes of our Initial Rights Offering all collaborations are encourage
 
 **3 - How is an Intial Rights Offering different from an Initial Coin Offering?**
 
-Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In adittion to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
+Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In addition to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
 **4 - What is "liquid democracy"?**
 
@@ -66,7 +66,7 @@ Finally, while it is true that liquid democracy enables any member, through dele
 
 **10 - Will digital elections increase voter participation?**
 
-Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorrutible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
+Low voter turnout is closely linked to the decrease in trust on our current democratic institutions, or the perception that one individual vote can't effectively alter the course of things. Being an incorruptible platform, on Sovereign each individual participation truly matters and is counted for. Our mission is to strengthen democracy by opening up more effective ways of participating, which Sovereign accomplishes. The greatest impact will not necessarily be to make governments more democratic, but _any kind and size of institution_, whether public or private, more engaging. 
 
 **11 - Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?**
 
