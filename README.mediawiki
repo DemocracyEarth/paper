@@ -344,7 +344,7 @@ The entity or institution implementing a Sovereign instance is referred as an <c
 
 =====2.5.1.1 <code>Constitution</code>=====
 
-The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases can be assigned based on an egalitarian distribution to all members (e.g. tax payers within a jurisdiction each getting a same amount of ''votes'').
+The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases it can be assigned based on an egalitarian distribution to all members (e.g. taxpayers within a jurisdiction each getting a same amount of ''votes'').
 
 The basic settings to be found on a constitution are:
 
@@ -354,7 +354,7 @@ The basic settings to be found on a constitution are:
 
 * '''Funding''': The amount of ''vote'' tokens this organization will manage and how these will be allocated to every member and grant access to <code>Budgets</code>.
 
-* '''Membership''': Requirements to become a valid member within organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
+* '''Membership''': Requirements to become a valid member within the organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
 
 ** '''Open''': Anyone can freely join an organization.
 ** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
@@ -362,7 +362,7 @@ The basic settings to be found on a constitution are:
 
 * '''Content''': Defines who is allowed to post <code>Issues</code> on the organization.
 
-** '''Open''': Anyone (whether its a member or not) can post. Only members get the right to vote.
+** '''Open''': Anyone (whether a member or not) can post. Only members get the right to vote.
 ** '''Members''': Only approved members have the right to post.
 ** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''votes'' or ''votes'' received under a specific tag) have the right to post.
 ** '''Anonymous''': Defines whether anonymous content is allowed to be posted.
@@ -376,7 +376,7 @@ The basic settings to be found on a constitution are:
 
 * '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
 
-Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and coops among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
+Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and cooperative businesses among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
 
 ====2.5.2 <code>Members</code>====
 
