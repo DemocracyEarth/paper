@@ -1,7 +1,7 @@
 <pre>
  
   DEF: 1
-   Título: O Smart Contract SociaL
+   Título: O Contrato Social Inteligente
    Autor: @DemocracyEarth.
    Comentários-Resumo: Ainda não há comentários.
    Status: Ativo
@@ -12,14 +12,14 @@
 
 </pre>
 
-=O Smart Contract Social.=
+=O Contrato Social Inteligente.=
 Uma Oferta Inicial de Direitos da [http://democracy.earth Democracy Earth Foundation].
 
-==i. Abstrato.==
+==i. Resumo.==
 
-Em um mundo que conseguiu a globalização dos ativos financeiros, enquanto manteve direitos políticos restritos aos territórios, precisamos construir novos modelos de governança democrática que permitam a humanidade colaborar e abordar questões globais urgentes. A Democracy Earth Foundation está criando softwares livres e de código aberto para votação incorruptível baseada em redes de blockchain, dentro de instituições de todos os tamanhos, das mais locais envolvendo duas pessoas para a mais global envolvendo todos nós. A distribuição desigual de oportunidades em todo o mundo devido ao confronto perpétuo entre os governos nacionais levou a mudanças climáticas aceleradas, aumento da desigualdade, terrorismo e migrações forçadas. A Democracy Earth Foundation considera que a tecnologia que inclui o Bitcoin como dinheiro programável sem Bancos Centrais e o Ethereum permitindo ''smart contracts'' sem a necessidade de tribunais judiciais, exige uma nova camada que sinalize votos incorruptíveis além dos limites territoriais dos Estados-Nação. Esta rede transnacional atuará de acordo com a soberania pessoal de seus membros e protegerá seus direitos humanos com criptografia. Em nossa ''Oferta Inicial de Direitos'', oferecemos um token chamado ''vote'' que concederá direitos de participação a todo ser humano com a tomada de decisão como sua função principal. Nossa proposta introduz igualdade criptográficamente induzida: desde que qualquer pessoa seja capaz de validar sua identidade auto-soberana, ela receberá uma parcela correspondente de ''votes'' igual à de cada participante ativo na rede. Nós definimos um processo de Prova de Identidade que evita uma autoridade central ao introduzir o conceito de mineração de atenção, que encoraja os participantes a fortalecer a confiança dos ''votes'' realizando testes simples com o objetivo de detectar replicantes. Finalmente, os ''votes'' serão ''dripped'' (gotejados) para participantes válidos sob um mecanismo de ''Renda Básica Universal'' com o objetivo de encontrar um equilíbrio adequado na tensão histórica entre dinheiro e política. Buscamos nada menos que uma verdadeira governança democrática para a era da Internet, um dos elementos fundamentais de uma paz e prosperidade globais alcançáveis decorrentes de um arco de inovações tecnológicas que mudará o que significa ser humano na Terra.
+Em um mundo que conquistou a globalização de ativos financeiros mas manteve direitos políticos restritos a territórios, é necessário desenvolvermos novos modelos de governança democrática que possibilitem à humanidade colaborar e resolver problemas globais iminentes. A Fundação Democracy Earth está desenvolvendo um software gratuito e de código aberto, baseado na tecnologia blockchain, para possibilitar votações incorruptíveis em instituições de todo tamanho, desde uma com apenas duas pessoas até a mais global envolvendo todos nós. A distribuição desigual de oportunidades ao redor do mundo, principalmente devido a confrontos eternos entre nações, causou a aceleração de mudanças climáticas, crescimento de desigualdades sociais e econômicas, terrorismo e migrações forçadas. A Fundação Democracy Earth considera que a lista de tecnologias que permitiu o desenvolvimento do Bitcoin – moeda digital programável independente de Bancos Centrais – e do Ethereum – que permite a criação e gestão de contratos digitais inteligentes sem a necessidade de tribunais judiciais ou cartórios – requer a inclusão de outra aplicação que permitirá votações incorruptíveis para além das fronteiras dos Estados-Nação. A rede transnacional deverá agir de acordo com a soberania pessoal de seus membros e deverá proteger seus direitos humanos através da encriptação. Em nossa Oferta Inicial de Direitos oferecemos um token (passe ou “permissão”) chamado “voto”, que garante direitos de participação para todo cidadão, e cuja função maior é possibilitar a tomada de decisão. Nossa proposta introduz igualdade induzida pela criptografia: uma pessoa, sendo capaz de validar sua própria identidade soberana, receberá seu direito proporcional de voto igual a qualquer outro participante ativo na rede. Definimos um processo de “Prova de Identidade” que evita uma autoridade central por introduzir o conceito de “mineração de atenção”, que incentiva participantes a fortalecer a confiabilidade dos votos executando testes simples para detecção de replicantes (participantes falsos). Finalmente, os votos gotejam a participantes válidos sob o mecanismo de Renda Básica Universal com o objetivo de encontrar-se equilíbrio na tensão histórica entre dinheiro e política. Buscamos nada menos que governança democrática verdadeira na era da Internet, um dos blocos fundamentais para construção de paz global e de prosperidade, nascendo de um arco de inovações tecnológicas que mudarão o significado de ser humano na Terra.
 
-==ii. Conteúdos.==
+==ii. Conteúdo.==
 
 Este texto está estruturado em 3 partes,  destinadas a satisfazer diferentes tipos de leitores (que podem viver em uma mesma persona).
 
