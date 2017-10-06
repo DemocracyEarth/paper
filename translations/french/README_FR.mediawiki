@@ -575,17 +575,17 @@ Même si tout système de gouvernance numérique peut bénéficier de la confian
 
 Une ''Preuve d'identité'' expire après une période donnée afin d'éviter les attaques sibyllines et d'assurer que seuls les utilisateurs vivants participent au réseau. Pour maintenir la validité de la paire de clefs, nous pensons qu'une période de 1 an est suffisante pour requérir la génération d'une nouvelle preuve mettant à jour la précédente. De la même manière que les identités physiques sont vérifiées en comparant l'image à la personne, les utilisateurs devront recréer leur ''Preuve d'identité'' et la diffuser pour vérification afin d'authentifier leur légitimité. Le jour de mise à jour peut être qualifié d' ''anniverchaîne'' d'un individu et, si désiré, célébré chaque année, de la même manière que les nations célèbrent leur journée de l'indépendance. Quand les nouveau-nés seront inscrits sous cette juridiction mondiale, les ''anniverchaînes'' se synchroniseront avec les anniversaires et pourront incorruptiblement attester de l'âge tout en réduisant progressivement le travail des authentificateurs au fil du temps.
 
-====3.2.1 Demo.====
+====3.2.1 Démo.====
 
-[[File:/images/roma-siri-blockchain-baby.png|Roma Siri's blockchain birth certificate.]]
+[[File:/images/roma-siri-blockchain-baby.png|Le certificat de naissance de Roma Siri stocké sur la chaîne de blocs.]]
 
-There is a precedent that helps to illustrate how a ''Proof of Identity'' works. [https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain valid birth certificate on November 7, 2015. The process, even though symbolic at the time, consisted of [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 a video showing baby Roma that described her vital signs and included witnesses of her birth]. Once the video was filmed, a cryptographic hash of the digital file was generated and encoded into a Bitcoin transaction. This means that regardless where the video is stored, the permanent record of its hash on the Bitcoin blockchain can verify that the file's data was not corrupted and that it existed at the time the proof was generated. With this incorruptible evidence, Roma became a blockchain-certified global citizen.
+Il existe un précédent qui aide à illustrer la manière dont une ''Preuve d'Identité'' fonctionne. [https://youtu.be/Irc-VMuUs3c?t=55m20s Selon le professeur de NYU David Yermack], la nouvelle-née Roma Siri est devenue le premier bébé à avoir un certificat de naissance valide sur la chaîne de blocs pour le 7 novembre 2015. Le processus, bien que symbolique à l'époque, se composait d'une [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 vidéo montrant Roma bébé, sa vitalité et des témoins de sa naissance]. Une fois la vidéo filmée, une empreinte numérique du fichier a été générée et encodée dans une transaction Bitcoin. Cela signifie que peu importe où la vidéo est stockée, l'enregistrement permanent de son empreinte sur la chaîne de blocs Bitcoin permet de vérifier que le fichier n'a pas été corrompu et qu'il existait au moment où la preuve a été générée. Avec cette preuve incorruptible, Roma est devenue une citoyenne mondiale certifiée par la chaîne de blocs.
 
-This demo serves as an example for the steps that need to be followed for a decentralized ''Proof of Identity'':
+Cette démo sert d'exemple pour les étapes à franchir pour obtenir une ''Preuve d'Identité'' décentralisée :
 
-# '''Film proof''' using any available smartphone or camera.
-# '''Hash proof''' on a blockchain to guarantee incorruptibility of evidence.
-# '''Validate proof''' through a voting process among peers (''Attention Mining'').
+# '''Preuve audiovisuelle''' obtenue depuis un téléphone ou une caméra.
+# '''Preuve par empreinte''' sur une chaîne de blocs pour garantir d'incorruptibilité de la preuve.
+# '''Preuve de validation''' au travers d'un processus de vote entre pairs (''Attention Mining'').
 
 ====3.2.2 Video Proof.====
 
