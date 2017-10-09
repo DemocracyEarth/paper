@@ -519,7 +519,29 @@ Para mantener el precio de referencia fijado al salario mínimo en los Estados U
 
 ====3.4.4 Divisibility====
 
-[agregar traduccion aqui]
+El período de espera de 250 bloques por cada nuevo ''goteo'' de votos limita la gratificación percibida por el sistema a cada ~42 horas. Esta restricción se establece para vincular la lógica económica del token de ''voto'' a su capacidad de indexar todas las exitosas ''Pruebas de Identidades'' a una dinámica de "goteo" de la Renta Básica Universal. Pero la capacidad de comenzar a interactuar con el propio sistema no debe requerir un largo período de espera: al introducir posiciones decimales, la red puede ofrecer gratificación instantánea adaptando la dinámica de goteo a una mínima fracción de la atención humana.
+
+Teniendo en cuenta que,
+
+  1 voto = 250 bloques = 2.500 minutos = 150.000 segundos
+
+Para mantener la extensión decimal más corta posible y adaptar la tasa de goteo al mínimo de atención humana, la red de "votos" debe realizar una revolución cada 15 segundos:
+
+  15 segundos = 0,0001 votos
+
+De la misma manera, la fracción mínima de un Bitcoin se califica como 1 satoshi (es decir, 100.000.000 de satoshis = 1 bitcoin), consideramos que es adecuado marcar la fracción mínima de un ''voto'' como una ''revolución'' concepto ayuda a expresar la velocidad a la que la red otorga derechos políticos,
+
+  1 voto = 10.000 revoluciones
+
+Lo cual también puede expresarse como,
+
+  1 revolución = 0,0001 votos
+
+Al permitir 4 posiciones decimales en el token, una ''revolución'' se gotea a una ''Prueba de Identidad'' válida en la red cada 15 segundos. Las ''revoluciones'' ofrecen acceso casi instantáneo a los derechos políticos, manteniendo la misma capacidad de utilidad que los ''votos'', con un costo que es comparativamente 10.000 veces más eficiente que las elecciones nacionales-estatales:
+
+  1 revolución = 0,0001 votos = $ 0,000725
+
+Para la identificación del token en aplicaciones de terceros, sugerimos los tickers ''VOTE'' y ''VOT''.
 
 ====3.4.5 Democracy Support Fund.====
 
