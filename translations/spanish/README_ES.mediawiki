@@ -500,9 +500,22 @@ Para que la ficha de ''voto'' se convierta efectivamente en una red útil capaz 
  1 voto = $ 7.25
 
  Mientras la red prohíba con éxito ''replicantes'' y recompense identidades de auto-soberanía validadas indexadas en la cadena de bloque Bitcoin, cualquier iniciativa de UBI puede confiar en los datos actuales para asignar recursos sin el riesgo de abuso.
+
 ====3.4.3 Nation-States====
 
-[agregar traduccion aqui]
+Desde la perspectiva del Estado-nación, se puede encontrar una referencia útil en el costo de la implementación de las elecciones nacionales. La carrera presidencial de 2016 en los Estados Unidos tenía un costo total tan alto como [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696]. A pesar de que tuvo la participación más baja de votantes en 20 años, un total estimado de votantes votados participaron. Por lo tanto, un cálculo simple puede fijar el precio del voto emitido por el gobierno de los Estados Unidos para este proceso electoral en '''$ 17.18 por voto'''. En el otro extremo del espectro, países en desarrollo como la Argentina ofrecen una referencia similar: sus elecciones legislativas de 2017 tuvieron un costo estimado de [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones -pero-casi-no-definiran-candidates $ 164,705,882] con un total de [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 votantes], fijando el precio en '''$ 6.70 por voto'''. Es dentro de esa gama de valores que los Estados-Nación invierten recursos para garantizar los derechos de voto a todos sus ciudadanos.
+
+[[File:/images/cost-of-us-elections.png|Costo de las elecciones en los Estados Unidos.]]
+
+De acuerdo con el inversor ángel de Facebook Peter Thiel, una regla de oro para la innovación tecnológica es que con el fin de vencer a un paradigma precedente, una innovación debe superar la tarea de la anterior manera de hacer las cosas [http://zerotoonebook.com/ por lo menos un factor de 10] en términos de coste y utilidad. Por ejemplo: el procesador digital de textos se hizo exitoso porque hace lo que una máquina de escribir hizo de una manera que puede ser considerada al menos diez veces mejor y diez veces más barata. Lo mismo se aplica al fax en contraste con el servicio postal; y el correo electrónico en contraste con el fax. Por lo tanto, la transición del voto tradicional a un nuevo estándar de voto basado en bloques debería funcionar en la misma base.
+
+Una simple comparación demuestra las limitaciones estrictas que tienen los votos electorales en comparación con el token de ''voto'' propuesto en este documento:
+
+* '''La prueba de Identidad''': El Estado-Nación exige varios recursos para identificar a los ciudadanos durante muchas etapas de su vida. Los certificados de nacimiento, los pasaportes, la licencia de conducir, las tarjetas nacionales de identidad, la seguridad social, los certificados de matrimonio y los certificados de defunción tienen por objeto mantener actualizado el registro público de los ciudadanos. Esta es la función principal del Estado y puede conducir a un comportamiento persecutorio.
+* '''Utilidad limitada''': Una vez que un ciudadano emite un voto durante una elección, no se puede modificar hasta 4 a 6 años más tarde, cuando los cargos elegidos se renuevan. Sólo aquellos entre los cargos elegidos (es decir, senadores y congresistas) obtienen el derecho de gastar más votos que el resto de los ciudadanos.
+* '''Reducción de ancho de banda''': Los ciudadanos pueden elegir entre un puñado de opciones sólo una vez cada 2 o 4 años. Si consideramos cada opción como un poco en el sistema entonces las elecciones tradicionales pueden ser consideradas como ''democracias de 8 bits'', tal es el ancho de banda actual para la participación en la mayoría de los gobiernos.
+
+Para mantener el precio de referencia fijado al salario mínimo en los Estados Unidos mientras que puede ser por lo menos ~10X más eficiente que cualquier elección tradicional, la utilidad del ''voto'' se debe ampliar haciendo el símbolo divisible.
 
 ====3.4.4 Divisibility====
 
