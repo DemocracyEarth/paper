@@ -235,27 +235,28 @@ The ''vote'' token can be implemented using smart contract code across a variety
 
 Also, multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
 
-===2.2 Voting.===
+===2.2 Mécanismes de vote.===
 
-The ''vote'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with ''votes'':
+Le token de ''vote'' vise à devenir une norme pour la démocratie numérique ; un outil capable d'interagir avec d'autres tokens et établissant un langage commun pour la gouvernance des organisations fondées sur les blockchains. Les démocraties liquides rendent possible une large palette de transactions de ''vote'':
 
-* '''Direct Vote''': Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
+* '''Le vote direct''': Alice, électrice égoïste, est autorisée à utiliser ses tokens pour exprimer directement par le vote son avis sur des sujets précis, comme dans une démocratie directe.
 
-* '''Basic Delegation''': Alice may delegate ''votes'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+* '''La procuration simple''': Alice peut déléguer ses ''votes'' à Bob. Tant que Bob a accès à ces tokens, il peut les utiliser pour voter au nom d'Alice.
 
-* '''Tag Limited Delegation''': Alice may delegate ''votes'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''votes'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+* '''La procuration circonscrite à une étiquette''': Alice peut déléguer sa ''voix'' à Charlie en l'assortissant de la condition qu'il ne peut utiliser les tokens que pour voter sur des problèmes portant une étiquette spécifique. Si la procuration précise que les ''votes''  délégués s'appliquent uniquement aux décisions portant l'étiquette ''#environnement'', then Charlie won't be able to use these anywhere else but on those specialors Charlie ne pourra pas les utiliser pour voter sur d'êtres questions. Cela conduit à un modèle de représentation qui ne dépend pas du territoire, mais de la connaissance.
+fic issues. This leads to a representation model not based on territory but on knowledge.
 
-* '''Transitive Delegation''': If Bob received ''votes'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of ''votes'' from an organization to its members carries a signature indicating who is the sovereign owner of the ''votes''.
+* '''La procuration transitive''': Si Bob a reçu une ''procuration'' d'Alice, il peut ensuite déléguer à Frank. Cela génère une chaîne de procurations qui habilité des acteurs spécifiques au sein d'une communauté. Si Alice ne souhaite pas que des tiers reçoivent la procuration qu'elle a confiée à Bob, elle peut modifier le cadre transitif du contrat de procuration. Les procurations circulaires (p. Ex. Alice recevant de Frank les tokens qu'elle a envoyés à Bob) sont interdites puisque l'attribution initiale de ''votes'' par une organisation à ses membres les assortit d'une signature indiquant qui est le propriétaire souverain des ''votes''.
 
-* '''Overriding Vote''': If Bob already used the delegated ''votes'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''votes''.
+* '''Le vote prioritaire''': Si Bob a déjà utilisé la ''procuration'' qu’il a reçue d'Alice, mais qu'elle a une opinion différente sur un problème donné, en tant que propriétaire souveraine de ses ''votes'', Alice conserve le pouvoir d'annuler la décision de Bob. Les votants ont toujours le dernier mot sur les décisions grâce à leurs tokens d'origine.
 
-* '''Public Vote''': Often referred as the ''golden rule'' of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+* '''Le vote public''': Souvent considéré comme la ''règle d’or'' des démocraties liquides, tous les mandants ont le droit de savoir comment leur mandataire a utilisé leurs ''votes''sur un problème donné. De même que les votes des parlementaires des démocraties conventionnelles sont publics, les mandataires concurrents d'une démocratie liquide sont incités à se forger une réputation publique par leur historique de vote afin d'attirer davantage de procurations.
 
-* '''Secret Vote''': A method able to guarantee ''vote'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''vote'' transaction is achieved, user's can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''vote'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''votes'' with these blockchains:
+* '''Le vote secret''': Une méthode qui rend les ''transactions de vote'' absolument intraçables pour les électeurs. C'est indispensable dans le contexte d'élections publiques concernant des populations nombreuses où le risque de coercition est élevé. Même dans le cas d'un respect parfait du secret du ''vote'' , il reste possible de remonter jusqu'aux électeurs en exploitant les métadonnées. C'est pourquoi la recherche sur l'intégration avec les blockchains conçues pour les transactions anonymes dotées d'une traçabilité éprouvée est souhaitable. Cela pourrait passer par une taxe sur le minage pour régler la ''transaction de vote''. . Elle pourrait être subventionnée par l'organisme chargé de la mise en oeuvre ou bien directement payée par les électeurs. Nous recommandons la recherche et l'intégration des scrutins secrets avec les blockchains ci-dessous :
 
-** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
+** [https://z.cash ZCash]: permet des transactions blindées grâce à des [https://en.wikipedia.org/wiki/Zero-knowledge_proof preuves à divulgation nulle de connaissance]
 
-** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
+** [https://getmonero.org Monero]: s'appuie sur [https://en.wikipedia.org/wiki/Ring_signature ur les signatures de cercle avec des adresses "stealth" à usage unique].
 
 ===2.3 User Experience.===
 
