@@ -635,13 +635,48 @@ Para que la ficha de ''voto'' se convierta efectivamente en una red útil capaz 
  1 voto = $ 7.25
 
  Mientras la red prohíba con éxito ''replicantes'' y recompense identidades de auto-soberanía validadas indexadas en la cadena de bloque Bitcoin, cualquier iniciativa de UBI puede confiar en los datos actuales para asignar recursos sin el riesgo de abuso.
+
 ====3.4.3 Nation-States====
 
-[agregar traduccion aqui]
+Desde la perspectiva del Estado-nación, se puede encontrar una referencia útil en el costo de la implementación de las elecciones nacionales. La carrera presidencial de 2016 en los Estados Unidos tenía un costo total tan alto como [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696]. A pesar de que tuvo la participación más baja de votantes en 20 años, un total estimado de votantes votados participaron. Por lo tanto, un cálculo simple puede fijar el precio del voto emitido por el gobierno de los Estados Unidos para este proceso electoral en '''$ 17.18 por voto'''. En el otro extremo del espectro, países en desarrollo como la Argentina ofrecen una referencia similar: sus elecciones legislativas de 2017 tuvieron un costo estimado de [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones -pero-casi-no-definiran-candidates $ 164,705,882] con un total de [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 votantes], fijando el precio en '''$ 6.70 por voto'''. Es dentro de esa gama de valores que los Estados-Nación invierten recursos para garantizar los derechos de voto a todos sus ciudadanos.
+
+[[File:/images/cost-of-us-elections.png|Costo de las elecciones en los Estados Unidos.]]
+
+De acuerdo con el inversor ángel de Facebook Peter Thiel, una regla de oro para la innovación tecnológica es que con el fin de vencer a un paradigma precedente, una innovación debe superar la tarea de la anterior manera de hacer las cosas [http://zerotoonebook.com/ por lo menos un factor de 10] en términos de coste y utilidad. Por ejemplo: el procesador digital de textos se hizo exitoso porque hace lo que una máquina de escribir hizo de una manera que puede ser considerada al menos diez veces mejor y diez veces más barata. Lo mismo se aplica al fax en contraste con el servicio postal; y el correo electrónico en contraste con el fax. Por lo tanto, la transición del voto tradicional a un nuevo estándar de voto basado en bloques debería funcionar en la misma base.
+
+Una simple comparación demuestra las limitaciones estrictas que tienen los votos electorales en comparación con el token de ''voto'' propuesto en este documento:
+
+* '''La prueba de Identidad''': El Estado-Nación exige varios recursos para identificar a los ciudadanos durante muchas etapas de su vida. Los certificados de nacimiento, los pasaportes, la licencia de conducir, las tarjetas nacionales de identidad, la seguridad social, los certificados de matrimonio y los certificados de defunción tienen por objeto mantener actualizado el registro público de los ciudadanos. Esta es la función principal del Estado y puede conducir a un comportamiento persecutorio.
+* '''Utilidad limitada''': Una vez que un ciudadano emite un voto durante una elección, no se puede modificar hasta 4 a 6 años más tarde, cuando los cargos elegidos se renuevan. Sólo aquellos entre los cargos elegidos (es decir, senadores y congresistas) obtienen el derecho de gastar más votos que el resto de los ciudadanos.
+* '''Reducción de ancho de banda''': Los ciudadanos pueden elegir entre un puñado de opciones sólo una vez cada 2 o 4 años. Si consideramos cada opción como un poco en el sistema entonces las elecciones tradicionales pueden ser consideradas como ''democracias de 8 bits'', tal es el ancho de banda actual para la participación en la mayoría de los gobiernos.
+
+Para mantener el precio de referencia fijado al salario mínimo en los Estados Unidos mientras que puede ser por lo menos ~10X más eficiente que cualquier elección tradicional, la utilidad del ''voto'' se debe ampliar haciendo el símbolo divisible.
 
 ====3.4.4 Divisibility====
 
-[agregar traduccion aqui]
+El período de espera de 250 bloques por cada nuevo ''goteo'' de votos limita la gratificación percibida por el sistema a cada ~42 horas. Esta restricción se establece para vincular la lógica económica del token de ''voto'' a su capacidad de indexar todas las exitosas ''Pruebas de Identidades'' a una dinámica de "goteo" de la Renta Básica Universal. Pero la capacidad de comenzar a interactuar con el propio sistema no debe requerir un largo período de espera: al introducir posiciones decimales, la red puede ofrecer gratificación instantánea adaptando la dinámica de goteo a una mínima fracción de la atención humana.
+
+Teniendo en cuenta que,
+
+  1 voto = 250 bloques = 2.500 minutos = 150.000 segundos
+
+Para mantener la extensión decimal más corta posible y adaptar la tasa de goteo al mínimo de atención humana, la red de "votos" debe realizar una revolución cada 15 segundos:
+
+  15 segundos = 0,0001 votos
+
+De la misma manera, la fracción mínima de un Bitcoin se califica como 1 satoshi (es decir, 100.000.000 de satoshis = 1 bitcoin), consideramos que es adecuado marcar la fracción mínima de un ''voto'' como una ''revolución'' concepto ayuda a expresar la velocidad a la que la red otorga derechos políticos,
+
+  1 voto = 10.000 revoluciones
+
+Lo cual también puede expresarse como,
+
+  1 revolución = 0,0001 votos
+
+Al permitir 4 posiciones decimales en el token, una ''revolución'' se gotea a una ''Prueba de Identidad'' válida en la red cada 15 segundos. Las ''revoluciones'' ofrecen acceso casi instantáneo a los derechos políticos, manteniendo la misma capacidad de utilidad que los ''votos'', con un costo que es comparativamente 10.000 veces más eficiente que las elecciones nacionales-estatales:
+
+  1 revolución = 0,0001 votos = $ 0,000725
+
+Para la identificación del token en aplicaciones de terceros, sugerimos los tickers ''VOTE'' y ''VOT''.
 
 ====3.4.5 Democracy Support Fund.====
 
@@ -649,7 +684,13 @@ Para que la ficha de ''voto'' se convierta efectivamente en una red útil capaz 
 
 ===3.5 End Game.===
 
-[agregar traduccion aqui]
+<blockquote>
+  "¿Qué pasó con los gobiernos?", Pregunté.
+    "Se dice que gradualmente cayeron en desuso. Se convocaban elecciones, se declaraban guerras, se cobraban impuestos, se confiscaban fortunas, se ordenaban arrestos, y se hacía intento de censura, pero nadie en el planeta prestó atención. La prensa dejó de publicar piezas por los que llamó sus «contribuyentes», y también publicó sus obituarios. Los políticos tenían que encontrar trabajo honesto; algunos se convirtieron en comediantes, algunos brujos-algunos sobresalieron en esas ocupaciones ... "
+</blockquote>
+'''Jorge Luis Borges''', ''Utopía de un Hombre Cansado''. Escritor (1899-1986).
+
+Para aquellos que discuten sobre el voto electrónico en línea puntuando sus argumentos con Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''el medio es el mensaje'']. La necesidad de establecer relaciones de confianza en entornos digitales es obligatoria a medida que la cooperación humana se escala en todo el mundo. Pero la oportunidad generacional de construir de manera colaborativa esta posibilidad debe ser capaz de aprender de las grandes lecciones de la Historia. Los orígenes de la informática se remontan a [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM la primera máquina de tabulación construida por IBM para el censo de 1890 EE.UU.] y el recuento de las elecciones nacionales después de eso. Las primeras proto-computadoras construidos por Alan Turing donde se hizo como un esfuerzo de guerra capaz de vencer el cifrado nazi en última instancia, demostró cómo la inteligencia puede vencer a la violencia. La transición de las comunicaciones analógicas a las digitales se inició con [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ la Carta Magna de la Sociedad de la Información y la Comunicación. a era de la información], publicada por Claude Shannon en 1948, en la que se exponen las bases para el código digital y las vastas redes de transmisión de la inteligencia, una visión real de la creación de los protocolos de la ''world wide web'' por Tim Berners-Lee. Cuando Satoshi Nakamoto publicó el diario Bitcoin inauguró la era que está dando lugar a la transición de las ''instituciones'' analógicas a digitales. Un salto inevitable de madurar nuestra comprensión compartida de las propiedades de la seguridad de la información. Los cadenas de bloque están dando a nuestro mundo un nuevo lienzo en el que sentar las bases que nos gobernarán a todos al punto de ser digno de no necesitar gobernar más. Después de todo [https://en.wikiquote.org/wiki/Alfred_North_Whitehead avanza la civilización extendiendo el número de operaciones importantes que podemos realizar sin pensar en ellas]. La tecnología digital ha demostrado poseer una mayor capacidad al alcance y calidad de sus capacidades de mensajería ya medida que las nuevas generaciones se conectan bajo un común común, las arquitecturas de información regularán nuestras relaciones políticas y financieras sin las restricciones físicas del pasado. El éxito innegable del experimento de Bitcoin consistentemente superando incluso los pronósticos más radicales a lo largo de una década habla en gran medida del potencial desatado que la humanidad ha encontrado. El statu quo siempre hablará desde una posición escéptica, ya que el progreso detenido sólo puede provenir de una posición de comodidad. Pero al igual que Internet no esperó la adaptación de imperios antiguos, los bloqueos no se preocuparán por las promesas políticas: una sociedad tecnológicamente avanzada puede entrar en acuerdos de cooperación mutua sin caer en los medios de coerción y violencia. Tal es la notable consecuencia de la desintermediación de la confianza sin fronteras, una realidad que no surgirá en una sola parte aislada de un país o región del globo, sino que se distribuirá por todo el planeta. El ''próximo Silicon Valley'' no está en una tierra lejana o en ninguna tierra, pero una nueva frontera de Internet se eleva como la única red abierta, libre y soberana de pares.
 
 ----
 
