@@ -273,7 +273,7 @@ Essa compreensão do requisito '' SELF / ORG / ANON '' influenciou muito nosso p
 
 O Sovereign pretende tornar a votação líquida imediata e simples. Qualquer fricção no processo deve ser evitada e a ferramenta de delegação deve ser constantemente exposta na interface ao navegar em questões (issues) ou procurar perfis de membros. Para esse fim, o Sovereign usa uma "barra líquida" que permite transações de ''votes'' com um único gesto em dispositivos móveis ou desktop.
 
-[[Arquivo: /images/liquid-mobile-ux.png | Interface móvel do Sovereign exibindo decisão, cédula e votação líquida.]]
+[[File:/images/liquid-mobile-ux.png | Interface móvel do Sovereign exibindo decisão, cédula e votação líquida.]]
 
 A "barra líquida" permite as seguintes ações:
 
@@ -299,7 +299,7 @@ Uma "barra líquida" também exibe a relação de delegação de ''votes'' que u
 
 Toda vez que um perfil de membro é exibido no Sovereign, o status atual da delegação entre o usuário e o membro é mostrado.
 
-[[Arquivo: /images/delegation-relation-votes.png | Visualização da relação de delegação de ''votes'' com outro membro.]]
+[[File:/images/delegation-relation-votes.png | Visualização da relação de delegação de ''votes'' com outro membro.]]
 
 
 ====2.3.3 Agora.====
@@ -323,7 +323,7 @@ Isso tornará as delegações mais frequentes em toda a plataforma. Debates cons
 
 Em outubro de 2016, após um deslumbrante, quase universalmente inesperado ''Não'' para a paz no referendo colombiano, que colocou em risco anos de negociação entre o governo e os narcotraficantes marxistas, a Democracy Earth pilotou a plataforma de democracia líquida Sovereign em um [http: // plebiscitodigital.co / plebiscito digital] promulgando um voto simbólico entre a diáspora de ~ 6 milhões de cidadãos expatriados. Em vez de dar a um eleitor a opção binária, o piloto permitiu que as pessoas votassem separadamente em sete subtemas separadas do tratado proposto, bem como delegassem seus votos para eleitores mais conhecedores, com resultados que revelaram nuances importantes nas preferências dos eleitores não capturados no referendo, incluindo o [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker que surgiu]: um ''Não'' esmagador entre os participantes do piloto em uma declaração particular do tratado sobre a participação política das FARC.
 
-[[Arquivo: /images/colombia-use-case.png |  Dados do case Colômbia.]]
+[[File:/images/colombia-use-case.png |  Dados do case Colômbia.]]
 
 O estudo piloto teve o [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf impacto adicional] de aumentar a mídia e o perfil político da democracia líquida habilitada para blockchains na Colômbia; surgiu o Partido de la Red Colômbia ("The Net Party") com conhecimento sobre blockchains, enquanto o Centro de Inovação Pública Digital (CDPI) do governo colombiano está investigando a tecnologia também.
 
@@ -333,7 +333,7 @@ Quando Claude Shannon escreveu seu [http://math.harvard.edu/~ctm/home/text/other
 
 Os tokens ''vote'' operam dentro dos limites institucionais criados por este conjunto de contratos: <code>Organizações</code>, <code>Membros</code>, <code>Questões</code>, <code>Cédulas</code> e <code>Orçamentos</code>. Estes são os blocos de construção que ajudam a criar um circuito de governança que pode escalar para operar democracias líquidas dentro de comunidades de qualquer tamanho.
 
-[[Arquivo: /images/vote-liquid-democracy-smart-contracts.png | Smart contracts de democracia líquida do VOTE ..]]
+[[File:/images/vote-liquid-democracy-smart-contracts.png | Smart contracts de democracia líquida do VOTE ..]]
 
 ====2.5.1 <code>Organizações</code>====
 
@@ -448,7 +448,7 @@ Toda <código> Organização </code> pode ter 1 ou mais endereços de criptomoed
 
 Com a Sovereign, procuramos fornecer uma estrutura leve de governança que permita a todas as partes interessadas de uma organização participar e impor decisões através do uso da criptografia. Mas é importante afirmar que não estamos apontando para um sistema democrático baseado na força da massa ou [https://en.wikipedia.org/wiki/Majoritarianism '' majoritarismo '']. A história oferece exemplos suficientes sobre como uma maioria cega pode acabar falhando nas aspirações de uma república, muitas vezes colocando os demagogos no poder.
 
-[[Arquivo: /images/ideal-democracy.png | Democracia ideal.]]
+[[File:/images/ideal-democracy.png | Democracia ideal.]]
 
 Nosso principal objetivo é oferecer um sistema capaz de garantir a maior legitimidade enquanto empodera as vozes mais conhecedoras em qualquer comunidade. A diferença entre fato e promessa é simples: enquanto a arte da política consiste em sustentar a ficção que cria confiança em instituições estabelecidas (por exemplo, políticos durante campanhas), a prova criptográfica de eventos oferece um método mais confiável para a governança. A natureza incorruptível das transações em blockchain constitui um incentivo para as pessoas não mentirem, portanto, as organizações que armazenam votos e as decisões neles são orientadas pelos fatos, em vez de promessas. A corrupção pode ser combatida na sua raiz à medida que desenvolvemos um novo senso de cidadania com base em redes digitais.
 
@@ -741,7 +741,7 @@ Portanto, levando em consideração as seguintes variáveis:
 
 Em seguida, os ''votes'' que uma identidade auto-soberana poderá utilizar no sistema podem ser calculados em qualquer node executando um smart contract com a fórmula:
 
-[[Arquivo: /images/ubi-vote-formula.png | Vᵢ = ((T-Pᵢ) / r) * Sᵢ]]
+[[File:/images/ubi-vote-formula.png | Vᵢ = ((T-Pᵢ) / r) * Sᵢ]]
 
 Enquanto a "Prova de Identidade" tiver sido validada pela comunidade e um smart contract for sincronizado com um node ativo da blockchain o valor de Vᵢ será um número que define a quantidade total de ''votes'' que um auto-soberano tem direito de usar em uma carteira hospedada ou, se o POI for rejeitado (ou seja, Sᵢ = <code>falso</code>), os votos disponíveis do participante se tornam zero.
 
@@ -801,7 +801,7 @@ Com a criação do Sovereign como uma interface para democracias baseadas na blo
 
 A partir de uma perspectiva de ''Renda Básica Universal'', uma referência útil que valoriza o tempo e o trabalho é o [https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States salário mínimo proposto nos EUA] com base em leis federais, estaduais e locais em todo o país. A partir de Julho de 2016, foi definido em  USD '''$ 7,25 por hora'''.
 
-[[Arquivo: /images/minimum-wage-us.png | Salário mínimo nos EUA.]]
+[[File:/images/minimum-wage-us.png | Salário mínimo nos EUA.]]
 
 Para o token ''vote'' para se tornar efetivamente uma rede útil capaz de indexar o UBI em escala global, uma expectativa em relação à sua dinâmica de preços deve ser definida como 1 ''vote'' como equivalente a 1 hora de trabalho. Por isso, isso ancora o preço inicial do token em:
 
