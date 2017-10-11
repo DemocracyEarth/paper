@@ -329,7 +329,7 @@ O estudo piloto teve o [https://www.oecd.org/gov/innovative-government/embracing
 
 ===2.5 Smart Contracts.===
 
-Quando Claude Shannon escreveu seu [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf artigo fundacional de 1948 sobre a Teoria da Informação], ele pôde demonstrar como os circuitos podem executar funções de lógica expressando um estado binário de 1 ou 0 (estados <code>verdadeiro</code> ou <code>falso </code>). Desde então, a tecnologia digital moldou a dinâmica de todos os tipos de sistemas de informação. Com isso em mente, nos concentramos em construir um design eficiente para uma máquina de governança capaz de operar com blockchains que mantém seus operadores humanos como governantes soberanos por meio do voto. Da mesma forma que os bits se movem nos computadores sinalizando um estado <code>verdadeiro</code> ou <code>falso</code>, ''votes'' indicam um valor booleano para que as decisões institucionais sejam registradas em smart contracts.
+Quando Claude Shannon escreveu seu [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf artigo fundacional de 1948 sobre a Teoria da Informação], ele pôde demonstrar como os circuitos podem executar funções de lógica expressando um estado binário de 1 ou 0 (estados <code>verdadeiro</code> ou <code>falso</code>). Desde então, a tecnologia digital moldou a dinâmica de todos os tipos de sistemas de informação. Com isso em mente, nos concentramos em construir um design eficiente para uma máquina de governança capaz de operar com blockchains que mantém seus operadores humanos como governantes soberanos por meio do voto. Da mesma forma que os bits se movem nos computadores sinalizando um estado <code>verdadeiro</code> ou <code>falso</code>, ''votes'' indicam um valor booleano para que as decisões institucionais sejam registradas em smart contracts.
 
 Os tokens ''vote'' operam dentro dos limites institucionais criados por este conjunto de contratos: <code>Organizações</code>, <code>Membros</code>, <code>Questões</code>, <code>Cédulas</code> e <code>Orçamentos</code>. Estes são os blocos de construção que ajudam a criar um circuito de governança que pode escalar para operar democracias líquidas dentro de comunidades de qualquer tamanho.
 
@@ -339,9 +339,9 @@ Os tokens ''vote'' operam dentro dos limites institucionais criados por este con
 
 A entidade ou instituição que implementa uma instância Sovereign é referida como uma <code>Organização</code>. Esta entidade atua como uma autoridade governante que define quem são os <code>Membros</code> autorizados a participar de suas decisões e conceder-lhes tokens de ''vote''. Uma vez que <code>Organizações</code> podem viver em uma rede descentralizada, os requisitos para tornar uma entidade capaz de operar com ''votes'' são semelhantes aos encontrados ao configurar um site:
 
-* <código> Domínio </code>: Toda organização deve ter seu próprio nome de domínio (por exemplo, ''democracy.earth'' no Protocolo de Transferência de Hipertexto ou HTTP). Alguns podem até ter um namespace em execução como um domínio de nível superior ou TLD (por exemplo, '' .earth ''). Este código de referência para uma <code> Organização </code> dentro de uma rede aberta, seja a rede herdada como em HTTP ou novas redes emergentes para domínios descentralizados, como [https://blockstack.org Blockstack], é crucial para ajudar a criar uma camada semântica que descreva efetivamente <code> Questões </code> sem o risco de ter eleitores manipulando tags em um sistema fechado (referido na Seção 2.5.4 como "squatting"). Os nomes de domínio ajudam a descrever uma <code> Questão </code>, bem como restringir o escopo de um contrato de delegação.
+* <code>Domínio</code>: Toda organização deve ter seu próprio nome de domínio (por exemplo, ''democracy.earth'' no Protocolo de Transferência de Hipertexto ou HTTP). Alguns podem até ter um namespace em execução como um domínio de nível superior ou TLD (por exemplo, '' .earth ''). Este código de referência para uma <code>Organização</code> dentro de uma rede aberta, seja a rede herdada como em HTTP ou novas redes emergentes para domínios descentralizados, como [https://blockstack.org Blockstack], é crucial para ajudar a criar uma camada semântica que descreva efetivamente <code>Questões</code> sem o risco de ter eleitores manipulando tags em um sistema fechado (referido na Seção 2.5.4 como "squatting"). Os nomes de domínio ajudam a descrever uma <code>Questão</code>, bem como restringir o escopo de um contrato de delegação.
 
-* <code> Constituição </ code>: Toda organização possui uma '' Constituição '' que define suas regras fundamentais sob a forma de um smart contract. O ''smart contract constitucional'' descreve como <code> Membros </code>, <code> Questões </code> e '' votes '' se conectam dentro do sistema.
+* <code>Constituição </ code>: Toda organização possui uma '' Constituição '' que define suas regras fundamentais sob a forma de um smart contract. O ''smart contract constitucional'' descreve como <code>Membros</code>, <code>Questões</code> e '' votes '' se conectam dentro do sistema.
 
 =====2.5.1.1 <code>Constituição</code>=====
 
@@ -349,11 +349,11 @@ O "smart contract constitucional" determina como os ''votes'' serão atribuídos
 
 As configurações básicas a serem encontradas em uma constituição são:
 
-* '''ID decentralizada'''(ou URL): um identificador que ajuda a se referir á <código> Organização </code> em qualquer lugar da rede e que está conectado ao seu <código> Domínio </code>.
+* '''ID decentralizada'''(ou URL): um identificador que ajuda a se referir á <code>Organização</code> em qualquer lugar da rede e que está conectado ao seu <code>Domínio</code>.
 
 * '''Bio''': Uma descrição básica da organização, incluindo seu nome, site, endereço, jurisdição (se aplicável).
 
-* ''' Financiamento''': A quantidade de tokens ''vote'' que essa organização irá gerenciar e como estes serão alocados para cada membro e concederão acesso a <code> Orçamentos </code>.
+* ''' Financiamento''': A quantidade de tokens ''vote'' que essa organização irá gerenciar e como estes serão alocados para cada membro e concederão acesso a <code>Orçamentos</code>.
 
 * '''Associação''': Requisitos para se tornar um membro válido dentro da organização. Este critério define o registro eleitoral que garante um processo eleitoral justo de uma democracia e pode ser examinado por seus membros.
 
@@ -361,7 +361,7 @@ As configurações básicas a serem encontradas em uma constituição são:
 ** '''Votada''': Os membros existentes devem votar nos membros candidatos. Um critério de porcentagem deve ser estabelecido para aprovação.
 ** '''Taxa''': A organização exige um pagamento pela aprovação da associação.
 
-* '''Conteúdo''': Define quem tem permissão para postar <code> Questões </code> na organização.
+* '''Conteúdo''': Define quem tem permissão para postar <code>Questões</code> na organização.
 
 ** '''Aberto''': Qualquer pessoa (seja seu membro ou não) pode postar. Somente os membros obtêm o direito de votar.
 ** '''Membros''': Somente os membros aprovados têm o direito de publicar.
@@ -373,7 +373,7 @@ As configurações básicas a serem encontradas em uma constituição são:
 ** '''Ban''': Uma quantidade de 'downvotes' 'necessária para proibir um membro de participar da organização e a penalidade anexada a ele (por exemplo, um período de tempo).
 ** '''Expulsão''': se uma organização se basear em ''Aprovação de Membros Votada'', um membro pode receber votos negativos de outros membros que sinalizam que esta identidade foi corrompida ou já não é parte da organização. Este critério pode ser estabelecido como uma porcentagem mínima exigida.
 
-* '''Votação''': As <code> Cédulas </code> permitidas para serem usadas para as decisões a serem feitas pela organização e configurações específicas, como '' votação quadrática ''.
+* '''Votação''': As <code>Cédulas</code> permitidas para serem usadas para as decisões a serem feitas pela organização e configurações específicas, como '' votação quadrática ''.
 
 * '''Reforma''': Os requisitos para alterar qualquer uma das regras estabelecidas em uma ''Constituição'' (por exemplo, uma maioria especial).
 
@@ -383,7 +383,7 @@ Os modelos que definem práticas comuns para tipos específicos de organizaçõe
 
 Toda Organização tem membros que obtêm o direito de votar nas decisões da organização. O critério de associação é definido no ''smart contract constitucional" e é fundamental para a confiança em qualquer ambiente democrático. Entre as formas mais comuns de subverter uma eleição é a manipulação do registro de eleitores. Garantir este aspecto com meios criptográficos, bem como um protocolo de aprovação é crítico. Uma vez que um membro é aprovado dentro de uma organização, ele ou ela recebe uma quantidade específica de ''votes''para serem usados para sua governança.
 
-Todas as <code> Organizações </code> que assumem a responsabilidade de aprovar ou desaprovar <code> Membros </ code>, contribuem com esta tarefa para o processo de "Prova de Identidade" descrito na Seção 3.3.
+Todas as <code>Organizações</code> que assumem a responsabilidade de aprovar ou desaprovar <code>Membros </ code>, contribuem com esta tarefa para o processo de "Prova de Identidade" descrito na Seção 3.3.
 
 A compatibilidade com os protocolos de identidade descentralizados é incentivada com a finalidade de garantir a governança descentralizada. A especificação [https://opencreds.github.io/did-spec/ de DIDs (identificadores descentralizados análogos aos URIs da web)], proposta pelo [https://www.w3.org/ W3C] permitindo identidades digitais auto-soberanas e verificáveis.
 
@@ -391,27 +391,27 @@ A compatibilidade com os protocolos de identidade descentralizados é incentivad
 
 Uma organização consiste em uma coleção de ''questões'', cada uma descrevendo uma decisão a ser feita pelos membros. As propriedades de associação descritas no ''smart contract constitucional'' definem os direitos de voto e postagem do membro. Uma questão em sua forma mais básica tem as seguintes propriedades:
 
-* <code> Descrição </code>: Texto da decisão a ser tomada.
-* <code> Tags </code>: categorias que descrevem a decisão dentro da organização. Isso ajuda os membros a navegar por questões, definir áreas ou equipes dentro de uma organização e limitar o alcance de uma delegação de ''votes''. Se a implementação for feita com os ambientes blockchain que são usados para gerenciar uma taxonomia fixa (como [http://blockstack.org Blockstack]), um idioma comum distribuído para tags com base em domínios descentralizados ajuda a tornar o ambiente democrático mais justo à medida que ele evita membros que tentam controlar as convenções de nomeação para seu próprio benefício. Por esse motivo, dentro de uma rede aberta <code> Tags </code> que descrevem <code> Questões </code> ou são usadas para delegações limitadas, são indicadores para outras <code>Organizações </code>. Isto é detalhado no processo '' Prova de Identidade ''.
-* <código> Assinaturas </code>: Membros que estão criando a proposta. Pode permanecer anônimo se as regras de governança de uma organização o permitirem.
-* <code> Cédula </code>: as opções apresentadas para que os eleitores participem nesta decisão.
-* <code> Orçamento </code>: Um elemento opcional que pode incluir fundos bloqueados em um endereço de criptografia que pode desencadear uma ação se uma decisão for votada em suporte.
-* <code> Período </code>: Para a contagem final, uma pesquisa aberta também deve definir seu período no tempo e definir o tipo de decisão que está sendo tomada. Existem dois tipos de decisões:
-** <code> Tática </code> (limitada no tempo): estes são contratos que recebem '' votes '' até que uma data de encerramento seja cumprida, onde uma determinada altura de bloco dada dentro da blockchain que estiver implementando os smart contracts do ''vote'' pode ser definida como a linha final para o processo eleitoral. Uma vez que todas as transações foram computadas e um resultado final é gravado, todos os tokens são devolvidos aos eleitores correspondentes e podem ser usados novamente em decisões futuras.
-** <code> Estratégica </code> (ilimitada no tempo): pesquisas intermináveis que estão perpetuamente registrando o consenso de um estado de decisão. Os ''votes'' podem ser recuperados pelos eleitores em qualquer momento se estes sentirem a necessidade de interromper sua voz em apoio ou rejeição de uma decisão. Mas enquanto o token for designado para sinalizar uma preferência em uma cédula sem data de encerramento, faz parte da decisão estratégica. Um uso comum para decisões estratégicas pode ser para os membros que votarem pela aprovação de outros membros dentro da comunidade de uma organização.
+* <code>Descrição</code>: Texto da decisão a ser tomada.
+* <code>Tags</code>: categorias que descrevem a decisão dentro da organização. Isso ajuda os membros a navegar por questões, definir áreas ou equipes dentro de uma organização e limitar o alcance de uma delegação de ''votes''. Se a implementação for feita com os ambientes blockchain que são usados para gerenciar uma taxonomia fixa (como [http://blockstack.org Blockstack]), um idioma comum distribuído para tags com base em domínios descentralizados ajuda a tornar o ambiente democrático mais justo à medida que ele evita membros que tentam controlar as convenções de nomeação para seu próprio benefício. Por esse motivo, dentro de uma rede aberta <code>Tags</code> que descrevem <code>Questões</code> ou são usadas para delegações limitadas, são indicadores para outras <code>Organizações</code>. Isto é detalhado no processo '' Prova de Identidade ''.
+* <code>Assinaturas</code>: Membros que estão criando a proposta. Pode permanecer anônimo se as regras de governança de uma organização o permitirem.
+* <code>Cédula</code>: as opções apresentadas para que os eleitores participem nesta decisão.
+* <code>Orçamento</code>: Um elemento opcional que pode incluir fundos bloqueados em um endereço de criptografia que pode desencadear uma ação se uma decisão for votada em suporte.
+* <code>Período</code>: Para a contagem final, uma pesquisa aberta também deve definir seu período no tempo e definir o tipo de decisão que está sendo tomada. Existem dois tipos de decisões:
+** <code>Tática</code> (limitada no tempo): estes são contratos que recebem '' votes '' até que uma data de encerramento seja cumprida, onde uma determinada altura de bloco dada dentro da blockchain que estiver implementando os smart contracts do ''vote'' pode ser definida como a linha final para o processo eleitoral. Uma vez que todas as transações foram computadas e um resultado final é gravado, todos os tokens são devolvidos aos eleitores correspondentes e podem ser usados novamente em decisões futuras.
+** <code>Estratégica</code> (ilimitada no tempo): pesquisas intermináveis que estão perpetuamente registrando o consenso de um estado de decisão. Os ''votes'' podem ser recuperados pelos eleitores em qualquer momento se estes sentirem a necessidade de interromper sua voz em apoio ou rejeição de uma decisão. Mas enquanto o token for designado para sinalizar uma preferência em uma cédula sem data de encerramento, faz parte da decisão estratégica. Um uso comum para decisões estratégicas pode ser para os membros que votarem pela aprovação de outros membros dentro da comunidade de uma organização.
 
 ====2.5.4 <code>Cédula</code>====
 
-Uma questão pode ser implementada com qualquer possível roteiro de acordo com as especificações definidas no ''smart contract contrato constitucional'' da organização. Os blocos de construção para uma cédula são sua <code> Interface </code>, <code> Opções </code> e <code> Critérios </code>.
+Uma questão pode ser implementada com qualquer possível roteiro de acordo com as especificações definidas no ''smart contract contrato constitucional'' da organização. Os blocos de construção para uma cédula são sua <code>Interface</code>, <code>Opções</code> e <code>Critérios</code>.
 
 =====2.5.4.1 <code>Interface</code>=====
 
 Como padrão, o Sovereign fornece os mecanismos de escolha mais utilizados para a interação com a cédula. É incentivada a inovação adicional nas interfaces de cédula.
 
-* <code> EscolhaÚnica</code>: uma opção selecionável.
-* <code> MúltiplaEscolha </code>: uma ou mais opções selecionáveis.
-* [https://en.wikipedia.org/wiki/Cardinal_voting <code> Cardinal < code>]: Uma pontuação em cada opção com um intervalo de valores pré-definido.
-* [https://en.wikipedia.org/wiki/Ranked_voting <code> Classificado </code>]: opções de classificação como preferências classificadas. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem O teorema da impossibilidade da seta] deve ser levado em consideração para qualquer inovação em relação às cédulas classificadas. Este teorema afirma que os sistemas eleitorais baseados em rank não são capazes de satisfazer ao mesmo tempo a equidade em três aspectos principais:
+* <code>EscolhaÚnica</code>: uma opção selecionável.
+* <code>MúltiplaEscolha</code>: uma ou mais opções selecionáveis.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal < code>]: Uma pontuação em cada opção com um intervalo de valores pré-definido.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code>Classificado</code>]: opções de classificação como preferências classificadas. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem O teorema da impossibilidade da seta] deve ser levado em consideração para qualquer inovação em relação às cédulas classificadas. Este teorema afirma que os sistemas eleitorais baseados em rank não são capazes de satisfazer ao mesmo tempo a equidade em três aspectos principais:
 ** '''domínio não restrito''': todas as preferências de todos os eleitores são permitidas.
 ** '''Não-ditadura''': nenhum eleitor único possui o poder de determinar sempre a preferência social.
 ** '''Eficiência de Pareto''' se cada eleitor prefere uma opção para outra, então a ordem de preferência social resultante deve corresponder.
@@ -421,28 +421,28 @@ Como padrão, o Sovereign fornece os mecanismos de escolha mais utilizados para 
 
 Para permitir o processamento de informações de ''votes'', as cédulas carregam valores booleanos expressados nas suas opções. Isso permite que as transações ''vote'' sinalizem um ''estado de decisão'' que atuará como uma força que modela as escolhas institucionais para a organização implementadora. Isso torna todas as organizações descentralizadas também em instituições programáveis. As opções podem então ser:
 
-* <code> Verdadeiro </code>: ele irá sinalizar um valor booleano <code> verdadeiro </code> se selecionado (muitas vezes descrito com seqüências de caracteres "Sim" ou "Positivo").
-* <code> Falso </code>: Significa um estado <code> falso </code> (por exemplo, pode exibir os rótulos 'Não' ou 'Negativo').
-* <code> Link </code>: A opção está conectada a outra decisão dentro da organização.
-* <code> Candidato </code>: Um membro ou lista de <code> Membros </code> da organização. Isso ajuda a eleger autoridades dentro da organização ou pode ser usado para aprovação de membros.
+* <code>Verdadeiro</code>: ele irá sinalizar um valor booleano <code>verdadeiro</code> se selecionado (muitas vezes descrito com seqüências de caracteres "Sim" ou "Positivo").
+* <code>Falso</code>: Significa um estado <code>falso</code> (por exemplo, pode exibir os rótulos 'Não' ou 'Negativo').
+* <code>Link</code>: A opção está conectada a outra decisão dentro da organização.
+* <code>Candidato</code>: Um membro ou lista de <code>Membros</code> da organização. Isso ajuda a eleger autoridades dentro da organização ou pode ser usado para aprovação de membros.
 
 =====2.5.4.3 <code>Critério</code>=====
 
 Finalmente, métodos de contagem para o resultado final ou contínuo de uma decisão dentro de uma organização.
 
-* <code> Pluralidade </ code>: a maioria simples ganha decisão.
-* <code> Maioria </ code> Uma porcentagem mínima é necessária para ganhar a decisão.
-* [https://en.wikipedia.org/wiki/D%27Hondt_method <code> DHont </code>]: Amplamente utilizado pelas eleições de Estados-Nação com base em listas de membros.
-* [https://en.wikipedia.org/wiki/Schulze_method <code> Schulze </code>]: Comumente usado por comunidades de código aberto e por partidos piratas usando opções de escolhas "rankeadas".
-* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code> PageRank </code>]: Conta votos que ponderam a reputação do eleitor em um gráfico social.
+* <code>Pluralidade </ code>: a maioria simples ganha decisão.
+* <code>Maioria </ code> Uma porcentagem mínima é necessária para ganhar a decisão.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Amplamente utilizado pelas eleições de Estados-Nação com base em listas de membros.
+* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Comumente usado por comunidades de código aberto e por partidos piratas usando opções de escolhas "rankeadas".
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Conta votos que ponderam a reputação do eleitor em um gráfico social.
 
 ====2.5.5 <code>Orçamento</code>====
 
-Toda <código> Organização </code> pode ter 1 ou mais endereços de criptomoeda para financiar seus esforços. O Sovereign autoriza a financiar uma <code> Organização </ code> com Bitcoin e em sua <code> Constituição </code> definir um critério sobre como esses recursos são distribuídos entre os <code> Membros </code>:
+Toda <code>Organização</code> pode ter 1 ou mais endereços de criptomoeda para financiar seus esforços. O Sovereign autoriza a financiar uma <code>Organização </ code> com Bitcoin e em sua <code>Constituição</code> definir um critério sobre como esses recursos são distribuídos entre os <code>Membros</code>:
 
-* '''Porcentagem para ''Prova de Identidade''''': <code> Membros </code> requerentes podem enviar a evidência da '' Prova de Identidade '' para obter a aprovação de associação em uma <código> Organização </code >. Se ''votes'' aprovarem o novo membro, fortalece a reputação de uma identidade auto-soberana na rede aberta, recompensando-lhe uma quantidade fixa de Bitcoin para permitir que a ''Prova de Identidade'' seja ''hashed'' em uma blockchain. Algumas <code> Organizações </code> podem permitir uma recompensa maior do que outras, efetivamente criando uma pontuação de Reputação que pode proteger a rede contra "Sybils" ou identidades falsas. Este processo é detalhado em [[#Executive | Seção 3]].
+* '''Porcentagem para ''Prova de Identidade''''': <code>Membros</code> requerentes podem enviar a evidência da '' Prova de Identidade '' para obter a aprovação de associação em uma <code>Organização </code >. Se ''votes'' aprovarem o novo membro, fortalece a reputação de uma identidade auto-soberana na rede aberta, recompensando-lhe uma quantidade fixa de Bitcoin para permitir que a ''Prova de Identidade'' seja ''hashed'' em uma blockchain. Algumas <code>Organizações</code> podem permitir uma recompensa maior do que outras, efetivamente criando uma pontuação de Reputação que pode proteger a rede contra "Sybils" ou identidades falsas. Este processo é detalhado em [[#Executive | Seção 3]].
 
-* '' 'Porcentagem para <code> Questões </ code>' '': <code> Membros </ code> procurando usar recursos da <code> Organização </ code> podem solicitar-lhes anexando um <code>Orçamento</ code> à uma <code>Questão</code>. Um <code> Membro </ code> pode solicitar o uso de fundos de um pool especificamente reservado para isso. Se o resultado final de uma decisão atingir um valor (<código> verdadeiro </ code> ou <código> falso </ code>), ele pode então impor a decisão final destravando moedas ou desencadeando uma transação enviando os ativos solicitados para um endereço específico.
+* '' 'Porcentagem para <code>Questões </ code>' '': <code>Membros </ code> procurando usar recursos da <code>Organização </ code> podem solicitar-lhes anexando um <code>Orçamento</ code> à uma <code>Questão</code>. Um <code>Membro </ code> pode solicitar o uso de fundos de um pool especificamente reservado para isso. Se o resultado final de uma decisão atingir um valor (<code>verdadeiro </ code> ou <code>falso </ code>), ele pode então impor a decisão final destravando moedas ou desencadeando uma transação enviando os ativos solicitados para um endereço específico.
 
 ===2.6 Segurança.===
 
@@ -666,9 +666,9 @@ Qualquer pessoa na rede pode participar para verificar novos auto-soberanos, par
 
 =====3.2.5.1 Reputação.=====
 
-O interesse em validar efetivamente uma ''Prova de Identidade'' está nas <código>Organizações</code> que devem lidar com identidades de candidatos dispostos a se tornarem <code>Membros</code> capazes de usar seus ''votes'' para as decisões relacionadas à entidade. Aqueles que têm o direito de aprovar novas associações dentro de uma <code>Organização</code> acabam contribuindo com a reputação que uma <code>Organização</code> tem para a identidade do novo candidato, se aprovado.
+O interesse em validar efetivamente uma ''Prova de Identidade'' está nas <code>Organizações</code> que devem lidar com identidades de candidatos dispostos a se tornarem <code>Membros</code> capazes de usar seus ''votes'' para as decisões relacionadas à entidade. Aqueles que têm o direito de aprovar novas associações dentro de uma <code>Organização</code> acabam contribuindo com a reputação que uma <code>Organização</code> tem para a identidade do novo candidato, se aprovado.
 
-A atribuição de reputação de uma <code>Organização</code> para um <code>Membro</code> aprovado, que aplicou com seu POI (''Prova de Identidade'') é feita simplesmente assinando o POI aprovado para certificar que esta identidade é de um <code>membro</code>. As associações conectadas a uma identidade na rede podem ser interpretadas por validadores futuros em outras <code>Organizações</code> de qualquer maneira desejada. <code>Organizações</code> na rede podem ser tão pequenas como uma família ou tão grandes quanto uma corporação multinacional, mas, em última instância, elas são <código>domínios</code> em uma rede que pode assemelharem-se a <code>Tags</code>, descrevendo os atributos de uma identidade. Algumas <code>Organizações</code> podem existir para verificações muito específicas, por exemplo: uma <código>Organização</code> em um domínio ''idade.legal'' que só verifica se um POI pertence a alguém com mais de 18 anos, fazendo com que qualquer <code>Membro</code> de tal entidade carregue uma assinatura ''idade.legal'' válida em seu POI.
+A atribuição de reputação de uma <code>Organização</code> para um <code>Membro</code> aprovado, que aplicou com seu POI (''Prova de Identidade'') é feita simplesmente assinando o POI aprovado para certificar que esta identidade é de um <code>membro</code>. As associações conectadas a uma identidade na rede podem ser interpretadas por validadores futuros em outras <code>Organizações</code> de qualquer maneira desejada. <code>Organizações</code> na rede podem ser tão pequenas como uma família ou tão grandes quanto uma corporação multinacional, mas, em última instância, elas são <code>domínios</code> em uma rede que pode assemelharem-se a <code>Tags</code>, descrevendo os atributos de uma identidade. Algumas <code>Organizações</code> podem existir para verificações muito específicas, por exemplo: uma <code>Organização</code> em um domínio ''idade.legal'' que só verifica se um POI pertence a alguém com mais de 18 anos, fazendo com que qualquer <code>Membro</code> de tal entidade carregue uma assinatura ''idade.legal'' válida em seu POI.
 
 A reputação de um <code>Organização</code> pode ser medida de acordo com a frequência com que eles permitem a entrada de [https://en.wikipedia.org/wiki/Replicant ''replicantes''] como <code>Membros</code>. Em outras palavras: <code>Organizações</code> que falham na ''Pontuação de Singularidade'' utilizada para avaliar a individualidade dos participantes na rede acabam sendo menos confiáveis do que aquelas que conseguem incluir indivíduos soberanos com efetividade.
 
