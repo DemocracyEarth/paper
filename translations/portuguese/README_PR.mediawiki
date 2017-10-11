@@ -1,15 +1,13 @@
 <pre>
- 
   DEF: 1
-   Título: O Smart Contract SociaL
-   Autor: @DemocracyEarth.
-   Comentários-Resumo: Ainda não há comentários.
-   Status: Ativo
-   Tipo: Paper
-   Criado: 2017-07-14
-   Licença: MIT
-   Substituições: 0
-
+  Título: O Smart Contract Social
+  Autor: @DemocracyEarth.
+  Comentários-Resumo: Ainda não há comentários.
+  Status: Ativo
+  Tipo: Paper
+  Criado: 2017-07-14
+  Licença: MIT
+  Substituições: 0
 </pre>
 
 =O Smart Contract Social.=
