@@ -170,7 +170,11 @@ A foundational principle of democracy is the right to be heard. Today most of th
 
 A liquid democracy is based on a dynamic representation model that works with a bottom-up approach: citizens are able to freely elect within their social graph (friends, colleagues, family) who they want to have as representatives on a specific set of topics. It is the most flexible form of democratic governance that can be constructed with digital technology, operating as a hybrid that enables direct or delegated voting at any time. There are few precedents of trustworthy bottom-up environments that led to authoritative content, [https://www.wikipedia.org/ Wikipedia] being a pioneering case. But if history is any guide, the last time civilization faced [https://en.wikipedia.org/wiki/Age_of_Enlightenment a paradigm shift regarding encyclopedic enlightment] it was precisely on the epoch preceding the rise of modern democracies.
 
-L'article qui va suivre déroule la mise en oeuvre d'une démocratie liquide utilisant [http://github.com/DemocracyEarth/sovereign Sovereign], notre application de gouvernance qui opère avec les jetons blockchains à partir d'une série de contrats intelligents. Nous avons misé sur la simplicité du design et de son langage afin de développer des outils authentiques, car aucune technologie ne peut satisfaire les aspirations démocratiques si elle ne s'adresse qu'aux élites. Comme l'explique pertinemment le cryptographe [https://fr.wikipedia.org/wiki/Ralph_Merkle] :
+L'article qui va suivre déroule la mise en oeuvre d'une démocratie liquide utilisant [http://github.com/DemocracyEarth/sovereign Sovereign], notre application de gouvernance qui opère avec les 
+
+
+
+s blockchains à partir d'une série de contrats intelligents. Nous avons misé sur la simplicité du design et de son langage afin de développer des outils authentiques, car aucune technologie ne peut satisfaire les aspirations démocratiques si elle ne s'adresse qu'aux élites. Comme l'explique pertinemment le cryptographe [https://fr.wikipedia.org/wiki/Ralph_Merkle] :
 
 <blockquote>
 Nous ne faisons pas appel à des citoyens ordinaires pour procéder à des opértions chirirgicales, piloter des avions, dessiner des ordinateurs ou prendre en charge les myriades de tâches qui font qu'une société fonctionne, pourquoi la gouvernance obéirait-elle à d'autres règles ? Or le problème est clair : si nous la laissons aux “experts”, ils prendront des décisions dans leur propre intérêt, non pas dans celui de nous tous.
@@ -223,7 +227,7 @@ Ce qui différencie un vote d'une monnaie (ou une ''économie politique'' d'une 
 
 ====2.1.1 Mise en œuvre.====
 
-Etant donné que [https://en.wikipedia.org/wiki/Dogecoin le mimétisme peut entraîner une création de valeur], le token Democracy Earth donnant accès au vote fera passer le message le plus important qu'une démocratie - quelle qu'elle soit- puisse transmettre : le ''vote''.
+Etant donné que [https://en.wikipedia.org/wiki/Dogecoin la capacité de mimétisme peut entraîner une création de valeur], le jeton Democracy Earth qui donne accès au droit de vote sera marqué du message le plus important qu'une démocratie - qu'elle qu'elle soit - puisse transmettre : ''votez''.
 
 Le token de ''vote'' peut être mis en oeuvre grâce à un code de contrat intelligent dans un ensemble de blockchains qui permettent [https://en.wikipedia.org/wiki/Turing_completeness des scripts Turing Complete], dont le Bitcoin. Nous avons imaginé un système indépendant des blockchains car nous sommes conscients que la science informatique en est encore à ses balbutiements et des innovations importantes restent à inventer. Nous travaillons toutefois à la mise en pratique du token de ''vote'' dans les environnements contractuels intelligents suivants :
 
