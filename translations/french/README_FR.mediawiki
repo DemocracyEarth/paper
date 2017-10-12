@@ -229,15 +229,15 @@ Ce qui différencie un vote d'une monnaie (ou une ''économie politique'' d'une 
 
 Etant donné que [https://en.wikipedia.org/wiki/Dogecoin la capacité de mimétisme peut entraîner une création de valeur], le jeton Democracy Earth qui donne accès au droit de vote sera marqué du message le plus important qu'une démocratie - qu'elle qu'elle soit - puisse transmettre : ''votez''.
 
-Le token de ''vote'' peut être mis en oeuvre grâce à un code de contrat intelligent dans un ensemble de blockchains qui permettent [https://en.wikipedia.org/wiki/Turing_completeness des scripts Turing Complete], dont le Bitcoin. Nous avons imaginé un système indépendant des blockchains car nous sommes conscients que la science informatique en est encore à ses balbutiements et des innovations importantes restent à inventer. Nous travaillons toutefois à la mise en pratique du token de ''vote'' dans les environnements contractuels intelligents suivants :
+Le jeton ''votez'' peut être mis en oeuvre grâce à un code contrat intelligent à travers une variété de blockchains qui supportent des scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing-complet], dont le Bitcoin. Nous avons imaginé un système indépendant de la blockchain car nous sommes conscients que l'informatique en est encore à ses balbutiements et des innovations importantes restent à inventer. Nous travaillons toutefois à l'implémentation du jeton ''votez'' dans les environnements de contrats intelligents suivants :
 
-* '''Ethereum''': Utilisation d'un ensemble de [https://github.com/ethereum/solidity contrats intelligents de solidité] correspondant au [https://theethereum.wiki/w/index.php/ERC20_Token_Standard  standard token Ethereum ERC20].
+* '''Ethereum''': Utilisation d'un ensemble de contrats intelligents [https://github.com/ethereum/solidity Solidity] selon le [https://theethereum.wiki/w/index.php/ERC20_Token_Standard  jeton standard Ethereum ERC20].
 
-** '''Rootstock''': Nous prenons les mesures nécessaires pour rendre le code de solidité compatible avec [http://www.rsk.co/ l'interprète de contrat intelligent de Rootstock pour la blockchain Bitcoin].
+** '''Rootstock''': Nous prenons les mesures nécessaires pour rendre le code de Solidity compatible avec [http://www.rsk.co/ l'interprète de contrat intelligent de Rootstock pour la blockchain Bitcoin].
 
-* '''Lightning''': Avec l'activation de [https://en.bitcoin.it/wiki/Segregated_Witness témoin séparé] dans le protocole Bitcoin, qui permet l'acheminement des canaux de paiement par [http://lightning.network le protocole de réseau Lightning], les délégations de la démocratie liquide peuvent être cartographiées à l'aide de transactions au niveau satoshi portant un identifiant de vote. Les coûts liés à la blockchain doivent être couverts par l'organisme de mise en oeuvre.
+* '''Lightning''': Avec l'activation du [https://en.bitcoin.it/wiki/Segregated_Witness témoin séparé] dans le protocole Bitcoin, qui permet l'acheminement des canaux de paiement par [http://lightning.network le protocole Lightning Network], les délégations dans la démocratie liquide peuvent être cartographiées à l'aide de transactions de niveau satoshi portant un identifiant ''votez'' attaché. Les coûts de règlement des transactions via la blockchain doivent être couverts par l'organisme de mise en oeuvre.
 
-En outre, les mises en oeuvre multi-chaînes sont encouragées, conformément à un esprit de recherche de davantage d'expérimentation et de collaboration à l'égard de ces technologies.
+En outre, les implémentations multi-chaînes sont encouragées, dans l'esprit de favoriser davantage d'expérimentation et de collaboration par rapport à ces technologies.
 
 ===2.2 Mécanismes de vote.===
 
