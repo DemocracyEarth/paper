@@ -19,17 +19,17 @@ Dans un monde qui a réussi à globaliser les actifs financiers mais où les dro
 
 ==ii. Contenus.==
 
-Ce texte est structuré en trois parties, chacune visant à satisfaire une cible de lectorat différente (ces trois personas pouvant se retrouver dans la même personne).
+Ce texte est structuré en trois parties, chacune visant à satisfaire un type de lecteur différent (tous les types pouvant se retrouver dans le même profil).
 
-* [[#Manifeste|Manifesto]] : Pour les idéalistes. Diagnostique le contexte politique mondial et plaide pour un changement de paradigme.
+* [[#Manifesto|Manifeste]] : Pour les idéalistes. Fait le diagnostic du contexte politique mondial et plaide pour un changement de paradigme.
 
-* [[#Article|Paper]] : Pour les bâtisseurs. Décrit les fondations d'un système qui peut être mis en œuvre par n'importe qui, n'importe où.
+* [[#Paper|Article]] : Pour les bâtisseurs. Décrit les fondations d'un système qui peut être mis en œuvre par n'importe qui, n'importe où.
 
-* [[#Exécution|Execution]]: Pour les pragmatistes. Explique comment exécuter ces idées pour avoir un impact.
+* [[#Execution|Exécution]]: Pour les pragmatiques. Explique comment mettre en oeuvre ces idées pour avoir de l'impact.
 
-Nous ne voulons pas que ce texte reste figé. Publié sous une licence open source, nous accueillons toutes contributions, notre objectif étant que ce document constitue une feuille de route pour la gouvernance mondiale. La démocratie comme cadre de confiance pour le plus grand nombre est une force déterminante qui définit la trajectoire de l'histoire. Notre message résonne de par le monde, englobant toute l'humanité face à la nécessité de faire de la planète Terre un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a exploré [[#Background|différents axes de recherche]] sur les systèmes de vote, la cyberpolitique et les réseaux blockchain ; nous positionnant ainsi à l'avant-garde de la conversation mondiale consistant à considérer Internet comme la nouvelle juridiction planétaire.
+Notre intention est que ce texte évolue. Il est publié sous une licence open source et nous accueillons toutes les contributions dans la mesure où notre objectif est que ce document constitue une feuille de route vivante pour une gouvernance mondiale. La démocratie comme capacité à se faire mutuellement confiance dans la mesure du possible est un facteur clé qui façonne la trajectoire de l'histoire. Notre mission résonne instamment de par le monde, englobant ainsi toute l'humanité: la nécessité de faire de notre Maison un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a mené des [[#Background|recherches approfondies]] sur les systèmes électoraux, la cyberpolitique et les réseaux blockchain ; nous nous tenons ainsi à l'avant-garde d'une conversation publique concernant l'idée de considérer l'internet comme une nouvelle juridiction planétaire.
 
-En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons produit du code informatique afin de prendre la mesure du possible avant d'exposer nos idées dans cet article. À cette fin, quelques [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015] qui ont guidé nos recherches et façonné les idées présentées ici.
+En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons d'abord entreprise d'écrire du code informatique avant de partager nos idées sous forme écrite, afin de comprendre au mieux ce qui peut être fait. À cette fin, plus de [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015], lesquelles ont à leur tour guidé nos recherches, cas d'utilisation, et les idées présentées ici. Ceci constitue notre proposition.
 
 <div id="Eléments de contexte"></div>
 ==iii. Eléments de contexte.==
