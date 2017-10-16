@@ -314,18 +314,17 @@ But unlike web based applications, Sovereign does not allow testimonial interact
 
 This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''vote'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
 
-=== 2.4 Pilot ===
+=== 2.4 Projet pilote ===
 
 <blockquote>
-  Blockchain could disrupt voting, just as it has currency, and could apply to any democratic government.
-</blockquote>
-[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''The Organization for Economic Cooperation and Development'''], Embracing innovation in government: global trends (2016).
+La technologie des blockchains pourrait révolutionner le vote, exactement comme cela a été le cas pour la monnaie, et pourrait s'appliquer à n'importe quel gouvernement démocratique.</blockquote>
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''L'Organisation de coopération et de développement économiques'''], Faire place à l'innovation dans le gouvernement : tendances mondiales (2016). 
 
-In October 2016, following a shocking, almost universally unexpected No to peace in the Colombian referendum that put at risk years of negotiation between the government & the marxist narco-guerrillas, Democracy Earth piloted the Sovereign liquid democracy platform in a [http://plebiscitodigital.co/ digital plebiscite] enacting a symbolic vote among the diaspora of ~6 million expatriate citizens. Instead of giving a voter the binary option, the pilot enabled people to vote separately on seven separate sub-themes of the proposed treaty, as well as to delegate their votes to more knowledgeable voters, with results revealing important nuances in voter preferences not captured in the referendum, including the [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker that emerged]: an overwhelming “No” among pilot participants to one particular statement of the treaty regarding political participation of the FARC.
+En octobre 2016, à la suite du choc provoqué par un "Non" inattendu au référendum colombien sur la paix - issue mettant en péril des années de négociations entre le gouvernement et les narcoguérillas marxistes - Democracy Earth a mis la plate-forme de démocratie liquide Sovereign au service d’un [http://plebiscitodigital.co/ plébiscite en ligne], donnant ainsi un accès symbolique au vote à une diaspora d'environ 6 millions de citoyens expatriés. Plutôt que de contraindre les électeurs à un choix binaire, ce projet pilote leur a permis de voter séparément sur sept sous-thèmes du projet de traité et de déléguer leurs votes à des électeurs plus informés. Les résultats ont fait apparaître des nuances importantes dans les préférences des électeurs que le référendum n'avait pas permis de révéler, dont un [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 point d’achoppement essentiel]: les participants du projet pilote se sont, à une écrasante majorité, prononcés contre une clause spécifique du traité concernant la participation politique des FARC.
 
 [[File:/images/colombia-use-case.png|Colombia use case data..]]
 
-The pilot study had the [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf additional impact] of increasing the media and political profile of blockchain-enabled, decentralized liquid democracy in Colombia; a blockchain-savvy political party has sprung up, the Partido de la Red Colombia party (“The Net Party”), while the Colombian government’s Centre for Digital Public Innovation (CDPI) investigating the technology as well.
+Cette étude pilote a en [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf outre permis] de renforcer le poids médatique et politique de la démocratie liquide décentralisée fondée sur les blockchains en Colombie. On a vu naître depuis un parti politique qui défend l'utilisation des blockchains, le Partido de la Red Colombia («Le Parti du Réseau»), et le Centre pour l'innovation publique numérique (CDPI) du gouvernement colombien a quant à lui lancé des études sur cette technologie.
 
 ===2.5 Smart Contracts.===
 
