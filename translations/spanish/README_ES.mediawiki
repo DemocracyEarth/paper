@@ -298,7 +298,13 @@ Nosotros vemos esta interacción como un paso hacia delante en comparación al p
 
 ====2.3.2 Delegations.====
 
-Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en las redes sociales. Los ''likes'' limita la votación a los clics sin mente y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. Los ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''Likes'' solo sirven a sus corporaciones que controlan.
+Una ''barra desplazable'' también muestra la relación en cuanto a delegación de votos que un usuario tiene con cualquier otro miembro de una organización. Las delegaciones pueden ocurrir en ambas direcciones:
+
+* '''Enviado''': un usuario debe poder delegar cualquiera de sus votos disponibles y a la misma vez poder verificar el monto delegado correspondiente (si existe).
+
+* '''Recibidos''': un usuario debe poder entender cuantos votos ha recibido de alguien más.
+
+Cada vez que se muestra el perfil de un miembro en Sovereign, se muestra el estado actual de la delegación entre el usuario y el miembro.
 
 [[File:/images/delegation-relation-votes.png|Vista del voto delegado en relación con otro miembro.]]
 
