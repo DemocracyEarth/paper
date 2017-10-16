@@ -21,9 +21,9 @@ Dans un monde qui a réussi à globaliser les actifs financiers mais où les dro
 
 Ce texte est structuré en trois parties, chacune visant à satisfaire un type de lecteur différent (tous les types pouvant se retrouver dans le même profil).
 
-* [[#Manifesto|Manifeste]] : Pour les idéalistes. Fait le diagnostic du contexte politique mondial et plaide pour un changement de paradigme.
+* [[#Manifesto|Manifeste]]: Pour les idéalistes. Fait le diagnostic du contexte politique mondial et plaide pour un changement de paradigme.
 
-* [[#Paper|Article]] : Pour les bâtisseurs. Décrit les fondations d'un système qui peut être mis en œuvre par n'importe qui, n'importe où.
+* [[#Paper|Article]]: Pour les bâtisseurs. Décrit les fondations d'un système qui peut être mis en œuvre par n'importe qui, n'importe où.
 
 * [[#Execution|Exécution]]: Pour les pragmatiques. Explique comment mettre en oeuvre ces idées pour avoir de l'impact.
 
