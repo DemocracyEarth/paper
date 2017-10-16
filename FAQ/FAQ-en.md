@@ -80,7 +80,7 @@ Self-sovereign is anything that is fully under control of itself. Central author
 
 Yes. Sovereign is intended for planetary governance as much as it is suitable to be used by an organization consisted of two members.
 
-**14 - Does Sovereign excludes people who have no access to video (for the Proof of Identity protocol)?**
+**14 - Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**
 
 As of this moment we have not encountered an alternative to the Proof of Identity protocol that does not involve central authorities, but we and the digital hive mind will continue exploring options in order to make Sovereign available to all humankind.
 
@@ -88,7 +88,7 @@ As of this moment we have not encountered an alternative to the Proof of Identit
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire - USA has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas), San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
-**16. What does planetary jurisdiction and post Nation-state mean?**
+**16. What do "planetary jurisdiction" and "post Nation-state" mean?**
 
 The blockchain knows no borders, it is a transnational technology. Allowing individuals from all nations to cooperate and make decisions together will create a new jurisdiction that encompasses the entire planet. Territorial divisions and the perpetual conflict between Nation-states have led to accelerated climate change, rising inequality, terrorism and forced migrations. Those are global issues that can only be addressed through a new model, where different parts of the globe cooperate, regarding the planet as one jurisdiction towards which all members are equally responsible and entitled to - we call that post Nation-state governance.    
 
@@ -108,7 +108,15 @@ Decentralized identifiers are intended for a verifiable digital identity that is
 
 Public and private keys are generated as a cryptographic pair that works together, meaning that a message encrypted with the public key can only be decrypted with it's correspondent private key and vice-versa. This method is utilized to safely transmit messages, create crypto wallets, DIDs, etc. 
 
+**21. Is the VOTE token a security?**
 
+No, the VOTE token is not a security.  The VOTE token is an asset.  What is the difference?  To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
+ 
+-A security is primarily  something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category. 
+ 
+-An asset is different in that it has inherent value due to a clear, intrinsic functionality. 
+ 
+Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The VOTE  token is by definition an asset, with the primary utility of decision-making. In addition, being a crypto asset, VOTE tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks
 
 
 
