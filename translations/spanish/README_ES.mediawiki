@@ -294,7 +294,7 @@ La ''barra líquida'' permite estas acciones:
 
 *'''Eliminar' ''votos''''': En cualquier momento, mientras el sondeo continúe abierto, el usuario puede retirar sus ''votos'' de una decisión simplemente deslizando la barra ''líquida'' vuelva a la posición inicial.
 
-Vemos esta interacción como un paso adelante del patrón ''como'' encontrado en las redes sociales. Los ''Likes'' limita la votación a los clics sin mente y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''likes'' solo sirven a sus corporaciones que controlan.
+Nosotros vemos esta interacción como un paso hacia delante en comparación al patron de ''likes'' encontrado en las redes sociales. Los ''likes'' limita la votación a clics sin sentido y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''likes'' solo sirven a sus corporaciones que controlan.
 
 ====2.3.2 Delegations.====
 
