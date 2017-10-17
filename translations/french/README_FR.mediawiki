@@ -447,22 +447,22 @@ Every <code>Organization</code> can have 1 or more cryptocurrency addresses to f
 
 * '''Percentage for <code>Issues</code>''': <code>Members</code> seeking to use resources from the <code>Organization</code> can request them by attaching a <code>Budget</code> to an <code>Issue</code>. A <code>Member</code> can request to used funds from a pool specifically reserved for this. If the final tally of a decision reaches a certain value (<code>true</code> or <code>false</code>), it can then enforce the final decision by unlocking coins or triggering a transaction sending the requested assets to a specific address.
 
-===2.6 Security.===
+===2.6 Sécurité.===
 
-With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptography. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
+Avec Sovereign, nous visons à fournir un cadre de gouvernance léger qui permet à toutes les parties prenantes d'une organisation de participer et d'appliquer les décisions grâce à l'utilisation de la cryptographie. Mais il est important de préciser que nous ne visons pas un système démocratique classique basé sur la domination de la populace ou le [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarisme'']. L'histoire offre suffisamment d'exemples de situations où une majorité aveugle finit par faire échouer les aspirations d'une république en mettant souvent des démagogues au pouvoir.
 
 [[File:/images/ideal-democracy.png|Ideal democracy.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. The difference between fact and promise is simple: while the art of politics consists in sustaining the fiction that breeds trust on established institutions (e.g. politicians during campaigns), cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rather than promises. Corruption can be fought at its root as we develop a new sense of citizenship based on digital networks.
+Notre objectif principal est de fournir un système capable de garantir la plus grande légitimité possible tout en habilitant les voix les plus compétentes dans n'importe quelle communauté. La différence entre un fait et une promesse est simple: alors que l'art de la politique consiste à soutenir la fiction qui nourrit la confiance dans les institutions établies (par exemple des politiciens durant une campagne), la preuve cryptographique des événements fournit une méthode plus fiable pour une bonne gouvernance. La nature incorruptible des transactions blockchain incite les gens à ne pas mentir, ce qui explique que les organisations qui y stockent les votes et les décisions sont guidées par des faits plutôt que par des promesses. La corruption peut être combattue à sa source à mesure que nous développons un nouveau sens de la citoyenneté basé sur les réseaux numériques.
 
-Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum:
+Pourtant, les démocraties liquides peuvent être faussées de différentes manières, avec des résultats dominés par les conséquences inattendues de deux dynamiques qui représentent les extrémités du spectre de la participation:
 
-* '''Lack of delegationg''' leading to a ''polyopoly'': extreme fragmentation of voting power.
-* '''Abundance of delegations''' leading to a ''monopoly'': extreme concentration of voting power.
+* '''Un manque de délégation''' menant à un ''polyopole'': fragmentation extrême du pouvoir électoral.
+* '''Une abondance de délégations''' conduisant à un ''monopole'': concentration extrême du pouvoir électoral.
 
-Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''vote'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
+Chaque résultante a un impact sur l'un des deux axes qui mesure la qualité de la gouvernance démocratique. Les incitations sur l'économie politique ''vote'' sont conçues pour maintenir un équilibre stable visant à garantir le plus haut niveau de légitimité et de prise de décision factuelle.
 
-To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against different kinds of attackers: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
+Pour créer un environnement de confiance pour une gouvernance décentralisée dans de grandes communautés (villes, nations ou à l'échelle mondiale), Sovereign doit être protégé contre différents types d'attaques: les ''Mobs'', les ''Corporations'', les ''Sybils'', les ''Fakes'' et ''Big Brother''.
 
 ====2.6.1 Polyopoly.====
 <blockquote>
