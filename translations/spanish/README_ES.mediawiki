@@ -457,7 +457,45 @@ La mayoría de las investigaciones sobre cómo prevenir ataques de sybil (falsif
 
 ====3.3.1 Dripping.====
 
-[agregar traduccion aqui]
+La velocidad a la que 1 ''voto'' gotea a una identidad verificada está sincronizada con la cadena de bloques de Bitcoin. Al usar el mecanismo de sincronización de Bitcoin como un reloj, un consenso incorruptible establece el ritmo para toda la red. Bitcoin encadena un bloque nuevo a Blockchain cada 10 minutos, lo que significa,
+
+  1 hora = 6 bloques
+
+Suponiendo que el tiempo acumulado en todo el mundo se base en 8 horas de trabajo,
+
+  8 horas por día x 5 días por semana x 52 semanas por año = 2,080 horas por año
+
+O en bloque tiempo,
+
+  2,080 horas = 12,480 bloques
+
+Y considerando que el consenso establecido en [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 un ideal la tasa de ingreso básica promedia alrededor del 10% de las ganancias de un individuo] podemos definir eso,
+
+  10% de ganancias Ingreso Básico Anual = 208 horas por año = 1,248 bloques
+
+Lo que significa que de los ~52,560 bloques que registran un año completo de actividad en la cadena de bloques de Bitcoin, un total de 1,248 bloques deben contabilizarse para recompensar un UBI por año. Para sincronizar el ''voto'' que gotea con Bitcoin como un mecanismo UBI basado en un 10% de ganancias por cada hora de trabajo, una unidad completa de un token de ''voto'' debería gotear cada ~42 horas (o ~252 bloques). Con el fin de garantizar una divisibilidad factible del token ''voto'' para que pueda ser goteado cada pocos segundos (mientras que también es más fácil para la interpretación humana y de la máquina), establecemos la tasa de goteo en,
+
+  1 voto = 250 bloques
+
+Por lo tanto, cada POI válido recibe un total de:
+
+  210 votos por año
+
+[[File:/images/proof-of-identity-dripping.png|Mecanismo de goteo para votos minados.]]
+
+Por lo tanto, teniendo en cuenta las siguientes variables:
+
+* T = Presente la altura del bloque (es decir, la hora actual).
+* r = Una constante para la tasa de asignación de ''voto'', establecida en 1 voto cada 250 bloques a tiempo.
+* Pᵢ = El bloque ''Prueba de identidad'' que contiene su hash correspondiente a una identidad dada (i).
+* Sᵢ = ''Puntaje de singularidad'' expresado como un estado <code>verdadero</code> o <code>falso</code> para una identidad dada (i).
+* Vᵢ = Cantidad total de ''votos'' para una identidad dada (i).
+
+Luego, los ''votos'' que una identidad auto soberana puede usar en el sistema se pueden calcular en cualquier nodo que ejecute un contrato inteligente con la fórmula:
+
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
+
+Mientras la ''Prueba de identidad'' haya sido validada por la comunidad y se haya sincronizado un contrato inteligente con un nodo blockchain activo, entonces el valor de Vᵢ será un número que define la cantidad total de ''votos'' un auto soberano tiene como derecho de usar en una billetera alojada o, si se rechaza el POI (es decir, Sᵢ = <code>falso</code>), los votos disponibles del participante se convertirán en cero.
 
 ====3.3.2 Equality====
 
