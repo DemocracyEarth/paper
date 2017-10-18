@@ -515,7 +515,17 @@ A pesar de que la tasa de inflación inicialmente podría parecer demasiado agre
 
 ====3.3.3 Nakamoto Coefficient====
 
-[agregar traduccion aqui]
+Se están realizando importantes esfuerzos para cuantificar la descentralización, incluido el trabajo de Balaji Srinivasan para establecer un [https://news.21.co/quantifying-decentralization-e39db233c28e ''Coeficiente Nakamoto''] definido como:
+
+<blockquote>
+  Se requiere el número mínimo de entidades en un subsistema dado para llegar al 51% de la capacidad total.
+</blockquote>
+
+La importancia de medir la descentralización se basa en encontrar una métrica capaz de certificar la capacidad de una red para ser resistente a la censura, siendo esta una propiedad fundamental para las monedas auto soberanas como Bitcoin. Pero, en última instancia, también debe abordarse la cuestión de quién tiene el control de las entidades que ejecutan un sistema en red. Al establecer una red de referencia que garantiza una distribución igualitaria de su ficha basada en un mecanismo de ''Prueba de Identidad'' diseñada para evitar ''replicantes'', esto trae una nueva perspectiva que puede ayudar a aumentar la resolución del Coeficiente de Nakamoto por Medio de acceso igual discernible.
+
+Al garantizar un punto de partida igual para todos los participantes independientemente del momento en que deciden unirse a la red, la red de ''voto'' funciona como una auténtica meritocracia. La variable ''Igualdad'' propuesta es simplemente una regla para establecer un punto de partida y de ninguna manera una imposición permanente: en cualquier momento, cualquier auto soberano puede delegar ''votos'' a otra persona o usarlos para inicia una <code>Organización</code> en la red. De esta forma, el token ''voto'' puede funcionar como un dispositivo apto para fomentar una ola de emprendimiento, incluso entre las personas privadas de derechos de hoy en día ignoradas por los sistemas financieros y políticos heredados. Pero a medida que esto sucede a nivel individual, las estadísticas generales de la red funcionan como un marco de referencia en el que medir efectivamente la descentralización a cada humano en todo el mundo e identificar las oportunidades donde es necesario a medida que crece.
+
+El valor de la red no reside en la escasez simulada, sino en su capacidad de registrar decisiones no coercitadas entre los autoestados sobre la base de la igualdad. Inicialmente, el token de ''voto'' podría competir con los encuestadores y cualquier otra simulación rudimentaria que tenga como objetivo predecir elecciones, pero eventualmente puede convertirse en un sistema soberano por derecho propio a medida que la ciudadanía migra en línea. Los ''Votos'' funcionan como una señal capaz de registrar eventos grabados en una cadena de bloques incorruptible que almacena historial político que no se puede borrar o modificar de ninguna manera. Las futuras generaciones quedan expuestas a su pasado sin intermediarios.
 
 ===3.4 Value===
 
