@@ -464,22 +464,22 @@ Chaque résultante a un impact sur l'un des deux axes qui mesure la qualité de 
 
 Pour créer un environnement de confiance pour une gouvernance décentralisée dans de grandes communautés (villes, nations ou à l'échelle mondiale), Sovereign doit être protégé contre différents types d'attaques: les ''Mobs'', les ''Corporations'', les ''Sybils'', les ''Fakes'' et ''Big Brother''.
 
-====2.6.1 Polyopoly.====
+====2.6.1 Polyopole.====
 <blockquote>
-  a.k.a. ''Mobs''
+  également connu sous le nom de ''Populace''
 </blockquote>
 
-Among the most notable research projects on the field is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. The project had the following numbers in terms of impact:
+[http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes] fait partie des projets de recherche les plus notables dans le domaine. Il s'agissait d'une implémentation interne réalisée pour les employés de Google et menée par l'ingénieur Steve Hardt. Il a ainsi créé un plug-in de démocratie liquide à utiliser sur la version interne de Google+. Le projet produisit les résultats chiffrés ci-après en termes d'impact:
 
-* 15,000 participants.
+* 15 000 participants.
 
-* 371 decisions.
+* 371 décisions.
 
-* '''3.6% of delegated votes''' in total.
+* '''3,6% de votes délégués''' au total.
 
-The small percentage in delegations means that Google Votes operated more as a direct democracy than a liquid democracy. Delegations occured mostly among those users who actively campaigned to attract them (e.g. vegans in a team hoping to gather power to choose office snacks). The risk of few delegations is that it opens the democracy to the known risks of mob rule. Although this might keep legitimacy high, the quality of the decisions being made by an organization becomes more political than factual. Knowledgeable voices able to address specific problems within a community become disempowered.
+Le faible pourcentage de délégations signifie que Google Votes fonctionnait davantage comme une démocratie directe qu'une démocratie liquide. Les délégations se sont principalement produites parmi les utilisateurs qui ont activement fait campagne pour les attirer (par exemple, les végétaliens dans une équipe qui espéraient accumuler du pouvoir pour choisir les collations servies au travail). Le risque associé au faible nombre de délégations est que cela ouvre la démocratie aux risques connus de la domination par la populace. Bien que la légitimité puisse restée élevée, la qualité des décisions prises par une organisation devient davantage politique que factuelle. Les voix bien informées capables d'adresser des problèmes spécifiques au sein d'une communauté perdent ainsi de leur pouvoir.
 
-To increase delegation frequency, these happen every time self-sovereigns get validated. On the ''Proof of Identity'' process (see Section 3), users are able to natively generate their own ''votes'' as long as their individuality gets endorsed by other identities. Also since the ''vote'' token operates in a blockchain, delegations don't need to necessarily happen within the Sovereign application: messaging applications, tweets and e-mails can be sent with vote addresses or QR codes attached to them making the vote token able to be broadcasted across multiple networks.
+Pour augmenter la fréquence des délégations, celles-ci se produisent chaque fois que les auto-souverains sont validés. En ce qui concerne le processus de ''preuve d'identité'' (voir la section 3), les utilisateurs sont capables de générer nativement leurs propres ''votes'' aussi longtemps que leur individualité est endossée par d'autres identités. De plus, les délégations n'ont pas forcément besoin de se produire à l'intérieur de l'application Sovereign puisque le token ''vote'' fonctionne dans une blockchain: les applications de messagerie, les tweets et les e-mails peuvent être envoyés avec des adresses de vote ou des codes QR en attachement permettant ainsi au token vote d'être diffusé sur plusieurs réseaux.
 
 ====2.6.2 Monopoly.====
 <blockquote>
