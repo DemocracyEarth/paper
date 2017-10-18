@@ -499,7 +499,19 @@ Mientras la ''Prueba de identidad'' haya sido validada por la comunidad y se hay
 
 ====3.3.2 Equality====
 
-[agregar traduccion aqui]
+La dinámica de goteo descrita termina beneficiando a los primeros usuarios, como suele ser el caso de las criptomonedas orientadas a la financiación. Por ejemplo, Bitcoin se describe a menudo como ''escasez inducida criptográficamente'', ya que es un instrumento capaz de medir la riqueza en términos de recursos económicos debido a la escasez fija de su ficha. Pero con el token de ''voto'' estamos construyendo una red de una naturaleza diferente que pretende ser complementaria a las criptomonedas financieras al tener la gobernabilidad como un objetivo. Al emitir los ''votos'' como un derecho que se puede otorgar a cualquier persona siempre que se demuestre su identidad singular, el ''voto'' funciona como influencia política. Entonces, en esencia, nuestro enfoque es sobre ''igualdad inducida criptográficamente'': tal es la base de cualquier democracia real. Por esta razón, introducimos otra variable en su dinámica de ''ingreso básico universal''
+
+* E = Cantidad de ''votos'' asignada a ''Identidad Génesis'' en la altura actual de bloque (T).
+
+Nos referimos a la ''Identidad Génesis'' como la primera ''Prueba de identidad'' que recibe la aprobación de la red. Con esta información, la próxima identidad validada no comenzará en desventaja: tendrá una billetera con la misma cantidad de ''votos'' que tiene actualmente el primer participante de la red. Como esta regla se aplica a todos los participantes, garantizará ''Igualdad'' en términos de participación, permitiendo que todos tengan la misma cantidad de ''votos'' Soberanos que todos los demás, extendiendo la fórmula de UBI de la siguiente manera:
+
+[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
+
+Con la variable ''Igualdad'', si un segundo participante Bob se validó 1500 bloques después de una primera Alice, no comenzará con 0 ''votos'' sino que obtendrá una cantidad inicial que coincida con el saldo actual de Alice en ese momento ( es decir, a razón de 1 ''voto'' por 250 bloques, es un total de 6 ''votos''). Bob continuará obteniendo ''votos'' goteando en igualdad de condiciones con Alice bloque tras bloque luego de eso. Si un tercer participante Charlie genera una ''Prueba de Identidad'' válida 1000 bloques más adelante, comenzará con la cantidad equivalente de ''votos'' que Alice y Bob tienen actualmente para entonces también (es decir, un total de 10 ''votos'' cada uno). Con este proceso de inflación que premia a todos los nuevos participantes (diluyendo todos los preexistentes), a todos se le garantiza una participación ''igual'' en los derechos de participación globales de la red. Mientras los ''replicantes'' se vean exitosamente prohibidos, la red de ''voto'' es un patrimonio común global genuinamente democrático.
+
+[[File:/images/chart-votes-coins-time.png|Emisión de voto y tasa de inflación.]]
+
+A pesar de que la tasa de inflación inicialmente podría parecer demasiado agresiva, la oferta total de ''votos'' aún se fija en un límite máximo basado en la cantidad de participantes en la red. A medida que más participantes participen, la inflación general tenderá a limitar el 0% ya que los nuevos ''votos'' tienen una influencia reducida en la economía en su conjunto. Cuando se compara con los ''me gusta'' y ''retweets'' no seleccionados en otras aplicaciones sociales, debe notarse que de la subjetividad de cada individuo la asignación de ''votos'' sigue siendo una decisión basada en un recurso limitado que implica costos de oportunidad, forzando un comportamiento más racional en lugar de gusto impulsivo (es decir, trolear).
 
 ====3.3.3 Nakamoto Coefficient====
 
