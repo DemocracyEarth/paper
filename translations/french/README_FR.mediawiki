@@ -258,61 +258,62 @@ fic issues. This leads to a representation model not based on territory but on k
 
 ** [https://getmonero.org Monero]: s'appuie sur [https://en.wikipedia.org/wiki/Ring_signature ur les signatures de cercle avec des adresses "stealth" à usage unique].
 
-===2.3 User Experience.===
+===2.3 Expérience utilisateur.===
 
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+L'expérience utilisateur (UX) est un aspect essentiel d'une architecture décentralisée et le devient d'autant plus à mesure que le mille-feuilles redondant des architectures centralisées se condense autour de l'utilisateur. Dans une architecture internet centralisée, l'utilisateur n'est propriétaire ni de l'interface ni de l'expérience. Dans une architecture Internet décentralisée au contraire, l'interface utilisateur (IU) doit être axée sur la perspective de l'utilisateur. Les transactions sont opérées selon trois modes distincts :
 
-* '''Self''': Using a public identity related to an individual.
+* '''Individuel (SELF)''': Utilisation d'une identité publique liée à un individu.
 
-* '''Organization''': In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+* '''Organisation (ORG)''': En représentation d'une organisation qui confère des droits de représentation à des individus (entreprise, club, parti politique, etc.).
 
-* '''Anonymous''': Without any connection to a public identity.
+* '''Anonyme (ANON)''': Sans lien aucun avec une identité publique.
 
-This undertanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of this modes to interact with decentralized organizations.
+La prise en compte de cette exigence multiforme ''SELF / ORG / ANON'' a fortement influencé la conception de notre interface et des tokens. Les utilisateurs de Sovereign peuvent à tout moment opter pour l'un ou l'autre de ces modes pour interagir avec les organisations décentralisées.
 
-====2.3.1 Liquid.====
+====2.3.1 Liquidité.====
 
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile and desktop devices.
+L'objectif de Sovereign est de rendre le vote liquide immédiat et simple. Il convient d'éviter tout accroc dans le processus. En outre, le widget de procuration doit être visible en permanence sur l'interface de consultation des sujets à débattre ou des profils des membres. Sovereign utilise donc une ''barre liquide'' qui permet d'opérer des ''transactions de vote'' d'un seul geste, aussi bien sur mobile que sur ordinateur.
 
 [[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
 
-The ''liquid bar'' allows these actions:
+La ''barre liquide'' aoffre les fonctionnalités suivantes :
 
-* '''See available ''votes''''': Since in a liquid democracy a user can have 1 or more delegated ''votes'', having a constant reminder of the balance helps the user understand his or her current power within the system. If some of the ''votes'' were delegated with strict conditions (e.g. a ''Tag Limited Delegation''), this means that a user won't have the same amount of ''votes'' available to spend on every issue.
+* '''Rappel des ''votes'' disponibles''': Dans une démocratie liquide, un utilisateur peut être dépositaire d'une ou plusieurs procurations, un rappel constant des votes restants l'aide par conséquent à connaître son pouvoir dans le système à un moment T. Si certains ''votes'' ont été délégués dans des conditions strictes (avec une ''procuration circonscrite à une étiquette'' par exemple), cela signifie qu'un utilisateur n'aura pas la même quantité de votes disponibles pour chaque sujet.
 
-* '''See cast ''votes''''': A percentage value with the amount of ''votes'' currently cast on other decisions or delegated to other members of the community is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''vote'' and decide whether to keep them there or make a strategic change.
+* '''Affichage des ''votes'' exprimés''': Affichage d'un pourcentage représentant la quantité de ''votes'' déjà exprimés sur d'autres décisions ou délégués à d'autres membres de la communauté. L'utilisateur peut cliquer à tout moment sur cette valeur pour afficher une liste complète des sujets sur lesquels il a utilisé un ''vote'' et décider de ne pas modifier son choix ou au contraire de procéder à un changement stratégique.
 
-* '''Slide to ''vote''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he or she will be prompted a confirmation request whether to ''vote'' or not.
+* '''Glisser pour ''voter''''': L'utilisateur peut utiliser son doigt (ou la souris) pour faire glisser la ''barre liquide'' vers la droite. Une demande de confirmation s'affiche alors pour établir s'il souhaite ou non ''voter''.
 
-* '''Tap to ''vote''''': If the user does not want to allocate more than 1 vote, he or she can simply tap on the ''liquid bar'' handle once and will be prompted to confirm a single ''vote'' transaction.
+* '''Cliquer pour ''voter''''': Si l'utilisateur ne souhaite pas allouer plus d’1 vote, il peut simplement appuyer sur la ''barre liquide'' une fois et sera invité à confirmer une transaction de ''vote'' unique.
 
-* '''Remove ''votes''''': At any time, as long as the poll is still open, the user may remove his or her ''votes'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''votes'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding how a user's interaction will influence a specific decision. ''votes'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporations.
+* '''Retrait de ''votes''''': Tant que le scrutin est ouvert, l'utilisateur peut à n'importe quel moment retirer son ou ses ''votes'' 'une décision. Il lui suffit de faire glisser la ''barre liquide'' vers la gauche pour la remettre dans la position initiale.
 
-====2.3.2 Delegations.====
+Cette interaction nous paraît un progrès par rapport au système de ''likes'' des médias sociaux. Le système des ''likes'' limite le vote à des clics dénués d'intention et pouvant être gonflés à volonté. Dans notre proposition, les votes sont une ressource rare qui ne peut pas être générée à volonté. Les utilisateurs doivent donc faire preuve d'un minimum de réflexion tactique pour peser sur une décision spécifique. Les ''votes'' ont des implications réelles pour l'utilisateur en tant qu'acteur d'une organisation décentralisée alors que les ''likes'' ne profitent qu'aux entreprises qui les contrôlent.
 
-A ''liquid bar'' also displays the ''vote'' delegation relation a user has with any other member of an organization. Delegations go both ways:
+====2.3.2 Procurations.====
 
-* '''Sent''': A user must be able to delegate any of his available ''votes'' while checking the current delegated amount (if any).
+La ''barre liquide'' affiche également les procurations qu'un utilisateur a reçues ou données à tout autre membre d'une organisation. Les procurations vont dans les deux sens :
 
-* '''Received''': A user must be able to understand how many ''votes'' were received from someone else.
+* '''Mandataire (procurations envoyées)''': Un utilisateur doit être en mesure de déléguer n'importe lequel de ses ''votes'' disponibles et de consulter, le cas échéant, le nombre de votes délégués à un moment T.
 
-Every time a member profile is displayed on Sovereign, the current delegation status between the user and the member is shown.
+* '''Mandaté (procurations reçues)''': Un utilisateur doit avoir une vision claire du nombre de ''votes'' confiés par d'autres utilisateurs.
+
+Chaque fois qu'un profil de membre est affiché sur Sovereign, le statut des procurations entre l'utilisateur et le membre en question s'affiche.
 
 [[File:/images/delegation-relation-votes.png|View of vote delegation relation with another member.]]
 
 ====2.3.3 Agora.====
 
-Sovereign also has a debating component codenamed ''Agora''. Debating is likely as important as voting on any democracy. Agoras display ''threaded conversations'', a successful design pioneered by [http://reddit.com Reddit] and [http://news.ycombinator.com Hacker News]. We consider this UX pattern as the best way to engage in thoughtful conversations online as they have the most valued comments bubble up, helping sort the information for a debate using the collective intelligence of the community.
+Sovereign propose également un outil de discussion qui répond au nom de code ''Agora''. Dans toute démocratie, le débat est probablement aussi important que le vote. Les Agoras affichent les ''fils de discussion'', un modèle abouti dont [http://reddit.com Reddit] et [http://news.ycombinator.com Hacker News]ont été les pionniers. Nous considérons ce modèle d'expérience utilisateur comme la meilleure façon d'engager des conversations réfléchies en ligne car les commentaires les plus appréciés remontent à la surface, ce qui aide à trier l'information en utilisant l'intelligence collective de la communauté.
 
-But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite ''upvotes'' or ''downvotes'', if the user agrees with a comment from someone else in the platform, it will trigger an instantaneous delegation of a single ''vote''. Hence Agoras permit:
+Contrairement aux applications basées sur le Web, Sovereign ne permet cependant pas d'interactions de témoignage : plutôt que de permettre des ''upvotes'' ou ''downvotes'', à l'infini, si l'utilisateur se retrouve dans le commentaire d'un autre usager de la plateforme, la délégation d'un seul ''vote''est instantanément déclenchée. Les Agoras permettent donc :
 
-* '''Upvote''': Send a single ''vote'' delegation from the user to the commenter.
+* '''Les upvotes''': Envoi d'un seul ''vote'' délégué de l'utilisateur à l'auteur du commentaire.
 
-* '''Downvote''': If a user disagrees with someone's comment, a ''downvote'' can either retrieve a ''vote'' from the commenter back to the user if there was a previous delegation. Or if no delegation relation exists among them, then a ''downvote'' will act as a penalty sending a ''vote'' from the commenter back to the funds of the organization implementing the Sovereign instance. The criteria for this kind of penalty can be set in the ''constitutional smart contract'' of the implementing organization.
+* '''Les downvotes''': Si un utilisateur n'est pas d'accord avec le commentaire de quelqu'un, un ''downvote'' peut permettre de révoquer une ''procuration'' s'il avait délégué des votes à l'auteur du commentaire. Ou alors, si aucune procuration ne relie ces usagers, un ''downvote'' agira comme une pénalité en renvoyant un ''vote'' de l'intervenant à l'organisation mettant en œuvre le système Sovereign. Les critères de ce type de sanction peuvent être définis dans le ''contrat constitutionnel intelligent'' de l'organisation chargée de la mise en oeuvre.
 
-This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''vote'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
+Ce mécanisme a le mérite d'inciter à déléguer les votes et à rendre les procurations plus fréquentes sur la plateforme. L'impact politique de débats constamment exposés à la sanction du ''vote'' est réel. Ce mécanisme peut aider à récompenser les bons arguments et à punir le trolling sans qu'il soit besoin de mettre en place des instances de modération.
 
 === 2.4 Projet pilote ===
 
