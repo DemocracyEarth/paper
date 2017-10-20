@@ -566,19 +566,41 @@ La atención también puede validar las identidades humanas en una red descentra
 
 La mayoría de las investigaciones sobre cómo prevenir ataques de sybil (falsificación de identidad en redes peer to peer) gira alrededor de requerir que las entidades realicen una tarea que un atacante sybil no podría realizar. La minería de la atención requiere que los validadores observen ciertos aspectos de los videos de ''Prueba de Identidad'' que sólo una persona puede reconocer. Con el fin de tener un mecanismo que impide que los robots, el sistema puede generar vídeos modificados para inducir a los atacantes a error. Estas distorsiones pueden ser creadas cortando ciertas secciones de un video, mezclándolo con otras o distorsionando las voces para trabajar como una versión de video de una prueba CAPTCHA dirigida a distinguir de forma segura entre los validadores humanos reales y botnets.
 
-====3.2.5 Little Brothers.====
-[agregar traduccion aqui]
+====3.2.5 Hermanos Pequeños.====
 
-=====3.2.5.1 Reputation.=====
+<blockquote>
+  ¿Quién vigila a los vigilantes?
+</blockquote>
+[https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], novela gráfica (1987).
 
-[agregar traduccion aqui]
-=====3.2.5.2 Replicants.=====
+Las identidades auto-soberanas se pueden valorar en dos aspectos clave que ayudan a definir su derecho a participar en la red:
 
-[agregar traduccion aqui]
+* '''Reputación''': Un indicador social de que se debe confiar en una identidad determinada.
+* '''Singularidad''': Un indicador individual que certifica que una identidad está vinculada de manera única a una sola persona.
 
-=====3.2.5.3 Singularity Score.=====
+Cualquier persona en la red puede participar para verificar nuevos auto-soberanos a fin de asegurar una democracia global contra la amenaza de un ''Gran Hermano''. Esta tarea se realiza efectivamente cada vez que una <code>Organización</code> decide aprobar un nuevo <code>Miembro</code>. Al aprovechar la atención distribuida en múltiples <code>Organizaciones</code> en lugar de una potencia central que todo lo observa, los validadores son en efecto un ejército de [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt hermanos pequeños] que pueden marcar en colaboración una identidad auto-soberana en la red. Los ''hermanos pequeños'' pueden superar a los proveedores de identidad centralizados en términos de precisión, ya que están constantemente incentivados a mantener la legitimidad dentro de la red para mantener los ''votos'' como un activo valioso: el éxito de la red para detectar ''replicantes'' (identidades duplicadas) determina la escasez de la ficha de ''voto''. La legitimidad de cualquier democracia se basa en el mantenimiento de un registro de votantes adecuado.
 
-[agregar traduccion aqui]
+=====3.2.5.1 Reputación.=====
+
+El interés en validar efectivamente una ''Prueba de Identidad'' se encuentra entre las <code>Organizaciones</code> que deben tratar con las identidades solicitantes que deseen volverse <code>Miembros</code> capaces de usar sus ''votos'' para las decisiones relacionadas con la entidad. Los que dentro de una <code>Organización</code> tienen los derechos para aprobar nuevas membresías terminan contribuyendo con la reputación de una <code>Organización</code> a la identidad del solicitante si se aprueban.
+
+La asignación de reputación de una <code>Organización</code> a un <code>Miembro</code> aprobado que aplicó con su PDI se realiza simplemente con la firma de la PDI aprobada para certificar que una identidad es un <code>Miembro</code> válido. Las membresías conectadas a una identidad en la red pueden ser interpretadas por futuros validadores en otras <code>Organizaciones</code> de cualquier manera deseada. Las <code>Organizaciones</code> en la red pueden ser tan pequeñas como una familia o tan grandes como una corporación multinacional, pero en última instancia son <code>Dominios</code> en una red que pueden parecerse a las <code>Etiquetas</code> que describen los atributos de una identidad. Algunas <code>Organizaciones</code> pueden existir para verificaciones muy específicas, e.g., una <code>Organización</code> en un dominio ''legal.age'' que solo verifica si una PDI pertenece a alguien mayor de 18 años haciendo que cualquier <code>Miembro</code> aprobado de dicha entidad lleve un firma ''legal.age'' en su PDI.
+
+La reputación de una <code>Organización</code> puede medirse con qué frecuencia terminan permitiendo [https://en.wikipedia.org/wiki/Replicant ''replicantes''] como <code>Miembros</code>. En otras palabras: <code>Organizaciones</code> que fallan en el ''puntaje de Singularidad'' utilizado para valorar la individualidad de los participantes en la red, terminan siendo menos confiables que aquellos que pueden incluir eficazmente a individuos soberanos.
+
+=====3.2.5.2 Replicantes.=====
+
+Mientras que los gobiernos necesitan verificar el árbol genealógico de un posible nuevo ciudadano y las corporaciones tradicionales necesitan confiar en las prácticas [https://en.wikipedia.org/wiki/Know_your_customer ''Conozca a su cliente''] (KYC) para trazar una línea entre sus clientes y el resto del mundo, una democracia global no tiene tanta preocupación por establecer una diferencia entre ''nosotros y ellos''. El objetivo de Democracy Earth Foundation es escalar el derecho a usar ''votos'' para cada ser humano: todos somos ''nosotros'' (o ''ellos''). Por lo tanto, el desafío general para una dinámica exitosa descentralizada de ''Prueba de Identidad'' es simplemente enfocarse en usar la atención disponible en la red para verificar por ''replicantes'' que están solicitando una porción de ''votos''.
+
+''Replicantes'' son identidades que se ''votan'' como duplicados, y reclaman ilegítimamente más ''votos'' de lo que merecen. Es probable que ocurran PDI falsos utilizando técnicas modernas de representación 3D con el objetivo de engañar al ojo humano (por ejemplo, superar al [https://en.wikipedia.org/wiki/Uncanny_valley valle misterioso] de percepción), pero es una suposición segura considerar que [http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf las personas son capaces de reconocer las caras con un 98% de precisión] mientras que [http://www.washington.edu/news/2016/06/23/how-well-do-facial-recognition-algorithms-cope-with-a-million-strangers/ la capacidad de los sistemas algorítmicos disminuye cuando se escala]. Teniendo en cuenta que la frontera que se dibuja entre los seres humanos y las inteligencias artificiales es que utilizamos el término ''replicante'' que fue acuñado por la película de 1982 ''Blade Runner'', refiriéndose a los androides capaces de simular ser personas reales.
+
+=====3.2.5.3 Puntaje de Singularidad.=====
+
+Para certificar que una identidad es válida, los verificadores están expuestos a dos videos de PDI simultáneos que se pueden elegir al azar entre todos los videos indexados y hasheados encontrados en la cadena de bloques. Un algoritmo de coincidencia de rostros que busca similitudes entre las expresiones faciales se puede utilizar para optimizar la prueba. Los validadores deben usar ''votos'' para decidir si estos videos de PDI pertenecen a una misma persona o no, siendo el resultado continuo de esta decisión un ''puntaje de Singularidad'' para la identidad.
+
+El proceso de validación es el mismo que en cualquier dinámica de votación de Sovereign: los validadores pueden aprobar emitiendo un ''voto'' que incluya una <code>Boleta</code> con una <code>Opción</code> marcada <code>verdadera</code> en ella. De lo contrario, deben emitir un ''voto'' en rechazo con una <code>Opción</code> marcada <code>falsa</code>. Todas las decisiones relacionadas con PDI son <code>Estratégicas</code>: sin una fecha de cierre donde se asigna el impacto de ''votos'' en tiempo real. En cualquier momento, un validador puede anular el valor de ''voto'' si ha encontrado evidencia que modifica el juicio anterior. Además, los ''votos'' que validan una PDI se pueden eliminar si la identidad ya tiene aportes de suficientes validadores, lo que hace que la asignación de ''votos'' adicionales sea redundante. Al igual que con cualquier decisión de Sovereign, el resultado final de una PDI relacionada con el voto terminará en un valor <code>verdadero</code> o <code>falso</code>. Cualquiera que termine siendo votado como un ''replicante'' verá que sus ''votos'' concedidos serán inútiles.
+
+Los <code>Criterios</code> utilizados para el ''Puntaje de Singularidad'' también están sujetos a votación por cada PDI validado que participe en la red. Las democracias son siempre un trabajo en progreso, autocorrectándose perpetuamente con un ciclo de retroalimentación que define cómo se observa a los observadores. El umbral que establece el derecho soberano de ''votar'' debe adaptarse constantemente al crecimiento exponencial de la capacidad informática que puede poner en riesgo la subversión de la red. Al ser respaldado con un índice de identidad descentralizado usando una cadena de bloques incorruptible que se mantiene con atención distribuida (es decir, un libro abierto), la ficha de ''voto'' se convierte en un dispositivo confiable para que surja una democracia digital en cualquier lugar. Asignar atención para asegurar la red no solo lleva la conciencia a un sistema que de otro modo estaría oculto a la inteligencia artificial, sino que también permite a los participantes poseer sus identidades sin ser coaccionados por un poder centralizado que podría monetizar sin consentimiento. La atención consciente siempre debe ponerse al servicio del fortalecimiento de una democracia global porque es solo en el ámbito de la conciencia humana que podemos definir lo que significa ser humano.
 
 ===3.3 Ingreso Básico Universal.===
 <blockquote>
