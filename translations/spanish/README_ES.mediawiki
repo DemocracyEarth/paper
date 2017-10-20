@@ -322,7 +322,16 @@ Esto hará que las delegaciones sean más frecuentes en toda la plataforma. Los 
 
 ===2.4 Piloto.===
 
-[agregar traduccion aqui]
+<blockquote>
+  Blockchain podría cambiar la votación, al igual que tiene valor monetario, y podría aplicarse a cualquier gobierno democrático.
+</blockquote>
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''La Organización para la Cooperación y el Desarrollo Económico'''], Adoptando la innovación en el gobierno: tendencias mundiales (2016).
+
+En octubre de 2016, tras un impactante, casi universalmente inesperado No a la paz en el referéndum colombiano que puso en riesgo años de negociación entre el gobierno y las narcoguerrillas marxistas, Democracy Earth puso a prueba la plataforma de democracia líquida soberana en un [http://plebiscitodigital.co/ plebiscito digital] promulgando un voto simbólico entre la diáspora de ~6 millones de ciudadanos expatriados. En lugar de darle a un votante la opción binaria, el piloto permitió a las personas votar por separado sobre siete subtemas individuales del tratado propuesto, así como delegar sus votos a votantes más conocedores, cuyos resultados revelaron matices importantes en las preferencias de los votantes no captadas en el referéndum, incluyendo el [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 factor decisivo que surgió]: un abrumador "No" entre los participantes del piloto en una declaración particular del tratado sobre la participación política de las FARC.
+
+[[File:/images/colombia-use-case.png|Datos de casos de uso en Colombia..]]
+
+El estudio piloto tuvo el [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf impacto adicional] de aumentar los medios y el perfil político de la democracia líquida descentralizada habilitada por blockchain en Colombia; ha surgido un partido político conocedor de blockchain, el Partido de la Red Colombia, mientras que el Centro de Innovación Pública Digital del gobierno colombiano también está investigando la tecnología.
 
 ===2.5 Contratos Inteligentes.===
 
