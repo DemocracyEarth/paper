@@ -324,45 +324,122 @@ Esto hará que las delegaciones sean más frecuentes en toda la plataforma. Los 
 
 [agregar traduccion aqui]
 
-===2.5 Smart Contracts.===
+===2.5 Contratos Inteligentes.===
 
-[agregar traduccion aqui]
+Cuando Claude Shannon escribió su [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf documento fundamental de 1948 sobre la teoría de la información], pudo demostrar cómo los circuitos pueden realizar funciones lógicas expresando un estado binario de 1 o 0 (estados <code>verdaderos</code> o <code>falsos</code>). Desde entonces, la tecnología digital configuró la dinámica de todo tipo de sistemas de información. Con esto en mente, nos enfocamos en construir un diseño eficiente para una máquina de gobierno capaz de operar con blockchains que mantenga a sus operadores humanos como gobernantes soberanos por medio del voto. Del mismo modo en que los bits se mueven en las computadoras señalando un estado de <code>verdadero</code> o <code>falso</code>, las fichas ''votos'' señalan un valor booleano para que las decisiones institucionales se registren bajo contratos inteligentes.
 
-====2.5.1 <code>Organizations</code>====
+Las fichas de ''voto'' operan dentro de los límites institucionales creados por este conjunto de contratos: <code>Organizaciones</code>, <code>Miembros</code>, <code>Cuestiones</code>, <code>Bolletas</code> y <code>Presupuestos</code>. Estos son los componentes básicos que ayudan a crear un circuito de gobernanza que se puede escalar hasta poder operar democracias líquidas dentro de comunidades de cualquier tamaño.
 
-[agregar traduccion aqui]
+[[File:/images/vote-liquid-democracy-smart-contracts.png|Contratos inteligentes de democracia líquida VOTE..]]
 
-=====2.5.1.1 <code>Constitution</code>=====
+====2.5.1 <code>Organizaciones</code>====
 
-[agregar traduccion aqui]
+La entidad o institución que implementa una instancia de Sovereign se conoce como una <code>Organización</code>. Esta entidad actúa como una autoridad de gobierno que define quiénes son los <code>Miembros</code> autorizados para participar en sus decisiones y otorgandoles fichas ''voto''. Dado que <code>Organizaciónes</code> pueden vivir en una red descentralizada, los requisitos para que una entidad pueda operar con ''votos'' son similares a aquellos requeridos cuando se configura un sitio web:
 
-====2.5.2 <code>Members</code>====
+* <code>Dominio</code>: Todas las organizaciones deben tener su propio nombre de dominio (por ejemplo, ''democracy.earth'' en el protocolo de transferencia de hipertexto o HTTP). Algunos incluso pueden tener un espacio de nombres ejecutándose como un dominio de nivel superior o TLD (por ejemplo, ''.earth''). Este código de referencia para una <code>Organización</code> dentro de una red abierta, ya sea la web heredada como en HTTP o las nuevas redes emergentes para dominios descentralizados como [https://blockstack.org Blockstack], es crucial para ayudar construir una capa semántica que describa de manera efectiva las <code>Cuestiones</code> sin el riesgo de que los votantes manipulen las etiquetas en un sistema cerrado (referido en la Sección 2.5.4 como ''allanamiento''). Los nombres de dominio ayudan a describir una <code>Cuestion</code> y a restringir el alcance de un contrato de delegación.
 
-[agregar traduccion aqui]
+* <code>Constitución</code>: Toda organización tiene una ''Constitución'' que define sus reglas fundamentales en la forma de un contrato inteligente. El ''contrato inteligente constitucional'' describe cómo <code>Miembros</code>, <code>Cuestiones</code> y ''votos'' se conectan dentro del sistema.
 
-====2.5.3 <code>Issues</code>====
+=====2.5.1.1 <code>Constitución</code>=====
 
-[agregar traduccion aqui]
+El ''contrato constitucional inteligente'' determina cómo se asignarán los ''votos'' a los miembros, entre otras decisiones de gobernanza. Las condiciones de asignación son una prerrogativa de la organización en función de sus objetivos: en algunos casos se puede alinear con los derechos financieros (por ejemplo, los accionistas de una corporación obtienen un ''voto'' por acción); en otros casos, puede asignarse en función de una distribución igualitaria a todos los miembros (por ejemplo, contribuyentes dentro de una jurisdicción, obteniendo cada uno la misma cantidad de ''votos'').
 
-====2.5.4 <code>Ballot</code>====
+Las configuraciones básicas que se encuentran en una constitución son:
 
-[agregar traduccion aqui]
+* '''ID descentralizado''' (o URL): Un identificador que ayuda a hacer referencia a la <code>Organización</code> en cualquier parte de la red y que está conectado a su <code>Dominio</code>.
 
-=====2.5.4.1 <code>Interface</code>=====
+* '''Biografía''': Una descripción básica de la organización, incluyendo su nombre, sitio web, dirección, y jurisdicción (si corresponde).
 
-[agregar traduccion aqui]
+* '''Financiamiento''': Cantidad de fichas ''voto'' que gestionará esta organización y cómo estas se asignarán a cada miembro y otorgarán acceso a <code>Presupuestos</code>.
 
-=====2.5.4.2 <code>Options</code>=====
+* '''Membresía''': Requisitos para convertirse en un miembro válido dentro de la organización. Este criterio define el registro de votantes que garantiza un proceso electoral justo de una democracia y puede ser analizado por sus miembros.
 
-[agregar traduccion aqui]
+** '''Abierto''': Cualquiera puede unirse libremente a una organización.
+** '''Votado''': Los miembros existentes deben votar para los miembros solicitantes. Se debe establecer un porcentaje de criterio para su aprobación.
+** '''Tarifa''': La organización requiere un pago para la aprobación de la membresía.
 
-=====2.5.4.3 <code>Criteria</code>=====
+* '''Contenido''': Define quién puede publicar <code>Cuestiones</code> en la organización.
 
-[agregar traduccion aqui]
+** '''Abierto''': Cualquier persona (ya sea miembro o no) puede publicar. Solo los miembros tienen derecho a votar.
+** '''Miembros''': Solo los miembros aprobados tienen derecho a publicar.
+** '''Miembros Especiales''': Los miembros que cumplen ciertos criterios (por ejemplo, un mínimo de ''votos'' o ''votos'' recibidos bajo una etiqueta específica) tienen derecho a publicar.
+** '''Anónimo''': Define si se permite publicar contenido anónimo.
 
-====2.5.5 <code>Budget</code>====
+* '''Moderación''': Describe las reglas que ayudan a definir un código de conducta entre los miembros de una organización.
 
-[agregar traduccion aqui]
+** '''Prohibición''': Se requiere una cantidad de ''votos negativos'' para prohibir que un miembro participe en la organización y la penalización que se le atribuye (por ejemplo, un período de tiempo).
+** '''Expulsión''': Si una organización se basa en la ''Aprobación de Membresía Votada'', un miembro puede recibir votos negativos de otros miembros que indiquen que dicha identidad se ha corrompido o ya no forma parte de la organización. Este criterio se puede establecer como un porcentaje mínimo requerido.
+
+* '''Votación''': Las <code>Boletas</code> permitidas se usarán para las decisiones que tomará la organización y configuraciones específicas como ''votación cuadrática''.
+
+* '''Reforma''': Los requisitos para cambiar cualquiera de las reglas establecidas en una ''Constitución'' (por ejemplo, una mayoría especial).
+
+Se alienta a las plantillas que definen prácticas comunes para tipos específicos de organizaciones a simplificar la configuración organizacional. Esto será ayudado e impulsado a través del trabajo con la asociación Democracy Earth Foundation con [https://aragon.one/ Aragón], que está trabajando en una jurisdicción digital que hará que las organizaciones descentralizadas sean eficientes. Sovereign incluirá plantillas para corporaciones, partidos políticos, sindicatos, clubes y empresas cooperativas, entre otros; cualquiera que sea la forma que adopte la organización, la red descentralizada de Aragón asegura que una empresa siempre funcionará, incluso frente a la manipulación maliciosa por parte de terceros hostiles o gobiernos abusivos.
+
+====2.5.2 <code>Miembros</code>====
+
+Cada organización tiene miembros que tienen derecho a votar sobre las decisiones de la organización. Los criterios de membresía se definen en el ''contrato constitucional inteligente'' y son clave para la confianza en cualquier entorno democrático. Entre las formas más comunes de subvertir una elección es a través de la manipulación del registro de votantes. Asegurar este aspecto con medios criptográficos, así como un protocolo de aprobación es crítico. Una vez que se aprueba a un miembro dentro de una organización, él o ella recibe una cantidad específica de ''votos'' para ser utilizadas para su gobierno.
+
+Todas las <code>Organizaciones</code> que asumen la responsabilidad de aprobar o desaprobar <code>Miembros</code>, contribuyen con esta tarea al proceso de ''Prueba de Identidad'' descrito en la sección 3.3.
+
+Se fomenta la compatibilidad con los protocolos de identidad descentralizados con el fin de garantizar la gobernanza descentralizada. La [https://opencreds.github.io/did-spec/ especificación de DID (identificadores descentralizados análogos a los URI de la web)], propuesta por el [https://www.w3.org/ W3C] que permite la autosuficiencia para identidad digital verificable se recomienda.
+
+====2.5.3 <code>Cuestiones</code>====
+
+Una organización consiste en una colección de ''cuestiones'' cada una describiendo una decisión que deben tomar los miembros. Las propiedades de membresía descritas en el ''contrato constitucional inteligente'' definen los derechos de voto y publicación de los miembros. Una cuestión en su forma más básica tiene estas propiedades:
+
+* <code>Descriptión</code>: Texto de la decisión que se tomará.
+* <code>Etiquetas</code>: Categorías que describen la decisión dentro de la organización. Esto ayuda a los miembros a navegar a través de los problemas, definir áreas o equipos dentro de una organización y limitar el alcance de una delegación de ''votos''. Si la implementación se realiza con entornos blockchain que se utilizan para administrar una taxonomía fija (como [http://blockstack.org Blockstack]), un lenguaje común distribuido para etiquetas basadas en dominios descentralizados ayuda a hacer que el entorno democrático sea más justo ya que evita miembros que intentan controlar las convenciones de nombres para su propio beneficio. Por esta razón, dentro de una red abierta, las <code>Etiquetas</code> que describen <code>Cuestiones</code> o se utilizan para restringir las delegaciones, son punteros a otras <code>Organizaciones</code>. Esto se detalla en el proceso de ''Prueba de Identidad''.
+* <code>Firmas</code>: Miembros que están creando la propuesta. Puede permanecer en el anonimato si las reglas de gobierno de una organización lo permiten.
+* <code>Boleta</code>: Las opciones presentadas para que los votantes participen en esta decisión.
+* <code>Presupuesto</code>: Un elemento opcional que puede incluir fondos bloqueados en una dirección de alguna criptomoneda que puede desencadenar una acción si se vota a favor de una decisión.
+* <code>Espacio de tiempo</code>: Para la cuenta final, una encuesta abierta también debe establecer su alcance a tiempo y definir el tipo de decisión que se toma. Hay dos tipos de decisiones:
+
+** <code>Táctico</code> (limitado en el tiempo): Estos son contratos que reciben ''votos'' hasta que se cumpla una fecha de cierre, donde una altura de bloque determinada dentro del blockchain implementa los contratos inteligentes de votación usando las fichas ''vote''. Puede establecerse como la línea final para el proceso electoral. Una vez que se hayan contabilizado todas las transacciones y se haya registrado un resultado final, todos los tokens se devolverán a los votantes correspondientes y se podrán usar nuevamente en decisiones futuras.
+** <code>Estratégico</code> (ilimitado en el tiempo): Encuestas abiertas interminables que registran perpetuamente el consenso de un estado de decisión. Los votantes pueden recuperar los ''votos'' en cualquier momento si sienten la necesidad de suspender su voz en apoyo o rechazo de una decisión. Pero mientras el token se asigne para indicar una preferencia en una boleta de contrato sin fecha de cierre, es parte de la decisión estratégica. Un uso común para las decisiones estratégicas pueden ser los miembros que votan para la aprobación de otros miembros dentro de la comunidad de una organización.
+
+====2.5.4 <code>Boleta</code>====
+
+Se puede implementar un problema con cualquier posible diseño de votación de acuerdo con las especificaciones definidas en el ''contrato inteligente constitucional'' de la organización. Los bloques de construcción para una votación son su <code>Interfaz</code>, <code>Opciones</code> y <code>Criterio</code>.
+
+=====2.5.4.1 <code>Interfaz</code>=====
+
+Por defecto, Sovereign proporciona los mecanismos de elección más comúnmente usados para la interacción de las papeletas. Se fomenta una mayor innovación en las interfaces de votación.
+
+* <code>ElecciónÚnica</code>: Una opción seleccionable.
+* <code>ElecciónMúltiple</code>: Una o más opciones seleccionables.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardenal</code>]: Un puntaje determinado por opción con un rango de valor predefinido.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code>Clasificado</code>]: Opciones ordenables como preferencias clasificadas. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem El teorema de la imposibilidad de Arrow] debe tomarse en consideración para cualquier innovación con respecto a las papeletas clasificadas. Este teorema establece que los sistemas electorales basados en el rango no pueden satisfacer la equidad en tres aspectos clave al mismo tiempo:
+
+** '''Dominio no restringido''': Se permiten todas las preferencias de todos los votantes.
+** '''No dictadura''': Ningún votante individual posee el poder de determinar siempre la preferencia social.
+** '''Eficacia del Pareto''': Si cada votante prefiere una opción a otra, entonces también lo hará la orden de preferencia social resultante.
+
+=====2.5.4.2 <code>Opciones</code>=====
+
+Para permitir el procesamiento de la información de ''votos'', las papeletas llevan valores booleanos expresados en sus opciones. Esto permite que las transacciones de ''voto'' señalen un ''estado de decisión'' que actuará como una fuerza que modela las elecciones institucionales para la organización ejecutora. Esto hace que todas las organizaciones descentralizadas también se conviertan en instituciones programables. Las opciones entonces pueden ser:
+
+* <code>Verdadero</code>: Señalará un valor booleano <code>verdadero</code> si se selecciona (a menudo se describe con cadenas de etiquetas 'Sí' o 'Positivo').
+* <code>Falso</code>: Señala un estado <code>falso</code> (por ejemplo, puede mostrar las etiquetas 'No' o 'Negativo').
+* <code>Vinculado</code>: La opción está conectada a otra decisión dentro de la organización.
+* <code>Candidato</code>: Miembro o lista de <code>Miembros</code> de la organización. Esto ayuda a elegir autoridades dentro de la organización o se puede usar para aprobaciones de membresía.
+
+=====2.5.4.3 <code>Criterio</code>=====
+
+Finalmente, contar los métodos para el resultado final o continuo de una decisión dentro de una organización.
+
+* <code>Pluralidad</code>: La mayoría simple gana la decisión.
+* <code>Mayoría</code>: Se requiere un porcentaje mínimo para la decisión ganadora.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>D'Hondt</code>]: Ampliamente utilizado por las elecciones de estado-naciónes basadas en listas de miembros.
+* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Comúnmente utilizado por las comunidades de código abierto y los Partidos Piratas usando boletas de votación clasificadas.
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank (Rango de Página)</code>]: Cuenta los votos ponderando la reputación de los votantes en un gráfico.
+
+====2.5.5 <code>Presupuesto</code>====
+
+Cada <code>Organización</code> puede tener una o más direcciones de criptodivisas para financiar sus esfuerzos. Sovereign permite para financiar una <code>Organización</code> con Bitcoin y en su <code>Constitución</code> definen un criterio sobre cómo estos activos se distribuyen entre <code>Miembros</code>:
+
+* '''Porcentaje para ''Prueba de Identidad''''': El <code>Miembro</code> solicitante puede enviar su evidencia de '''Prueba de Identidad''' para obtener la aprobación de membresía a una <code>Organización</code>. Si los ''votos'' aprueban al nuevo miembro, fortalece la reputación de una identidad soberana en la red abierta recompensándolo a él o ella con una cantidad fija de Bitcoin para permitir el hashing de la ''Prueba de Identidad'' en un blockchain. Algunas <code>Organizaciones</code> pueden permitir una mayor recompensa que otras, creando de manera efectiva un puntaje de reputación que puede proteger la red contra ''Sybils'' o identidades falsas. Este proceso se detalla en [[#3_Execution|Sección 3]].
+* '''Porcentaje para <code>Cuestiones</code>''': <code>Miembros</code> que buscan utilizar recursos de la <code>Organización</code> pueden solicitarlos adjuntando un <code>Presupuesto</code> a una <code>Cuestión</code>. Un <code>Miembro</code> puede solicitar el uso de fondos de un grupo específicamente reservado para esto. Si el recuento final de una decisión alcanza un cierto valor (<code>verdadero</code> o <code>falso</code>), entonces puede hacer cumplir la decisión final desbloqueando monedas o desencadenando una transacción que envía los activos solicitados a una dirección específica.
 
 ===2.6 Seguridad.===
 
