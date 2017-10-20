@@ -852,10 +852,6 @@ Al permitir 4 posiciones decimales en el token, una ''revolución'' se gotea a u
 
 Para la identificación del token en aplicaciones de terceros, sugerimos los tickers ''VOTE'' y ''VOT''.
 
-====3.4.5 Democracy Support Fund.====
-
-[agregar traduccion aqui]
-
 ===3.5 End Game.===
 
 <blockquote>
