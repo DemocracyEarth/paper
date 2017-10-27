@@ -29,7 +29,7 @@ Ce texte est structuré en trois parties, chacune visant à satisfaire un type d
 
 Notre intention est que ce texte évolue. Il est publié sous une licence open source et nous accueillons toutes les contributions dans la mesure où notre objectif est que ce document constitue une feuille de route vivante pour une gouvernance mondiale. La démocratie comme capacité à se faire mutuellement confiance dans la mesure du possible est un facteur clé qui façonne la trajectoire de l'histoire. Notre mission résonne instamment de par le monde, englobant ainsi toute l'humanité: la nécessité de faire de notre Maison un lieu de coexistence pacifique. La [http://democracy.earth Fondation Democracy Earth] a mené des [[#Background|recherches approfondies]] sur les systèmes électoraux, la cyberpolitique et les réseaux blockchain ; nous nous tenons ainsi à l'avant-garde d'une conversation publique concernant l'idée de considérer l'internet comme une nouvelle juridiction planétaire.
 
-En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons d'abord entreprise d'écrire du code informatique avant de partager nos idées sous forme écrite, afin de comprendre au mieux ce qui peut être fait. À cette fin, plus de [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015], lesquelles ont à leur tour guidé nos recherches, cas d'utilisation, et les idées présentées ici. Ceci constitue notre proposition.
+En suivant [https://twitter.com/lsukernik/status/892101885771034628 l'exemple de Satoshi Nakamoto], nous avons d'abord entrepris d'écrire du code informatique avant de partager nos idées sous forme écrite, afin de comprendre au mieux ce qui peut être fait. À cette fin, plus de [https://github.com/DemocracyEarth/sovereign 30 000 lignes de code ont été écrites depuis octobre 2015], lesquelles ont à leur tour guidé nos recherches, cas d'utilisation, et les idées présentées ici. Ceci constitue notre proposition.
 
 <div id="Eléments de contexte"></div>
 ==iii. Eléments de contexte.==
@@ -227,15 +227,15 @@ Ce qui différencie un vote d'une monnaie (ou une ''économie politique'' d'une 
 
 ====2.1.1 Mise en œuvre.====
 
-Etant donné que [https://en.wikipedia.org/wiki/Dogecoin la capacité de mimétisme peut entraîner une création de valeur], le jeton Democracy Earth qui donne accès au droit de vote sera marqué du message le plus important qu'une démocratie - qu'elle qu'elle soit - puisse transmettre : ''votez''.
+Etant donné que [https://en.wikipedia.org/wiki/Dogecoin la capacité de mimétisme peut entraîner une création de valeur], le token Democracy Earth qui donne accès au droit de vote sera marqué du message le plus important qu'une démocratie - quelle qu'elle soit - puisse transmettre : ''vote''.
 
-Le jeton ''votez'' peut être mis en oeuvre grâce à un code contrat intelligent à travers une variété de blockchains qui supportent des scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing-complet], dont le Bitcoin. Nous avons imaginé un système indépendant de la blockchain car nous sommes conscients que l'informatique en est encore à ses balbutiements et des innovations importantes restent à inventer. Nous travaillons toutefois à l'implémentation du jeton ''votez'' dans les environnements de contrats intelligents suivants :
+Le token ''vote'' peut être mis en oeuvre grâce à un code contrat intelligent à travers une variété de blockchains qui supportent des scripts [https://en.wikipedia.org/wiki/Turing_completeness Turing-complet], dont le Bitcoin. Nous avons imaginé un système indépendant de la blockchain car nous sommes conscients que l'informatique en est encore à ses balbutiements et des innovations importantes restent à inventer. Nous travaillons toutefois à l'implémentation du token ''vote'' dans les environnements de contrats intelligents suivants :
 
-* '''Ethereum''': Utilisation d'un ensemble de contrats intelligents [https://github.com/ethereum/solidity Solidity] selon le [https://theethereum.wiki/w/index.php/ERC20_Token_Standard  jeton standard Ethereum ERC20].
+* '''Ethereum''': Utilisation d'un ensemble de contrats intelligents [https://github.com/ethereum/solidity Solidity] selon le [https://theethereum.wiki/w/index.php/ERC20_Token_Standard token standard Ethereum ERC20].
 
 ** '''Rootstock''': Nous prenons les mesures nécessaires pour rendre le code de Solidity compatible avec [http://www.rsk.co/ l'interprète de contrat intelligent de Rootstock pour la blockchain Bitcoin].
 
-* '''Lightning''': Avec l'activation du [https://en.bitcoin.it/wiki/Segregated_Witness témoin séparé] dans le protocole Bitcoin, qui permet l'acheminement des canaux de paiement par [http://lightning.network le protocole Lightning Network], les délégations dans la démocratie liquide peuvent être cartographiées à l'aide de transactions de niveau satoshi portant un identifiant ''votez'' attaché. Les coûts de règlement des transactions via la blockchain doivent être couverts par l'organisme de mise en oeuvre.
+* '''Lightning''': Avec l'activation du [https://en.bitcoin.it/wiki/Segregated_Witness témoin séparé] dans le protocole Bitcoin, qui permet l'acheminement des canaux de paiement par [http://lightning.network le protocole Lightning Network], les délégations dans la démocratie liquide peuvent être cartographiées à l'aide de transactions de niveau satoshi portant un identifiant ''vote'' attaché. Les coûts de règlement des transactions via la blockchain doivent être couverts par l'organisme de mise en oeuvre.
 
 En outre, les implémentations multi-chaînes sont encouragées, dans l'esprit de favoriser davantage d'expérimentation et de collaboration par rapport à ces technologies.
 
