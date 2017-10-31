@@ -1,12 +1,12 @@
-* [1 - What is an open source paper? #question-1]
+[1. What is an open source paper?](#question-1)
 
 # Frequently Asked Questions
 
 
 
 
-
-[**1 - What is an open source paper?**](#question-1)
+(#question-1)
+**1 - What is an open source paper?**
 
 For us at Democracy Earth Foundation how a paper is made is almost as important as its content. Our belief in democracy means we believe that human collaboration is the best possible way to arrive at great solutions, therefore our project is written as an open source paper - a document where anyone is free to contribute. It is published under an open source license and we welcome contributions from anyone as we aim for this document to be a living roadmap for planetary governance. Democracy is always a work in progress, and so is our work: _The social smart contract_ is a living document that will be constantly updated and amended.
 
