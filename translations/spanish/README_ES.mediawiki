@@ -1,0 +1,893 @@
+<pre>
+  DEF: 1
+  Titulo: El Contrato Social Inteligente
+  Autores: Santiago Siri <santi@democracy.earth>, Herb Stephens <herb@democracy.earth>.
+  Resumen-comentarios: Sin comentarios.
+  Estatus: Activo
+  Tipo: Proceso
+  Creado: 2017-07-14
+  Licensia: MIT
+  Reemplaza: 0
+</pre>
+
+=El Contrato Social Inteligente.=
+El ''Initial Rights Offering'' de [http://democracy.earth Democracy Earth Foundation].
+
+
+==i. Abstracto.==
+
+En un mundo que ha sido exitosamente globalizado en los mercados financieros mientras que los derechos políticos permanecen encerrados territorialmente, necesitamos nuevos modelos de gobiernos democráticos que permitan a la humanidad colaborar y extender presión sobre asuntos globales. La Fundación Democracy Earth está construyendo un software de código abierto, libre y gratuito para un sistema de votos incorruptibles basado en la cadena de bloques para instituciones de todos los tamaños, desde asuntos locales que protagonizan dos personas hasta el asunto más global que nos envuelve a todos. La injusta distribución de oportunidades alrededor del mundo debido a la confrontación perpetua de los gobiernos nacionales ha llevado al aceleramiento del cambio climático, el aumento de la desigualdad, terrorismo y migración forzosa. La Fundación Democracy Earth propone que la tecnología que incluye al Bitcoin como dinero programable sin necesidad de Bancos Centrales, y Ethereum que permite contratos inteligentes (smart contracts) sin la necesidad de Cortes Judiciales, requiere un diseño que refleje la incorruptibilidad del voto más allá de las fronteras territoriales de Nación-Estado. Esta red transnacional actuará de acuerdo de acuerdo a la soberanía personal y de sus miembros y protegerá los derechos humanos con encriptación. En nuestra Inital Rights Offering ofrecemos un token llamado "voto" que garantiza los derechos de partcipación de todos los seres humanos en las decisiones principales. No buscamos otra cosa que no sea un gobierno democrático para la Era del Intenret, uno fundado en la construcción de bloques para alcanzar la paz global y la prosperidad desde las arcas de las innovaciones tecnologicas que cambiará lo que significa ser humano en la Tierra.
+
+==ii. Contenido.==
+
+Este texto está estructurado en tres partes, cada una apuntando a un grupo de lectores (y una sola persona si el grupo coincide con él mismo)
+
+* [[#Manifesto|Manifiesto]]: Para idealistas. Diagnostica el contexto político global y argumenta las necesidaddes de los cambios de paradigmas.
+
+* [[#Paper|Paper]]: Para desarrolladores. Describe la construcción de bloques para un sistema que puede implementado por quien sea, donde sea.
+
+* [[#Execution|Ejecución]]: Para pragmaticos. Especifica como ejecutar estas ideas para impacto.
+
+No pretendemos que este texto permanezca cerrado. Está publicado con licencia de código abierto (open source) y todos son bienvenidos para contribuir, ya que nuestra meta es que este documento sea una hoja de ruta para un gobiernos globales. La democracia como habilidad para confiar el uno al otro hasta los extremos es una fuerza definitiva que moldea la trayectoria de la historia. Nuestra misión es hacer eco urgente, globalizando a toda la humanidad: la necesidad de hacer de nuestro hogar un lugar para la coexistencia pacifica. 
+La [http://democracy.earth Fundación Democracy Earth] ha realizado [[#Background|extensas investigaciones]] sobre sistemas de votos, ciber-política y cadena de bloques. Queremos proponer una conversación pública sobre el internet como una única jurisdicción global.
+
+Siguiendo [https://twitter.com/lsukernik/status/892101885771034628 el ejemplo de Satoshi Nakamoto], previo a nuestras ideas hemos escrito primero el código para entender adecuadamente que hemos hecho. Para este fin, más de [https://github.com/DemocracyEarth/sovereign 30,000 lineas de código fueron escritas desde Octubre del 2015], el cual nos ha llevado a esta investigación y las ideas presentadas. Esta es nuestra propuesta.
+
+<div id="Background"></div>
+
+==iii. Experiencia previa.==
+
+Somos pioneros en la democracia digital habiendo desarrollado algunos de los más prominentes softwares de código abierto [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories evaluado por la comunidad de Github] incluyendo el diseño de [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS], un proyecto simple y democrático que creamos en el 2012. Fundamos el primer partido digital de las Américas, el [http://partidodelared.org Partido de la Red] (Peers Party) que participó en su primera elección [http://www.wired.co.uk/article/e-voting en Buenos Aires en el año 2013]. En el año 2014 compartimos nuestra experiencia en [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED], llegando a 1.2 millones de visualizaciones. Durante 2016 y 2016, [http://ycombinator.com Y Combinator] y [http://ffwd.org Fast Foward] -ambos de Silicon Valley-, financiaron nuestros esfuerzos de iniciar [http://democracy.earth la Fundación Democracy Earth], una organización no gubernamental con la misión de gobernanza sin fronteras.
+
+Nuestra experiencia junto con los desafios tecnológicos, políticos de la democracia nos llevó a pensar y diseñar la noción de que podemos construir un partido político mediante contratos inteligentes, o mejor dicho una forma de gobierno ligera que pueda ser implementada con un bajo costo. Empezamos con [http://sovereign.software Sovereign], una '''''cadena de bloques líquida''''' que permite el voto directo en tópicos o la habilidad de los delegados para votar sobre tópicos especificos sobre una red inteligente sin autoridad central. Operando estos bloques señalizados en la cadena de bloques todos los votos se vuelven resistentes a la censura y los derechos de auditoría pueden ser entregados a cada elector sin la necesidad de proveer acceso a los servidores o la infraestructura, además de hacer el sistema limpio y transparente para todos.
+
+Nuestro trabajo está hecho en las practicas de código abierto y coopera con proyectos claves apuntando a la seguridad de la identidad, incluyendo esfuerzos de [https://blockstack.org/blockstack_usenix16.pdf Blockstack], [http://civic.com Civic] y [https://whitepaper.uport.me/uPort_whitepaper_DRAFT20170221.pdf Consensys] entre otros.
+
+[[File:/images/sovereign.png|El software Sovereign.]]
+
+[https://github.com/DemocracyEarth/sovereign El código base de Sovereign] entrega una aplicación adaptada al móvil y al escritorio para los electores y organizaciones estandarizando la toma de decisiones democráticas con cadenas de bloques incorruptibles.
+
+Nuestra meta es continuar la ruta de implementación que permita [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf el voto auditable] e integrarle con nuestro software de cadena de bloques permitiendo garantizar la soberanía de los derechos de los usuarios.
+
+----
+
+<div id="Manifesto"></div>
+
+==1. Manifiesto.==
+
+<blockquote>
+  La democracia es siempre una obra en progreso, nunca es una idea absoluta o de lo contrario sería una ideología totalitaria como todas las demás.
+</blockquote>
+'''[https://es.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', Presidente del Uruguay (2010–2015).
+
+Los sistemas democráticos contemporaneos que gobiernan las sociedades bajo el dominio territorial de Estado-Naciones se han estancado en términos de participación y están conduciendo hacia una mayor polarización. La población electoral tiene acceso a medios de comunicacion hechos a la medida para satisfacer sus propias creencias endogámicas, dividiendo a la sociedad mientras el debate basado en hechos objectivos es reemplazado por una mentalidad posverdad. Esta es una consecuencia de la drástica expansión de canales de comunicación que reducen la atención de las personas, haciendo que el análisis reflexivo sea prescindible. La distribución centralizada de la información del siglo XX creó narrativas, realidades e identidades uniformes. La Internet los ha fracturado. Los casos de participación política en las llamadas democracias modernas no son aptos para contextos de información abundate y han permanecido sin cambios desde sus inicios.
+
+[[File:../../images/bipartizan-votes-us-congress.png|Votos bipartisanos en la Cámara de los Representantes desde 1981, Fuente: The Rise of Partizanship (2015).]]
+
+La participación a través de los métodos tradicionales es más débil en las generaciones más jóvenes, [http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do que a menudo no van a votar y es improbable que se involucren en la política partidista]. Mientras tanto el ciberactivismo está aumentando con las redes sociales, convirtiéndose en el escenario dominante de enfrentamientos políticos. Esto incluye Facebook y Twitter (donde la diseminación de chismes es predominante con "noticias falsas", "bots" y "trolling" entre otras optimizaciones de campaña) y las más recientes cámaras de eco como [http://www.4chan.org/ 4chan.org] (donde el anonimato llevó a la incorrección política) o [https://gab.ai/ gab.ai] con la consolidación de la comunidad "alt-right" en los Estados Unidos. De más está decir que la endogamia sólo fortalece la polarización y que no hay solución a la vista dentro de estos servicios, sino más bien el riesgo de reforzar el escenario actual de sociedades tribales y polarizadas relativizando la verdad mientras [https://www.nytimes.com/2017/06/01/climate/trump-paris-climate-agreement.html se arriesga la preservación de recursos].
+
+Procesos democráticos presenciados durante elecciones de alto riesgo son a menudo propensos a jugadas fraudulentas como [https://en.wikipedia.org/wiki/Gerrymandering '' gerrymandering ''], convirtiéndose en algo cada día más común y con un fuerte vínculo entre lo que [https://www.ineteconomics.org/uploads/papers/WP_48_Ferguson_et_al.pdf los principales partidos políticos gastan y el porcentaje de votos que ganan]. En naciones en desarrollo, ese tipo de trampas son aun mas verídicas con la quema de urnas por grandes partidos para sofocar las posibilidades de competidores más pequeños.
+
+Este documento propone una solución que aborda los problemas políticos y técnicos que actualmente debilitan las perspectivas de democracia en el mundo y ofrece una alternativa que puede ser adoptada directamente por los ciudadanos y aplicada mediante redes de par a par. A medida que el Internet se convierte en la fuerza dominante en la política moderna, vemos una necesidad indispensable de desarrollar tecnología digital para votar que pueda desplegarse con seguridad en cualquier ubicación geográfica y para comunidades de cualquier tamaño.
+
+Con el crecimiento del Internet y su adopción por más de [http://www.bbc.com/news/technology-32884867 3 billones de personas] (superando con facilidad las principales religiones y Estado-naciones), más el desarrollo de redes ecriptadas conocidas como '' blockchains '' que permiten transacciones incorruptibles con auditorías sin permisos, no hay razón para impedir que la humanidad construya un espacio común sin fronteras que permita dar forma al siguiente salto evolutivo para la gobernabilidad democrática. Incluso en las regiones donde la penetración de Internet es inferior al 50%, la brecha digital no se basa en factores socioeconómicos, sino en una brecha generacional. Según Rick Falkvinge, fundador del [https://en.wikipedia.org/wiki/Pirate_Party Pirate Party]: "La política se mueve a velocidades glaciales: nada parece ocurrir hasta que de repente un ruido estridente capta la atención de todos. Es lento porque usualmente una generación tiene que morir para que la siguiente pueda hacerse cargo. Y hoy vivimos en un mundo que tiene la generación que crecio sin Internet a cargo y la generación que nacio con Internet en pleno crecimiento".
+
+En un mundo que ha logrado la globalización de los activos financieros y a la misma vez ha mantenido los derechos políticos limitados a territorios específicos, nuevas formas de gobierno tienen que reconocer los bienes comunes de la red que conecta a la humanidad y debilita progresivamente el legado de fronteras nacionales incapaces de abordar temas urgentes como el del cambio climático, el aumento de la desigualdad, el terrorismo, la automatización y las migraciones forzadas. La distribución desigual de oportunidades en todo el mundo debido a la confrontación perpetua entre los gobiernos nacionales ocasionó el surgimiento de estos temas en la agenda global. Creemos que el conjunto tecnológico que incluye [http://bitcoin.com/bitcoin.pdf Bitcoin] como dinero programable sin necesidad de bancos centrales y [http://ethdocs.org/en/latest/index.html Ethereum] que permite contratos inteligentes sin la necesidad de tribunales judiciales, requiere una tercera capa que permita votos incorruptibles más allá de los límites de los Estado-Naciones. Esta red transnacional actuará de acuerdo con la soberanía personal de sus miembros y protegerá sus derechos humanos mediante fundamentos de criptografia.
+
+
+===1.1 Legado.===
+
+Podemos considerar las elecciones implementadas por los estados, provincias y ciudades como democracias que fueron reducidas a ser sujetos pasivos de un monologo. Ciudadanos son llamados en distintos periodos de tiempos para proveer de algo básico: esencialmente aceptar o rechazar actores políticos del sistema. Esta es la esencia del sistema legal de nuestra llamada ''democracia moderna''. Bajo estos sistemas menos del 1 por ciento d ela población puede votar en legislaciones o ejecutar presupuestos mientras que el resto esta legalmente forzado a cumplir su rol de ciudadanos con derechos a ser representados por una minoría que eventualmente se perpetúan.
+
+La tecnología detrás de las ''democracias representativas'' puede ser agrupadas en:
+
+* '''Elecciones análogicas''': Usualmente se usa boletas de papel y cuartos oscuros con autoridades responsables del conteo de votos y reportar sobre comportamientos fraudulentos. Aún cuando el sistema es estable en naciones desarrolladas, sufren de una falta de participación. Las barreras que son implementadas con el requisito de tener que registrarse para votar a través de un proceso burocrático termina bloqueando una mayoría de votantes desencantados. Las autoridades dividen los distritos explotando datos de encuestas en anticipación a las elecciones. Si bien estos sistemas son fáciles de auditar, significa que también son fáciles de corromper: en las naciones en desarrollo las ''elecciones análogas'' son subvertidos por una multitud que representan a grandes partidos que hacen 'desaparecer' o quemar boletas o cuartos oscuros, amenazan a los auditores de los partidos más pequeños dejan que la violencia ocurra en distritos claves. En nuestra experiencia con el [http://partidodelared.org Partido de la Red] compitiendo por Congreso de la Ciudad de Buenos Aires en las elecciones del 2013 encontramos que no importaba los esfuerzos que hagamos además de tener suficientes auditores para cubrir cada distrito, de lo contrario los votos eran robados. Mientras más amplio sea el territorio electoral, es menor la garantía que el sistema análogico entregue un proceso justo.
+Es más, el alto costo termina limitando las elecciones, dejando que la democracia sea una excepción antes que una norma en lo concernientes sobre los gobiernos electos.
+
+[[File:/images/nation-state-voter-turnout.png|Voto por territorio.]]
+
+* '''Voto electronico''': Las propuestas resentadas para las máquinas de voto electronico tienen por objeto asegurar el proceso electoral a través de la interface digital con la misma lógica de cada elección de cada año, con el efecto de que la tecnología sirva al propósito de legitimizar a los viejos políticos profesionales como la vieja tecnología. Las máquinas pueden ayudar efectivamente a evitar las técnicas de  [https://es.wikipedia.org/wiki/Clientelismo_pol%C3%ADtico clientelismo] usadas para corromper una elección pero al mismo tiempo abren una posibilidades de que las boletas sean expuestas a hackeos indectados e intervención extranjera. Expertos en el campo (incluyendo a la [https://www.ndi.org/e-voting-guide/examples/constitutionality-of-electronic-voting-germany Corte Suprema de Alemania]) recomeindan usar máquinas para votar para dejar el papel o buscar [https://www.amazon.com/Voting-Wars-Florida-Election-Meltdown/dp/0300198248 un medio alternativo] para el voto. Otro enfoque para asegurar la transparencia del voto es mediante la utilización de máquinas de votos que sean de [https://www.nytimes.com/2017/08/03/opinion/open-source-software-hacker-voting.html código abierto y auditable por el público]. La tecnología puede ser introducida directamente por ciudadanos usando aplicaciones en sus smartphones para desarrollar el ''voto tabulado en paralelo'' para reportar en los diferentes centros de votación como salvaguarda ante los reportes oficiales. Por naturaleza, los sistemas de computación guardan registros y no garantizan el voto secreto. Por esta razón cualquier registro de un sistema de voto digital debe ser público por estandar y de confianza, operando en un sistema de cadenas sincronizando las salidas de una red compartida. En resumen: una cadena de bloques.
+
+Las elecciones electronicas y análogicas son estrictamente para las democracias representativas a largo plazo con períodos electivos que van desde 4 a 6 años. Pero debajo de la dinámica de estos sistemas esta que los candidatos pre-electos son elegidos desde arriba y presentado a los ciudadanos para legitimizarlos con el voto. El argumento es que los ciudadanos carecen de los conocimientos y la preparación para la responsabilidad política y no tienen suficiente tiempo en sus vidas para inmiscuirse en los asuntos públicos: no tan a menudo se requiere de expertos que sepan como hacer una legislación. Asi mismo, el internet, los teléfonos celulares, las redes sociales y los satélites, observamos un mundo lleno de ciudadanos que rutinariamente están compartiendo un debate sobre asuntos políticos (sin la posibilidad de generar un verdadero impacto.)
+
+===1.2 Geopolitica.===
+
+Una consecuencia de la elección presidencial del 2016 en los Estados Unidos es el [https://www.theguardian.com/us-news/2016/dec/16/qa-russian-hackers-vladimir-putin-donald-trump-us-presidential-election miedo a la intervención extranjera] y se ha convertido en una amenaza a la seguridad de los procesos electorales. Pero aunque las máquinas de votación son un objetivo extremadamente vulnerable, ([https://blog.horner.tj/post/hacking-voting-machines-def-con-25 defcon 25 tenía una gran selección de máquinas de votación, todas ellas fueron explotadas]), los ataques extranjeros tienen un método más sencillo que el secuestro de máquinas de votación, porque la manipulación directa de los votos potencialmente se puede rastrear, es muy costoso y difícil de ejecutar en una escala lo suficientemente grande como para satisfacer a un atacante. Un enfoque más eficiente es [https://en.wikipedia.org/wiki/2016_Dyn_cyberattack infundir temor al público al colapsar la infraestructura de Internet días antes de una elección] de una manera que puede ayudar a impulsar el favoritismo en un candidato que se percibe más fuerte que el otro uno. Este tipo de ataque cibernético capaz de desencadenar un cambio en la percepción del votante es casi imposible de detectar como subversión política y revela el conflicto inherente que un bien común digital tiene con las democracias territoriales.
+
+[[File:/images/hacked-america.png|Impacto de los ataques DNS (21 de octubre del 2016) y las elecciones de los Estados Unidos (6 de noviembre del 2016).]]
+
+Esto ocurrió dos semanas antes de las elecciones de 2016 en Estados Unidos cuando una botnet coordinada a través de un gran número de dispositivos de Internet de Cosas (IoT) ejecutó una [https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS Distributed Denial of (DDoS)] que afectó al proveedor de sistemas de nombres de dominio (DNS), Dyn Inc., que derribó los sitios web más importantes de Estados Unidos, entre ellos Amazon, Paypal, New York Times y Wall Street Journal.
+
+===1.3 ''Tierra'' vs. ''Cloud''.===
+
+<blockquote>
+En un futuro próximo, los electrones y la luz fluyen libremente, y las redes informáticas corporativas eclipsan las estrellas. A pesar de los grandes avances en la informatización, los países y la raza aún no son obsoletos...
+</blockquote>
+[http://www.imdb.com/title/tt0113568/ '''''Ghost in the shell'''''], novela gráfica (1995).
+
+El siglo XXI es testigo de un creciente conflicto entre ''La Tierra'': gobiernos que monopolizan la ley sobre jurisdicciones territoriales restringiendo la libre circulación de bienes y cuerpos físicos; y ''The Cloud'': corporaciones globales que monopolizan el acceso a datos de usuarios capaces de rastrear y orientar ideas a través de publicidad personalizada. En este mundo la libertad es una ilusión: nuestros cuerpos pertenecen a los gobiernos, nuestras mentes a las corporaciones. Las batallas notorias de este conflicto incluyen el caso de [https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute ''Apple contra el FBI''] que solicita el jailbreak de un teléfono encriptado; o la disputa histórica entre [https://www.washingtonpost.com/news/the-switch/wp/2017/03/06/trumps-new-travel-ban-raises-the-same-silicon-valley-objections/?utm_term=.0854c54536d6 el cosmopolitismo de Silicon Valley que busca visas flexibles y el nacionalismo de Washington DC que levanta barreras migratorias]. A medida que se despliega este escenario, el cifrado desempeña un papel de creciente importancia para proteger los derechos humanos de los ciudadanos digitales, ya que puede ayudarles a romper con la trampa de ''clouds contra tierras''.
+
+[[File:/images/the-land.png|La tierra: monopolio de la fuerza.]]
+
+Los orígenes de la criptografía moderna se remontan a la Segunda Guerra Mundial cuando Alan Turing construyó los primeros proto-computadoras para descifrar los mensajes nazis. Desde entonces, el cifrado ha sido legislado en los Estados Unidos de la misma manera que se conserva para las armas tradicionales: está incluido en la ''Lista de Municiones'' del [https://www.pmddtc.state.gov/regulations_laws/itar.html Reglamento Internacional de Tráfico de Armas]; el software y hardware relacionados deben tratar las restricciones de exportación. Y aunque el cifrado es a menudo considerado como un derecho protegido bajo la Primera Enmienda (en los Estados Unidos), argumentando que "el código es el habla", su naturaleza defensiva indica que también debe protegerse bajo el paraguas de la Segunda Enmienda ya que sostiene el mismo razonamiento detrás del "derecho a portar armas": En una era donde [http://twitter.com/Snowden los soplones] están revelando cómo el ''Deep State'' espía a los ciudadanos en cualquier parte del mundo, la información cifrada es la única garantía realista de que alguien tiene que ser protegidos de los abusos del gobierno (y de las corporaciones que los respaldan).
+
+[[File:/images/the-cloud.png|Cloud: monopolio de datos.]]
+
+El secreto es una propiedad fundamental de elecciones libres y justas, ya que es un mecanismo que ayuda a evitar la coerción de los que están en el poder y evita el riesgo de que las elecciones sean compradas y vendidas por dinero. La privacidad es la mejor garantía que una mente libre consciente tiene que pensar por sí misma. Pero en el Internet moderno la privacidad es ilusoria cuando se utiliza Facebook, Google o cualquier servicio basado en web. A pesar de que los monopolios de Internet pretenden ser los guardianes de la privacidad en línea, teóricamente, Facebook todavía puede hacerse pasar por cualquiera de sus 2 mil millones de usuarios registrados si alguna vez quisieran. Google y Facebook tienen las mayores bases de datos de identidad del mundo superando a los gobiernos de la India y China, mientras que el 97% de sus ingresos reportados proviene de la publicidad condicionando severamente el tipo de experiencia que los usuarios obtienen con su tecnología. Es de su interés reunir la mayor cantidad de información posible para perfilar a las personas con el fin de mantenerse competitivas en el mercado de la atención y ambas empresas filtran la información suministrada a los usuarios con [https://medium.com/@piamancini/future-scenarios-for-algorithmic-accountability-and-governance-17cd436d22a0 algoritmos responsables] a cualquier persona que no sea su propio directorio. Ninguno de sus servicios son realmente libres: la soberanía personal es regalada de la misma manera que los nativos del continente americano se distrajeron viendo sus propios ''selfies'' en brillantes espejos hace 500 años, mientras que los conquistadores europeos barrían todo su estilo de vida a su capricho. Los debates sin censura, libres y soberanos sobre el futuro de la humanidad están siendo comidos por ''gustos'' inútiles que sólo ayudan a perpetuar estas entidades corporativas. Las ''noticias falsas'' (que se usaron durante las elecciones estadounidenses) o contenido crítico que se extiende como un reguero de pólvora (como sucedió durante la ''Primavera Árabe'') demuestra que cualquier esfuerzo para detener la influencia internacional en la política nacional es inútil las sociedades pasan la mayor parte de su tiempo en línea. Internet es incompatible con los Estados-nación.
+
+===1.4 Inteligencia.===
+
+<blockquote>
+  No puedo dejartelo hacer Dave.
+</blockquote>
+'''HAL 9000''' en ''2001: A Space Odyssey'' (1968).
+
+La mejor tecnología cívica es la tecnología que se utiliza todos los días. Facebook, Twitter y otras plataformas de medios sociales se han convertido en el proxy de la interfaz principal que los ciudadanos utilizan para influir en la política cotidiana. Pero las consecuencias invisibles de dar datos personales a través de servicios web centralizados pueden ser muchas y con implicaciones relevantes para el futuro de la humanidad. La arquitectura de la información sobre cómo se almacenan, comparten y monetizan los datos personales es fundamental para comprender la soberanía en el siglo XXI.
+
+Una amenaza inminente es el uso de la Inteligencia Artificial (AI) sin restricciones que se alimenta con contenido generado por el usuario sin ningún tipo de supervisión pública. Eso fue evidente en la revelación de un ex empleado de Blackwater sobre cómo los datos se armonizan: desde una oficina en Dubai fue capaz de conducir y obtener la alimentación en vivo de un zumbido volando sobre Siria o Pakistán, pero sorprendentemente la decisión de si matar el objetivo no fue realizada por el operador humano (o una autoridad supervisora), sino por un AI que llamó a los disparos a través de Internet "al menos el 90% del tiempo". Esta IA fue proporcionada por una compañía de Silicon Valley a menudo 'acreditado' con el suministro de servicios de inteligencia de la CIA y con haber encontrado a Osama Bin Laden en 2011.
+
+El tema de la IA que decide sobre el destino de las vidas humanas abre cuestiones éticas y morales. Finalmente, ni siquiera los investigadores humanos son capaces de comprender correctamente cómo se está comportando un AI, convirtiéndose en una amenaza si es un componente clave de la tecnología de grado militar. Según el autor Yuval Noah Harari: "la inteligencia se deshace de los organismos vivos y no será monopolizada por los seres de carbono durante mucho tiempo". La conciencia es la nueva frontera política que se está dibujando. Una línea entre las máquinas y los seres humanos. En otras palabras: la comprensión de si estamos utilizando las máquinas o las máquinas nos están utilizando. La forma en que estructuramos las organizaciones humanas -y gobiernan el código que las ejecuta- define quién está a cargo. A medida que la capacidad de la inteligencia del silicio coincide con las tasas de crecimiento de la Ley de Moore, la humanidad en su conjunto debe preguntarse cómo va a gobernar las riendas de este poder sin precedentes.
+
+===1.5 Decentralización.===
+
+<blockquote>
+  Soberanía es quien decide en la excepción.
+</blockquote>
+[https://wikipedia.org/wiki/Carl_Schmitt '''Carl Schmitt'''], teórico político (1888-1985).
+
+El talón de Aquiles de los datos hambrientos, la atención de las granjas de monopolios de Internet es su necesidad de una arquitectura de información centralizada. Se levantaron como los ''superhubs'' en los que solía ser la promesa de una red en forma de web mediante la implementación de las soluciones ganadoras a los principales casos de uso en línea. Pero la consecuencia ha sido un ecosistema privatizado: código cerrado, jardines amurallados y centralización del poder en pocas manos, allanando el camino para una sociedad de vigilancia completa sobre lo que de otro modo podría ser una comunidad sin fronteras. Cuando Sir Tim Berners-Lee, creador de los protocolos de la ''World Wide Web'', señaló los riesgos intrínsecos en Internet de hoy, solicitó la necesidad de redactar una Carta Magna [https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web para la Web]: "A menos que tengamos un Internet abierto y neutral en el que podamos confiar sin preocuparnos por lo que está sucediendo en la puerta trasera, no podemos tener un gobierno abierto, una buena democracia, comunidades conectadas y diversidad cultural. No es ingenuo pensar que podemos tener eso, pero es ingenuo pensar que podemos simplemente sentarnos y conseguirlo".
+
+La centralización es el único punto de fracaso en las elecciones y es incompatible con la democracia. En nuestra experiencia en la implementación del voto digital centralizado para las decisiones del Partido de la Red, hemos detectado que si una elección es de alto riesgo (todos o la mayoría de los miembros tienen un interés sesgado en el resultado), aumenta la probabilidad de que el sistema se corrompa. El mayor riesgo radica en aquellos que son responsables de controlar los servidores y la integridad de la base de datos. Hemos averiguado en [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc las elecciones internas] sobre discrepancias entre la información reportada por los auditores de bases de datos y los registros de los votantes mantenidos en sus máquinas locales: la manipulación en los datos de emisión de votos, una información bibliográfica modificación de la fecha de clausura de la votación, registros borrados y prohibición repentina de las cuentas registradas cuando se demuestre y denuncie, dando lugar a una percepción generalizada del fraude en todo el proceso. Las democracias digitales centralizadas sin ninguna consideración por la seguridad criptográfica son juguetes útiles para propósitos lúdicos pero pueden ser peligrosos cuando se implementan en escenarios reales bajo manos fraudulentas.
+
+Mientras tanto, las elecciones tradicionales tienen una técnica conocida como ''conteo adversarial'' cuando el resultado está cerca de un empate. Las autoridades de todas las partes involucradas participan en un recuento manual de votos. Pero cuando una elección ocurre dentro de una gran población, el ''conteo adversarial'' reduce el costo de subvertirlo por tener un atacante que sólo necesita sobornar a unas pocas autoridades de una parte competidora para asegurar un resultado. Cualquier tipo de sistema que requiere confianza de los participantes, en última instancia, corre el riesgo de que su estructura entera colapsar si cualquier autoridad es fraudulenta.
+
+[[File:/images/blockchain-permissionless-audit-voting.png|Democracias de cadenas de bloques permiten auditoría sin permisos especiales.]]
+
+La descentralización es un requisito de las elecciones democráticas. Sin ella siempre habrá espacio para la corrupción. Las cadenas de bloque permiten sistemas confiables erosionando la necesidad de la autoridad humana y aumentando las defensas de la integridad del voto con un recurso compartido que tiene el puntaje como su función principal. Esto permite diseños sin precedentes para los sistemas electorales. '''Con una democracia basada en bloques, los votos se vuelven resistentes a la censura y cada votante puede auditar una elección sin requerir ningún tipo de derechos de acceso a la infraestructura'''. Al almacenar los datos de votos en una cadena de bloqueos en lugar de servidores privados o urnas, los costos de auditoría se abstraen y se convierten en un derecho garantizado para cada participante. Los votantes no son meros espectadores sino también porteros soberanos de todo el proceso. Este tipo de transparencia no puede ser entregado por los sistemas electorales tradicionales, analógicos o electrónicos.
+
+
+===1.6 Sovereignty.===
+
+En Internet de hoy en día, la votación todavía ha surgido como la principal interacción. Cada vez que los usuarios dan ''like'', ''upvote'', ''heart'', ''link'' o ''retweet'', están señalando una preferencia que sirve un feedback loop generando mejores recomendaciones para ellos. Pero la acción no va más allá: es un ''voto falso'' que carece de implicaciones institucionales. Los ''gustos'' de los medios sociales funcionan como fichas sin valor que pueden inflarse con un solo clic, a pesar de que fijan el precio de los dólares publicitarios. Los efectos de red convirtieron esta interacción en una métrica que resalta la influencia de una idea específica dentro de una multitud, siendo a menudo una herramienta para que quienes están en el poder encuesten las necesidades de la sociedad. Sin embargo, los beneficios financieros y políticos de estas transacciones son totalmente mantenidos por [https://www.nytimes.com/2016/10/16/technology/peter-thiel-donald-j-trump.htmllos dueños de la red].
+
+[[File:/images/web-voting.png|Voto web.]]
+
+La tecnología de Sovereign es capaz de operar en redes peer to peer. La validación de la identidad, la preservación del anonimato, el cifrado de datos, la descentralización de la infraestructura, con el código abierto libre (''libre como en libertad'') pueden interrumpir completamente el paisaje descrito.
+
+A lo largo de la historia sólo triunfaron tres clases de soberanos: la ''tribu soberana'', donde una multitud sigue a un líder; el ''rey soberano'' leal sólo a Dios; y la ''república soberana'', con tierras continentales regidas bajo una sola ley. Las cadenas de bloque que operan en el ciberespacio están dando lugar a un cuarto tipo: el ''individuo en red''. No es una posibilidad extravagante: conquistar [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 soberanía personal] ya es una realidad para aquellos que manejan sus finanzas con bitcoin y otros criptos valores en cartera. Como dice el inversionista: "Usted puede cruzar una frontera internacional con un billón de dólares en bitcoin enteramente en su cabeza". Este tipo de acto soberano es sin precedentes incluso para los Jefes de Estado contemporáneos .
+
+La adopción generalizada de cadenas de bloque está dando lugar a un modelo que inicialmente creció bajo las sombras de las instituciones establecidas, pero finalmente las hará obsoletas. Blockchains son burocracias automatizadas que ofrecen beneficios financieros significativos en términos de costos de transacción mientras que resumen la necesidad de intermediarios. Ellos posibilitan sistemas de libre asociación que ayudan a romper la coerción política y financiera que los gobiernos y los bancos imponen al restringir el derecho al voto o limitar el acceso al capital. Una sociedad tecnológicamente avanzada puede florecer más allá de los dominios territoriales dondequiera que haya una conexión a Internet con ciudadanos digitales que se conviertan en parte de un nuevo tipo de diáspora.
+
+----
+
+Con este diagnóstico, en la [[#Paper|Sección 2]] trazamos los componentes básicos de una democracia líquida descentralizada. Una vez definidas las herramientas, en la [[#Execution|Sección 3]] se propone una implementación que se enfoca en hacer que el sistema sea seguro e incluyente.
+
+<div id="Paper"></div>
+
+==2. Documento.==
+
+<blockquote>
+  Es la tecnología que no controlamos la que se utiliza para controlarnos.
+</blockquote>
+[https://twitter.com/earlkman '''Emiliano Kargieman'''],  hacker espacial (1975).
+
+Un principio fundamental de la democracia es el derecho a ser escuchado. Hoy en día la mayoría de la población mundial no es escuchada: tener voz es un accidente de nacimiento. Las voces individuales y colectivas son silenciadas política y económicamente por la ‘no liquidez’ - los marginados no tienen instrumentos para difundir o ampliar su voz. La democracia moderna es consecuencia de la ''era de la imprenta'': sistemas constitucionales impresos dependientes de los contratos de tinta húmeda y la velocidad del servicio postal. Las democracias representativas son un accidente de las tecnologías de información del siglo XVIII.
+
+[[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
+
+Una democracia líquida se basa en un modelo dinámico de representación que funciona de abajo hacia arriba: los ciudadanos son capaces de elegir libremente dentro de su gráfico social (amigos, colegas, familia) a quienes quieren tener como representantes sobre un conjunto específico de temas. Es la forma más flexible de gobernabilidad democrática que se puede construir con tecnología digital, operando como un híbrido que permite la votación directa o delegada en cualquier momento. Existen pocos precedentes confiables que funcionan de abajo hacia arriba que resultaron en un contenido respetado, [https://www.wikipedia.org/ Wikipedia] siendo un caso pionero. Pero si la historia es una guía, la última vez que la civilización se enfrentó [https://en.wikipedia.org/wiki/Age_of_Enlightenment a un cambio de paradigma con respecto a la iluminación enciclopédica], fue precisamente en la época anterior al surgimiento de las democracias modernas.
+
+Este documento detalla la implementación de una democracia líquida usando [http://github.com/DemocracyEarth/sovereign Sovereign], nuestra aplicación de gobernabilidad democrática que opera con tokens de blockchain usando un conjunto básico de contratos inteligentes. La sencillez en el diseño y el lenguaje utilizado para expresar este diseño tiene importancia para el propósito final de un dispositivo genuinamente democrático. Ninguna tecnología será capaz de satisfacer las aspiraciones democráticas si sólo puede ser entendida por una élite. Como el criptógrafo [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] declaró:
+
+<blockquote>
+  No invitamos a ciudadanos ordinarios y sin entrenamiento a realizar cirugías, volar aviones, diseñar computadoras o llevar a cabo las otras innumerables tareas necesarias para mantener la sociedad en funcionamiento, ¿qué hace diferente la gobernanza? El problema se entiende fácilmente: si damos gobernanza a "expertos", ellos tomarán decisiones en sus propios intereses, no en el mejor interés de todos nosotros.
+</blockquote>
+
+===2.1 Token.===
+
+Un sistema de votación ideal debe ser capaz de satisfacer en la mayor medida posible estas condiciones:
+
+* '''Secreto''': el votante debe poder votar en secreto.
+
+* '''Verificabilidad''': el votante debe ser capaz de verificar el voto computado.
+
+* '''Integridad''': el sistema debe ser capaz de verificar la cuenta de votos correcta.
+
+Además, debido al riesgo de que la coerción a través de la violencia física o amenazas en contextos propensos a la violencia política, una opción capaz de proteger a los votantes coaccionados debe ser introducido:
+
+* '''Resistencia''': el votante debe poder anular su propio voto si es necesario.
+
+En el trabajo llevado a cabo por los investigadores Hosp & Vora, se tomó un [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf enfoque de Teoría de la Información para modelar los sistemas de votación], llegando a la conclusión de que existe una tensión natural con un sistema que busca '''integridad perfecta''', '''secreto de boleta perfecto''' y '''verificación de conteo perfecto'''. Los tres no pueden ser alcanzados simultáneamente cuando un adversario tiene poder de cómputo ilimitado, capaz de quebrantar a fuerza bruta un sistema si el tiempo o la memoria ilimitada están disponibles. Por esta razón consideramos imprescindible implementar democracias digitales utilizando '''blockchains'''. Con los efectos de red ya implementados, los '''blockchains''' son capaces de verificar la integridad de la transacción y evitar el doble gasto del token. El modelo de [https://en.wikipedia.org/wiki/Proof-of-work_system '''proof of work''' de Bitcoin] lo logra recompensando la capacidad de verificación de bloques de transacciones (lo que a menudo se denomina ''minería''), lo que lleva a una red "300 veces más potente que los recursos de Google", según el pionero [http://twitter.com/balajis Balaji Srinivasan]. Por esta razón, nuestro diseño se basa en fichas dentro de un '''blockchain''' que operan como criptomoneda política.
+
+Lo que diferencia un voto del dinero (o en términos más amplios: una economía política de una economía financiera) es que la moneda política está diseñada para garantizar los derechos de participación en condiciones justas a todos los miembros dentro de una organización. Los derechos buscan satisfacer la legitimidad general en el gobierno de una institución. Mientras que el dinero es el lenguaje del interés propio, los votos expresan las opiniones compartidas de una comunidad. La moneda política no es estrictamente para el comercio, sino para la elección social.
+
+{| class="wikitable"
+|-
+! scope="col"| Caracteristicas
+! scope="col"| Dinero
+! scope="col"| Votos
+|-
+! scope="row"| Utilidad
+| Comercio
+| Gobernancia
+|-
+! scope="row"| Mineria
+| Computo ('''Proof of Work''')
+| Atención (Prueba de identidad)
+|-
+! scope="row"| Liquidez
+| Escaso
+| Garantizado
+|-
+! scope="row"| Señal
+| Interes propio
+| Elección social
+|-
+! scope="row"| Valor
+| Espacio (bienes materiales).
+| Tiempo (información).
+|}
+
+====2.1.1 Implementación.====
+
+Teniendo en cuenta que el valor [https://en.wikipedia.org/wiki/Dogecoin puede ser impulsado por la capacidad memética], el token de la Fundación Democracy Earth que otorga los derechos de voto se asociará con el mensaje más importante que cualquier democracia puede transmitir: ''vote''.
+
+El token de ''vote'' puede ser implementado usando un código de contrato inteligente a través de una variedad de '''blockchains''' que permiten scripts [https://en.wikipedia.org/wiki/Turing_completeness '''Turing Complete'''], incluyendo Bitcoin. Nuestro diseño no es para un tipo  '''blockchains''' específico, por reconocimiento a un campo de la informática todavía en su infancia donde las innovaciones significativas aún no se han inventado. No obstante, estamos trabajando en la implementación del token de ''vote'' bajo estos entornos de contratos inteligentes:
+
+* '''Ethereum''': Usando un conjunto de contratos inteligentes de [https://github.com/ethereum/solidity solidity] bajo el [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token estándar].
+
+** '''Rootstock''': Estamos tomando las medidas necesarias para que el código de solidity sea compatible con [http://www.rsk.co/ el intérprete de contrato inteligente de Rootstock para el Bitcoin '''blockchain'''].
+
+* '''Lightning''': Con la activación de [https://en.bitcoin.it/wiki/Segregated_Witness '''segregated witness'''] en el protocolo Bitcoin que permite el enrutamiento de canales de pago con la [http://lightning.network Lightning Network Protocol], las delegaciones de democracia líquida pueden ser mapeadas usando transacciones de nivel satoshi con un identificador de ''vote'' adjunto. El costo de liquidación relacionado al '''blockchain''' debe ser cubierto por la organización implementadora.
+
+Además, se alientan las implementaciones '''multi-chain''' para fomentar una mayor experimentación y colaboración con respecto a estas tecnologías.
+
+===2.2 Voting.===
+
+El símbolo de ''voto'' pretende ser un estándar para la democracia digital capaz de interoperar con otros testigos, estableciendo un lenguaje común para el gobierno de las organizaciones basadas en cadenas de bloque. En el contexto de las democracias líquidas, se permite una serie de transacciones de votación con ''votos'':
+
+* '''Voto directo''': Al votante egoísta Alice se le permite usar sus fichas para votar directamente sobre temas como en una democracia directa.
+
+* '''Delegación Básica''': Alice puede delegar ''votos''a Bob. Mientras Bob tenga acceso a esos tokens, puede usarlos para votar en nombre de Alice.
+
+* '''Delegación limitada a las etiquetas''': Alice puede delegar ''votos'' a Charlie bajo la condición especificada de que sólo puede usar estos tokens en los asuntos que llevan una etiqueta específica. Si la delegación especifica que los ''votos'' delegados sólo se pueden usar en las decisiones con la etiqueta ''#environment'', Charlie no podrá usarlos en ningún otro lugar, excepto en esos temas específicos. Esto conduce a un modelo de representación no basado en el territorio, sino en el conocimiento.
+
+* '''Delegación Transitiva''': Si Bob recibió ''votos'' de Alice, él puede delegarlos a Frank. Esto genera una cadena de delegaciones que ayuda a capacitar a jugadores específicos dentro de una comunidad. Si Alice no desea que terceros reciban los votos que delegó a Bob, puede desactivar el ajuste transitivo en el contrato de delegación. Las delegaciones circulares (por ejemplo, Alicia recibiendo las fichas que envió a Bob de Frank) están prohibidas, ya que la asignación original de ''votos'' de una organización a sus miembros lleva una firma que indica quién es el propietario soberano de los votos.
+
+Si Bob ya usó los ''votos'' delegados que recibió de Alice, pero ella tiene una opinión diferente sobre un tema dado, ya que la soberana propietaria de sus votos Alice siempre puede anular la decisión de Bob. Los votantes siempre tienen la última palabra sobre cualquier decisión dada con sus ''votos'' originales.
+
+* ''Voto público''': A menudo referido como la ''regla de oro'' de las democracias líquidas, todos los delegados tienen derecho a saber cómo su delegado ha votado sobre cualquier asunto con sus ''votos''. De la misma manera que los votos de los congresistas son públicos, en las democracias líquidas los delegados que compiten en cualquier etiqueta tienen un incentivo para construir una reputación pública basada en su récord de votos para atraer más delegaciones.
+
+* '''Voto secreto''': Es un método que garantiza las transacciones de ''votos'' que no pueden ser rastreados por el votante. Esto es indispensable en los contextos de las elecciones públicas celebradas dentro de grandes poblaciones que tienen un alto riesgo de coerción. Incluso si se logra un secreto perfecto en la transacción ''voto'', los usuarios todavía pueden tener sus huellas dactilares con metadatos expuestos. Por esta razón, se fomenta la investigación sobre la integración con cadenas bloqueadas diseñadas para transacciones anónimas con un historial probado. Esto podría incluir una cuota de minería para liquidar la transacción de ''voto'' que puede ser subvencionada por la organización implementadora o pagada directamente por los votantes. Recomendamos la investigación e integración de ''votos'' secretos con estos bloqueos:
+
+** [https://z.cash ZCash] implementa transacciones blindadas usando [https://en.wikipedia.org/wiki/Zero-knowledge_proof knowledge proof]
+
+** [https://getmonero.org Monero]: utiliza [https://en.wikipedia.org/wiki/Ring_signature firma de anillo con direcciones de sigilo].
+
+===2.3 User Experience.===
+
+Experiencia de usuario (UX) es un aspecto crítico de una arquitectura descentralizada y se vuelve aún más importante a medida que las capas redundantes de arquitecturas centralizadas se condensan para el usuario. En una arquitectura centralizada de Internet, el usuario no posee la interfaz o la experiencia. En una arquitectura descentralizada de Internet, la interfaz de usuario (UI) debe basarse en la perspectiva del usuario. En este sentido, las transacciones se realizan bajo tres puntos de vista distintos:
+
+* '''Self''': Usando una identidad pública relacionada con un individuo.
+
+* '''Organización''': En representación de una organización que amplía los derechos de representación a individuos (por ejemplo, lugar de trabajo, club, partido político, etc.).
+
+* '''Anónimo''': Sin conexión a una identidad pública.
+
+Este entendimiento del requisito de cambio de forma ''SELF/ORG /ANON'' influyó mucho en nuestro diseño de interfaces y fichas. En cualquier momento, un usuario de Sovereign puede adoptar cualquiera de estos modos para interactuar con las organizaciones descentralizadas.
+
+====2.3.1 Liquid.====
+
+Sovereign pretende hacer que el voto líquido sea inmediato y simple. Se debe evitar cualquier fricción en el proceso y el widget de delegación debe estar constantemente expuesto en la interfaz mientras navega por los problemas o mira los perfiles de los miembros. Con este fin, Sovereign utiliza una "barra de líquidos" que permite realizar transacciones de "votos" con un solo gesto, ya sea en dispositivos móviles y de escritorio.
+
+[[File:/images/liquid-mobile-ux.png|Interfaz móvil de Sovereign que muestra la decisión, las votaciones y el voto líquido.]]
+
+La ''barra líquida'' permite estas acciones:
+
+*'''Ver ''votos'' disponibles''': Dado que en una democracia líquida un usuario puede tener uno o más ''votos'' delegados, tener un recordatorio constante de la balanza ayuda al usuario a entender su poder actual dentro del sistema. Si algunos de los ''votos'' fueron delegados con condiciones estrictas (por ejemplo, una ''Delegación limitada de etiquetas''), esto significa que un usuario no tendrá la misma cantidad de votos disponibles para gastar en cada asunto.
+
+*'''Ver ''votos'''': Se muestra un valor porcentual con la cantidad de ''votos''emitidos actualmente en otras decisiones o delegados a otros miembros de la comunidad. El usuario puede tocar o hacer clic en cualquier momento en ese valor para ver una lista completa de los temas en los que él o ella actualmente está teniendo un voto y decidir si mantenerlos allí o hacer un cambio estratégico.
+
+*'''Deslice a ''voto'''': El usuario puede usar su pulgar (o clic del ratón) para deslizar el mango de la ''barra líquida'' y al soltarlo se le pedirá una confirmación pedir ''votar'' o no.
+
+*'''Remover ''voto''''': Si el usuario no quiere asignar más de un voto, simplemente puede tocar en el control de la ''barra líquida'' una sola vez y se le pedirá que confirme una única transacción de ''voto''.
+
+*'''Eliminar' ''votos''''': En cualquier momento, mientras el sondeo continúe abierto, el usuario puede retirar sus ''votos'' de una decisión simplemente deslizando la barra ''líquida'' vuelva a la posición inicial.
+
+Nosotros vemos esta interacción como un paso hacia delante en comparación al patron de ''likes'' encontrado en las redes sociales. Los ''likes'' limita la votación a clics sin sentido y puede inflarse a voluntad. Dado que los ''votos'' funcionan como un recurso escaso en el sistema, no pueden generarse a voluntad y siempre requieren un mínimo de pensamiento táctico sobre cómo la interacción del usuario influirá en una decisión específica. ''votos'' tienen implicaciones reales para el usuario como parte interesada de una organización descentralizada, mientras que los ''likes'' solo sirven a sus corporaciones que controlan.
+
+====2.3.2 Delegations.====
+
+Una ''barra desplazable'' también muestra la relación en cuanto a delegación de votos que un usuario tiene con cualquier otro miembro de una organización. Las delegaciones pueden ocurrir en ambas direcciones:
+
+* '''Enviado''': un usuario debe poder delegar cualquiera de sus votos disponibles y a la misma vez poder verificar el monto delegado correspondiente (si existe).
+
+* '''Recibidos''': un usuario debe poder entender cuantos votos ha recibido de alguien más.
+
+Cada vez que se muestra el perfil de un miembro en Sovereign, se muestra el estado actual de la delegación entre el usuario y el miembro.
+
+[[File:/images/delegation-relation-votes.png|Vista del voto delegado en relación con otro miembro.]]
+
+====2.3.3 Agora.====
+
+Sovereign también tiene un componente de debate con el nombre código ''Ágora''. Debatir es tan importante como votar en cualquier democracia. Agora exhibe ''conversaciones roscadas'', un diseño exitoso iniciado por [http://reddit.com Reddit] y [http://news.ycombinator.com Hacker News]. Consideramos este patrón UX como la mejor manera de participar en conversaciones reflexivas en línea, ya que tienen los comentarios más valorados burbuja, ayudando a clasificar la información para un debate utilizando la inteligencia colectiva de la comunidad.
+
+Pero a diferencia de las aplicaciones basadas en la web, Sovereign no permite interacciones testimoniales: en lugar de permitir infinitas ''upvotes'' o ''downvotes'', si el usuario está de acuerdo con un comentario de otra persona en la plataforma, se disparará una delegación instantánea de un solo ''voto'', por lo tanto las Agoras permiten:
+
+*'''Upvote''': Envíe una solo ''voto'' delegado del usuario al comentarista.
+
+*'''Downvote''': Si un usuario no está de acuerdo con el comentario de alguien, un ''downvote'' puede recuperar un ''voto'' desde el comentario hasta el usuario si hubo una delegación anterior. O si no existe una relación de delegación entre ellos, entonces un ''downvote'' actuará como una sanción enviando un ''voto'' desde el comentarista a los fondos de la organización que implementa la instancia Sovereign. Los criterios para este tipo de penalidad pueden establecerse en el ''contrato inteligente constitucional'' de la organización implementadora.
+
+Esto hará que las delegaciones sean más frecuentes en toda la plataforma. Los debates constantemente expuestos al riesgo de transacciones de ''voto'' significan que están sujetos a un verdadero impacto político. Este mecanismo puede ayudar a recompensar los buenos argumentos y castigar la influencia del curricán sin requerir la necesidad de desarrollar autoridades moderadoras en el sistema.
+
+===2.4 Piloto.===
+
+<blockquote>
+  Blockchain podría cambiar la votación, al igual que tiene valor monetario, y podría aplicarse a cualquier gobierno democrático.
+</blockquote>
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''La Organización para la Cooperación y el Desarrollo Económico'''], Adoptando la innovación en el gobierno: tendencias mundiales (2016).
+
+En octubre de 2016, tras un impactante, casi universalmente inesperado No a la paz en el referéndum colombiano que puso en riesgo años de negociación entre el gobierno y las narcoguerrillas marxistas, Democracy Earth puso a prueba la plataforma de democracia líquida soberana en un [http://plebiscitodigital.co/ plebiscito digital] promulgando un voto simbólico entre la diáspora de ~6 millones de ciudadanos expatriados. En lugar de darle a un votante la opción binaria, el piloto permitió a las personas votar por separado sobre siete subtemas individuales del tratado propuesto, así como delegar sus votos a votantes más conocedores, cuyos resultados revelaron matices importantes en las preferencias de los votantes no captadas en el referéndum, incluyendo el [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 factor decisivo que surgió]: un abrumador "No" entre los participantes del piloto en una declaración particular del tratado sobre la participación política de las FARC.
+
+[[File:/images/colombia-use-case.png|Datos de casos de uso en Colombia..]]
+
+El estudio piloto tuvo el [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf impacto adicional] de aumentar los medios y el perfil político de la democracia líquida descentralizada habilitada por blockchain en Colombia; ha surgido un partido político conocedor de blockchain, el Partido de la Red Colombia, mientras que el Centro de Innovación Pública Digital del gobierno colombiano también está investigando la tecnología.
+
+===2.5 Contratos Inteligentes.===
+
+Cuando Claude Shannon escribió su [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf documento fundamental de 1948 sobre la teoría de la información], pudo demostrar cómo los circuitos pueden realizar funciones lógicas expresando un estado binario de 1 o 0 (estados <code>verdaderos</code> o <code>falsos</code>). Desde entonces, la tecnología digital configuró la dinámica de todo tipo de sistemas de información. Con esto en mente, nos enfocamos en construir un diseño eficiente para una máquina de gobierno capaz de operar con blockchains que mantenga a sus operadores humanos como gobernantes soberanos por medio del voto. Del mismo modo en que los bits se mueven en las computadoras señalando un estado de <code>verdadero</code> o <code>falso</code>, las fichas ''votos'' señalan un valor booleano para que las decisiones institucionales se registren bajo contratos inteligentes.
+
+Las fichas de ''voto'' operan dentro de los límites institucionales creados por este conjunto de contratos: <code>Organizaciones</code>, <code>Miembros</code>, <code>Cuestiones</code>, <code>Bolletas</code> y <code>Presupuestos</code>. Estos son los componentes básicos que ayudan a crear un circuito de gobernanza que se puede escalar hasta poder operar democracias líquidas dentro de comunidades de cualquier tamaño.
+
+[[File:/images/vote-liquid-democracy-smart-contracts.png|Contratos inteligentes de democracia líquida VOTE..]]
+
+====2.5.1 <code>Organizaciones</code>====
+
+La entidad o institución que implementa una instancia de Sovereign se conoce como una <code>Organización</code>. Esta entidad actúa como una autoridad de gobierno que define quiénes son los <code>Miembros</code> autorizados para participar en sus decisiones y otorgandoles fichas ''voto''. Dado que <code>Organizaciónes</code> pueden vivir en una red descentralizada, los requisitos para que una entidad pueda operar con ''votos'' son similares a aquellos requeridos cuando se configura un sitio web:
+
+* <code>Dominio</code>: Todas las organizaciones deben tener su propio nombre de dominio (por ejemplo, ''democracy.earth'' en el protocolo de transferencia de hipertexto o HTTP). Algunos incluso pueden tener un espacio de nombres ejecutándose como un dominio de nivel superior o TLD (por ejemplo, ''.earth''). Este código de referencia para una <code>Organización</code> dentro de una red abierta, ya sea la web heredada como en HTTP o las nuevas redes emergentes para dominios descentralizados como [https://blockstack.org Blockstack], es crucial para ayudar construir una capa semántica que describa de manera efectiva las <code>Cuestiones</code> sin el riesgo de que los votantes manipulen las etiquetas en un sistema cerrado (referido en la Sección 2.5.4 como ''allanamiento''). Los nombres de dominio ayudan a describir una <code>Cuestion</code> y a restringir el alcance de un contrato de delegación.
+
+* <code>Constitución</code>: Toda organización tiene una ''Constitución'' que define sus reglas fundamentales en la forma de un contrato inteligente. El ''contrato inteligente constitucional'' describe cómo <code>Miembros</code>, <code>Cuestiones</code> y ''votos'' se conectan dentro del sistema.
+
+=====2.5.1.1 <code>Constitución</code>=====
+
+El ''contrato constitucional inteligente'' determina cómo se asignarán los ''votos'' a los miembros, entre otras decisiones de gobernanza. Las condiciones de asignación son una prerrogativa de la organización en función de sus objetivos: en algunos casos se puede alinear con los derechos financieros (por ejemplo, los accionistas de una corporación obtienen un ''voto'' por acción); en otros casos, puede asignarse en función de una distribución igualitaria a todos los miembros (por ejemplo, contribuyentes dentro de una jurisdicción, obteniendo cada uno la misma cantidad de ''votos'').
+
+Las configuraciones básicas que se encuentran en una constitución son:
+
+* '''ID descentralizado''' (o URL): Un identificador que ayuda a hacer referencia a la <code>Organización</code> en cualquier parte de la red y que está conectado a su <code>Dominio</code>.
+
+* '''Biografía''': Una descripción básica de la organización, incluyendo su nombre, sitio web, dirección, y jurisdicción (si corresponde).
+
+* '''Financiamiento''': Cantidad de fichas ''voto'' que gestionará esta organización y cómo estas se asignarán a cada miembro y otorgarán acceso a <code>Presupuestos</code>.
+
+* '''Membresía''': Requisitos para convertirse en un miembro válido dentro de la organización. Este criterio define el registro de votantes que garantiza un proceso electoral justo de una democracia y puede ser analizado por sus miembros.
+
+** '''Abierto''': Cualquiera puede unirse libremente a una organización.
+** '''Votado''': Los miembros existentes deben votar para los miembros solicitantes. Se debe establecer un porcentaje de criterio para su aprobación.
+** '''Tarifa''': La organización requiere un pago para la aprobación de la membresía.
+
+* '''Contenido''': Define quién puede publicar <code>Cuestiones</code> en la organización.
+
+** '''Abierto''': Cualquier persona (ya sea miembro o no) puede publicar. Solo los miembros tienen derecho a votar.
+** '''Miembros''': Solo los miembros aprobados tienen derecho a publicar.
+** '''Miembros Especiales''': Los miembros que cumplen ciertos criterios (por ejemplo, un mínimo de ''votos'' o ''votos'' recibidos bajo una etiqueta específica) tienen derecho a publicar.
+** '''Anónimo''': Define si se permite publicar contenido anónimo.
+
+* '''Moderación''': Describe las reglas que ayudan a definir un código de conducta entre los miembros de una organización.
+
+** '''Prohibición''': Se requiere una cantidad de ''votos negativos'' para prohibir que un miembro participe en la organización y la penalización que se le atribuye (por ejemplo, un período de tiempo).
+** '''Expulsión''': Si una organización se basa en la ''Aprobación de Membresía Votada'', un miembro puede recibir votos negativos de otros miembros que indiquen que dicha identidad se ha corrompido o ya no forma parte de la organización. Este criterio se puede establecer como un porcentaje mínimo requerido.
+
+* '''Votación''': Las <code>Boletas</code> permitidas se usarán para las decisiones que tomará la organización y configuraciones específicas como ''votación cuadrática''.
+
+* '''Reforma''': Los requisitos para cambiar cualquiera de las reglas establecidas en una ''Constitución'' (por ejemplo, una mayoría especial).
+
+Se alienta a las plantillas que definen prácticas comunes para tipos específicos de organizaciones a simplificar la configuración organizacional. Esto será ayudado e impulsado a través del trabajo con la asociación Democracy Earth Foundation con [https://aragon.one/ Aragón], que está trabajando en una jurisdicción digital que hará que las organizaciones descentralizadas sean eficientes. Sovereign incluirá plantillas para corporaciones, partidos políticos, sindicatos, clubes y empresas cooperativas, entre otros; cualquiera que sea la forma que adopte la organización, la red descentralizada de Aragón asegura que una empresa siempre funcionará, incluso frente a la manipulación maliciosa por parte de terceros hostiles o gobiernos abusivos.
+
+====2.5.2 <code>Miembros</code>====
+
+Cada organización tiene miembros que tienen derecho a votar sobre las decisiones de la organización. Los criterios de membresía se definen en el ''contrato constitucional inteligente'' y son clave para la confianza en cualquier entorno democrático. Entre las formas más comunes de subvertir una elección es a través de la manipulación del registro de votantes. Asegurar este aspecto con medios criptográficos, así como un protocolo de aprobación es crítico. Una vez que se aprueba a un miembro dentro de una organización, él o ella recibe una cantidad específica de ''votos'' para ser utilizadas para su gobierno.
+
+Todas las <code>Organizaciones</code> que asumen la responsabilidad de aprobar o desaprobar <code>Miembros</code>, contribuyen con esta tarea al proceso de ''Prueba de Identidad'' descrito en la sección 3.3.
+
+Se fomenta la compatibilidad con los protocolos de identidad descentralizados con el fin de garantizar la gobernanza descentralizada. La [https://opencreds.github.io/did-spec/ especificación de DID (identificadores descentralizados análogos a los URI de la web)], propuesta por el [https://www.w3.org/ W3C] que permite la autosuficiencia para identidad digital verificable se recomienda.
+
+====2.5.3 <code>Cuestiones</code>====
+
+Una organización consiste en una colección de ''cuestiones'' cada una describiendo una decisión que deben tomar los miembros. Las propiedades de membresía descritas en el ''contrato constitucional inteligente'' definen los derechos de voto y publicación de los miembros. Una cuestión en su forma más básica tiene estas propiedades:
+
+* <code>Descriptión</code>: Texto de la decisión que se tomará.
+* <code>Etiquetas</code>: Categorías que describen la decisión dentro de la organización. Esto ayuda a los miembros a navegar a través de los problemas, definir áreas o equipos dentro de una organización y limitar el alcance de una delegación de ''votos''. Si la implementación se realiza con entornos blockchain que se utilizan para administrar una taxonomía fija (como [http://blockstack.org Blockstack]), un lenguaje común distribuido para etiquetas basadas en dominios descentralizados ayuda a hacer que el entorno democrático sea más justo ya que evita miembros que intentan controlar las convenciones de nombres para su propio beneficio. Por esta razón, dentro de una red abierta, las <code>Etiquetas</code> que describen <code>Cuestiones</code> o se utilizan para restringir las delegaciones, son punteros a otras <code>Organizaciones</code>. Esto se detalla en el proceso de ''Prueba de Identidad''.
+* <code>Firmas</code>: Miembros que están creando la propuesta. Puede permanecer en el anonimato si las reglas de gobierno de una organización lo permiten.
+* <code>Boleta</code>: Las opciones presentadas para que los votantes participen en esta decisión.
+* <code>Presupuesto</code>: Un elemento opcional que puede incluir fondos bloqueados en una dirección de alguna criptomoneda que puede desencadenar una acción si se vota a favor de una decisión.
+* <code>Espacio de tiempo</code>: Para la cuenta final, una encuesta abierta también debe establecer su alcance a tiempo y definir el tipo de decisión que se toma. Hay dos tipos de decisiones:
+
+** <code>Táctico</code> (limitado en el tiempo): Estos son contratos que reciben ''votos'' hasta que se cumpla una fecha de cierre, donde una altura de bloque determinada dentro del blockchain implementa los contratos inteligentes de votación usando las fichas ''vote''. Puede establecerse como la línea final para el proceso electoral. Una vez que se hayan contabilizado todas las transacciones y se haya registrado un resultado final, todos los tokens se devolverán a los votantes correspondientes y se podrán usar nuevamente en decisiones futuras.
+** <code>Estratégico</code> (ilimitado en el tiempo): Encuestas abiertas interminables que registran perpetuamente el consenso de un estado de decisión. Los votantes pueden recuperar los ''votos'' en cualquier momento si sienten la necesidad de suspender su voz en apoyo o rechazo de una decisión. Pero mientras el token se asigne para indicar una preferencia en una boleta de contrato sin fecha de cierre, es parte de la decisión estratégica. Un uso común para las decisiones estratégicas pueden ser los miembros que votan para la aprobación de otros miembros dentro de la comunidad de una organización.
+
+====2.5.4 <code>Boleta</code>====
+
+Se puede implementar un problema con cualquier posible diseño de votación de acuerdo con las especificaciones definidas en el ''contrato inteligente constitucional'' de la organización. Los bloques de construcción para una votación son su <code>Interfaz</code>, <code>Opciones</code> y <code>Criterio</code>.
+
+=====2.5.4.1 <code>Interfaz</code>=====
+
+Por defecto, Sovereign proporciona los mecanismos de elección más comúnmente usados para la interacción de las papeletas. Se fomenta una mayor innovación en las interfaces de votación.
+
+* <code>ElecciónÚnica</code>: Una opción seleccionable.
+* <code>ElecciónMúltiple</code>: Una o más opciones seleccionables.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardenal</code>]: Un puntaje determinado por opción con un rango de valor predefinido.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code>Clasificado</code>]: Opciones ordenables como preferencias clasificadas. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem El teorema de la imposibilidad de Arrow] debe tomarse en consideración para cualquier innovación con respecto a las papeletas clasificadas. Este teorema establece que los sistemas electorales basados en el rango no pueden satisfacer la equidad en tres aspectos clave al mismo tiempo:
+
+** '''Dominio no restringido''': Se permiten todas las preferencias de todos los votantes.
+** '''No dictadura''': Ningún votante individual posee el poder de determinar siempre la preferencia social.
+** '''Eficacia del Pareto''': Si cada votante prefiere una opción a otra, entonces también lo hará la orden de preferencia social resultante.
+
+=====2.5.4.2 <code>Opciones</code>=====
+
+Para permitir el procesamiento de la información de ''votos'', las papeletas llevan valores booleanos expresados en sus opciones. Esto permite que las transacciones de ''voto'' señalen un ''estado de decisión'' que actuará como una fuerza que modela las elecciones institucionales para la organización ejecutora. Esto hace que todas las organizaciones descentralizadas también se conviertan en instituciones programables. Las opciones entonces pueden ser:
+
+* <code>Verdadero</code>: Señalará un valor booleano <code>verdadero</code> si se selecciona (a menudo se describe con cadenas de etiquetas 'Sí' o 'Positivo').
+* <code>Falso</code>: Señala un estado <code>falso</code> (por ejemplo, puede mostrar las etiquetas 'No' o 'Negativo').
+* <code>Vinculado</code>: La opción está conectada a otra decisión dentro de la organización.
+* <code>Candidato</code>: Miembro o lista de <code>Miembros</code> de la organización. Esto ayuda a elegir autoridades dentro de la organización o se puede usar para aprobaciones de membresía.
+
+=====2.5.4.3 <code>Criterio</code>=====
+
+Finalmente, contar los métodos para el resultado final o continuo de una decisión dentro de una organización.
+
+* <code>Pluralidad</code>: La mayoría simple gana la decisión.
+* <code>Mayoría</code>: Se requiere un porcentaje mínimo para la decisión ganadora.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>D'Hondt</code>]: Ampliamente utilizado por las elecciones de estado-naciónes basadas en listas de miembros.
+* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Comúnmente utilizado por las comunidades de código abierto y los Partidos Piratas usando boletas de votación clasificadas.
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank (Rango de Página)</code>]: Cuenta los votos ponderando la reputación de los votantes en un gráfico.
+
+====2.5.5 <code>Presupuesto</code>====
+
+Cada <code>Organización</code> puede tener una o más direcciones de criptodivisas para financiar sus esfuerzos. Sovereign permite para financiar una <code>Organización</code> con Bitcoin y en su <code>Constitución</code> definen un criterio sobre cómo estos activos se distribuyen entre <code>Miembros</code>:
+
+* '''Porcentaje para ''Prueba de Identidad''''': El <code>Miembro</code> solicitante puede enviar su evidencia de '''Prueba de Identidad''' para obtener la aprobación de membresía a una <code>Organización</code>. Si los ''votos'' aprueban al nuevo miembro, fortalece la reputación de una identidad soberana en la red abierta recompensándolo a él o ella con una cantidad fija de Bitcoin para permitir el hashing de la ''Prueba de Identidad'' en un blockchain. Algunas <code>Organizaciones</code> pueden permitir una mayor recompensa que otras, creando de manera efectiva un puntaje de reputación que puede proteger la red contra ''Sybils'' o identidades falsas. Este proceso se detalla en [[#3_Execution|Sección 3]].
+* '''Porcentaje para <code>Cuestiones</code>''': <code>Miembros</code> que buscan utilizar recursos de la <code>Organización</code> pueden solicitarlos adjuntando un <code>Presupuesto</code> a una <code>Cuestión</code>. Un <code>Miembro</code> puede solicitar el uso de fondos de un grupo específicamente reservado para esto. Si el recuento final de una decisión alcanza un cierto valor (<code>verdadero</code> o <code>falso</code>), entonces puede hacer cumplir la decisión final desbloqueando monedas o desencadenando una transacción que envía los activos solicitados a una dirección específica.
+
+===2.6 Seguridad.===
+
+Con Sovereign buscamos proporcionar un marco de gobernanza ligero, que permita a todas las partes interesadas de una organización participar y reforzar decisiones mediante el uso de criptografía. Es importante dejar en claro que no estamos apuntando a [diseñar] un sistema democrático que se apoye en la ley del más fuerte o en una [https://es.wikipedia.org/wiki/Democracia#La_tiran.C3.ADa_de_la_mayor.C3.ADa ''tiranía de la mayoría'']. La historia ofrece ejemplos suficientes en los que una mayoría ciega acaba fallando en sus aspiraciones de ser república, poniendo a demagogos en el poder.
+
+[[File:/images/ideal-democracy.png|Ideal democracy.]]
+
+Nuestro objetivo principal es proporcionar un sistema capaz de garantizar la mayor cantidad de legitimidad, potenciando las voces más experimentadas de una comunidad. La diferencia entre el hecho y la promesa es simple: mientras que el arte de la política consiste en sostener la ficción que genera confianza en las instituciones establecidas (ej: políticos en campaña), la prueba criptográfica de un acontecimiento proporciona un método fiable para gobernar. La naturaleza incorruptible de las transacciones realizadas en el blockchain provee un incentivo para que las personas no mientan, por lo cual las organizaciones que usan esa tecnología para almacenar votos y decisiones pueden ser impulsadas por hechos en lugar de promesas. La corrupción puede combatirse en su origen si desarrollamos un nuevo sentido de ciudadanía basada en redes digitales.
+
+Sin embargo, las democracias líquidas pueden ser manipuladas de distintas formas con resultados dominados por las consecuencias no esperadas de dos dinamicas pertenecientes a extremos opuestos en el espectro de la participación:
+
+* '''Falta de delegación''' que deriva en un ''polipolio'': fragmentación extrema del poder de voto. 
+* '''Exceso de delegación''' que deriva en un ''monopolio'': extrema concentración del poder de voto.
+
+Cada uno de estos resultados impacta sobre uno de los dos ejes que miden la calidad del gobierno democrático. Los incentivos en la economía política del voto son designados para mantener estable el equilibrio entre esos ejes: máximo nivel de legitimidad y la toma de decisiones basadas en hechos. 
+
+Para convertirse en un ambiente fiable de gobernanza descentralizada de comunidades grandes (a escala local, nacional o global), Sovereign tiene que estar protegido contra diferentes tipos de atacantes: ''Turbas enfurecidas'', ''Corporaciones'', ''Sybils'', ''Fakes'' y el ''Gran Hermano''.
+
+====2.6.1 Polipolio.====
+
+<blockquote>
+a.k.a. ''Turbas enfurecidas''
+</blockquote>
+
+Entre los proyectos de investigación más notables en el campo está el de [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Fue una implementación interna diseñada para empleados de Google y liderada por el ingeniero Steve Hardt, que creó un plug-in de democracia líquida para ser usado en la versión interna de Google+. 
+En términos de impacto, el proyecto obtuvo los siguientes números:
+
+* 15,000 participantes.
+
+* 371 decisiones.
+
+* '''3.6% votos delegados''' en total.
+
+El bajo porcentaje de delegaciones señala que Google Votes funcionó más como una democracia directa que como una democracia líquida. Las delegaciones ocurrieron mayormente entre aquellos usuarios que activamente hicieron campaña para atraerlas (ej: veganos en un equipo con la esperanza de reunir el poder para elegir los snacks de la oficina). El riesgo de tener pocas delegaciones es que expone la democracia a los peligros que conlleva una mob rule, el dominio de turbas enfurecidas. Aunque esto puede mantener una alta legitimidad, la calidad de las decisiones tomadas por una organización se vuelve más política que fáctica. Las voces reconocidas por su idoneidad para tratar ciertos problemas en una comunidad quedan sin poder.
+
+Para incrementar la frecuencia de las delegaciones, éstas deben suceder cada vez que un soberano autónomo es validado. En el proceso de ''Prueba de Identidad'' (ver Sección 3), los usuarios son capaces de generar sus propios ''votos'' de manera nativa en la medida que su identidad sea respaldada por otras identidades. Además, dado que el token de ''voto'' opera sobre un blockchain, las delegaciones no necesariamente deben suceder en la aplicación Sovereign: aplicaciones de mensajería instantánea, tweets y e-mails pueden enviarse adjuntando direcciones de voto o códigos QR para que el token de ''voto'' pueda ser transmitido a través de múltiples redes.
+
+====2.6.2 Monopolio.====
+<blockquote>
+  a.k.a. ''Corporations''
+</blockquote>
+
+Cuando el Partido Pirata Alemán implementó [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], un software pionero en democracia líquida desarrollado en 2009, alcanzó un nivel de participación de ~550 afiliados que llevó a [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html que un profesor de lingüística se convirtiera en el miembro más influyente del partido]. Martin Haase estaba a cargo de traducir todas las propuestas subidas en el sistema a un lenguaje neutro para evitar cualquier sesgo ideológico, y ser reconocido por eso le hizo captar 167 delegaciones de otros miembros. 
+
+Las consecuencias de tener un líder monopolizante en un entorno de democracia líquida van en contra del espíritu de un ecosistema que busca incentivar la participación. En democracias líquidas, las “celebridades” pueden devenir extremadamente influyentes, siendo capaces de atraer gran parte de los votos delegados. Un atacante dispuesto a subvertir una elección puede promover un código QR mediante una estrella de televisión para obtener una afluencia repentina de delegaciones de los aficionados y espectadores, convirtiéndose instantáneamente en una fuerza monopolizante. Los monopolios son una amenaza para las democracias líquidas: pueden desincentivar la participación de los votantes menos afortunados, secuestrando la legitimidad de las decisiones que se toman.
+
+=====2.6.2.1. Votación Cuadrática.=====
+
+Un punto clave de un sistema de democracia líquida es permitir [http://ericposner.com/quadratic-voting/ un sistema de voto con ecuación cuadrática] para delegaciones. Esto es: el costo de que Alice delegue votos a Bob incrementa exponencialmente a medida que se delegan votos. Con delegaciones cuadráticas, Alice solo puede delegar en Bob 1, 2, 4, 8, 16 o hasta 128 o 512 votos, pero ningún valor intermedio. Eso significa que cada delegación supone para el delegador un costo alto si se delega a un solo miembro de la comunidad, reduciendo el costo de oportunidad de delegar a varios miembros. Este método previene la emergencia de monopolios al interior de las dinámicas de mercado de una democracia líquida, volviendo relevantes a todos los integrantes de la comunidad. Si algunas organizaciones (ej: corporaciones) desean una cadena de comando más vertical, la votación cuadrática siempre pude desactivarse en las opciones de “contrato inteligente constitucional” de una implementación de Sovereign. 
+
+====2.6.3 Sybil Attack.====
+<blockquote>
+  a.k.a. ''Robo de identidad''
+</blockquote>
+
+Quien tiene la capacidad de controlar el registro de votantes de una elección puede influir directamente en el resultado final. Un ejemplo clásico es el registro de miembros difuntos de la sociedad en un padrón electoral. En redes descentralizadas esto se conoce comúnmente como un [https://es.wikipedia.org/wiki/Ataque_Sybil Sybil Attack], o ataque Sybil (un nombre tomado de la [https://www.youtube.com/watch?v=8kPIDt3yu1M película homónima] de 1976 basada en un personaje que sufre del síndrome de personalidad múltiple). Los nodos Sybil son aquellos que se identifican como actores independientes de la red cuando en realidad se encuentran todos bajo el control de un solo operador. En entornos descentralizados, los ataques Sybil son la amenaza más común y por esta razón consideramos indispensable que la asignación de votos se lleve adelante luego de que el usuario valide su identidad mediante un protocolo (social y algorítmico) que funciona como ''“Prueba de Identidad”''.
+
+====2.6.4 Noticias falsas.====
+<blockquote>
+  a.k.a. ''Chismes''
+</blockquote>
+
+No es casual que el campo de batalla de las democracias modernas sean los medios de comunicación. Éstos tienen hoy una capacidad sin precedentes para moldear la percepción de los votantes. A lo largo de diferentes jurisdicciones de todo el mundo, los gobiernos llevan adelante una guerra interna entre el Estado y el conglomerado de medios local más grande. Este es el libro de jugadas detrás de Donald Trump y su pelea contra los tándems de CNN y New York Times; o la razón por la que Vladimir Putin invirtió significativos recursos en la creación de Russia Today, con el fin de generar una via para presentar ''“hechos alternativos”''. Controlar el mensaje tiende a ser más importante que la verdad misma. Los medios independientes y el periodismo independiente son un requisito fundamental para tener democracias estables. Pero si la evidencia de los hechos institucionales es difícil de probar, el espacio para la manipulación es mayor que el espacio para que la verdad prevalezca. Las instituciones actuales son excesivamente reservadas y carecen de transparencia incluso cuando son oficinas públicas. Los blockchains habilitan una forma de almacenar hechos institucionales que pueden garantizar la transparencia de las organizaciones. En este sentido, las ''“noticias falsas”'' se pueden combatir con un nuevo modelo institucional capaz de almacenar ''“Promesas duras”''.
+
+=====2.6.4.1 Promesas Duras=====
+
+Las corporaciones y las instituciones públicas son propensas a la corrupción porque las decisiones a menudo ocurren en el secreto a puertas cerradas mientras que la contabilidad sucede en el transcurso del tiempo. Efectivamente, las organizaciones hacen un “lavado de decisión” al desconectar la rendición de cuentas de las propias decisiones. Tal falta de responsabilidad es posible porque no hay una línea de tiempo incorruptible en la que registrar, a medida que suceden, decisiones políticas y financieras. El [https://es.wikipedia.org/wiki/Leviat%C3%A1n_(Hobbes) Estado “leviatán”] es una máquina ineficiente: aunque se autoproclama como el regente soberano de cualquier población por vía de la fuerza, quien esté a cargo de manejar su burocracia puede aun ser corrompido, haciendo que el castillo de naipes se desmorone. Esta distancia entre el hecho y la rendición de cuentas es la fuente de chismes y rumores.
+
+Los bloques sobre los que se construyen las instituciones consisten en hechos que se definen en acuerdos. Pero el tipo de hechos que los acuerdos contienen son de un tipo muy específico: las instituciones no se construyen con hechos objetivos que sean científicos, medibles e independientes del juicio humano; sino hechos inter-subjetivos que construyen el mundo social dentro de una comunidad que establece las relaciones de propiedad y derechos. Por ejemplo, la idea de que cada lata roja de soda pertenece a la Corporación Coca Cola no es objetiva, pero un hecho intersubjetivo acordó que todos los miembros de la sociedad reconozcan los derechos de propiedad intelectual que una empresa tiene sobre su producto. De esta manera, la realidad institucional ayuda a escalar las relaciones económicas y reducir la información necesaria para que las organizaciones puedan realizar transacciones.
+
+Las burocracias que protegen estos acuerdos dependen de promesas, como, digamos: "todo el dinero guardado en los bancos estará allí mañana". Pero como explica [https://twitter.com/aantonop/ Andreas Antonopoulos]: "Estamos acostumbrados a sistemas de promesas suaves y transacciones reversibles". Si el gobierno (o cualquier otra autoridad central) quisiera confiscar fondos privados almacenados en un banco, nadie puede impedir que rompan su anterior promesa. Esta ha sido la experiencia de los ciudadanos griegos, argentinos, venezolanos o puertorriqueños con sus propios gobiernos incumplidores en la última década. Por otro lado, las organizaciones basadas en Blockchains ofrecen una alternativa de ''promesas duras'': acuerdos almacenados en contratos inteligentes estrictamente protegidos por criptografía que ningún tercero puede corromper. En lugar de regular el comportamiento humano post-facto, como lo hace la ley gubernamental, los blockchains garantizan la transparencia por defecto incentivando el comportamiento honesto ya que cada participante es consciente de que los eventos institucionales estarán disponibles para un escrutinio abierto.
+
+====2.6.5 Squatting.====
+<blockquote>
+  a.k.a. ''Gran Hermano''
+</blockquote>
+
+Una democracia líquida opera a través de varios dominios. Crear una <code>Organización</code> dentro de una red de “votos” delegables es análogo a inaugurar un servidor en la web. La toma de dominios es la práctica de ocupar direcciones en la web que están abandonadas o sin usar a la espera de un beneficio. Esto ha llevado a un mercado de un billón de dólares que tiene a las palabras más comúnmente usadas (identificadores) como el mejor clase de bienes raíces digitales, ej: [http://sex.com Sex.com] [https://en.wikipedia.org/wiki/Sex.com#Highest_price_paid_for_domain siendo el dominio mejor valuado].
+
+A gran escala, el juego de la democracia líquida eventualmente crece en torno a las <code>Etiquetas</code> que se utilizan para describir las delegaciones y los temas. En un sistema cerrado, las <code>Etiquetas</code> más utilizadas apuntan a un universo reducido de votantes relevantes que lideran en delegaciones en los temas relacionados con ellas. Una participación electoral reducida incrementa la capacidad de predicción de una democracia, reduciendo los momentos abiertos para la toma de decisiones colectiva. La democracia prospera en tanto la participación es incentivada. Para evitar los abusos, los intereses económicos y políticos deben estar alineados. La “toma de etiquetas” puede ser prevenida si la taxonomía usada para hacer delegaciones líquidas y descripciones de temas opera en una red abierta: <code>Etiquetas</code> que se referencian con <code>Organizaciones</code> que están registradas bajo un nombre de dominio descentralizado, considerando que cada <code>Organización</code> necesita un nombre de dominio. [Blockstack.org Blockstack] se especializa en nombres de dominio descentralizados y gestiona actualmente más de 70.000 IDs descentralizadas (DIDs). Se obtienen a través de un proceso de “Proof of Burn”, un proceso donde los usuarios “queman” (destruyen) Bitcoin a cambio de tokens Blockstack que permite registrar un nuevo nombre. 
+
+Las palabras definen ideas políticas. La narrativa social construida por el arte de la política consiste en decidir la intención semántica. El poder define las impresiones teatrales que quedan grabadas en nuestra memoria cada vez que decimos “izquierda”, “derecha”, “libre” o “igual”. El lenguaje es un código de herencia que hace posible la colaboración humana a gran escala y sus virtudes no pueden ser negadas.
+
+----
+
+Todas estas estrategias atacan la esencia de cómo una organización descentralizada se institucionaliza a sí misma. En otras palabras: definen los riesgos en la forma en que Democracy Earth asigna “votos” a sus miembros sobre el blockchain como estructura descentralizada. Por esta razón, detallamos en la [[#Ejecución|Sección 3]] un plan de lanzamiento de ''votos'' que levanta fuertes defensas contra este tipo de ataques y allana el camino para una democracia global.
+
+<div id="Execution"></div>
+
+==3. Execution.==
+
+[[File:/images/humans.png|Humnos en la tierra.]]
+
+Un hecho apremiante que va al núcleo de los desafíos políticos y económicos del siglo XXI es el aumento del crecimiento demográfico: [https://esa.un.org/unpd/wpp/ Las Naciones Unidas calculan que para el año 2100 el mundo superará los 10.000.000.000 de sapiens]. En otras palabras: [https://en.wikipedia.org/wiki/Carrying_capacity la capacidad de transporte del planeta] se alcanzará a finales de este siglo.
+
+En el legado cultural de las islas se pueden encontrar pistas sobre los riesgos de quedarse sin recursos. Una tierra lejana tal como [https://en.wikipedia.org/wiki/History_of_Easter_Island Isla de Pascua] era durante la mayor parte de su historia un sistema cerrado sin ningún contacto con el resto del mundo. Su población no tenía medios de supervivencia más que sus propios recursos, enfrentándose constantemente a los peligros del hambre, las epidemias y la guerra civil. A pesar de que estas amenazas parecen lejanas en una economía globalizada, el repentino aumento de la población humana durante el siglo pasado es la fuerza impulsora de los crecientes niveles de CO<sup>2</sup> en la atmósfera y el colapso de la infraestructura pública incapaz de hacer frente a las migraciones masivas. Los refugiados están escapando de las guerras que buscan asegurar los recursos energéticos para un futuro que nos viene rápido a medida que el ritmo de la innovación tecnológica se acelera. Aunque algunos ya han puesto en marcha planes de escape, incluyendo esfuerzos privados para llegar a Marte en las próximas décadas (parecido a la historia bíblica del Arca de Noé), el llamado urgente a salvaguardar a la humanidad en su conjunto debe ser amplificado y contestado.
+
+La distribución de oportunidades y la colaboración inteligente en todo el mundo no se puede lograr pacíficamente a menos que cada voz se escucha, sin excepciones. La gobernanza global es el siguiente paso lógico en un mundo ya conectado a través de Internet. Los bloqueos conducen a la posibilidad de una gobernanza líquida que sienta los cimientos de una democracia de pares. No se requiere permiso de los Estados Nación establecidos: los ciudadanos de cualquier parte del mundo pueden aceptar este cambio usando redes soberanas.
+
+===3.1 Rights vs. Debt.===
+
+<blockquote>
+"¿Qué es la justicia?", Preguntó el filósofo.
+"Pagar sus deudas y no mentir" respondió Kefalos (capital), un fabricante de armas rico.
+</blockquote>
+'''Platón''', ''República''. Filósofo (428-348 AC).
+
+Aunque la política y la economía son a menudo percibidas como reinos diferentes, la historia enseña que el dinero significa poder y el poder significa votos. Para promover eficazmente la democracia, es esencial abordar ambas cuestiones.
+
+La asociación de la deuda, la moral y las guerras sigue siendo la raíz de los modelos mentales económicos de la sociedad. Las monedas fueron creadas primero por los grandes imperios para financiar guerras permitiendo la compra de provisiones para los soldados en regiones distantes y recompensándolas por la victoria. Los soldados podían saquear la plata y el oro de las ciudades conquistadas y luego intercambiarlas después, cuando los emperadores acuñaban monedas con los metales preciosos para crear mercados. Finalmente, los imperios también pedirían que se devuelva una parte de esas monedas como un impuesto que se dirigía al mantenimiento del ejército. La narrativa moral era que los ciudadanos estaban ''endeudados'' con el emperador por su seguridad, por estar vivos. La deuda evolucionó para justificar cualquier forma de coerción que sostuviera las jerarquías de poder en los países dondequiera. La falta de liquidez es la barrera más tangible e inmediata a la libertad bajo la cual se encuentra la mayoría de la humanidad.
+
+El token de ''voto'' se distribuirá como un ''Derecho'' oponiéndose a la asociación histórica de la "Deuda" y la moral, generando un nuevo caldo de cultivo para las transacciones que no se basan en la posibilidad de coerción . Su objetivo es equiparar a las entidades transaccionales, restableciendo el equilibrio y la equidad como el nuevo estándar moral. Democracia La motivación central de la Tierra es permitir la libertad y la soberanía personal, una posibilidad que sólo puede alcanzarse si los individuos son capaces de decir ''no'' y elegir una orden alternativa sin coacción y libre. Esto no se puede lograr con la escasez inducida, ya que a menudo se encuentra en la mayoría de los activos criptográficos, sino más bien a través de un acceso garantizado a los votos a todos los miembros de la sociedad convirtiendo los derechos de gobierno en un instrumento líquido.
+
+Por esta razón, [http://democracy.earth Democracy Earth Foundation] generará una ''Oferta Inicial de Derechos'' de fichas de ''voto'' diseñadas para llegar a todos en la Tierra bajo un proceso que ofrecerá dos mecanismos: el financiamiento criptográfico para cualquiera que esté dispuesto a asignar recursos que fortalezcan el desarrollo de una democracia global con el token de ''voto''; y un mecanismo de derechos como una forma nativa de obtener ''votos'' por cualquier persona capaz de ''mina'' su correspondiente cuota de ''votos'' a través de un proceso de ''Prueba de Identidad''.
+
+====3.1.1 Initial Rights Offering.====
+
+La identidad es fundamental para la soberanía personal y es el núcleo de todos los sistemas de votación. Los votos (en cualquier sistema) son válidos si y sólo si se verifica la pertenencia dentro de una organización, ninguna democracia puede funcionar con identidades corruptas. Los sistemas de identidad estándar de hoy se basan en que las autoridades centrales obligan a los usuarios a compartir información privada arriesgando el robo de identidad si son hackeados. Los precedentes incluyen [https://gov.uk Gov.UK de Reino Unido] y [https://uidai.gov.in/ Aadhaar de la India], ambos han sido plagados por informes de prácticas de seguridad impropias que incluyeron fugas comprometiendo la privacidad de millones.
+
+Para que las identidades sean auto-soberanas, no pueden ser propiedad ni controladas por gobiernos, organizaciones o corporaciones que en última instancia tengan como prioridad la extracción de valor de sus usuarios. Nuestro enfoque con [http://sovereign.software Sovereign] es que está centrado en la organización como tecnología, pero una organización puede descentralizar si su proceso de verificación de identidad carece de la necesidad de autoridad. En última instancia, cualquier proceso que dependa de la identidad descentralizada es parte de un patrimonio común ya que el principio de una identidad de soberanía propia hace que cualquier "hermano mayor" sea irrelevante. Por lo tanto, la clave para sostener el valor del testigo ''voto'' como medio para una democracia sin fronteras es validar efectivamente todas las identidades participantes a través de un proceso descentralizado que puede crear, actualizar o revocar claves. Así es como la Democracy Earth Foundation otorgará acceso a los ''votos'' como un derecho humano.
+
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
+Cualquier persona que pueda demostrar su propia identidad en virtud de un protocolo descentralizado denominado ''Prueba de Identidad'' (POI por sus siglas en inglés) puede operar con una proporción correspondiente de ''votos''. Este mecanismo activará una asignación a lo largo del tiempo en la dirección pública reivindicada de la identidad que es accesible a través de una billetera auto-alojada conectada al contenido y datos utilizados para el POI. Si suficientes ''votos'' validan la evidencia utilizada para la ''Prueba de Identidad'', la cartera descongelará una cantidad correspondiente de ''votos'' siguiendo las reglas de una dinámica de ''Renta Básica Universal'' que asigna tokens a lo largo del tiempo que utiliza la cadena de bloque Bitcoin como un reloj universal.
+
+===3.2 Proof of Identity.===
+
+Una identidad auto-soberana tiene que haber sido generada voluntariamente por el usuario que la reclama. Para este propósito el usuario tiene que haber difundido una prueba de su identidad que satisfaga estrictamente un criterio que pueda ser satisfecho por el juicio humano y capaz de evitar que una inteligencia artificial interfiera con el proceso. Por , la prueba debe ser en un formato que requiere una gran cantidad de ancho de banda cerebral: video. Una prueba satisfactoria deberá reunir todas estas propiedades,
+
+* '''Incorruptible''': El archivo de video debe estar protegido contra cualquier modificación una vez ha sido usado como fuente de prueba.
+* '''Singular''': La prueba debe validar una única identidad sin permitir participantes duplicados en la red (''replicantes'')
+* '''Acreditado''': Cualquier <code>Organización</code> que valida una PDE adjunta su reputación a la identidad probada con su firma.
+
+Aunque cualquier sistema de gobierno digital se puede beneficiar de la confianza ya presenta en redes existentes que validan identidades (p.e. Naciones-Estados), un protocolo descentralizado para validar identidades sirve el objetivo político de la soberanía personal. Los beneficios de este registro público en un común conectado (?) puede a la larga se usado por gobiernos u organizaciones privadas en diferentes maneras (p.e. verificar la edad o la nacionalidad). Proponemos un nuevo método para validar identidades sin la necesidad de ningún ''Gran Hermano''.
+
+Una ''Prueba de Identidad'' caduca después de un período de tiempo determinado para evitar ataques Sybil y asegurar que sólo usuarios vivos participan en la red. Para mantener la validez del par de claves público-privada sugerimos que un período de 1 año es suficiente para generar una nueva prueba que actualice la anterior. De la misma forma que identidades físicas son comprobadas comparando fotografías con personas, los usuarios necesitarán recrear su ''Prueba de Identidad'' y emitirla para ser verificada para autenticar su legitimidad. Este período de un año es conocido coloquialmente como el ''blockbirth'' de un individo y, si se desea, se celebra cada año de la misma manera que las naciones celebran su día de la independencia (o nacional?). De la misma manera que añaden a los recién nacidos a un registro bajo esta jurisdicción global, los ''blockbirths'' se sincronizan con las fechas de nacimiento y podrán atestar de manera incorruptible la edad al mismo tiempo que gradualmente se reduce el trabajo de los autenticadores a lo largo del tiempo.
+
+====3.2.1 Demo.====
+
+Hay un precedente que ayuda a ilustrar cómo funciona una '''Prueba de Identidad'''. [https://youtu.be/Irc-VMuUs3c?t=55m20s Según el profesor de la NYU, David Yermack], recién nacido Roma Siri se convirtió en el primer bebé a tener un certificado de nacimiento válido blockchain el 7 de noviembre de 2015. El proceso, aunque simbólica en el momento, consistía en [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20y%20Pia%20Mancini%20%28mother%29.MOV?Dl=0 un video mostrando al bebé Roma que describió sus signos vitales e incluyó testigos de su nacimiento]. Una vez que el video fue filmado, un hash criptográfico del archivo digital se generó y se codificó en una transacción de Bitcoin. Esto significa que independientemente del lugar donde se almacena el vídeo, el registro permanente de su hash en la cadena de bloques de Bitcoin puede verificar que los datos del archivo no estaban dañados y que existía en el momento en que se generó la prueba. Con esta evidencia incorruptible, Roma se convirtió en un ciudadano global certificado por un bloque de bloqueos.
+
+Esta demostración sirve de ejemplo para los pasos que deben seguirse para una '''Prueba de Identidad''' descentralizada:
+
+# '''Prueba de película''' con cualquier teléfono o cámara disponible.
+# '''Hash proof''' en una cadena de bloqueo para garantizar la incorruptibilidad de la evidencia.
+# '''Validar prueba''' a través de un proceso de votación entre pares (''Atención Minera'').
+
+====3.2.2 Video Proof.====
+
+Una prueba se puede hacer con cualquier aplicación de grabación, siempre y cuando cumpla con los requisitos del protocolo. Se recomienda una extensión de no más de 3 minutos para el video. En él el usuario debe seguir una serie de pasos guiados para ayudar a los validadores a juzgar con su atención:
+
+Frente a la luz frontal, la expresión frontal de la película (como cuando se toma un ''selfie'') y cada lado de la cabeza sin usar anteojos, sombreros, maquillaje o máscaras de cualquier tipo.
+
+# '''Nombres''': Diga en voz alta los siguientes indicadores:
+## Nombre completo (identidad basada en el idioma).
+## Apellido completo (identidad basada en la sangre, además puede indicar información sobre la madre y el padre).
+## Nacionalidad (identidad territorial, puede incluir lugar de residencia o jurisdicción de pago de impuestos).
+## Alternativamente el usuario puede usar un apodo si es un puntero más común a su uno mismo.
+
+# '''Biometría''' (Opcional): Diga en voz alta o demuestre de manera fiable cualquiera de estos indicadores. Esto puede ser útil para casos de uso específicos como certificados de nacimiento.
+## Cumpleaños (día, mes y año).
+Altura (pulgadas o centímetros).
+Peso (libras o kilogramos).
+## Género (masculino, femenino, etc).
+
+# ''''Testigos'''' (Opcional): Las identidades previamente validadas pueden actuar como testigos de esta identidad. Pueden estar físicamente localizados y aparecer en el video indicando sus nombres completos y claves públicas para endosar una nueva identidad.
+## Los testigos pueden obtener los derechos de revocar, actualizar o cancelar esta prueba (por ejemplo, en caso de pérdida de claves privadas o muerte biológica).
+Gemelos Aquellos que tienen un hermano gemelo o hermana deben especificar esto para evitar ser marcados como un replicante durante el proceso de verificación.
+## Certificaciones. A pesar de que esto sería volver a la autoridad central, legado reputación de documentos emitidos por el Estado puede ayudar a hacer una prueba de vídeo más fácil confiar. Esto puede incluir un certificado de nacimiento, licencia de conducir o una identificación nacional, siempre y cuando no contenga información confidencial (por ejemplo, usando un número de seguro social en los Estados Unidos).
+
+# '''Declaración''': Para garantizar que la persona que genera su prueba de identidad es consciente de los derechos que recibirá al ser aprobado en la red y no está siendo coaccionado por un atacante invisible, es obligatorio hacer una declaración de auto-soberanía que también incluye un juramento con respecto a los hechos declarados: <blockquote>Yo, (nombre personal), declaro que estoy haciendo este video de acuerdo a mi soberanía personal como ciudadano de la Tierra y todas las declaraciones hechos son verdaderos. Seré el único usuario de todos los ''votos'' asignados en nombre de esta prueba y estoy actuando sin ninguna amenaza o coacción contra mi libre albedrío. </blockquote>
+
+# '''Clave Pública''': Una dirección donde ''votos'' serán asignados si la identidad es validada. Éste será el identificador descentralizado (DID) [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md] que señala a este usuario. Si esta identidad finalmente se vota como dañada o el usuario (o cualquier testigo en la lista) la revoca, entonces los ''votos'' asignados serán invalidados para uso futuro.
+
+# '''Timestamp''': Altura del bloque actual de la cadena de bloqueo utilizada para deshacer este video para evitar que cualquier vídeo no relacionado con el momento en que se está generando el POI se utilice como prueba. Una marca de tiempo manual puede simplemente filmar la pantalla de una aplicación de explorador de bloques que muestra el último número de bloque y el hash correspondiente. Dado que esto puede ser complejo para la mayoría de los usuarios, las aplicaciones diseñadas para generar esta prueba pueden agregar automáticamente este contenido al vídeo. Esta información, una vez que la prueba es hashed con una transacción blockchain certificará que el video no fue modificado de ninguna manera por un tercero después de que fue transmitido a la red.
+
+A pesar de que este proceso puede ser más complejo que el formulario de inscripción promedio que se encuentra en la mayoría de las aplicaciones, es importante señalar que es también un acto político que declara la independencia de las autoridades de cualquier tipo. Este video es el manifiesto personal que cualquiera puede hacer para liberarse de la coerción y un paso hacia una democracia sin fronteras.
+
+====3.2.3 Hashing.====
+
+Una vez que se genera el archivo digital con la prueba de auto-soberanía, se calcula una [https://en.wikipedia.org/wiki/Cryptographic_hash_function función de hash criptográfica] aplicada a ella. Siguiendo los pasos de la implementación realizada por Manuel Araoz y Esteban Ordano con [https://proofofexistence.com ProofofExistence.com], un resumen estándar [https://en.wikipedia.org/wiki/SHA-2 SHA-256] es recomendado. Una vez que se ha generado el hash, se puede codificar en una transacción Bitcoin mediante un script [https://en.bitcoin.it/wiki/OP_RETURN OP_RETURN] que también incluye un marcador que ayuda a rastrear las pruebas relacionadas con la identidad. Sugerimos utilizar 'IDPROOF' (0x494450524f4f46) para este caso de uso en particular.
+
+Teniendo en cuenta que una transacción media bitcoin consiste en 226 bytes con una cuota de minería a partir de agosto de 2017 en 27.120 satoshis, el costo de hash una prueba directamente en la cadena de bloqueo es de ~$1 por prueba. Esto puede ser relativamente costoso para la mayoría de la gente, por lo tanto, recomendamos escalar este proceso al permitir una implementación [https://github.com/aantonop/chainpoint Chainpoint] capaz de almacenar hasta 10.000 pruebas por transacción poniendo los datos hash en a [https://en.wikipedia.org/wiki/Merkle_tree Merkle Tree] y codificando la raíz Merkle en el script OP_RETURN en su lugar. Esto también reducirá significativamente los requisitos de memoria de la cadena de bloque Bitcoin, un recurso público que no debe ser abusado. Alternativamente, los cadenas virtuales que se ejecutan en la parte superior de la cadena de bloqueo Bitcoin que tienen un enfoque en la identidad y espacios de nombres como [http://blockstack.org Blockstack] se pueden utilizar para satisfacer este caso de uso y la gestión del par de claves público-privado.
+
+Cualquier prueba que pase por este proceso en un contexto digital está garantizado para no ser dañado de ninguna manera. Los archivos digitales que se utilizan como prueba se pueden almacenar en cualquier lugar, copiado sin restricciones o incluso mantenerse en secreto sin compartirlo con nadie. Mientras exista una transacción en la cadena de bloques que pueda validar el hash codificado con los datos del archivo digital, entonces la evidencia es válida. La cadena de bloques Bitcoin ofrece la mayor resistencia a la corrupción ya que tiene la mayor cantidad de poder de hashing en el mundo que protege su infraestructura. Con este mecanismo en su lugar, la cadena de bloque Bitcoin puede funcionar como un índice descentralizado de identidades de auto-soberanía. Aprovechar esta capacidad sólo hará que la burocracia de una democracia sin fronteras sea más fuerte que cualquier otro gobierno en la Tierra.
+
+====3.2.4 Attention Mining.====
+
+<blockquote>
+  En la cadena de bloques, nadie sabe que eres un AI
+</blockquote>
+'''Satoshi Nakamoto'''.
+
+[[File:/images/proof-of-identity.png|Prueba de identidad.]]
+
+En el espacio de ordenadores, las identidades no son sino punteros: los algoritmos carecen de conocimiento sobre los patrones que están capacitados para reconocer. Las identidades pertenecen estrictamente al reino humano (es decir, sólo una persona puede reconocer a otra persona). Así que en lugar de aprovechar el poder de la computación distribuida para verificar las transacciones como sucede con la mayoría de las criptocurrencias, los votos usan el poder de atención distribuido para verificar las pruebas de identidad autogeneradas. Esta atención es traída por los participantes humanos que actúan como validadores.
+
+Un precedente bien conocido de la minería de atención son pruebas CAPTCHA a menudo se encuentran en el inicio de sesión de sitios web de alto tráfico. CAPTCHA es un acrónimo (en español) para ''Prueba de Turing Público Completamente Automatizada para decir a Computadoras y Humanos Aparte''. Éstos consisten en ejercicios simples de la visión que pueden ser completados por un humano más fácilmente que por una computadora. Un campo [https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf iniciado por el investigador Louis Von Ahn], utilizó esta técnica para ayudar a construir conjuntos de datos capaces de entrenar algoritmos de aprendizaje de máquina para leer palabras impresas en papel. A medida que un ingeniero de Google Von Ahn creó una prueba sencilla distribuida en todas las páginas de inicio de sesión que mostraban dos palabras obtenidas de las imágenes escaneadas. Un usuario escribiría ambas palabras en un campo de entrada de texto para demostrar que es humano y no una máquina. El sistema ya conocía el significado de la primera palabra (validando así que el usuario es humano) pero se entrenó con la segunda entrada, ya que utiliza esta información en el conjunto de datos para los algoritmos de reconocimiento de caracteres. Este ejercicio simple se ha extendido para entrenar todo tipo de sistemas de reconocimiento de patrones y contribuyó a la seguridad de los sitios web que impidieron que intrusos (y botnets) de bots.
+
+La atención también puede validar las identidades humanas en una red descentralizada, análoga a [https://bitcoin.com/bitcoin.pdf El algoritmo de prueba de trabajo de Bitcoin (POW por siglas en inglés)] utilizado por los nodos de minería para registrar temporalmente las transacciones de igual a igual. En Bitcoin, cada minero genera su propio hash de prueba compatible con bloques de bloques para un nuevo bloque de transacciones y lo transmite a la red. Si el 51% de los nodos de la red aceptan el bloque verificado, se encadena a la cadena de bloques y el minero comienza a trabajar en el siguiente bloque de transacción utilizando el bloque aceptado como el hash anterior. Esta técnica permite transacciones monetarias sin bancos centrales. En una democracia sin gobiernos centrales en lugar de verificar los bloques codificados, la atención humana sirve al propósito de votar sobre identidades autogeneradas a fin de otorgarles ''votos'' que pueden ser utilizados para nuevas verificaciones.
+
+La mayoría de las investigaciones sobre cómo prevenir ataques de sybil (falsificación de identidad en redes peer to peer) gira alrededor de requerir que las entidades realicen una tarea que un atacante sybil no podría realizar. La minería de la atención requiere que los validadores observen ciertos aspectos de los videos de ''Prueba de Identidad'' que sólo una persona puede reconocer. Con el fin de tener un mecanismo que impide que los robots, el sistema puede generar vídeos modificados para inducir a los atacantes a error. Estas distorsiones pueden ser creadas cortando ciertas secciones de un video, mezclándolo con otras o distorsionando las voces para trabajar como una versión de video de una prueba CAPTCHA dirigida a distinguir de forma segura entre los validadores humanos reales y botnets.
+
+====3.2.5 Hermanos Pequeños.====
+
+<blockquote>
+  ¿Quién vigila a los vigilantes?
+</blockquote>
+[https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], novela gráfica (1987).
+
+Las identidades auto-soberanas se pueden valorar en dos aspectos clave que ayudan a definir su derecho a participar en la red:
+
+* '''Reputación''': Un indicador social de que se debe confiar en una identidad determinada.
+* '''Singularidad''': Un indicador individual que certifica que una identidad está vinculada de manera única a una sola persona.
+
+Cualquier persona en la red puede participar para verificar nuevos auto-soberanos a fin de asegurar una democracia global contra la amenaza de un ''Gran Hermano''. Esta tarea se realiza efectivamente cada vez que una <code>Organización</code> decide aprobar un nuevo <code>Miembro</code>. Al aprovechar la atención distribuida en múltiples <code>Organizaciones</code> en lugar de una potencia central que todo lo observa, los validadores son en efecto un ejército de [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt hermanos pequeños] que pueden marcar en colaboración una identidad auto-soberana en la red. Los ''hermanos pequeños'' pueden superar a los proveedores de identidad centralizados en términos de precisión, ya que están constantemente incentivados a mantener la legitimidad dentro de la red para mantener los ''votos'' como un activo valioso: el éxito de la red para detectar ''replicantes'' (identidades duplicadas) determina la escasez de la ficha de ''voto''. La legitimidad de cualquier democracia se basa en el mantenimiento de un registro de votantes adecuado.
+
+=====3.2.5.1 Reputación.=====
+
+El interés en validar efectivamente una ''Prueba de Identidad'' se encuentra entre las <code>Organizaciones</code> que deben tratar con las identidades solicitantes que deseen volverse <code>Miembros</code> capaces de usar sus ''votos'' para las decisiones relacionadas con la entidad. Los que dentro de una <code>Organización</code> tienen los derechos para aprobar nuevas membresías terminan contribuyendo con la reputación de una <code>Organización</code> a la identidad del solicitante si se aprueban.
+
+La asignación de reputación de una <code>Organización</code> a un <code>Miembro</code> aprobado que aplicó con su PDI se realiza simplemente con la firma de la PDI aprobada para certificar que una identidad es un <code>Miembro</code> válido. Las membresías conectadas a una identidad en la red pueden ser interpretadas por futuros validadores en otras <code>Organizaciones</code> de cualquier manera deseada. Las <code>Organizaciones</code> en la red pueden ser tan pequeñas como una familia o tan grandes como una corporación multinacional, pero en última instancia son <code>Dominios</code> en una red que pueden parecerse a las <code>Etiquetas</code> que describen los atributos de una identidad. Algunas <code>Organizaciones</code> pueden existir para verificaciones muy específicas, e.g., una <code>Organización</code> en un dominio ''legal.age'' que solo verifica si una PDI pertenece a alguien mayor de 18 años haciendo que cualquier <code>Miembro</code> aprobado de dicha entidad lleve un firma ''legal.age'' en su PDI.
+
+La reputación de una <code>Organización</code> puede medirse con qué frecuencia terminan permitiendo [https://en.wikipedia.org/wiki/Replicant ''replicantes''] como <code>Miembros</code>. En otras palabras: <code>Organizaciones</code> que fallan en el ''puntaje de Singularidad'' utilizado para valorar la individualidad de los participantes en la red, terminan siendo menos confiables que aquellos que pueden incluir eficazmente a individuos soberanos.
+
+=====3.2.5.2 Replicantes.=====
+
+Mientras que los gobiernos necesitan verificar el árbol genealógico de un posible nuevo ciudadano y las corporaciones tradicionales necesitan confiar en las prácticas [https://en.wikipedia.org/wiki/Know_your_customer ''Conozca a su cliente''] (KYC) para trazar una línea entre sus clientes y el resto del mundo, una democracia global no tiene tanta preocupación por establecer una diferencia entre ''nosotros y ellos''. El objetivo de Democracy Earth Foundation es escalar el derecho a usar ''votos'' para cada ser humano: todos somos ''nosotros'' (o ''ellos''). Por lo tanto, el desafío general para una dinámica exitosa descentralizada de ''Prueba de Identidad'' es simplemente enfocarse en usar la atención disponible en la red para verificar por ''replicantes'' que están solicitando una porción de ''votos''.
+
+''Replicantes'' son identidades que se ''votan'' como duplicados, y reclaman ilegítimamente más ''votos'' de lo que merecen. Es probable que ocurran PDI falsos utilizando técnicas modernas de representación 3D con el objetivo de engañar al ojo humano (por ejemplo, superar al [https://en.wikipedia.org/wiki/Uncanny_valley valle misterioso] de percepción), pero es una suposición segura considerar que [http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf las personas son capaces de reconocer las caras con un 98% de precisión] mientras que [http://www.washington.edu/news/2016/06/23/how-well-do-facial-recognition-algorithms-cope-with-a-million-strangers/ la capacidad de los sistemas algorítmicos disminuye cuando se escala]. Teniendo en cuenta que la frontera que se dibuja entre los seres humanos y las inteligencias artificiales es que utilizamos el término ''replicante'' que fue acuñado por la película de 1982 ''Blade Runner'', refiriéndose a los androides capaces de simular ser personas reales.
+
+=====3.2.5.3 Puntaje de Singularidad.=====
+
+Para certificar que una identidad es válida, los verificadores están expuestos a dos videos de PDI simultáneos que se pueden elegir al azar entre todos los videos indexados y hasheados encontrados en la cadena de bloques. Un algoritmo de coincidencia de rostros que busca similitudes entre las expresiones faciales se puede utilizar para optimizar la prueba. Los validadores deben usar ''votos'' para decidir si estos videos de PDI pertenecen a una misma persona o no, siendo el resultado continuo de esta decisión un ''puntaje de Singularidad'' para la identidad.
+
+El proceso de validación es el mismo que en cualquier dinámica de votación de Sovereign: los validadores pueden aprobar emitiendo un ''voto'' que incluya una <code>Boleta</code> con una <code>Opción</code> marcada <code>verdadera</code> en ella. De lo contrario, deben emitir un ''voto'' en rechazo con una <code>Opción</code> marcada <code>falsa</code>. Todas las decisiones relacionadas con PDI son <code>Estratégicas</code>: sin una fecha de cierre donde se asigna el impacto de ''votos'' en tiempo real. En cualquier momento, un validador puede anular el valor de ''voto'' si ha encontrado evidencia que modifica el juicio anterior. Además, los ''votos'' que validan una PDI se pueden eliminar si la identidad ya tiene aportes de suficientes validadores, lo que hace que la asignación de ''votos'' adicionales sea redundante. Al igual que con cualquier decisión de Sovereign, el resultado final de una PDI relacionada con el voto terminará en un valor <code>verdadero</code> o <code>falso</code>. Cualquiera que termine siendo votado como un ''replicante'' verá que sus ''votos'' concedidos serán inútiles.
+
+Los <code>Criterios</code> utilizados para el ''Puntaje de Singularidad'' también están sujetos a votación por cada PDI validado que participe en la red. Las democracias son siempre un trabajo en progreso, autocorrectándose perpetuamente con un ciclo de retroalimentación que define cómo se observa a los observadores. El umbral que establece el derecho soberano de ''votar'' debe adaptarse constantemente al crecimiento exponencial de la capacidad informática que puede poner en riesgo la subversión de la red. Al ser respaldado con un índice de identidad descentralizado usando una cadena de bloques incorruptible que se mantiene con atención distribuida (es decir, un libro abierto), la ficha de ''voto'' se convierte en un dispositivo confiable para que surja una democracia digital en cualquier lugar. Asignar atención para asegurar la red no solo lleva la conciencia a un sistema que de otro modo estaría oculto a la inteligencia artificial, sino que también permite a los participantes poseer sus identidades sin ser coaccionados por un poder centralizado que podría monetizar sin consentimiento. La atención consciente siempre debe ponerse al servicio del fortalecimiento de una democracia global porque es solo en el ámbito de la conciencia humana que podemos definir lo que significa ser humano.
+
+===3.3 Ingreso Básico Universal.===
+<blockquote>
+  Ahora es el momento de hacer realidad la promesa de la democracia.
+</blockquote>
+'''Martin Luther King Jr.''', Ministro y activista (1929-1968).
+
+La capacidad de desarrollar un proceso de validación de identidad autónomo fiable no sólo garantiza el legítimo valor de los votos para expresar la elección social, sino que también establece la base para la infraestructura necesaria para crear un mecanismo de "ingreso básico universal" que pueda beneficiar a todos en la Tierra. La relación simbiótica entre IBU y democracia ha sido bien fundamentada. Según la investigación presentada en Basic Income Earth Network (Munich, septiembre de 2012), la implementación del ingreso básico [http://basicincome.org/bien/pdf/munich2012/Choi.pdf puede contribuir en gran medida a la realización de los principios de la democracia, así como el establecimiento de su base sustancial]. Por lo tanto, con el fin de consolidar la lógica política y financiera capaz de establecer una democracia sin fronteras, una vez que una "Prueba de Identidad" es validada por sus pares, el mecanismo de distribución desencadenado por "votos" se basará en el tiempo como IBU.
+
+El tiempo es un activo valioso y limitado, por lo tanto, negociable. Uno no puede comprar, alquilar o contratar más tiempo: tiene un suministro inelástico sin importar qué tan alta sea la demanda. [https://books.google.com/books?id=sjlVAAAAcAAJ&pg=PA5&lpg=PA5&dq=what+is+money+man%27s+birthright+time&source=bl&ots=uxfZPDT94J&sig=gWf_LpHeEA-g6ukveZ1-mQI3FE4&hl=es&sa=X&ved=0ahUKEwjgyuHR2ejVAhUK7iYKHUX0AzgQ6AEILjAB#v=onepage&q=what%20is%20money%20man's%20birthright%20time&f=false El tiempo es el único estándar de valor para comprobar trabajo, bien sea manual o mental, realizado por hombres y mujeres.] Al marcar el tiempo y usarlo como base para asignar ''votos'', liquida una posesión que todos los miembros de una democracia global poseen en igualdad de condiciones. La liquidez es un requisito para cualquier democracia que pretenda evitar la coerción: las voces deben poder ser escuchadas para que cuenten, y al otorgar "votos" en forma de IBU, estamos aprovechando la entrega de un derecho humano que puede efectivamente capacitar a individuos que tendran que lidiar con los retos que traerá la automatización. ''Votos'' concedidos a lo largo del tiempo como un derecho evita la [https://es.wikipedia.org/wiki/Tragedia_de_los_comunes ''tragedia de los comunes''], mientras que establece las bases para un modelo de gobierno que va más allá de la deuda y las Naciones Unidas.
+
+Un auto-soberano entonces es capaz de obtener ''votos'' por tres medios distintos:
+
+* '''Delegación''': Cualquier <code>Miembro</code> dentro de una <code>Organización</code> funcionando como una democracia líquida puede obtener ''votos'' delegados.
+* '''Concesión''': <code>Organizaciones</code> pueden conceder ''votos'' a participantes nuevos de acuerdo a sus propios términos. Los participantes pueden crear o financiar <code>Organizaciones</code> utilizando sus propios ''votos''.
+* '''Goteo''': Una vez que una ''Prueba de Identidad'' se vuelve válida, ''votos'' empiezan a gotear en la cartera de un usuario a lo largo del tiempo.
+
+====3.3.1 Dripping.====
+
+La velocidad a la que 1 ''voto'' gotea a una identidad verificada está sincronizada con la cadena de bloques de Bitcoin. Al usar el mecanismo de sincronización de Bitcoin como un reloj, un consenso incorruptible establece el ritmo para toda la red. Bitcoin encadena un bloque nuevo a Blockchain cada 10 minutos, lo que significa,
+
+  1 hora = 6 bloques
+
+Suponiendo que el tiempo acumulado en todo el mundo se base en 8 horas de trabajo,
+
+  8 horas por día x 5 días por semana x 52 semanas por año = 2,080 horas por año
+
+O en bloque tiempo,
+
+  2,080 horas = 12,480 bloques
+
+Y considerando que el consenso establecido en [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 un ideal la tasa de ingreso básica promedia alrededor del 10% de las ganancias de un individuo] podemos definir eso,
+
+  10% de ganancias Ingreso Básico Anual = 208 horas por año = 1,248 bloques
+
+Lo que significa que de los ~52,560 bloques que registran un año completo de actividad en la cadena de bloques de Bitcoin, un total de 1,248 bloques deben contabilizarse para recompensar un UBI por año. Para sincronizar el ''voto'' que gotea con Bitcoin como un mecanismo UBI basado en un 10% de ganancias por cada hora de trabajo, una unidad completa de un token de ''voto'' debería gotear cada ~42 horas (o ~252 bloques). Con el fin de garantizar una divisibilidad factible del token ''voto'' para que pueda ser goteado cada pocos segundos (mientras que también es más fácil para la interpretación humana y de la máquina), establecemos la tasa de goteo en,
+
+  1 voto = 250 bloques
+
+Por lo tanto, cada POI válido recibe un total de:
+
+  210 votos por año
+
+[[File:/images/proof-of-identity-dripping.png|Mecanismo de goteo para votos minados.]]
+
+Por lo tanto, teniendo en cuenta las siguientes variables:
+
+* T = Presente la altura del bloque (es decir, la hora actual).
+* r = Una constante para la tasa de asignación de ''voto'', establecida en 1 voto cada 250 bloques a tiempo.
+* Pᵢ = El bloque ''Prueba de identidad'' que contiene su hash correspondiente a una identidad dada (i).
+* Sᵢ = ''Puntaje de singularidad'' expresado como un estado <code>verdadero</code> o <code>falso</code> para una identidad dada (i).
+* Vᵢ = Cantidad total de ''votos'' para una identidad dada (i).
+
+Luego, los ''votos'' que una identidad auto soberana puede usar en el sistema se pueden calcular en cualquier nodo que ejecute un contrato inteligente con la fórmula:
+
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
+
+Mientras la ''Prueba de identidad'' haya sido validada por la comunidad y se haya sincronizado un contrato inteligente con un nodo blockchain activo, entonces el valor de Vᵢ será un número que define la cantidad total de ''votos'' un auto soberano tiene como derecho de usar en una billetera alojada o, si se rechaza el POI (es decir, Sᵢ = <code>falso</code>), los votos disponibles del participante se convertirán en cero.
+
+====3.3.2 Equality====
+
+La dinámica de goteo descrita termina beneficiando a los primeros usuarios, como suele ser el caso de las criptomonedas orientadas a la financiación. Por ejemplo, Bitcoin se describe a menudo como ''escasez inducida criptográficamente'', ya que es un instrumento capaz de medir la riqueza en términos de recursos económicos debido a la escasez fija de su ficha. Pero con el token de ''voto'' estamos construyendo una red de una naturaleza diferente que pretende ser complementaria a las criptomonedas financieras al tener la gobernabilidad como un objetivo. Al emitir los ''votos'' como un derecho que se puede otorgar a cualquier persona siempre que se demuestre su identidad singular, el ''voto'' funciona como influencia política. Entonces, en esencia, nuestro enfoque es sobre ''igualdad inducida criptográficamente'': tal es la base de cualquier democracia real. Por esta razón, introducimos otra variable en su dinámica de ''ingreso básico universal''
+
+* E = Cantidad de ''votos'' asignada a ''Identidad Génesis'' en la altura actual de bloque (T).
+
+Nos referimos a la ''Identidad Génesis'' como la primera ''Prueba de identidad'' que recibe la aprobación de la red. Con esta información, la próxima identidad validada no comenzará en desventaja: tendrá una billetera con la misma cantidad de ''votos'' que tiene actualmente el primer participante de la red. Como esta regla se aplica a todos los participantes, garantizará ''Igualdad'' en términos de participación, permitiendo que todos tengan la misma cantidad de ''votos'' Soberanos que todos los demás, extendiendo la fórmula de UBI de la siguiente manera:
+
+[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
+
+Con la variable ''Igualdad'', si un segundo participante Bob se validó 1500 bloques después de una primera Alice, no comenzará con 0 ''votos'' sino que obtendrá una cantidad inicial que coincida con el saldo actual de Alice en ese momento ( es decir, a razón de 1 ''voto'' por 250 bloques, es un total de 6 ''votos''). Bob continuará obteniendo ''votos'' goteando en igualdad de condiciones con Alice bloque tras bloque luego de eso. Si un tercer participante Charlie genera una ''Prueba de Identidad'' válida 1000 bloques más adelante, comenzará con la cantidad equivalente de ''votos'' que Alice y Bob tienen actualmente para entonces también (es decir, un total de 10 ''votos'' cada uno). Con este proceso de inflación que premia a todos los nuevos participantes (diluyendo todos los preexistentes), a todos se le garantiza una participación ''igual'' en los derechos de participación globales de la red. Mientras los ''replicantes'' se vean exitosamente prohibidos, la red de ''voto'' es un patrimonio común global genuinamente democrático.
+
+[[File:/images/chart-votes-coins-time.png|Emisión de voto y tasa de inflación.]]
+
+A pesar de que la tasa de inflación inicialmente podría parecer demasiado agresiva, la oferta total de ''votos'' aún se fija en un límite máximo basado en la cantidad de participantes en la red. A medida que más participantes participen, la inflación general tenderá a limitar el 0% ya que los nuevos ''votos'' tienen una influencia reducida en la economía en su conjunto. Cuando se compara con los ''me gusta'' y ''retweets'' no seleccionados en otras aplicaciones sociales, debe notarse que de la subjetividad de cada individuo la asignación de ''votos'' sigue siendo una decisión basada en un recurso limitado que implica costos de oportunidad, forzando un comportamiento más racional en lugar de gusto impulsivo (es decir, trolear).
+
+====3.3.3 Nakamoto Coefficient====
+
+Se están realizando importantes esfuerzos para cuantificar la descentralización, incluido el trabajo de Balaji Srinivasan para establecer un [https://news.21.co/quantifying-decentralization-e39db233c28e ''Coeficiente Nakamoto''] definido como:
+
+<blockquote>
+  Se requiere el número mínimo de entidades en un subsistema dado para llegar al 51% de la capacidad total.
+</blockquote>
+
+La importancia de medir la descentralización se basa en encontrar una métrica capaz de certificar la capacidad de una red para ser resistente a la censura, siendo esta una propiedad fundamental para las monedas auto soberanas como Bitcoin. Pero, en última instancia, también debe abordarse la cuestión de quién tiene el control de las entidades que ejecutan un sistema en red. Al establecer una red de referencia que garantiza una distribución igualitaria de su ficha basada en un mecanismo de ''Prueba de Identidad'' diseñada para evitar ''replicantes'', esto trae una nueva perspectiva que puede ayudar a aumentar la resolución del Coeficiente de Nakamoto por Medio de acceso igual discernible.
+
+Al garantizar un punto de partida igual para todos los participantes independientemente del momento en que deciden unirse a la red, la red de ''voto'' funciona como una auténtica meritocracia. La variable ''Igualdad'' propuesta es simplemente una regla para establecer un punto de partida y de ninguna manera una imposición permanente: en cualquier momento, cualquier auto soberano puede delegar ''votos'' a otra persona o usarlos para inicia una <code>Organización</code> en la red. De esta forma, el token ''voto'' puede funcionar como un dispositivo apto para fomentar una ola de emprendimiento, incluso entre las personas privadas de derechos de hoy en día ignoradas por los sistemas financieros y políticos heredados. Pero a medida que esto sucede a nivel individual, las estadísticas generales de la red funcionan como un marco de referencia en el que medir efectivamente la descentralización a cada humano en todo el mundo e identificar las oportunidades donde es necesario a medida que crece.
+
+El valor de la red no reside en la escasez simulada, sino en su capacidad de registrar decisiones no coercitadas entre los autoestados sobre la base de la igualdad. Inicialmente, el token de ''voto'' podría competir con los encuestadores y cualquier otra simulación rudimentaria que tenga como objetivo predecir elecciones, pero eventualmente puede convertirse en un sistema soberano por derecho propio a medida que la ciudadanía migra en línea. Los ''Votos'' funcionan como una señal capaz de registrar eventos grabados en una cadena de bloques incorruptible que almacena historial político que no se puede borrar o modificar de ninguna manera. Las futuras generaciones quedan expuestas a su pasado sin intermediarios.
+
+===3.4 Value===
+
+Tomamos tres enfoques para definir el valor del token ''voto'':
+
+* '''Status-Quo''': Medios de comunicación social ofrece una referencia clara sobre cómo ''le gusta'' obtener valorados en línea.
+* '''Trabajo & Tiempo''': Una perspectiva de ''Riesgo Básico Universal'' ofrece ideas útiles sobre cómo se está valorando el tiempo de trabajo.
+* '''Nation-Sates''': Las elecciones tradicionales ofrecen ideas útiles sobre cómo se valoran los votos hoy.
+
+Con esas referencias, discutiremos la divisibilidad de la ficha de ''voto'' y su implementación para gobernar un Fondo de Apoyo a la Democracia.
+
+====3.4.1 Status-Quo====
+
+Un índice de referencia comparativo para el valor de la ficha de ''voto'' se puede encontrar en la red de Facebook que actualmente valora a 2 mil millones de usuarios con una capitalización de mercado de ~$ 500 mil millones con una estimación de '''$ 250 por usuario'''. Democracy Earth Foundation considera la función ''like'' de Facebook análoga a la utilización de ''votos'' en una red abierta. Es difícil estimar la cantidad de ''gustos'' hechos en esta plataforma, ya que es el proyecto de información privada y estimaciones primas ''le gusta'' ocurrir en la cantidad de trillones sobre una base diaria.
+
+Los vendedores que operan el precio de la máquina de publicidad de Facebook ''le gustan'' en un rango que puede ir de '''0,10 a tan alto como 25 dólares''' basado en la reputación y popularidad de la cuenta que se utiliza para captar la atención del usuario. En este sentido, creemos que esta referencia de precios es relevante para los usuarios finales con el fin de capacitarlos con un símbolo que puede ser competitivo con las principales plataformas de medios sociales. Sin embargo, hay que señalar que, a diferencia de los ''gustos'', los ''votos'' facultan directamente a los titulares con derecho a participar en cualquier beneficio financiero que pueda estar relacionado con su uso sin intermediación. Con ''votos'', el aprovechamiento de los datos de los usuarios ya no será el dominio exclusivo del intermediario de Facebook, sino que estará habilitado por un mecanismo nativo de generación de tokens que se basa en los principios establecidos por el [http://www.un.org/es/universal-declaration-human-rights/ Declaración Universal de Derechos Humanos]:
+
+<blockquote>
+ Toda persona tiene derecho a la libertad de opinión y de expresión; este derecho incluye la libertad de tener opiniones sin interferencia y buscar, recibir e impartir información e ideas a través de cualquier medio y sin importar las fronteras. Toda persona tiene derecho a la libertad de reunión y de asociación pacíficas. Toda persona tiene derecho a participar en el gobierno de su país, directamente oa través de representantes libremente elegidos.
+</blockquote>
+
+Con la creación de Sovereign como una interfaz para las democracias basadas en cadenas de bloque que operan con fichas de ''voto'', el objetivo de Democracy Earth Foundation es entregar un ''momento de Linux'' a Facebook: análogo al surgimiento de sistemas operativos de código abierto en el mundo, a principios de 1990, Linux se convirtió en una alternativa a la fuerza monopolizadora de Windows de Microsoft que dominaba el mercado de computadoras personales y servidores de Internet. Un Internet libre y abierto debe perseguir la creación de una red social donde ninguna entidad única puede ejercer el control algorítmico de las ideas compartidas a cambio de la información privada de sus usuarios. Y mientras Facebook mina la atención del usuario con fines de lucro, la red de Democracy Earth utilizará el mismo recurso para fortalecer la confianza del símbolo de ''voto'' con su proceso de ''Prueba de Identidad''. A medida que reconocemos la creciente influencia política que los medios de comunicación social ya tienen en el mundo, se hace urgente la urgencia de establecer una red social abierta, no censurable, soberana y libre.
+
+====3.4.2 Work & Time====
+
+Viniendo de una perspectiva ''Renta Básica Universal'', una referencia útil que valora el tiempo y el trabajo es el salario mínimo propuesto en los estados federales, estatales y locales leyes en todo el país. A partir de julio de 2016 se ha fijado en '''$ 7.25 por hora'''.
+
+[[File: /images/minimum-wage-us.png | Salario mínimo en los Estados Unidos.]]
+
+Para que la ficha de ''voto'' se convierta efectivamente en una red útil capaz de indexar UBI a escala global, una expectativa con respecto a su dinámica de precios debe establecerse en 1 unidad de ''voto'' como equivalente a 1 hora de trabajo. Por lo tanto esto ancla el precio inicial del token en:
+
+ 1 voto = $ 7.25
+
+ Mientras la red prohíba con éxito ''replicantes'' y recompense identidades de auto-soberanía validadas indexadas en la cadena de bloque Bitcoin, cualquier iniciativa de UBI puede confiar en los datos actuales para asignar recursos sin el riesgo de abuso.
+
+====3.4.3 Nation-States====
+
+Desde la perspectiva del Estado-nación, se puede encontrar una referencia útil en el costo de la implementación de las elecciones nacionales. La carrera presidencial de 2016 en los Estados Unidos tenía un costo total tan alto como [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696]. A pesar de que tuvo la participación más baja de votantes en 20 años, un total estimado de votantes votados participaron. Por lo tanto, un cálculo simple puede fijar el precio del voto emitido por el gobierno de los Estados Unidos para este proceso electoral en '''$ 17.18 por voto'''. En el otro extremo del espectro, países en desarrollo como la Argentina ofrecen una referencia similar: sus elecciones legislativas de 2017 tuvieron un costo estimado de [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones -pero-casi-no-definiran-candidates $ 164,705,882] con un total de [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 votantes], fijando el precio en '''$ 6.70 por voto'''. Es dentro de esa gama de valores que los Estados-Nación invierten recursos para garantizar los derechos de voto a todos sus ciudadanos.
+
+[[File:/images/cost-of-us-elections.png|Costo de las elecciones en los Estados Unidos.]]
+
+De acuerdo con el inversor ángel de Facebook Peter Thiel, una regla de oro para la innovación tecnológica es que con el fin de vencer a un paradigma precedente, una innovación debe superar la tarea de la anterior manera de hacer las cosas [http://zerotoonebook.com/ por lo menos un factor de 10] en términos de coste y utilidad. Por ejemplo: el procesador digital de textos se hizo exitoso porque hace lo que una máquina de escribir hizo de una manera que puede ser considerada al menos diez veces mejor y diez veces más barata. Lo mismo se aplica al fax en contraste con el servicio postal; y el correo electrónico en contraste con el fax. Por lo tanto, la transición del voto tradicional a un nuevo estándar de voto basado en bloques debería funcionar en la misma base.
+
+Una simple comparación demuestra las limitaciones estrictas que tienen los votos electorales en comparación con el token de ''voto'' propuesto en este documento:
+
+* '''La prueba de Identidad''': El Estado-Nación exige varios recursos para identificar a los ciudadanos durante muchas etapas de su vida. Los certificados de nacimiento, los pasaportes, la licencia de conducir, las tarjetas nacionales de identidad, la seguridad social, los certificados de matrimonio y los certificados de defunción tienen por objeto mantener actualizado el registro público de los ciudadanos. Esta es la función principal del Estado y puede conducir a un comportamiento persecutorio.
+* '''Utilidad limitada''': Una vez que un ciudadano emite un voto durante una elección, no se puede modificar hasta 4 a 6 años más tarde, cuando los cargos elegidos se renuevan. Sólo aquellos entre los cargos elegidos (es decir, senadores y congresistas) obtienen el derecho de gastar más votos que el resto de los ciudadanos.
+* '''Reducción de ancho de banda''': Los ciudadanos pueden elegir entre un puñado de opciones sólo una vez cada 2 o 4 años. Si consideramos cada opción como un poco en el sistema entonces las elecciones tradicionales pueden ser consideradas como ''democracias de 8 bits'', tal es el ancho de banda actual para la participación en la mayoría de los gobiernos.
+
+Para mantener el precio de referencia fijado al salario mínimo en los Estados Unidos mientras que puede ser por lo menos ~10X más eficiente que cualquier elección tradicional, la utilidad del ''voto'' se debe ampliar haciendo el símbolo divisible.
+
+====3.4.4 Divisibility====
+
+El período de espera de 250 bloques por cada nuevo ''goteo'' de votos limita la gratificación percibida por el sistema a cada ~42 horas. Esta restricción se establece para vincular la lógica económica del token de ''voto'' a su capacidad de indexar todas las exitosas ''Pruebas de Identidades'' a una dinámica de "goteo" de la Renta Básica Universal. Pero la capacidad de comenzar a interactuar con el propio sistema no debe requerir un largo período de espera: al introducir posiciones decimales, la red puede ofrecer gratificación instantánea adaptando la dinámica de goteo a una mínima fracción de la atención humana.
+
+Teniendo en cuenta que,
+
+  1 voto = 250 bloques = 2.500 minutos = 150.000 segundos
+
+Para mantener la extensión decimal más corta posible y adaptar la tasa de goteo al mínimo de atención humana, la red de "votos" debe realizar una revolución cada 15 segundos:
+
+  15 segundos = 0,0001 votos
+
+De la misma manera, la fracción mínima de un Bitcoin se califica como 1 satoshi (es decir, 100.000.000 de satoshis = 1 bitcoin), consideramos que es adecuado marcar la fracción mínima de un ''voto'' como una ''revolución'' concepto ayuda a expresar la velocidad a la que la red otorga derechos políticos,
+
+  1 voto = 10.000 revoluciones
+
+Lo cual también puede expresarse como,
+
+  1 revolución = 0,0001 votos
+
+Al permitir 4 posiciones decimales en el token, una ''revolución'' se gotea a una ''Prueba de Identidad'' válida en la red cada 15 segundos. Las ''revoluciones'' ofrecen acceso casi instantáneo a los derechos políticos, manteniendo la misma capacidad de utilidad que los ''votos'', con un costo que es comparativamente 10.000 veces más eficiente que las elecciones nacionales-estatales:
+
+  1 revolución = 0,0001 votos = $ 0,000725
+
+Para la identificación del token en aplicaciones de terceros, sugerimos los tickers ''VOTE'' y ''VOT''.
+
+===3.5 End Game.===
+
+<blockquote>
+  "¿Qué pasó con los gobiernos?", Pregunté.
+    "Se dice que gradualmente cayeron en desuso. Se convocaban elecciones, se declaraban guerras, se cobraban impuestos, se confiscaban fortunas, se ordenaban arrestos, y se hacía intento de censura, pero nadie en el planeta prestó atención. La prensa dejó de publicar piezas por los que llamó sus «contribuyentes», y también publicó sus obituarios. Los políticos tenían que encontrar trabajo honesto; algunos se convirtieron en comediantes, algunos brujos-algunos sobresalieron en esas ocupaciones ... "
+</blockquote>
+'''Jorge Luis Borges''', ''Utopía de un Hombre Cansado''. Escritor (1899-1986).
+
+Para aquellos que discuten sobre el voto electrónico en línea puntuando sus argumentos con Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''el medio es el mensaje'']. La necesidad de establecer relaciones de confianza en entornos digitales es obligatoria a medida que la cooperación humana se escala en todo el mundo. Pero la oportunidad generacional de construir de manera colaborativa esta posibilidad debe ser capaz de aprender de las grandes lecciones de la Historia. Los orígenes de la informática se remontan a [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM la primera máquina de tabulación construida por IBM para el censo de 1890 EE.UU.] y el recuento de las elecciones nacionales después de eso. Las primeras proto-computadoras construidos por Alan Turing donde se hizo como un esfuerzo de guerra capaz de vencer el cifrado nazi en última instancia, demostró cómo la inteligencia puede vencer a la violencia. La transición de las comunicaciones analógicas a las digitales se inició con [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ la Carta Magna de la Sociedad de la Información y la Comunicación. a era de la información], publicada por Claude Shannon en 1948, en la que se exponen las bases para el código digital y las vastas redes de transmisión de la inteligencia, una visión real de la creación de los protocolos de la ''world wide web'' por Tim Berners-Lee. Cuando Satoshi Nakamoto publicó el diario Bitcoin inauguró la era que está dando lugar a la transición de las ''instituciones'' analógicas a digitales. Un salto inevitable de madurar nuestra comprensión compartida de las propiedades de la seguridad de la información. Los cadenas de bloque están dando a nuestro mundo un nuevo lienzo en el que sentar las bases que nos gobernarán a todos al punto de ser digno de no necesitar gobernar más. Después de todo [https://en.wikiquote.org/wiki/Alfred_North_Whitehead avanza la civilización extendiendo el número de operaciones importantes que podemos realizar sin pensar en ellas]. La tecnología digital ha demostrado poseer una mayor capacidad al alcance y calidad de sus capacidades de mensajería ya medida que las nuevas generaciones se conectan bajo un común común, las arquitecturas de información regularán nuestras relaciones políticas y financieras sin las restricciones físicas del pasado. El éxito innegable del experimento de Bitcoin consistentemente superando incluso los pronósticos más radicales a lo largo de una década habla en gran medida del potencial desatado que la humanidad ha encontrado. El statu quo siempre hablará desde una posición escéptica, ya que el progreso detenido sólo puede provenir de una posición de comodidad. Pero al igual que Internet no esperó la adaptación de imperios antiguos, los bloqueos no se preocuparán por las promesas políticas: una sociedad tecnológicamente avanzada puede entrar en acuerdos de cooperación mutua sin caer en los medios de coerción y violencia. Tal es la notable consecuencia de la desintermediación de la confianza sin fronteras, una realidad que no surgirá en una sola parte aislada de un país o región del globo, sino que se distribuirá por todo el planeta. El ''próximo Silicon Valley'' no está en una tierra lejana o en ninguna tierra, pero una nueva frontera de Internet se eleva como la única red abierta, libre y soberana de pares.
+
+----
+
+==4. Acerca.==
+
+Democracy Earth Foundation es un esfuerzo hecho posible por colaboradores, donantes y partidarios de todo tipo. Somos una organización 501 (c) 3 sin fines de lucro de California y con presencia en Nueva York, París, Buenos Aires y San Francisco.
+
+===4.1 Equipo & Colaboradores.===
+
+Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
+
+===4.2 Comité de Asesores.===
+
+Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
+
+===4.3 Donantes Individuales.===
+
+Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
+
+===4.4 Reconocimientos.===
+
+Estas son algunas de las mentes que inspiraron las ideas expresadas en este documento.
+
+Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
+
+===4.5 Supporters.===
+
+Estas organizaciones apoyaron nuestro trabajo a través de donaciones, asociaciones y reconocimiento a nuestros esfuerzos de investigación y desarrollo.
+
+[[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
