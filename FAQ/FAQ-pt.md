@@ -6,7 +6,7 @@
 
 [4. What is "liquid democracy"?](#question-4)
 
-[5. What is a _vote_ token?](#question-5)
+[5. O que é uma _vote_ token?](#question-5)
 
 [6. How do I get _vote_ tokens?](#question-6)
 
@@ -80,9 +80,9 @@ In _representative democracy_ we choose other people to represent us.
 Liquid democracy combines both to allow the voter to make decisions on the matters he/she cares about, and _delegate_ votes when there is someone that he/she trusts and considers to be more knowledgeable on the matter. A good way to think about it, is that we already live in liquid democracy, but it's _frozen_: we can't change our vote for a certain period of time, only when there is a new election. Representative democracy was the best that Nation-states could do with the technology of the time, but the internet and blockchain technologies allow us to do better now, permitting each voter to customize the extent of his participation. 
 
 <a name="question-5"></a>
-**5 - What is a _vote_ token?**
+**5 - O que é uma  _vote_ token?**
 
-A _vote_ token is what users will utilize to cast their decisions in organizations that operate with liquid democracy. It also works as any other crypto asset and its value is connected to the penetration of decentralized decision making within society.
+Um _vote_ token (ou uma ficha) é o que usuários utilizarão para exercer seu voto dentro de uma organização utilizando um esquema de democracia líquida. Além do disso, ele funciona como um "bem criptográfico" com seu valor proporcional à penetração deste modo de tomada de decisões decentralizada dentro da sociedade.
 
 <a name="question-6"></a>
 **6 - How do I get _vote_ tokens?**
