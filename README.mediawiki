@@ -691,7 +691,7 @@ A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
 * '''Delegation''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
 * '''Grant''': <code>Organizations</code> may grant ''votes'' to new participants on its own terms. Participants can create or fund <code>Organizations</code> using their own ''votes''.
-* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip on the user's wallet throughout time.
+* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip into the user's wallet over time.
 
 ====3.3.1 Dripping.====
 
