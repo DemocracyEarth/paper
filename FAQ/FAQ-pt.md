@@ -1,4 +1,4 @@
-[1. What is an open source paper?](#question-1)
+[1. O que é um documento de fonte aberta?](#question-1)
 
 [2. Como posso contribuir?](#question-2)
 
@@ -48,15 +48,15 @@
 
 
 
-# Frequently Asked Questions
+# Perguntas Frequentes
 
 
 
 
 <a name="question-1"></a>
-**1 - What is an open source paper?**
+**1 - O que é um documento de fonte aberta?**
 
-For us at Democracy Earth Foundation how a paper is made is almost as important as its content. Our belief in democracy means we believe that human collaboration is the best possible way to arrive at great solutions, therefore our project is written as an open source paper - a document where anyone is free to contribute. It is published under an open source license and we welcome contributions from anyone as we aim for this document to be a living roadmap for planetary governance. Democracy is always a work in progress, and so is our work: _The social smart contract_ is a living document that will be constantly updated and amended.
+Para nós da Democracia Earth Foundation é tão importante a forma em que um documento é feito quanto o seu conteúdo. Nossa crença na democracia significa que acreditamos que a melhor forma de criar soluções é através da coloboração. Portanto, nosso projeto está sendo definido através de um documento de fonte aberta (open source), no qual qualquer um pode contribuir. O documento é publicado com uma licença open source e aceitamos novas contribuições de quem quiser. O objetivo é criar um mapa vivo para a governância do nosso planeta. A democracia é um trabalho em constante evolução, e nosso trabalho também: _O contrato social inteligente_ é um documento vivo que será atualizado e emendado de forma constante.
 
 <a name="question-2"></a>
 **2 - Como posso contribuir?**
