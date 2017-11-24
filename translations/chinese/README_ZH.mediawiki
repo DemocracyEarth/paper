@@ -31,7 +31,7 @@
 
 [[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
-====2.5.1 <code>機構</code>====
+====2.5.1 「機構」<code>Organizations</code>====
 
 任何架設了 Sovereign 系統的機構和組織皆稱之為<code>機構</code>。<code>機構</code>負責界定誰有資格成為<code>會員</code>去參與決策，並且派發''選票''代幣。因為<code>機構</code>需要建立在分散式網絡之上，所以建立一個能架設 Sovereign 系統的機構並且使用''選票''，方法會建立一個網站將頗為相似：
 
@@ -72,9 +72,9 @@
 
 當範例約章愈多，不同的機構便更易建立其投票系統。Democracy Earth Foundation 會賦予協助，並夥拍[https://aragon.one/ Aragon]提供網上認證服務令分散式機構變得更有效率。Soverign 將會建立更多範本予不同機構如公司、政黨、商會、會所和合作社等。然後，Aragon 網絡將會確保即使該機構遭遇到個人或濫權政府的惡意攻擊，仍然能正常運作。
 
+====2.5.2 「會員」<code>Members</code>====
 
-
-
+每個機構當中都應該有會員能夠為該機構決定投票決策。制定入會要求的「約章聰明合約」''constitutional smart contract''，是實現會內民主的關鍵要素，因為一個經常被用作操縱投票結果的方法，就是操縱投票名冊。所以，保障入會機制能正確實行是十分重要的。
 
 
 
