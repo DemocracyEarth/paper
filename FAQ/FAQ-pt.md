@@ -4,11 +4,11 @@
 
 [3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-3)
 
-[4. What is "liquid democracy"?](#question-4)
+[4. O que é "Democracia Líquida"?](#question-4)
 
-[5. O que é uma _vote_ token?](#question-5)
+[5. O que é um _vote_ token?](#question-5)
 
-[6. How do I get _vote_ tokens?](#question-6)
+[6. Como faço para adquirir os _vote_ tokens?](#question-6)
 
 [7. Can I sell or give away my _vote_ tokens?](#question-7)
 
@@ -69,33 +69,33 @@ Para o propósito da nossa Oferta Inicial de Direitos solicitamos a sua colabora
 Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In addition to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
 <a name="question-4"></a>
-**4 - What is "liquid democracy"?**
+**4 - O que é "Democracia Líquida"?**
 
-Liquid democracy is a combination of direct democracy and representative democracy:
+Democracia Líquida é uma combinação de democracia direta e democracia representativa:
 
-In _direct democracy_ everyone votes on every issue. 
+Em uma _democracia direta_, todos votam em todas as questões.
 
-In _representative democracy_ we choose other people to represent us. 
+Em uma _democracia representativa_ nós escolhemos outras pessoas para nos representar.
 
-Liquid democracy combines both to allow the voter to make decisions on the matters he/she cares about, and _delegate_ votes when there is someone that he/she trusts and considers to be more knowledgeable on the matter. A good way to think about it, is that we already live in liquid democracy, but it's _frozen_: we can't change our vote for a certain period of time, only when there is a new election. Representative democracy was the best that Nation-states could do with the technology of the time, but the internet and blockchain technologies allow us to do better now, permitting each voter to customize the extent of his participation. 
+Uma Democracia Líquida tanto permite ao eleitor tomar decisões sobre as questões que lhe interessam pessoalmente, quanto delegar votos quando há alguém em quem ele/ela confia e considera ter melhor conhecimento sobre o assunto. Uma boa forma de imaginar isso é pensando que já vivemos em uma democracia líquida, mas que está congelada: não podemos mudar nosso voto durante um certo período de tempo, apenas quando há uma nova eleição. A democracia representativa foi o melhor que as Nações-Estado puderam fazer com a tecnologia da época, mas a Internet e as tecnologias blockchain nos permitem fazer melhor agora, possibilitando a cada eleitor personalizar a extensão de sua participação.
 
 <a name="question-5"></a>
-**5 - O que é uma  _vote_ token?**
+**5 - O que é um  _vote_ token?**
 
 Um _vote_ token (ou uma ficha) é o que usuários utilizarão para exercer seu voto dentro de uma organização utilizando um esquema de democracia líquida. Além do disso, ele funciona como um "bem criptográfico" com seu valor proporcional à penetração deste modo de tomada de decisões decentralizada dentro da sociedade.
 
 <a name="question-6"></a>
-**6 - How do I get _vote_ tokens?**
+**6 - Como faço para adquirir os _vote_ tokens?**
 
-_Vote_ tokens can be obtained in five ways: 
+Existem cinco formas diferentes de adquirir _vote_ tokens:
 
-1) purchased directly from non-profit Democracy Earth Foundation holdings to fund development and ongoing operations, 
-2) mined and granted free-of-charge upon Proof of Identity(*),
-3) mined and dripped free-of-charge over time as Universal Basic Income, subsequent to Proof of Identity,
-4) mined and earned if organization purchases on behalf of organization member, and
-5) purchased, based on its current market value, from cryptocurrency exchange (trading in _vote_ tokens previously purchased from either Foundation or public). 
+1) eles podem ser comprados diretamente da Democracy Earth Foundation, uma organização sem fins lucrativos, como forma ajudar com o desenvolviment e como os custos operacionais.
+2) podem ser mineirados e recebidos sem custo após uma Prova de Identidade(*).
+3) podem ser mineirados e "gotejados" periodicamente e sem custo como uma forma de Renda Básica Universal, subsequente à Prova de Identidade.
+4) podem ser mineirados e recebidos pelo membro de uma organização quando a organização compra em nome do membro, e
+5) podem ser comprados através de uma mesa de câmbio para criptomoedas pelo valor atual do mercado (fazendo a troca em _vote_ tokens compradas previamente da Fundação ou do publico). 
 
-(*)In order to learn more about the process of identity validation, please refer to section [3.3 Proof of Identity ](https://github.com/DemocracyEarth/paper#33_Proof_of_Identity).
+(*)Para aprender mais sobre o processo de validar uma identidade, consultar a seção [3.2 Prova de Identidade](https://github.com/DemocracyEarth/paper/blob/master/translations/portuguese/README_PT.mediawiki#32_Prova_de_Identidade_POI).
 
 <a name="question-7"></a>
 **7 - Can I sell or give away my _vote_ tokens?**
