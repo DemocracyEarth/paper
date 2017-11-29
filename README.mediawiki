@@ -691,7 +691,7 @@ A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
 * '''Delegation''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
 * '''Grant''': <code>Organizations</code> may grant ''votes'' to new participants on its own terms. Participants can create or fund <code>Organizations</code> using their own ''votes''.
-* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip on the user's wallet throughout time.
+* '''Drip''': Once a ''Proof of Identity'' becomes valid, ''votes'' begin to drip into the user's wallet over time.
 
 ====3.3.1 Dripping.====
 
@@ -771,7 +771,7 @@ We take three approaches to define the value of the ''vote'' token:
 
 * '''Status-Quo''': Social media offers a clear reference on how ''likes'' get valued online.
 * '''Work & Time''': A ''Universal Basic Income'' perspective offers useful insights on how labour time is being valued.
-* '''Nation-Sates''': Traditional elections offer useful insights on how votes are valued today.
+* '''Nation-States''': Traditional elections offer useful insights on how votes are valued today.
 
 With those references, we then discuss the divisibility of the ''vote'' token and its implementation to govern a Democracy Support Fund.
 
