@@ -198,7 +198,7 @@ Vad skiljer en röst från pengar (eller i bredare termer: en ''politisk ekonomi
 {| class="wikitable"
 |-
 ! scope="col"| Funktion
-! scope="col"| Coins
+! scope="col"| Valutor
 ! scope="col"| Röster
 |-
 ! scope="row"| Verktyg
@@ -224,17 +224,17 @@ Vad skiljer en röst från pengar (eller i bredare termer: en ''politisk ekonomi
 
 ====2.1.1 Implementation.====
 
-Considering that value [https://en.wikipedia.org/wiki/Dogecoin can be driven by memetic capacity], the Democracy Earth token granting voting rights will be branded with the single most important message any democracy can convey: ''vote''.
+Med tanke på att värdet [https://en.wikipedia.org/wiki/Dogecoin kan drivas med minnesförmåga], Demokratiska Earth token som ger rösträtt kommer att märkas med det enskilt viktigaste budskap som någon demokrati kan förmedla: ''röst''.
 
-The ''vote'' token can be implemented using smart contract code across a variety of blockchains that permit [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] scripts, including Bitcoin. Our design is blockchain agnostic in recognition of a computer science field still in its infancy where significant innovations remain to be invented. Nonetheless we are working on implementing the ''vote'' token under these smart contract environments:
+En ''röst'' token kan implementeras med smart kontraktskod över en mängd olika blockkedjor som tillåter [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] skript, inklusive Bitcoin. Vår design är blockchain agnostic i erkännande av ett datavetenskapsfält fortfarande i sin spädbarn där betydande innovationer kvarstår att uppfinnas. Ändå arbetar vi med att genomföra ''röst'' token under dessa smarta kontraktsmiljöer:
 
-* '''Ethereum''': Using a set of [https://github.com/ethereum/solidity Solidity] smart contracts under the [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+* '''Ethereum''': Använda en uppsättning av [https://github.com/ethereum/solidity Solidity] smarta kontrakt under [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
 
-** '''Rootstock''': We are taking the necessary steps to make Solidity code compatible with [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
+** '''Rootstock''': Vi vidtar nödvändiga åtgärder för att göra Solidity-koden kompatibel med [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
 
-* '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''vote'' identifier. Blockchain settlement cost must be covered by the implementing organization.
+* '''Lightning''': Med aktiveringen av [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] i Bitcoin-protokollet som möjliggör dirigering av betalningskanaler med [http://lightning.network Lightning Network protocol], flytande demokratiedelationer kan kartläggas med hjälp av satoshi-nivåstransaktioner ''röst'' identifierare. Blockchain-uppgörelsekostnaden måste täckas av genomförandeorganisationen.
 
-Also, multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
+Dessutom uppmuntras flerkedjiga implementeringar i en anda att söka större experiment och samarbete kring denna teknik.
 
 ===2.2 Voting.===
 
