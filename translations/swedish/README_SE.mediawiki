@@ -236,27 +236,27 @@ En ''röst'' token kan implementeras med smart kontraktskod över en mängd olik
 
 Dessutom uppmuntras flerkedjiga implementeringar i en anda att söka större experiment och samarbete kring denna teknik.
 
-===2.2 Voting.===
+===2.2 Röstning.===
 
-The ''vote'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with ''votes'':
+En ''röst'' token syftar till att vara en standard för digital demokrati att samverka med andra tokens, vilket sätter ett gemensamt språk för styrning av blockchainbaserade organisationer. Inom ramen för flytande demokratier tillåts en rad rösttransaktioner med ''röster'':
 
-* '''Direct Vote''': Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
+* '''Direkt röst''': Själviska väljaren Alice får använda sina tokens för att rösta direkt om frågor som i en direkt demokrati.
 
-* '''Basic Delegation''': Alice may delegate ''votes'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+* '''Enkel delegering''': Alice kan delegera ''röster'' till Bob. Så länge som Bob har tillgång till dessa tokens kan han använda dem för att rösta på Alice.
 
-* '''Tag Limited Delegation''': Alice may delegate ''votes'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''votes'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+* '''Tag Limited Delegation''': Alice kan delegera ''röster'' till Charlie under det angivna villkoret att han bara kan använda dessa tokens på problem som bär en viss tagg. Om delegationen anger det delegerade ''röster'' kan endast användas vid beslut med ''#environment'' tag, då kommer Charlie inte att kunna använda dessa någon annanstans men på de specifika frågorna. Detta leder till en representationsmodell som inte är baserad på territorium utan kunskaper.
 
-* '''Transitive Delegation''': If Bob received ''votes'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of ''votes'' from an organization to its members carries a signature indicating who is the sovereign owner of the ''votes''.
+* '''Transitive Delegation''': Om Bob får  ''röster'' från Alice, Han kan sedan delegera dessa till Frank. Detta genererar en kedja av delegationer som hjälper till att ge specifika spelare i en gemenskap. Om Alice inte vill få tredje part att få rösterna som hon delegerade till Bob kan hon stänga av den transitiva inställningen på delegationskontraktet. Cirkulära delegationer (t ex Alice som mottar de tokens som hon skickade Bob från Frank) är förbjudna sedan den ursprungliga tilldelningen av ''röster'' från en organisation till dess medlemmar bär en underskrift som indikerar vem som är den suveräna ägaren till ''röster''.
 
-* '''Overriding Vote''': If Bob already used the delegated ''votes'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''votes''.
+* '''Overriding Vote''': Om Bob redan använde den delegerade ''röster'' Han mottog från Alice men hon har en annan åsikt om en given fråga, eftersom den suveräna ägaren till hennes röster Alice alltid kan åsidosätta Bobs beslut. Voters har alltid det sista ordet på ett visst beslut med sitt ursprungliga ''röster''.
 
-* '''Public Vote''': Often referred as the ''golden rule'' of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+* '''Public Vote''': Ofta refererad till som ''golden rule'' i flytande demokrati, alla delegatörer har rätt att veta hur deras delegat har röstat om ett visst problem med deras ''röster''.På samma sätt är kongressens röster offentliga. På flytande demokratier som konkurrerande delegater på en viss tagg har ett incitament att bygga ett offentligt rykte baserat på deras röstningsrekord för att locka till sig fler delegationer
 
-* '''Secret Vote''': A method able to guarantee ''vote'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''vote'' transaction is achieved, users can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''vote'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''votes'' with these blockchains:
+* '''Secret Vote''': En metod som kan garantera ''röst'' transaktioner oåtkomliga för väljaren. Detta är oumbärligt i samband med offentliga val som hålls inom stora populationer som har stor risk för tvång. Även om perfekt sekretess på ''röst'' transaktionen uppnås kan användarna fortfarande fingeravtryckas med exponerad metadata. Av denna anledning uppmuntras forskning om integration med blockkedjor avsedda för anonyma transaktioner med beprövad rekord. Detta kan innefatta en gruvavgift för att lösa ''röst'' transaktion som antingen kan subventioneras av genomförandeorganisationen eller direkt betalas av väljare. Vi rekommenderar forskning och integration av hemlighet ''röst'' med dessa blockchains:
 
-** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
+** [https://z.cash ZCash]: implementerar avskärmade transaktioner med [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
 
-** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
+** [https://getmonero.org Monero]: använder [https://en.wikipedia.org/wiki/Ring_signature ring signaturer med stealth adresser].
 
 ===2.3 User Experience.===
 
