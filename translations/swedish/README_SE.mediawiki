@@ -395,19 +395,19 @@ En organisation består av en samling av ''frågor'' var och en beskriver ett be
 * <code>Beskrivning</code>: Text av beslutet ska fattas.
 * <code>Taggar</code>:Kategorier som beskriver beslutet inom organisationen. Detta hjälper medlemmar att navigera över problem, definiera områden eller grupper inom en organisation och begränsa omfattningen av en delegation av ''röster''.Om genomförandet görs med blockchain-miljöer som används för att hantera en fast taxonomi (som [http://blockstack.org Blockstack]), Ett gemensamt distribuerat språk för taggar baserat på decentraliserade domäner bidrar till att göra den demokratiska miljön mer rättvis eftersom det undviker medlemmar som försöker styra namnkonventioner till egen fördel. Av denna anledning, inom ett öppet nätverk <code>Taggar</code>som beskriver <code>Frågor</code>eller används för att begränsa delegationer, pekar på andra <code>Organisationer</code>. Detta är detaljerat i''Bevis för identitet'' processen.
 * <code>Signaturer</code>: Medlemmar som författar förslaget. Det kan förbli anonymt om en organisations styrningsregler tillåter det.
-* <code>Valsedel</code>: The presented options for voters to participate on this decision.
+* <code>Valsedel</code>: De presenterade alternativen för väljare att delta i detta beslut.
 * <code>Budget</code>: Ett valfritt element som kan innehålla låsta pengar i en cryptocurrency-adress som kan utlösa en åtgärd om ett beslut röstas till stöd.
 * <code>Tidsrymd</code>: För den slutliga omgången måste en öppen omröstning också sätta sin räckvidd i tid och definiera vilken typ av beslut som fattas. Det finns två typer av beslut:
 ** <code>Taktisk</code> (begränsad i tiden): Dessa är kontrakt som mottar ''röster'' tills ett slutdatum är uppfyllt, där en given blockhöjd inom blockchain som implementerar ''röst'' smarta kontrakt kan ställas in som slutlinjen för valprocessen. När alla transaktioner har tagits upp och ett slutresultat tas upp, skickas alla tokens tillbaka till motsvarande väljare och kan användas igen vid framtida beslut.
 ** <code>Strategisk</code> (obegränsad i tiden): Aldrig slutande öppna omröstningar som ständigt registrerar konsensus i ett beslutsland. ''röster'' kan hämtas av väljare vid vilken tidpunkt som helst, om de anser att de behöver avbryta sin röst till stöd eller avslag på beslut. Men så länge som token är tilldelad för att signalera en preferens på en avtalsröstning utan slutdatum, är det en del av det strategiska beslutet. En gemensam användning för strategiska beslut kan vara medlemmarna som röstar för godkännande av andra medlemmar inom en organisations gemenskap.
 
-====2.5.4 <code>Ballot</code>====
+====2.5.4 <code>Valsedel</code>====
 
-An issue can be implemented with any possible ballot design according to the specifications defined in the ''constitutional smart contract'' of the organization. The building blocks for a ballot are its <code>Interface</code>, <code>Options</code> and <code>Criteria</code>.
+En fråga kan genomföras med valfri omröstning enligt specifikationerna i ''konstitutionellt smarta kontrakt'' av organisationen.Byggstenarna för en omröstning är dess <code>Gränsnitt</code>, <code>Alternativ</code> och <code>Kriteria</code>.
 
-=====2.5.4.1 <code>Interface</code>=====
+=====2.5.4.1 <code>Gränsnitt</code>=====
 
-By default Sovereign provides the most commonly used choice mechanisms for ballot interaction. Further innovation on ballot interfaces is encouraged.
+Som standard tillhandahåller Sovereign de mest använda valmekanismerna för val av omröstning. Ytterligare innovation på omröstningsgränssnitt uppmuntras.
 
 * <code>SingleChoice</code>: One selectable option.
 * <code>MultipleChoice</code>: One or more selectable options.
