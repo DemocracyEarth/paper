@@ -246,13 +246,13 @@ En ''röst'' token syftar till att vara en standard för digital demokrati att s
 
 * '''Tag Limited Delegation''': Alice kan delegera ''röster'' till Charlie under det angivna villkoret att han bara kan använda dessa tokens på problem som bär en viss tagg. Om delegationen anger det delegerade ''röster'' kan endast användas vid beslut med ''#environment'' tag, då kommer Charlie inte att kunna använda dessa någon annanstans men på de specifika frågorna. Detta leder till en representationsmodell som inte är baserad på territorium utan kunskaper.
 
-* '''Transitive Delegation''': Om Bob får  ''röster'' från Alice, Han kan sedan delegera dessa till Frank. Detta genererar en kedja av delegationer som hjälper till att ge specifika spelare i en gemenskap. Om Alice inte vill få tredje part att få rösterna som hon delegerade till Bob kan hon stänga av den transitiva inställningen på delegationskontraktet. Cirkulära delegationer (t ex Alice som mottar de tokens som hon skickade Bob från Frank) är förbjudna sedan den ursprungliga tilldelningen av ''röster'' från en organisation till dess medlemmar bär en underskrift som indikerar vem som är den suveräna ägaren till ''röster''.
+* '''Transitiv delegering''': Om Bob får  ''röster'' från Alice, Han kan sedan delegera dessa till Frank. Detta genererar en kedja av delegationer som hjälper till att ge specifika spelare i en gemenskap. Om Alice inte vill få tredje part att få rösterna som hon delegerade till Bob kan hon stänga av den transitiva inställningen på delegationskontraktet. Cirkulära delegationer (t ex Alice som mottar de tokens som hon skickade Bob från Frank) är förbjudna sedan den ursprungliga tilldelningen av ''röster'' från en organisation till dess medlemmar bär en underskrift som indikerar vem som är den suveräna ägaren till ''röster''.
 
-* '''Overriding Vote''': Om Bob redan använde den delegerade ''röster'' Han mottog från Alice men hon har en annan åsikt om en given fråga, eftersom den suveräna ägaren till hennes röster Alice alltid kan åsidosätta Bobs beslut. Voters har alltid det sista ordet på ett visst beslut med sitt ursprungliga ''röster''.
+* '''Åtsidosätta Röst''': Om Bob redan använde den delegerade ''röster'' Han mottog från Alice men hon har en annan åsikt om en given fråga, eftersom den suveräna ägaren till hennes röster Alice alltid kan åsidosätta Bobs beslut. Voters har alltid det sista ordet på ett visst beslut med sitt ursprungliga ''röster''.
 
 * '''Public Vote''': Ofta refererad till som ''golden rule'' i flytande demokrati, alla delegatörer har rätt att veta hur deras delegat har röstat om ett visst problem med deras ''röster''.På samma sätt är kongressens röster offentliga. På flytande demokratier som konkurrerande delegater på en viss tagg har ett incitament att bygga ett offentligt rykte baserat på deras röstningsrekord för att locka till sig fler delegationer
 
-* '''Secret Vote''': En metod som kan garantera ''röst'' transaktioner oåtkomliga för väljaren. Detta är oumbärligt i samband med offentliga val som hålls inom stora populationer som har stor risk för tvång. Även om perfekt sekretess på ''röst'' transaktionen uppnås kan användarna fortfarande fingeravtryckas med exponerad metadata. Av denna anledning uppmuntras forskning om integration med blockkedjor avsedda för anonyma transaktioner med beprövad rekord. Detta kan innefatta en gruvavgift för att lösa ''röst'' transaktion som antingen kan subventioneras av genomförandeorganisationen eller direkt betalas av väljare. Vi rekommenderar forskning och integration av hemlighet ''röst'' med dessa blockchains:
+* '''Hemlig röst''': En metod som kan garantera ''röst'' transaktioner oåtkomliga för väljaren. Detta är oumbärligt i samband med offentliga val som hålls inom stora populationer som har stor risk för tvång. Även om perfekt sekretess på ''röst'' transaktionen uppnås kan användarna fortfarande fingeravtryckas med exponerad metadata. Av denna anledning uppmuntras forskning om integration med blockkedjor avsedda för anonyma transaktioner med beprövad rekord. Detta kan innefatta en gruvavgift för att lösa ''röst'' transaktion som antingen kan subventioneras av genomförandeorganisationen eller direkt betalas av väljare. Vi rekommenderar forskning och integration av hemlighet ''röst'' med dessa blockchains:
 
 ** [https://z.cash ZCash]: implementerar avskärmade transaktioner med [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
 
@@ -272,23 +272,23 @@ Denna förståelse av ''SELF / ORG / ANON'' skifta form har påverkat vårt grä
 
 ====2.3.1 Flytande.====
 
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile or desktop devices.
+Suveräna syftar till att göra omedelbar och enkel vätskebevakning. Vilken friktion som helst i processen måste undvikas och delegerings widgeten bör ständigt exponeras på gränssnittet medan du surfar eller tittar på medlemsprofiler. För detta ändamål använder suveräna a ''liquid bar'' som tillåter transaktion av ''röster'' med en enda gest, antingen på mobila eller stationära enheter.
 
-[[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
+[[File:/images/liquid-mobile-ux.png|Sovereign mobilt gränssnitt som visar beslut, omröstning och flytande röstning.]]
 
-The ''liquid bar'' allows these actions:
+En ''liquid bar'' tillåter dessa åtgärder:
 
-* '''See available ''votes''''': Since in a liquid democracy a user can have 1 or more delegated ''votes'', having a constant reminder of the balance helps the user understand his or her current power within the system. If some of the ''votes'' were delegated with strict conditions (e.g. a ''Tag Limited Delegation''), this means that a user won't have the same amount of ''votes'' available to spend on every issue.
+* '''Se tillgängliga ''röster''''': Eftersom en användare i en flytande demokrati kan ha 1 eller flera delegerade ''röster'', Att ha en ständig påminnelse om balansen hjälper användaren att förstå sin nuvarande kraft inom systemet. Om några av ''röster'' delegerades med strikta villkor (e.g. a ''Tag Limited Delegation''), det betyder att en användare inte kommer ha samma mängd ''röster'' tillgänglig för varje fråga.
 
-* '''See cast ''votes''''': A percentage value with the amount of ''votes'' currently cast on other decisions or delegated to other members of the community is shown. The user can tap or click at any time on that value to view a complete list of the issues where he or she is currently having a ''vote'' and decide whether to keep them there or make a strategic change.
+* '''Se röst ''röst''''': Ett procentvärde med mängden av ''röster'' som för närvarande kastas på andra beslut eller delegeras till andra medlemmar i samhället visas. Användaren kan klicka eller klicka när som helst på det värdet för att se en komplett lista över de problem där han eller hon för närvarande har en ''röst'' och bestämma om du ska behålla dem eller göra en strategisk förändring.
 
-* '''Slide to ''vote''''': The user can use his thumb (or mouse click) to slide the ''liquid bar'' handle and upon the release of it he or she will be prompted a confirmation request whether to ''vote'' or not.
+* '''Skjuta ''röst''''': Användaren kan använda sin tumme (eller med musklick) för att skjuta ''liquid bar'' hantera och vid frisläppandet av det kommer han eller hon att bli ombedd att få en bekräftelseförfrågan om att ''rösta'' eller ej.
 
-* '''Tap to ''vote''''': If the user does not want to allocate more than 1 vote, he or she can simply tap on the ''liquid bar'' handle once and will be prompted to confirm a single ''vote'' transaction.
+* '''Tryck för att ''rösta''''': Om användaren inte vill tilldela mer än 1 röst kan han eller hon helt enkelt trycka på ''liquid bar'' hantera en gång och kommer att uppmanas att bekräfta en enda ''röst'' transaktion.
 
-* '''Remove ''votes''''': At any time, as long as the poll is still open, the user may remove his or her ''votes'' from a decision by simply sliding the ''liquid bar'' handle back to the initial position.
+* '''Radera ''votes''''': När som helst så länge pollen fortfarande är öppen kan användaren ta bort hans eller hennes ''röster'' från ett beslut genom att helt enkelt skjuta ''liquid bar'' hantera tillbaka till startpositionen.
 
-We see this interaction as a step forward from the ''like'' pattern found in social media. ''Likes'' limits voting to mindless clicks and can be inflated at will. Since ''votes'' operate as a scarce resource in the system, they cannot be generated at will and always require a minimum of tactical thinking regarding how a user's interaction will influence a specific decision. ''votes'' have real implications to the user as a stakeholder of a decentralized organization while ''Likes'' only serve their controlling corporations.
+Vi ser denna interaktion som ett steg framåt från ''like'' mönster som finns i sociala medier. ''Likes'' gränser röstar till tanklösa klick och kan blåsas upp på viljan. Eftersom ''votes'' fungera som en knapp resurs i systemet, kan de inte genereras på vilja och alltid kräva ett minimum av taktiskt tänkande om hur en användares interaktion påverkar ett visst beslut. ''röster'' har verkliga konsekvenser för användaren som intressent för en decentraliserad organisation ''Likes'' bara tjäna sina kontrollerande företag.
 
 ====2.3.2 Delegations.====
 
