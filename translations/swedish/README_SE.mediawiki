@@ -292,7 +292,7 @@ Vi ser denna interaktion som ett steg framåt från ''like'' mönster som finns 
 
 ====2.3.2 Delegering.====
 
-En ''liquid bar'' visar också ''vote'' delegationsrelation som en användare har med någon annan medlem i en organisation. Delegationerna går båda vägarna:
+En ''liquid bar'' visar också ''röst'' delegationsrelation som en användare har med någon annan medlem i en organisation. Delegationerna går båda vägarna:
 
 * '''Skickade''': En användare måste kunna delegera någon av hans tillgängliga ''röster'' medan du kontrollerar det nuvarande delegerade beloppet (om det finns några).
 
@@ -388,18 +388,18 @@ All <code>Organisationer</code> som tar ansvaret för att godkänna eller ogilla
 
 Kompatibilitet med decentraliserade identitetsprotokoll uppmuntras för att garantera decentraliserad styrning. De [https://opencreds.github.io/did-spec/ specifikation av DIDs (decentraliserade identifierare som är analoga med webben URIs)], föreslagna av [https://www.w3.org/ W3C] vilket möjliggör självförsörjande verifierbar digital identitet rekommenderas.
 
-====2.5.3 <code>Issues</code>====
+====2.5.3 <code>Frågor</code>====
 
-An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define member's voting and posting rights. An issue in its most basic form has these properties:
+En organisation består av en samling av ''frågor'' var och en beskriver ett beslut som ska fattas av ledamöterna. Medlemskapsegenskaper beskrivna i ''konstitutionellt smarta kontrakt'' definiera medlemmens röst- och posträtter. Ett problem i sin mest grundläggande form har dessa egenskaper:
 
-* <code>Description</code>: Text of the decision to be made.
-* <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''votes''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags based on decentralized domains helps making the democratic environment more fair as it avoids members trying to control naming conventions for their own benefit. For this reason, within an open network <code>Tags</code> that describe <code>Issues</code> or are used to constrain delegations, are pointers to other <code>Organizations</code>. This is detailed in the ''Proof of Identity'' process.
-* <code>Signatures</code>: Members that are authoring the proposal. It can remain anonymous if an organization's governance rules allows it.
-* <code>Ballot</code>: The presented options for voters to participate on this decision.
-* <code>Budget</code>: An optional element that may include locked funds in a cryptocurrency address that can trigger an action if a decision is voted in support.
-* <code>Timespan</code>: For the final tally, an open poll must also set its scope in time and define the kind of decision being made. There are two types of decisions:
-** <code>Tactical</code> (limited in time): These are contracts that receive ''votes'' until a closing date is met, where a given block height within the blockchain implementing the ''vote'' smart contracts can be set as the end line for the electoral process. Once all transactions have been tallied and a final result is recorded, all tokens get returned to the corresponding voters and can be used again on future decisions.
-** <code>Strategical</code> (unlimited in time): Never-ending open polls that are perpetually registering the consensus of a decision state. ''votes'' can be retrieved by voters at any given time if they feel the need to discontinue their voice in support or rejection of a decision. But as long as the token is assigned to signal a preference on a contract ballot without closing date, it is part of the strategical decision. A common use for strategical decisions can be the members voting for approval of other members within the community of an organization.
+* <code>Beskrivning</code>: Text av beslutet ska fattas.
+* <code>Taggar</code>:Kategorier som beskriver beslutet inom organisationen. Detta hjälper medlemmar att navigera över problem, definiera områden eller grupper inom en organisation och begränsa omfattningen av en delegation av ''röster''.Om genomförandet görs med blockchain-miljöer som används för att hantera en fast taxonomi (som [http://blockstack.org Blockstack]), Ett gemensamt distribuerat språk för taggar baserat på decentraliserade domäner bidrar till att göra den demokratiska miljön mer rättvis eftersom det undviker medlemmar som försöker styra namnkonventioner till egen fördel. Av denna anledning, inom ett öppet nätverk <code>Taggar</code>som beskriver <code>Frågor</code>eller används för att begränsa delegationer, pekar på andra <code>Organisationer</code>. Detta är detaljerat i''Bevis för identitet'' processen.
+* <code>Signaturer</code>: Medlemmar som författar förslaget. Det kan förbli anonymt om en organisations styrningsregler tillåter det.
+* <code>Valsedel</code>: The presented options for voters to participate on this decision.
+* <code>Budget</code>: Ett valfritt element som kan innehålla låsta pengar i en cryptocurrency-adress som kan utlösa en åtgärd om ett beslut röstas till stöd.
+* <code>Tidsrymd</code>: För den slutliga omgången måste en öppen omröstning också sätta sin räckvidd i tid och definiera vilken typ av beslut som fattas. Det finns två typer av beslut:
+** <code>Taktisk</code> (begränsad i tiden): Dessa är kontrakt som mottar ''röster'' tills ett slutdatum är uppfyllt, där en given blockhöjd inom blockchain som implementerar ''röst'' smarta kontrakt kan ställas in som slutlinjen för valprocessen. När alla transaktioner har tagits upp och ett slutresultat tas upp, skickas alla tokens tillbaka till motsvarande väljare och kan användas igen vid framtida beslut.
+** <code>Strategisk</code> (obegränsad i tiden): Aldrig slutande öppna omröstningar som ständigt registrerar konsensus i ett beslutsland. ''röster'' kan hämtas av väljare vid vilken tidpunkt som helst, om de anser att de behöver avbryta sin röst till stöd eller avslag på beslut. Men så länge som token är tilldelad för att signalera en preferens på en avtalsröstning utan slutdatum, är det en del av det strategiska beslutet. En gemensam användning för strategiska beslut kan vara medlemmarna som röstar för godkännande av andra medlemmar inom en organisations gemenskap.
 
 ====2.5.4 <code>Ballot</code>====
 
