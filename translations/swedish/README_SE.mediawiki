@@ -380,13 +380,13 @@ De grundläggande inställningarna som finns på en konstitution är:
 
 Mallar som definierar vanliga metoder för specifika typer av organisationer uppmuntras att förenkla organisationsinställningen. Detta kommer att stödjas och stödjas genom arbete med partnerskapet med demokratijorden [https://aragon.one/ Aragon],vem arbetar med en digital jurisdiktion som kommer att göra decentraliserade organisationer effektiva. Den suveräna kommer att innehålla mallar för företag, politiska partier, fackföreningar, klubbar och kooperativa företag bland andra; Oavsett form som organisationen tar, garanterar Aragons decentraliserade nätverk att ett företag alltid kommer att arbeta, även i samband med skadlig manipulering av fientliga tredje parter eller missbrukande regeringar.
 
-====2.5.2 <code>Members</code>====
+====2.5.2 <code>Medlemmar</code>====
 
-Every Organization has members that get the right to vote on the decisions of the organization. Membership criteria is defined in the ''constitutional smart contract'' and is key for the trust in any democratic environment. Among the most common ways to subvert an election is through voter registry manipulation. Securing this aspect with cryptographic means as well as an approval protocol is critical. Once a member is approved within an organization, he or she gets a specific amount of ''votes'' to be used for its governance.
+Varje organisation har medlemmar som får rösträtt om organisationens beslut. Medlemskapskriterier definieras i ''konstitutionellt smarta kontrakt'' och är nyckeln till förtroendet i en demokratisk miljö. Bland de vanligaste sätten att invertera ett val är genom väljare registreringsmanipulation. Att säkra denna aspekt med kryptografiska medel samt ett godkännandeprotokoll är kritiskt. När en medlem är godkänd inom en organisation får han eller hon en viss mängd ''röster'' att användas.
 
-All <code>Organizations</code> who take the responsibility to approve or disapprove <code>Members</code>, contribute with this task to the ''Proof of Identity'' process described on Section 3.3.
+All <code>Organisationer</code> som tar ansvaret för att godkänna eller ogilla <code>Medlemmar</code>, bidra med denna uppgift till ''Bevis för identitet'' process som beskrivs på avsnittet 3.3.
 
-Compatibility with decentralized identity protocols is encouraged for the purpose of guaranteeing decentralized governance. The [https://opencreds.github.io/did-spec/ specification of DIDs (decentralized identifiers analogous to the web's URIs)], proposed by the [https://www.w3.org/ W3C] enabling self-sovereign verifiable digital identity is recommended.
+Kompatibilitet med decentraliserade identitetsprotokoll uppmuntras för att garantera decentraliserad styrning. De [https://opencreds.github.io/did-spec/ specifikation av DIDs (decentraliserade identifierare som är analoga med webben URIs)], föreslagna av [https://www.w3.org/ W3C] vilket möjliggör självförsörjande verifierbar digital identitet rekommenderas.
 
 ====2.5.3 <code>Issues</code>====
 
