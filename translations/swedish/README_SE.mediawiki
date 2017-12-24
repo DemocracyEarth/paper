@@ -178,27 +178,28 @@ I detta dokument beskrivs genomförandet av en flytande demokrati med [http://gi
 
 ===2.1 Token.===
 
-An ideal voting system must be able to satisfy to the greatest possible extent these conditions:
+Ett idealvalssystem måste i största möjliga utsträckning tillfredsställa dessa villkor:
 
-* '''Secrecy''': voter must be able to cast vote in secret.
+* '''Sekretess''': väljaren måste kunna rösta i hemlighet.
 
-* '''Verifiability''': voter must be able to verify tallied vote.
+* '''Verifierbarhet''': väljaren måste kunna verifiera upprepad omröstning.
 
-* '''Integrity''': system must be able to verify correct vote tally.
+* '''Integritet''': Systemet måste kunna verifiera korrekt rösträtt.
 
-Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
+På grund av risken för att tvång genom fysiskt våld eller hot i sammanhang som är föremål för politiskt våld, måste ett alternativ som kan skydda tvingade väljare införas:
 
-* '''Resistance''': voter must be able to override own vote if necessary.
+* '''Motstånd''': väljaren måste kunna överväga egen röst om det behövs.
 
-In the work led by researchers Hosp & Vora, an [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] leading to the conclusion that a natural tension exists with a system aiming for ''perfect integrity'', ''perfect ballot secrecy'' and ''perfect tally verifiability''. All three cannot be simultaneously achieved when an adversary is computationally unbounded, able to brute force a system if unlimited time or memory are available. For this reason we consider it indispensable to implement digital democracies using blockchains. With network effects already in place, blockchains are able to verify transaction integrity and prevent token double-spending. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] model achieves this by rewarding computational capacity verifying transaction blocks (what is often referred as ''mining''), leading to a network “300 times more powerful than Google’s resources” according to pioneer [http://twitter.com/balajis Balaji Srinivasan]. For this reason, our design is based on tokens within a blockchain network operating as ''political cryptocurrency''.
+I arbetet som leds av forskare Hosp & Vora, en [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] vilket leder till slutsatsen att en naturlig spänning existerar med ett system som syftar till ''perfekt integritet'', ''perfekt rösthemmelighet'' och ''perfekt kontrollerbarhet''. Alla tre kan inte uppnås samtidigt när en motståndare är beräknat obegränsad, kan brute force ett system om obegränsad tid eller minne är tillgängligt. Av denna anledning anser vi att det är oumbärligt att genomföra digitala demokratier med hjälp av blockchains. Med nätverkseffekter som redan finns på plats kan blockkedjor verifiera transaktionsintegritet och förhindra dubbla utgifter för token
+. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] modellen uppnår detta genom att belöna beräkningskapaciteten för att verifiera transaktionsblock (det som ofta hänvisas till ''mining''), vilket leder till ett nätverk “300 gånger kraftfullare än Googles resurser” enligt pionjären [http://twitter.com/balajis Balaji Srinivasan]. Av denna anledning bygger vår design på tokens inom ett blockchain-nätverk som fungerar som ''political cryptocurrency''.
 
-What differentiates a vote from money (or in broader terms: a ''political economy'' from a ''financial economy'') is that political currency is designed to guarantee participating rights under fair conditions to all members within an organization. Rights aim to satisfy overall legitimacy in the governance of an institution. While money is the language of self-interest, votes express the shared views of a community. Political currency is not strictly meant for trade but for social choice.
+Vad skiljer en röst från pengar (eller i bredare termer: en ''politisk ekonomi'' från en ''finansiell ekonomi'') är den politiska valutan utformad för att garantera deltagande rättigheter under rättvisa förhållanden till alla medlemmar inom en organisation. Rättigheter syftar till att tillfredsställa den övergripande legitimiteten i en institutions styrning. Medan pengar är språket av självintresse, uttrycker rösterna de gemensamma åsikterna om ett samhälle. Politisk valuta är inte strängt menat för handel men för socialt val.
 
 {| class="wikitable"
 |-
-! scope="col"| Feature
+! scope="col"| Funktion
 ! scope="col"| Coins
-! scope="col"| Votes
+! scope="col"| Röster
 |-
 ! scope="row"| Utility
 | Trade.
