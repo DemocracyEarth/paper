@@ -266,7 +266,7 @@ Användarupplevelse (UX) är en kritisk aspekt av en decentraliserad arkitektur 
 
 * '''Organization''': I representation av en organisation som utvidgade företrädesrätten till enskilda (t.ex. arbetsplats, klubb, politiskt parti etc.).
 
-* '''Anonymous''': Utan någon koppling till en offentlig identitet.
+* '''Anonym''': Utan någon koppling till en offentlig identitet.
 
 Denna förståelse av ''SELF / ORG / ANON'' skifta form har påverkat vårt gränssnitt och token design högt. Vid en viss tidpunkt kan en suverän användare anta något av dessa lägen för att interagera med decentraliserade organisationer.
 
@@ -335,13 +335,13 @@ När Claude Shannon skrev sin [http://math.harvard.edu/~ctm/home/text/others/sha
 
 [[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
 
-====2.5.1 <code>Organizations</code>====
+====2.5.1 <code>Organisationer</code>====
 
-The entity or institution implementing a Sovereign instance is referred as an <code>Organization</code>. This entity acts as a governing authority definining who are the <code>Members</code> allowed to participate in its decisions and granting them ''vote'' tokens. Since <code>Organizations</code> can live in a decentralized network, the requirements to make an entity able to operate with ''votes'' are similar to those found while setting up a website:
+Den enhet eller institution som genomför en suverän förekomst hänvisas till som en <code>Organisation</code>. Denna enhet fungerar som en styrande myndighet som definierar vem som är <code>Medlemmar</code> tillåtas delta i sina beslut och bevilja dem ''röst'' tokens. Eftersom <code>Organisationer</code> kan eistera i ett decentraliserat nätverk, kraven på att en enhet kan fungera med ''röster'' liknar dem som hittades när du skapade en webbplats:
 
-* <code>Domain</code>: Every organization must have its own domain name (e.g. ''democracy.earth'' on the Hypertext Transfer Protocol or HTTP). Some may even have a namespace running as a Top Level Domain or TLD (e.g. ''.earth''). This reference code for an <code>Organization</code> within an open network, whether its the legacy web as in HTTP or new emergent networks for decentralized domains such as [https://blockstack.org Blockstack], is crucial to help build a semantic layer that effectively describes <code>Issues</code> without the risk of having voters manipulating tags in a closed system (referred on Section 2.5.4 as ''squatting''). Domain names help describe an <code>Issue</code> as well as restricting the scope of a delegation contract.
+* <code>Domän</code>: Varje organisation måste ha sitt eget domännamn (e.g. ''democracy.earth'' i Hypertext Transfer Protocol eller HTTP). Vissa kan till och med ha en namnrymd som körs som en toppdomän (e.g. ''.earth''). Denna referenskod för en <code>Organisation</code> inom ett öppet nätverk, huruvida det är äldre webben som i HTTP eller nya framväxande nätverk för decentraliserade domäner som [https://blockstack.org Blockstack], är avgörande för att hjälpa till att bygga ett semantiskt skikt som effektivt beskriver <code>Frågor</code> utan risk för att väljare manipulerar taggar i ett slutet system (hänvisas till avsnittet 2.5.4 as ''squatting''). Domännamn hjälper till att beskriva en <code>Fråga</code> samt begränsa omfattningen av ett delegationskontrakt.
 
-* <code>Constitution</code>: Every organization has a ''Constitution'' that defines its foundational rules in the form of a smart contract. The ''constitutional smart contract'' describes how <code>Members</code>, <code>Issues</code> and ''votes'' connect within the system.
+* <code>Konstitution</code>: Varje organisation har en ''Konstitution'' som definierar sina grundregler i form av ett smart kontrakt. De ''konstitutionellt smart kontrakt'' beskriver hur <code>Medlemmar</code>, <code>Frågor</code> och ''röster'' refererar i systemet.
 
 =====2.5.1.1 <code>Constitution</code>=====
 
