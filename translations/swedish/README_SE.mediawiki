@@ -1,13 +1,13 @@
 <pre>
   DEF: 1
-  Title: The Social Smart Contract
-  Author: @DemocracyEarth.
-  Comments-Summary: No comments yet.
-  Status: Active
-  Type: Paper
-  Created: 2017-07-14
-  License: MIT
-  Replaces: 0
+  Titel: Det sociala smarta kontraktet
+  Författare: @DemocracyEarth.
+  Kommentarer-Sammanfattning: Inga kommentarer än.
+  Status: Aktiv
+  Typ: Papper
+  Skapad: 2017-07-14
+  Licens: MIT
+  Ersätter: 0
 </pre>
 
 =The Social Smart Contract.=
