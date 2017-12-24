@@ -290,29 +290,29 @@ En ''liquid bar'' tillåter dessa åtgärder:
 
 Vi ser denna interaktion som ett steg framåt från ''like'' mönster som finns i sociala medier. ''Likes'' gränser röstar till tanklösa klick och kan blåsas upp på viljan. Eftersom ''votes'' fungera som en knapp resurs i systemet, kan de inte genereras på vilja och alltid kräva ett minimum av taktiskt tänkande om hur en användares interaktion påverkar ett visst beslut. ''röster'' har verkliga konsekvenser för användaren som intressent för en decentraliserad organisation ''Likes'' bara tjäna sina kontrollerande företag.
 
-====2.3.2 Delegations.====
+====2.3.2 Delegering.====
 
-A ''liquid bar'' also displays the ''vote'' delegation relation a user has with any other member of an organization. Delegations go both ways:
+En ''liquid bar'' visar också ''vote'' delegationsrelation som en användare har med någon annan medlem i en organisation. Delegationerna går båda vägarna:
 
-* '''Sent''': A user must be able to delegate any of his available ''votes'' while checking the current delegated amount (if any).
+* '''Skickade''': En användare måste kunna delegera någon av hans tillgängliga ''röster'' medan du kontrollerar det nuvarande delegerade beloppet (om det finns några).
 
-* '''Received''': A user must be able to understand how many ''votes'' were received from someone else.
+* '''Mottagna''': En användare måste kunna förstå hur många ''röster'' mottogs från någon annan.
 
-Every time a member profile is displayed on Sovereign, the current delegation status between the user and the member is shown.
+Varje gång en medlemsprofil visas i Sovereign visas den nuvarande delegationsstatusen mellan användaren och medlemmen.
 
-[[File:/images/delegation-relation-votes.png|View of vote delegation relation with another member.]]
+[[File:/images/delegation-relation-votes.png|Vy över omröstningsdelegationsrelation med en annan medlem.]]
 
 ====2.3.3 Agora.====
 
-Sovereign also has a debating component codenamed ''Agora''. Debating is likely as important as voting in any democracy. Agoras display ''threaded conversations'', a successful design pioneered by [http://reddit.com Reddit] and [http://news.ycombinator.com Hacker News]. We consider this UX pattern as the best way to engage in thoughtful conversations online as they have the most valued comments bubble up, helping sort the information for a debate using the collective intelligence of the community.
+Sovereign har också en debattkomponent vid namn ''Agora''. Debatt är sannolikt lika viktigt som att rösta i någon demokrati. Agoras display ''trådade konversationer'', en framgångsrik design pionjär av [http://reddit.com Reddit] och [http://news.ycombinator.com Hacker News]. Vi anser detta UX mönster som det bästa sättet att engagera sig i tankeväckande konversationer på nätet eftersom de har de mest uppskattade kommentarerna bubbla upp och hjälper till att sortera informationen för en debatt med hjälp av gemenskapens kollektiva intelligens.
 
-But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite ''upvotes'' or ''downvotes'', if the user agrees with a comment from someone else in the platform, it will trigger an instantaneous delegation of a single ''vote''. Hence Agoras permit:
+Men i motsats till webbaserade applikationer tillåter Sovereign inte vittnesbördsinteraktioner: i stället för att tillåta oändlig ''upp -röster'' eller ''ned-röster'', Om användaren godkänner en kommentar från någon annan i plattformen kommer det att utlösa en omedelbar delegering av en enda ''röst''. Därför tillåter Agoras:
 
-* '''Upvote''': Send a single ''vote'' delegation from the user to the commenter.
+* '''Rösta upp''': Skicka en singel ''röst'' delegering från användaren till den som kommenterat.
 
-* '''Downvote''': If a user disagrees with someone's comment, a ''downvote'' can either retrieve a ''vote'' from the commenter back to the user if there was a previous delegation. Or if no delegation relation exists among them, then a ''downvote'' will act as a penalty sending a ''vote'' from the commenter back to the funds of the organization implementing the Sovereign instance. The criteria for this kind of penalty can be set in the ''constitutional smart contract'' of the implementing organization.
+* '''Rösta ned''': Om en användare inte håller med någon annans kommentar, en ''ned-röst'' kan antingen hämta en ''röst'' från kommentaren tillbaka till användaren om det fanns en tidigare delegation. Eller om det inte finns någon delegationsrelation bland dem, då en ''ned-röst'' kommer att fungera som en minskning av ''röst'' från kommentaren tillbaka till medel från organisationen som genomför den suveräna förekomsten. Kriterierna för denna typ av minskning kan ställas in i ''konstitutionellt smart kontrakt'' i genomförandeorganisationen.
 
-This will make delegations more frequent across the platform. Debates constantly exposed to the risk of ''vote'' transactions means that they are subject to real political impact. This mechanism can help reward good arguments and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
+Detta kommer att göra delegationer oftare över plattformen. Debatter ständigt utsatta för risken för ''röst'' transaktioner innebär att de utsätts för verkliga politiska konsekvenser. Denna mekanism kan hjälpa till att belöna goda argument och bestraffa inverkan av trolling utan att behöva utveckla modererande myndigheter i systemet.
 
 === 2.4 Pilot ===
 
