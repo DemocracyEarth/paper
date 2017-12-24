@@ -29,7 +29,7 @@ Denna text är uppbyggd i tre delar, var och en syftar till att tillgodose ett a
 
 Vi har inte för avsikt att denna text förbli fast. Den publiceras under en öppen källkod och vi välkomnar bidrag från någon, eftersom vårt mål är att detta dokument ska vara en levande färdplan för planetstyrning. Demokrati som förmågan att lita på varandra i största möjliga utsträckning är en avgörande kraft som bildar historiens banor. Vårt uppdrag ekar brådskande över hela världen, som omfattar hela mänskligheten: behovet av att göra vårt gemensamma hem en plats för fredlig samexistens. [http://democracy.earth Democracy Earth Foundation] har genomfört [[#Background|omfattande forskning]] på röstsystem, cyberpolitics och blockchain-nätverk; vi står i spetsen för en offentlig konversation angående internet som en planetarisk jurisdiktion.
 
-Following [https://twitter.com/lsukernik/status/892101885771034628 the example of Satoshi Nakamoto], prior to sharing our ideas in written form we have undertaken to write code first, in order to properly understand what can be done. To this end, more than [https://github.com/DemocracyEarth/sovereign 30,000 lines of code have been written since October 2015], which in turn has driven our research, use cases, and the ideas presented herein. This is our proposal.
+Genom [https://twitter.com/lsukernik/status/892101885771034628 exempel från Satoshi Nakamoto], Innan vi delar våra idéer i skriftlig form har vi åtagit sig att skriva kod först för att kunna förstå vad som kan göras. För detta ändamål, mer än [https://github.com/DemocracyEarth/sovereign 30,000 rader kod har skrivits sedan oktober 2015], som i sin tur drivit vår forskning, använder fall och de idéer som presenteras här. Detta är vårt förslag.
 
 <div id="Background"></div>
 
