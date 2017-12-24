@@ -201,25 +201,25 @@ Vad skiljer en röst från pengar (eller i bredare termer: en ''politisk ekonomi
 ! scope="col"| Coins
 ! scope="col"| Röster
 |-
-! scope="row"| Utility
-| Trade.
-| Governance.
+! scope="row"| Verktyg
+| Handel.
+| Styrning.
 |-
 ! scope="row"| Mining
-| Computation (e.g. Proof of Work).
-| Attention (e.g. Proof of Identity).
+| Beräkning (t ex bevis för arbete).
+| Uppmärksamhet (äkthet t ex bevis på identitet).
 |-
-! scope="row"| Liquidity
-| Scarce.
-| Guaranteed.
+! scope="row"| Likviditet
+| Knapp.
+| Garanterad.
 |-
 ! scope="row"| Signal
-| Self interest.
-| Social choice.
+| Självintresse.
+| Socialt val.
 |-
-! scope="row"| Value
-| Space (material goods).
-| Time (information).
+! scope="row"| Värde
+| Utrymme (materialvaror).
+| Tid (information).
 |}
 
 ====2.1.1 Implementation.====
