@@ -258,19 +258,19 @@ En ''röst'' token syftar till att vara en standard för digital demokrati att s
 
 ** [https://getmonero.org Monero]: använder [https://en.wikipedia.org/wiki/Ring_signature ring signaturer med stealth adresser].
 
-===2.3 User Experience.===
+===2.3 Användarupplevelse.===
 
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+Användarupplevelse (UX) är en kritisk aspekt av en decentraliserad arkitektur och blir ännu viktigare eftersom de överflödiga lager av centraliserade arkitekturer kondenserar användaren. I en centraliserad internetarkitektur äger användaren inte gränssnittet eller erfarenheten. I en decentraliserad internetarkitektur, användargränssnittet (UI) bör baseras på användarens perspektiv. I den meningen blir transaktionerna gjorda under tre olika synpunkter:
 
-* '''Self''': Using a public identity related to an individual.
+* '''Self''': Använda en offentlig identitet som är relaterad till en individ.
 
-* '''Organization''': In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+* '''Organization''': I representation av en organisation som utvidgade företrädesrätten till enskilda (t.ex. arbetsplats, klubb, politiskt parti etc.).
 
-* '''Anonymous''': Without any connection to a public identity.
+* '''Anonymous''': Utan någon koppling till en offentlig identitet.
 
-This understanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations.
+Denna förståelse av ''SELF / ORG / ANON'' skifta form har påverkat vårt gränssnitt och token design högt. Vid en viss tidpunkt kan en suverän användare anta något av dessa lägen för att interagera med decentraliserade organisationer.
 
-====2.3.1 Liquid.====
+====2.3.1 Flytande.====
 
 Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile or desktop devices.
 
