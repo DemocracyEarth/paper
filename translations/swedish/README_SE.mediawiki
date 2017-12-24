@@ -343,41 +343,42 @@ Den enhet eller institution som genomför en suverän förekomst hänvisas till 
 
 * <code>Konstitution</code>: Varje organisation har en ''Konstitution'' som definierar sina grundregler i form av ett smart kontrakt. De ''konstitutionellt smart kontrakt'' beskriver hur <code>Medlemmar</code>, <code>Frågor</code> och ''röster'' refererar i systemet.
 
-=====2.5.1.1 <code>Constitution</code>=====
+=====2.5.1.1 <code>Konstitution</code>=====
 
-The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases it can be assigned based on an egalitarian distribution to all members (e.g. taxpayers within a jurisdiction each getting a same amount of ''votes'').
+Det ''konstitutionellt smarta kontrakt'' bestämmer hur ''röster'' kommer att fördelas till ledamöter bland annat styrelsesbeslut. Tilldelningsvillkor är ett privilegium för organisationen beroende på dess mål: i vissa fall kan det anpassas till finansiella rättigheter (t.ex. aktieägarna i ett företag får en ''röst'' per andel); i andra fall kan det tilldelas baserat på en likvärdig distribution till alla medlemmar (t ex skattebetalare inom en jurisdiktion som var och en får lika mycket ''röster'').
 
-The basic settings to be found on a constitution are:
+De grundläggande inställningarna som finns på en konstitution är:
 
-* '''Decentralized ID''' (or URL): An identifier that helps refer to the <code>Organization</code> anywhere on the network and that it is connected to its <code>Domain</code>.
+* '''Decentraliserat ID''' (eller URL): En identifierare som hjälper till att hänvisa till <code>Organisation</code> var som helst på nätverket och att det är anslutet till en <code>Domän</code>.
 
-* '''Bio''': A basic description of the organization including its name, website, address, jurisdiction (if applicable).
+* '''Bio''': En grundläggande beskrivning av organisationen inklusive namn, hemsida, adress, jurisdiktion (om tillämpligt).
 
-* '''Funding''': The amount of ''vote'' tokens this organization will manage and how these will be allocated to every member and grant access to <code>Budgets</code>.
+* '''Finansiering''': Mängden ''röst'' tokens Denna organisation kommer att hantera och hur dessa kommer att fördelas till varje medlem och ge tillgång till <code>Budgetar</code>.
 
-* '''Membership''': Requirements to become a valid member within the organization. This criteria defines the voter registry that guarantees a fair electoral process of a democracy and can be scrutinized by its members.
+* '''Medlemskap''': Krav på att bli en giltig medlem inom organisationen. Kriteriet definierar väljareregisteret som garanterar en rättvis valprocess av en demokrati och kan granskas av dess medlemmar.
 
-** '''Open''': Anyone can freely join an organization.
-** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
-** '''Fee''': The organization requires a payment for membership approval.
+** '''Öppen''': Alla kan fritt ansluta sig till en organisation.
+** '''Röstad''': Befintliga medlemmar måste rösta på sökande medlemmar. En procentuell kriterium måste ställas för godkännande.
+** '''Avgift''': Organisationen kräver betalning för godkännande av medlemskap.
 
-* '''Content''': Defines who is allowed to post <code>Issues</code> on the organization.
+* '''Innehåll''': Definierar vem som får posta <code>Frågor </code> till organisationen.
 
-** '''Open''': Anyone (whether a member or not) can post. Only members get the right to vote.
-** '''Members''': Only approved members have the right to post.
-** '''Special Members''': Members that meet certain criteria (e.g. a minimum of delegated ''votes'' or ''votes'' received under a specific tag) have the right to post.
-** '''Anonymous''': Defines whether anonymous content is allowed to be posted.
+** '''Öppen''': Någon (om en medlem eller inte) kan skicka. Endast medlemmar får rösträtt.
+** '''Medlemmar''': Endast godkända medlemmar har rätt att posta.
+** '''Särskilda medlemmar''':Medlemmar som uppfyller vissa kriterier (t ex minst delegerade ''röster'' eller ''röster'' mottagna under en viss tagg) har rätt att posta.
 
-* '''Moderation''': Describes the rules that help define a code of conduct among members of an organization.
+** '''Anonym''': Definierar om anonymt innehåll får läggas upp.
 
-** '''Ban''': An amount of ''downvotes'' required to ban a member from participating in the organization and the penalty attached to it (e.g. a period of time)
-** '''Expulsion''': If an organization is based on ''Voted Membership Approval'', a member can receive negative votes from other members signalling that such identity has been corrupted or is no longer part of the organization. This criteria can be established as a minimum percentage required.
+* '''Moderering''': Beskriver regler som hjälper till att definiera en uppförandekod bland medlemmar i en organisation.
 
-* '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization and specific settings such as ''quadratic voting''.
+** '''Förbjudna''': En mängd av ''ned-röster'' krävs för att förbjuda en medlem från att delta i organisationen och påföljden som är knuten till den (t ex en tidsperiod)
+** '''Uteslutning''':Om en organisation är baserad på ''Godkänd medlemskap godkännande'', en medlem kan få negativa röster från andra medlemmar som signalerar att sådan identitet har skadats eller inte längre är en del av organisationen. Detta kriterium kan fastställas som en minsta procentuell andel.
 
-* '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
+* '''Röstning''': Den tillåtna <code>Valsedlar</code> att användas för beslut som ska fattas av organisationen och specifika inställningar som ''kvadratisk röstning''.
 
-Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and cooperative businesses among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
+* '''Reformera''': Kraven på att ändra någon av de regler som anges på en''Konstitution'' (e.g. en särskild majoritet).
+
+Mallar som definierar vanliga metoder för specifika typer av organisationer uppmuntras att förenkla organisationsinställningen. Detta kommer att stödjas och stödjas genom arbete med partnerskapet med demokratijorden [https://aragon.one/ Aragon],vem arbetar med en digital jurisdiktion som kommer att göra decentraliserade organisationer effektiva. Den suveräna kommer att innehålla mallar för företag, politiska partier, fackföreningar, klubbar och kooperativa företag bland andra; Oavsett form som organisationen tar, garanterar Aragons decentraliserade nätverk att ett företag alltid kommer att arbeta, även i samband med skadlig manipulering av fientliga tredje parter eller missbrukande regeringar.
 
 ====2.5.2 <code>Members</code>====
 
