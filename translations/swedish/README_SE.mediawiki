@@ -17,15 +17,15 @@ Erbjudandets initiala rättigheter är från [http://democracy.earth Democracy E
 
 I en värld som lyckats med globaliseringen av finansiella tillgångar, samtidigt som de politiska rättigheterna bifogas territorier, måste vi bygga nya modeller för demokratisk styrning som gör det möjligt för mänskligheten att samarbeta och ta itu med pressande globala frågor. Democracy Earth Foundation bygger gratis, öppen källkodsprogramvara för oförstörbart blockchain-baserat beslutsfattande (omröstning) inom institutioner av alla storlekar, från de mest lokala som involverar två personer till de mest globala som involverar oss alla. Ojämn fördelning av möjligheter runt om i världen på grund av den eviga konfrontationen mellan nationella regeringar har lett till snabbare klimatförändringar, ökande ojämlikhet, terrorism och tvångsflyttningar. Demokrati Earth Foundation anser att den teknikstack som innehåller Bitcoin som programmerbara pengar utan centralbanker och Ethereum som möjliggör smarta avtal utan att det behövs domstolar för domstolar kräver ett nytt lager som signalerar oförstörda röster bortom landstaternas territoriella gränser. Detta transnationella nätverk kommer att handla i enlighet med medlemmarnas personliga suveränitet och skydda sina mänskliga rättigheter med kryptering. I vårt Initial Rights Offering erbjuder vi en token som heter '' röst '' som ger deltagande rättigheter till varje människa med beslutsfattande som huvudfunktion. Vårt förslag introducerar kryptografiskt inducerad jämlikhet: så länge som någon kan validera sin självständiga identitet, kommer de att få en motsvarande andel av "röster" som motsvarar andelen av varje aktiv deltagare i nätverket. Vi definierar en "Bevis för identitet" -process som undviker central auktoritet genom att införa begreppet "uppmanar uppmärksamhet" vilket stimulerar deltagarna att stärka förtroendet för "röst" genom att utföra enkla test som syftar till att upptäcka kopior. Slutligen dras "röster" till giltiga deltagare under en "Universell grundinkomst" -mekanism med målet att hitta en rättjämvikt i den historiska spänningen mellan pengar och politik. Vi söker ingenting mindre än äkta demokratisk styrning för Internetåldern, en av de grundläggande byggstenarna av en uppnå global fred och välstånd som uppstår genom en båge av tekniska innovationer som kommer att förändra vad det innebär att vara mänsklig på jorden.
 
-==ii. Contents.==
+==ii. Innehåll.==
 
-This text is structured in three parts, each aiming to satisfy a different readership target (and all of whom may reside within the same persona.)
+Denna text är uppbyggd i tre delar, var och en syftar till att tillgodose ett annat läsemål (och som alla kan utgöras av en och samma person.)
 
-* [[#Manifesto|Manifesto]]: For idealists. Diagnoses global political context and argues for a paradigm change.
+* [[#Manifest|Manifest]]: För idealister. Diagnoserar globalt politiskt sammanhang och argumenterar för en paradigmförändring.
 
-* [[#Paper|Paper]]: For builders. Describes the building blocks for a system that can be implemented by anyone, anywhere.
+* [[#Papper|Papper]]: För byggare. Beskriver byggstenarna för ett system som kan implementeras av någon, var som helst.
 
-* [[#Execution|Execution]]: For pragmatists. Specifies how to execute these ideas for impact.
+* [[#Utförande|Utförande]]: För pragmatister. Anger hur man utför dessa idéer för få genomslag.
 
 We do not intend this text to remain fixed. It is published under an open source license and we welcome contributions from anyone, as our goal is for this document to be a living roadmap for planetary governance. Democracy as the ability to trust each other to the greatest possible extent is a defining force shaping the trajectory of history. Our mission echoes urgently across the globe, encompassing all of humanity: the need to make our shared home a place of peaceful coexistence. The [http://democracy.earth Democracy Earth Foundation] has performed [[#Background|extensive research]] on voting systems, cyberpolitics and blockchain networks; we stand at the forefront of a public conversation regarding the internet as a planetary jurisdiction.
 
