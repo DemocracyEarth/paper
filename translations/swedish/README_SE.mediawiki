@@ -493,10 +493,10 @@ En nyckelinställning för ett flytande demokratisystem är att tillåta [http:/
 
 ====2.6.3 Sybil Attack.====
 <blockquote>
-  a.k.a. ''Identity Theft''
+  a.k.a. ''Identitetsstöld''
 </blockquote>
 
-Whoever has the ability to control the registry of voters of any given election can directly influence the end result. A classical example is registering defunct members of society to vote in an election. On decentralized networks this is commonly referred as a [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (a name taken from an [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil nodes are those that identify themselves as independent actors in the network while they all are under the control of a single operator. In decentralized environments sybil attacks are the most common threat and for this reason we consider it indispensable that for ''votes'' to be granted they must get validated through a protocol (social and algorithmic) that works as ''Proof of Identity''.
+Den som har förmåga att kontrollera väljareens register över valet kan direkt påverka slutresultatet. Ett klassiskt exempel är att registrera avlidna medlemmar i samhället för att rösta i ett val. På decentraliserade nätverk kallas detta vanligen som  [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (ett namn taget från en [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil noder är de som identifierar sig som oberoende aktörer i nätverket medan de alla är under kontroll av en enda operatör. I decentraliserade miljöer är sybilattacker det vanligaste hotet och av den anledningen anser vi att det är oumbärligt att för ''röster'' att beviljas måste de bli validerade genom ett protokoll (social och algoritmisk) som fungerar som ''Bevis för identitet''.
 
 ====2.6.4 Fake news.====
 <blockquote>
