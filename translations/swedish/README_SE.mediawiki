@@ -819,33 +819,34 @@ En enkel jämförelse visar de strikta begränsningarna val rösterna har i jäm
 
 För att upprätthålla referenspriset fastställt till minimilönen i USA samtidigt som det kan vara minst ~ 10X effektivare än något traditionellt val,''röst'' Verktyget måste förlängas genom att göra symbolen delbar.
 
-====3.4.4 Divisibility====
+====3.4.4 Delbarhet====
 
-The waiting period of 250 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~42 hours. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to a minimum fraction of human attention.
+Väntetiden på 250 block för varje ny dropp ''röst'' begränsar den uppfattade tillfredsställelsen som levereras av systemet till var ~ 42 timmar. Denna begränsning är inställd för att binda den ekonomiska logiken hos ''röst'' tokentill sin kapacitet att indexera alla de framgångsrika ''Bevis av identiteter'' till ''Universal Basic Income'' droppar dynamiskt. Men möjligheten att börja interagera med systemet i sig borde inte kräva en lång väntetid: Genom att införa decimalspositioner kan nätverket erbjuda omedelbar tillfredsställelse genom att anpassa droppdynamiken till en minsta del av mänsklig uppmärksamhet.
 
-Considering that,
+Med tanke på att,
 
-  1 vote = 250 blocks = 2,500 minutes = 150,000 seconds
 
-To keep the shortest possible decimal extension while adapting the dripping rate to the minimum span of human attention, the ''vote'' network should perform a revolution every 15 seconds:
+  1 röst = 250 block = 2,500 minuter = 150,000 sekunder
 
-  15 seconds = 0.0001 votes
+För att hålla kortast möjliga decimalförlängning samtidigt som dropphastigheten anpassas till den minsta spänningen för mänsklig uppmärksamhet, ''röst'' nätverket ska utföra en revolution var 15: e sekund:
 
-In the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'' since this concept helps to express the speed at which the network grants political rights,
+  15 sekunder = 0.0001 röster
 
-  1 vote = 10,000 revolutions
+På samma sätt märks den minsta fraktionen av en Bitcoin som 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), vi anser att det är lämpligt att märka minsta fraktionen av en ''röst'' som en ''revolution'' eftersom detta koncept bidrar till att uttrycka den hastighet som nätverket ger politiska rättigheter till,
 
-Which can also be expressed as,
+  1 röst = 10,000 revolutioner
 
-  1 revolution = 0.0001 votes
+Vilket kan också uttryckas som,
 
-By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' bring almost instant access to political rights while keeping the same utility capacity as ''votes'' with a cost that is comparatively 10,000X more efficient than Nation-State elections:
+  1 revolution = 0.0001 röster
 
-  1 revolution = 0.0001 votes = $ 0.000725
+Genom att tillåta 4 decimala positioner i token, a ''revolution'' får droppas till ett giltigt ''Bevis av identitet'' i nätverket var 15: e sekund. ''Revolutioner'' ger nästan omedelbar tillgång till politiska rättigheter samtidigt som samma användarskapacitet som ''röster'' med en kostnad som är förhållandevis 10.000X effektivare än Nation-State val:
 
-For the identification of the token in third party applications, we suggest the ''VOTE'' and ''VOT'' tickers.
+  1 revolution = 0.0001 röster = $ 0.000725
 
-===3.5 End Game.===
+För att identifiera token i tredjepartsprogram, föreslår vi ''VOTE'' och ''VOT'' tickers.
+
+===3.5 Avsluta spelet.===
 
 <blockquote>
   “What happened to the governments?” I inquired. 
@@ -853,15 +854,15 @@ For the identification of the token in third party applications, we suggest the 
 </blockquote>
 '''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
 
-To those who argue about electronic voting online scoring their arguments with Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''the medium is the message'']. The need to establish trusted relations in digital environments is mandatory as human cooperation scales to the whole globe. But the generational opportunity to collaboratively build this possibility must be able to learn from the great lessons of History. The origins of computing goes back to [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM the first tabulating machine built by IBM for the 1890 US census] and the tallying of national elections after that. The very first proto-computers built by Alan Turing were made as a war effort able to beat nazi encryption ultimately demonstrating how intelligence can beat violence. The transition from analog to digital communications began with the [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ Magna Carta of the Information Age] published by Claude Shannon in 1948 laying out the foundations for digital code and vast networks for the transmission of intelligence, a vision made real by Sir Tim Berners-Lee's creation of the ''world wide web'' protocols. When Satoshi Nakamoto published the Bitcoin paper he inaugurated the era that is giving rise to the transition from analog to digital ''institutions''. An inevitable leap from maturing our shared understanding of the properties of information security. Blockchains are giving our world a new canvas in which to lay foundations that shall govern us all to the point of being worthy of not needing governance anymore. After all [https://en.wikiquote.org/wiki/Alfred_North_Whitehead civilization advances by extending the number of important operations which we can perform without thinking about them]. Digital technology has proven to possess a greater capacity in the reach and quality of its messaging abilities and as new generations grow connected under a global commons, information architectures will regulate our political and financial relations without the physical restrictions of the past. The undeniable success of the Bitcoin experiment consistently beating even the most radical forecasts throughout a decade speaks greatly about the unleashed potential humanity has found. The status-quo will always speak from a skeptical position since halting progress can only come from a position of comfort. But just as the Internet didn't wait for the adaptation of age-old empires, blockchains won't care for political promises: a technologically advanced society can enter agreements of mutual cooperation without falling back to the means of coercion and violence. Such is the remarkable consequence of disintermediation of trust without boundaries, a reality that won't emerge in a single isolated part of a country or region of the globe, but will be distributed across the entire planet. The ''next Silicon Valley'' is not in a far away land or on any land at all, but a new frontier of the internet itself rising as the one true open, free and sovereign network of peers.
+Till dem som argumenterar för elektronisk röstning online poängerar deras argument med Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''the medium is the message'']. Behovet av att skapa betrodda relationer i digitala miljöer är obligatoriskt som mänskligt samarbete vågar till hela världen. Men generations möjligheten att gemensamt bygga denna möjlighet måste kunna lära av historiens stora lärdomar. Uppkomsten av databehandling går tillbaka till [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM the first tabulating machine built by IBM for the 1890 US census] och sammanräkning av nationella val efter det. De allra första proto-datorerna, byggda av Alan Turing, gjordes som en krigsansträngning som kan slå nazi-kryptering och visar slutligen hur intelligens kan slå våld. Övergången från analog till digital kommunikation började med [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ Magna Carta of the Information Age] publicerad av Claude Shannon år 1948 om grunden för digital kod och stora nätverk för överföring av intelligens, en vision som gjordes av Sir Tim Berners-Lee skapande av ''world wide web'' protokoll. När Satoshi Nakamoto publicerade Bitcoin-papperet invigde han den tid som ger upphov till övergången från analog till digital ''institutioner''. Ett oundvikligt språng från att mogna vår gemensamma förståelse för informationssäkerhetens egenskaper. Blockkedjor ger vår värld en ny kanfas för att lägga grundar som ska styra oss alla för att vara värdiga att inte behöva styrning längre. Trots allt [https://en.wikiquote.org/wiki/Alfred_North_Whitehead civilization advances by extending the number of important operations which we can perform without thinking about them]. Den digitala tekniken har visat sig ha en större kapacitet inom räckvidden och kvaliteten på sina meddelanden och när nya generationer växer samman under en global commons, kommer informationsarkitekturer att reglera våra politiska och finansiella relationer utan de fysiska begränsningarna i det förflutna. Bitcoin-experimentets obestridliga framgång som konsekvent slår till och med de mest radikala prognoserna under ett decennium talar mycket om den släppta potentiella mänskligheten har funnit. Status quo kommer alltid att tala från en skeptisk position eftersom stoppande framsteg endast kan komma från en position av komfort. Men precis som Internet inte väntade på anpassningen av gammaldags imperier, kommer blockkedjor inte att bry sig om politiska löften: ett tekniskt avancerat samhälle kan ingå avtal om ömsesidigt samarbete utan att falla tillbaka till medel för tvång och våld. Sådan är den anmärkningsvärda konsekvensen av upplösning av förtroende utan gränser, en verklighet som inte kommer att dyka upp i en enda isolerad del av ett land eller en del av världen, men kommer att fördelas över hela planeten. Den ''nästa Silicon Valley'' ligger inte i ett avlägset land eller på något land alls, men en ny gräns på internet själv stiger som det sanna öppna, fria och suveräna nätverket av peers.
 
 ----
 
-==4. About.==
+==4. Om.==
 
-The Democracy Earth Foundation is an effort made possible by collaborators, donors and supporters of all kinds. We are a 501 (c) 3 not for profit organization from California and with presence in New York, Paris, Buenos Aires and San Francisco.
+Democracy Earth Foundation är en ansträngning som möjliggörs av samarbetare, givare och anhängare av alla slag. Vi är ett 501 (c) 3 inte för vinstorganisation från Kalifornien och med närvaro i New York, Paris, Buenos Aires och San Francisco.
 
-===4.1 Team & Collaborators.===
+===4.1 Team & Medarbetare.===
 
 Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
 
@@ -869,18 +870,18 @@ Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, San
 
 Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
 
-===4.3 Individual Donors.===
+===4.3 Individuella givare.===
 
 Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
 
-===4.4 Acknowledgements.===
+===4.4 Erkännande.===
 
-These are some of the minds that inspired the ideas expressed on this document.
+Det här är några av de sinnen som inspirerade de idéer som uttrycks på detta dokument.
 
 Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
 
 ===4.5 Supporters.===
 
-These organizations supported our work through grants, partnerships and recognition of our research and development efforts.
+Dessa organisationer stödde vårt arbete genom bidrag, partnerskap och erkännande av våra forsknings- och utvecklingsinsatser.
 
 [[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
