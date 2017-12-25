@@ -768,15 +768,15 @@ Genom att garantera en lika utgångspunkt för varje deltagare, oavsett vilken t
 
 Nätets värde ligger inte på den simulerade bristen utan på dess förmåga att registrera oskäliga beslut bland självstyrande på grundval av jämlikhet. Ursprungligen ''röst'' token kan konkurrera med pollare och andra rudimentära simuleringar som syftar till att förutse val, men så småningom kan det bli ett suveränt system som enbart som medborgarskap migrerar på nätet. ''Röster'' fungera som en signal som kan registrera händelser som spelats in på en oförgänglig blockchain som lagrar politisk historia som inte kan raderas eller ändras på något sätt. Framtida generationer blir utsatta för sina förflutna utan mellanhänder.
 
-===3.4 Value===
+===3.4 Värde===
 
-We take three approaches to define the value of the ''vote'' token:
+Vi tar tre metoder för att definiera värdet av en ''röst'' token:
 
-* '''Status-Quo''': Social media offers a clear reference on how ''likes'' get valued online.
-* '''Work & Time''': A ''Universal Basic Income'' perspective offers useful insights on how labour time is being valued.
-* '''Nation-States''': Traditional elections offer useful insights on how votes are valued today.
+* '''Status-Quo''': Sociala medier erbjuder en tydlig referens om hur ''likes'' bli värderad online.
+* '''Work & Time''': Ett ''Universal Basic Income'' perspektiv erbjuder användbar insikt om hur arbetstiden värderas.
+* '''Nation-States''': Traditionella val erbjuder användbar insikt om hur röster värderas idag.
 
-With those references, we then discuss the divisibility of the ''vote'' token and its implementation to govern a Democracy Support Fund.
+Med dessa referenser diskuterar vi sedan delningen av ''röst'' token och dess genomförande att styra en Democracy Support Fond.
 
 ====3.4.1 Status-Quo====
 
