@@ -466,17 +466,17 @@ För att bli en pålitlig miljö för decentraliserad styrning inom stora samhä
   a.k.a. ''Mobs''
 </blockquote>
 
-Among the most notable research projects on the field is [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. This was an internal implementation made for Google employees led by engineer Steve Hardt where he created a liquid democracy plug-in to be used on the internal version of Google+. The project had the following numbers in terms of impact:
+Bland de mest anmärkningsvärda forskningsprojekten på fältet är [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Detta var en intern implementering gjord för Google-anställda ledd av ingenjören Steve Hardt där han skapade en flytande demokratiprofil som skulle användas på den interna versionen av Google+. Projektet hade följande siffror när det gäller påverkan:
 
-* 15,000 participants.
+* 15,000 deltagare.
 
-* 371 decisions.
+* 371 beslut.
 
-* '''3.6% of delegated votes''' in total.
+* '''3.6% av delegerade röster''' totalt.
 
-The small percentage in delegations means that Google Votes operated more as a direct democracy than a liquid democracy. Delegations occured mostly among those users who actively campaigned to attract them (e.g. vegans in a team hoping to gather power to choose office snacks). The risk of few delegations is that it opens the democracy to the known risks of mob rule. Although this might keep legitimacy high, the quality of the decisions being made by an organization becomes more political than factual. Knowledgeable voices able to address specific problems within a community become disempowered.
+Den lilla andelen i delegationer innebär att Google Votes fungerade mer som en direkt demokrati än en flytande demokrati. Delegationer uppträdde mestadels bland de användare som aktivt satsade på att locka till sig dem (t ex veganer i ett lag som hoppades kunna samla makt för att välja kontorsnacks). Risken för få delegationer är att det öppnar demokratin mot de kända riskerna med mobregeln. Även om detta kan hålla hög legitimitet, blir kvaliteten på de beslut som görs av en organisation mer politisk än faktisk. Kunskapsrika röster som kan hantera specifika problem inom ett samhälle blir misslyckade.
 
-To increase delegation frequency, these happen every time self-sovereigns get validated. On the ''Proof of Identity'' process (see Section 3), users are able to natively generate their own ''votes'' as long as their individuality gets endorsed by other identities. Also since the ''vote'' token operates in a blockchain, delegations don't need to necessarily happen within the Sovereign application: messaging applications, tweets and e-mails can be sent with vote addresses or QR codes attached to them making the vote token able to be broadcasted across multiple networks.
+För att öka delegationsfrekvensen sker detta varje gång självstyrande blir validerad. På ''Bevis för identitet'' processen (se avsnitt 3), Användarna kan själva skapa egna ''röster'' så länge som deras individualitet blir godkänd av andra identiteter. Även sedan ''röst'' token operationer i en blockchain behöver delegationerna inte nödvändigtvis ske inom den suveräna applikationen: meddelanden, tweets och e-post kan skickas med röstadresser eller QR-koder som är kopplade till dem som gör det möjligt att sända röstetecknen över flera nätverk.
 
 ====2.6.2 Monopoly.====
 <blockquote>
