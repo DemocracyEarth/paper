@@ -417,24 +417,24 @@ Som standard tillhandahåller Sovereign de mest använda valmekanismerna för va
 ** '''Icke-diktatur''': ingen ensamväljare har befogenhet att alltid bestämma sociala preferenser.
 ** '''Pareto Effektivitet''': Om varje väljare föredrar ett alternativ till en annan, så måste den resulterande samhällsförmånsordningen.
 
-=====2.5.4.2 <code>Options</code>=====
+=====2.5.4.2 <code>Alternativ</code>=====
 
-In order to enable the information processing of ''votes'', ballots carry boolean values expressed in their options. This lets ''vote'' transactions signal a ''decision state'' that will act as a force modeling the institutional choices for the implementing organization. This makes all decentralized organizations also into programmable institutions. Options can then be:
+För att möjliggöra informationsbehandling av ''röster'', röstsedlar bära booleanska värden uttryckta i deras alternativ. Detta låter ''röst'' transaktioner signalera ett ''beslutstillstånd'' som ska fungera som en kraftmodellering av institutionella val för genomförandeorganisationen. Detta gör alla decentraliserade organisationer också till programmerbara institutioner. Alternativ kan då vara:
 
-* <code>True</code>: It will signal a <code>true</code> boolean value if selected (often described with 'Yes' or 'Positive' label strings).
-* <code>False</code>: Signals a <code>false</code> state (e.g. can display 'No' or 'Negative' labels).
-* <code>Linked</code>: The option is connected to another decision within the organization.
-* <code>Candidate</code>: A member or list of <code>Members</code> from the organization. This helps elect authorities within the organization or it can be used for membership approvals.
+* <code>True</code>: Det kommer att signalera a <code>true</code> booleanskt värde om det är valt (ofta beskrivet med 'Yes' or 'Positive' label strings).
+* <code>False</code>: Signalerar ett<code>false</code> state (e.g. can display 'No' or 'Negative' labels).
+* <code>Linked</code>: Alternativet är kopplat till ett annat beslut inom organisationen.
+* <code>Kandidat</code>: En medlem eller en lista över <code>Members</code> från organisationen. Detta hjälper till att välja myndigheter inom organisationen eller det kan användas för godkännande av medlemskap.
 
-=====2.5.4.3 <code>Criteria</code>=====
+=====2.5.4.3 <code>Kriterier</code>=====
 
-Finally, counting methods for the final or ongoing result of a decision within an organization.
+Slutligen räknar metoder för det slutliga eller löpande resultatet av ett beslut inom en organisation.
 
-* <code>Plurality</code>: Simple majority wins decision.
-* <code>Majority</code> A minimum percentage is required for winning decision.
-* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Widely used by Nation-State elections based on member lists.
-* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Commonly used by open source communities and Pirate Parties using ranked choice ballots.
-* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Counts votes weighting voter reputation in a graph.
+* <code>Mångfald</code>: Enkel majoritet vinner beslut.
+* <code>Majoritet</code> Minsta procentandel krävs för att vinna beslut.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Används i stor utsträckning av regionala val baserat på medlemslistor.
+* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Vanligtvis används av open source communities och Pirate Parties med hjälp av rankade valstämplar.
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Räknar röstviktningsväljarens rykte i en graf.
 
 ====2.5.5 <code>Budget</code>====
 
