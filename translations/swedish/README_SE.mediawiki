@@ -791,17 +791,17 @@ Marknadsförare som driver Facebook-reklammaskinen pris ''likes'' inom ett områ
 Med skapandet av Sovereign som ett gränssnitt för blockchainbaserade demokratier som arbetar med ''röst'' tokens, Democracy Earth Foundation's Målet är att leverera en ''Linux moment'' to Facebook: analogt med uppkomsten av operativsystem med öppen källkod i början av 1990-talet blev Linux ett alternativ till monopoliseringsstyrkan i Microsofts Windows som dominerade marknaden för persondatorer och internetservrar. Ett fritt och öppet Internet måste sträva efter skapandet av ett socialt nätverk där ingen enskild enhet kan utöva algoritmisk kontroll över de gemensamma idéerna i utbyte mot användarnas privata information. Och medan Facebook minskar användarens uppmärksamhet för vinst, kommer demokratimiljönätverket att använda samma resurs för att stärka förtroendet hos ''röst'' token med dess
 ''Bevis av identitet'' process. När vi erkänner det växande politiska inflytandet som sociala medier redan har i världen, är det brådskande att lägga ut ett öppet socialt nätverk som är okänsligt, att suveräna och fria pressar.
 
-====3.4.2 Work & Time====
+====3.4.2 Arbete & Tid====
 
-Coming from a ''Universal Basic Income'' perspective, a useful reference that values time and labour is the proposed [https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States minimum wage in the US] based on federal, state and local laws across the country. As of July 2016 it has been set at '''$7.25 per hour'''.
+Kommer från en ''Universal Basic Income'' perspektiv, en användbar referens som värderar tid och arbetskraft är den föreslagna [https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States minimum wage in the US] baserad på federala, statliga och lokala lagar över hela landet. Från och med juli 2016 har den ställts till '''$7.25 per timme'''.
 
 [[File:/images/minimum-wage-us.png|Minimum wage in the US.]]
 
-For the ''vote'' token to effectively become a useful network able to index UBI on a global scale, an expectation regarding its pricing dynamic must be set at 1 ''vote'' unit as equivalent to 1 hour of work. Hence this anchors the initial price of the token at:
+För ''röst'' token att effektivt bli ett användbart nätverk som kan indexera UBI på global nivå, måste en förväntan om sin dynamiska prissättning vara 1 ''röst'' enhet som motsvarar 1 timmes arbete. Därigenom förankras det ursprungliga priset på tokenet på:
 
-  1 vote = $ 7.25
+  1 röst = $ 7.25
 
-As long as the network successfully bans ''replicants'' and rewards validated self-sovereign identities indexed on the Bitcoin blockchain, then any UBI initiative can trust the present data to allocate resources without the risk of abuse.
+Så länge nätverket framgångsrikt förbjuder ''replikanter'' och belöningar validerade self-sovereign identiteter som är indexerade på Bitcoin blockchain, då kan något UBI-initiativ lita på nuvarande data för att allokera resurser utan risk för missbruk.
 
 ====3.4.3 Nation-States====
 
