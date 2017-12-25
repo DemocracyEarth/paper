@@ -570,25 +570,25 @@ Vem som helst kan visa sin egen identitet under ett decentraliserat protokoll so
 
 En självständig identitet måste frivilligt genereras av en användare som hävdar det. För detta ändamål måste användaren sända ett bevis på sin identitet som strikt uppfyller kriterier som kan uppfyllas av mänsklig bedömning och kan förhindra en artificiell intelligens från att störa processen. Därför ska beviset vara i ett format som kräver en stor mängd cerebral bandbredd: video. Ett tillfredsställande bevis ska uppfylla alla dessa egenskaper:
 
-* '''Omutlig''': Videofilen måste skyddas mot eventuella ändringar när den har använts som en källa för bevis.
+* '''Oföränderlig''': Videofilen måste skyddas mot eventuella ändringar när den har använts som en källa för bevis.
 * '''Singular''': Thans bevis ska validera en enskild identitet utan att tillåta duplicerade deltagare i nätverket (''replikanter'').
 * '''Ansedd''': <code>Organisationer</code> som gör validering av en POI fäster sitt rykte på den beprövade identiteten med dess signatur.
 
 Trots att ett digitalt styrsystem kan dra nytta av det förtroende som redan finns i befintliga nätverk som validerar identiteter (dvs. nationstater), tjänar ett decentraliserat protokoll för att validera identiteter det politiska syftet med personlig suveränitet. Fördelarna med denna offentliga post i en nätverksbaserad commons kan så småningom användas av regeringar eller privata organisationer på olika sätt (t. Ex. Verifiering av ålder eller nationalitet). Här föreslår vi en ny metod för att validera identiteter utan att behöva en enda ''Big Brother''.
 
-En ''Bevis för identitet'' löper ut efter en viss tid för att förhindra Sybil-attacker och se till att endast levande användare deltar i nätverket. För att upprätthålla validiteten hos det offentliga-privata nyckelparet föreslår vi att en period på 1 år är tillräcklig för att skapa ett nytt bevis som uppdaterar den tidigare. På samma sätt som fysiska identiteter kontrolleras genom att jämföra bild till person, måste användarna återskapa deras ''Bevis för identitet'' och sända den för verifiering för att verifiera sin legitimitet. I år kan perioden hänvisas till sammanträdet som ''blockbirth'' av en individ och, om så önskas, firas årligen på samma sätt som nationer firar sin självständighetsdag. Eftersom nyfödda barn är registrerade under denna globala jurisdiktion, ''blockbirths'' get synced with birth dates and will be able to incorruptibly attest for age as well gradually reducing the work of authenticators over time.
+En ''Bevis av identitet'' löper ut efter en viss tid för att förhindra Sybil-attacker och se till att endast levande användare deltar i nätverket. För att upprätthålla validiteten hos det offentliga-privata nyckelparet föreslår vi att en period på 1 år är tillräcklig för att skapa ett nytt bevis som uppdaterar den tidigare. På samma sätt som fysiska identiteter kontrolleras genom att jämföra bild till person, måste användarna återskapa deras ''Bevis för identitet'' och sända den för verifiering för att verifiera sin legitimitet. I år kan perioden hänvisas till sammanträdet som ''blockbirth'' av en individ och, om så önskas, firas årligen på samma sätt som nationer firar sin självständighetsdag. Eftersom nyfödda barn är registrerade under denna globala jurisdiktion, ''blockbirths'' get synced with birth dates and will be able to incorruptibly attest for age as well gradually reducing the work of authenticators over time.
 
 ====3.2.1 Demo.====
 
 [[File:/images/roma-siri-blockchain-baby.png|Roma Siri's blockchain birth certificate.]]
 
-There is a precedent that helps to illustrate how a ''Proof of Identity'' works. [https://youtu.be/Irc-VMuUs3c?t=55m20s According to NYU professor David Yermack], newborn Roma Siri became the first baby to have a blockchain valid birth certificate on November 7, 2015. The process, even though symbolic at the time, consisted of [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 a video showing baby Roma that described her vital signs and included witnesses of her birth]. Once the video was filmed, a cryptographic hash of the digital file was generated and encoded into a Bitcoin transaction. This means that regardless where the video is stored, the permanent record of its hash on the Bitcoin blockchain can verify that the file's data was not corrupted and that it existed at the time the proof was generated. With this incorruptible evidence, Roma became a blockchain-certified global citizen.
+Det finns ett prejudikat som hjälper till att illustrera hur en ''Bevis av identitet'' fungerar. [https://youtu.be/Irc-VMuUs3c?t=55m20s Enligt NYU professor David Yermack], nyfödda Roma Siri blev den första bebisen att ha ett blockchain giltigt födelseintyg på November 7, 2015. Processen, även om den symboliska den tiden bestod av [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 en video som visar bebisen Roma som beskrev hennes vitala tecken och inkluderade vittnen om hennes födelse]. När videon filmade, genererades en kryptografisk hash av den digitala filen och kodades in i en Bitcoin-transaktion. Det betyder att oavsett var videon lagras kan den permanenta posten av sin hash på Bitcoin blockchain verifiera att filens data inte var korrumperad och att den existerade när beviset genererades. Med detta oupphörliga bevis blev Roma en blockchain-certifierad global medborgare.
 
-This demo serves as an example for the steps that need to be followed for a decentralized ''Proof of Identity'':
+Denna demo fungerar som ett exempel på de steg som måste följas för en decentraliserad ''Bevis av identitet'':
 
-# '''Film proof''' using any available smartphone or camera.
-# '''Hash proof''' on a blockchain to guarantee incorruptibility of evidence.
-# '''Validate proof''' through a voting process among peers (''Attention Mining'').
+# '''Film bevis''' använder någon tillgänglig smartphone eller kamera.
+# '''Hash bevis''' på en blockchain för att garantera obestridlighet av bevis.
+# '''Bekräfta bevis''' genom en omröstningsprocess bland kamrater (''Attention Mining'').
 
 ====3.2.2 Video Proof.====
 
