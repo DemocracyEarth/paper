@@ -692,51 +692,51 @@ Tiden är en värdefull och begränsad tillgång, som därför kan omsättas. Ma
 
 En self-sovereign kan då erhålla ''röster'' på tre olika sätt:
 
-* '''Delegering''': Any <code>Member</code> within an <code>Organization</code> operating as a liquid democracy can get delegated ''votes''.
+* '''Delegering''': <code>Medlemmar</code> inom en <code>Organisation</code> fungerar som en flytande demokrati kan få delegerade ''röster''.
 * '''Tilldelning''': <code>Organisationer</code> kan tilldela ''röster'' till nya deltagare på sina egna villkor. Deltagare kan skapa eller finansiera <code>Organisationer</code> som använder sina egna ''röster''.
 * '''Droppa''': När ett ''Bevis av identitet'' blir giltigt, ''röster'' börja droppa in i användarens plånbok över tiden.
 
 ====3.3.1 Droppning.====
 
-The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rhythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means,
+Den hastighet vid vilken 1 ''röst'' droppas till en verifierad identitet synkroniseras med Bitcoin blockchain. Genom att använda Bitcoins synkroniseringsmekanism som klocka sätter en ofäränderligt konsensus rytmen för hela nätverket. Bitcoin kedjar ett nytt block till blockchain var 10: e minut, vilket innebär att
 
-  1 hour = 6 blocks
+  1 timme = 6 blocks
 
-Assuming that earnable time across the globe is based on 8 hour work days,
+Antag att den tjänade tiden över hela världen bygger på 8 timmars arbetsdagar,
 
-  8 hours per day x 5 days per week x 52 weeks per year = 2,080 hours per year
+  8 timmar per dag x 5 dagar per vecka x 52 veckor per år = 2,080 timmar per år
 
-Or in block time,
+Eller i  block tid,
 
-  2,080 hours = 12,480 blocks
+  2,080 timmar = 12,480 blocks
 
-And considering that established consensus on [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 an ideal basic income rate averages around 10% of an individual's earnings] we can define that,
+Och med tanke på att det fastställdes enighet om [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 en ideell grundinkomst är i genomsnitt cirka 10% av en individs intäkter] vi kan definiera det,
 
-  10% earnings Annual Basic Income = 208 hours per year = 1,248 blocks
+  10% Intjänad årlig grundinkomst = 208 timmar per år = 1 248 block
 
-Which means that of the ~52,560 blocks that register a full year of activity on Bitcoin's blockchain, a total of 1,248 blocks should be accounted for rewarding a UBI per year. To sync ''vote'' dripping with Bitcoin as a UBI mechanism based on 10% earnings for every working hour, 1 full unit of a ''vote'' token should then drip every ~42 hours (or ~252 blocks). For the purpose of guaranteeing a feasible divisibility of the ''vote'' token so it can be dripped every few seconds (while it also becomes easier for human and machine interpretation), we set the dripping rate at,
+Det betyder att de 52.560 blocken som registrerar ett helt verksamhetsår på Bitcoins blockchain, ska totalt 1 248 block redovisas för att belöna en UBI per år. Att synkronisera ''röst'' droppar med Bitcoin som en UBI-mekanism baserad på 10% vinst för varje arbetstid, 1 full enhet av a ''röst'' token ska droppa var ~ 42 timmar (eller ~ 252 block). För att garantera en möjlig delbarhet av ''röst'' token så det kan droppas några sekunder (medan det blir lättare för tolkning av människor och maskiner) ställer vi dropphastigheten på,
 
-  1 vote = 250 blocks
+  1 röst = 250 block
 
-So every valid POI gets granted a total of:
+Så får alla giltiga POI totalt:
 
-  210 votes per year
+  210 röster per år
 
 [[File:/images/proof-of-identity-dripping.png|Dripping mechanism for mined votes.]]
 
-Therefore by taking into account the following variables:
+Därför med beaktande av följande variabler:
 
-* T = Present block height (i.e. current Time).
-* r = A constant for ''vote'' allocation rate, set at 1 vote every 250 blocks in time.
-* Pᵢ = The ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
-* Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity (i).
-* Vᵢ = Total quantity of ''votes'' for a given identity (i).
+* T = Nuvarande blockhöjd (i.e. aktuell tid).
+* r = En konstant för ''röst'' fördelningsgrad, ställd till 1 röst varje 250 block i tid.
+* Pᵢ = Ett ''Bevis av identitet'' block innehållande dess motsvarande hash för en given identitet (i).
+* Sᵢ = ''Singularity score'' uttryckt som <code>true</code> or <code>false</code> Ange för en given identitet (i).
+* Vᵢ = Total mängd av ''votes'' för en viss identitet (i).
 
-Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with the formula:
+Sedan ''röst'' en self-sovereign identitet får användas i systemet kan beräknas på vilken nod som helst som kör ett smart kontrakt med formeln:
 
 [[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
 
-As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of Vᵢ will either be a number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if the POI is rejected (i.e. Sᵢ = <code>false</code>), then the participant's available votes becomes zero.
+Så länge som ''Proof of Identity'' har validerats av gemenskapen och ett smart kontrakt synkroniseras med en aktiv blockchain-nod, kommer värdet av Vᵢ antingen att vara ett tal som definierar den totala mängden ''röster'' en self-sovereign har rätt att använda på en värdplånbok eller, om POI avvisas (i.e. Sᵢ = <code>false</code>), då blir deltagarens tillgängliga röster noll.
 
 ====3.3.2 Equality====
 
