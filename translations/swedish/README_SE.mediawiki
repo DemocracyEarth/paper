@@ -444,22 +444,22 @@ Varje <code>Organisation</code> kan ha 1 eller flera krypteringsadresser för at
 
 * '''Procentandel för <code>Frågor</code>''': <code>Medlemmar</code> försöker använda resurser från <code>Organisation</code> kan begära dem genom att bifoga en <code>Budget</code> till en <code>Fråga</code>. En <code>Medlem</code> kan begära att använda medel från en pool som är speciellt avsedd för detta. Om det slutliga resultatet av ett beslut når ett visst värde (<code>true</code> or <code>false</code>), Det kan sedan genomdriva det slutgiltiga beslutet genom att låsa upp mynt eller utlösa en transaktion som skickar de begärda tillgångarna till en viss adress.
 
-===2.6 Security.===
+===2.6 Säkerhet.===
 
-With Sovereign we are aiming to provide a lightweight governance framework that permits all stakeholders of an organization to participate and enforce decisions through the use of cryptography. But it is important to state that we are not aiming for a democratic system based on mob-rule or [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. History offers sufficient examples on how a blind majority can end up failing the aspirations of a republic often putting demagogues in power.
+Med SovereignVi strävar efter att tillhandahålla ett lätta styrningsramverk som tillåter alla intressenter i en organisation att delta och genomdriva beslut genom användandet av kryptografi. Men det är viktigt att säga att vi inte syftar till ett demokratiskt system baserat på mob-regel eller [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. Historien erbjuder tillräckliga exempel på hur en blind majoritet kan hamna i en republiks ambitioner, som ofta sätter demagoger i kraft.
 
 [[File:/images/ideal-democracy.png|Ideal democracy.]]
 
-Our main goal is to deliver a system able to guarantee the greatest amount of legitimacy while empowering the most knowledgeable voices in any community. The difference between fact and promise is simple: while the art of politics consists in sustaining the fiction that breeds trust in established institutions (e.g. politicians during campaigns), cryptographic proof of events delivers a more reliable method for trusted governance. The incorruptible nature of blockchain transactions provides an incentive for people not to lie, hence organizations storing votes and decisions in them get driven by facts rather than promises. Corruption can be fought at its root as we develop a new sense of citizenship based on digital networks.
+Vårt huvudsyfte är att leverera ett system som kan garantera största möjliga legitimitet samtidigt som vi ger de mest kunniga rösterna i alla samhällen. Skillnaden mellan faktum och löfte är enkel: Medan politiken utgörs av att upprätthålla den fiktion som bygger förtroende för etablerade institutioner (t ex politiker under kampanjer), ger kryptografiska bevis på händelser en mer tillförlitlig metod för tillförlitlig styrning. Blockchain-transaktionernas oförstörbara karaktär ger incitament för människor att inte ligga, varför organisationer som lagrar röster och beslut i dem blir drivna av fakta snarare än löften. Korruption kan bekämpas i sin rots när vi utvecklar en ny känsla av medborgarskap baserat på digitala nätverk.
 
-Still, liquid democracies can be gamed in different ways with outcomes dominated by the unintended consequences of two dynamics representing extreme ends of the participation spectrum:
+Likväl kan flytande demokratier spelas på olika sätt med resultat som domineras av de oavsiktliga följderna av två dynamiker som representerar extrema ändamål av deltagande spektrum:
 
-* '''Lack of delegation''' leading to a ''polyopoly'': extreme fragmentation of voting power.
-* '''Abundance of delegations''' leading to a ''monopoly'': extreme concentration of voting power.
+* '''Brist på delegering''' vilket leder till ''polyopoly'': extrem fragmentering av röststyrkan.
+* '''Överflöd av delegationer''' vilket leder till ''monopoly'': extrem koncentration av rösträtten.
 
-Each outcome impacts one of the two axes measuring the quality of democratic governance. The incentives on the ''vote'' political economy are designed to keep a stable equilibrium aiming to guarantee the highest level of legitimacy and fact-based decision making.
+Varje utfall påverkar en av de två axlar som mäter kvaliteten på demokratisk styrning. Incitamenten till den politiska ekonomins "ekonomisk" ekonomi är utformad för att hålla en stabil jämvikt som syftar till att garantera högsta legitimitet och faktabaserade beslutsfattande.
 
-To become a trusted environment for decentralized governance under large communities (cities, nations or global scale), Sovereign must be protected against different kinds of attackers: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
+För att bli en pålitlig miljö för decentraliserad styrning inom stora samhällen (städer, nationer eller globala skalenden) måste suveräna skyddas mot olika typer av angripare: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
 
 ====2.6.1 Polyopoly.====
 <blockquote>
