@@ -590,36 +590,36 @@ Denna demo fungerar som ett exempel på de steg som måste följas för en decen
 # '''Hash bevis''' på en blockchain för att garantera obestridlighet av bevis.
 # '''Bekräfta bevis''' genom en omröstningsprocess bland kamrater (''Attention Mining'').
 
-====3.2.2 Video Proof.====
+====3.2.2 Film bevis.====
 
-A proof can be done with any recording application as long as it satisfies the requirements of the protocol. An extension no longer than 3 minutes is recommended for the video. In it the user must follow a series of scripted steps in order to help validators judge with their attention:
+Ett bevis kan göras med någon inspelningsansökan så länge den uppfyller kraven i protokollet. En förlängning inte längre än 3 minuter rekommenderas för videon. I det måste användaren följa en serie skriftliga steg för att hjälpa validerare att döma med sin uppmärksamhet:
 
-# '''Face''': Under frontal light, film frontal expression (as when taking a ''selfie'') and each side of the head without wearing eyeglasses, hats, makeup or masks of any kind.
+# '''Ansikte''': Under frontljuset, filmfrontalsexpression (som när man tar en ''selfie'') och varje sida av huvudet utan att ha på sig glasögon, hattar, smink eller masker av något slag.
 
-# '''Names''': Say out loud the following indicators:
-## Full given name (language-based identity).
-## Full surname (blood-based identity, additionally it can state information regarding mother and father).
-## Nationality (territorial-based identity, it can include place of residence or tax paying jurisdiction).
-## Alternatively the user can use a nickname if it is a more common pointer to his self.
+# '''Namn''': Säg högt följande indikatorer:
+## Fullt namn (språkbaserad identitet).
+## Fullt efternamn (blod-baserad identitet, dessutom kan det ange information om mor och pappa).
+## Nationalitet (territoriell-baserad identitet, det kan innefatta bostadsort eller skattemyndighet).
+## Alternativt kan användaren använda ett smeknamn om det är en mer vanlig pekare för sig själv.
 
-# '''Biometrics''' (Optional): Say out loud or demonstrate in a reliable way any of these indicators. This can be useful for specific use cases such as birth certificates.
-## Birthday (day, month and year).
-## Height (inches or centimeters).
-## Weight (pounds or kilograms).
-## Gender (male, female, etc).
+# '''Biometrics''' (Optional): Säg högt eller visa på ett tillförlitligt sätt någon av dessa indikatorer. Detta kan vara användbart för specifika användningsfall som födelsecertifikat.
+## Födelsedag (dag, månad och år).
+## Höjd (tum eller centimeter).
+## Vikt (gram eller kilo).
+## Kön (man, kvinna, etc).
 
-# '''Witnesses''' (Optional): Previously validated identities can act as witnesses for this identity. They can be physically on location and appear in the video stating their full names and public keys to endorse a new identity.
-## The witnesses can get granted the rights to revoke, update or cancel this proof (e.g. in case of loss of private keys or biological death).
-## Twins. Those who have a twin brother or sister must specify this to prevent being flagged as a ''replicant'' during the verification process.
-## Certifications. Even though this would be falling back to central authority, legacy reputation from state-issued documents can help make a video proof easier to trust. This might include a birth certificate, driver's license or a national ID as long as it doesn't hold any sensitive information (e.g. using a Social Security Number in the US).
+# '''Vittnen''' (Optional): Tidigare validerade identiteter kan fungera som vittnen för denna identitet. De kan vara fysiskt placerade och visas i videon med fullständiga namn och offentliga nycklar för att stödja en ny identitet.
+## Vittnen kan få rätt att återkalla, uppdatera eller annullera detta bevis (t ex vid förlust av privata nycklar eller biologisk död).
+## Tvillingar. De som har en tvillingbror eller syster måste ange detta för att förhindra att flagga som en replikant under verifieringsprocessen.
+## Certifieringar. Trots att detta skulle falla tillbaka till centralmyndigheten kan äldre rykte från utgivna dokument hjälpa till att göra en videosäkerhet lättare att lita på. Detta kan innehålla ett födelsecertifikat, körkort eller ett nationellt ID så länge det inte innehåller någon känslig information (t.ex. med ett socialt säkerhetsnummer i USA).
 
-# '''Declaration''': To guarantee that the person generating his or her identity proof is aware of the rights he will receive upon having his membership approved on the network and is not being coerced by an unseen attacker, it is mandatory to make a declaration of self-sovereignty that also includes an oath regarding the stated facts: <blockquote>I, (Personal Name), declare that I'm making this video in accordance to my personal sovereignty as a citizen of Earth and all the statements made are true. I will be the sole user of all the ''votes'' allocated on behalf of this proof and I'm acting without any threat or coercion against my free will.</blockquote>
+# '''Deklaration''': För att garantera att den person som genererar sitt identitetsbevis är medveten om de rättigheter han kommer att få efter att ha godkänt sitt medlemskap i nätverket och inte tvingas av en osynlig angripare, är det obligatoriskt att göra en självständighetsförklaring som också innehåller en ed om de angivna fakta: <blockquote> Jag, (Personligt namn), intygar att jag gör den här videon i enlighet med min personliga suveränitet som jordens medborgare och alla uttalanden som görs är sanna. Jag kommer att vara ensam användare av alla ''röster'' tilldelas på uppdrag av detta bevis och jag agerar utan hot eller tvång mot min fria vilja.</blockquote>
 
-# '''Public Key''': An address where ''votes'' will be allocated if identity is validated. This will be the [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md Decentralized Identifier (DID)] pointing to this user. If this identity eventually is voted as corrupted or the user (or any listed witness) revoke it, then the allocated ''votes'' will get invalidated for future use.
+# '''Public Key''': En adress där ''röster'' kommer att tilldelas om identiteten är validerad. Detta kommer att vara [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md Decentraliserad Identifierare (DID)] som pekar på den här användaren. Om den här identiteten så småningom röstas som skadad eller användaren (eller något listat vittne) återkallar det, då den tilldelade ''röster'' kommer att bli ogiltig för framtida användning.
 
-# '''Timestamp''': Current block height of the blockchain used for hashing this video to prevent any videos unrelated to the moment in time the POI is being generated to be used as proof. A manual timestamp can simply film the screen of a blockchain explorer application displaying the last block number and the hash corresponding to it. Since this might be complex for most users, apps designed to generate this proof can automatically add this content to the video. This information once the proof is hashed with a blockchain transaction will certify the video was not modified in any possible way by a third party after it was broadcasted to the network.
+# '''Timestamp''': Den aktuella blockhöjden för blockchain som används för att hacka den här videon för att förhindra att videoklipp inte är relaterade till det aktuella ögonblicket, blir intressepunktet genererat för att användas som bevis. En manuell tidstämpel kan helt enkelt filma skärmen av en blockchain explorer-applikation som visar det sista blocknumret och den hash som motsvarar den. Eftersom det här kan vara komplicerat för de flesta användare, kan appar som är utformade för att generera detta bevis automatiskt lägga till det här innehållet i videon. Den här informationen när beviset är hashed med en blockchain-transaktion kommer att bekräfta att videon inte modifierades på något sätt av tredje part efter det att det sändes till nätverket.
 
-Even though this process can be more complex than the average sign-up form found on most applications, it is important to state that it is also a political act declaring independence from authorities of any kind. This video is the personal manifesto anyone can make to break free from coercion and a step taken towards a borderless democracy.
+Trots att denna process kan vara mer komplex än den genomsnittliga anmälningsblanketten som finns i de flesta tillämpningar är det viktigt att påstå att det också är en politisk handling som förklarar oberoende från myndigheter av något slag. Denna video är det personliga manifest som någon kan göra för att bryta sig undan tvång och ett steg mot en gränslös demokrati.
 
 ====3.2.3 Hashing.====
 
