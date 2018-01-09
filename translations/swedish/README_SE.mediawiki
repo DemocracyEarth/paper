@@ -1,0 +1,887 @@
+<pre>
+  DEF: 1
+  Titel: Det sociala smarta kontraktet
+  Författare: @DemocracyEarth.
+  Kommentarer-Sammanfattning: Inga kommentarer än.
+  Status: Aktiv
+  Typ: Papper
+  Skapad: 2017-07-14
+  Licens: MIT
+  Ersätter: 0
+</pre>
+
+=Det smarta sociala kontraktet.=
+Erbjudandets initiala rättigheter är från [http://democracy.earth Democracy Earth Foundation].
+
+==i. Abstrakt.==
+
+I en värld som lyckats med globaliseringen av finansiella tillgångar, samtidigt som de politiska rättigheterna bifogas territorier, måste vi bygga nya modeller för demokratisk styrning som gör det möjligt för mänskligheten att samarbeta och ta itu med pressande globala frågor. Democracy Earth Foundation bygger gratis, öppen källkodsprogramvara för oförstörbart blockchain-baserat beslutsfattande (omröstning) inom institutioner av alla storlekar, från de mest lokala som involverar två personer till de mest globala som involverar oss alla. Ojämn fördelning av möjligheter runt om i världen på grund av den eviga konfrontationen mellan nationella regeringar har lett till snabbare klimatförändringar, ökande ojämlikhet, terrorism och tvångsflyttningar. Demokrati Earth Foundation anser att den teknikstack som innehåller Bitcoin som programmerbara pengar utan centralbanker och Ethereum som möjliggör smarta avtal utan att det behövs domstolar för domstolar kräver ett nytt lager som signalerar oförstörda röster bortom landstaternas territoriella gränser. Detta transnationella nätverk kommer att handla i enlighet med medlemmarnas personliga suveränitet och skydda sina mänskliga rättigheter med kryptering. I vårt Initial Rights Offering erbjuder vi en token som heter '' röst '' som ger deltagande rättigheter till varje människa med beslutsfattande som huvudfunktion. Vårt förslag introducerar kryptografiskt inducerad jämlikhet: så länge som någon kan validera sin självständiga identitet, kommer de att få en motsvarande andel av "röster" som motsvarar andelen av varje aktiv deltagare i nätverket. Vi definierar en "bevisa sin identitet" -process som undviker central auktoritet genom att införa begreppet "uppmanar uppmärksamhet" vilket stimulerar deltagarna att stärka förtroendet för "röst" genom att utföra enkla test som syftar till att upptäcka kopior. Slutligen dras "röster" till giltiga deltagare under en "Universell grundinkomst" -mekanism med målet att hitta en rättjämvikt i den historiska spänningen mellan pengar och politik. Vi söker ingenting mindre än äkta demokratisk styrning för Internetåldern, en av de grundläggande byggstenarna av en uppnå global fred och välstånd som uppstår genom en båge av tekniska innovationer som kommer att förändra vad det innebär att vara mänsklig på jorden.
+
+==ii. Innehåll.==
+
+Denna text är uppbyggd i tre delar, var och en syftar till att tillgodose ett annat läsemål (och som alla kan utgöras av en och samma person.)
+
+* [[#Manifest|Manifest]]: För idealister. Diagnoserar globalt politiskt sammanhang och argumenterar för en paradigmförändring.
+
+* [[#Papper|Papper]]: För byggare. Beskriver byggstenarna för ett system som kan implementeras av någon, var som helst.
+
+* [[#Utförande|Utförande]]: För pragmatister. Anger hur man utför dessa idéer för få genomslag.
+
+Vi har inte för avsikt att denna text förbli fast. Den publiceras under en öppen källkod och vi välkomnar bidrag från någon, eftersom vårt mål är att detta dokument ska vara en levande färdplan för planetstyrning. Demokrati som förmågan att lita på varandra i största möjliga utsträckning är en avgörande kraft som bildar historiens banor. Vårt uppdrag ekar brådskande över hela världen, som omfattar hela mänskligheten: behovet av att göra vårt gemensamma hem en plats för fredlig samexistens. [http://democracy.earth Democracy Earth Foundation] har genomfört [[#Background|omfattande forskning]] på röstsystem, cyberpolitics och blockchain-nätverk; vi står i spetsen för en offentlig konversation angående internet som en planetarisk jurisdiktion.
+
+Genom [https://twitter.com/lsukernik/status/892101885771034628 exempel från Satoshi Nakamoto], Innan vi delar våra idéer i skriftlig form har vi åtagit sig att skriva kod först för att kunna förstå vad som kan göras. För detta ändamål, mer än [https://github.com/DemocracyEarth/sovereign 30,000 rader kod har skrivits sedan oktober 2015], som i sin tur drivit vår forskning, använder fall och de idéer som presenteras här. Detta är vårt förslag.
+
+<div id="Background"></div>
+
+==iii. Bakgrund.==
+
+Vi har banat väg för digital demokrati och författat några av de mest framstående demokratiska programmen med öppen källkod [https://github.com/search?utf8=%E2%9C%93&q=topic%3Ademocracy&type=Repositories as ranked by the GitHub community] inklusive den ursprungliga utformningen av [https://www.youtube.com/watch?v=qNCgfd7dNb0 DemocracyOS],ett enkelt direktdemokratiprojekt som vi skapade under 2012. Vi grundade det första digitala politiska partiet i Amerika, USA [http://partidodelared.org Partido de la Red] (Peers Party) som ställde upp i sitt första val i staden [http://www.wired.co.uk/article/e-voting Buenos Aires in 2013]. Under 2014 delade vi vår erfarenhet i [https://www.ted.com/talks/pia_mancini_how_to_upgrade_democracy_for_the_internet_era TED] Talks nå över 1,2 miljoner tittare. Under 2015 och 2016, Silicon Valley's [http://ycombinator.com Y Combinator] och [http://ffwd.org Fast Forward] finansierade våra ansträngningar att starta [http://democracy.earth Democracy Earth Foundation], en ideell organisation som är engagerad i uppdraget att gränslös styrning.
+
+Vår erfarenhet av att kombinera både de politiska och tekniska utmaningarna av demokratin ledde oss att tänka och designa kring begreppet hur vi skulle kunna bygga ett politiskt parti med smarta avtal, eller snarare en lätt styrelseform som alla kan genomföra till låg kostnad. Vi började utvecklingen av [http://sovereign.software Sovereign], a '''''blockchain liquid democracy''''' som möjliggör direkt omröstning om frågor samt möjligheten att delegera röststyrka på specifika ämnen till kamrater över ett säkert nätverk utan central myndighet. Genom att fungera med symboler som signaleras i blockchain blir alla röster censurbeständiga och omedelbara revisionsrättigheter kan beviljas varje väljare utan att behöva ge tillgång till servrar eller privat infrastruktur, vilket gör systemet öppet och öppet för alla. Vårt arbete drivs av öppen källkodsutveckling och samarbetar med nyckelprojekt som syftar till att säkerställa identitet i decentraliserade miljöer, inklusive insatser från [https://blockstack.org/blockstack_usenix16.pdf Blockstack], [http://civic.com Civic] och [https://whitepaper.uport.me/uPort_whitepaper_DRAFT20170221.pdf Consensys] bland andra.
+
+[[File:/images/sovereign.png|Sovereign.]]
+
+[https://github.com/DemocracyEarth/sovereign Sovereign's codebase] levererar en anpassningsbar mobil och stationär applikation till väljare och organisationer som standardiserar oförstörbart beslutsfattande i en blockchainbaserad demokrati. Vårt mål är att fortsätta bana väg för implementeringar som möjliggör [https://www.usenix.org/legacy/event/sec08/tech/full_papers/adida/adida.pdf cryptographic open-audit voting] och integrera vår programvara med blockkedjor som kan garantera användarnas suveräna rättigheter.
+
+----
+
+<div id="Manifesto"></div>
+
+==1. Manifest.==
+
+<blockquote>
+ Demokrati är alltid ett pågående arbete, det är aldrig en absolut idé eller det skulle annars vara en totalitär ideologi, precis som resten av dem.
+</blockquote>
+'''[https://en.wikipedia.org/wiki/Jos%C3%A9_Mujica José Mujica]''', President i Uruguay (2010–2015).
+
+Nuvarande demokratiska system som styr samhällen inom nationernas territoriella domän har blivit stillastående när det gäller deltagande och leder till ökad polarisering. Valkretsar är försedda med skräddarsydda medier som uppfyller sina egna endogamiska övertygelser, drar samhället från varandra eftersom diskurs och faktuell debatt ersätts med en [https://www.wikiwand.com/en/Post-truth_politics post-truth] attityd. Det här är en följd av den drastiska expansionen i kommunikationskanaler, åtföljd av ständigt uppmärksamma spänningar och en genomtänkt analys. Centraliserad informationsdistribution från 20-talet skapade enhetliga berättelser, realiteter och identiteter. Internet har brutit dem. Instanser av politiskt deltagande i de så kallade moderna demokratierna är inte lämpliga för information rikliga sammanhang och har varit oförändrade sedan starten.
+
+[[File:/images/bipartisan-votes-us-congress.png|Bipartisan votes in the U.S. House of Representatives since 1981, source: The Rise of Partisanship (2015).]]
+
+Engagemanget genom de traditionella kanalerna är svagare bland yngre generationer, [http://www.economist.com/news/essays/21596796-democracy-was-most-successful-political-idea-20th-century-why-has-it-run-trouble-and-what-can-be-do often not going out to vote and unlikely to engage in party politics]. Samtidigt ökar onlineaktivismen med sociala medier som blir dominerande arena för politiska konflikter. Detta inkluderar Facebook och Twitter (där skvaller sprids övervägande ''falska nyheter'', ''bots'' and ''trolling'' bland annat kampanjoptimeringar) och framväxande ekokamrar som [http://www.4chan.org/ 4chan.org] där anonymitet ledde till politisk oriktighet eller [https://gab.ai/ gab.ai] konsoliderande av ''alt-right'' gemenskapen i USA. Naturligtvis gör endogamin bara polarisering starkare, och våra tribaliserade samhällen har visat en tendens att fortsätta relativiserande sanning [https://www.nytimes.com/2017/06/01/climate/trump-paris-climate-agreement.html risking the preservation of resources] och överlevnad av kommande generationer.
+
+Demokratiska processer som ses under högstatsval är ofta benägna att bedrägligt beteende med [https://en.wikipedia.org/wiki/Gerrymandering ''gerrymandering''] bli vanligt och en stark koppling mellan vad [https://www.ineteconomics.org/uploads/papers/WP_48_Ferguson_et_al.pdf major political parties spend and the percentage of votes they win]. I utvecklingsländerna tas rösterna bort, brutna och till och med brända av stora partier i hopp om att undertrycka chanserna för mindre konkurrenter.
+
+I det här dokumentet föreslås en lösning som tar itu med både de politiska och tekniska frågorna som försvagar utsikterna för demokrati i världen genom att erbjuda ett alternativ som kan antas direkt av medborgarna och genomföras med hjälp av peer to peer-nätverk. Eftersom internet blir den dominerande kraften i modern politik ser vi ett oumbärligt behov av att utveckla digitalteknik för röstning som kan användas säkert på alla geografiska platser och för samhällen av alla storlekar.
+
+Med internet tillväxt [http://www.bbc.com/news/technology-32884867 nås över 3 miljarder liv] (långt överträffande större religioner och nationer) och utvecklingen av krypterade nätverk som kallas blockkedjor som tillåter oförgängliga transaktioner med tillståndslösa revisioner, finns det ingen anledning att stoppa mänskligheten från att bygga en gränslös commons som kan hjälpa till att forma nästa utvecklingssteg för demokratisk styrning i vilken skala som helst . Även i områden där internetpenetration ligger under 50%, är det digitala gapet inte baserat på socioekonomiska faktorer men det är snarare en generationsdelning. Enligt Rick Falkvinge, grundare av  [https://en.wikipedia.org/wiki/Pirate_Party Pirate Party]: “Politiken rör sig vid glacial hastighet: ingenting verkar hända tills plötsligt ett ansträngande ljud får allas uppmärksamhet. Det är långsamt eftersom det ofta tar en generation att dö för nästa att ta över. Och idag lever vi i en värld som har ''offline generation'' ansvarig och ''online generation'' växer upp”.
+
+[[File:/images/age internet.png|Den digitala klyftan är generations mer än socioekonomisk, källa: Pew Internet & American Life Project Surveys April 2000-April 2012.]]
+
+Nya förvaltningsformer måste erkänna den nätverksbaserade förbund som förbinder mänskligheten och gradvis försvaga arv av nationella gränser och dess inneboende oförmåga att hantera pressande globala frågor som klimatförändringar, ökande ojämlikhet, terrorism, automatisering och tvångsflyttningar. Ojämn fördelning av möjligheter runt om i världen på grund av den ständiga konfrontationen mellan de nationella regeringarna ledde till att dessa frågor stod på den globala agendan. Vi tror på den tekniska stacken som inkluderar [http://bitcoin.com/bitcoin.pdf Bitcoin] as programmable money without Central Banks and [http://ethdocs.org/en/latest/index.html Ethereum] Att möjliggöra smarta avtal utan behov av domstolar för domstolar kräver ett nytt lag som signalerar oförstörda röster bortom nationernas gränser. Detta transnationella nätverk kommer att handla i enlighet med medlemmarnas personliga suveränitet och skydda sina mänskliga rättigheter med kryptering.
+
+===1.1 Arv.===
+
+Vi kan överväga val som genomförs av stater, provinser och stadskommuner som demokratier inom vilka vi är reducerade till att vara passiva mottagare av en monolog. Medborgarna kallas in mellan väsentligen långa perioder, under valet, för att ge en grundläggande inmatning: accepterar eller avvisar aktörer i samma system. Detta är bandbredd för arvsystemet som är våra så kallade "moderna demokratier". Under dessa system kan mindre än en procent av befolkningen rösta om lagstiftning eller genomföra budgetar medan resten är lagligt tvungna att lägga ut sina fulla medborgarskapsrättigheter till en företrädande minoritet som så småningom räknar ut hur det förhåller sig.
+
+Tekniken bakom representativa demokratier kan grupperas i två uppsättningar:
+
+* '''Analoga val''': vanligtvis pappersval och röstlådor med myndigheter ansvariga för räkning av röster och rapportering av bedrägligt beteende. Trots att dessa system är stabila i utvecklade länder, drabbas de av allvarlig bristande deltagande. Barriärer implementeras med krav som att registrera sig för att rösta genom en alltför byråkratisk process som slutar blockera en majoritet av disenfranchised väljare. Myndigheterna ger också distrikten genom att utnyttja undersökningsdata i väntan på valresultat. Trots att dessa system är enklare att granska, innebär det också att de är lättare att korrumpera: i utvecklingsländernas "analoga val" "får de avlägsnas av mobb som representerar stora partier som bränner eller" försvinner "röstlådor, hotar revisorer från mindre konkurrenter och låta våld överträffa processen i nyckelområden. I vår erfarenhet av [http://partidodelared.org Partido de la Red] köra för Buenos Aires stads kongress i valet 2013 upptäckte vi att ingen ansträngning spelade upp mer än att ha tillräckliga partrevisorer för att täcka varje distrikt i staden annars skulle rösterna bli stulna. Ju större ett vals territorium är desto mindre sannolikt kan ett analogt system garantera en rättvis process. Vidare innebär höga genomförandekostnader att man begränsar valet till en handfull dagar om året, om det är något, vilket gör demokratin ett undantag snarare än normen om hur regeringar faktiskt blir valda. Dessutom har den traditionella analoga valprocessen formen av en rörledning, där röster navigerar hela tiden, från väljarens händer till en central server. I den rörledningen sammanfattas röster från varje omröstning manuellt på pappersark, som senare skannas och överförs till ett centralt kontor. Där laddas de mottagna arken manuellt till en central server som beräknar röstantalet. I det här schemat hanteras en röst vid varje navigeringsprocess av ett antal olika mänskliga aktörer, vem som helst med vilje eller oavsiktligt kan införa bedrägerier när som helst. Elektroniskt val syftar till att förkorta denna rörledning, med målet att ingen människa kan hantera röster: väljare interagerar med en enhet (t.ex. en elektronisk röstmaskin) som överför de krypterade rösterna till en central server eller till en gemensamt bokförd (t.ex. en blockchain).
+
+[[File:/images/nation-state-voter-turnout.png|Territorial voting.]]
+
+* '''Elektronisk omröstning''': Förslag som levererar lösningar baserade på elektroniska röstmaskiner syftar till att säkra processen genom ett digitalt gränssnitt men med samma logik om få val per år, med nettoeffekten av ny teknik som tjänar samma syfte som gammal röstteknik, dvs att legitimera professionella politiker . Maskiner kan effektivt hjälpa till att undvika [https://en.wikipedia.org/wiki/Clientelism clientelist] tekniker som används för att korrupta ett val men öppna en helt ny attackyta genom att utsätta omröstningar för risken för oupptäckta hack och utländskt ingripande. Experter inom detta område ([https://www.ndi.org/e-voting-guide/examples/constitutionality-of-electronic-voting-germany inklusive högsta domstolen i Tyskland]) rekommenderar att du använder elektroniska röstmaskiner som lämnar ett pappersspår [https://www.amazon.com/Voting-Wars-Florida-Election-Meltdown/dp/0300198248 or any alternative medium] som röstbevisning.Ett annat tillvägagångssätt för säkra och transparenta röstsystem är ansträngningar att göra röstmaskiner [https://www.nytimes.com/2017/08/03/opinion/open-source-software-hacker-voting.html open source and auditable by the public]. Teknik kan också introduceras direkt av medborgare som använder smartphone-appar för att utföra '' parallellröstningstabell '' för att rapportera partiella tal över olika valstationer som skydd mot officiella rapporter. Datasystemen håller i sin natur loggar och kan inte garantera rösträtt. Av denna anledning bör varje loggning av ett digitalt röstningssystem vara offentligt som standard och trustless, som fungerar med en distribuerad ledare som synkroniserar utgångarna i ett gemensamt nätverk. Kort sagt: en blockchain.
+
+Traditionella analoga och elektroniska val är strikt för långsiktiga representativa demokratier med valperiod mellan 4 och 6 år. Men den bakomliggande dynamiken hos dessa system är att tjänstemän är förvalta från toppen och presenteras för medborgarna att legitimera med sin röst. Argumentet att medborgare saknar kunskap och förberedelser för att uppfylla det politiska ansvaret och inte har tillräckligt med tid i sina dagliga liv att engagera sig i offentliga angelägenheter är svag på meriter: oftare kräver inte offentliga tjänstemän insatser från experter på specifika områden för att utarbeta lagstiftning . Tack vare Internet, mobiltelefoner, sociala medier och satelliter, bor vi observerat i en värld full av medborgare som regelbundet deltar i debatt om politiska frågor (om än saknar chanser för verklig inverkan.)
+
+===1.2 Geopolitik.===
+
+En följd av USA: s presidentval av 2016 är att [https://www.theguardian.com/us-news/2016/dec/16/qa-russian-hackers-vladimir-putin-donald-trump-us-presidential-election fear of foreign intervention] har blivit ett ledande hot mot säkerheten i valprocesserna. Men även om röstmaskiner är ett extremt sårbart mål, ([https://blog.horner.tj/post/hacking-voting-machines-def-con-25 defcon 25 had a large selection of voting machines, all of them were exploited]) Utländska attacker har en enklare metod än kapning av röstmaskiner eftersom direkt manipulering av röster som potentiellt kan spåras, är mycket dyrt och svårt att utföra på en skala som är tillräckligt stor för att tillfredsställa en angripare. Ett effektivare tillvägagångssätt är [https://en.wikipedia.org/wiki/2016_Dyn_cyberattack instilling public fear by collapsing internet infrastructure days prior to an election] på ett sätt som kan bidra till att driva favoritism på en kandidat som uppfattas starkare än den andra. Denna typ av cyberattack som kan utlösa ett skift i väljareuppfattningen är nästan omöjligt att spåra som en politisk subversion och avslöjar den inneboende konflikten som en digital commons har med territoriella demokratier.
+
+[[File:/images/hacked-america.png|Impact of DNS cyberattack (October 21, 2016) & Presidential Election (November 6, 2016).]]
+
+Detta hände två veckor före valet i USA 2016 när en botnet samordnade genom ett stort antal saker av internet av saker (IoT) som utfördes en [https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS Distributed Denial of Service (DDoS) attack]som drabbade domännamnssystemet (DNS) -leverantören Dyn Inc., som leder till stora webbplatser i USA, inklusive Amazon, Paypal, New York Times och Wall Street Journal bland många andra.
+
+===1.3 Land vs. Cloud.===
+
+<blockquote>
+In the near future, electrons and light flow freely, and corporate computer networks eclipse the stars. Despite great advances in computerization, countries and race are not yet obsolete…
+</blockquote>
+[http://www.imdb.com/title/tt0113568/ '''''Ghost in the shell'''''], graphic novel (1995).
+
+Det 21: a århundradet bevittnar en växande konflikt mellan ''The Land'': regeringar som monopoliserar lagen om territoriella jurisdiktioner genom att begränsa fri rörlighet för fysiska varor och organ. och ''The Cloud'': globala företag som monopoliserar tillgången till användardata som kan spåra och rikta idéer via personlig annonsering. I denna värld är frihet en illusion: våra kroppar hör till regeringar, våra sinnen till företag. Notoriska strider från denna konflikt inkluderar [https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute ''Apple versus FBI''] fall som begär en jailbreak av en krypterad telefon; eller den historiska tvisten mellan [https://www.washingtonpost.com/news/the-switch/wp/2017/03/06/trumps-new-travel-ban-raises-the-same-silicon-valley-objections/?utm_term=.0854c54536d6 Silicon Valley’s cosmopolitanism seeking flexible visas and Washington D. C.’s nationalism raising migration barriers]. När detta scenario utvecklas spelar kryptering en viktig roll för att skydda de digitala medborgarnas mänskliga rättigheter, eftersom det kan hjälpa dem att bryta sig bort från ''cloud versus land'' fällan.
+
+[[File:/images/the-land.png|The land: monopolies on force.]]
+
+Ursprunget till modern kryptografi går tillbaka till andra världskriget när Alan Turing byggt de första proto-datorerna för att dekryptera nazistiska meddelanden. Sedan dess har kryptering lagts till i USA på samma sätt för traditionella vapen: det ingår i  ''Munitions List'' av [https://www.pmddtc.state.gov/regulations_laws/itar.html International Traffic in Arms Regulations] och relaterad programvara och hårdvara måste hantera exportrestriktioner. Och även om kryptering ofta anses vara en rätt skyddad enligt det första ändringsförslaget som hävdar att “code is speech”, Dess defensiva karaktär indikerar att det också måste skyddas under paraplyet i det andra ändringsförslaget, eftersom det har samma resonemang bakom “right to bear arms”, to wit: i en tid där [http://twitter.com/Snowden whistleblowers] avslöjar hur ''Deep State'' spionerar på medborgare över hela världen, krypterad information är den enda realistiska garantin för att någon måste skyddas mot statliga missbruk (och de företag som supportar dem).
+
+[[File:/images/the-cloud.png|The cloud: monopolies on data.]]
+
+Sekretess är en grundläggande egenskap för fritt och rättvist val, eftersom det är en mekanism som hjälper till att undvika tvång från de som befinner sig i makten och förhindrar risken för att val köps och säljs för pengar. Sekretess är den bästa garantin ett medvetet, fritt sinne måste tänka för sig själv. Men på det moderna internet är integritet illusoriskt när du använder Facebook, Google eller någon webbaserad tjänst. Trots att internetmonopol låtsas vara gatekeepers för privatlivets fred, kan Facebook teoretiskt nog förminska någon av sina 2 miljarder registrerade användare om det någonsin skulle vara önskvärt. Google och Facebook håller de största identitetsdatabaserna i världen -- överträffar regeringarna i Indien och Kina -- medan [https://twitter.com/AdrianChen/status/832452637320556544 97% of their reported revenue comes from advertising] allvarligt konditionera den typ av erfarenhet som användare får med sin teknik. Det är i deras företags intresse att samla så mycket information som möjligt för att profilera människor för att vara konkurrenskraftig på uppmärksamhetsmarknaden, och båda företagen filtrerar information som matas till användare med [https://medium.com/@piamancini/future-scenarios-for-algorithmic-accountability-and-governance-17cd436d22a0 algorithms accountable] till ingen annan än sin egen styrelse. Ingen av deras tjänster är verkligen fria: Den personliga suveräniteten är oavsiktligt given till tekniska jättar idag, på samma sätt som de infödda 500 år sedan på den amerikanska kontinenten var distraherade och tittade på sina egna ''selfies'' i glänsande speglar även som europeiska conquistadors svepte bort hela deras livsstil. Ocensurerade, fria och suveräna debatter om mänsklighetens framtid äts av värdelösa ''likes'' som bara hjälper till att upprätthålla dessa företagsenheter. ''Fake news exploits'' (som de användes under amerikanska valet) eller kritiskt innehåll som sprider sig som bränder (som det hände under ''Arab Spring'') visa att alla ansträngningar att stoppa internationellt inflytande på nationell politik är meningslöst eftersom samhällen tillbringar större delen av sin tid online. Enkelt uttryckt är Internet oförenligt med medborgarna.
+
+===1.4 Intelligens.===
+
+<blockquote>
+  I can’t let you do that, Dave.
+</blockquote>
+'''HAL 9000''' on ''2001: A Space Odyssey'' (1968).
+
+Den bästa medborgerliga tekniken är teknik som används varje dag. Redan Facebook, Twitter och andra sociala medieplattformar har blivit proxy de viktigaste gränssnitt som medborgarna använder för att påverka den dagliga politiken. Men de osynliga följderna av att ge personuppgifter bort via centrala webbtjänster kan vara många, med relevanta - till och med ödesdigra - konsekvenser för mänsklighetens framtid. Informationsarkitekturen för hur personuppgifter lagras, delas och monetiseras är grundläggande för att förstå suveräniteten i det 21: a århundradet.
+
+Ett begynnande hot är användningen av obegränsad artificiell intelligens (AI) som drivs av användargenererat innehåll utan någon form av offentlig tillsyn. Det var tydligt i en tidigare Blackwater-anställds uppenbarelse till oss om hur data blir vapen: från ett kontor i Dubai kunde han köra och få live-flödet av en drone som flyger över Syrien eller Pakistan, men överraskande beslutet om att döda målet var inte gjord av den mänskliga operatören (eller en övervakande myndighet) utan av en AI som kallade skotten via Internet "åtminstone 90% av tiden". Denna AI tillhandahölls av ett Silicon Valley-företag som ofta "krediteras" med att tillhandahålla intelligens till CIA och ledde till att fånga Osama bin Laden 2011.
+
+Frågan om AI som bestämmer människors livs öde öppnar etiska och moraliska frågor. Så småningom inte ens mänskliga forskare kan förstå hur en AI beter sig, blir ett hot om det är en nyckelkomponent i militärteknik. Enligt författaren Yuval Noah Harari, "Intelligens bryter sönder sig från levande organismer och det kommer inte att monopoliseras av kolväsen för länge." Medvetenhet är den nya politiska gränsen dras, en linje mellan maskiner och människor. Med andra ord: förstå huruvida vi använder maskinerna eller maskinerna använder oss. Hur vi strukturerar mänskliga organisationer - och styr koden som kör dem - definierar vem som är ansvarig. Eftersom kapaciteten för kiselintelligens matchar Moores lagtillväxt, måste mänskligheten som helhet fråga sig hur det kommer att reglera tätheten i denna oförutsedda makt.
+
+===1.5 Decentralisering.===
+
+<blockquote>
+  Sovereign is he who decides on the exception.
+</blockquote>
+[https://wikipedia.org/wiki/Carl_Schmitt '''Carl Schmitt'''], political theorist (1888-1985).
+
+Achilles hälen av data hungrig, uppmärksamhet jordbruk internetmonopol är deras behov av en centraliserad informationsarkitektur. De steg som ''superhubs'' i det som brukade vara ett löfte om ett webbformat nätverk genom att implementera de vinnande lösningarna till de ledande användarna online. Men den oavsiktliga konsekvensen har varit ett privatiserat ekosystem: stängd kod, muromgärdade trädgårdar och centralisering av makt i några händer som banar vägen för en full [https://youtu.be/IrSn3zx2GbM?t=10m34s surveillance society] på vad som annars skulle kunna vara en gränslös commons. När Sir Tim Berners-Lee, skapare av ''world wide web'' protocols, protokoll, påpekade de inneboende riskerna med dagens internet, begärde han behovet av att utarbeta [https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web Magna Carta for the Web]: “Om vi inte har ett öppet, neutralt internet kan vi lita på oss utan att oroa oss för vad som händer vid bakdörren, vi kan inte ha öppen regering, god demokrati, sammankopplade samhällen och kulturskillnad. Det är inte naivt att tro att vi kan få det, men det är naivt att vi bara kan luta oss tillbaka och få det.“
+
+Centralisering är det enda misslyckandet i valet och är oförenligt med demokratin. I vår erfarenhet av att implementera centraliserad digital omröstning för beslut av Partido de la Red upptäckte vi att om ett val är höga insatser (alla eller de flesta medlemmarna har ett partiskt intresse för resultatet) ökar sannolikheten för att systemet blir skadat. Den största risken ligger hos dem som är ansvariga för att kontrollera servrar och databasintegritet. Vi upptäckte i fallet med [https://asamblea.partidodelared.org/topic/58eaf4739b96a611009bc3fc internal elections] hölls i början av 2017 fanns skillnader mellan information som rapporterats av databasrevisorer och loggväljare behölls i sina lokala maskiner: manipulering av röstutsläppsdata, oväsenlig ändring av avstämningsdatum för stängning, raderade protokoll och plötsligt förbud mot registrerade konton bevisades och fördömdes vilket ledde till en generaliserad uppfattning om bedrägerier i hela processen. Centraliserade digitala demokratier utan hänsyn till kryptografisk säkerhet är leksaker som är användbara för lekfulla ändamål men kan vara farliga när de genomförs i reala scenarier under falska händer.
+
+Samtidigt har det traditionella valet en teknik som kallas ''adversarial counting'' när resultatet ligger nära ett slips. Myndigheter av alla inblandade parter deltar i en manuell rösträkning. Men när ett val händer inom en stor befolkning, ''adversarial counting'' minskar kostnaden för subversion, vilket kräver att en angripare mäter endast några få myndigheter från en konkurrerande part för att säkra ett resultat. Vilken typ av system som kräver förtroende från deltagarna löper slutligen risken för att hela strukturen kollapsar om någon myndighet är bedräglig.
+
+[[File:/images/blockchain-permissionless-audit-voting.png|Blockchain democracies enable permissionless audits.]]
+
+Decentralisering är ett krav på demokratiska val. Utan det finns alltid utrymme för korruption. Blockkedjor möjliggör tillförlitliga system genom att erodera behovet av mänsklig auktoritet och öka försvaret av röstintegritet med en gemensam resurs som har scorekeeping som huvudfunktion. Detta medger oöverträffade mönster för valsystem. '''With a blockchain-based democracy votes become censorship resistant and every single voter can audit an election without requiring any kind of access rights to infrastructure.''' Genom att lagra röstdata i en blockchain snarare än i privata servrar eller röstlådor blir revisionsutgifterna abstrakta och förvandlas till en garanterad rättighet för varje deltagare. Röster är inte bara bara åskådare utan också suveräna portvaktare av hela processen. Denna typ av insyn kan inte levereras av traditionella valsystem, analoga eller elektroniska.
+
+===1.6 Suveränitet.===
+
+På dagens internet har röstningen uppstått som huvudinteraktion. Varje gång användare ''like'', ''upvote'', ''heart'', ''link'' eller ''retweet'' innehåll de signalerar en preferens som tjänar en återkopplingsslinga som ger bättre rekommendationer för dem. Men åtgärden går inte längre: det är en ''fake vote'' som saknar institutionella konsekvenser. ''Likes'' i sociala medier fungerar som värdelösa tokens som kan blåsas upp med ett enda klick trots att de sätter priset på reklam dollar. Nätverkseffekter gjorde denna interaktion till en metrik som lyfter fram påverkan av en viss idé inom en folkmassa, ofta ett verktyg för de som befinner sig i makt för att undersöka samhällets behov. Men de finansiella och politiska fördelarna med dessa transaktioner hålls helt av [https://www.nytimes.com/2016/10/16/technology/peter-thiel-donald-j-trump.html network owners].
+
+[[File:/images/web-voting.png|Web voting.]]
+
+Högteknologi som kan fungera i peer-to-peer-nätverk, validera identitet, bevara anonymitet, kryptera data, decentraliserande infrastruktur, med fri (''as in freedom'') öppen källkod kan helt störa det beskrivna landskapet.
+
+Under hela historien var det bara tre typer av suveräner som segrade: ''sovereign tribe'' där en folkmassa följer en ledare ; en ''sovereign king'' loyal only to God; och en ''sovereign republic'' med kontinentala länder som regleras enligt en lag. Blockkedjor som arbetar i cyberspace ger upphov till ett fjärde slag: The ''networked individual''. Det är inte en långsökt möjlighet -- uppnå  [https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720 personal sovereignty] är redan en verklighet för dem som driver sina finanser med bitcoin och andra kryptoinnehav. Som investerare [http://twitter.com/naval Naval Ravikant] står det: "Du kan korsa en internationell gräns som bär en miljard dollar i bitcoin helt i ditt huvud." Den här typen av suveräna handlingar är oöverträffad även för samtidiga statschefer .
+
+Den utbredda antagandet av blockkedjor ger upphov till en modell som ursprungligen växte under etablerade institutioners skuggor men i slutändan kommer att göra dem föråldrade. Blockkedjor är automatiserade byråkratier som erbjuder betydande ekonomiska fördelar när det gäller transaktionskostnader, samtidigt som behovet av mellanhänder abstraheras. De möjliggör system för fri association som hjälper till att bryta den politiska och ekonomiska tvång som regeringar och banker ålägger genom att begränsa rösträtten eller begränsa tillgången till kapital. Ett tekniskt avancerat samhälle kan blomstra bortom territoriella domäner varhelst det finns en internetanslutning med digitala medborgare som blir en del av en ny typ av diaspora.
+
+----
+
+Med denna diagnos, i [[#Paper|Section 2]] vi kartlägger de grundläggande byggstenarna för en decentraliserad flytande demokrati. När verktygen är definierade, [[#Execution|Section 3]] föreslår ett genomförande som fokuserar på att göra systemet säkert och inkluderande.
+
+<div id="Paper"></div>
+
+==2. Papper.==
+
+<blockquote>
+  It is the technology that we do not control the one that is used to control us.
+</blockquote>
+[https://twitter.com/earlkman '''Emiliano Kargieman'''], space hacker (1975).
+
+En grundprincip för demokrati är rätten att bli hörd. Idag hörs inte större delen av världens befolkning: att ha en röst är en födelseshändelse. Individuella och kollektiva röster stäms politiskt och ekonomiskt av ‘illiquidity’ - De marginaliserade får inga instrument för att sända eller förstärka sin röst. Modern demokrati är födelsebarnet till ''Printing Press Era'':tryckta konstitutionella system som är beroende av blöta kontrakt och hastigheten på posttjänsten. Representativa demokratier är en olycka för informationstekniken från 1700-talet.
+
+[[File:/images/liquid.png|Direct democracy vs. Liquid Democracy.]]
+
+En flytande demokrati bygger på en dynamisk representationsmodell som arbetar med en bottom-up-strategi: medborgarna kan välja fritt inom sin sociala graf (vänner, kollegor, familj) som de vill ha som representanter för en viss uppsättning ämnen. Det är den mest flexibla formen av demokratisk styrning som kan konstrueras med digital teknik, som fungerar som en hybrid som möjliggör direkt eller delegerad röstning när som helst. Det finns få prejudikat för pålitliga bottom-up-miljöer som har lett till auktoritativt innehåll, [https://www.wikipedia.org/ Wikipedia] vara ett banbrytande fall. Men om historien är någon guide, blev den sista tiden civilisationen ställd inför [https://en.wikipedia.org/wiki/Age_of_Enlightenment ett paradigmskifte om encyklopediupplysning] det var just i epoken före uppkomsten av moderna demokratier.
+
+I detta dokument beskrivs genomförandet av en flytande demokrati med [http://github.com/DemocracyEarth/sovereign Sovereign], vår demokratiska styrning ansökan som fungerar med blockchain tokens använder en grundläggande uppsättning smarta kontrakt. Enkelhet i designen och det språk som används för att uttrycka denna design är viktigt för en genuin demokratisk enhet. Ingen teknik kommer någonsin att kunna tillfredsställa demokratiska strävanden om den bara kan förstås av en elit. Som kryptograf [https://en.wikipedia.org/wiki/Ralph_Merkle Ralph Merkle] stated:
+
+<blockquote>
+  We do not call upon ordinary untrained citizens to perform surgery, fly airplanes, design computers, or carry out the other myriad tasks needed to keep society functioning, what makes governance different? The problem is readily understood: if we give governance to “experts” they will make decisions in their own best interests, not in the best interests of us all.
+</blockquote>
+
+===2.1 Token.===
+
+Ett idealvalssystem måste i största möjliga utsträckning tillfredsställa dessa villkor:
+
+* '''Sekretess''': väljaren måste kunna rösta i hemlighet.
+
+* '''Verifierbarhet''': väljaren måste kunna verifiera upprepad omröstning.
+
+* '''Integritet''': Systemet måste kunna verifiera korrekt rösträtt.
+
+På grund av risken för att tvång genom fysiskt våld eller hot i sammanhang som är föremål för politiskt våld, måste ett alternativ som kan skydda tvingade väljare införas:
+
+* '''Motstånd''': väljaren måste kunna överväga egen röst om det behövs.
+
+I arbetet som leds av forskare Hosp & Vora, en [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf Information Theory approach was taken to model voting systems] vilket leder till slutsatsen att en naturlig spänning existerar med ett system som syftar till ''perfekt integritet'', ''perfekt rösthemmelighet'' och ''perfekt kontrollerbarhet''. Alla tre kan inte uppnås samtidigt när en motståndare är beräknat obegränsad, kan brute force ett system om obegränsad tid eller minne är tillgängligt. Av denna anledning anser vi att det är oumbärligt att genomföra digitala demokratier med hjälp av blockchains. Med nätverkseffekter som redan finns på plats kan blockkedjor verifiera transaktionsintegritet och förhindra dubbla utgifter för token
+. Bitcoin’s [https://en.wikipedia.org/wiki/Proof-of-work_system ''proof of work''] modellen uppnår detta genom att belöna beräkningskapaciteten för att verifiera transaktionsblock (det som ofta hänvisas till ''mining''), vilket leder till ett nätverk “300 gånger kraftfullare än Googles resurser” enligt pionjären [http://twitter.com/balajis Balaji Srinivasan]. Av denna anledning bygger vår design på tokens inom ett blockchain-nätverk som fungerar som ''political cryptocurrency''.
+
+Vad skiljer en röst från pengar (eller i bredare termer: en ''politisk ekonomi'' från en ''finansiell ekonomi'') är den politiska valutan utformad för att garantera deltagande rättigheter under rättvisa förhållanden till alla medlemmar inom en organisation. Rättigheter syftar till att tillfredsställa den övergripande legitimiteten i en institutions styrning. Medan pengar är språket av självintresse, uttrycker rösterna de gemensamma åsikterna om ett samhälle. Politisk valuta är inte strängt menat för handel men för socialt val.
+
+{| class="wikitable"
+|-
+! scope="col"| Funktion
+! scope="col"| Valutor
+! scope="col"| Röster
+|-
+! scope="row"| Verktyg
+| Handel.
+| Styrning.
+|-
+! scope="row"| Mining
+| Beräkning (t ex bevis för arbete).
+| Uppmärksamhet (äkthet t ex bevis på identitet).
+|-
+! scope="row"| Likviditet
+| Knapp.
+| Garanterad.
+|-
+! scope="row"| Signal
+| Självintresse.
+| Socialt val.
+|-
+! scope="row"| Värde
+| Utrymme (materialvaror).
+| Tid (information).
+|}
+
+====2.1.1 Implementation.====
+
+Med tanke på att värdet [https://en.wikipedia.org/wiki/Dogecoin kan drivas med minnesförmåga], Demokratiska Earth token som ger rösträtt kommer att märkas med det enskilt viktigaste budskap som någon demokrati kan förmedla: ''röst''.
+
+En ''röst'' token kan implementeras med smart kontraktskod över en mängd olika blockkedjor som tillåter [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete] skript, inklusive Bitcoin. Vår design är blockchain agnostic i erkännande av ett datavetenskapsfält fortfarande i sin spädbarn där betydande innovationer kvarstår att uppfinnas. Ändå arbetar vi med att genomföra ''röst'' token under dessa smarta kontraktsmiljöer:
+
+* '''Ethereum''': Använda en uppsättning av [https://github.com/ethereum/solidity Solidity] smarta kontrakt under [https://theethereum.wiki/w/index.php/ERC20_Token_Standard Ethereum ERC20 token standard].
+
+** '''Rootstock''': Vi vidtar nödvändiga åtgärder för att göra Solidity-koden kompatibel med [http://www.rsk.co/ Rootstock's smart contract interpreter for the Bitcoin blockchain].
+
+* '''Lightning''': Med aktiveringen av [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] i Bitcoin-protokollet som möjliggör dirigering av betalningskanaler med [http://lightning.network Lightning Network protocol], flytande demokratiedelationer kan kartläggas med hjälp av satoshi-nivåstransaktioner ''röst'' identifierare. Blockchain-uppgörelsekostnaden måste täckas av genomförandeorganisationen.
+
+Dessutom uppmuntras flerkedjiga implementeringar i en anda att söka större experiment och samarbete kring denna teknik.
+
+===2.2 Röstning.===
+
+En ''röst'' token syftar till att vara en standard för digital demokrati att samverka med andra tokens, vilket sätter ett gemensamt språk för styrning av blockchainbaserade organisationer. Inom ramen för flytande demokratier tillåts en rad rösttransaktioner med ''röster'':
+
+* '''Direkt röst''': Själviska väljaren Alice får använda sina tokens för att rösta direkt om frågor som i en direkt demokrati.
+
+* '''Enkel delegering''': Alice kan delegera ''röster'' till Bob. Så länge som Bob har tillgång till dessa tokens kan han använda dem för att rösta på Alice.
+
+* '''Tag Limited Delegation''': Alice kan delegera ''röster'' till Charlie under det angivna villkoret att han bara kan använda dessa tokens på problem som bär en viss tagg. Om delegationen anger det delegerade ''röster'' kan endast användas vid beslut med ''#environment'' tag, då kommer Charlie inte att kunna använda dessa någon annanstans men på de specifika frågorna. Detta leder till en representationsmodell som inte är baserad på territorium utan kunskaper.
+
+* '''Transitiv delegering''': Om Bob får  ''röster'' från Alice, Han kan sedan delegera dessa till Frank. Detta genererar en kedja av delegationer som hjälper till att ge specifika spelare i en gemenskap. Om Alice inte vill få tredje part att få rösterna som hon delegerade till Bob kan hon stänga av den transitiva inställningen på delegationskontraktet. Cirkulära delegationer (t ex Alice som mottar de tokens som hon skickade Bob från Frank) är förbjudna sedan den ursprungliga tilldelningen av ''röster'' från en organisation till dess medlemmar bär en underskrift som indikerar vem som är den suveräna ägaren till ''röster''.
+
+* '''Åtsidosätta Röst''': Om Bob redan använde den delegerade ''röster'' Han mottog från Alice men hon har en annan åsikt om en given fråga, eftersom den suveräna ägaren till hennes röster Alice alltid kan åsidosätta Bobs beslut. Voters har alltid det sista ordet på ett visst beslut med sitt ursprungliga ''röster''.
+
+* '''Public Vote''': Ofta refererad till som ''golden rule'' i flytande demokrati, alla delegatörer har rätt att veta hur deras delegat har röstat om ett visst problem med deras ''röster''.På samma sätt är kongressens röster offentliga. På flytande demokratier som konkurrerande delegater på en viss tagg har ett incitament att bygga ett offentligt rykte baserat på deras röstningsrekord för att locka till sig fler delegationer
+
+* '''Hemlig röst''': En metod som kan garantera ''röst'' transaktioner oåtkomliga för väljaren. Detta är oumbärligt i samband med offentliga val som hålls inom stora populationer som har stor risk för tvång. Även om perfekt sekretess på ''röst'' transaktionen uppnås kan användarna fortfarande fingeravtryckas med exponerad metadata. Av denna anledning uppmuntras forskning om integration med blockkedjor avsedda för anonyma transaktioner med beprövad rekord. Detta kan innefatta en gruvavgift för att lösa ''röst'' transaktion som antingen kan subventioneras av genomförandeorganisationen eller direkt betalas av väljare. Vi rekommenderar forskning och integration av hemlighet ''röst'' med dessa blockchains:
+
+** [https://z.cash ZCash]: implementerar avskärmade transaktioner med [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs]
+
+** [https://getmonero.org Monero]: använder [https://en.wikipedia.org/wiki/Ring_signature ring signaturer med stealth adresser].
+
+===2.3 Användarupplevelse.===
+
+Användarupplevelse (UX) är en kritisk aspekt av en decentraliserad arkitektur och blir ännu viktigare eftersom de överflödiga lager av centraliserade arkitekturer kondenserar användaren. I en centraliserad internetarkitektur äger användaren inte gränssnittet eller erfarenheten. I en decentraliserad internetarkitektur, användargränssnittet (UI) bör baseras på användarens perspektiv. I den meningen blir transaktionerna gjorda under tre olika synpunkter:
+
+* '''Self''': Använda en offentlig identitet som är relaterad till en individ.
+
+* '''Organization''': I representation av en organisation som utvidgade företrädesrätten till enskilda (t.ex. arbetsplats, klubb, politiskt parti etc.).
+
+* '''Anonym''': Utan någon koppling till en offentlig identitet.
+
+Denna förståelse av ''SELF / ORG / ANON'' skifta form har påverkat vårt gränssnitt och token design högt. Vid en viss tidpunkt kan en suverän användare anta något av dessa lägen för att interagera med decentraliserade organisationer.
+
+====2.3.1 Flytande.====
+
+Suveräna syftar till att göra omedelbar och enkel vätskebevakning. Vilken friktion som helst i processen måste undvikas och delegerings widgeten bör ständigt exponeras på gränssnittet medan du surfar eller tittar på medlemsprofiler. För detta ändamål använder suveräna a ''liquid bar'' som tillåter transaktion av ''röster'' med en enda gest, antingen på mobila eller stationära enheter.
+
+[[File:/images/liquid-mobile-ux.png|Sovereign mobilt gränssnitt som visar beslut, omröstning och flytande röstning.]]
+
+En ''liquid bar'' tillåter dessa åtgärder:
+
+* '''Se tillgängliga ''röster''''': Eftersom en användare i en flytande demokrati kan ha 1 eller flera delegerade ''röster'', Att ha en ständig påminnelse om balansen hjälper användaren att förstå sin nuvarande kraft inom systemet. Om några av ''röster'' delegerades med strikta villkor (e.g. a ''Tag Limited Delegation''), det betyder att en användare inte kommer ha samma mängd ''röster'' tillgänglig för varje fråga.
+
+* '''Se röst ''röst''''': Ett procentvärde med mängden av ''röster'' som för närvarande kastas på andra beslut eller delegeras till andra medlemmar i samhället visas. Användaren kan klicka eller klicka när som helst på det värdet för att se en komplett lista över de problem där han eller hon för närvarande har en ''röst'' och bestämma om du ska behålla dem eller göra en strategisk förändring.
+
+* '''Skjuta ''röst''''': Användaren kan använda sin tumme (eller med musklick) för att skjuta ''liquid bar'' hantera och vid frisläppandet av det kommer han eller hon att bli ombedd att få en bekräftelseförfrågan om att ''rösta'' eller ej.
+
+* '''Tryck för att ''rösta''''': Om användaren inte vill tilldela mer än 1 röst kan han eller hon helt enkelt trycka på ''liquid bar'' hantera en gång och kommer att uppmanas att bekräfta en enda ''röst'' transaktion.
+
+* '''Radera ''votes''''': När som helst så länge pollen fortfarande är öppen kan användaren ta bort hans eller hennes ''röster'' från ett beslut genom att helt enkelt skjuta ''liquid bar'' hantera tillbaka till startpositionen.
+
+Vi ser denna interaktion som ett steg framåt från ''like'' mönster som finns i sociala medier. ''Likes'' gränser röstar till tanklösa klick och kan blåsas upp på viljan. Eftersom ''votes'' fungera som en knapp resurs i systemet, kan de inte genereras på vilja och alltid kräva ett minimum av taktiskt tänkande om hur en användares interaktion påverkar ett visst beslut. ''röster'' har verkliga konsekvenser för användaren som intressent för en decentraliserad organisation ''Likes'' bara tjäna sina kontrollerande företag.
+
+====2.3.2 Delegering.====
+
+En ''liquid bar'' visar också ''röst'' delegationsrelation som en användare har med någon annan medlem i en organisation. Delegationerna går båda vägarna:
+
+* '''Skickade''': En användare måste kunna delegera någon av hans tillgängliga ''röster'' medan du kontrollerar det nuvarande delegerade beloppet (om det finns några).
+
+* '''Mottagna''': En användare måste kunna förstå hur många ''röster'' mottogs från någon annan.
+
+Varje gång en medlemsprofil visas i Sovereign visas den nuvarande delegationsstatusen mellan användaren och medlemmen.
+
+[[File:/images/delegation-relation-votes.png|Vy över omröstningsdelegationsrelation med en annan medlem.]]
+
+====2.3.3 Agora.====
+
+Sovereign har också en debattkomponent vid namn ''Agora''. Debatt är sannolikt lika viktigt som att rösta i någon demokrati. Agoras display ''trådade konversationer'', en framgångsrik design pionjär av [http://reddit.com Reddit] och [http://news.ycombinator.com Hacker News]. Vi anser detta UX mönster som det bästa sättet att engagera sig i tankeväckande konversationer på nätet eftersom de har de mest uppskattade kommentarerna bubbla upp och hjälper till att sortera informationen för en debatt med hjälp av gemenskapens kollektiva intelligens.
+
+Men i motsats till webbaserade applikationer tillåter Sovereign inte vittnesbördsinteraktioner: i stället för att tillåta oändlig ''upp -röster'' eller ''ned-röster'', Om användaren godkänner en kommentar från någon annan i plattformen kommer det att utlösa en omedelbar delegering av en enda ''röst''. Därför tillåter Agoras:
+
+* '''Rösta upp''': Skicka en singel ''röst'' delegering från användaren till den som kommenterat.
+
+* '''Rösta ned''': Om en användare inte håller med någon annans kommentar, en ''ned-röst'' kan antingen hämta en ''röst'' från kommentaren tillbaka till användaren om det fanns en tidigare delegation. Eller om det inte finns någon delegationsrelation bland dem, då en ''ned-röst'' kommer att fungera som en minskning av ''röst'' från kommentaren tillbaka till medel från organisationen som genomför den suveräna förekomsten. Kriterierna för denna typ av minskning kan ställas in i ''konstitutionellt smart kontrakt'' i genomförandeorganisationen.
+
+Detta kommer att göra delegationer oftare över plattformen. Debatter ständigt utsatta för risken för ''röst'' transaktioner innebär att de utsätts för verkliga politiska konsekvenser. Denna mekanism kan hjälpa till att belöna goda argument och bestraffa inverkan av trolling utan att behöva utveckla modererande myndigheter i systemet.
+
+=== 2.4 Pilot ===
+
+<blockquote>
+  Blockchain could disrupt voting, just as it has currency, and could apply to any democratic government.
+</blockquote>
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''The Organization for Economic Cooperation and Development'''], Embracing innovation in government: global trends (2016).
+
+I oktober 2016, efter ett chockerande, nästan universellt oväntat nej till fred i den colombianska folkomröstningen som satte risken för förhandlingar mellan regeringen och de marxistiska narkolarierna, ledde demokratimiljan den suveräna flytande demokratiplatsen i en [http://plebiscitodigital.co/ digital plebiscite] anta en symbolisk röst bland diasporan av 6 miljoner utländska medborgare. I stället för att ge en röstare det binära alternativet möjliggjorde piloten att rösta separat om sju enskilda underteman i det föreslagna fördraget, samt att delegera sina röster till mer kunniga väljare med resultat som avslöjade viktiga nyanser i röstpreferenser som inte fångades in folkomröstningen, inklusive [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker that emerged]: en överväldigande "nej" bland pilotdeltagarna till ett särskilt uttalande av fördraget om politiskt deltagande av FARC.
+
+[[File:/images/colombia-use-case.png|Colombia use case data..]]
+
+Pilotstudien hade [https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf additional impact] att öka media och politisk profil av blockchain-aktiverad, decentraliserad flytande demokrati i Colombia; en blockchain-savvy politisk parti har sprungit upp, Partido de la Red Colombia-partiet ("The Net Party"), medan den colombianska regeringens centrum för digital offentlig innovation (CDPI) också undersöker tekniken.
+
+===2.5 Smarta kontrakt.===
+
+När Claude Shannon skrev sin [http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf foundational 1948 paper on Information Theory], han kunde visa hur kretsar kan utföra logiska funktioner genom att uttrycka ett binärt tillstånd av 1 eller 0 (<code>true</code> or <code>false</code> states). Sedan dess har digital teknik skapat dynamiken i alla slags informationssystem. Med detta i åtanke fokuserade vi på att bygga en effektiv design för en styrningsmaskin som kan fungera med blockkedjor som håller sina mänskliga operatörer som suveräna linjer genom omröstningen. På samma sätt flyttas bitar i datorer som signalerar a <code>true</code> eller <code>false</code> state, ''röst'' signalera ett booleanskt värde för institutionella beslut som ska registreras enligt smarta kontrakt.
+
+''röst'' tokens operera inom de institutionella gränser som skapats av denna uppsättning kontrakt: <code>Organizations</code>, <code>Medlemmar</code>, <code>Frågor</code>, <code>Valsedlar</code> and <code>Budgetar</code>. Det här är byggstenarna som hjälper till att skapa en styrkrets som kan skala för att driva flytande demokratier inom samhällen av alla storlekar.
+
+[[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
+
+====2.5.1 <code>Organisationer</code>====
+
+Den enhet eller institution som genomför en suverän förekomst hänvisas till som en <code>Organisation</code>. Denna enhet fungerar som en styrande myndighet som definierar vem som är <code>Medlemmar</code> tillåtas delta i sina beslut och bevilja dem ''röst'' tokens. Eftersom <code>Organisationer</code> kan eistera i ett decentraliserat nätverk, kraven på att en enhet kan fungera med ''röster'' liknar dem som hittades när du skapade en webbplats:
+
+* <code>Domän</code>: Varje organisation måste ha sitt eget domännamn (e.g. ''democracy.earth'' i Hypertext Transfer Protocol eller HTTP). Vissa kan till och med ha en namnrymd som körs som en toppdomän (e.g. ''.earth''). Denna referenskod för en <code>Organisation</code> inom ett öppet nätverk, huruvida det är äldre webben som i HTTP eller nya framväxande nätverk för decentraliserade domäner som [https://blockstack.org Blockstack], är avgörande för att hjälpa till att bygga ett semantiskt skikt som effektivt beskriver <code>Frågor</code> utan risk för att väljare manipulerar taggar i ett slutet system (hänvisas till avsnittet 2.5.4 as ''squatting''). Domännamn hjälper till att beskriva en <code>Fråga</code> samt begränsa omfattningen av ett delegationskontrakt.
+
+* <code>Konstitution</code>: Varje organisation har en ''Konstitution'' som definierar sina grundregler i form av ett smart kontrakt. De ''konstitutionellt smart kontrakt'' beskriver hur <code>Medlemmar</code>, <code>Frågor</code> och ''röster'' refererar i systemet.
+
+=====2.5.1.1 <code>Konstitution</code>=====
+
+Det ''konstitutionellt smarta kontrakt'' bestämmer hur ''röster'' kommer att fördelas till ledamöter bland annat styrelsesbeslut. Tilldelningsvillkor är ett privilegium för organisationen beroende på dess mål: i vissa fall kan det anpassas till finansiella rättigheter (t.ex. aktieägarna i ett företag får en ''röst'' per andel); i andra fall kan det tilldelas baserat på en likvärdig distribution till alla medlemmar (t ex skattebetalare inom en jurisdiktion som var och en får lika mycket ''röster'').
+
+De grundläggande inställningarna som finns på en konstitution är:
+
+* '''Decentraliserat ID''' (eller URL): En identifierare som hjälper till att hänvisa till <code>Organisation</code> var som helst på nätverket och att det är anslutet till en <code>Domän</code>.
+
+* '''Bio''': En grundläggande beskrivning av organisationen inklusive namn, hemsida, adress, jurisdiktion (om tillämpligt).
+
+* '''Finansiering''': Mängden ''röst'' tokens Denna organisation kommer att hantera och hur dessa kommer att fördelas till varje medlem och ge tillgång till <code>Budgetar</code>.
+
+* '''Medlemskap''': Krav på att bli en giltig medlem inom organisationen. Kriteriet definierar väljareregisteret som garanterar en rättvis valprocess av en demokrati och kan granskas av dess medlemmar.
+
+** '''Öppen''': Alla kan fritt ansluta sig till en organisation.
+** '''Röstad''': Befintliga medlemmar måste rösta på sökande medlemmar. En procentuell kriterium måste ställas för godkännande.
+** '''Avgift''': Organisationen kräver betalning för godkännande av medlemskap.
+
+* '''Innehåll''': Definierar vem som får posta <code>Frågor </code> till organisationen.
+
+** '''Öppen''': Någon (om en medlem eller inte) kan skicka. Endast medlemmar får rösträtt.
+** '''Medlemmar''': Endast godkända medlemmar har rätt att posta.
+** '''Särskilda medlemmar''':Medlemmar som uppfyller vissa kriterier (t ex minst delegerade ''röster'' eller ''röster'' mottagna under en viss tagg) har rätt att posta.
+
+** '''Anonym''': Definierar om anonymt innehåll får läggas upp.
+
+* '''Moderering''': Beskriver regler som hjälper till att definiera en uppförandekod bland medlemmar i en organisation.
+
+** '''Förbjudna''': En mängd av ''ned-röster'' krävs för att förbjuda en medlem från att delta i organisationen och påföljden som är knuten till den (t ex en tidsperiod)
+** '''Uteslutning''':Om en organisation är baserad på ''Godkänd medlemskap godkännande'', en medlem kan få negativa röster från andra medlemmar som signalerar att sådan identitet har skadats eller inte längre är en del av organisationen. Detta kriterium kan fastställas som en minsta procentuell andel.
+
+* '''Röstning''': Den tillåtna <code>Valsedlar</code> att användas för beslut som ska fattas av organisationen och specifika inställningar som ''kvadratisk röstning''.
+
+* '''Reformera''': Kraven på att ändra någon av de regler som anges på en''Konstitution'' (e.g. en särskild majoritet).
+
+Mallar som definierar vanliga metoder för specifika typer av organisationer uppmuntras att förenkla organisationsinställningen. Detta kommer att stödjas och stödjas genom arbete med partnerskapet med demokratijorden [https://aragon.one/ Aragon],vem arbetar med en digital jurisdiktion som kommer att göra decentraliserade organisationer effektiva. Den suveräna kommer att innehålla mallar för företag, politiska partier, fackföreningar, klubbar och kooperativa företag bland andra; Oavsett form som organisationen tar, garanterar Aragons decentraliserade nätverk att ett företag alltid kommer att arbeta, även i samband med skadlig manipulering av fientliga tredje parter eller missbrukande regeringar.
+
+====2.5.2 <code>Medlemmar</code>====
+
+Varje organisation har medlemmar som får rösträtt om organisationens beslut. Medlemskapskriterier definieras i ''konstitutionellt smarta kontrakt'' och är nyckeln till förtroendet i en demokratisk miljö. Bland de vanligaste sätten att invertera ett val är genom väljare registreringsmanipulation. Att säkra denna aspekt med kryptografiska medel samt ett godkännandeprotokoll är kritiskt. När en medlem är godkänd inom en organisation får han eller hon en viss mängd ''röster'' att användas.
+
+All <code>Organisationer</code> som tar ansvaret för att godkänna eller ogilla <code>Medlemmar</code>, bidra med denna uppgift till ''Bevis för identitet'' process som beskrivs på avsnittet 3.3.
+
+Kompatibilitet med decentraliserade identitetsprotokoll uppmuntras för att garantera decentraliserad styrning. De [https://opencreds.github.io/did-spec/ specifikation av DIDs (decentraliserade identifierare som är analoga med webben URIs)], föreslagna av [https://www.w3.org/ W3C] vilket möjliggör självförsörjande verifierbar digital identitet rekommenderas.
+
+====2.5.3 <code>Frågor</code>====
+
+En organisation består av en samling av ''frågor'' var och en beskriver ett beslut som ska fattas av ledamöterna. Medlemskapsegenskaper beskrivna i ''konstitutionellt smarta kontrakt'' definiera medlemmens röst- och posträtter. Ett problem i sin mest grundläggande form har dessa egenskaper:
+
+* <code>Beskrivning</code>: Text av beslutet ska fattas.
+* <code>Taggar</code>:Kategorier som beskriver beslutet inom organisationen. Detta hjälper medlemmar att navigera över problem, definiera områden eller grupper inom en organisation och begränsa omfattningen av en delegation av ''röster''.Om genomförandet görs med blockchain-miljöer som används för att hantera en fast taxonomi (som [http://blockstack.org Blockstack]), Ett gemensamt distribuerat språk för taggar baserat på decentraliserade domäner bidrar till att göra den demokratiska miljön mer rättvis eftersom det undviker medlemmar som försöker styra namnkonventioner till egen fördel. Av denna anledning, inom ett öppet nätverk <code>Taggar</code>som beskriver <code>Frågor</code>eller används för att begränsa delegationer, pekar på andra <code>Organisationer</code>. Detta är detaljerat i''Bevis för identitet'' processen.
+* <code>Signaturer</code>: Medlemmar som författar förslaget. Det kan förbli anonymt om en organisations styrningsregler tillåter det.
+* <code>Valsedel</code>: De presenterade alternativen för väljare att delta i detta beslut.
+* <code>Budget</code>: Ett valfritt element som kan innehålla låsta pengar i en cryptocurrency-adress som kan utlösa en åtgärd om ett beslut röstas till stöd.
+* <code>Tidsrymd</code>: För den slutliga omgången måste en öppen omröstning också sätta sin räckvidd i tid och definiera vilken typ av beslut som fattas. Det finns två typer av beslut:
+** <code>Taktisk</code> (begränsad i tiden): Dessa är kontrakt som mottar ''röster'' tills ett slutdatum är uppfyllt, där en given blockhöjd inom blockchain som implementerar ''röst'' smarta kontrakt kan ställas in som slutlinjen för valprocessen. När alla transaktioner har tagits upp och ett slutresultat tas upp, skickas alla tokens tillbaka till motsvarande väljare och kan användas igen vid framtida beslut.
+** <code>Strategisk</code> (obegränsad i tiden): Aldrig slutande öppna omröstningar som ständigt registrerar konsensus i ett beslutsland. ''röster'' kan hämtas av väljare vid vilken tidpunkt som helst, om de anser att de behöver avbryta sin röst till stöd eller avslag på beslut. Men så länge som token är tilldelad för att signalera en preferens på en avtalsröstning utan slutdatum, är det en del av det strategiska beslutet. En gemensam användning för strategiska beslut kan vara medlemmarna som röstar för godkännande av andra medlemmar inom en organisations gemenskap.
+
+====2.5.4 <code>Valsedel</code>====
+
+En fråga kan genomföras med valfri omröstning enligt specifikationerna i ''konstitutionellt smarta kontrakt'' av organisationen.Byggstenarna för en omröstning är dess <code>Gränsnitt</code>, <code>Alternativ</code> och <code>Kriteria</code>.
+
+=====2.5.4.1 <code>Gränsnitt</code>=====
+
+Som standard tillhandahåller Sovereign de mest använda valmekanismerna för val av omröstning. Ytterligare innovation på omröstningsgränssnitt uppmuntras.
+
+* <code>EttVal</code>: Ett val.
+* <code>FleraVal</code>: En eller flera val.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal</code>]: En given poäng per alternativ med ett fördefinierat värdeområde.
+* [https://en.wikipedia.org/wiki/Ranked_voting <code>Ranked</code>]: Sorterbara alternativ som rankad preferens. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem Arrow's impossibility theorem] måste beaktas för någon innovation avseende rankade omröstningar. Denna ståndpunkt säger att rangbaserade valsystem inte kan tillgodose rättvisa på tre huvudaspekter samtidigt:
+** '''Obegränsad domän''': alla valmöjligheter är tillåtna.
+** '''Icke-diktatur''': ingen ensamväljare har befogenhet att alltid bestämma sociala preferenser.
+** '''Pareto Effektivitet''': Om varje väljare föredrar ett alternativ till en annan, så måste den resulterande samhällsförmånsordningen.
+
+=====2.5.4.2 <code>Alternativ</code>=====
+
+För att möjliggöra informationsbehandling av ''röster'', röstsedlar bära booleanska värden uttryckta i deras alternativ. Detta låter ''röst'' transaktioner signalera ett ''beslutstillstånd'' som ska fungera som en kraftmodellering av institutionella val för genomförandeorganisationen. Detta gör alla decentraliserade organisationer också till programmerbara institutioner. Alternativ kan då vara:
+
+* <code>True</code>: Det kommer att signalera a <code>true</code> booleanskt värde om det är valt (ofta beskrivet med 'Yes' or 'Positive' label strings).
+* <code>False</code>: Signalerar ett<code>false</code> state (e.g. can display 'No' or 'Negative' labels).
+* <code>Linked</code>: Alternativet är kopplat till ett annat beslut inom organisationen.
+* <code>Kandidat</code>: En medlem eller en lista över <code>Members</code> från organisationen. Detta hjälper till att välja myndigheter inom organisationen eller det kan användas för godkännande av medlemskap.
+
+=====2.5.4.3 <code>Kriterier</code>=====
+
+Slutligen räknar metoder för det slutliga eller löpande resultatet av ett beslut inom en organisation.
+
+* <code>Mångfald</code>: Enkel majoritet vinner beslut.
+* <code>Majoritet</code> Minsta procentandel krävs för att vinna beslut.
+* [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Används i stor utsträckning av regionala val baserat på medlemslistor.
+* [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Vanligtvis används av open source communities och Pirate Parties med hjälp av rankade valstämplar.
+* [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Räknar röstviktningsväljarens rykte i en graf.
+
+====2.5.5 <code>Budget</code>====
+
+Varje <code>Organisation</code> kan ha 1 eller flera krypteringsadresser för att finansiera sina ansträngningar. Sovereigns tillstånd att finansiera en <code>Organisation</code> med Bitcoin och i dess <code>Konstitution</code> definiera kriterier för hur dessa tillgångar distribueras bland <code>Medlemmar</code>:
+
+* '''Procentandel för ''Bevis för identitet''''': Sökande <code>Medlemmar</code> kan skicka in sina ''Bevis för identitet'' bevis för att få godkännande av medlemskap till en <code>Organisation</code>. Om ''röster'' godkänna den nya medlemmen, det stärker rykten för en självständig identitet i det öppna nätverket genom att belöna honom eller henne en bestämd mängd Bitcoin för att tillåta hashing ''Bevis för identitet'' på en blockchain. Några <code>Organisationer</code> kan tillåta en större belöning än andra, effektivt skapa ett ryktepoäng som kan skydda nätverket mot ''Sybils'' eller falska identiteter. Denna process är detaljerad på [[#Executive|Section 3]].
+
+* '''Procentandel för <code>Frågor</code>''': <code>Medlemmar</code> försöker använda resurser från <code>Organisation</code> kan begära dem genom att bifoga en <code>Budget</code> till en <code>Fråga</code>. En <code>Medlem</code> kan begära att använda medel från en pool som är speciellt avsedd för detta. Om det slutliga resultatet av ett beslut når ett visst värde (<code>true</code> or <code>false</code>), Det kan sedan genomdriva det slutgiltiga beslutet genom att låsa upp mynt eller utlösa en transaktion som skickar de begärda tillgångarna till en viss adress.
+
+===2.6 Säkerhet.===
+
+Med SovereignVi strävar efter att tillhandahålla ett lätta styrningsramverk som tillåter alla intressenter i en organisation att delta och genomdriva beslut genom användandet av kryptografi. Men det är viktigt att säga att vi inte syftar till ett demokratiskt system baserat på mob-regel eller [https://en.wikipedia.org/wiki/Majoritarianism ''majoritarism'']. Historien erbjuder tillräckliga exempel på hur en blind majoritet kan hamna i en republiks ambitioner, som ofta sätter demagoger i kraft.
+
+[[File:/images/ideal-democracy.png|Ideal democracy.]]
+
+Vårt huvudsyfte är att leverera ett system som kan garantera största möjliga legitimitet samtidigt som vi ger de mest kunniga rösterna i alla samhällen. Skillnaden mellan faktum och löfte är enkel: Medan politiken utgörs av att upprätthålla den fiktion som bygger förtroende för etablerade institutioner (t ex politiker under kampanjer), ger kryptografiska bevis på händelser en mer tillförlitlig metod för tillförlitlig styrning. Blockchain-transaktionernas oförstörbara karaktär ger incitament för människor att inte ligga, varför organisationer som lagrar röster och beslut i dem blir drivna av fakta snarare än löften. Korruption kan bekämpas i sin rots när vi utvecklar en ny känsla av medborgarskap baserat på digitala nätverk.
+
+Likväl kan flytande demokratier spelas på olika sätt med resultat som domineras av de oavsiktliga följderna av två dynamiker som representerar extrema ändamål av deltagande spektrum:
+
+* '''Brist på delegering''' vilket leder till ''polyopoly'': extrem fragmentering av röststyrkan.
+* '''Överflöd av delegationer''' vilket leder till ''monopoly'': extrem koncentration av rösträtten.
+
+Varje utfall påverkar en av de två axlar som mäter kvaliteten på demokratisk styrning. Incitamenten till den politiska ekonomins "ekonomisk" ekonomi är utformad för att hålla en stabil jämvikt som syftar till att garantera högsta legitimitet och faktabaserade beslutsfattande.
+
+För att bli en pålitlig miljö för decentraliserad styrning inom stora samhällen (städer, nationer eller globala skalenden) måste suveräna skyddas mot olika typer av angripare: ''Mobs'', ''Corporations'', ''Sybils'', ''Fakes'' and ''Big Brother''.
+
+====2.6.1 Polyopoly.====
+<blockquote>
+  a.k.a. ''Mobs''
+</blockquote>
+
+Bland de mest anmärkningsvärda forskningsprojekten på fältet är [http://www.tdcommons.org/cgi/viewcontent.cgi?article=1092&context=dpubs_series Google Votes]. Detta var en intern implementering gjord för Google-anställda ledd av ingenjören Steve Hardt där han skapade en flytande demokratiprofil som skulle användas på den interna versionen av Google+. Projektet hade följande siffror när det gäller påverkan:
+
+* 15,000 deltagare.
+
+* 371 beslut.
+
+* '''3.6% av delegerade röster''' totalt.
+
+Den lilla andelen i delegationer innebär att Google Votes fungerade mer som en direkt demokrati än en flytande demokrati. Delegationer uppträdde mestadels bland de användare som aktivt satsade på att locka till sig dem (t ex veganer i ett lag som hoppades kunna samla makt för att välja kontorsnacks). Risken för få delegationer är att det öppnar demokratin mot de kända riskerna med mobregeln. Även om detta kan hålla hög legitimitet, blir kvaliteten på de beslut som görs av en organisation mer politisk än faktisk. Kunskapsrika röster som kan hantera specifika problem inom ett samhälle blir misslyckade.
+
+För att öka delegationsfrekvensen sker detta varje gång självstyrande blir validerad. På ''Bevis för identitet'' processen (se avsnitt 3), Användarna kan själva skapa egna ''röster'' så länge som deras individualitet blir godkänd av andra identiteter. Även sedan ''röst'' token operationer i en blockchain behöver delegationerna inte nödvändigtvis ske inom den suveräna applikationen: meddelanden, tweets och e-post kan skickas med röstadresser eller QR-koder som är kopplade till dem som gör det möjligt att sända röstetecknen över flera nätverk.
+
+====2.6.2 Monopoly.====
+<blockquote>
+  a.k.a. ''Corporations''
+</blockquote>
+
+När den tyska piratpartiet genomförde [https://en.wikipedia.org/wiki/LiquidFeedback Liquid Feedback], en banbrytande likvärdig demokratiprogramvara som utvecklades under 2009, uppnådde den en deltagande nivå av ~550 medlemsförbund som ledde till [http://www.spiegel.de/international/germany/liquid-democracy-web-platform-makes-professor-most-powerful-pirate-a-818683.html en språkvetenskaplig professor blir den mest inflytelserika medlemmen av partiet]. Martin Haase ansvarade för att översätta alla uppladdade propositioner i systemet till ett neutralt språk för att undvika ideologiska bias, så att han kunde fånga 167 delegationer från andra medlemmar.
+
+Konsekvenserna av att ha en monopoliserande ledare i en flytande demokratimiljö går emot andan i ett ekosystem som syftar till att stimulera mer deltagande. I flytande demokratier ''celebrities'' kan bli extremt inflytelserika att kunna attrahera de flesta delegerade rösterna. En angripare som är villig att subvert ett val kan marknadsföra en tv-stjärna som bär en QR-kod för att få en plötslig tillströmning av delegationer från fans och tittare, som omgående blir en monopoliserande kraft. Monopol är ett hot mot flytande demokratier eftersom de kan avskräcka mindre lyckliga väljare att delta, kapning av legitimiteten för de beslut som fattas.
+
+=====2.6.2.1. Kvadratisk omröstning.=====
+
+En nyckelinställning för ett flytande demokratisystem är att tillåta [http://ericposner.com/quadratic-voting/ quadratic voting] för delegationerna. Kostnaden för Alice att delegera röster till Bob ökar exponentiellt desto mer röster får delegeras. Med kvadratiska delegationer kan Alice bara delegera Bob 1, 2, 4, 8, 16 eller ens 128 wllwe 512 ''röster'' men inget värde däremellan. Detta gör delegationsskatt delegatorn genom att minska möjligheten att delegera till en annan medlem. Denna metod hindrar uppkomsten av monopol inom marknadsdynamiken i flytande demokratier, vilket alltid gör deltagandet av alla medlemmar relevanta. Om vissa organisationer önskar en mer vertikal kommandokedja (t.ex. företag) kan kvadratisk röstning fortfarande vara inaktiverad i ''konstitutionellt smarta kontrakt'' i en Sovereign implementation.
+
+====2.6.3 Sybil Attack.====
+<blockquote>
+  a.k.a. ''Identitetsstöld''
+</blockquote>
+
+Den som har förmåga att kontrollera väljareens register över valet kan direkt påverka slutresultatet. Ett klassiskt exempel är att registrera avlidna medlemmar i samhället för att rösta i ett val. På decentraliserade nätverk kallas detta vanligen som  [https://en.wikipedia.org/wiki/Sybil_attack sybil attack] (ett namn taget från en [https://www.youtube.com/watch?v=8kPIDt3yu1M homonymous 1976 film] based on a character that suffers a multiple personality syndrome). Sybil noder är de som identifierar sig som oberoende aktörer i nätverket medan de alla är under kontroll av en enda operatör. I decentraliserade miljöer är sybilattacker det vanligaste hotet och av den anledningen anser vi att det är oumbärligt att för ''röster'' att beviljas måste de bli validerade genom ett protokoll (social och algoritmisk) som fungerar som ''Bevis för identitet''.
+
+====2.6.4 Fake news.====
+<blockquote>
+  a.k.a. ''Skvaller''
+</blockquote>
+
+Det är ingen slump att kampfältet i moderna demokratier ifrågasätts i media. Nyhetsorganisationer har oöverträffad kapacitet att forma väljareuppfattningen. Över olika jurisdiktioner över hela världen leder regeringarna ett internt krig mellan staten och det största lokala mediakonglomeratet. Detta är playbook bakom Donald Trump och hans kamp mot CNN & New York Times tandem; eller anledningen till att Vladimir Putin investerade betydande resurser för att skapa Ryssland idag för att få ett sätt att presentera alternativa fakta. Styrning av meddelandet tenderar att betyda mer än sanningen själv. Fri media och självständig journalistik är ett grundläggande krav för stabila demokratier. Men om bevis på institutionella fakta är svåra att bevisa är rummet för manipulation större än rummet för sanning att råda över. Traditionella institutioner är hemlighetsfulla och saknar öppenhet även om de är offentliga myndigheter. Blockkedjor gör det möjligt att lagra institutionella fakta som garanterar insyn i organisationer. I det här sammanhanget, ''fake news'' kan bekämpas med en ny institutionell modell som kan lagra ''Hårda löften''.
+
+=====2.6.4.1 Hårda löften=====
+
+Korporationer och offentliga institutioner är benägna att utsättas för korruption, eftersom beslut ofta händer i hemlighet bakom stängda dörrar medan bokföring sker över tiden. Effektivt är organisationer ''beslutstvätt'' genom att koppla bort ansvar från besluten. Bristen på en oförstörbar tidslinje som lagrar finansiella och politiska beslut möjliggör en sådan oförklarlighet. De [https://en.wikipedia.org/wiki/Leviathan_(book) ''Leviathan'' State] är en ineffektiv maskin: även om den proklamerar sig som den suveräna linjalen för en given befolkning genom våld, kan den som är ansvarig för att driva sin byråkrati fortfarande vara skadad vilket gör att hela kortets hus faller ifrån varandra. Detta avstånd mellan faktum och redovisning är källan till skvaller.
+
+Institutionernas byggstenar består av fakta som definierar avtal. Men typen av faktaavtal innehåller en mycket specifik typ: Institutionerna är inte byggda med objektiva fakta som är vetenskapliga, mätbara och oberoende av mänsklig bedömning. men snarare inter-subjektiva fakta som bygger den sociala världen i ett samhälle som fastställer relationerna mellan egendom och rättigheter. Till exempel är tanken att varje röd burk av soda tillhör Coca Cola Corporation inte objektiv men ett inter-subjektivt faktum som alla samhällsmedlemmar har enats om och erkänner de immateriella rättigheter som ett företag har över sin produkt. På så sätt bidrar institutionell verklighet till att skala ekonomiska relationer och minska den information som krävs för att organisationer ska kunna handla.
+
+Byråkratierna som skyddar dessa avtal beror på löften, dvs. “alla pengar som hålls i bankerna kommer att finnas där imorgon”. Men som
+[https://twitter.com/aantonop/ Andreas Antonopoulos] framhåller: “Vi är vana vid system med mjuka löften och reversibla transaktioner.” Om regeringen (eller någon annan slags central myndighet) ville konfiskera privata medel som lagras i en bank, kan ingen hindra dem från att bryta det löftet. Detta har varit erfarenheterna av grekiska, argentinska, venezuelanska eller portugisiska medborgare med egna misstänkta regeringar under det senaste decenniet. Blockchain-baserade organisationer å andra sidan erbjuder ett alternativ till ''hårda löften'': avtal lagrade i smarta avtal strängt skyddade av kryptografi som ingen enskild tredje part kan korrumpera. Snarare än att reglera mänskligt beteende efter faktum som regeringens lag garanterar blockblocker genom insyn som standard incitament för ärligt beteende eftersom alla deltagare är medvetna om att institutionella händelser kommer att finnas tillgängliga för öppen granskning.
+
+====2.6.5 Squatting.====
+<blockquote>
+  a.k.a. ''Big brother''
+</blockquote>
+
+En flytande demokrati fungerar över domäner. Sätta upp en <code>Organisation</code> inom ett nätverk av delegerbara ''röster'' är analog med att spinna upp en server på webben. Domain squatting är övningen av att uppta övergivna eller oanvända webbadresser i förväntan på vinst. Detta har lett till att en miljard dollar marknad har de vanligaste orden (identifierare) som den bästa typen av digitala fastigheter, e.g. [http://sex.com Sex.com] [https://en.wikipedia.org/wiki/Sex.com#Highest_price_paid_for_domain being the highest price paid domain].
+
+I stor skala växer den flytande demokratins spel så småningom kring <code>Taggar</code>används för att beskriva delegationer och frågor. I ett slutet system, den mest använda <code>Taggar</code> peka på ett minskat universum av relevanta väljare som leder delegationerna i samband med dem. Minskat röstdeltagande ökar förutsägelsen för en demokrati, vilket minskar stunderna öppna för kollektivt beslutsfattande. Demokratin trivs så länge som deltagandet är incitiverat. För att förhindra att detta utnyttjas måste finansiella och politiska intressen anpassas. ''Tag squatting'' kan förhindras om taxonomin används för att göra flytande delegationer och problembeskrivningar fungerar i ett öppet nätverk: <code>Taggar</code> hänvisa till <code>Organisations</code> som är registrerade under ett decentraliserat domännamnssystem, med tanke på att varje <code>Organisation</code> behöver ett domännamn. [Blockstack.org Blockstack's blockchain] specialiserar sig på decentraliserade domännamn som för närvarande hanterar över 70,000 Dentralized IDs (DIDs). Dessa erhålls via a ''Proof of Burn'' process där användare bränner Bitcoin i utbyte mot Blockstack-tokens som tillåter registrering av en ny namnrymd.
+
+Ord definierar politiska idéer. Den sociala berättelsen som bygger på politiken består av att bestämma semantisk avsikt. Kraft definierar teatraliska intryck som präglar våra minnen varje gång vi säger ''vänster'', ''höger'', ''fri'' eller ''lika''. Språk är en arvskod som möjliggör ett omfattande mänskligt samarbete och dess dygder kan inte nekas.
+----
+
+Alla dessa strategier angriper kärnan i hur en decentraliserad organisation institutionaliserar sig. Med andra ord: definiera riskerna för hur demokrati Jordan fördelar sig ''röster'' till sina medlemmar i blockchain som en decentraliserad enhet. Av denna anledning detaljerar vi på [[#Execution|Section 3]]en utbyggnadsplan för ''röster'' som väcker starka försvar mot dessa slags attacker och banar vägen för en global demokrati.
+
+<div id="Execution"></div>
+
+==3. Uförande.==
+
+[[File:/images/humans.png|Humans on Earth.]]
+
+Ett pressande faktum som ligger till grund för det som ligger bakom de politiska och ekonomiska utmaningarna under 2000-talet är ökningen av befolkningstillväxten: [https://esa.un.org/unpd/wpp/ United Nations uppskattar att år 2100 överträffar världen 10,000,000,000 människor]. Med andra ord: planetens [https://en.wikipedia.org/wiki/Carrying_capacity kapacitet
+] kommer att nås i slutet av detta århundrade.
+
+Ledtrådar om riskerna med att rinner ut resurser finns i öarnas kulturella arv. Ett långt bort land som [https://en.wikipedia.org/wiki/History_of_Easter_Island Easter Island] var under det mesta av sin historia ett slutet system som saknade någon kontakt med resten av världen. Dess befolkning hade inga sätt att överleva annat än sina egna resurser, ständigt inför farorna med hungersnöd, epidemier och inbördeskrig. Trots att dessa trängsel verkar långt borta under en globaliserad ekonomi, är den plötsliga ökningen av mänsklig befolkning under det senaste århundradet drivkraften bakom ökad CO <sub>2</sub> nivåer i atmosfären och kollaps av offentlig infrastruktur som inte kan hantera massiva migreringar. Flyktingar flyr över krig som försöker säkra energiresurser för en framtid som snabbt kommer till oss när taktiken för teknisk innovation accelererar. Även om vissa redan har lagt undan planer på plats, inklusive privata ansträngningar för att nå Mars under de kommande årtiondena (liknar den bibliska berättelsen om Noas Ark), måste det akuta samtalet att skydda mänskligheten som helhet både förstärkas och besvaras.
+
+Fördelning av möjligheter och intelligent samarbete över hela världen kan inte uppnås fredligt om inte varje röst blir hörd utan undantag. Global governance är nästa logiska steg i en värld som redan är ansluten via Internet. Blockkedjor leder till möjligheten att likvida styrelse lägger grunden för en demokrati av kamrater. Tillstånd från etablerade medborgare är inte nödvändigt: medborgare överallt i världen kan omfamna denna förändring med suveräna nätverk.
+
+===3.1 Rättigheter mot Skuld.===
+<blockquote>
+   “What is justice?” the philosopher asked.
+   “Pay your debts and don’t lie” Kefalos (capital), a wealthy arms manufacturer, replied.
+</blockquote>
+'''Plato''', ''Republic''. Philosopher (428-348 BC).
+
+Även om politik och ekonomi ofta uppfattas som olika världar, lär historien att pengar betyder kraft och makt betyder röster. För att effektivt främja demokratin är det viktigt att ta itu med båda.
+
+Sammanslutningen av skuld, moral och krig förblir roten till samhällets ekonomiska mentala modeller. Mynt skapades först av de stora imperierna för att finansiera krig genom att möjliggöra inköp av bestämmelser för soldater i avlägsna regioner och belöna dem för seger. Soldater kan tjäna silver och guld från erövrade städer och byta sedan efter det som kejsarna myntade mynt med de ädla metallerna för att skapa marknader. Så småningom skulle imperier också begära att en del av dessa mynt skulle ges tillbaka som en skatt som var inriktad på upprätthållandet av armén. Den moraliska berättelsen var att medborgarna var ''skuldsatt'' till kejsaren för deras säkerhet, för att leva. Skulden utvecklades för att motivera någon form av tvång som upprätthåller krafthierarkierna i länder där som helst. Brist på likviditet är den mest påtagliga och omedelbara barriären för frihet som majoriteten av mänskligheten befinner sig i.
+
+En ''röst'' token kommer att distribueras som en '''Rättighet''' motsätter sig den historiska föreningen av '''Skuld'''och moral, som skapar en ny avelsplats för transaktioner som inte bygger på möjligheten till tvång. Det syftar till att ge ekvivalens till transaktionsföretag, återställa balans och rättvisa som den nya moralstandarden. Demokrati Jordens kärnmotivering möjliggör frihet och personlig suveränitet, en möjlighet som endast kan nås om individer kan säga 'nej' och välj ett alternativt order obehandlat och gratis. Detta kan inte uppnås med inducerad brist som det ofta finns i de flesta kryptotillgångar, utan snarare genom garanterad tillgång till ''röster'' att varje medlem av samhället vänder styrningsrättigheter till ett likvida instrument.
+
+Av denna anledning, [http://democracy.earth Democracy Earth Foundation] kommer att generera en ''Initial Rights Offering'' av ''röst'' tokens utformad för att nå alla på jorden under en process som kommer att erbjuda två mekanismer: kryptofinansiering för alla som är villiga att fördela resurser som stärker utvecklingen av en global demokrati med ''röst'' token; och en rättighetsmekanism som ett inbyggt sätt att få ''röst'' tokens av någon kunna ''mine'' hans eller hennes motsvarande andel av ''röster'' genom en ''Bevis av identitet'' process.
+
+====3.1.1 Initialt rättighetserbjudande.====
+
+Identitet är grunden till personlig suveränitet och kärnan i alla röstsystem. Röster (på vilket system som helst) är giltiga om och endast om medlemskap är verifierat inom en organisation, kan ingen demokrati köra på skadade identiteter. Dagens standardidentitetssystem bygger på centrala myndigheter som tvingar användarna att dela privat information och riskerar identitetsstöld om de blir hackade. Precedents inkluderar [https://gov.uk United Kingdom's Gov.UK] and [https://uidai.gov.in/ India’s Aadhaar],båda som har plågats av rapporter om felaktig säkerhetspraxis som inkluderade läckage äventyrar miljontals integritet.
+
+För att identiteter ska vara självständiga kan de inte ägas eller kontrolleras av regeringar, organisationer eller företag som i sista hand har en prioritet att utvinna värde från sina användare. Vårt tillvägagångssätt med  [http://sovereign.software Sovereign] är att det är organisationscentrerat som en teknik, men en organisation kan bli decentraliserad om dess identitetsverifieringsprocess saknar behovet av en auktoritet. I slutändan är varje process som är beroende av decentraliserad identitet en del av en global commons eftersom principen om en självständig identitet gör någon ''Big Brother'' irrelevant. Därför är nyckeln till att bibehålla värdet av ''röst'' token som ett medel för en gränslös demokrati är att effektivt validera alla deltagande identiteter genom en decentraliserad process som kan skapa, uppdatera eller återkalla nycklar. Så här kommer demokratijorden att ge tillgång till ''röster'' som en mänsklig rättighet.
+
+[[File:/images/identity-blockchain.png|Self-sovereign Identity.]]
+
+Vem som helst kan visa sin egen identitet under ett decentraliserat protokoll som kallas ''Bevis av identitet'' (POI) kan fungera med motsvarande andel av ''röster''. Denna mekanism kommer att utlösa en allokering över tiden i den angivna offentliga adressen till identiteten som är tillgänglig via en självhävd plånbok som är kopplad till innehållet och data som används för POI. Om det är tillräckligt ''röster'' validera bevis som används för ''Bevis av identitet'', plånboken befriar en motsvarande mängd av ''röster'' följer reglerna i ''Universal Basic Income'' dynamisk som allokerar tokens hela tiden med hjälp av Bitcoin blockchain som en universell klocka.
+
+===3.2 Bevis av identitet.===
+
+En självständig identitet måste frivilligt genereras av en användare som hävdar det. För detta ändamål måste användaren sända ett bevis på sin identitet som strikt uppfyller kriterier som kan uppfyllas av mänsklig bedömning och kan förhindra en artificiell intelligens från att störa processen. Därför ska beviset vara i ett format som kräver en stor mängd cerebral bandbredd: video. Ett tillfredsställande bevis ska uppfylla alla dessa egenskaper:
+
+* '''Oföränderlig''': Videofilen måste skyddas mot eventuella ändringar när den har använts som en källa för bevis.
+* '''Singular''': Thans bevis ska validera en enskild identitet utan att tillåta duplicerade deltagare i nätverket (''replikanter'').
+* '''Ansedd''': <code>Organisationer</code> som gör validering av en POI fäster sitt rykte på den beprövade identiteten med dess signatur.
+
+Trots att ett digitalt styrsystem kan dra nytta av det förtroende som redan finns i befintliga nätverk som validerar identiteter (dvs. nationstater), tjänar ett decentraliserat protokoll för att validera identiteter det politiska syftet med personlig suveränitet. Fördelarna med denna offentliga post i en nätverksbaserad commons kan så småningom användas av regeringar eller privata organisationer på olika sätt (t. Ex. Verifiering av ålder eller nationalitet). Här föreslår vi en ny metod för att validera identiteter utan att behöva en enda ''Big Brother''.
+
+En ''Bevis av identitet'' löper ut efter en viss tid för att förhindra Sybil-attacker och se till att endast levande användare deltar i nätverket. För att upprätthålla validiteten hos det offentliga-privata nyckelparet föreslår vi att en period på 1 år är tillräcklig för att skapa ett nytt bevis som uppdaterar den tidigare. På samma sätt som fysiska identiteter kontrolleras genom att jämföra bild till person, måste användarna återskapa deras ''Bevis för identitet'' och sända den för verifiering för att verifiera sin legitimitet. I år kan perioden hänvisas till sammanträdet som ''blockbirth'' av en individ och, om så önskas, firas årligen på samma sätt som nationer firar sin självständighetsdag. Eftersom nyfödda barn är registrerade under denna globala jurisdiktion, ''blockbirths'' get synced with birth dates and will be able to incorruptibly attest for age as well gradually reducing the work of authenticators over time.
+
+====3.2.1 Demo.====
+
+[[File:/images/roma-siri-blockchain-baby.png|Roma Siri's blockchain birth certificate.]]
+
+Det finns ett prejudikat som hjälper till att illustrera hur en ''Bevis av identitet'' fungerar. [https://youtu.be/Irc-VMuUs3c?t=55m20s Enligt NYU professor David Yermack], nyfödda Roma Siri blev den första bebisen att ha ett blockchain giltigt födelseintyg på November 7, 2015. Processen, även om den symboliska den tiden bestod av [https://www.dropbox.com/s/tsi4xo4k6j1jsa6/Blockchain%20Birth%20Certificate%20of%20Roma%20Siri%20-%20Daughter%20of%20Santiago%20Siri%20%28father%29%20and%20Pia%20Mancini%20%28mother%29.MOV?dl=0 en video som visar bebisen Roma som beskrev hennes vitala tecken och inkluderade vittnen om hennes födelse]. När videon filmade, genererades en kryptografisk hash av den digitala filen och kodades in i en Bitcoin-transaktion. Det betyder att oavsett var videon lagras kan den permanenta posten av sin hash på Bitcoin blockchain verifiera att filens data inte var korrumperad och att den existerade när beviset genererades. Med detta oupphörliga bevis blev Roma en blockchain-certifierad global medborgare.
+
+Denna demo fungerar som ett exempel på de steg som måste följas för en decentraliserad ''Bevis av identitet'':
+
+# '''Film bevis''' använder någon tillgänglig smartphone eller kamera.
+# '''Hash bevis''' på en blockchain för att garantera obestridlighet av bevis.
+# '''Bekräfta bevis''' genom en omröstningsprocess bland kamrater (''Attention Mining'').
+
+====3.2.2 Film bevis.====
+
+Ett bevis kan göras med någon inspelningsansökan så länge den uppfyller kraven i protokollet. En förlängning inte längre än 3 minuter rekommenderas för videon. I det måste användaren följa en serie skriftliga steg för att hjälpa validerare att döma med sin uppmärksamhet:
+
+# '''Ansikte''': Under frontljuset, filmfrontalsexpression (som när man tar en ''selfie'') och varje sida av huvudet utan att ha på sig glasögon, hattar, smink eller masker av något slag.
+
+# '''Namn''': Säg högt följande indikatorer:
+## Fullt namn (språkbaserad identitet).
+## Fullt efternamn (blod-baserad identitet, dessutom kan det ange information om mor och pappa).
+## Nationalitet (territoriell-baserad identitet, det kan innefatta bostadsort eller skattemyndighet).
+## Alternativt kan användaren använda ett smeknamn om det är en mer vanlig pekare för sig själv.
+
+# '''Biometrics''' (Optional): Säg högt eller visa på ett tillförlitligt sätt någon av dessa indikatorer. Detta kan vara användbart för specifika användningsfall som födelsecertifikat.
+## Födelsedag (dag, månad och år).
+## Höjd (tum eller centimeter).
+## Vikt (gram eller kilo).
+## Kön (man, kvinna, etc).
+
+# '''Vittnen''' (Optional): Tidigare validerade identiteter kan fungera som vittnen för denna identitet. De kan vara fysiskt placerade och visas i videon med fullständiga namn och offentliga nycklar för att stödja en ny identitet.
+## Vittnen kan få rätt att återkalla, uppdatera eller annullera detta bevis (t ex vid förlust av privata nycklar eller biologisk död).
+## Tvillingar. De som har en tvillingbror eller syster måste ange detta för att förhindra att flagga som en replikant under verifieringsprocessen.
+## Certifieringar. Trots att detta skulle falla tillbaka till centralmyndigheten kan äldre rykte från utgivna dokument hjälpa till att göra en videosäkerhet lättare att lita på. Detta kan innehålla ett födelsecertifikat, körkort eller ett nationellt ID så länge det inte innehåller någon känslig information (t.ex. med ett socialt säkerhetsnummer i USA).
+
+# '''Deklaration''': För att garantera att den person som genererar sitt identitetsbevis är medveten om de rättigheter han kommer att få efter att ha godkänt sitt medlemskap i nätverket och inte tvingas av en osynlig angripare, är det obligatoriskt att göra en självständighetsförklaring som också innehåller en ed om de angivna fakta: <blockquote> Jag, (Personligt namn), intygar att jag gör den här videon i enlighet med min personliga suveränitet som jordens medborgare och alla uttalanden som görs är sanna. Jag kommer att vara ensam användare av alla ''röster'' tilldelas på uppdrag av detta bevis och jag agerar utan hot eller tvång mot min fria vilja.</blockquote>
+
+# '''Public Key''': En adress där ''röster'' kommer att tilldelas om identiteten är validerad. Detta kommer att vara [https://github.com/WebOfTrustInfo/ID2020DesignWorkshop/blob/master/topics-and-advance-readings/DID-Whitepaper.md Decentraliserad Identifierare (DID)] som pekar på den här användaren. Om den här identiteten så småningom röstas som skadad eller användaren (eller något listat vittne) återkallar det, då den tilldelade ''röster'' kommer att bli ogiltig för framtida användning.
+
+# '''Timestamp''': Den aktuella blockhöjden för blockchain som används för att hacka den här videon för att förhindra att videoklipp inte är relaterade till det aktuella ögonblicket, blir intressepunktet genererat för att användas som bevis. En manuell tidstämpel kan helt enkelt filma skärmen av en blockchain explorer-applikation som visar det sista blocknumret och den hash som motsvarar den. Eftersom det här kan vara komplicerat för de flesta användare, kan appar som är utformade för att generera detta bevis automatiskt lägga till det här innehållet i videon. Den här informationen när beviset är hashed med en blockchain-transaktion kommer att bekräfta att videon inte modifierades på något sätt av tredje part efter det att det sändes till nätverket.
+
+Trots att denna process kan vara mer komplex än den genomsnittliga anmälningsblanketten som finns i de flesta tillämpningar är det viktigt att påstå att det också är en politisk handling som förklarar oberoende från myndigheter av något slag. Denna video är det personliga manifest som någon kan göra för att bryta sig undan tvång och ett steg mot en gränslös demokrati.
+
+====3.2.3 Hashing.====
+
+När den digitala filen med det självförsörjande beviset har genererats, en [https://en.wikipedia.org/wiki/Cryptographic_hash_function cryptographic hash function] tillämpas på det beräknas. Följande steg i genomförandet gjord av Manuel Araoz och Esteban Ordano med [https://proofofexistence.com ProofofExistence.com], a standard [https://en.wikipedia.org/wiki/SHA-2 SHA-256] digest is recommended. När en hash har genererats kan den kodas i en Bitcoin-transaktion med hjälp av ett [https://en.bitcoin.it/wiki/OP_RETURN OP_RETURN] script som också innehåller en markör som hjälper till att spåra identitetsrelaterade bevis. Vi föreslår att du använder "IDPROOF" (0x494450524f4f46) för det här användningsfallet.
+
+Med tanke på att en genomsnittlig bitcointransaktion består av 226 byte med en miningavgift per augusti 2017 vid 27 120 satoshis är kostnaden för att ha ett bevis direkt på blockchain på $ 1 per bevis. Detta kan vara relativt dyrt för en majoritet av människor, därför rekommenderar vi att skala denna process genom att möjliggöra [https://github.com/aantonop/chainpoint Chainpoint] implementering kan lagra upp till 10 000 bevis per transaktion genom att lägga in hashed-data på en [https://en.wikipedia.org/wiki/Merkle_tree Merkle Tree] och kodar Merkle-roten i OP_RETURN-skriptet istället. Detta kommer också att avsevärt minska minneskraven för Bitcoin blockchain, en offentlig resurs som inte får missbrukas. Alternativt kan virtuella kedjor som körs ovanpå Bitcoin blockchain som fokuserar på identitet och namnområden, t.ex. [http://blockstack.org Blockstack] kan användas för att tillgodose detta användarfall och hanteringen av det privata offentliga nyckelparet.
+
+Alla bevis som går igenom denna process i ett digitalt sammanhang garanteras inte på något sätt skadas. De digitala filer som används som bevis kan lagras var som helst, kopieras utan begränsningar eller till och med förvaras i hemlighet utan att dela den med någon. Så länge det finns en transaktion i blockchain som kan validera den kodade hasen med data i den digitala filen, är beviset giltigt. Bitcoin blockchain erbjuder det starkaste motståndet mot korruption, eftersom den har den största mängden hashkraft i världen som skyddar sin infrastruktur. Med denna mekanism på plats kan Bitcoin blockchain fungera som ett decentraliserat index över självständiga identiteter. Att utnyttja denna kapacitet kommer bara att göra byråkratin för en gränslös demokrati starkare än någon annan regering på jorden.
+
+====3.2.4 Attention Mining.====
+<blockquote>
+  In the blockchain nobody knows you are an AI.
+</blockquote>
+'''Satoshi Nakamoto'''.
+
+[[File:/images/proof-of-identity.png|Proof of Identity.]]
+
+I datorrumsidentiteter är ingenting annat än pekare: algoritmer saknar medvetenhet om de mönster de är utbildade att känna igen. Identiteter hör strikt till det mänskliga riket (dvs endast en person kan känna igen en annan person). Så snarare än att utnyttja ''distribuerad datorkraft'' att verifiera transaktioner som det händer med de flesta kryptovalutor, ''röster'' använder ''distributed attention power'' för att verifiera självgenererade identitetsbevis. Denna uppmärksamhet tas in av mänskliga deltagare som fungerar som validerare.
+
+Ett välkänt prejudikat för attention mining är CAPTCHA-tester som ofta finns i inloggningen av webbplatser med hög trafik. CAPTCHA är en akronym för ''Helt automatiserat Public Turing-test för att berätta för Datorer och Människor''. Dessa består av enkla visioner som kan utföras av en människa lättare än av en dator. Ett fält [https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf pioneered by researcher Louis Von Ahn], han använde denna teknik för att hjälpa till att bygga dataset som kan träna maskininlärningsalgoritmer för att läsa ord skrivna på papper. Som en Google-ingenjör skapade Von Ahn ett enkelt test fördelat på alla inloggningssidor som visade två ord som erhölls från skannade bilder. En användare skulle skriva båda orden i ett textfält för att bevisa att han är mänsklig och inte en maskin. Systemet visste redan innebörden av det första ordet (därmed validering av användaren är mänsklig) men det blev utbildat med den andra ingången eftersom den använde denna information i datasetet för teckenigenkänningsalgoritmer. Denna enkla övning har utökats för att träna alla typer av system för mönsterigenkänning och det bidrog till säkerheten för webbplatser, vilket hindrar bots (och botnets) från att intrångas.
+
+Uppmärksamhet kan också validera mänskliga identiteter i ett decentraliserat nätverk, analogt med [https://bitcoin.com/bitcoin.pdf Bitcoin's Proof of Work algorithm (POW)] Används av gruvdriftnoden till tidstämpel-peer-to-peer-transaktioner. I Bitcoin genererar varje gruvarbetare sin egen blockchain-kompatibla proof hash för ett nytt block av transaktioner och sänder det till nätverket. Om 51% av noderna i nätverket accepterar det verifierade blocket, blir det kedjat till blockchain och gruvarbetaren börjar arbeta på nästa transaktionsblock med hjälp av det accepterade blocket som föregående hash. Denna teknik möjliggör monetära transaktioner utan centralbanker. I en demokrati utan centrala regeringar istället för att verifiera krypterade block, tjänar mänsklig uppmärksamhet syftet att rösta på självgenererade identiteter för att ge dem ''röster'' som till sist kan användas för nya verifieringar.
+
+Huvuddelen av forskningen om hur man förhindrar sybilattacker (identitetsförfalskning i peer-to-peer-nätverk) kretsar kring att enheter som krävs för att utföra en uppgift som en sybilattacker inte skulle kunna utföra. Uppmärksamhet gruvdrift kräver validatorer att observera vissa aspekter av ''Bevis av identitet'' videos som bara en person kan känna igen. För att kunna ha en mekanism som förhindrar bots kan systemet skapa modifierade videor för att inducera attacker till fel. Dessa snedvridningar kan skapas genom att beskära vissa sektioner ur en video, blanda den med andra eller snedvrida rösterna för att fungera som en videoversion av ett CAPTCHA-test som syftar till att säkert skilja mellan riktiga mänskliga validatorer och botnät.
+
+====3.2.5 Little Brothers.====
+<blockquote>
+  Who watches the watchmen?
+</blockquote>
+[https://en.wikipedia.org/wiki/Watchmen '''''Watchmen'''''], graphic novel (1987).
+
+Self-sovereign identiteter kan värderas på två viktiga aspekter som hjälper till att definiera deras rätt att delta i nätverket:
+
+* '''Rykte''': En social indikator på att en viss identitet är att lita på.
+* '''Singularitet''': En individuell indikator som certifierar en identitet är unik kopplad till en enda person.
+
+Någon i nätverket kan delta för att verifiera nya självhärskare för att säkra en global demokrati mot hotet om ''Big Brother''. Denna uppgift utförs effektivt när en <code>Organisation</code> beslutar att godkänna en ny <code>Medlem</code>. Genom att utnyttja fördelad uppmärksamhet över flera <code>Organisationer</code> i stället för en all-observing central power, är validatorer i själva verket en armé av [http://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/little-brother.txt little brothers] vem kan samarbeta med en självständig identitet i nätverket. ''Little brothers'' kan överträffa centraliserade identitetsleverantörer när det gäller noggrannhet eftersom de ständigt stimuleras för att upprätthålla legitimiteten inom nätverket för att hålla ''röster'' som en värdefull tillgång: nätverkets framgång vid detektering ''replikanter''(duplicerade identiteter) bestämmer bristen på '' röst'-token. Legitimiteten för någon demokrati är baserad på upprätthållandet av ett riktigt väljareregister.
+
+=====3.2.5.1 Rykte.=====
+
+Intresset att effektivt validera ett ''Bevis av identitet'' finns bland <code>Organisationer</code> Det måste handla om sökandes identiteter som är villiga att bli <code>Medlemmar</code> kunna använda sina ''röster'' för besluten relaterade till enheten. De som inom en <code>Organisation</code> har rätten att godkänna nya medlemmar äntligen bidra med rykte en <code>Organisation</code> har den sökande identiteten om den är godkänd.
+
+Anmälan av anseende från en <code>Organisation</code> till en godkänd <code>Medlem</code> som tillämpas med dess POI görs genom att helt enkelt underteckna den godkända POI för att intyga att en identitet är giltig <code>Medlem</code>. Medlemskap som är kopplade till en identitet i nätverket kan tolkas av framtida validerare på andra <code>Organisations</code> på vilket som helst önskat sätt. <code>Organisationer</code> i nätverket kan vara så liten som en familj eller så stor som ett multinationellt företag, men i slutändan är de <code>domäner</code> i ett nätverk som kan likna <code>Taggar</code> beskriver attributen för en identitet. Några <code>Organisationer</code> kan existera för mycket specifika kontroller, e.g. an <code>Organisationer</code> under en ''legal.age'' domän som bara verifierar om en POI hör till någon äldre än 18 år som gör något godkänt <code>Medlem</code> av en sådan enhet har en giltig ''legal.age'' signatur på dess POI.
+
+Rykte på en <code>Organisation</code> kan mätas på hur ofta de slutar tillåta [https://en.wikipedia.org/wiki/Replicant ''replikanter''] som <code>Medlemmar</code>. Med andra ord: <code>Organisationer</code> som misslyckas på ''Singularity score'' som används för att värdera individernas individualitet i nätverket, blir mindre trovärdiga än de som effektivt kan inkludera suveräna individer.
+
+=====3.2.5.2 Replikanter.=====
+
+Även om regeringar måste verifiera släktträdet till en potentiell ny medborgare och traditionella företag måste lita på [https://en.wikipedia.org/wiki/Know_your_customer ''Know Your Customer''] praxis (KYC) för att dra en linje mellan sina kunder och resten av världen; En global demokrati har ingen anledning att skapa en skillnad mellan ''oss och dem''. Målet med Democracy Earth Foundation är att skala upp rätten att använda ''röster'' till varje enskild människa: vi är alla ''oss'' (eller ''dem''). Därför den övergripande utmaningen för en framgångsrik decentraliserad ''Bevis av identitet'' dynamiken är att helt enkelt fokusera på att använda den tillgängliga uppmärksamheten i nätverket för att kontrollera ''replikanter'' som begär en andel ''röster''.
+
+''Replikanter'' är identiteter som får ''röster''som duplikat, obehörigt hävdar mer ''röster'' än de förtjänar. Fake POIs kommer sannolikt att hända genom att använda moderna tekniker för 3D-rendering som syftar till att lura det mänskliga ögat (t ex att slå på [https://en.wikipedia.org/wiki/Uncanny_valley uncanny valley] av allmän uppfattning), men det är ett säkert antagande att överväga det[http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf Människor kan känna igen ansikten med 98% av noggrannheten] medan [http://www.washington.edu/news/2016/06/23/how-well-do-facial-recognition-algorithms-cope-with-a-million-strangers/ Kapaciteten hos algoritmiska system minskar när den skalas]. Med tanke på att gränsen dras är mellan människor och konstgjorda intelligenser är det vi använder termen ''replikant'' som myntades 1982 i filmen ''Blade Runner'' hänvisar till androider som kan simulera att vara riktiga människor.
+
+=====3.2.5.3 Singularity Score.=====
+
+Att bekräfta en identitet är giltig, verifierare utsätts för två samtidiga POI-videor som kan väljas slumpmässigt från alla indexerade och hashed-videon som finns i blockchain. En ansiktsmatchningsalgoritm som söker likheter mellan ansiktsuttryck kan användas för att optimera testet. Validatorer måste använda ''röster'' att komma överens om huruvida dessa POI-videor hör till samma person eller ej, vilket är det fortsatta resultatet av detta beslut ett ''Singularity score'' för identiteten.
+
+Valideringsprocessen är densamma som i varje suverän röstdynamik: Validatorer kan godkänna genom att lägga en ''röst'' som inkluderar en <code>Röstsedel</code>med en <code>true</code> checked <code>Option</code> on it. Annars måste de lägga en ''vote'' i avvisning med en <code>false</code> checked <code>Option</code>. Alla POI-relaterade beslut är <code>Strategiska</code>: utan slutdatum när tilldelat ''röster'' inverkan i realtid. En validerare kan när som helst åsidosätta ''röst'' värde om det har funnit bevis som ändrar tidigare dom. Också ''röster'' validering av en intressepunkt kan tas bort om identiteten redan har inmatning från tillräckliga validatorer som gör tilldelning av ytterligare ''röster'' redundant.Som med alla suveräna beslut kommer slutresultatet av en POI-relaterad omröstning att hamna på antingen en <code>true</code> or <code>false</code> value. Den som slutar med att bli röstad som en ''replikant''kommer att se hans eller hennes beviljade ''röster'' ej giltiga.
+
+Det <code>Kriteria</code> som används för''Singularity score'' är också föremål för omröstning av varje validerad POI som deltar i nätverket. Demokratierna är alltid ett pågående arbete, ständigt självkorrigerande med en återkopplingsslinga som definierar hur observatörerna observeras. Den tröskel som fastställer den suveräna rätten till ''röst'' måste ständigt anpassa sig till den exponentiella tillväxten av beräkningskapacitet som kan riskera att subverta nätverket. Genom att backas upp med ett decentraliserat identitetsindex med hjälp av en oförgänglig blockchain som upprätthålls med distribuerad uppmärksamhet (dvs en öppen ansiktsbok) ''röst'' token blir en pålitlig enhet för att en digital demokrati ska komma överallt. Att tilldela uppmärksamhet för att säkra nätet ger inte bara medvetandet till ett system som är förblindat för artificiell intelligens, utan ger även deltagarna möjlighet att äga sina identiteter utan att tvingas av en centraliserad kraft som kan tjäna pengar på det utan samtycke. Bevislig uppmärksamhet måste alltid sättas i tjänst för att stärka en global demokrati eftersom det bara är i mänsklig medvetenhet att vi kan definiera vad det innebär att vara mänsklig.
+
+===3.3 Universal Basic Income.===
+<blockquote>
+  Now is the time to make real the promise of democracy.
+</blockquote>
+'''Martin Luther King Jr.''', Minister and activist (1929-1968).
+
+Förmågan att utveckla en pålitlig self-sovereign Identitetsvalideringsprocessen garanterar inte bara det legitima värdet för ''röster'' att uttrycka socialt val men också etablera berget för den infrastruktur som krävs för att göra en ''Universal Basic Income'' (UBI) mekanism som kan nå alla på jorden. Det symbiotiska förhållandet mellan UBI och demokrati har varit väl underbyggt. Enligt forskning som presenterades vid Basic Income Earth Network (München september 2012), genomförandet av grundinkomst [http://basicincome.org/bien/pdf/munich2012/Choi.pdf kan i hög grad bidra till att förverkliga principerna om demokrati och inrättandet av dess betydelsefulla grund]. Därför för att konsolidera den politiska och ekonomiska logiken som kan skapa en gränslös demokrati, en gång ett ''Bevis av identitet'' Valideras av peers distribueringsmekanismen utlöses för ''röster'' kommer att baseras på tid som en UBI.
+
+Tiden är en värdefull och begränsad tillgång, som därför kan omsättas. Man kan inte köpa, hyra eller hyra mer tid: det har en oelastisk tillgång oavsett hur hög efterfrågan är. [https://books.google.com/books?id=sjlVAAAAcAAJ&pg=PA5&lpg=PA5&dq=what+is+money+man%27s+birthright+time&source=bl&ots=uxfZPDT94J&sig=gWf_LpHeEA-g6ukveZ1-mQI3FE4&hl=es&sa=X&ved=0ahUKEwjgyuHR2ejVAhUK7iYKHUX0AzgQ6AEILjAB#v=onepage&q=what%20is%20money%20man's%20birthright%20time&f=false Tiden är den enda värdet av värdet för att testa all arbetskraft, antingen manuell eller mental, utförs av män och kvinnor]. Och genom att ange tid och använda den som grund för fördelning ''röster'', det likviderar en besittning som varje medlem av en global demokrati har på lika villkor. Likviditet är ett krav på någon demokrati som syftar till att undvika tvång: röster måste kunna höras för att räkna och genom att bevilja ''röster''som en UBI slår vi på att leverera en mänsklig rättighet som effektivt kan bemyndiga individer som måste möta de kommande utmaningarna för automatisering. ''Röster'' beviljas genom tiden som en rätt undviker [https://en.wikipedia.org/wiki/Tragedy_of_the_commons ''tragedy of the commons''] medan det ligger till grund för en styrningsmodell som går utöver skuld och nationstater.
+
+En self-sovereign kan då erhålla ''röster'' på tre olika sätt:
+
+* '''Delegering''': <code>Medlemmar</code> inom en <code>Organisation</code> fungerar som en flytande demokrati kan få delegerade ''röster''.
+* '''Tilldelning''': <code>Organisationer</code> kan tilldela ''röster'' till nya deltagare på sina egna villkor. Deltagare kan skapa eller finansiera <code>Organisationer</code> som använder sina egna ''röster''.
+* '''Droppa''': När ett ''Bevis av identitet'' blir giltigt, ''röster'' börja droppa in i användarens plånbok över tiden.
+
+====3.3.1 Droppning.====
+
+Den hastighet vid vilken 1 ''röst'' droppas till en verifierad identitet synkroniseras med Bitcoin blockchain. Genom att använda Bitcoins synkroniseringsmekanism som klocka sätter en ofäränderligt konsensus rytmen för hela nätverket. Bitcoin kedjar ett nytt block till blockchain var 10: e minut, vilket innebär att
+
+  1 timme = 6 blocks
+
+Antag att den tjänade tiden över hela världen bygger på 8 timmars arbetsdagar,
+
+  8 timmar per dag x 5 dagar per vecka x 52 veckor per år = 2,080 timmar per år
+
+Eller i  block tid,
+
+  2,080 timmar = 12,480 blocks
+
+Och med tanke på att det fastställdes enighet om [https://medium.com/economicsecproj/how-to-reform-welfare-and-taxes-to-provide-every-american-citizen-with-a-basic-income-bc67d3f4c2b8 en ideell grundinkomst är i genomsnitt cirka 10% av en individs intäkter] vi kan definiera det,
+
+  10% Intjänad årlig grundinkomst = 208 timmar per år = 1 248 block
+
+Det betyder att de 52.560 blocken som registrerar ett helt verksamhetsår på Bitcoins blockchain, ska totalt 1 248 block redovisas för att belöna en UBI per år. Att synkronisera ''röst'' droppar med Bitcoin som en UBI-mekanism baserad på 10% vinst för varje arbetstid, 1 full enhet av a ''röst'' token ska droppa var ~ 42 timmar (eller ~ 252 block). För att garantera en möjlig delbarhet av ''röst'' token så det kan droppas några sekunder (medan det blir lättare för tolkning av människor och maskiner) ställer vi dropphastigheten på,
+
+  1 röst = 250 block
+
+Så får alla giltiga POI totalt:
+
+  210 röster per år
+
+[[File:/images/proof-of-identity-dripping.png|Dripping mechanism for mined votes.]]
+
+Därför med beaktande av följande variabler:
+
+* T = Nuvarande blockhöjd (i.e. aktuell tid).
+* r = En konstant för ''röst'' fördelningsgrad, ställd till 1 röst varje 250 block i tid.
+* Pᵢ = Ett ''Bevis av identitet'' block innehållande dess motsvarande hash för en given identitet (i).
+* Sᵢ = ''Singularity score'' uttryckt som <code>true</code> or <code>false</code> Ange för en given identitet (i).
+* Vᵢ = Total mängd av ''votes'' för en viss identitet (i).
+
+Sedan ''röst'' en self-sovereign identitet får användas i systemet kan beräknas på vilken nod som helst som kör ett smart kontrakt med formeln:
+
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
+
+Så länge som ''Proof of Identity'' har validerats av gemenskapen och ett smart kontrakt synkroniseras med en aktiv blockchain-nod, kommer värdet av Vᵢ antingen att vara ett tal som definierar den totala mängden ''röster'' en self-sovereign har rätt att använda på en värdplånbok eller, om POI avvisas (i.e. Sᵢ = <code>false</code>), då blir deltagarens tillgängliga röster noll.
+
+====3.3.2 Jämlikhet====
+
+Den beskrivna droppdynamiken hamnar till nytta av tidiga adoptrar, vilket ofta är fallet med finansinriktade kryptokurvor. Bitcoin till exempel beskrivs ofta som ''cryptographically induced scarcity'' eftersom det är ett instrument som kan mäta förmögenhet när det gäller ekonomiska resurser på grund av sin tokens fasta brist. Men med ''röst'' token Vi bygger ett nätverk av annan natur som syftar till att komplettera finansiella cryptocurrency genom att ha styrning som ett mål. Genom att utfärda ''röster'' som en rättighet som kan beviljas någon så länge som hans eller hennes singular identitet bevisas, ''röst''verkar som politisk klagomål. Så i huvudsak handlar vår strategi om ''cryptographically induced equality'': Det här är grunden för någon verklig demokrati. Av denna anledning introducerar vi en annan variabel till dess ''Universal Basic Income'' dynamik,
+
+* E = Mängd av ''röster'' tilldelad till ''Genesis Identity'' för närvarande blockhöjd (T).
+
+Vi hänvisar till ''Genesis Identity'' som den allra första ''Bevis av identitet'' som godkänns av nätverket. Med den här informationen börjar den nästa validerade identiteten inte nackdelen: den kommer att ha en plånbok med samma mängd ''röster'' än den första deltagaren i nätverket har för närvarande. Eftersom denna regel gäller för varje deltagare garanterar den ''Jämlikhet'' i fråga om deltagande låta alla ha samma mängd suveräna ''röster'' än alla andra, förlängning av UBI-formeln enligt följande:
+
+[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
+
+Med ''Jämlikhet'' variabel, om en andra deltagare Bob fick validerad 1500 blocks efter en första Alice börjar han inte med 0 ''röster'' men snarare få ett initialt belopp som matchar Alice s nuvarande balans (i.e. med en hastighet av 1 ''röst'' per 250 block, det är totalt 6 ''röster''). Bob kommer fortsätta att få ''röster'' droppade på lika villkor med Alice-blocket efter blocket efter det. Om en tredje deltagare Charlie genererar en giltig ''Bevis av identitet'' 1000 block senare, han börjar med motsvarande mängd ''röster'' som Alice och  Bob var och en har för närvarande också (dvs totalt 10 ''röster'' var). Med denna inflationsprocess som belönar varje ny deltagare (utspädning av alla befintliga) är alla garanterade en ''jämlik'' andel i nätverkets övergripande deltagande rättigheter. Så länge som ''replikanter'' blir framgångsrikt förbjudna, ''röst'' nätverket är en genuin demokratisk global commons.
+
+[[File:/images/chart-votes-coins-time.png|Vote emission and inflation rate.]]
+
+Även om inflationstakten i början kan verka för aggressiv, är det totala utbudet av ''röster'' är fortfarande inställd på ett maximalt lock baserat på antalet deltagare i nätverket. Som fler deltagare engagerar tenderar den totala inflationen att begränsa 0% sedan nya ''röster'' har minskat inflytande i ekonomin som helhet. I jämförelse med uncapped ''likes'' och ''retweets'' i andra sociala applikationer måste det noteras att från individens subjektivitet tilldelningen av ''röster'' är fortfarande ett beslut baserat på en begränsad resurs som innebär möjlighetskostnader, vilket tvingar ett mer rationellt beteende i stället för impulsiv likhet (dvs trolling).
+
+====3.3.3 Nakamoto Coefficient====
+
+Betydande ansträngningar för att kvantifiera decentralisering görs, inklusive Balaji Srinivasan's arbete med att upprätta en [https://news.21.co/quantifying-decentralization-e39db233c28e ''Nakamoto Coefficient''] definierad som:
+
+<blockquote>
+  The minimum number of entities in a given subsystem required to get to 51% of the total capacity.
+</blockquote>
+
+Betydelsen av att mäta decentralisering är beroende av att hitta en metrik som kan certifiera ett nätverks förmåga att vara censurbeständigt, vilket är en grundläggande egenskap för självhäftiga valutor som Bitcoin. Men i sista hand måste frågan om vem som har kontroll över de enheter som kör ett nätverkssystem tas upp också. Genom att upprätta ett referensnätverk som garanterar en jämlik fördelning av dess token baserat på en ''Bevis av identitet'' mekanism utformad för att förhindra ''replikanter'', Detta ger ett nytt perspektiv som kan bidra till att öka upplösningen av Nakamoto-koefficienten med hjälp av urskiljbar lika tillgång.
+
+Genom att garantera en lika utgångspunkt för varje deltagare, oavsett vilken tid de bestämmer sig för att ansluta sig till nätverket ''röst'' nätverket fungerar som en genuin meritokrati. Det föreslagna ''Jämlikhet'' variabel är helt enkelt en regel för att upprätta en startpunkt och inte på något sätt en permanent pålägg: när som helst, vilken som helst self-sovereign får antingen delegera ''röster'' till någon annan eller använd dem för att starta en <code>Organisation</code> i nätverket. På så sätt kan ''röst'' token kan fungera som en enhet som passar för att främja en våg av entreprenörskap även bland dagens disenfranchised individer utelämnade av de äldre finansiella och politiska systemen. Men eftersom det händer på individnivå fungerar den övergripande statistiken i nätverket själv som en referensram för att effektivt kunna mäta decentralisering ner till varje människa över hela världen och identifiera möjligheter där den behövs när den växer.
+
+Nätets värde ligger inte på den simulerade bristen utan på dess förmåga att registrera oskäliga beslut bland självstyrande på grundval av jämlikhet. Ursprungligen ''röst'' token kan konkurrera med pollare och andra rudimentära simuleringar som syftar till att förutse val, men så småningom kan det bli ett suveränt system som enbart som medborgarskap migrerar på nätet. ''Röster'' fungera som en signal som kan registrera händelser som spelats in på en oförgänglig blockchain som lagrar politisk historia som inte kan raderas eller ändras på något sätt. Framtida generationer blir utsatta för sina förflutna utan mellanhänder.
+
+===3.4 Värde===
+
+Vi tar tre metoder för att definiera värdet av en ''röst'' token:
+
+* '''Status-Quo''': Sociala medier erbjuder en tydlig referens om hur ''likes'' bli värderad online.
+* '''Work & Time''': Ett ''Universal Basic Income'' perspektiv erbjuder användbar insikt om hur arbetstiden värderas.
+* '''Nation-States''': Traditionella val erbjuder användbar insikt om hur röster värderas idag.
+
+Med dessa referenser diskuterar vi sedan delningen av ''röst'' token och dess genomförande att styra en Democracy Support Fond.
+
+====3.4.1 Status-Quo====
+
+Ett jämförande riktmärke för värdet av ''röst'' token kan hittas på Facebook-nätverket som för närvarande värderar 2 miljarder användare med ett marknadsvärde på ~ 500 miljarder dollar i genomsnitt en uppskattning av '''$250 per användare'''. Democracy Earth Foundation betraktar Facebook's ''like'' funktion som är analog med att använda ''röster'' i ett öppet nätverk. Det är svårt att uppskatta kvantiteten av ''likes'' gjord på denna plattform eftersom det är privat information och råa uppskattningar projekt ''likes'' händer i mängden biljoner på daglig basis.
+
+Marknadsförare som driver Facebook-reklammaskinen pris ''likes'' inom ett område som kan gå från '''$0.10 to as high as $25''' baserat på rykte och popularitet för kontot som används för att fånga användarens uppmärksamhet. I den meningen anser vi att denna prisreferens är relevant för slutanvändare för att ge dem en token som kan vara konkurrenskraftig med ledande sociala medier. Men det måste noteras att till skillnad från ''likes'', ''röster'' direkt bemyndiga innehavare med rätt att delta i någon ekonomisk fördel som kan kopplas till deras användning utan förmedling. Med ''röster'',att dra nytta av användardata kommer inte längre att vara den exklusiva domänen för Facebook-mellanhänder, men istället kommer den att aktiveras av en inbyggd teckengenereringsmekanism som bygger på de principer som fastställts av [http://www.un.org/en/universal-declaration-human-rights/ Universal Declaration of Human Rights]:
+
+<blockquote>
+  Alla har rätt till yttrandefrihet och yttrandefrihet. Denna rätt inkluderar frihet att hålla åsikter utan störningar och att söka, ta emot och ge information och idéer genom alla medier och oavsett gränser. Alla har rätt till frihet för fredlig församling och förening. Alla har rätt att delta i hans lands regering, direkt eller genom fritt utvalda representanter.
+</blockquote>
+
+Med skapandet av Sovereign som ett gränssnitt för blockchainbaserade demokratier som arbetar med ''röst'' tokens, Democracy Earth Foundation's Målet är att leverera en ''Linux moment'' to Facebook: analogt med uppkomsten av operativsystem med öppen källkod i början av 1990-talet blev Linux ett alternativ till monopoliseringsstyrkan i Microsofts Windows som dominerade marknaden för persondatorer och internetservrar. Ett fritt och öppet Internet måste sträva efter skapandet av ett socialt nätverk där ingen enskild enhet kan utöva algoritmisk kontroll över de gemensamma idéerna i utbyte mot användarnas privata information. Och medan Facebook minskar användarens uppmärksamhet för vinst, kommer demokratimiljönätverket att använda samma resurs för att stärka förtroendet hos ''röst'' token med dess
+''Bevis av identitet'' process. När vi erkänner det växande politiska inflytandet som sociala medier redan har i världen, är det brådskande att lägga ut ett öppet socialt nätverk som är okänsligt, att suveräna och fria pressar.
+
+====3.4.2 Arbete & Tid====
+
+Kommer från en ''Universal Basic Income'' perspektiv, en användbar referens som värderar tid och arbetskraft är den föreslagna [https://en.wikipedia.org/wiki/Minimum_wage_in_the_United_States minimum wage in the US] baserad på federala, statliga och lokala lagar över hela landet. Från och med juli 2016 har den ställts till '''$7.25 per timme'''.
+
+[[File:/images/minimum-wage-us.png|Minimum wage in the US.]]
+
+För ''röst'' token att effektivt bli ett användbart nätverk som kan indexera UBI på global nivå, måste en förväntan om sin dynamiska prissättning vara 1 ''röst'' enhet som motsvarar 1 timmes arbete. Därigenom förankras det ursprungliga priset på tokenet på:
+
+  1 röst = $ 7.25
+
+Så länge nätverket framgångsrikt förbjuder ''replikanter'' och belöningar validerade self-sovereign identiteter som är indexerade på Bitcoin blockchain, då kan något UBI-initiativ lita på nuvarande data för att allokera resurser utan risk för missbruk.
+
+====3.4.3 Nation-States====
+
+Från ett Nation-State perspektiv, en användbar referens kan hittas i kostnaden för genomförandet av nationella val. 2016 Presidential Race i USA hade en total kostnad så hög som [https://www.opensecrets.org/overview/cost.php $ 2,386,733,696]. Trots att den hade den lägsta väljarkonferensen på 20 år, uppskattades totalt [https://en.wikipedia.org/wiki/Voter_turnout_in_the_United_States_presidential_elections ~138,847,000 voters] deltog. Därför kan en enkel beräkning prisa röstetoken som utfärdats av den amerikanska regeringen för denna valprocess på '''$ 17.18 per röst'''. I den andra änden av spektrumet erbjuder utvecklingsländer som Argentina en liknande referens: deras lagstiftning i 2017 hade en beräknad kostnad på [http://www.lanacion.com.ar/2034493-las-paso-costaran-2800-millones-pero-casi-no-definiran-candidatos $ 164,705,882] med totalt [http://www.elintransigente.com/politica/2017/8/13/cuantos-argentinos-votaron-paso-449552.html ~24,500,000 voters], sätter pris på '''$ 6.70 per röst'''. Det ligger inom detta värdeområde att medborgarna investerar resurser för att garantera rösträtt till alla sina medborgare.
+
+[[File:/images/cost-of-us-elections.png|Cost of US Elections.]]
+
+Enligt Facebooks frö-investor Peter Thiel är en tumregel för teknologisk innovation att för att kunna slå ett paradigm för prövningar måste en innovation överträffa uppgiften att göra det tidigare sättet att göra saker [http://zerotoonebook.com/ med åtminstone en faktor av 10] vad gäller kostnad och nytta. Till exempel: den digitala ordbehandlaren blev framgångsrik eftersom den gör vad en skrivmaskin gjorde på ett sätt som kan betraktas minst tio gånger bättre och tio gånger billigare. Detsamma gäller för fax i motsats till posttjänsten; och e-post i motsats till fax. Därför bör övergången från traditionell omröstning till en ny standard för blockchainbaserad omröstning fungera på samma sätt.
+
+En enkel jämförelse visar de strikta begränsningarna val rösterna har i jämförelse med ''röst'' token föreslagna i detta dokument:
+
+* '''Dyr Säkerhet''': Nation-State's ''Bevis av identitet'' kräver flera resurser för att identifiera medborgare under många stadier av sitt liv. Födelsebevis, pass, körkort, nationella ID-kort, social trygghet, bröllopscertifikat, dödsintyg är alla inriktade på att hålla allmänhetens register över medborgarna uppdaterad. Detta är statens ledande funktion och det kan leda till förföljande beteende.
+* '''Begränsat verktyg''': När en medborgare rösta under valet kan den inte ändras fram till 4 till 6 år senare när de valda positionerna renoveras. Bara de bland de valda ståndpunkterna (dvs. senatörer och kongresser) får rätt att tillbringa mer röster än övriga medborgare.
+* '''Minskad bandbredd''': Medborgarna får välja mellan en handfull alternativ endast en gång vart 2 eller 4 år. Om vi betraktar varje alternativ som en bit på systemet kan traditionella val betraktas som ''8 bitars demokratier'', sådan är den nuvarande bandbredd för deltagande under de flesta regeringar.
+
+För att upprätthålla referenspriset fastställt till minimilönen i USA samtidigt som det kan vara minst ~ 10X effektivare än något traditionellt val,''röst'' Verktyget måste förlängas genom att göra symbolen delbar.
+
+====3.4.4 Delbarhet====
+
+Väntetiden på 250 block för varje ny dropp ''röst'' begränsar den uppfattade tillfredsställelsen som levereras av systemet till var ~ 42 timmar. Denna begränsning är inställd för att binda den ekonomiska logiken hos ''röst'' tokentill sin kapacitet att indexera alla de framgångsrika ''Bevis av identiteter'' till ''Universal Basic Income'' droppar dynamiskt. Men möjligheten att börja interagera med systemet i sig borde inte kräva en lång väntetid: Genom att införa decimalspositioner kan nätverket erbjuda omedelbar tillfredsställelse genom att anpassa droppdynamiken till en minsta del av mänsklig uppmärksamhet.
+
+Med tanke på att,
+
+
+  1 röst = 250 block = 2,500 minuter = 150,000 sekunder
+
+För att hålla kortast möjliga decimalförlängning samtidigt som dropphastigheten anpassas till den minsta spänningen för mänsklig uppmärksamhet, ''röst'' nätverket ska utföra en revolution var 15: e sekund:
+
+  15 sekunder = 0.0001 röster
+
+På samma sätt märks den minsta fraktionen av en Bitcoin som 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), vi anser att det är lämpligt att märka minsta fraktionen av en ''röst'' som en ''revolution'' eftersom detta koncept bidrar till att uttrycka den hastighet som nätverket ger politiska rättigheter till,
+
+  1 röst = 10,000 revolutioner
+
+Vilket kan också uttryckas som,
+
+  1 revolution = 0.0001 röster
+
+Genom att tillåta 4 decimala positioner i token, a ''revolution'' får droppas till ett giltigt ''Bevis av identitet'' i nätverket var 15: e sekund. ''Revolutioner'' ger nästan omedelbar tillgång till politiska rättigheter samtidigt som samma användarskapacitet som ''röster'' med en kostnad som är förhållandevis 10.000X effektivare än Nation-State val:
+
+  1 revolution = 0.0001 röster = $ 0.000725
+
+För att identifiera token i tredjepartsprogram, föreslår vi ''VOTE'' och ''VOT'' tickers.
+
+===3.5 Avsluta spelet.===
+
+<blockquote>
+  “What happened to the governments?” I inquired. 
+  “It is said that they gradually fell into disuse. Elections were called, wars were declared, taxes were levied, fortunes were confiscated, arrests were ordered, and attempts were made at imposing censorship — but no one on the planet paid any attention. The press stopped publishing pieces by those it called its ‘contributors,’ and also publishing their obituaries. Politicians had to find honest work; some became comedians, some witch doctors — some excelled at those occupations…”
+</blockquote>
+'''Jorge Luis Borges''', ''Utopia of a Tired Man''. Writer (1899–1986).
+
+Till dem som argumenterar för elektronisk röstning online poängerar deras argument med Facebook ''likes'': [https://en.wikipedia.org/wiki/The_medium_is_the_message ''the medium is the message'']. Behovet av att skapa betrodda relationer i digitala miljöer är obligatoriskt som mänskligt samarbete vågar till hela världen. Men generations möjligheten att gemensamt bygga denna möjlighet måste kunna lära av historiens stora lärdomar. Uppkomsten av databehandling går tillbaka till [https://en.wikipedia.org/wiki/History_of_IBM#1880s.E2.80.931924:_The_origin_of_IBM the first tabulating machine built by IBM for the 1890 US census] och sammanräkning av nationella val efter det. De allra första proto-datorerna, byggda av Alan Turing, gjordes som en krigsansträngning som kan slå nazi-kryptering och visar slutligen hur intelligens kan slå våld. Övergången från analog till digital kommunikation började med [https://wheatoncollege.edu/provost/2016/03/21/claude-shannon-and-the-magna-carta-of-the-information-age/ Magna Carta of the Information Age] publicerad av Claude Shannon år 1948 om grunden för digital kod och stora nätverk för överföring av intelligens, en vision som gjordes av Sir Tim Berners-Lee skapande av ''world wide web'' protokoll. När Satoshi Nakamoto publicerade Bitcoin-papperet invigde han den tid som ger upphov till övergången från analog till digital ''institutioner''. Ett oundvikligt språng från att mogna vår gemensamma förståelse för informationssäkerhetens egenskaper. Blockkedjor ger vår värld en ny kanfas för att lägga grundar som ska styra oss alla för att vara värdiga att inte behöva styrning längre. Trots allt [https://en.wikiquote.org/wiki/Alfred_North_Whitehead civilization advances by extending the number of important operations which we can perform without thinking about them]. Den digitala tekniken har visat sig ha en större kapacitet inom räckvidden och kvaliteten på sina meddelanden och när nya generationer växer samman under en global commons, kommer informationsarkitekturer att reglera våra politiska och finansiella relationer utan de fysiska begränsningarna i det förflutna. Bitcoin-experimentets obestridliga framgång som konsekvent slår till och med de mest radikala prognoserna under ett decennium talar mycket om den släppta potentiella mänskligheten har funnit. Status quo kommer alltid att tala från en skeptisk position eftersom stoppande framsteg endast kan komma från en position av komfort. Men precis som Internet inte väntade på anpassningen av gammaldags imperier, kommer blockkedjor inte att bry sig om politiska löften: ett tekniskt avancerat samhälle kan ingå avtal om ömsesidigt samarbete utan att falla tillbaka till medel för tvång och våld. Sådan är den anmärkningsvärda konsekvensen av upplösning av förtroende utan gränser, en verklighet som inte kommer att dyka upp i en enda isolerad del av ett land eller en del av världen, men kommer att fördelas över hela planeten. Den ''nästa Silicon Valley'' ligger inte i ett avlägset land eller på något land alls, men en ny gräns på internet själv stiger som det sanna öppna, fria och suveräna nätverket av peers.
+
+----
+
+==4. Om.==
+
+Democracy Earth Foundation är en ansträngning som möjliggörs av samarbetare, givare och anhängare av alla slag. Vi är ett 501 (c) 3 inte för vinstorganisation från Kalifornien och med närvaro i New York, Paris, Buenos Aires och San Francisco.
+
+===4.1 Team & Medarbetare.===
+
+Santiago Siri, Virgile Deville, Paula Berman, Eduardo Medina, Herb Stephens, Sandra Miller, Dwight Wilson, Mair Williams, Louis Margot-Duclot, Felipe Alvarez, Cyprien Grau, Peter Schurman, Andrew James Benson, Gonzalo Stupenengo, Lucas Isasmendi.
+
+===4.2 Advisory Board.===
+
+Pia Mancini, Alexis Ohanian, Matias Mosse, Ariel Kogan, Ernesto Dal Bó, Kate Courteau, Giorgio Jackson, Julio Coco, Dan Swislow.
+
+===4.3 Individuella givare.===
+
+Ricardo Gorodisch, Matias Mosse, Krishna Bahrat, Wenceslao Casares, Dwight Wilson, Marcos Galperin, Alejandro Estrada, Chris & Hedy Eyre, Kevin	Barenblat, Clinton Yara, Tom Preston-Werner, Lloyd Nimetz, Eduardo Medina, Jim D'Amico, Erik Walter, Vivek Krishnappa, Kevin Berk, Micah Rosenbloom, Karén Gyulbudaghyan, Satoshi Nakamoto, Paul Wehrley, Josh Jacobson, Allison Sparks, Ahin Thomas, Ron Hirson, Ken Ettinger, Sharon Goldstein, Shreenath Regunathan, Matt Price, Josh Zaretsky, Heejae Lim, Allison Koblick.
+
+===4.4 Erkännande.===
+
+Det här är några av de sinnen som inspirerade de idéer som uttrycks på detta dokument.
+
+Nick Szabo, Nubis Bruno (Bitex.la), Cesar Hidalgo (MIT), Balajis Srinivasan (21.co & Anderssen Horowitz), Andrea Antonopoulos (Bitcoin Evangelist), Peter Asaro (Stanford), Naval Ravikant (Angel List), Guillermo Rauch (Zeit), Andrew DeSantis (E8), Greg Slepak (Open Turtles), Demian Brener (Zeppelin), Manuel Araoz (Zeppelin), Ralph Merkle, Satoshi Nakamoto (Bitcoin), Vitalik Buterin (Ethereum), Vlad Zamfir (Ethereum), Joseph Lubin (Consensys), Ryan Shea (Blockstack), Muneeb Ali (Blockstack), Luis Cuende (Aragon), Vinny Lingham (Civic), Luke Duncan, David Graeber (London School of Economics), Peter Schurman (One Global Democracy), Jim D'Amico, Federico Ast, Harry Halpin, Guy Standing (University of London), Sebastian Serrano.
+
+===4.5 Supporters.===
+
+Dessa organisationer stödde vårt arbete genom bidrag, partnerskap och erkännande av våra forsknings- och utvecklingsinsatser.
+
+[[File:/images/grants-awards-support-organizations.png|Grants, awards and support from these leading organizations.]]
