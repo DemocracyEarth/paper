@@ -489,7 +489,11 @@ The consequences of having a monopolizing leader in a liquid democracy environme
 
 =====2.6.2.1. Quadratic Voting.=====
 
-A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting] for delegations. The cost for Alice to delegate votes to Bob increases exponentially the more votes get delegated. With quadratic delegations Alice can only delegate Bob 1, 2, 4, 8, 16 or even 128 or 512 ''votes'' but no value in between. This makes any delegation tax the delegator by reducing the opportunity cost of delegating to another member. This method prevents the rise of monopolies within the market dynamics of liquid democracies, always making the participation of all members relevant. If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
+A key setting of a liquid democracy system is to permit [http://ericposner.com/quadratic-voting/ quadratic voting]. In quadratic voting, the number of votes spent increases quadratically with the number of votes received. That is, if Alice wants a proposal to receive one vote, she can spend one vote on that issue. But if she wants the proposal to receive two votes (i.e., voting twice), it will cost her four votes. To provide 100 votes to a single proposal, i.e., vote 100 times, she must spend 10,000 votes (100 x 100).
+
+Quadratic voting works to avoid monopoly power by decreasing the marginal benefit of additional votes. A celebrity who collects 1,000,000 delegated votes only gains spending power equivalent to 1,000 votes if applied to any single issue. Individuals are therefore disincentivized to delegate votes to someone who has already been delegated a significant number of votes. If Alice has 100 votes, they would be worth 10 votes if Alice uses them all herself to vote directly on a proposal (10 x 10 = 100). But if Alice delegates her 100 votes to Bob, who already has 2,500 votes, then those 100 votes from Alice are only worth about 1 vote when spent by Bob on a single issue (because Bob would go from being able to vote 50 times on a single issue to being able to vote 51 times).
+
+If some organizations desire a more vertical chain of command (e.g. corporations), quadratic voting can still be disabled in the ''constitutional smart contract'' of a Sovereign implementation.
 
 ====2.6.3 Sybil Attack.====
 <blockquote>
