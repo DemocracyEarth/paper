@@ -1,0 +1,18 @@
+<pre>
+  DEF: 1
+  Titolo: Il Contratto Sociale Intelligente
+  Autori: Santiago Siri <santi@democracy.earth>, Herb Stephens <herb@democracy.earth>.
+  Commenti-Sommario: Nessun commento.
+  Stato: Attivo
+  Tipo: Paper
+  Creato: 2017-07-14
+  Licenza: MIT
+  Sostituzioni: 0
+</pre>
+
+=Il Contratto Sociale Intelligente.=
+La ''Initial Rights Offering'' di [http://democracy.earth Democracy Earth Foundation].
+
+
+==i. Abstract.==
+In un mondo che è riuscito a globalizzare i patrimoni finanziari pur mantenendo i diritti politici rinchiusi nei territori, abbiamo bisogno di costruire nuovi modelli di governance democratica che consentano all' umanità di collaborare e affrontare le questioni globali più pressanti. Democracy Earth Foundation sta costruendo un software open source gratuito per ottenere un processo decisionale (ossia di voto) incorruttibile e basato su blockchain all'interno di istituzioni di tutte le dimensioni, dalle più locali con solo due persone fino alle più globali, che coinvolgono tutti noi. Una distribuzione disomogenea delle opportunità in tutto il mondo dovuta al perpetuo confronto tra i governi nazionali ha portato ad accelerare il cambiamento climatico, all'aumento delle disuguaglianze, al terrorismo e alle migrazioni forzate. Democracy Earth Foundation ritiene che lo sviluppo tecnologico che vede Bitcoin come denaro programmabile senza Banche Centrali, e Ethereum che permette contratti intelligenti senza la necessità di tribunali giudiziari, richieda un nuovo livello che segnali voti incorruttibili oltre i confini territoriali degli Stati Nazionali. Questa rete transnazionale opererà nel rispetto della sovranità personale dei suoi membri e proteggerà i loro diritti umani con la cifratura. Nell'Initial Rights Offering offriamo un token chiamato voto che concederà diritti di partecipazione ad ogni essere umano con il processo decisionale come funzione principale. La nostra proposta introduce l'uguaglianza indotta criptograficamente: fintanto che una persona sarà in grado di convalidare la propria identità auto-sovrana, riceverà una corrispondente quota di voti pari alla quota di ogni partecipante attivo nella rete. Definiamo un processo di Verifica dell'Identità che evita l'autorità centrale introducendo il concetto di attention mining che incentiva i partecipanti a rafforzare la fiducia dei voti eseguendo semplici test finalizzati all'individuazione delle repliche. Infine, i voti si rilasciano ai partecipanti validi secondo un meccanismo di Reddito di Base Universale con l'obiettivo di trovare un giusto equilibrio nella tensione storica tra denaro e politica. Cerchiamo niente meno che una vera e propria governance democratica per l'era di Internet, uno degli elementi fondanti di una pace e prosperità globale raggiungibili scaturiti da un arco di innovazioni tecnologiche che cambieranno ciò che significa essere umani sulla Terra. 
