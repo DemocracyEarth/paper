@@ -14,7 +14,7 @@
 
 [8. What does a _vote_ token have to do with Universal Basic Income?](#question-8)
 
-[9. How can _votes_ be crypto assets? Doesn’t that empowers the rich to have more impact over decision-making processes?](#question-9)
+[9. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-9)
 
 [10. Will digital elections increase voter participation?](#question-10)
 
