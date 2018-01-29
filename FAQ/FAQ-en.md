@@ -1,7 +1,7 @@
 ## Frequently Asked Questions
 [1. What is an open source paper?](#question-1)
 
-[2. How can I contribute?](#question-2)
+[2. How can I contribute to the DEF white paper?](#question-2)
 
 [3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-3)
 
@@ -90,7 +90,7 @@ A _vote_ token is what users will utilize to cast their decisions in organizatio
 
 _Vote_ tokens can be obtained in five ways: 
 
-1) purchased directly from non-profit Democracy Earth Foundation holdings to fund development and ongoing operations, 
+1) purchased directly, via token sale, from non-profit Democracy Earth Foundation holdings to fund development and ongoing operations, 
 2) mined and granted free-of-charge upon Proof of Identity(*),
 3) mined and dripped free-of-charge over time as Universal Basic Income, subsequent to Proof of Identity,
 4) mined and earned if organization purchases on behalf of organization member, and
@@ -181,11 +181,13 @@ Public and private keys are generated as a cryptographic pair that works togethe
 
 No, the VOTE token is not a security.  The VOTE token is an asset.  What is the difference?  To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
  
--A security is primarily  something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category. 
+-A security is primarily  something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category.
  
 -An asset is different in that it has inherent value due to a clear, intrinsic functionality. 
  
 Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The VOTE  token is by definition an asset, with the primary utility of decision-making. In addition, being a crypto asset, VOTE tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks
+
+Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security.  DEF is utlizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
 
 
