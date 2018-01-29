@@ -24,7 +24,7 @@
 
 [13. Could everyone in the world use Sovereign to vote on the same issue?](#question-13)
 
-[14. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-14)
+[14. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-14)
 
 [15. Isn't Open Source too new to be implementable in elections?](#question-15)
 
