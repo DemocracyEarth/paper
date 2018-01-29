@@ -1,3 +1,4 @@
+## Frequently Asked Questions
 [1. What is an open source paper?](#question-1)
 
 [2. How can I contribute?](#question-2)
