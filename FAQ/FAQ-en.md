@@ -1,3 +1,5 @@
+## Frequently Asked Questions
+
 # ICO-related Frequently Asked Questions
 
 [1. When is the Democracy Earth token sale?](#question-1)
