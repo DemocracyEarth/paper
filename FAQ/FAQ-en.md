@@ -40,6 +40,7 @@ Democracy Earth's token sale will happen on 2Q 2018. The pre-sale starts on Febr
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
+
 The term is used by the Securities and Exchange comission of the United States. Quoting directly:
 
 "An accredited investor, in the context of a natural person,
@@ -55,11 +56,7 @@ On the income test, the person must satisfy the thresholds for the three years c
 
 In addition, entities such as banks, partnerships, corporations, nonprofits and trusts may be accredited investors. Of the entities that would be considered accredited investors and depending on your circumstances, the following may be relevant to you:
 
-* any trust, with total assets in excess of $5 million, not
-formed to specifically purchase the subject securities,
-whose purchase is directed by a sophisticated person, or
-any entity in which all of the equity owners are
-accredited investors.
+* any trust, with total assets in excess of $5 million, not formed to specifically purchase the subject securities, whose purchase is directed by a sophisticated person, or any entity in which all of the equity owners are accredited investors.
 
 In this context, a sophisticated person means the person must have, or the company or private fund offering the securities reasonably believes that this person has, sufficient knowledge and experience in financial and business matters to evaluate the merits and risks of the prospective investment.
 
@@ -67,6 +64,10 @@ You can find more information regarding the definition of an accredited investor
 
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
+
+We do think that the pre-sale *should* be open to ALL, not just what the SEC classifies as 'accredited investors'. But although we are happy to witness wonderful examples of other regions of the world embracing the ideals of the crypto community, we also strongly believe that the days of 'tax havens' and 'loophole jurisdictions' need to come to an end. We are about dropping borders, and dropping the notion that taxes and ultimate decision-making should flow to the island or neutral country that offers the best deal. We have been registered in the state of Californa in the United States as a CA 501(c)3 non-profit entity since 2015, and we so we abide by the US law and SEC regulations. We must be wise, as the history of early bitcoin (and political technology) already has claimed some victims. Our hope is to bring a positive change to the world, and for that we need to be responsible.
+
+Unlike the pre-sale, the ICO *will be* global. We are very serious about how our organization works because we know how hard the governance problem is. We want to work with the best minds to tackle a problem as big as democracy, and for that to happen we need to be everywhere.  
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
