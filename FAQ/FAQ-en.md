@@ -26,6 +26,8 @@
 
 [13. Is the VOTE token a security?](#question-13)
 
+[14. What will the ICO funds be used for?](#question-14)
+
 
 
 
@@ -134,7 +136,10 @@ Tokens are assets, yet they can be securities if they represent an ownership in 
 
 Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security.  DEF is utlizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
+<a name="question-14"></a>
+**14. What will the ICO funds be used for?**
 
+Funds will be used to cover day-to-day expenses and platform development. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
 
 
 # Frequently Asked Questions
