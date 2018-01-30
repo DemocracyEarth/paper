@@ -31,6 +31,44 @@
 
 [14. What will the ICO funds be used for?](#question-14)
 
+## Frequently Asked Questions - General
+[1. What is an open source paper?](#question-001)
+
+[2. How can I contribute to the DEF white paper?](#question-002)
+
+[3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-003)
+
+[4. What is "liquid democracy"?](#question-004)
+
+[5. What is a _vote_ token?](#question-005)
+
+[6. How do I get _vote_ tokens?](#question-006)
+
+[7. Can I sell or give away my _vote_ tokens?](#question-007)
+
+[8. What does a _vote_ token have to do with Universal Basic Income?](#question-008)
+
+[9. Will digital elections increase voter participation?](#question-009)
+
+[10. Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?](#question-010)
+
+[11. What does self-sovereign mean?](#question-011)
+
+[12. Could everyone in the world use Sovereign to vote on the same issue?](#question-012)
+
+[13. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-013)
+
+[14. Isn't Open Source too new to be implementable in elections?](#question-014)
+
+[15. What do "planetary jurisdiction" and "post Nation-state" mean?](#question-015)
+
+[16. What is the difference between centralized, decentralized and distributed?](#question-016)
+
+[17.  What is blockchain technology?](#question-017)
+
+[18. What is a decentralized ID (DID)?](#question-018)
+
+[19. What does "public and private key" refer to?](#question-019)
 
 
 
@@ -134,53 +172,13 @@ Under SEC rules, if a company has completed development of a token and can distr
 <a name="question-14"></a>
 **14. What will the ICO funds be used for?**
 
-Funds will be used to cover day-to-day operational expenses and platform development. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
+Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
 
-<a name="Frequently Asked questions - General"></a>
+
+
+
+
 ## Frequently Asked Questions - General
-[1. What is an open source paper?](#question-001)
-
-[2. How can I contribute to the DEF white paper?](#question-002)
-
-[3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-003)
-
-[4. What is "liquid democracy"?](#question-004)
-
-[5. What is a _vote_ token?](#question-005)
-
-[6. How do I get _vote_ tokens?](#question-006)
-
-[7. Can I sell or give away my _vote_ tokens?](#question-007)
-
-[8. What does a _vote_ token have to do with Universal Basic Income?](#question-008)
-
-[9. Will digital elections increase voter participation?](#question-009)
-
-[10. Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?](#question-010)
-
-[11. What does self-sovereign mean?](#question-011)
-
-[12. Could everyone in the world use Sovereign to vote on the same issue?](#question-012)
-
-[13. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-013)
-
-[14. Isn't Open Source too new to be implementable in elections?](#question-014)
-
-[15. What do "planetary jurisdiction" and "post Nation-state" mean?](#question-015)
-
-[16. What is the difference between centralized, decentralized and distributed?](#question-016)
-
-[17.  What is blockchain technology?](#question-017)
-
-[18. What is a decentralized ID (DID)?](#question-018)
-
-[19. What does "public and private key" refer to?](#question-019)
-
-
-
-
-
-## Frequently Asked Questions
 
 
 
