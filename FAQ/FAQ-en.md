@@ -1,6 +1,4 @@
 # Frequently Asked Questions
-[Frequently Asked Questions - Token Sale](#Frequently Asked questions - Token Sale)
-
 
 
 ## Frequently Asked Questions - Token Sale
@@ -37,7 +35,6 @@
 
 
 
-<a name="Frequently Asked questions - Token Sale"></a>
 ## Frequently Asked Questions - Token Sale
 
 <a name="question-1"></a>
