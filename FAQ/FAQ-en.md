@@ -1,6 +1,9 @@
-## Frequently Asked Questions
+# Frequently Asked Questions
+[Frequently Asked Questions - Token Sale](Frequently Asked questions - Token Sale)
 
-# ICO-related Frequently Asked Questions
+
+
+## Frequently Asked Questions - Token Sale
 
 [1. When is the Democracy Earth token sale?](#question-1)
 
@@ -34,8 +37,8 @@
 
 
 
-
-## ICO-related Frequently Asked Questions
+<a name="Frequently Asked questions - Token Sale"></a>
+## Frequently Asked Questions - Token Sale
 
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
@@ -136,8 +139,8 @@ Under SEC rules, if a company has completed development of a token and can distr
 
 Funds will be used to cover day-to-day operational expenses and platform development. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
 
-
-# More Frequently Asked Questions
+<a name="Frequently Asked questions - General"></a>
+## Frequently Asked Questions - General
 [1. What is an open source paper?](#question-001)
 
 [2. How can I contribute to the DEF white paper?](#question-002)
