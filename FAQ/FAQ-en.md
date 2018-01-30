@@ -43,7 +43,7 @@ Democracy Earth's token sale will happen on 2Q 2018. The pre-sale starts on Febr
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
 
-According to the Securities and Exchange Commission of the United States, An accredited investor, in the context of a natural person, includes anyone who:
+According to the Securities and Exchange Commission of the United States, an accredited investor, in the context of a natural person, includes anyone who:
 
 - earned income that exceeded $200,000 (or $300,000 together with a spouse) in each of the prior two years, and reasonably expects the same for the current year, OR
 
