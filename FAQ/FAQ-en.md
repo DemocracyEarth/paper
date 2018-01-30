@@ -58,37 +58,56 @@ In addition, entities such as banks, partnerships, corporations, nonprofits and 
 
 * any trust, with total assets in excess of $5 million, not formed to specifically purchase the subject securities, whose purchase is directed by a sophisticated person, or any entity in which all of the equity owners are accredited investors.
 
-In this context, a sophisticated person means the person must have, or the company or private fund offering the securities reasonably believes that this person has, sufficient knowledge and experience in financial and business matters to evaluate the merits and risks of the prospective investment.
+In this context, a sophisticated person means the person must have, or the company or private fund offering the securities reasonably believes that this person has, sufficient knowledge and experience in financial and business matters to evaluate the merits and risks of the prospective investment."
 
 You can find more information regarding the definition of an accredited investor [here.]( https://www.sec.gov/files/ib_accreditedinvestors.pdf)
 
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-We do think that the pre-sale *should* be open to ALL, not just what the SEC classifies as 'accredited investors'. But although we are happy to witness wonderful examples of other regions of the world embracing the ideals of the crypto community, we also strongly believe that the days of 'tax havens' and 'loophole jurisdictions' need to come to an end. We are about dropping borders, and dropping the notion that taxes and ultimate decision-making should flow to the island or neutral country that offers the best deal. We have been registered in the state of Californa in the United States as a CA 501(c)3 non-profit entity since 2015, and we so we abide by the US law and SEC regulations. We must be wise, as the history of early bitcoin (and political technology) already has claimed some victims. Our hope is to bring a positive change to the world, and for that we need to be responsible.
+[US securities law](https://www.sec.gov/answers/about-lawsshtml.html) applies the legal [“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) for determining if something is a [security](https://www.investopedia.com/terms/s/security.asp). In the US, securities are strictly regulated; failing to register a token as a security can result in fines and worse.  
+
+Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York).
+
+Nevertheless, we do think that the pre-sale *should* be open to ALL, not just what the SEC classifies as 'accredited investors'. But although we are happy to witness wonderful examples of other regions of the world embracing the ideals of the crypto community, we also strongly believe that the days of 'tax havens' and 'loophole jurisdictions' need to come to an end. We are about dropping borders, and dropping the notion that taxes and ultimate decision-making should flow to the island or neutral country that offers the best deal. We have been registered in the state of Californa in the United States as a CA 501(c)3 non-profit entity since 2015, and so we abide by the US law and SEC regulations. We must be wise, as the history of early bitcoin (and political technology) already has claimed some victims. Our hope is to bring a positive change to the world, and for that we need to be responsible.
 
 Unlike the pre-sale, the ICO *will be* global. We are very serious about how our organization works because we know how hard the governance problem is. We want to work with the best minds to tackle a problem as big as democracy, and for that to happen we need to be everywhere.  
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
 
+China and New York are banned by the SEC. Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban. 
+
 <a name="question-5"></a>
 **5 - How can I get whitelisted for the Democracy Earth pre-sale?**
+
+You can register at our website: https://www.ico.democracy.earth/ .
 
 <a name="question-6"></a>
 **6 - How can non-accredited investors participate?**
 
+Non-accredited investors can participate in our ICO which will be held on 2Q 2018.
+
 <a name="question-7"></a>
 **7 - What cryptocurrencies will be accepted?**
+
+For the pre-sale: BTC // BCH // ETH .
+
+For the ICO: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
 
+Pre-sale updates will be sent via Telegram: https://t.me/democracyearthico .
+
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
 
+The founders and President are currently meeting with accredited investors interested in our pre-sale. You can request such meeting via our e-mail hello@democracy.earth. Both will also be addressing questions on our Telegram channel. 
+
 <a name="question-10"></a>
 **10 - When will I receive my SAFT?**
+
 
 <a name="question-11"></a>
 **11 - How can I protect myself from fraudsters?**
