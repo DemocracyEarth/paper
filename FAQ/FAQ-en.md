@@ -1,4 +1,4 @@
-## ICO-related Frequently Asked Questions
+# ICO-related Frequently Asked Questions
 
 [001. When is the Democracy Earth token sale?](#question-001)
 
@@ -27,47 +27,11 @@
 [013. Is the VOTE token a security?](#question-013)
 
 
-## Frequently Asked Questions
-[1. What is an open source paper?](#question-1)
-
-[2. How can I contribute to the DEF white paper?](#question-2)
-
-[3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-3)
-
-[4. What is "liquid democracy"?](#question-4)
-
-[5. What is a _vote_ token?](#question-5)
-
-[6. How do I get _vote_ tokens?](#question-6)
-
-[7. Can I sell or give away my _vote_ tokens?](#question-7)
-
-[8. What does a _vote_ token have to do with Universal Basic Income?](#question-8)
-
-[9. Will digital elections increase voter participation?](#question-9)
-
-[10. Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?](#question-10)
-
-[11. What does self-sovereign mean?](#question-11)
-
-[12. Could everyone in the world use Sovereign to vote on the same issue?](#question-12)
-
-[13. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-13)
-
-[14. Isn't Open Source too new to be implementable in elections?](#question-14)
-
-[15. What do "planetary jurisdiction" and "post Nation-state" mean?](#question-15)
-
-[16. What is the difference between centralized, decentralized and distributed?](#question-16)
-
-[17.  What is blockchain technology?](#question-17)
-
-[18. What is a decentralized ID (DID)?](#question-18)
-
-[19. What does "public and private key" refer to?](#question-19)
 
 
-# ICO-related Frequently Asked Questions
+
+
+## ICO-related Frequently Asked Questions
 
 <a name="question-001"></a>
 **001 - When is the Democracy Earth token sale?**
@@ -127,9 +91,50 @@ Under SEC rules, if a company has completed development of a token and can distr
 
 
 
-
-
 # Frequently Asked Questions
+[1. What is an open source paper?](#question-1)
+
+[2. How can I contribute to the DEF white paper?](#question-2)
+
+[3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-3)
+
+[4. What is "liquid democracy"?](#question-4)
+
+[5. What is a _vote_ token?](#question-5)
+
+[6. How do I get _vote_ tokens?](#question-6)
+
+[7. Can I sell or give away my _vote_ tokens?](#question-7)
+
+[8. What does a _vote_ token have to do with Universal Basic Income?](#question-8)
+
+[9. Will digital elections increase voter participation?](#question-9)
+
+[10. Is voter fraud easier when voters vote by mobile phone? How does blockchain technology enables incorruptible decision-making?](#question-10)
+
+[11. What does self-sovereign mean?](#question-11)
+
+[12. Could everyone in the world use Sovereign to vote on the same issue?](#question-12)
+
+[13. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-13)
+
+[14. Isn't Open Source too new to be implementable in elections?](#question-14)
+
+[15. What do "planetary jurisdiction" and "post Nation-state" mean?](#question-15)
+
+[16. What is the difference between centralized, decentralized and distributed?](#question-16)
+
+[17.  What is blockchain technology?](#question-17)
+
+[18. What is a decentralized ID (DID)?](#question-18)
+
+[19. What does "public and private key" refer to?](#question-19)
+
+
+
+
+
+## Frequently Asked Questions
 
 
 
