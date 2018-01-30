@@ -78,7 +78,7 @@
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for 2Q 2018. The pre-sale starts on February 1, 2018. The pre-sale is open to accredited investors only; the public sale targeted for 2Q 2018 will will be open to unaccredited investors, globally.
+The Democracy Earth token sale is targeted for 2Q 2018. The pre-sale starts on February 1, 2018. The pre-sale is open to accredited investors only excluding NY and China. The public token sale targeted for 2Q 2018 will will be open to unaccredited investors, globally.
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
