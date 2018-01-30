@@ -76,7 +76,7 @@ Unlike the pre-sale, the ICO *will be* global. We are very serious about how our
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
 
-China and New York are banned by the SEC. Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban. 
+In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs.
 
 <a name="question-5"></a>
 **5 - How can I get whitelisted for the Democracy Earth pre-sale?**
