@@ -1,5 +1,5 @@
 # Frequently Asked Questions
-[Frequently Asked Questions - Token Sale](Frequently Asked questions - Token Sale)
+[Frequently Asked Questions - Token Sale](#Frequently Asked questions - Token Sale)
 
 
 
