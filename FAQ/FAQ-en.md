@@ -64,14 +64,14 @@ You can find more information regarding the definition of an accredited investor
 
 [US securities law](https://www.sec.gov/answers/about-lawsshtml.html) applies the legal [“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) for determining if something is a [security](https://www.investopedia.com/terms/s/security.asp). In the US, securities are strictly regulated; failing to register a token as a security can result in fines and worse.  
 
-Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York).
+Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT (Simple Agreement for Future Tokens) agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York).
 
 Unlike the pre-sale, the ICO *will be* global. We are very serious about how our organization works because we know how hard the governance problem is. We want to work with the best minds to tackle a problem as big as democracy, and for that to happen we need to be everywhere.  
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
 
-In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs.
+In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
 
 <a name="question-5"></a>
 **5 - How can I get whitelisted for the Democracy Earth pre-sale?**
@@ -93,15 +93,15 @@ For the ICO: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
 
-Pre-sale updates will be sent via Telegram: https://t.me/democracyearthico .
+Pre-sale updates will be communicated via Telegram: https://t.me/democracyearthico.
 
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
 
-The founders and President are currently meeting with accredited investors interested in our pre-sale. You can request such meeting via our e-mail hello@democracy.earth. Both will also be addressing questions on our Telegram channel. 
+Reach out direclty to the Founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. 
 
 <a name="question-10"></a>
-**10 - When will I receive my SAFT?**
+**10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
 
 <a name="question-11"></a>
@@ -132,10 +132,10 @@ Under SEC rules, if a company has completed development of a token and can distr
 <a name="question-14"></a>
 **14. What will the ICO funds be used for?**
 
-Funds will be used to cover day-to-day expenses and platform development. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
+Funds will be used to cover day-to-day operational expenses and platform development. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
 
 
-# Frequently Asked Questions
+# More Frequently Asked Questions
 [1. What is an open source paper?](#question-001)
 
 [2. How can I contribute to the DEF white paper?](#question-002)
