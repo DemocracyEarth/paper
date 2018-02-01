@@ -191,7 +191,7 @@ For us at Democracy Earth Foundation how a paper is made is almost as important 
 <a name="question-002"></a>
 **2 - How can I contribute?**
 
-For the purposes of our Initial Rights Offering all collaborations are encouraged between September 1st and October 10th. We are utilizing  Github as it does a great job at documenting the entire process of contributions. For more detailed information please refer to the [CONTRIBUTING](https://github.com/DemocracyEarth/paper/blob/master/CONTRIBUTING.md) file of this repository. 
+We are utilizing  Github as it does a great job at documenting the entire process of contributions. For more detailed information please refer to the [CONTRIBUTING](https://github.com/DemocracyEarth/paper/blob/master/CONTRIBUTING.md) file of this repository. 
 
 <a name="question-003"></a>
 **3 - How is an Intial Rights Offering different from an Initial Coin Offering?**
