@@ -138,7 +138,7 @@ Pre-sale updates will be communicated via Telegram: https://t.me/democracyearthi
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
 
-Reach out direclty to the Founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. 
+Reach out directly to the Founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. 
 
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
