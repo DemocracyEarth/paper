@@ -23,13 +23,11 @@
 
 [10. When will I receive my SAFT?](#question-10)
 
-[11. How can I protect myself from fraudsters?](#question-11)
+[11. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
 
-[12. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-12)
+[12. Is the VOTE token a security?](#question-12)
 
-[13. Is the VOTE token a security?](#question-13)
-
-[14. What will the ICO funds be used for?](#question-14)
+[12. What will the ICO funds be used for?](#question-13)
 
 ## Frequently Asked Questions - General
 [1. What is an open source paper?](#question-001)
@@ -143,12 +141,10 @@ Reach out directly to the Founders or president on the DEF [Telegram channel.](h
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
+A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT.  Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by CoinList as part of this process.  
 
 <a name="question-11"></a>
-**11 - How can I protect myself from fraudsters?**
-
-<a name="question-12"></a>
-**12 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
+**11 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
 
 Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. It is important to remember that attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
  
@@ -156,8 +152,8 @@ The vote token offers an alternative to an historically unfair connection betwee
 
 Finally, it is true that under certain organizational configurations one might have more decision-making power than others by owning more votes. Our software is elastic in the sense that it allows for different organizational configurations that can serve a democracy. If the intent is to allow each member to cast one vote per decision, the organization can establish that, in the same way that it can establish a system more similar to our legacy where the richest have more influence. *The key difference is that, unlike legacy systems, within Sovereign there are no coercion mechanisms forcing citizens to participate in any specific organization, especially one that they deem unfair.* And by distributing a Universal Basic Income of tokens with the Equality mechanism, citizens are not only uncoerced but also have an equitable political and economical starting point - what we see as a fundamental building block for a healthy democracy.
 
-<a name="question-13"></a>
-**13. Is the VOTE token a security?**
+<a name="question-12"></a>
+**12. Is the VOTE token a security?**
 
 No, the VOTE token is not a security. The VOTE token is an asset. What is the difference? To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
  
@@ -169,8 +165,8 @@ Tokens are assets, yet they can be securities if they represent an ownership in 
 
 Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security.  DEF is utlizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
-<a name="question-14"></a>
-**14. What will the ICO funds be used for?**
+<a name="question-13"></a>
+**12. What will the ICO funds be used for?**
 
 Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
 
