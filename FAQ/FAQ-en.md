@@ -100,9 +100,7 @@ You can find more information regarding the definition of an accredited investor
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-Our pre-sale is a SEC-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale.
-
-Under this regulation, only accredited invesetors, as defined by the [United States Securities and Exchange Commission](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission) are allowed to participate in the pre-sale. 
+Our pre-sale is a [United States Securities and Exchange Commission (SEC)](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC]((https://www.sec.gov/files/ib_accreditedinvestors.pdf)), are allowed to participate in the pre-sale. 
 
 Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale, with no accreditation requirement.
 
