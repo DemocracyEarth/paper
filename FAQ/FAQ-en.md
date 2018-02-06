@@ -76,12 +76,12 @@
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for 2Q 2018. The pre-sale starts on February 1, 2018. The pre-sale is open to accredited investors only excluding NY and China. The public token sale targeted for 2Q 2018 will will be open to unaccredited investors, globally.
+The Democracy Earth token sale is targeted for 2Q 2018. The pre-sale began February 1, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale targeted for 2Q 2018 will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
 
-According to the Securities and Exchange Commission of the United States, an accredited investor, in the context of a natural person, includes anyone who:
+According to the Securities and Exchange Commission (SEC) of the United States, an accredited investor, in the context of a natural person, includes anyone who:
 
 - earned income that exceeded $200,000 (or $300,000 together with a spouse) in each of the prior two years, and reasonably expects the same for the current year, OR
 
@@ -100,7 +100,7 @@ You can find more information regarding the definition of an accredited investor
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-Our pre-sale is a [United States Securities and Exchange Commission (SEC)](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC]((https://www.sec.gov/files/ib_accreditedinvestors.pdf)), are allowed to participate in the pre-sale. 
+Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC]((https://www.sec.gov/files/ib_accreditedinvestors.pdf)), are allowed to participate in the pre-sale. 
 
 Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale, with no accreditation requirement.
 
@@ -117,12 +117,12 @@ You can register at our website: https://www.ico.democracy.earth/ .
 <a name="question-6"></a>
 **6 - How can non-accredited investors participate?**
 
-Non-accredited investors can participate in our ICO which will be held on 2Q 2018.
+Non-accredited investors can participate in our public token sale targeted for 2Q 2018.
 
 <a name="question-7"></a>
 **7 - What cryptocurrencies will be accepted?**
 
-For the pre-sale: BTC // BCH // ETH .
+For the pre-sale: BTC // BCH // ETH .  Wire transfers are also acceptable.
 
 For the ICO: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
@@ -139,7 +139,7 @@ Reach out directly to the Founders or president on the DEF [Telegram channel.](h
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
-A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT.  Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by CoinList as part of this process.  
+A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT.  Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
 
 <a name="question-11"></a>
 **11 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
