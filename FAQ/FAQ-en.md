@@ -99,6 +99,7 @@ You can find more information regarding the definition of an accredited investor
 
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
+
 Our pre-sale is a SEC-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale.
 
 Under this regulation, only accredited invesetors, as defined by the [US SEC](https://www.sec.gov/answers/about-lawsshtml.html) are allowed to participate. 
