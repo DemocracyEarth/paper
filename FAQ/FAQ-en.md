@@ -99,12 +99,11 @@ You can find more information regarding the definition of an accredited investor
 
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
+Our pre-sale is a SEC-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale.
 
-[US securities law](https://www.sec.gov/answers/about-lawsshtml.html) applies the legal [“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) for determining if something is a [security](https://www.investopedia.com/terms/s/security.asp). In the US, securities are strictly regulated; failing to register a token as a security can result in fines and worse.  
+Under this regulation, only accredited invesetors, as defined by the [US SEC](https://www.sec.gov/answers/about-lawsshtml.html) are allowed to participate. 
 
-Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token through a mechanism that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security. DEF is utilizing an industry standard SAFT (Simple Agreement for Future Tokens) agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York).
-
-Unlike the pre-sale, the ICO *will be* global. We are very serious about how our organization works because we know how hard the governance problem is. We want to work with the best minds to tackle a problem as big as democracy, and for that to happen we need to be everywhere.  
+Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities therefore fall under   The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, anyone can participate in the Democracy Earth public token sale, there will be no accreditation requirement.
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
