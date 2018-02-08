@@ -1,5 +1,5 @@
 <pre>
-  DEF: 10
+  DEF: 1
   Título: O Smart Contract Social
   Autor: @DemocracyEarth.
   Comentários-Resumo: Ainda não há comentários.
