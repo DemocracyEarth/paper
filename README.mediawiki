@@ -411,7 +411,7 @@ By default Sovereign provides the most commonly used choice mechanisms for ballo
 
 * <code>SingleChoice</code>: One selectable option.
 * <code>MultipleChoice</code>: One or more selectable options.
-* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal</code>]: A given score per option with a pre-defined range of value.
+* [https://en.wikipedia.org/wiki/Cardinal_voting <code>Cardinal</code>]: A given score per option with a pre-defined range of values.
 * [https://en.wikipedia.org/wiki/Ranked_voting <code>Ranked</code>]: Sortable options as ranked preferences. [https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem Arrow's impossibility theorem] must be taken into consideration for any innovation regarding ranked ballots. This theorem states that rank-based electoral systems are not able to satisfy fairness on three key aspects at the same time:
 ** '''Unrestricted domain''': all preferences of all voters are allowed.
 ** '''Non-dictatorship''': no single voter possesses the power to always determine social preference.
