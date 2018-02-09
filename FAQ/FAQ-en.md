@@ -100,19 +100,21 @@ You can find more information regarding the definition of an accredited investor
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC]((https://www.sec.gov/files/ib_accreditedinvestors.pdf)), are allowed to participate in the pre-sale. 
+Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
 
-Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale, with no accreditation requirement.
+Investors can verify their accreditation status for the Demcoracy Earth pre-sale online at the [Democracy Earth CoinList portal.](https://complyapi.coinlist.co/democracy-earth).
+
+Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale (scheduled for 2Q 2018), with no accreditation requirement.
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
 
-In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
+In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Click [here](https://coinlist.co/help/what-is-an-accredited-investor) to see CoinList criteria for accreditation verification. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
 
 <a name="question-5"></a>
 **5 - How can I get whitelisted for the Democracy Earth pre-sale?**
 
-You can register at our website: https://www.ico.democracy.earth/ .
+Before February 1st, register at our website: https://www.ico.democracy.earth/.
 
 <a name="question-6"></a>
 **6 - How can non-accredited investors participate?**
@@ -120,11 +122,11 @@ You can register at our website: https://www.ico.democracy.earth/ .
 Non-accredited investors can participate in our public token sale targeted for 2Q 2018.
 
 <a name="question-7"></a>
-**7 - What cryptocurrencies will be accepted?**
+**7 - What cryptocurrencies will be accepted in the Democracy Earth ICO?**
 
-For the pre-sale: BTC // BCH // ETH .  Wire transfers are also acceptable.
+For the pre-sale (opened Feb. 1st, closed when 50M [token allotment](https://www.dropbox.com/s/ahk6cnseq7lno1r/Democracy%20Earth%20One-Pager%20vfinal.pdf?dl=0) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
 
-For the ICO: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
+For the public sale scheduled for 2Q 2018: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
@@ -134,39 +136,41 @@ Pre-sale updates will be communicated via Telegram: https://t.me/democracyearthi
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
 
-Reach out directly to the Founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. 
+Reach out directly to the founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth Facebook Page.
 
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
-A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT.  Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
+A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT. A review copy of the SAFT can be fouond [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
+
+Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
 
 <a name="question-11"></a>
 **11 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
 
 Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. It is important to remember that attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
  
-The vote token offers an alternative to an historically unfair connection between money and decision-making. We are granting votes as a right that is distributed through a Universal Basic Income mechanism, and we introduce cryptographically enabled equality through a calculation that ensures all members receive an equal allocation of votes, despite the date in which they join the network. Those mechanisms are aimed at creating an environment in which members are not vulnerable to coercion due to lack of liquidity, induced scarcity and forced debt.
+The *vote* token offers an alternative to an historically unfair connection between money and decision-making. We are granting votes as a right that is distributed through a Universal Basic Income mechanism, and we introduce cryptographically enabled equality through a calculation that ensures all members receive an equal allocation of votes, despite the date in which they join the network. Those mechanisms are aimed at creating an environment in which members are not vulnerable to coercion due to lack of liquidity, induced scarcity and forced debt.
 
-Finally, it is true that under certain organizational configurations one might have more decision-making power than others by owning more votes. Our software is elastic in the sense that it allows for different organizational configurations that can serve a democracy. If the intent is to allow each member to cast one vote per decision, the organization can establish that, in the same way that it can establish a system more similar to our legacy where the richest have more influence. *The key difference is that, unlike legacy systems, within Sovereign there are no coercion mechanisms forcing citizens to participate in any specific organization, especially one that they deem unfair.* And by distributing a Universal Basic Income of tokens with the Equality mechanism, citizens are not only uncoerced but also have an equitable political and economical starting point - what we see as a fundamental building block for a healthy democracy.
+Finally, it is true that under certain organizational configurations one might have more decision-making power than others by owning more votes. Sovereign software is elastic in the sense that it allows for different organizational configurations that can serve a democracy. If the intent is to allow each member to cast one vote per decision, the organization can establish that, in the same way that it can establish a system more similar to our legacy where the richest have more influence. *The key difference is that, unlike legacy systems, within Sovereign there are no coercion mechanisms forcing citizens to participate in any specific organization, especially one that they deem unfair.* And by distributing a Universal Basic Income of tokens with the Equality mechanism, citizens are not only uncoerced but also have an equitable political and economical starting point - what we see as a fundamental building block for a healthy democracy.
 
 <a name="question-12"></a>
-**12. Is the VOTE token a security?**
+**12. Is the *vote* token a security?**
 
-No, the VOTE token is not a security. The VOTE token is an asset. What is the difference? To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
+No, the *vote* token is not a security. The *vote* token is an asset. What is the difference? To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
  
 - A security is primarily  something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category.
  
 - An asset is different in that it has inherent value due to a clear, intrinsic functionality. 
  
-Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The VOTE  token is by definition an asset, with the primary utility of decision-making. In addition, being a crypto asset, VOTE tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks
+Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The *vote* token is by definition an asset, with the primary utility of decision-making (governance). In addition, being a crypto asset, *vote* tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks.
 
-Under SEC rules, if a company has completed development of a token and can distribute tokens at the time of the sale, then the token is probably not a security and DEF would be free to crowdfund an ICO and accept money from anyone. If a company is raising funds to develop the token that gives investors a chance to buy the right to purchase future tokens, the SEC then considers the company to be selling a security.  DEF is utlizing an industry standard SAFT agreement which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
+During the token pre-sale i.e. before the token is issued, DEF is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
 <a name="question-13"></a>
 **12. What will the ICO funds be used for?**
 
-Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a team focus full-time to build what we envision in the whitepaper and outline in the [development roadmap](https://docs.google.com/document/d/1hTJg_FBFe56aRaoM_6LAC7urAtFg3EsZteYs2jnSuj4/edit?usp=sharing).
+Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a small dedicated team to focus full-time on building what we envision in the whitepaper and outline in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
 
 
 
