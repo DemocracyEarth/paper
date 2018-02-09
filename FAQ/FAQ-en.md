@@ -100,7 +100,7 @@ You can find more information regarding the definition of an accredited investor
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited invesetors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
+Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited investors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
 
 Investors can verify their accreditation status for the Demcoracy Earth pre-sale online at the [Democracy Earth CoinList portal.](https://complyapi.coinlist.co/democracy-earth).
 
