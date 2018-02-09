@@ -186,7 +186,7 @@ An ideal voting system must be able to satisfy to the greatest possible extent t
 
 * '''Integrity''': system must be able to verify correct vote tally.
 
-Additionally, due to the risk that coercion through physical violence or threats in contexts prone to political violence, an option able to protect coerced voters must be introduced:
+Additionally, due to the risk of coercion through physical violence or threats in contexts prone to political violence, an option that is able to protect coerced voters must be introduced:
 
 * '''Resistance''': voter must be able to override own vote if necessary.
 
