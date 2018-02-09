@@ -27,7 +27,7 @@
 
 [12. Is the VOTE token a security?](#question-12)
 
-[12. What will the ICO funds be used for?](#question-13)
+[13. What will the ICO funds be used for?](#question-13)
 
 ## Frequently Asked Questions - General
 [1. What is an open source paper?](#question-001)
@@ -168,7 +168,7 @@ Tokens are assets, yet they can be securities if they represent an ownership in 
 During the token pre-sale i.e. before the token is issued, DEF is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
 <a name="question-13"></a>
-**12. What will the ICO funds be used for?**
+**13. What will the ICO funds be used for?**
 
 Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a small dedicated team to focus full-time on building what we envision in the whitepaper and outline in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
 
