@@ -729,15 +729,15 @@ So every valid POI gets granted a total of:
 
 Therefore by taking into account the following variables:
 
-* T = Present block height (i.e. current Time).
+* T(B_present) = a function that returns the timestamp of the latest block (i.e. roughly not more than 10 minutes before the current Time).
 * r = A constant for ''vote'' allocation rate, set at 1 vote every 250 blocks in time.
-* Pᵢ = The ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
+* T(B_Pᵢ) = a function that returns the timestamp of the ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity (i).
 * Vᵢ = Total quantity of ''votes'' for a given identity (i).
 
 Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with the formula:
 
-[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T(B_present) - T(B_Pᵢ)) / r) * Sᵢ]]
 
 As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of Vᵢ will either be a number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if the POI is rejected (i.e. Sᵢ = <code>false</code>), then the participant's available votes becomes zero.
 
