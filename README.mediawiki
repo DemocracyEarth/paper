@@ -755,7 +755,7 @@ With the ''Equality'' variable, if a second participant Bob got validated 1500 b
 
 [[File:/images/chart-votes-coins-time.png|Vote emission and inflation rate.]]
 
-Even though the inflation rate might initially seem too aggressive, the total supply of ''votes'' is still fixed to a maximum cap based on the quantity of participants in the network. As more participants engage, the overall inflation will tend to limit 0% since new ''votes'' have a reduced influence in the economy as a whole. When compared to uncapped ''likes'' and ''retweets'' in other social applications, it must be noted that from the subjectivity of each individual the allocation of ''votes'' is still a decision based on a limited resource that implies opportunity costs, forcing a more rational behaviour rather than impulsive liking (i.e. trolling).
+Even though the inflation rate might initially seem too aggressive, the total supply of ''votes'' is still fixed to a maximum cap based on the quantity of participants in the network. As more participants engage, the overall inflation will tend to limit to 0% since new ''votes'' have a reduced influence in the economy as a whole. When compared to uncapped ''likes'' and ''retweets'' in other social applications, it must be noted that from the subjectivity of each individual the allocation of ''votes'' is still a decision based on a limited resource that implies opportunity costs, forcing a more rational behaviour rather than impulsive liking (i.e. trolling).
 
 ====3.3.3 Nakamoto Coefficient====
 
