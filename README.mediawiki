@@ -833,7 +833,7 @@ To keep the shortest possible decimal extension while adapting the dripping rate
 
   15 seconds = 0.0001 votes
 
-In the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'' since this concept helps to express the speed at which the network grants political rights,
+In the same way that the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), we consider that it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'' since this concept helps to express the speed at which the network grants political rights,
 
   1 vote = 10,000 revolutions
 
