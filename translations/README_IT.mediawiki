@@ -175,3 +175,86 @@ Questo paper descrive in dettaglio l'attuazione di una democrazia liquida utiliz
   Non chiediamo ai comuni cittadini non addestrati di eseguire interventi chirurgici, pilotare aerei, progettare computer, o svolgere le altre miriadi di compiti necessari per il funzionamento della società, cosa rende la governance diversa? Il problema è ben compreso: se diamo la governance agli "esperti", essi prenderanno decisioni nel loro stesso interesse, non nell'interesse di tutti noi.
 </blockquote>
 
+===2.1 Token.===
+
+Un sistema di voto ideale deve poter soddisfare il più possibile queste condizioni:
+
+* '''Segretezza''': colui che vota deve poter votare in segreto.
+
+* '''Verificabilità''': colui che vota deve poter verificare il voto conteggiato.
+
+* '''Integrità''': il sistema deve poter verificare il corretto conteggio dei voti.
+
+Inoltre, a causa del rischio di coercizione attraverso violenza fisica o minacce in contesti esposti a violenza politica, bisogna introdurre un'opzione per proteggere coloro che votano sotto coercizione:
+
+* '''Resistenza''': colui che vota deve poter annullare il proprio voto se necessario.
+
+INel lavoro condotto dai ricercatori Hosp & Vora, è stato adottato [https://pdfs.semanticscholar.org/24d5/5c866a7317dae11d37518b312ee460bc33d3.pdf un approccio della Teoria dell'Informazione per modellare i sistemi di voto] che ha portato alla conclusione che esiste una tensione naturale con un sistema che mira a ''integrità perfetta'', ''segreto elettorale perfetto'' e ''perfetta verificabilità del conteggio''. Tutti e tre non possono essere raggiunti contemporaneamente quando un avversario è computazionalmente senza limiti, in grado di forzare un sistema se  disponibili tempo o memoria illimitati. Per questo motivo riteniamo indispensabile attuare democrazie digitali che utilizzino la blockchain. Con gli effetti di rete già in atto, le blockchain sono in grado di verificare l'integrità delle transazioni e prevenire il doppio utilizzo del token. Inoltre, [https://eprint.iacr.org/2016/454.pdf la blockchain di Bitcoin non è sicura in una rete asincrona, ma è sicura e viva (per profondità di blocco sconosciuta o ''conteggio di conferma'') in una ''rete parzialmente sincrona'' come Internet]. Il modello Bitcoin della [https://it.wikipedia.org/wiki/Proof-of-work ''proof-of-work''] raggiunge questo obiettivo premiando la capacità computazionale che verifica i blocchi delle transazioni (cosa che spesso viene definita ''mining''), portando ad una rete "300 volte più potente delle risorse di Google" secondo il pioniere [http://twitter.com/balajis Balaji Srinivasan]. Per questo motivo, il nostro progetto si basa su token all'interno di una rete blockchain che opera come ''criptovaluta politica''.
+
+Ciò che differenzia un voto dal denaro (o in termini più ampi: una ''economia politica'' da una ''economia finanziaria'') è che la moneta politica è concepita per garantire i diritti di partecipazione a condizioni eque a tutti i membri all' interno di un'organizzazione. I diritti mirano a soddisfare la legittimità generale della governance di un'istituzione. Mentre il denaro è la lingua dell'interesse personale, i voti esprimono le opinioni condivise di una comunità. La moneta politica non è strettamente intesa per il commercio, ma per la scelta sociale.
+
+{| class="wikitable"
+|-
+! scope="col"| Caratteristiche
+! scope="col"| Monete
+! scope="col"| Voti
+|-
+! scope="row"| Utilità
+| Scambio.
+| Governance.
+|-
+! scope="row"| Mining
+| Computazione (esempio: Proof-of-Work).
+| Attenzione (e.g. Proof-of-Identity).
+|-
+! scope="row"| Liquidità
+| Scarsa.
+| Garantita.
+|-
+! scope="row"| Segnale
+| Interesse personale.
+| Scelta sociale.
+|-
+! scope="row"| Valore
+| Spazio (beni materiali).
+| Tempo (informazione).
+|}
+
+====2.1.1 Implementazione.====
+
+Considerando che il valore [https://it.wikipedia.org/wiki/Dogecoin può essere spinto da una capacità memetica], il gettone della Democrazia Terra che concede i diritti di voto sarà marchiato con il messaggio più importante che ogni democrazia può trasmettere: ''voto''.
+
+Il token ''voto'' può essere implementato utilizzando il codice di smart contract attraverso una varietà di blockchain che permettono script [https://it.wikipedia.org/wiki/Turing_equivalenza Turing equivalenti], tra cui Bitcoin. La nostra progettazione è agnostica riguardo la blockchain in riconoscimento di un campo informatico ancora nella sua infanzia, dove restano ancora da inventare innovazioni significative. Ciononostante, stiamo lavorando all'attuazione del token ''voto'' nell'ambito di questi ambienti di smart contract:
+
+* '''Ethereum''': utilizzando un set di contratti smart [https://github.com/ethereum/solidity Solidity] sotto [https://theethereum.wiki/w/index.php/ERC20_Token_Standard il token standard Ethereum ERC20].
+
+** '''Rootstock''': Stiamo adottando le misure necessarie per rendere il codice Solidity compatibile con [http://www.rsk.co/ lo smart contract interpreter di Rootstock per la blockchain di Bitcoin].
+
+* '''Lightning''': Con l'attivazione di [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] nel protocollo Bitcoin che consente l'instradamento dei canali di pagamento con il [http://lightning.network Lightning Network Protocol], le delegazioni per la democrazia liquida possono essere mappate utilizzando transazioni a livello satoshi con un identificatore di "voto" allegato. I costi di insediamento della blockchain devono essere coperti dall'organizzazione attuatrice.
+
+Inoltre, le implementazioni multi-catena sono incoraggiate nello spirito di ricercare una maggiore sperimentazione e collaborazione su queste tecnologie.
+
+===2.2 Votazione.===
+
+Il token ''voto'' vuole essere uno standard per la democrazia digitale in grado di interagire con altri token, stabilendo un linguaggio comune per la governance delle organizzazioni basate su blockchain. Nell'ambito delle democrazie liquide, è consentita una serie di operazioni di voto con i ''voti'':
+
+* '''Voto Diretto''': L'elettore egoista Alice può usare i suoi token per votare direttamente su questioni come in una democrazia diretta.
+
+* '''Delegazione Base''': Alice può delegare "voti" a Bob. Finché Bob ha accesso a quei gettoni, può utilizzarli per votare a nome di Alice.
+
+* '''Delegazione Tag Limited''': Alice può delegare "voti" a Charlie a condizione che possa utilizzare questi token solo su questioni recanti un tag specifico. Se la delegazione specifica che i ''voti'' delegati possono essere usati solo sulle decisioni con il tag ''#ambiente'', allora Charlie non sarà in grado di utilizzarli da nessuna altra parte, ma su quelle questioni specifiche. Questo porta ad un modello di rappresentazione non basato sul territorio ma sulla conoscenza.
+
+* '''Delegazione Transitiva''': Se Bob ha ricevuto ''voti'' da Alice, può poi delegarli a Frank. Ciò genera una catena di delegazioni che contribuisce a responsabilizzare attori specifici all'interno di una comunità. Se Alice non desidera che terzi ricevano i voti delegati a Bob, può disattivare l'impostazione transitoria del contratto di delega. Le delegazioni circolari (ad esempio Alice che riceve i token che ha inviato da Frank a Bob) sono vietate in quanto l'assegnazione originaria dei ''voti'' da un'organizzazione ai suoi membri reca una firma che indica chi è il proprietario sovrano dei ''voti''.
+
+* '''Voto d'Annullamento''': Se Bob ha già utilizzato i ''voti'' delegati ricevuti da Alice, ma quest'ultima ha un'opinione diversa su una determinata questione, in quanto proprietaria sovrana dei suoi voti Alice può sempre annullare la decisione di Bob. Gli elettori hanno sempre l'ultima parola su una determinata decisione con i loro "voti" originali.
+
+* '''Voto Pubblico''': Spesso definita la ''regola d'oro'' delle democrazie liquide, tutti i delegati hanno il diritto di sapere in che modo il loro delegato ha votato su una determinata questione con i loro ''voti''. Allo stesso modo come i voti dei membri del Congresso (USA) sono pubblici, sulle democrazie liquide i delegati in competizione su un determinato tag hanno un incentivo a costruire una reputazione pubblica basata sul loro record di voto al fine di attrarre più delegazioni.
+
+* '''Voto Segreto''': Un metodo in grado di garantire che le transazioni di ''voto'' non siano riconducibili all'elettore. Ciò è indispensabile in un contesto di elezioni pubbliche organizzate all'interno di grandi popolazioni ad alto rischio di coercizione. Anche se si ottiene una perfetta segretezza sulla transazione di "voto", gli utenti possono comunque essere tracciati con metadati esposti. Per questo motivo è incoraggiata la ricerca sull'integrazione con le blockchain concepite per transazioni anonime con comprovati precedenti. Ciò potrebbe includere una commissione di mining per regolare la transazione di "voto" che può essere sovvenzionata dall'organizzazione incaricata dell' ttuazione o pagata direttamente dagli elettori. Raccomandiamo la ricerca e l'integrazione dei ''voti'' segreti con queste blockchain:
+
+** Ethereum: utilizza [https://github.com/ethereum/EIPs/pull/213 contratti precompilati per addizione e moltiplicazione scalare sulla curva ellittica alt_bn128], per [https://github.com/ethereum/EIPs/pull/212  controlli di pairing], che permettono [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ zk-SNARKs], vedere anche [https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6 qui], [https://github.com/ethereum/EIPs#finalized-eips-standards-that-have-been-adopted come implementato] nel [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ hard fork di Byzantium].
+
+** [https://z.cash ZCash]: implementa transazioni schermate utilizzando [https://it.wikipedia.org/wiki/Dimostrazione_a_conoscenza_zero dimostrazioni a conoscenza zero].
+
+** [https://getmonero.org Monero]: utilizza [https://en.wikipedia.org/wiki/Ring_signature ring signature con indirizzi nascosti].
+
