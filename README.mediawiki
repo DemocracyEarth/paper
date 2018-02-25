@@ -779,8 +779,6 @@ We take three approaches to define the value of the ''vote'' token:
 * '''Work & Time''': A ''Universal Basic Income'' perspective offers useful insights on how labour time is being valued.
 * '''Nation-States''': Traditional elections offer useful insights on how votes are valued today.
 
-With those references, we then discuss the divisibility of the ''vote'' token and its implementation to govern a Democracy Support Fund.
-
 ====3.4.1 Status-Quo====
 
 A comparative benchmark for the value of the ''vote'' token can be found on the Facebook network currently valuing 2 billion users with a market capitalization of ~$500 billion averaging an estimate of '''$250 per user'''. Democracy Earth Foundation regards Facebook's ''like'' function analogous to using ''votes'' in an open network. It is hard to estimate the quantity of ''likes'' made on this platform since it's private information and raw estimates project ''likes'' happening in the amount of trillions on a daily basis.
