@@ -141,7 +141,7 @@ Reach out directly to the founders or president on the DEF [Telegram channel.](h
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
-A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT. A review copy of the SAFT can be fouond [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
+A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT. A review copy of the SAFT can be found [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
 
 Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
 
