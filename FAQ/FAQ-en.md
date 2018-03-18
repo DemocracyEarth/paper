@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## Frequently Asked Questions - General
+## Frequently Asked Questions - The Social Smart Contract
 [1. What is an open source paper?](#question-001)
 
 [2. How can I contribute to the DEF white paper?](#question-002)
@@ -70,7 +70,7 @@
 [13. What will the ICO funds be used for?](#question-13)
 
 
-## Frequently Asked Questions - General
+## Frequently Asked Questions - [The Social Smart Contract[(https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
 
 <a name="question-001"></a>
 **1 - What is an open source paper?**
