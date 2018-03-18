@@ -1,34 +1,5 @@
 # Frequently Asked Questions
 
-
-## Frequently Asked Questions - Token Sale
-
-[1. When is the Democracy Earth token sale?](#question-1)
-
-[2. What is an accredited investor?](#question-2)
-
-[3 Why is the pre-sale limited to accredited investors?](#question-3)
-
-[4. Why does the pre-sale exclude accredited investors from NY and China?](#question-4)
-
-[5. How can I get whitelisted for the Democracy Earth pre-sale?](#question-5)
-
-[6. How can non-accredited investors participate?](#question-6)
-
-[7. What cryptocurrencies will be accepted?](#question-7)
-
-[8. Where can I receive updates?](#question-8)
-
-[9. How can I talk to the founders or President?](#question-9)
-
-[10. When will I receive my SAFT?](#question-10)
-
-[11. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
-
-[12. Is the VOTE token a security?](#question-12)
-
-[13. What will the ICO funds be used for?](#question-13)
-
 ## Frequently Asked Questions - General
 [1. What is an open source paper?](#question-001)
 
@@ -70,6 +41,33 @@
 
 
 
+## Frequently Asked Questions - Token Sale
+
+[1. When is the Democracy Earth token sale?](#question-1)
+
+[2. What is an accredited investor?](#question-2)
+
+[3 Why is the pre-sale limited to accredited investors?](#question-3)
+
+[4. Why does the pre-sale exclude accredited investors from NY and China?](#question-4)
+
+[5. How can I get whitelisted for the Democracy Earth pre-sale?](#question-5)
+
+[6. How can non-accredited investors participate?](#question-6)
+
+[7. What cryptocurrencies will be accepted?](#question-7)
+
+[8. Where can I receive updates?](#question-8)
+
+[9. How can I talk to the founders or President?](#question-9)
+
+[10. When will I receive my SAFT?](#question-10)
+
+[11. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
+
+[12. Is the VOTE token a security?](#question-12)
+
+[13. What will the ICO funds be used for?](#question-13)
 
 ## Frequently Asked Questions - Token Sale
 
