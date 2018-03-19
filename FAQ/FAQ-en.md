@@ -1,6 +1,6 @@
 # Frequently Asked Questions
-[1. Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)](#question-001)
-[2.Frequently Asked Questions - [Token Sale](https://www.ico.democracy.earth/](#question-001)](#question-002)
+[1. Frequently Asked Questions - The Social Smart Contract](#question-001)
+[2. Frequently Asked Questions - Democracy Earth Token Sale](#question-002)
 
 
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
