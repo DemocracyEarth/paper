@@ -1,5 +1,6 @@
 # Frequently Asked Questions
 [1. Frequently Asked Questions - The Social Smart Contract](#question-001)
+
 [2. Frequently Asked Questions - Democracy Earth Token Sale](#question-002)
 
 
