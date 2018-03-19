@@ -1,4 +1,7 @@
 # Frequently Asked Questions
+[1. Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)](#question-001)
+[2.Frequently Asked Questions - [Token Sale](https://www.ico.democracy.earth/](#question-001)](#question-002)
+
 
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
 [1. What is an open source paper?](#question-001)
@@ -69,7 +72,7 @@
 
 [13. What will the ICO funds be used for?](#question-13)
 
-
+<a name="question-001"></a>
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
 
 <a name="question-001"></a>
@@ -183,7 +186,7 @@ Decentralized identifiers are intended for a verifiable digital identity that is
 
 Public and private keys are generated as a cryptographic pair that works together, meaning that a message encrypted with the public key can only be decrypted with it's correspondent private key and vice-versa. This method is utilized to safely transmit messages, create crypto wallets, DIDs, etc. 
 
-
+<a name="question-002"></a>
 ## Frequently Asked Questions - Token Sale
 
 <a name="question-1"></a>
