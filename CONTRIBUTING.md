@@ -11,7 +11,7 @@ We decided to use this technology to draft _The Social Smart Contract_ and we en
 # Guidelines for contribution
 
 ## Timeframe
-![Contributing timeline](images/contributing-timeline.png)
+![Contributing timeline](images/contributing_timeline.png)
 
 ## How to contribute
 
