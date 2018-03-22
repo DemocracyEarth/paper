@@ -1,5 +1,6 @@
 # Frequently Asked Questions
 Frequently Asked Questions - The Social Smart Contract
+
 Frequently Asked Questions - Democracy Earth Token Sale
 
 
