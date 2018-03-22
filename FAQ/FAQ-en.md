@@ -1,10 +1,11 @@
 # Frequently Asked Questions
-Frequently Asked Questions - The Social Smart Contract
+Section I: FAQs: The Social Smart Contract
 
-Frequently Asked Questions - Democracy Earth Token Sale
+Section II: FAQs: Democracy Earth Token Sale
 
 
-## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
+
+## Section 1: Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
 [1. What is an open source paper?](#question-001)
 
 [2. How can I contribute to the DEF white paper?](#question-002)
@@ -45,7 +46,7 @@ Frequently Asked Questions - Democracy Earth Token Sale
 
 
 
-## Frequently Asked Questions - Token Sale
+## Section II: Frequently Asked Questions - Token Sale
 
 [1. When is the Democracy Earth token sale?](#question-1)
 
