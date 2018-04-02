@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 [Section I](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-1-frequently-asked-questions---the-social-smart-contract): FAQs: The Social Smart Contract
 
-Section II: FAQs: Democracy Earth Token Sale
+[Section II](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-ii-frequently-asked-questions---token-sale): FAQs: Democracy Earth Token Sale
 
 
 
