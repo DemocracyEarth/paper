@@ -821,15 +821,15 @@ In order to maintain the reference price set at the minimum wage in the US while
 
 ====3.4.4 Divisibility====
 
-The waiting period of 250 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~42 hours. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to a minimum fraction of human attention.
+The waiting period of 4 blocks for every new dripped ''vote'' limits the perceived gratification delivered by the system to every ~40 minutes. This constraint is set in order to tie the economic logic of the ''vote'' token to its capacity of indexing all the successful ''Proof of Identities'' to a ''Universal Basic Income'' dripping dynamic. But the ability to begin interacting with the system itself shouldn't require a long waiting period: by introducing decimal positions, the network can offer instant gratification by adapting the dripping dynamic down to a minimum fraction of human attention.
 
 Considering that,
 
-  1 vote = 250 blocks = 2,500 minutes = 150,000 seconds
+  1 vote = 4 blocks = 40 minutes = 2,400 seconds
 
-To keep the shortest possible decimal extension while adapting the dripping rate to the minimum span of human attention, the ''vote'' network should perform a revolution every 15 seconds:
+To keep the shortest possible decimal extension while adapting the dripping rate to the minimum span of human attention, the ''vote'' network should perform a revolution every .25 seconds:
 
-  15 seconds = 0.0001 votes
+  .25 seconds = 0.0001 votes
 
 In the same way the minimum fraction of a Bitcoin is branded as 1 satoshi (i.e. 100,000,000 satoshis = 1 bitcoin), we consider it is suitable to brand the minimum fraction of a ''vote'' as a ''revolution'' since this concept helps to express the speed at which the network grants political rights,
 
@@ -841,7 +841,7 @@ Which can also be expressed as,
 
 By allowing 4 decimal positions in the token, a ''revolution'' gets dripped to a valid ''Proof of Identity'' in the network every 15 seconds. ''Revolutions'' bring almost instant access to political rights while keeping the same utility capacity as ''votes'' with a cost that is comparatively 10,000X more efficient than Nation-State elections:
 
-  1 revolution = 0.0001 votes = $ 0.000725
+  1 revolution = 0.0001 votes = $ 0.000012
 
 For the identification of the token in third party applications, we suggest the ''VOTE'' and ''VOT'' tickers.
 
