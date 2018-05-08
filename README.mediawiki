@@ -683,6 +683,8 @@ The validation process is the same as in every Sovereign voting dynamic: Validat
 
 The <code>Criteria</code> used for the ''Singularity score'' is also subject for voting by every validated POI participating in the network. Democracies are always a work in progress, perpetually self-correcting with a feedback loop that defines how the observers get observed. The threshold that establishes the sovereign right to ''vote'' must constantly adapt to the exponential growth of computing capacity that can risk subverting the network. By being backed with a decentralized identity index using an incorruptible blockchain that gets maintained with distributed attention (i.e. an open face book), the ''vote'' token becomes a trusted device for a digital democracy to emerge anywhere. Allocating attention to secure the network not only brings consciousness to a system otherwise blind to artificial Intelligence, but also allows participants to own their identities without being coerced by a centralized power that could monetize from it without consent. Conscious attention must always be put in the service of strengthening a global democracy because it is only in the realm of human consciousness that we can define what it means to be human.
 
+Another possible way to validate identities in question might be to [https://github.com/doctor-gonzo/proof-of-human/blob/master/README.md request a solution to a language problem (Winograd Schema Challenge)] that only humans can currently solve.
+
 ===3.3 Universal Basic Income.===
 <blockquote>
   Now is the time to make real the promise of democracy.
