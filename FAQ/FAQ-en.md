@@ -194,7 +194,7 @@ Public and private keys are generated as a cryptographic pair that works togethe
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for 2Q 2018. The pre-sale began February 1, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale targeted for 2Q 2018 will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token sale is targeted for late July-August 2018 timefreame. The pre-sale began February 1, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
