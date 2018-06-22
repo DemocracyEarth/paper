@@ -346,7 +346,7 @@ The entity or institution implementing a Sovereign instance is referred as an <c
 
 =====2.5.1.1 <code>Constitution</code>=====
 
-The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases it can be assigned based on an egalitarian distribution to all members (e.g. taxpayers within a jurisdiction each getting a same amount of ''votes'').
+The ''constitutional smart contract'' determines how ''votes'' will be allocated to members among other governance decisions. Allocation conditions are a prerogative of the organization depending on its goals: in some cases it can be aligned with financial rights (e.g. the shareholders of a corporation getting one ''vote'' per share); in other cases it can be assigned based on an egalitarian distribution to all members (e.g. taxpayers within a jurisdiction each getting the same amount of ''votes'').
 
 The basic settings to be found on a constitution are:
 
