@@ -194,7 +194,7 @@ Public and private keys are generated as a cryptographic pair that works togethe
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for late 4Q 2018. The pre-sale began February 1, 2018 and will close October 15, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token sale is targeted for late 4Q 2018. The pre-sale will close October 15, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
@@ -230,26 +230,26 @@ Once the token is issued, it must be subjected to the[“Howey Test”](http://c
 In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Click [here](https://coinlist.co/help/what-is-an-accredited-investor) to see CoinList criteria for accreditation verification. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
 
 <a name="question-5"></a>
-**5 - How can I get whitelisted for the Democracy Earth pre-sale?**
+**5 - How can I get whitelisted for the Democracy Earth public sale?**
 
-Before February 1st, register at our website: https://www.ico.democracy.earth/.
+Register at our website: https://www.ico.democracy.earth/.
 
 <a name="question-6"></a>
 **6 - How can non-accredited investors participate?**
 
-Non-accredited investors can participate in our public token sale targeted for 2Q 2018.
+Non-accredited investors can participate in our public token sale.
 
 <a name="question-7"></a>
 **7 - What cryptocurrencies will be accepted in the Democracy Earth ICO?**
 
 For the pre-sale (opened Feb. 1st, closed when 50M [token allotment](https://www.dropbox.com/s/ahk6cnseq7lno1r/Democracy%20Earth%20One-Pager%20vfinal.pdf?dl=0) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
 
-For the public sale scheduled for 2Q 2018: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
+For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
 
-Pre-sale updates will be communicated via Telegram: https://t.me/democracyearthico.
+Updates will be communicated via Telegram: https://t.me/democracyearthico.
 
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
@@ -288,13 +288,13 @@ During the token pre-sale i.e. before the token is issued, DEF is utlizing an in
 <a name="question-13"></a>
 **13. What will the ICO funds be used for?**
 
-Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a small dedicated team to focus full-time on building what we envision in the whitepaper and outline in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
+Funds will be used for platform development and to cover day-to-day operational expenses of the Democracy Earth Foundation. We have a small dedicated team focused full-time on building what is envisioned in the whitepaper and outlined in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
 
 <a name="question-14"></a>
 **14. Why is the vote token a 'utility token'?  Why not a 'security token'?**
 The vote token is a utility token, specifically designed to have the utility of voting (decision-making).  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
 
-Security tokens provide the investor with an investment vehicle more in line with traditional investing.  However, securities represent for-profit entities, where profits are distributed to shareholders. Therefore, security tokens really don’t work for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
+Security tokens provide the investor with an investment vehicle more in line with traditional venture capital investing in for-profit entities.  Therefore, security tokens are not appropriate for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
 
 Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), the sale and transactions of the *vote* token are expected to be tax-free*, resulting in a better economic operating environment relative to for-profit entities.   [*per the Foundation's tax advisors, Deloitte]
 
@@ -303,11 +303,7 @@ Because the utility of the vote token aligns with the Foundation’s charitable 
 **15. Where does the Democracy Earth *vote* token get its value?**
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
-The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time, the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice.  $0.10 for no lockup .. $0.08 for 6 months .. or $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% compared to the public price.  
+The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time, the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% compared to the public price.  
 
-While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour and then maintain a relatively stable price.  This gives investors not only a solid store of value .. but a hedge against downside risk.
-
-In addition, because the utility of the vote token is directly in line with the charitable cause, token sales are tax-free and therefore eliminate the erosion of return due to taxation (Initial opinion of Deloitte, the Foundation’s international tax advisors.)
-
-
+While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour and then maintain a relatively stable price.  This gives investors a store of value and a hedge against downside risk.
 
