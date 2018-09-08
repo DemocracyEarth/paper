@@ -194,7 +194,7 @@ Public and private keys are generated as a cryptographic pair that works togethe
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for late July-August 2018 timefreame. The pre-sale began February 1, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token sale is targeted for late 4Q 2018. The pre-sale began February 1, 2018 and will close October 15, 2018. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
@@ -222,7 +222,7 @@ Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exc
 
 Investors can verify their accreditation status for the Demcoracy Earth pre-sale online at the [Democracy Earth CoinList portal.](https://complyapi.coinlist.co/democracy-earth).
 
-Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale (scheduled for 2Q 2018), with no accreditation requirement.
+Once the token is issued, it must be subjected to the[“Howey Test”](http://consumer.findlaw.com/securities-law/what-is-the-howey-test.html) to determine if it is a security or a utility. Tokens deemed securities fall under [SEC securities law](https://www.sec.gov/answers/about-lawsshtml.html). The Democracy Earth *vote* token is a utility token - its utlity is liquid democracy. Therefore, any purchaser, globally, can participate in the Democracy Earth public token sale (scheduled for 4Q 2018), with no accreditation requirement.
 
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
@@ -254,7 +254,7 @@ Pre-sale updates will be communicated via Telegram: https://t.me/democracyearthi
 <a name="question-9"></a>
 **9 - How can I talk to the founders or President?**
 
-Reach out directly to the founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth Facebook Page.
+Reach out directly to the founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth [Facebook Page](https://www.facebook.com/DemocracyEarth/).
 
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
@@ -281,7 +281,7 @@ No, the *vote* token is not a security. The *vote* token is an asset. What is th
  
 - An asset is different in that it has inherent value due to a clear, intrinsic functionality. 
  
-Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The *vote* token is by definition an asset, with the primary utility of decision-making (governance). In addition, being a crypto asset, *vote* tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks.
+Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The *vote* token is by definition an asset, with the primary **utility** of decision-making (governance). In addition, being a crypto asset, *vote* tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks.
 
 During the token pre-sale i.e. before the token is issued, DEF is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
@@ -289,3 +289,25 @@ During the token pre-sale i.e. before the token is issued, DEF is utlizing an in
 **13. What will the ICO funds be used for?**
 
 Funds will be used for platform development and to cover day-to-day operational expenses. We have a lot of work ahead of us and we are going to need a small dedicated team to focus full-time on building what we envision in the whitepaper and outline in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
+
+<a name="question-14"></a>
+**14. Why is the vote token a 'utility token'?  Why not a 'security token'?**
+The vote token is a utility token, specifically designed to have the utility of voting (decision-making).  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
+
+Security tokens provide the investor with an investment vehicle more in line with traditional investing.  However, securities represent for-profit entities, where profits are distributed to shareholders. Therefore, security tokens really don’t work for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
+
+Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), the sale and transactions of the *vote* token are expected to be tax-free*, resulting in a better economic operating environment relative to for-profit entities.   [*per the Foundation's tax advisors, Deloitte]
+
+
+<a name="question-15"></a>
+**15. Where does the Democracy Earth *vote* token get its value?**
+The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
+
+The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time, the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice.  $0.10 for no lockup .. $0.08 for 6 months .. or $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% compared to the public price.  
+
+While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour and then maintain a relatively stable price.  This gives investors not only a solid store of value .. but a hedge against downside risk.
+
+In addition, because the utility of the vote token is directly in line with the charitable cause, token sales are tax-free and therefore eliminate the erosion of return due to taxation (Initial opinion of Deloitte, the Foundation’s international tax advisors.)
+
+
+
