@@ -292,6 +292,7 @@ Funds will be used for platform development and to cover day-to-day operational 
 
 <a name="question-14"></a>
 **14. Why is the vote token a 'utility token'?  Why not a 'security token'?**
+
 The vote token is a utility token, specifically designed to have the utility of voting (decision-making).  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
 
 Security tokens provide the investor with an investment vehicle more in line with traditional venture capital investing in for-profit entities.  Therefore, security tokens are not appropriate for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
@@ -301,6 +302,7 @@ Because the utility of the vote token aligns with the Foundation’s charitable 
 
 <a name="question-15"></a>
 **15. Where does the Democracy Earth *vote* token get its value?**
+
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
 The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time, the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% compared to the public price.  
