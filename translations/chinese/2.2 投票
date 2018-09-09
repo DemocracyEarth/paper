@@ -1,0 +1,43 @@
+2.2 Voting.
+
+The vote token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common 
+language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of 
+voting transactions is permitted with votes:
+
+Direct Vote: Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
+直接投票：个体使用自己的token直接表达某项事务的看法。
+Basic Delegation: Alice may delegate votes to Bob. As long as Bob has access to those tokens he can use them to vote 
+on Alice's behalf.
+基础代表制度：Alice可以委托Bob替他投票，只要Bob有权限使用这些token替Alice投票。
+Tag Limited Delegation: Alice may delegate votes to Charlie under the specified condition that he can only use these 
+tokens on issues carrying a specific tag. If the delegation specifies that delegated votes can only be used on decisions 
+with the #environment tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads 
+to a representation model not based on territory but on knowledge.
+有限的代表制度：如果Alice允许Charlie在特定议题下代表自己投票。假设间接投票项目为“环境”标签，那么Charlie就无法使用Alice的token去“环境”之外的议题。
+投票。这就形成了一个基于知识而不是领地的代议模型。
+Transitive Delegation: If Bob received votes from Alice, he can then delegate these to Frank. This generates a chain of 
+delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving 
+the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations 
+(e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of votes from an 
+organization to its members carries a signature indicating who is the sovereign owner of the votes.
+
+Overriding Vote: If Bob already used the delegated votes he received from Alice but she has a different opinion on a given 
+issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on 
+any given decision with their original votes.
+
+Public Vote: Often referred as the golden rule of liquid democracies, all delegators have the right to know how their 
+delegate has voted on any given issue with their votes. In the same way congressmen votes are public, on liquid democracies 
+competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order 
+to attract more delegations.
+
+
+Secret Vote: A method able to guarantee vote transactions untraceable to the voter. This is indispensable in contexts of 
+public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on vote transaction 
+is achieved, users can still be fingerprinted with exposed meta-data. For this reason, research on integration with 
+blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining 
+fee to settle the vote transaction that can be either subsidized by the implementing organization or directly paid by 
+voters. We recommend research and integration of secret votes with these blockchains:
+Ethereum: uses precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128, for pairing 
+checks, which permit zk-SNARKs, also see here, as implemented in the Byzantium hard fork.
+ZCash: implements shielded transactions using zero-knowledge proofs.
+Monero: uses ring signatures with stealth addresses.
