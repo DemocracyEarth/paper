@@ -154,17 +154,17 @@ Self-sovereign is anything that is fully under control of itself. Central author
 Yes. Sovereign is intended for planetary governance as much as it is suitable to be used by an organization consisted of two members.
 
 <a name="question-013"></a>
-**13 - Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**
+**13 - Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?**  
 
 As of this moment we have not encountered an alternative to the Proof of Identity protocol that does not involve central authorities, but we and the digital hive mind will continue exploring options in order to make Sovereign available to all humankind.
 
 <a name="question-014"></a>
-**14 - Isn't Open Source too new to be implementable in elections?**
+**14 - Isn't Open Source too new to be implementable in elections?**  
 
 Open-source systems are already playing a role in some elections, for example, New Hampshire - USA has used open source software to allow disabled voters to fill out ballots online or on their phones.  The counties of Travis (Texas), San Francisco and Los Angeles have budgets in place for open-source voting systems. Many major companies use open-source software including the US Department of Defense. 
 
 <a name="question-015"></a>
-**15. What do "planetary jurisdiction" and "post Nation-state" mean?**
+**15. What do "planetary jurisdiction" and "post Nation-state" mean?**  
 
 The blockchain knows no borders, it is a transnational technology. Allowing individuals from all nations to cooperate and make decisions together will create a new jurisdiction that encompasses the entire planet. Territorial divisions and the perpetual conflict between Nation-states have led to accelerated climate change, rising inequality, terrorism and forced migrations. Those are global issues that can only be addressed through a new model, where different parts of the globe cooperate, regarding the planet as one jurisdiction towards which all members are equally responsible and entitled to - we call that post Nation-state governance.    
 
