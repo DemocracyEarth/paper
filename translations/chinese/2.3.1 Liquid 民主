@@ -1,36 +1,15 @@
-2.3.1 Liquid.
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the 
-delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. 
-For this purpose, Sovereign uses a liquid bar that permits transacting votes with a single gesture either on mobile 
-or desktop devices.
+== 2.3.1 Liquid民主 ==
+
 Sovereign旨在让流动投票简单快捷，当浏览问题或查看会员信息时，必须暴露给用户优雅的交互界面。基于这个原则，
 用户在移动设备只需要用拇指滑动方式即可进行意见投票或进行其他某项操作。
-The liquid bar allows these actions:
 liquid bar 允许进行如下动作”
-See available votes: Since in a liquid democracy a user can have 1 or more delegated votes, having a constant reminder 
-of the balance helps the user understand his or her current power within the system. If some of the votes were 
-delegated with strict conditions (e.g. a Tag Limited Delegation), this means that a user won't have the same amount 
-of votes available to spend on every issue.
-查看可投票项：因为liquid democracy允许用户多次投票，持续通知个体他有多少可用票可以帮助他或她知道自己还有多少权利，如果某些投票
+
+*查看可投票项：因为liquid democracy允许用户多次投票，持续通知个体他有多少可用票可以帮助他或她知道自己还有多少权利，如果某些投票
 有限制条件（如限制标签的），这意味着用户在所有问题上没有等同的可用票。
-See cast votes: A percentage value with the amount of votes currently cast on other decisions or delegated to other 
-members of the community is shown. The user can tap or click at any time on that value to view a complete list of the 
-issues where he or she is currently having a vote and decide whether to keep them there or make a strategic change.
-查看投票广播：用户总是可以看到其他社群的投票情况，例如以百分比，进度条形式。那么用户可以轻触或点击查看TA当前完整的投票范围，并且
+*查看投票广播：用户总是可以看到其他社群的投票情况，例如以百分比，进度条形式。那么用户可以轻触或点击查看TA当前完整的投票范围，并且
 决定是否改变策略或保持不变
-Slide to vote: The user can use his thumb (or mouse click) to slide the liquid bar handle and upon the release of it
-he or she will be prompted a confirmation request whether to vote or not.
-滑动以投票：用户可以使用拇指滑动或鼠标拖动滑条的方式进行投多票，滑动或拖动到指定数量时，弹窗询问是否确认。
-Tap to vote: If the user does not want to allocate more than 1 vote, he or she can simply tap on the liquid bar handle
-once and will be prompted to confirm a single vote transaction.
-点击以投票：如果用户并不打算投多票，TA可以轻点一次滑条，并确认投票。
-Remove votes: At any time, as long as the poll is still open, the user may remove his or her votes from a decision by
-simply sliding the liquid bar handle back to the initial position.
-远程投票：任何时刻。只要投票还在进行，用户可以向左滑动到最初位置以移除TA的投票。
-We see this interaction as a step forward from the like pattern found in social media. Likes limits voting to mindless 
-clicks and can be inflated at will. Since votes operate as a scarce resource in the system, they cannot be generated
-at will and always require a minimum of tactical thinking regarding how a user's interaction will influence a specific 
-decision. votes have real implications to the user as a stakeholder of a decentralized organization while Likes only 
-serve their controlling corporations.
+*滑动以投票：用户可以使用拇指滑动或鼠标拖动滑条的方式进行投多票，滑动或拖动到指定数量时，弹窗询问是否确认。
+*点击以投票：如果用户并不打算投多票，TA可以轻点一次滑条，并确认投票。
+*远程投票：任何时刻。只要投票还在进行，用户可以向左滑动到最初位置以移除TA的投票。
 这些交互相比于社交媒体上的“like”按钮更进一步。“like”按钮随意性较大，而选票是稀缺资源，没法随意复制，所有用户每次投票时需要考虑
 使用策略。因为这与TA的利益密切相关。
