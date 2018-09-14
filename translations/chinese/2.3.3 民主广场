@@ -1,24 +1,10 @@
-2.3.3 Agora.
-2.3.3 民主广场
-Sovereign also has a debating component codenamed Agora. Debating is likely as important as voting in any democracy.
-Agoras display threaded conversations, a successful design pioneered by Reddit and Hacker News. We consider this UX 
-pattern as the best way to engage in thoughtful conversations online as they have the most valued 
-comments bubble up, helping sort the information for a debate using the collective intelligence of the community.
+== 2.3.3 民主广场 ==
 Sovereign有一个辩论模块叫做Agora（中文姑且叫做“民主广场”）。辩论与投票在民主生活中同等重要，Agora以会话形式展示问题，正如Reddit和
 Hacker news设计的那样。我们认为这种用户体验是最能将有价值的意见冒泡出来，有助于帮助在辩论过程中汇集群体智慧。
-But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite 
-upvotes or downvotes, if the user agrees with a comment from someone else in the platform, it will trigger an 
-instantaneous delegation of a single vote. Hence Agoras permit:
+
 不同于其他基于web的应用，Sovereign不允许“证言互动”，一旦用户同意某人在平台上的发言，直接投赞成票（不可更改）而不是在“顶”与“踩”之间徘徊。
-Upvote: Send a single vote delegation from the user to the commenter.
-赞成：发送单个赞成票给发言者。
-Downvote: If a user disagrees with someone's comment, a downvote can either retrieve a vote from the commenter back to 
-the user if there was a previous delegation. Or if no delegation relation exists among them, then a downvote will act 
-as a penalty sending a vote from the commenter back to the funds of the organization implementing the Sovereign 
-instance. The criteria for this kind of penalty can be set in the constitutional smart contract of the implementing 
-organization.
-不赞成：如果不同意某人的发言，不赞成可以是从发言者那里拿回一票（如果是之前投过票给TA），或者之前没有投过票，不赞成票将会以如下形式
-体现:发言者被惩罚性地给组织建立初建立票仓回缴一票。这个惩罚规范可以在组织成立之初设计在智能合约中。
-This will make delegations more frequent across the platform. Debates constantly exposed to the risk of vote 
-transactions means that they are subject to real political impact. This mechanism can help reward good arguments 
-and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
+
+*赞成：发送单个赞成票给发言者。
+*不赞成：如果不同意某人的发言，不赞成可以是从发言者那里拿回一票（如果是之前投过票给TA），或者之前没有投过票，不赞成票将会以如下形式体现:发言者被惩罚性地给组织建立初建立票仓回缴一票。这个惩罚规范可以在组织成立之初设计在智能合约中。
+
+这样做将使代议制度在整个平台上更加活跃。辩论长期暴露在投反对票的风险意味着它们会受到真正的政治舆论的影响。 这种机制可以帮助奖励好的论点并惩罚灌水行为，而不需要在系统具备主持者的权威。
