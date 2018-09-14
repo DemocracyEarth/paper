@@ -18,7 +18,7 @@ as a penalty sending a vote from the commenter back to the funds of the organiza
 instance. The criteria for this kind of penalty can be set in the constitutional smart contract of the implementing 
 organization.
 不赞成：如果不同意某人的发言，不赞成可以是从发言者那里拿回一票（如果是之前投过票给TA），或者之前没有投过票，不赞成票将会以如下形式
-体现:发言者被惩罚性地给组织建立初建立的基金投一票。这个惩罚规范可以在组织成立之初设计在智能合约中。
+体现:发言者被惩罚性地给组织建立初建立票仓回缴一票。这个惩罚规范可以在组织成立之初设计在智能合约中。
 This will make delegations more frequent across the platform. Debates constantly exposed to the risk of vote 
 transactions means that they are subject to real political impact. This mechanism can help reward good arguments 
 and punish the influence of trolling without requiring the need to develop moderating authorities in the system.
