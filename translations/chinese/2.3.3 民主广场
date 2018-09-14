@@ -4,12 +4,12 @@ Sovereign also has a debating component codenamed Agora. Debating is likely as i
 Agoras display threaded conversations, a successful design pioneered by Reddit and Hacker News. We consider this UX 
 pattern as the best way to engage in thoughtful conversations online as they have the most valued 
 comments bubble up, helping sort the information for a debate using the collective intelligence of the community.
-Sovereign有一个辩论模块叫做Agora，辩论与投票在民主社会同等重要，Agora以会话形式展示问题，正如Reddit和Hacker news设计的那样。
-我们认为这种用户体验是最能将有价值的意见冒泡出来，有助于帮助在辩论过程中汇集群体智慧。
+Sovereign有一个辩论模块叫做Agora（中文姑且叫做“民主广场”）。辩论与投票在民主生活中同等重要，Agora以会话形式展示问题，正如Reddit和
+Hacker news设计的那样。我们认为这种用户体验是最能将有价值的意见冒泡出来，有助于帮助在辩论过程中汇集群体智慧。
 But unlike web based applications, Sovereign does not allow testimonial interactions: instead of permitting infinite 
 upvotes or downvotes, if the user agrees with a comment from someone else in the platform, it will trigger an 
 instantaneous delegation of a single vote. Hence Agoras permit:
-不想其他基于web的应用，Sovereign不允许“证言互动”，一旦用户同意某人在平台上的发言，直接投赞成票（不可更改）而不是在“顶”与“踩”之间徘徊。
+不同于其他基于web的应用，Sovereign不允许“证言互动”，一旦用户同意某人在平台上的发言，直接投赞成票（不可更改）而不是在“顶”与“踩”之间徘徊。
 Upvote: Send a single vote delegation from the user to the commenter.
 赞成：发送单个赞成票给发言者。
 Downvote: If a user disagrees with someone's comment, a downvote can either retrieve a vote from the commenter back to 
