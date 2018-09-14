@@ -1,8 +1,10 @@
 2.3.1 Liquid.
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation 
-widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, 
-Sovereign uses a liquid bar that permits transacting votes with a single gesture either on mobile or desktop devices.
-
+Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the 
+delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. 
+For this purpose, Sovereign uses a liquid bar that permits transacting votes with a single gesture either on mobile 
+or desktop devices.
+Sovereign旨在让流动投票简单快捷，当浏览问题或查看会员信息时，必须暴露给用户优雅的交互界面。基于这个原则，
+用户在移动设备只需要用拇指滑动方式即可进行意见投票或进行其他某项操作。
 The liquid bar allows these actions:
 liquid bar 允许进行如下动作”
 See available votes: Since in a liquid democracy a user can have 1 or more delegated votes, having a constant reminder 
