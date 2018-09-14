@@ -1,11 +1,11 @@
 2.3.2 Delegations.
 A liquid bar also displays the vote delegation relation a user has with any other member of an organization. 
 Delegations go both ways:
-2.3.2 代表制
+2.3.2 代议
 liquid bar 显示了用户与其他成员或群体的代表关系。
 Sent: A user must be able to delegate any of his available votes while checking the current delegated amount (if any).
-发送：用户必须可以
+发送：用户必须在可以随时在查看自己可委托额度时将自己的选票委托给其他人。
 Received: A user must be able to understand how many votes were received from someone else.
 Every time a member profile is displayed on Sovereign, the current delegation status between the user and the member
 is shown.
-接收：用户必须可以能够知道得到别人多少投票，在Sovereign的用户信息界面，显示当前的用户与成员的投票状态
+接收：用户必须可以能够知道别人头给自己多少投票，在Sovereign的用户信息界面，显示当前投票委托状态。
