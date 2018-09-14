@@ -20,16 +20,22 @@ delegations that helps empower specific players within a community. If Alice doe
 the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations 
 (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of votes from an 
 organization to its members carries a signature indicating who is the sovereign owner of the votes.
-
+传递性授权：
+  如果Bob收到Alice的投票，他可以传递给Frank，这就生成了一个链式反应：将某个人得能量在一个社区中放大；如果Alice不希望Bob将自己的票传递给
+  第三方，她可以在合约中关闭这个转递设定；环形传递是不允许的（例如A->B->F->A），因为组织下发的票上有原始分配对象的签名。
 Overriding Vote: If Bob already used the delegated votes he received from Alice but she has a different opinion on a given 
 issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on 
 any given decision with their original votes.
-
+覆盖投票：
+  如果Alice转给Bob一票，但是Alice在某个事物上与Bob意见不同，那么Alice有权覆盖Bob的决定。即：票的原始所有者对她的投票决定有最终意见选择权。
 Public Vote: Often referred as the golden rule of liquid democracies, all delegators have the right to know how their 
 delegate has voted on any given issue with their votes. In the same way congressmen votes are public, on liquid democracies 
 competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order 
 to attract more delegations.
 
+投票结果公开性：
+  又被称作liquid民主的黄金准则，所有的委托投票人员有权知道他们的票最终投向哪个意见。同样的道理议员们的投票是公开的，在liquid民主中，被委托
+  人对于不同问题的投票都是公开展示的，这可以为他们吸引更多的委托人。
 
 Secret Vote: A method able to guarantee vote transactions untraceable to the voter. This is indispensable in contexts of 
 public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on vote transaction 
@@ -37,7 +43,17 @@ is achieved, users can still be fingerprinted with exposed meta-data. For this r
 blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining 
 fee to settle the vote transaction that can be either subsidized by the implementing organization or directly paid by 
 voters. We recommend research and integration of secret votes with these blockchains:
+
+投票者隐私：
+  一个保证投票人无法被追踪的方法，这在人口众多，存在强迫投票可能性的公开投票中是不可或缺的。尽管目前反追踪工作已经取得较好的成果，仍可以通过
+  原数据的指纹追踪到投票人。出于这个原因，我们鼓励通过区块链技术让投票者匿名。这可能会涉及到一些少量的费用保障投票，可以由组织机构或者投票人
+  直接支付，我们推荐用如下区块链方式集成匿名投票：
+
 Ethereum: uses precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128, for pairing 
 checks, which permit zk-SNARKs, also see here, as implemented in the Byzantium hard fork.
+以太坊：在椭圆曲线alt bn128上使用预编译的智能合约进行加法和标量乘法，允许zk-SNARKs用于配对检查，在Byzantium分支中实现的。
 ZCash: implements shielded transactions using zero-knowledge proofs.
+ZCash:零知识门槛的安全交易保障
+
 Monero: uses ring signatures with stealth addresses.
+门罗币：使用具有秘密地址的环签名
