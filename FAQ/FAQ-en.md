@@ -44,6 +44,8 @@
 
 [19. What does "public and private key" refer to?](#question-019)
 
+[20. I signed up for an account at Vote.Democracy.Earth and I want to report a problem, a but, and/or a new feature suggestion - how do I tell the development team about it? ](#question-0200)
+
 
 
 ## Section II: Frequently Asked Questions - Token Sale
@@ -187,6 +189,18 @@ Decentralized identifiers are intended for a verifiable digital identity that is
 **19. What does "public and private key" refer to?**
 
 Public and private keys are generated as a cryptographic pair that works together, meaning that a message encrypted with the public key can only be decrypted with it's correspondent private key and vice-versa. This method is utilized to safely transmit messages, create crypto wallets, DIDs, etc. 
+
+<a name="question-020"></a>
+**20. How do I report a problem, a bug, and/or a new feature suggestion for the web-based Sovereign alpha product at [Vote.Democracy.Earth](https://vote.democracy.earth/)?**
+
+You can report it right in the [Vote.Democracy.Earth feed] - [here](https://vote.democracy.earth/vote/hello-citizens-help-us-prioritize-the-next-features-we-should-add-to-the-democracy-earth-platform-just-click-vote-to-get-started-at-any-time-click-debate-to-add-your-own-feature-ideas-to-the-list-well-be-looking-to-identify-the-most-universal-features-able-to-serve-multiple-use-cases-0xfz) (represented in the image below) is a place to rate the importance of new features, or add your own suggestions. 
+
+![image](https://user-images.githubusercontent.com/41199341/45591608-92e49480-b90c-11e8-958a-f28e065f1660.png)
+
+Want to report a bug or problem?  You can create a post in Sovereign, or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) (a snip of the video appears below) will show you the steps. 
+
+![image](https://user-images.githubusercontent.com/41199341/45591630-156d5400-b90d-11e8-9887-c6e6a9051696.png)
+Thanks for building with us! 
 
 <a name="question-002"></a>
 ## Frequently Asked Questions - Token Sale
