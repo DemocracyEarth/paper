@@ -199,8 +199,7 @@ You can report it right in the [Vote.Democracy.Earth feed] - [here](https://vote
 
 Want to report a bug or problem?  You can create a post in Sovereign, or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) (a snip of the video appears below) will show you the steps. 
 
-![image](https://user-images.githubusercontent.com/41199341/45591630-156d5400-b90d-11e8-9887-c6e6a9051696.png)
-Thanks for building with us! 
+![image](https://user-images.githubusercontent.com/41199341/45591630-156d5400-b90d-11e8-9887-c6e6a9051696.png)  
 
 <a name="question-002"></a>
 ## Frequently Asked Questions - Token Sale
