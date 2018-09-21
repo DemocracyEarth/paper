@@ -323,5 +323,5 @@ The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because thi
 While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour range and then maintain a relatively stable price.  This gives investors a store of value and a hedge against downside risk.
 
 Watch an investor FAQ video with Democracy Earth co-founder Herb Stephens below (clicking below and go to You Tube).
-[![image](https://user-images.githubusercontent.com/24529258/45847362-a9f5fe80-bcdf-11e8-8848-01cdab729124.png)](http://bit.ly/2xr5ziF)
+[![image](https://user-images.githubusercontent.com/24529258/45847362-a9f5fe80-bcdf-11e8-8848-01cdab729124.png)](https://youtu.be/H5b0GhBF73M)
 
