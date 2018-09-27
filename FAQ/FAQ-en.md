@@ -255,7 +255,7 @@ Non-accredited investors can participate in our public token sale.
 <a name="question-7"></a>
 **7 - What cryptocurrencies will be accepted in the Democracy Earth ICO?**
 
-For the pre-sale (opened Feb. 1st, closed when 50M [token allotment](https://www.dropbox.com/s/ahk6cnseq7lno1r/Democracy%20Earth%20One-Pager%20vfinal.pdf?dl=0) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
+For the pre-sale (opened Feb. 1st, closed when 50M [token allotment](token.democracy.earth) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
 
 For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
@@ -279,9 +279,9 @@ Purchasers will receive a countersigned SAFT from Democracy Earth only after acc
 <a name="question-11"></a>
 **11 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
 
-Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. It is important to remember that attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
+Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. Attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
  
-The *vote* token offers an alternative to an historically unfair connection between money and decision-making. We are granting votes as a right that is distributed through a Universal Basic Income mechanism, and we introduce cryptographically enabled equality through a calculation that ensures all members receive an equal allocation of votes, despite the date in which they join the network. Those mechanisms are aimed at creating an environment in which members are not vulnerable to coercion due to lack of liquidity, induced scarcity and forced debt.
+The *vote* token offers an alternative to an historically inequitable connection between money and decision-making. We are granting votes as a right that is distributed through a Universal Basic Income mechanism, and we introduce cryptographically enabled equality through a calculation that ensures all members receive an equal allocation of votes, despite the date in which they join the network. Those mechanisms are aimed at creating an environment in which members are not vulnerable to coercion due to lack of liquidity, induced scarcity and forced debt.
 
 Finally, it is true that under certain organizational configurations one might have more decision-making power than others by owning more votes. Sovereign software is elastic in the sense that it allows for different organizational configurations that can serve a democracy. If the intent is to allow each member to cast one vote per decision, the organization can establish that, in the same way that it can establish a system more similar to our legacy where the richest have more influence. *The key difference is that, unlike legacy systems, within Sovereign there are no coercion mechanisms forcing citizens to participate in any specific organization, especially one that they deem unfair.* And by distributing a Universal Basic Income of tokens with the Equality mechanism, citizens are not only uncoerced but also have an equitable political and economical starting point - what we see as a fundamental building block for a healthy democracy.
 
@@ -290,13 +290,13 @@ Finally, it is true that under certain organizational configurations one might h
 
 No, the *vote* token is not a security. The *vote* token is an asset. What is the difference? To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
  
-- A security is primarily  something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category.
+- A security is primarily something from which you expect to receive a financial return in the future, and many cryptocurrencies fall into that category.
  
 - An asset is different in that it has inherent value due to a clear, intrinsic functionality. 
  
-Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The *vote* token is by definition an asset, with the primary **utility** of decision-making (governance). In addition, being a crypto asset, *vote* tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks.
+Tokens are assets, yet they can be securities if they represent an ownership in an organization (or meet other defined criteria set by SEC and other reg bodies). The *vote* token is by definition an asset, with the primary **utility** of decision-making, or voting (governance). In addition, being a crypto asset, *vote* tokens contain the inherent benefits of decentralization, transparency and anonymity enabled by blockchain networks.
 
-During the token pre-sale i.e. before the token is issued, DEF is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
+During the token pre-sale i.e. before the token is issued, Democracy Earth is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
 <a name="question-13"></a>
 **13. What will the ICO funds be used for?**
@@ -310,7 +310,7 @@ The vote token is a utility token, specifically designed to have the utility of 
 
 Security tokens provide the investor with an investment vehicle more in line with traditional venture capital investing in for-profit entities.  Therefore, security tokens are not appropriate for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
 
-Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), the sale and transactions of the *vote* token are expected to be tax-free*, resulting in a better economic operating environment relative to for-profit entities.   [*per the Foundation's tax advisors, Deloitte]
+Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), the sale and transactions of the *vote* token are expected to be tax-free*, resulting in a better economic operating environment relative to for-profit entities. [*per the Foundation's tax advisors]
 
 
 <a name="question-15"></a>
@@ -318,10 +318,9 @@ Because the utility of the vote token aligns with the Foundation’s charitable 
 
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
-The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already 3 US states have raised the minimum wage to $15, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% compared to the public price.  
+The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already 3 US states have raised the minimum wage to $15, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
 
 While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour range and then maintain a relatively stable price.  This gives investors a store of value and a hedge against downside risk.
 
-Watch an investor FAQ video with Democracy Earth co-founder Herb Stephens below (clicking below and go to You Tube).
-[![image](https://user-images.githubusercontent.com/24529258/45847362-a9f5fe80-bcdf-11e8-8848-01cdab729124.png)](https://youtu.be/H5b0GhBF73M)
+Investor FAQ video coming soon. 
 
