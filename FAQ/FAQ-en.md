@@ -193,13 +193,9 @@ Public and private keys are generated as a cryptographic pair that works togethe
 <a name="question-020"></a>
 **20 - How do I report a problem, a bug, and/or a new feature suggestion for the web-based Sovereign alpha product at [Vote.Democracy.Earth](https://vote.democracy.earth/)?**
 
-You can report it right in the [Vote.Democracy.Earth feed] - [here](https://vote.democracy.earth/vote/hello-citizens-help-us-prioritize-the-next-features-we-should-add-to-the-democracy-earth-platform-just-click-vote-to-get-started-at-any-time-click-debate-to-add-your-own-feature-ideas-to-the-list-well-be-looking-to-identify-the-most-universal-features-able-to-serve-multiple-use-cases-0xfz) (represented in the image below) is a place to rate the importance of new features, or add your own suggestions. 
+You can report it right in the [Vote.Democracy.Earth feed] - [here](https://vote.democracy.earth/vote/hello-citizens-help-us-prioritize-the-next-features-we-should-add-to-the-democracy-earth-platform-just-click-vote-to-get-started-at-any-time-click-debate-to-add-your-own-feature-ideas-to-the-list-well-be-looking-to-identify-the-most-universal-features-able-to-serve-multiple-use-cases-0xfz) is a place to prioritize/rate the importance of new features, or even add your own suggestions. 
 
-![image](https://user-images.githubusercontent.com/41199341/45591608-92e49480-b90c-11e8-958a-f28e065f1660.png)
-
-Want to report a bug or problem?  You can create a post in Sovereign, or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) (a snip of the video appears below) will show you the steps. 
-
-![image](https://user-images.githubusercontent.com/41199341/45591630-156d5400-b90d-11e8-9887-c6e6a9051696.png)  
+Want to report a bug or problem?  You can create a post on the Sovereign testnet, a developer will engage with you; or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) will show you the steps. 
 
 <a name="question-002"></a>
 ## Frequently Asked Questions - Token Sale
