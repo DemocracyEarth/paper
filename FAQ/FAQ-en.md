@@ -82,7 +82,7 @@
 <a name="question-001"></a>
 **1 - What is an open source paper?**
 
-For us at Democracy Earth Foundation how a paper is made is almost as important as its content. Our belief in democracy means we believe that human collaboration is the best possible way to arrive at great solutions, therefore our project is written as an open source paper - a document where anyone is free to contribute. It is published under an open source license and we welcome contributions from anyone as we aim for this document to be a living roadmap for planetary governance. Democracy is always a work in progress, and so is our work: _The social smart contract_ is a living document that will be constantly updated and amended.
+To us at Democracy Earth Foundation how a paper is made is almost as important as its content. Our belief in democracy means we believe that human collaboration is the best possible way to arrive at great solutions, therefore our project is written as an open source paper - a document where anyone is free to contribute. It is published under an open source license and we welcome contributions from anyone as we aim for this document to be a living roadmap for planetary governance. Democracy is always a work in progress, and so is our work: _The social smart contract_ is a living document that will be constantly updated and amended.
 
 <a name="question-002"></a>
 **2 - How can I contribute?**
@@ -203,7 +203,7 @@ Want to report a bug or problem?  You can create a post on the Sovereign testnet
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for November 15th. The pre-sale will stay open until November 15 or until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token sale is targeted for November 2018. The pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
