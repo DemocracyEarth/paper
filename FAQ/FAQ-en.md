@@ -258,12 +258,12 @@ For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
 
-Updates will be communicated via Telegram: https://t.me/democracyearthico.
+Updates will be communicated via [Telegram](https://t.me/democracyearthico)
 
 <a name="question-9"></a>
-**9 - How can I talk to the founders or President?**
+**9 - How can I talk to the founders about my questions regarding Democracy Earth and the token sale?**
 
-Reach out directly to the founders or president on the DEF [Telegram channel.](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth [Facebook Page](https://www.facebook.com/DemocracyEarth/).
+Reach out directly to the co-founders or the DEF Treasurer on the DEF [Telegram channel](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth [Facebook Page](https://www.facebook.com/DemocracyEarth/).
 
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
@@ -302,7 +302,7 @@ Funds will be used for platform development and to cover day-to-day operational 
 <a name="question-14"></a>
 **14. Why is the vote token a 'utility token'?  Why not a 'security token'?**
 
-The vote token is a utility token, specifically designed to have the utility of voting (decision-making).  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
+The vote token is a utility token, specifically designed to have the utility of voting and delegating (decision-making);  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
 
 Security tokens provide the investor with an investment vehicle more in line with traditional venture capital investing in for-profit entities.  Therefore, security tokens are not appropriate for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
 
@@ -314,9 +314,9 @@ Because the utility of the vote token aligns with the Foundation’s charitable 
 
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
-The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already 3 US states have raised the minimum wage to $15, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
+The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already 3 US states have raised the minimum wage to $15.00 per hour, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
 
-While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in the $15-50 per hour range and then maintain a relatively stable price.  This gives investors a store of value and a hedge against downside risk.
+While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in a range reflective of the average trend exceeding the current minimum rate, and then maintain a relatively stable price, giving investors a market-driven store of value and a hedge against downside risk.
 
 Investor FAQ video coming soon. 
 
