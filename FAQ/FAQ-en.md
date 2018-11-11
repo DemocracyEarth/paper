@@ -74,7 +74,7 @@
 
 [12. Is the VOTE token a security?](#question-12)
 
-[13. What will the ICO funds be used for?](#question-13)
+[13. What will the token sale funds be used for?](#question-13)
 
 <a name="question-001"></a>
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
@@ -258,7 +258,7 @@ For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 <a name="question-8"></a>
 **8 - Where can I receive updates?**
 
-Updates will be communicated via [Telegram](https://t.me/democracyearthico)
+Updates will be communicated via [Telegram](https://t.me/democracyearthico) and via the Democracy Earth newsletter, which you can subscribe to [here](democracy.earth).
 
 <a name="question-9"></a>
 **9 - How can I talk to the founders about my questions regarding Democracy Earth and the token sale?**
