@@ -203,7 +203,7 @@ Want to report a bug or problem?  You can create a post on the Sovereign testnet
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for November 2018. The pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token sale is targeted for 4Q 2018. The pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
@@ -227,7 +227,7 @@ You can find more information regarding the definition of an accredited investor
 <a name="question-3"></a>
 **3 - Why is the pre-sale limited to accredited investors?**
 
-Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various discounts, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited investors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
+Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various price levels, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited investors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
 
 Investors can verify their accreditation status for the Demcoracy Earth pre-sale online at the [Democracy Earth CoinList portal.](https://complyapi.coinlist.co/democracy-earth).
 
@@ -241,7 +241,7 @@ In order to comply with SEC regulations only accredited investors may participat
 <a name="question-5"></a>
 **5 - How can I get whitelisted for the Democracy Earth public sale?**
 
-Register at our website: https://www.ico.democracy.earth/.
+Register at our website: https://www.token.democracy.earth/.
 
 <a name="question-6"></a>
 **6 - How can non-accredited investors participate?**
@@ -251,7 +251,7 @@ Non-accredited investors can participate in our public token sale.
 <a name="question-7"></a>
 **7 - What cryptocurrencies will be accepted in the Democracy Earth ICO?**
 
-For the pre-sale (opened Feb. 1st, closed when 50M [token allotment](token.democracy.earth) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
+For the pre-sale (closed when 50M [token allotment](token.democracy.earth) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
 
 For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
 
@@ -268,7 +268,7 @@ Reach out directly to the co-founders or the DEF Treasurer on the DEF [Telegram 
 <a name="question-10"></a>
 **10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
-A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://ico.democracy.earth.  Notify a DEF admin on Telegram if you do not receive your SAFT. A review copy of the SAFT can be found [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
+A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://token.democracy.earth.  Notify a DEF admin on [the Democracyc Earth Telegram channel](https://t.me/democracyearthico) if you do not receive your SAFT. A review copy of the SAFT can be found [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
 
 Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
 
@@ -295,7 +295,7 @@ Tokens are assets, yet they can be securities if they represent an ownership in 
 During the token pre-sale i.e. before the token is issued, Democracy Earth is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
 <a name="question-13"></a>
-**13. What will the ICO funds be used for?**
+**13. What will the token sale funds be used for?**
 
 Funds will be used for platform development and to cover day-to-day operational expenses of the Democracy Earth Foundation. We have a small dedicated team focused full-time on building what is envisioned in the whitepaper and outlined in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
 
@@ -306,7 +306,7 @@ The vote token is a utility token, specifically designed to have the utility of 
 
 Security tokens provide the investor with an investment vehicle more in line with traditional venture capital investing in for-profit entities.  Therefore, security tokens are not appropriate for the Democracy Earth Foundation, a California 501(c)(3) non-profit organization. 
 
-Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), the sale and transactions of the *vote* token are expected to be tax-free*, resulting in a better economic operating environment relative to for-profit entities. [*per the Foundation's tax advisors]
+Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), we are advised the sale and transactions of the *vote* token could be be tax-free, resulting in a better economic operating environment relative to for-profit entities. [*per the Foundation's tax advisors]
 
 
 <a name="question-15"></a>
@@ -314,7 +314,7 @@ Because the utility of the vote token aligns with the Foundation’s charitable 
 
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
-The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already 3 US states have raised the minimum wage to $15.00 per hour, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, with discounted pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
+The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already three US states have raised the minimum wage to $15.00 per hour, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, along with pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
 
 While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in a range reflective of the average trend exceeding the current minimum rate, and then maintain a relatively stable price, giving investors a market-driven store of value and a hedge against downside risk.
 
