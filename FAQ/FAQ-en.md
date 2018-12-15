@@ -4,7 +4,7 @@
 
 [Section II](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-ii-frequently-asked-questions---token-sale): FAQs: Democracy Earth Token Sale
 
-[Section III](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-1-frequently-asked-questions---community) FAQs: Democracy Earth Commmunity  
+[Section III](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-iii-frequently-asked-questions---community) FAQs: Democracy Earth Commmunity  
 
 
 
@@ -75,6 +75,7 @@
 [11. Is the VOTE token a security?](#question-12)
 
 [12. What will the token sale funds be used for?](#question-13)
+
 
 ## Section III: Frequently Asked Questions - Community
 [1. Why is Democracy Earth leaving the Slack platform?](#question-1)
