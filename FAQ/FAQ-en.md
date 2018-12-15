@@ -72,9 +72,25 @@
 
 [10. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
 
-[1a. Is the VOTE token a security?](#question-12)
+[11. Is the VOTE token a security?](#question-12)
 
 [12. What will the token sale funds be used for?](#question-13)
+
+## Section III: Frequently Asked Questions - Community
+[1. Why is Democracy Earth leaving the Slack platform?](#question-1)
+
+[2. Will Democracy Earth delete its Slack account?](#question-2)
+
+[3 How can I talk to/reach Democracy Earth team members?](#question-3)
+
+[4. Will subgroups/subchannels on the DEF Slack account still be operational?](#question-4)
+
+[5. If not Slack, then where can I interact with other Democracy Earth community members?](#question-5)
+
+[6 What is the time frame for Democracy Earth phasing out Slack?](#question-6)
+
+[7.I want to volunteer for Democracy Earth - how do I talk to someone about that?](#question-7)
+
 
 <a name="question-001"></a>
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
@@ -236,7 +252,7 @@ Once the token is issued, it must be subjected to the[“Howey Test”](http://c
 <a name="question-4"></a>
 **4 - Why does the pre-sale exclude accredited investors from NY and China?**
 
-In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Click [here](https://coinlist.co/help/what-is-an-accredited-investor) to see CoinList criteria for accreditation verification. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
+In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Click [here](https://coinlist.co/help/what-is-an-accredited-investor) to see CoinList criteria for accreditation verification. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in token sales. 
 
 <a name="question-5"></a>
 **5 - How can I get notified of updates regarding future plans for a public sale?**
@@ -311,5 +327,41 @@ The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because thi
 
 While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in a range reflective of the average trend exceeding the current minimum rate, and then maintain a relatively stable price, giving investors a market-driven store of value and a hedge against downside risk.
 
-Investor FAQ video coming soon. 
+<a name="question-003"></a>
+## Frequently Asked Questions - Community  
+
+<a name="question-1"></a>
+**1 - Why is Democracy Earth leaving the Slack platform?**
+
+One thing we learned from using Slack: we need a better tool for community engagement than Slack. As great as Slack could be at answering complex issues with line-by-line specificity, it was never the best place for true knowledge sharing and accumulation. Development is a step-by-step process; now that we've launched our governance platform on the testnet, with the ability to propose, vote, and debate, it only makes sense to move our community development into an open source, decentralized space with governance.
+
+<a name="question-2"></a>
+**2 - Will Democracy Earth delete its Slack account?**
+
+Once we have launched Sovereign on the mainnet and our wiki, we will shut down the account.
+
+<a name="question-3"></a>
+**3 - How can I talk to/reach Democracy Earth team members?**
+
+The best way to reach Democracy Earth team members is on the Democracy Earth Sovereign platform at [testnet.democracyy.earth](https://votest.democracy.earth/). You can keep up-to-date on product development and conference appearances by subscribing to the foundation's Medium publication, [Hacktivisim](https://words.democracy.earth/), or the monthly [newsletter](https://earth.us13.list-manage.com/subscribe?u=301becd69e00afa63c21122f3&id=67746cc019). Interact on [Twitter](https://twitter.com/DemocracyEarth), [Facebook](https://www.facebook.com/DemocracyEarth/), and [Instagram](https://www.instagram.com/democracy.earth/), and for detailed requests, contact us by email hello at democracy dot earth.
+
+<a name="question-4"></a>
+**4 - Will groups on the DEF Slack account still be operational?**
+
+Slack groups on the Democracy Earth Slack account will cease being operational when the DEF account goes offline in the next few months. Some of these groups have already migrated to new homes - subscribe to Canonical Debates Lab team updates on Medium or github, where you can You can read and contribute to their open source [white paper](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fcanonical-debate-lab%2Fpaper%2Fblob%2Fmaster%2FREADME.mediawiki), and follow developments on Twitter [@CanonicalDebate](https://medium.com/r/?url=https%3A%2F%2Ftwitter.com%2FCanonicalDebate).
+
+<a name="question-5"></a>
+**5 - Where can I interact with other Democracy Earth community members?**
+
+We encourage you to join the [testnet[(testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide #communityfeedback to the coding team to guide feature development and prioritization.
+
+<a name="question-6"></a>
+**6 - What is the time frame for Democracy Earth phasing out Slack?**
+
+We plan to be Slack free in the first quarter of 2019.
+
+<a name="question-7"></a>
+**7 - I want to volunteer for Democracy Earth - how do I talk to someone about that?**
+
+Reach out to us at hello at Democracy dot Earth.
 
