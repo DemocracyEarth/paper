@@ -78,19 +78,19 @@
 
 
 ## Section III: Frequently Asked Questions - Community
-[1. Why is Democracy Earth leaving the Slack platform?](#question-1)
+[1. Why is Democracy Earth leaving the Slack platform?](#question-001)
 
-[2. Will Democracy Earth delete its Slack account?](#question-2)
+[2. Will Democracy Earth delete its Slack account?](#question-002)
 
-[3 How can I talk to/reach Democracy Earth team members?](#question-3)
+[3 How can I talk to/reach Democracy Earth team members?](#question-003)
 
-[4. Will subgroups/subchannels on the DEF Slack account still be operational?](#question-4)
+[4. Will subgroups/subchannels on the DEF Slack account still be operational?](#question-004)
 
-[5. If not Slack, then where can I interact with other Democracy Earth community members?](#question-5)
+[5. If not Slack, then where can I interact with other Democracy Earth community members?](#question-005)
 
-[6 What is the time frame for Democracy Earth phasing out Slack?](#question-6)
+[6 What is the time frame for Democracy Earth phasing out Slack?](#question-006)
 
-[7.I want to volunteer for Democracy Earth - how do I talk to someone about that?](#question-7)
+[7.I want to volunteer for Democracy Earth - how do I talk to someone about that?](#question-007)
 
 
 <a name="question-001"></a>
@@ -331,37 +331,37 @@ While we cannot guarantee an appreciation, our expectations are that the vote to
 <a name="question-003"></a>
 ## Frequently Asked Questions - Community  
 
-<a name="question-1"></a>
+<a name="question-001"></a>
 **1 - Why is Democracy Earth leaving the Slack platform?**
 
 One thing we learned from using Slack: we need a better tool for community engagement than Slack. As great as Slack could be at answering complex issues with line-by-line specificity, it was never the best place for true knowledge sharing and accumulation. Development is a step-by-step process; now that we've launched our governance platform on the testnet, with the ability to propose, vote, and debate, it only makes sense to move our community development into an open source, decentralized space with governance.
 
-<a name="question-2"></a>
+<a name="question-002"></a>
 **2 - Will Democracy Earth delete its Slack account?**
 
 Once we have launched Sovereign on the mainnet and our wiki, we will shut down the account.
 
-<a name="question-3"></a>
+<a name="question-003"></a>
 **3 - How can I talk to/reach Democracy Earth team members?**
 
 The best way to reach Democracy Earth team members is on the Democracy Earth Sovereign platform at [testnet.democracyy.earth](https://votest.democracy.earth/). You can keep up-to-date on product development and conference appearances by subscribing to the foundation's Medium publication, [Hacktivisim](https://words.democracy.earth/), or the monthly [newsletter](https://earth.us13.list-manage.com/subscribe?u=301becd69e00afa63c21122f3&id=67746cc019). Interact on [Twitter](https://twitter.com/DemocracyEarth), [Facebook](https://www.facebook.com/DemocracyEarth/), and [Instagram](https://www.instagram.com/democracy.earth/), and for detailed requests, contact us by email hello at democracy dot earth.
 
-<a name="question-4"></a>
+<a name="question-004"></a>
 **4 - Will groups on the DEF Slack account still be operational?**
 
 Slack groups on the Democracy Earth Slack account will cease being operational when the DEF account goes offline in the next few months. Some of these groups have already migrated to new homes - subscribe to Canonical Debates Lab team updates on Medium or github, where you can You can read and contribute to their open source [white paper](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fcanonical-debate-lab%2Fpaper%2Fblob%2Fmaster%2FREADME.mediawiki), and follow developments on Twitter [@CanonicalDebate](https://medium.com/r/?url=https%3A%2F%2Ftwitter.com%2FCanonicalDebate).
 
-<a name="question-5"></a>
+<a name="question-005"></a>
 **5 - Where can I interact with other Democracy Earth community members?**
 
 We encourage you to join the [testnet[(testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide #communityfeedback to the coding team to guide feature development and prioritization.
 
-<a name="question-6"></a>
+<a name="question-006"></a>
 **6 - What is the time frame for Democracy Earth phasing out Slack?**
 
 We plan to be Slack free in the first quarter of 2019.
 
-<a name="question-7"></a>
+<a name="question-007"></a>
 **7 - I want to volunteer for Democracy Earth - how do I talk to someone about that?**
 
 Reach out to us at hello at Democracy dot Earth.
