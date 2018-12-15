@@ -47,7 +47,7 @@
 
 [19. What does "public and private key" refer to?](#question-019)
 
-[20. I signed up for an account at Vote.Democracy.Earth and I want to report a problem, a bug, and/or a new feature suggestion - how do I tell the development team about it? ](#question-020)  
+[20. I signed up for an account at testmet.democracy.earth and I want to report a problem, a bug, and/or a new feature suggestion - how do I tell the development team about it? ](#question-020)  
 
 
 ## Section II: Frequently Asked Questions - Token Sale
