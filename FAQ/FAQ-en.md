@@ -354,7 +354,7 @@ Slack groups on the Democracy Earth Slack account will cease being operational w
 <a name="question-05"></a>
 **5 - Where can I interact with other Democracy Earth community members?**
 
-We encourage you to join the [testnet[(testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide #communityfeedback to the coding team to guide feature development and prioritization.
+We encourage you to sign up for the [testnet](testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide #communityfeedback to the coding team to guide feature development and prioritization.
 
 <a name="question-06"></a>
 **6 - What is the time frame for Democracy Earth phasing out Slack?**
