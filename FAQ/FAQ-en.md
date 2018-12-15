@@ -58,23 +58,21 @@
 
 [4. Why does the pre-sale exclude accredited investors from NY and China?](#question-4)
 
-[5. How can I get whitelisted for the Democracy Earth pre-sale?](#question-5)
+[5. How can I get notified of updates regarding a future public sale?](#question-5)
 
-[6. How can non-accredited investors participate?](#question-6)
+[6. What cryptocurrencies will be accepted?](#question-6)
 
-[7. What cryptocurrencies will be accepted?](#question-7)
+[7. Where can I receive updates?](#question-8)
 
-[8. Where can I receive updates?](#question-8)
+[8. How can I talk to the founders or President?](#question-9)
 
-[9. How can I talk to the founders or President?](#question-9)
+[9. When will I receive my SAFT?](#question-10)
 
-[10. When will I receive my SAFT?](#question-10)
+[10. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
 
-[11. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
+[1a. Is the VOTE token a security?](#question-12)
 
-[12. Is the VOTE token a security?](#question-12)
-
-[13. What will the token sale funds be used for?](#question-13)
+[12. What will the token sale funds be used for?](#question-13)
 
 <a name="question-001"></a>
 ## Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
@@ -203,7 +201,7 @@ Want to report a bug or problem?  You can create a post on the Sovereign testnet
 <a name="question-1"></a>
 **1 - When is the Democracy Earth token sale?**
 
-The Democracy Earth token sale is targeted for 4Q 2018. The pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will will be open to global purchasers with no accreditation requirement. 
+The Democracy Earth token pre-sale is currentl ongoing; the pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will not be announced until after SEC regulatory guidance is issued, after February 2018. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
@@ -239,41 +237,34 @@ Once the token is issued, it must be subjected to the[“Howey Test”](http://c
 In order to comply with SEC regulations only accredited investors may participate in the pre-sale, and only in jurisdictions the SEC does not ban. Click [here](https://coinlist.co/help/what-is-an-accredited-investor) to see CoinList criteria for accreditation verification. Chinese regulatory authorities prohibit Chinese citizens and companies from participating in ICOs. 
 
 <a name="question-5"></a>
-**5 - How can I get whitelisted for the Democracy Earth public sale?**
+**5 - How can I get notified of updates regarding future plans for a public sale?**
 
-Register at our website: https://www.token.democracy.earth/.
+Sign up for notifications at our [token website:](https://www.token.democracy.earth/)
 
 <a name="question-6"></a>
-**6 - How can non-accredited investors participate?**
-
-Non-accredited investors can participate in our public token sale.
-
-<a name="question-7"></a>
-**7 - What cryptocurrencies will be accepted in the Democracy Earth ICO?**
+**6 - What cryptocurrencies will be accepted in the Democracy Earth token pre-sale?**
 
 For the pre-sale (closed when 50M [token allotment](token.democracy.earth) purchased): BTC // BCH // ETH .  Wire transfers are also acceptable.  
 
-For the public sale: BTC // BCH // ETH // XRP // LTC // XMR // ZEC .
-
-<a name="question-8"></a>
-**8 - Where can I receive updates?**
+<a name="question-7"></a>
+**7 - Where can I receive updates?**
 
 Updates will be communicated via [Telegram](https://t.me/democracyearthico) and via the Democracy Earth newsletter, which you can subscribe to [here](democracy.earth).
 
+<a name="question-8"></a>
+**8 - How can I talk to the founders about my questions regarding Democracy Earth and the token sale?**
+
+Reach out directly to the co-founders or the DEF Treasurer on the DEF [Telegram channel](https://t.me/democracyearthico), or request a meeting through hello at democracy dot earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth [Facebook Page](https://www.facebook.com/DemocracyEarth/).
+
 <a name="question-9"></a>
-**9 - How can I talk to the founders about my questions regarding Democracy Earth and the token sale?**
-
-Reach out directly to the co-founders or the DEF Treasurer on the DEF [Telegram channel](https://t.me/democracyearthico), or request a meeting through hello@democracy.earth. Stay up to date on Democracy Earth Meetups and appearances on the official Democracy Earth [Facebook Page](https://www.facebook.com/DemocracyEarth/).
-
-<a name="question-10"></a>
-**10 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
+**9 - When will I receive my SAFT (Simple Agreement for Future Tokens)?**
 
 A personal link to an executable SAFT (Simple Agreement for Future Tokens) will be sent to you by e-mail upon your registration for purchase and affirmation of accreditation on our website: https://token.democracy.earth.  Notify a DEF admin on [the Democracyc Earth Telegram channel](https://t.me/democracyearthico) if you do not receive your SAFT. A review copy of the SAFT can be found [here](https://www.dropbox.com/s/cs5qbcmkxf3a5ge/SAFT%20-%20Democracy%20Earth%20Foundation.pdf?dl=0).  
 
 Purchasers will receive a countersigned SAFT from Democracy Earth only after accreditation verification - you may be contacted by [CoinList](https://complyapi.coinlist.co/democracy-earth) as part of this process. 
 
-<a name="question-11"></a>
-**11 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
+<a name="question-10"></a>
+**10 - How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?**
 
 Votes are crypto assets in the same way paper ballots are assets - an instrument of counting votes within a system maintained by the public. Attaching value to a vote is not new: voting has always cost money, at both the individual and the institutional level. From the act of casting a vote to the process of structuring a democracy, voting is a right exercisable only through the administration of a system of services (including design, production, distribution, collection, tabulation, analysis and storage), that must be paid for. These costs are understood by citizens less explicitly than implicitly: historically, with analogue voting systems this payment has been made indirectly through coercive taxation. 
  
@@ -281,8 +272,8 @@ The *vote* token offers an alternative to an historically inequitable connection
 
 Finally, it is true that under certain organizational configurations one might have more decision-making power than others by owning more votes. Sovereign software is elastic in the sense that it allows for different organizational configurations that can serve a democracy. If the intent is to allow each member to cast one vote per decision, the organization can establish that, in the same way that it can establish a system more similar to our legacy where the richest have more influence. *The key difference is that, unlike legacy systems, within Sovereign there are no coercion mechanisms forcing citizens to participate in any specific organization, especially one that they deem unfair.* And by distributing a Universal Basic Income of tokens with the Equality mechanism, citizens are not only uncoerced but also have an equitable political and economical starting point - what we see as a fundamental building block for a healthy democracy.
 
-<a name="question-12"></a>
-**12. Is the *vote* token a security?**
+<a name="question-11"></a>
+**11. Is the *vote* token a security?**
 
 No, the *vote* token is not a security. The *vote* token is an asset. What is the difference? To begin with, a security, by definition is an asset, but not all assets are necessarily a security. 
  
@@ -294,13 +285,13 @@ Tokens are assets, yet they can be securities if they represent an ownership in 
 
 During the token pre-sale i.e. before the token is issued, Democracy Earth is utlizing an industry standard Simple Agreement for Future Tokens (SAFT) which IS a security.  In order to comply with SEC regulations we can only sell this security to accredited investors, and only in jurisdictions the SEC does not ban (China and New York). 
 
-<a name="question-13"></a>
-**13. What will the token sale funds be used for?**
+<a name="question-12"></a>
+**12. What will the token sale funds be used for?**
 
 Funds will be used for platform development and to cover day-to-day operational expenses of the Democracy Earth Foundation. We have a small dedicated team focused full-time on building what is envisioned in the whitepaper and outlined in the [Democracy Earth short term development roadmap](https://www.dropbox.com/s/3hbe1ssdpg22je6/DEF-roadmap.pdf?dl=0). 
 
-<a name="question-14"></a>
-**14. Why is the vote token a 'utility token'?  Why not a 'security token'?**
+<a name="question-13"></a>
+**13. Why is the vote token a 'utility token'?  Why not a 'security token'?**
 
 The vote token is a utility token, specifically designed to have the utility of voting and delegating (decision-making);  By ‘staking’ a vote token, the owner is utilizing the token to signal their position on a decision/election.
 
@@ -309,8 +300,8 @@ Security tokens provide the investor with an investment vehicle more in line wit
 Because the utility of the vote token aligns with the Foundation’s charitable cause (of removing corruption from public elections), we are advised the sale and transactions of the *vote* token could be be tax-free, resulting in a better economic operating environment relative to for-profit entities. [*per the Foundation's tax advisors]
 
 
-<a name="question-15"></a>
-**15. Where does the Democracy Earth *vote* token get its value?**
+<a name="question-14"></a>
+**14. Where does the Democracy Earth *vote* token get its value?**
 
 The Democracy Earth Foundation vote token value is inextricably tied to the value of time - the value of which will be determined by an open and global market.  
 
