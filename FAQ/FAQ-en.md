@@ -208,11 +208,11 @@ Decentralized identifiers are intended for a verifiable digital identity that is
 Public and private keys are generated as a cryptographic pair that works together, meaning that a message encrypted with the public key can only be decrypted with it's correspondent private key and vice-versa. This method is utilized to safely transmit messages, create crypto wallets, DIDs, etc.  
 
 <a name="question-020"></a>
-**20 - How do I report a problem, a bug, and/or a new feature suggestion for the web-based Sovereign alpha product at [Vote.Democracy.Earth](https://vote.democracy.earth/)?**
+**20 - How do I report a problem, a bug, and/or a new feature suggestion for the web-based Sovereign beta product at [testnet.democracy.earth](https://testnet.democracy.earth/)?**
 
-You can report it right in the [Vote.Democracy.Earth feed] - [here](https://vote.democracy.earth/vote/hello-citizens-help-us-prioritize-the-next-features-we-should-add-to-the-democracy-earth-platform-just-click-vote-to-get-started-at-any-time-click-debate-to-add-your-own-feature-ideas-to-the-list-well-be-looking-to-identify-the-most-universal-features-able-to-serve-multiple-use-cases-0xfz) is a place to prioritize/rate the importance of new features, or even add your own suggestions. 
+You can report any problems or bugs or feature suggestions right in the testnet.Democracy.Earth feed using the #communityfeedback hashtag. 
 
-Want to report a bug or problem?  You can create a post on the Sovereign testnet, a developer will engage with you; or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) will show you the steps. 
+Or, go to the Democracy Earth repo in github and submit an issue there - this [short video](https://www.youtube.com/edit?o=U&video_id=jcx6wN8neAM) will show you the steps. 
 
 <a name="question-002"></a>
 ## Frequently Asked Questions - Token Sale
@@ -347,14 +347,14 @@ Once we have launched Sovereign on the mainnet and our wiki, we will shut down t
 The best way to reach Democracy Earth team members is on the Democracy Earth Sovereign platform at [testnet.democracyy.earth](https://votest.democracy.earth/). You can keep up-to-date on product development and conference appearances by subscribing to the foundation's Medium publication, [Hacktivisim](https://words.democracy.earth/), or the monthly [newsletter](https://earth.us13.list-manage.com/subscribe?u=301becd69e00afa63c21122f3&id=67746cc019). Interact on [Twitter](https://twitter.com/DemocracyEarth), [Facebook](https://www.facebook.com/DemocracyEarth/), and [Instagram](https://www.instagram.com/democracy.earth/), and for detailed requests, contact us by email hello at democracy dot earth.
 
 <a name="question-04"></a>
-**4 - Will groups on the DEF Slack account still be operational?**
+**4 - Will groups on the Democracy Earth Slack account still be operational?**
 
 Slack groups on the Democracy Earth Slack account will cease being operational when the DEF account goes offline in the next few months. Some of these groups have already migrated to new homes - subscribe to Canonical Debates Lab team updates on Medium or github, where you can You can read and contribute to their open source [white paper](https://medium.com/r/?url=https%3A%2F%2Fgithub.com%2Fcanonical-debate-lab%2Fpaper%2Fblob%2Fmaster%2FREADME.mediawiki), and follow developments on Twitter [@CanonicalDebate](https://medium.com/r/?url=https%3A%2F%2Ftwitter.com%2FCanonicalDebate).
 
 <a name="question-05"></a>
 **5 - Where can I interact with other Democracy Earth community members?**
 
-We encourage you to sign up for the [testnet](testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide #communityfeedback to the coding team to guide feature development and prioritization.
+We encourage you to sign up for the [testnet](testnet.democracy.earth) (for a step by step guide please see our post, complete with step-by-step tutorials, on [Medium)](https://words.democracy.earth/testnet-democracy-earth-is-live-129fd68d27f0). On Sovereign, use #hashtags to create common threads for conversation with those who share your interest (e.g. see ["#YellowJackets](https://votest.democracy.earth/2018/12/11/yellowjackets-to-summarise-th-vh2q) and provide community feedback to the coding team to guide feature development and prioritization, using the #communityfeedback hashtag.
 
 <a name="question-06"></a>
 **6 - What is the time frame for Democracy Earth phasing out Slack?**
