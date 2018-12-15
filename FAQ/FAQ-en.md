@@ -4,6 +4,8 @@
 
 [Section II](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-ii-frequently-asked-questions---token-sale): FAQs: Democracy Earth Token Sale
 
+[Section III](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-1-frequently-asked-questions---community) FAQs: Democracy Earth Commmunity  
+
 
 
 ## Section 1: Frequently Asked Questions - [The Social Smart Contract](https://github.com/DemocracyEarth/paper/blob/master/The%20Social%20Smart%20Contract.pdf)
@@ -11,7 +13,7 @@
 
 [2. How can I contribute to the DEF white paper?](#question-002)
 
-[3. How is an Intial Rights Offering different from an Initial Coin Offering?](#question-003)
+[3. What is an Intial Rights Offering?](#question-003)
 
 [4. What is "liquid democracy"?](#question-004)
 
@@ -90,7 +92,7 @@ We are utilizing  Github as it does a great job at documenting the entire proces
 <a name="question-003"></a>
 **3 - How is an Intial Rights Offering different from an Initial Coin Offering?**
 
-Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In addition to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through an Initial Coin Offering. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
+Our token _Vote_ will be granted as a right to every human being by means of a Universal Basic Income, and it will have decision making as its primary function. In addition to that it will be possible to access the _vote_ token through a financial mechanism and use it as an asset like any other crypto holding released through a token sale. The funds will be directed towards the construction of a  transnational network that will act in accordance to the personal sovereignty of its members and protect their human rights with encryption.
 
 <a name="question-004"></a>
 **4 - What is "liquid democracy"?**
