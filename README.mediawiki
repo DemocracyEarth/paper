@@ -430,8 +430,8 @@ In order to enable the information processing of ''votes'', ballots carry boolea
 
 Finally, counting methods for the final or ongoing result of a decision within an organization.
 
-* <code>Plurality</code>: Simple majority wins decision.
-* <code>Majority</code> A minimum percentage is required for winning decision.
+* <code>Plurality</code>: A simple majority wins a decision.
+* <code>Majority</code> A minimum percentage is required for a winning decision.
 * [https://en.wikipedia.org/wiki/D%27Hondt_method <code>DHont</code>]: Widely used by Nation-State elections based on member lists.
 * [https://en.wikipedia.org/wiki/Schulze_method <code>Schulze</code>]: Commonly used by open source communities and Pirate Parties using ranked choice ballots.
 * [http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf <code>PageRank</code>]: Counts votes weighting voter reputation in a graph.
