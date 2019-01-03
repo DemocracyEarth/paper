@@ -530,7 +530,7 @@ Words define political ideas. The social narrative built by the art of politics 
 
 ----
 
-All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth allocates ''votes'' to its members on the blockchain as a decentralized entity. For this reason, we detail on [[#Execution|Section 3]] a rollout plan for ''votes'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
+All of these strategies attack the core of how a decentralized organization institutionalizes itself. In other words: define the risks on how Democracy Earth allocates ''votes'' to its members on the blockchain as a decentralized entity. For this reason, we detail in [[#Execution|Section 3]] a rollout plan for ''votes'' that raises strong defenses against these kind of attacks and paves the way for a global democracy.
 
 <div id="Execution"></div>
 
