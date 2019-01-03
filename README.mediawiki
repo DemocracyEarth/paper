@@ -817,7 +817,7 @@ A simple comparison shows the strict limitations electoral votes have in compari
 * '''Limited Utility''': Once a citizen casts a vote during an election, it cannot be modified until 4 to 6 years later when the elected positions get renovated. Only those among the elected positions (i.e. senators and congressmen) get the right to spend more votes than the rest of the citizens.
 * '''Reduced Bandwidth''': Citizens get to choose from a handful of options only once every 2 or 4 years. If we consider each option as a bit on the system then traditional elections can be regarded as ''8 bit democracies'', such is the current bandwidth for participation under most governments.
 
-In order to maintain the reference price set at the minimum wage in the US while being able to be at least ~10X more efficient than any traditional election, ''vote'' utility must be extended by making the token divisible.
+In order to maintain the reference price set at the minimum wage in the US while being able to be at least ~10X more efficiently than any traditional election, the ''vote'' utility must be extended by making the token divisible.
 
 ====3.4.4 Divisibility====
 
