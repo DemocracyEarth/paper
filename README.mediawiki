@@ -811,7 +811,7 @@ From a Nation-State perspective, a useful reference can be found in the cost for
 
 According to Facebook's seed investor Peter Thiel, a rule of thumb for technological innovation is that in order to beat a precedent paradigm, an innovation must outperform the task of the previous way of doing things [http://zerotoonebook.com/ by at least a factor of 10] in terms of cost and utility. For example: the digital word processor became successful because it does what a typewriter did in a way that can be considered at least ten times better and ten times cheaper. The same applies to fax in contrast to the postal service; and e-mail in contrast to fax. Hence the transition from traditional voting to a new standard of blockchain based voting should work on the same basis.
 
-A simple comparison shows the strict limitations electoral votes have in comparison with the ''vote'' token proposed on this paper:
+A simple comparison shows the strict limitations electoral votes have in comparison with the ''vote'' token proposed in this paper:
 
 * '''Expensive Security''': Nation-States' ''Proof of Identity'' demands several resources to identify citizens during many stages of their life. Birth certificates, passports, driver's license, national ID cards, social security, wedding certificates, death certificates are all aimed at keeping the public record of citizens up to date. This is the leading function of the State and it can lead to persecutory behaviour.
 * '''Limited Utility''': Once a citizen casts a vote during an election, it cannot be modified until 4 to 6 years later when the elected positions get renovated. Only those among the elected positions (i.e. senators and congressmen) get the right to spend more votes than the rest of the citizens.
