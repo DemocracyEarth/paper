@@ -4,7 +4,7 @@
 
 [Section II](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-ii-frequently-asked-questions---token-sale): FAQs: Democracy Earth Token Sale
 
-[Section III](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-iii-frequently-asked-questions---community) FAQs: Democracy Earth Commmunity  
+[Section III](https://github.com/DemocracyEarth/paper/blob/master/FAQ/FAQ-en.md#section-iii-frequently-asked-questions---community) FAQs: Democracy Earth Community  
 
 
 
