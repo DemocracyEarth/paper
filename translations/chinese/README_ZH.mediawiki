@@ -1,0 +1,82 @@
+<pre>
+  DEF: 1
+  Title: The Social Smart Contract
+  Author: @DemocracyEarth.
+  Comments-Summary: No comments yet.
+  Status: Active
+  Type: Paper
+  Created: 2017-07-14
+  License: MIT
+  Replaces: 0
+</pre>
+
+=== 2.4 首次測試 ===
+
+<blockquote>
+  區塊鏈可以革新投票制度，就像它革新貨幣一樣，帶來的改變亦適用於所有的民主政體。
+</blockquote>
+[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf '''The Organization for Economic Cooperation and Development'''], Embracing innovation in government: global trends (2016).
+
+2016年10月, 哥倫比亞人就公投是否接受「左翼叛軍哥倫比亞革命武裝力量」（FARC）的停火協議，投下了舉世為之錯愕的「否定」一票。 隨後，Democracy Earth 在 [http://plebiscitodigital.co/ digital plebiscite] 上，利用 Sovereign 這個流動式民主平台，為為數達六百萬海外哥倫比亞人進行了一次模擬投票。和傳統的投票不同的是，Soverign不僅提供「贊成」與「反對」等的二元選選項，它容許投票者就和約中的七個獨立的議題表態投票，亦可將自己的投票權「委託」給他認為比自己更有知識的選民。這樣就令到投票的結果更有意思，令人知道和議中那些部分是選民最不能接受 [https://words.democracy.earth/a-digital-referendum-for-colombias-diaspora-aeef071ec014 deal breaker that emerged]: 大部份選民都不接受和約中有關容許FARC參與政治的條款。
+
+[[File:/images/colombia-use-case.png|哥倫比亞公投案例的數據..]]
+
+這個模擬投票亦帶來了[https://www.oecd.org/gov/innovative-government/embracing-innovation-in-government-colombia.pdf 額外的影響]，就是哥倫比亞的媒體和政治團體對以區塊鏈為中心，去中央化流動式民主開始予以重視：例如一個號稱以區塊鏈技術作出決策政黨，「Partido de la Red Colombia party (“The Net Party”)」誕生了。另外，哥倫比亞政府的 Centre for Digital Public Innovation (CDPI) 亦開始投放資源研究區塊鏈的應用。
+
+===2.5 聰明合約 ===
+
+當 Claude Shannon 在1948年寫下這篇[http://math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf 訊息學的奠基文章]時，他論證了電路廻路如何利用「0」和「1」(<code>true</code> 或 <code>false</code> 狀態).去進行邏輯運算。從此之後，數碼技術的觀念塑造了幾乎所有的訊息系統。基於這些研究成果和區塊鏈技術，我們就能建立出高效並「以個人為主權個體去進行投票」的共識平台。在電腦中，流動的資訊是以「0」和「1」來記錄，同樣地我們也可以在聰明合約中以<code>true</code> 或 <code>false</code> 狀態來記錄「投票」（''votes''）訊息。
+
+''選票''代幣是由一系列運作於特定「機構」<code>Organizations</code>, 成「會員」<code>Members</code>, 「議題」<code>Issues</code>, 「選票」<code>Ballots</code> and 預算<code>Budgets</code>的合約所組成，而這些合約就成為一個「管治廻路」的元件，在不同規模的組織中，建立流動式民主決策機制。
+
+[[File:/images/vote-liquid-democracy-smart-contracts.png|VOTE Liquid Democracy smart contracts..]]
+
+====2.5.1 「機構」<code>Organizations</code>====
+
+任何架設了 Sovereign 系統的機構和組織皆稱之為<code>機構</code>。<code>機構</code>負責界定誰有資格成為<code>會員</code>去參與決策，並且派發''選票''代幣。因為<code>機構</code>需要建立在分散式網絡之上，所以建立一個能架設 Sovereign 系統的機構並且使用''選票''，方法會建立一個網站將頗為相似：
+
+* 「網域」<code>Domain</code>: 每個機構都必須有自己的域名（如在HTTP上的''democracy.earth''）。有些機構甚至應該有運作Top Level Domain的域名（如 ''.earth''）。這域名將會被視為該機構在公開的網絡中的名稱，不論是傳統HTTP互聯網，還是支援分散式域名（decentralized domain）的新興網絡如[https://blockstack.org Blockstack]。這個安排對於建立語意層（Semantic layer）和其上的「議題」<code>Issues</code>是十分重要的，因為這可以避免惡意投票者利用議題的名稱製造混亂（詳情請參考 2.5.4. 有關 '惡意佔據'部分）。域名亦有助議題<code>Issues</code>和使授權合約的範圍更清𥇦。
+
+* 「約章」<code>Constitution</code>： 每個機構都會有約章''Constitution''，作為該機構訂立聰明合約的基本規則。而「約章聰明合約」''Constitutional smart contract'' 就描述了建立會員<code>Members</code>，議題<code>Issues</code>和''選票'' 的準則，並相互之關的關係。
+
+=====2.5.1.1 「約章」<code>Constitution</code>=====
+
+''約章聰明合約'' 定義了「選票」將會如何分配給會員。選票分配的條件是由機構按其投票的目的而制定的：有時候可能是按財政上的持份比例而分配（如公司股東將會按其擁有的股票數目獲得''選票''），有時候則按照平等原則平均分配給所有會員（例如所有納稅人都獲得相等的''選票''）。
+
+約章的基本設定有：
+
+* 「簡介」''Bio''： 有關該機構的基礎描述，如名稱，網址，地址，管轄權（如適用）
+
+* 「資金」''Funding''：機構擁有的''選票''代幣總數，和將會如何分配給每個會員和提供存取預算<code>Budgets</code>的權限。
+
+* 「入會要求」''Membership''：成為會員的入會要求。這部分可用以定義加入投票名冊的要求，從而確保了投票過程的公正性。
+
+** 「公開」'''Open'''：所有人都可以自由加入機構
+** 「表決加入」'''Voted'''：由現有會員投票並得到特定百分比支持而加入。
+** 「付費加入」'''Fee'''：新會員以付費形式加入
+
+* 「內容」'''Content'''：定義誰有權為機構加人新議題<code>Issues</code>。
+** 「公開」'''Open'''：所有人（不論是否為會員）皆可以為機構張貼議題<code>Issues</code>。
+** 「會員」'''Members'''：只有特定會員可以張貼議題<code>Issues</code>。
+** 「特別會員」'''Special Members'''：只有符合特定條件的會員（例如得到某比例的授權票，或者得到某些有特別標示的選票''votes''）才可以張貼議題<code>Issues</code>。
+
+
+* 「調解」'''Moderation'''：描述製作機構內部守則的規則
+
+** 「懲處」'''Ban'''：描述一個會員需要在特定時間內得到多少的反對票''downvotes''，機構才會對個別會員作出何種懲罰
+** 「取消資格」'''Expulsion'''：假如機構取得「會員投票確認」，指該會員的身分已被冒充或不適合成為會員，機構可以取消其會員資格。這個步驟需要得到最少某百分比會員支持才能執行。
+
+* 「投票」'''Voting'''：投票將會按機構發出的有效「選票」<code>Ballots</code>，以特定原則執行表決，如二次投票''quadratic voting''。
+
+* 「改革」'''Reform'''：描述更改約章的要求（例如需要達到某種比例的大多數會員支持票）
+
+當範例約章愈多，不同的機構便更易建立其投票系統。Democracy Earth Foundation 會賦予協助，並夥拍[https://aragon.one/ Aragon]提供網上認證服務令分散式機構變得更有效率。Soverign 將會建立更多範本予不同機構如公司、政黨、商會、會所和合作社等。然後，Aragon 網絡將會確保即使該機構遭遇到個人或濫權政府的惡意攻擊，仍然能正常運作。
+
+====2.5.2 「會員」<code>Members</code>====
+
+每個機構當中都應該有會員能夠為該機構決定投票決策。制定入會要求的「約章聰明合約」''constitutional smart contract''，是實現會內民主的關鍵要素，因為一個經常被用作操縱投票結果的方法，就是操縱投票名冊。所以，保障入會機制能正確實行是十分重要的。
+
+
+
+
+
