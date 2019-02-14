@@ -222,9 +222,9 @@ Or, go to the Democracy Earth repo in github and submit an issue there - this [s
 ## Frequently Asked Questions - Token Sale
 
 <a name="question-1"></a>
-**1 - When is the Democracy Earth token private sale?**
+**1 - When is the Democracy Earth private token sale?**
 
-The Democracy Earth token private sale is currentl ongoing; the sale will stay open until the cap is reached. The private sale is open to global accredited investors only, excluding NY and China. 
+The Democracy Earth private token sale is currently ongoing; the sale will stay open until the cap is reached. The private sale is open to global accredited investors only, excluding NY and China. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
