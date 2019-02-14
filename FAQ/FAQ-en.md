@@ -64,17 +64,23 @@
 
 [6. What cryptocurrencies will be accepted?](#question-6)
 
-[7. Where can I receive updates?](#question-8)
+[7. Where can I receive updates?](#question-7)
 
-[8. How can I talk to the founders or President?](#question-9)
+[8. How can I talk to the founders or President?](#question-8)
 
-[9. When will I receive my SAFT?](#question-10)
+[9. When will I receive my SAFT?](#question-9)
 
-[10. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-11)
+[10. How can _votes_ be crypto assets? Doesn’t that empower the rich to have more impact over decision-making processes?](#question-10)
 
-[11. Is the VOTE token a security?](#question-12)
+[11. Is the VOTE token a security?](#question-11)
 
-[12. What will the token sale funds be used for?](#question-13)
+[12. What will the token sale funds be used for?](#question-12)
+
+[13. Why is the *vote* token a utilty token?](#question-13)
+
+[14. Where does the Democracy Earth *vote* token get its value?](question-14)
+
+[15. I bought tokens in the pre-sale with a 12 month lockup - when will I get my tokens?](#question-15)
 
 
 ## Section III: Frequently Asked Questions - Community
@@ -218,9 +224,9 @@ Or, go to the Democracy Earth repo in github and submit an issue there - this [s
 ## Frequently Asked Questions - Token Sale
 
 <a name="question-1"></a>
-**1 - When is the Democracy Earth token sale?**
+**1 - When is the Democracy Earth token private sale?**
 
-The Democracy Earth token pre-sale is currentl ongoing; the pre-sale will stay open until the pre-sale cap is reached. The pre-sale is open to global accredited investors only, excluding NY and China. The public token sale will not be announced until after SEC regulatory guidance is issued, after February 2018. 
+The Democracy Earth token private sale is currentl ongoing; the sale will stay open until the cap is reached. The private sale is open to global accredited investors only, excluding NY and China. 
 
 <a name="question-2"></a>
 **2 - What is an accredited investor?**
@@ -242,9 +248,9 @@ In this context, a sophisticated person means the person must have, or the compa
 You can find more information regarding the definition of an accredited investor [here.](https://www.sec.gov/files/ib_accreditedinvestors.pdf)
 
 <a name="question-3"></a>
-**3 - Why is the pre-sale limited to accredited investors?**
+**3 - Why is the private sale limited to accredited investors?**
 
-Our pre-sale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various price levels, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited investors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
+Our ale is a [US SEC](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)-regulated, Regulation D, Rule 506(b) security offering. We are offering (at various price levels, based on lockup) the *right* to tokens that will be available in the Democracy Earth public sale. Under this regulation, only accredited investors, [as defined by the SEC](https://www.sec.gov/files/ib_accreditedinvestors.pdf), are allowed to participate in the pre-sale. Democracy Earth partners with [CoinList](https://coinlist.co/help/what-is-an-accredited-investor) for investor accreditation verification for pre-sale participation. 
 
 Investors can verify their accreditation status for the Demcoracy Earth pre-sale online at the [Democracy Earth CoinList portal.](https://complyapi.coinlist.co/democracy-earth).
 
@@ -327,6 +333,11 @@ The Democracy Earth Foundation vote token value is inextricably tied to the valu
 The U.S. ‘minimum wage’ is $7.25 per hour, or $0.12 per minute.  Because this currently represents the ‘low bar’ for the value of people’s time (already three US states have raised the minimum wage to $15.00 per hour, and 29 states have a minimum wage greater than $7.25), the Foundation has set this at the initial offering price of the vote token, along with pre-sale pricing, depending on lockup choice: $0.10 for no lockup; $0.08 for 6 month lockup; $0.06 for a 12-month lockup.  This pricing gives investors a natural return ranging from 20% to 100% when compared to the public price.  
 
 While we cannot guarantee an appreciation, our expectations are that the vote token will ‘settle’ in a range reflective of the average trend exceeding the current minimum rate, and then maintain a relatively stable price, giving investors a market-driven store of value and a hedge against downside risk.
+
+<a name="question-15"></a>
+**15. I bought tokens in the pre-sale with a 12 month lockup - when will I get my tokens?**
+
+Once the Democracy Earth Sovereign platform launches on the mainnet, the lockup period starts. If the Sovereign platform launches on the mainnet on March 1, 2019 as planned, an investor who has purchased tokens with a 12-moth lockup in the private sale will receive their tokens 12 months from the date of March 1, 2019. 
 
 <a name="question-003"></a>
 ## Frequently Asked Questions - Community  
