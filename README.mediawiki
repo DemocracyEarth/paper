@@ -749,15 +749,15 @@ So every valid POI gets granted a total of:
 
 Therefore by taking into account the following variables:
 
-* T = Present block height (i.e. current Time).
+* T(B_present) = a function that returns the timestamp of the latest block (i.e. roughly not more than 10 minutes before the current Time).
 * r = A constant for ''vote'' allocation rate, set at 1 vote every 250 blocks in time.
-* Pᵢ = The ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
+* T(B_Pᵢ) = a function that returns the timestamp of the ''Proof of Identity'' block containing its corresponding hash for a given identity (i).
 * Sᵢ = ''Singularity score'' expressed as a <code>true</code> or <code>false</code> state for a given identity (i).
 * Vᵢ = Total quantity of ''votes'' for a given identity (i).
 
 Then the ''votes'' a self-sovereign identity is allowed to use in the system can be calculated on any node running a smart contract with the formula:
 
-[[File:/images/ubi-vote-formula.png|Vᵢ = ((T - Pᵢ) / r) * Sᵢ]]
+[[File:/images/ubi-vote-formula.png|Vᵢ = ((T(B_present) - T(B_Pᵢ)) / r) * Sᵢ]]
 
 As long as the ''Proof of Identity'' has been validated by the community and a smart contract is synced with an active blockchain node, then the value of Vᵢ will either be a number that defines the total amount of ''votes'' a self-sovereign has as a right to use on a hosted wallet or, if the POI is rejected (i.e. Sᵢ = <code>false</code>), then the participant's available votes becomes zero.
 
@@ -769,7 +769,7 @@ The described dripping dynamic ends up benefitting early-adopters as it is often
 
 We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' that gets approved by the network. With this information the next validated identity won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than the first participant in the network currently has. Since this rule applies to every participant it will guarantee ''Equality'' in terms of participation letting everyone have the same amount of Sovereign ''votes'' than everyone else, extending the UBI formula as follows:
 
-[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((T - Pᵢ) / r)) * Sᵢ]]
+[[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((B_present) - T(B_Pᵢ)) / r)) * Sᵢ]]
 
 With the ''Equality'' variable, if a second participant Bob got validated 1500 blocks after a first one Alice, he won't begin with 0 ''votes'' but rather get an initial amount matching Alice's current balance at that moment (i.e. at a rate of 1 ''vote'' per 250 blocks, it is a total of 6 ''votes''). Bob will continue to get ''votes'' dripped on equal terms with Alice block after block after that. If a third participant Charlie generates a valid ''Proof of Identity'' 1000 blocks later, he will begin with the equivalent amount of ''votes'' that Alice and Bob each currently have by then as well (i.e. a total of 10 ''votes'' each). With this inflation process that rewards every new participant (diluting all pre-existing ones), everyone is guaranteed an ''equal'' share in the overall participating rights of the network. As long as ''replicants'' get successfully banned, the ''vote'' network is a genuinely democratic global commons.
 
