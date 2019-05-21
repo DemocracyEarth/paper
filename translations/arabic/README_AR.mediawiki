@@ -10,14 +10,25 @@
   Replaces: 0
 </pre>
 
-=The Social Smart Contract.=
-An Initial Rights Offering from [http://democracy.earth Democracy Earth Foundation].
+=العقد الإجتماعي الذكي.=
+عرض حقوق مبدئي من [https://democracy.earth مؤسسة ديموكراسي إيرث].
 
-==i. Abstract.==
+==i. نبذة مختصرة.==
 
-In a world that has succeeded in the globalization of financial assets while keeping political rights enclosed to territories, we need to build new models of democratic governance that enable humanity to collaborate and address pressing global issues. Democracy Earth Foundation is building free, open source software for incorruptible blockchain-based voting within institutions of all sizes, from the most local involving two people to the most global involving all of us. Uneven distribution of opportunity around the globe due to the perpetual confrontation between national governments has led to accelerated climate change, rising inequality, terrorism and forced migrations.  Democracy Earth Foundation considers that the technology stack that includes Bitcoin as programmable money without Central Banks, and Ethereum enabling smart contracts without the need of Judiciary Courts, requires a new layer that signals incorruptible votes beyond the territorial boundaries of Nation-States. This transnational network will act in accordance with the personal sovereignty of its members and protect their human rights with encryption. In our Initial Rights Offering we offer a token called ''vote'' that will grant participation rights to every human with decision making as its main function. Our proposal introduces cryptographically induced equality: as long as any person is able to validate his or her self-sovereign identity, they will receive a corresponding share of ''votes'' that is equal to the share of every active participant in the network. We define a ''Proof of Identity'' process that avoids central authority by introducing the concept of ''attention mining'' which incentivizes participants to strengthen the trust of ''votes'' by performing simple tests aimed at detecting replicants. Finally ''votes'' get dripped to valid participants under a ''Universal Basic Income'' mechanism with a goal of finding a proper equilibrium in the historical tension between money and politics. We seek nothing less than true democratic governance for the Internet age, one of the foundational building blocks of an achievable global peace and prosperity arising from an arc of technological innovations that will change what it means to be human on Earth.
+في عالم نجح في عولمة الأصول المالية مع الإبقاء على الحقوق السياسية منغلقة على الحدود الإقليمية، نحتاج إلى بناء نماذج جديدة للحكم الديمقراطي تُمّكن البشرية من التعاون ومعالجة القضايا العالمية المُلحة. مؤسسة ديموكراسي إيرث تقوم ببناء برمجيات حرة ومفتوحة المصدر للتصويت غير القابل للإفساد المستند إلى تقنية سلسلة الكتل، وذلك داخل المؤسسات من جميع الأحجام؛ من أكثرها محلية: التي ينخرط فيها شخصين، إلى أكثرها عالمية والتي تشملنا جميعاً. إن التوزيع غير المتكافيء  للفرص حول العالم نتيجة للمواجهة الدائمة بين الحكومات الوطنية قد أدى إلى تسارع وتيرة تغيرالمناخ، وزيادة معدلات إنعدام المساواة والإرهاب، والهجرة القسرية.
 
-==ii. Contents.==
+مؤسسة ديموكراسي إيرث تعتبر أن الحزمة التكنولوجية - التي تشمل بيتكوين، كأموال قابلة للبرمجة بدون بنوك مركزية،و إيثريوم الذي يُمكن العقود الذكية دون الحاجة إلى المحاكم القضائية - تتطلب طبقة جديدة تقوم بإرسال الأصوات غير القابلة للإفساد لتتجاوز الحدود الإقليمية للدول القومية.
+إن هذه الشبكة العابرة للحدود الوطنية سوف تتصرف تبعاً للسيادة الشخصية لأعضائها وستحمي حقوقهم الإنسانية عبر التشفير.
+
+في عرض الحقوق المبدئي الخاص بنا: نقوم بتقديم رمز مميز يسمى صوت وهو الذي يمنح حقوق المشاركة لكل إنسان بالإضافة إلى صناعة القرار كمهمته الرئيسية.
+يقدم مقترحنا المساواة المُنفّذة عبر التشفير: طالما أن أي شخص قادر على تأكيد الهوية السيادية الخاصة به/بها، فإن سيحصل على حصة مقابلة من الأصوات تساوي حصة كل مشارك نشط في الشبكة.
+نعّرف عملية إثبات الهوية التي تتجنب السلطة المركزية عبر إدخال مفهوم  تنقيب الإهتمام، الذي يحفّز المشاركين على تعزيز الثقة في الأصوات من خلال إجراء إختبارات بسيطة تهدف إلى إكتشاف الأصوات المزيفة. وأخيراً يتم تسييل الأصوات إلى المشاركين الذين تم التحقق منهم، في إطار آلية الدخل الأساسي العالمية و بهدف إيجاد توازن مناسب في التوتر التاريخي بين المال والسياسة.
+
+إننا لا نسعى إلى ما هو أقل من حوكمة ديمقراطية حقيقية في عصر الإنترنت ، وهي واحدة من اللبنات الأساسية لسلام وازدهار عالميين يمكن تحقيقهما، وينشآن عن قوس من الابتكارات التكنولوجية التي ستغير ما يعنيه أن تكون إنسانًا على الأرض.
+.
+
+
+==ii. المحتويات.==
 
 This text is structured in three parts, each aiming to satisfy a different readership target (and all of whom may reside within the same persona.)
 
