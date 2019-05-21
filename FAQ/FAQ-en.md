@@ -49,6 +49,7 @@
 
 [20. I signed up for an account at testmet.democracy.earth and I want to report a problem, a bug, and/or a new feature suggestion - how do I tell the development team about it? ](#question-020)  
 
+[21. Does Sovereign exclude people who have no access to video (for the Proof of Identity protocol)?](#question-14)
 
 ## Section II: Frequently Asked Questions - Token Sale
 
