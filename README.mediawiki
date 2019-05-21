@@ -701,7 +701,7 @@ A self-sovereign then, is able to obtain ''votes'' in three different ways:
 
 ====3.3.1 Dripping.====
 
-The rate at which 1 ''vote'' gets dripped to a verified identity is syncronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rhythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means,
+The rate at which 1 ''vote'' gets dripped to a verified identity is synchronized with the Bitcoin blockchain. By using Bitcoin's synchronization mechanism as a clock, an incorruptible consensus sets the rhythm for the whole network. Bitcoin chains a new block to the blockchain every 10 minutes, which means,
 
   1 hour = 6 blocks
 
