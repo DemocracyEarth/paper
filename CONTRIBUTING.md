@@ -1,4 +1,5 @@
-# Papers should be written like open source software
+# Contributing to the Social Smart Contract
+## Papers should be written like open source software
 
 A paper is almost always a collective effort, from peer review to friends and family contributions. All of it matters and shapes its final version.
 
