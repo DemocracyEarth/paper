@@ -72,7 +72,6 @@ Replica is designed to create an intersubjective space able to address this need
 
 Described by author Glen Weyl in the book [https://www.amazon.es/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691177503/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G3FY7VMON2E8&keywords=radical+markets&qid=1578665936&sprefix=radical+marke%2Caps%2C157&sr=8-1 Radical Markets] from 2018 and in the original paper [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531 published by him in 2012], Quadratic Voting is a mechanism that consists of granting each voter an equivalent amount of credit tokens, and allowing them to distribute it on a given set of choices, expressing the intensity of their preferences. However, each additional vote cast on a single choice costs an amount of credits that increases at a quadratic rate: 1 vote costs 1 credit, 2 costs 4, 3 costs 9, and so forth. This means that voters are able to express the intensity of their preference as much as they want to in support of a cause, but zealotry is penalized at an exponential rate: more votes being put in the same option quickly exhaust the voter's budget. By doing so, it provides a clear output on whether the intense preferences of minorities outweigh the weak preferences of the majority.
 
-
-<img width="951" alt="qv colorado" src="https://user-images.githubusercontent.com/18194034/72159674-2755ee80-33bd-11ea-8a09-5d702b696900.png">
+<img width="715" alt="qv_colorado" src="https://user-images.githubusercontent.com/18194034/72165075-1f9b4780-33c7-11ea-8113-309023d54cdd.png">
 
 
