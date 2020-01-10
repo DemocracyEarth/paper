@@ -56,15 +56,15 @@ Current blockchain-based identity certifications may be categorized as strictly 
 
 Replica is designed to create an intersubjective space able to address this need, accounting for measurements of both 'collective intentionalities' and 'brute facts' by combining a subjective function that provides legitimacy to the score based on Quadratic Voting, and an objective function that measures the Gini Coefficient of any DAO existing on the Ethereum blockchain. It will create a Democratic Index and assign a score to every Ethereum address relative to the intersection of DAOs in which it belongs as a member or its position in the social graph of blockchain-based transactions. 
 
-* *Democratic Index*
+'''Democratic Index'''
 
 <img width="811" alt="democratic_index" src="https://user-images.githubusercontent.com/18194034/72158815-5ff4c880-33bb-11ea-8282-38e169f7a16f.png">
 
-''Fig. 1'' Every address that belongs to a DAO will be weighted by Rrplica with a percentage of the Democratic Index obtained from the intersection of DAOs that constitute the identity of such address.
+'''Fig. 1''' Every address that belongs to a DAO will be weighted by Rrplica with a percentage of the Democratic Index obtained from the intersection of DAOs that constitute the identity of such address.
 
-''Fig. 2'' In order to counter weight false positives on the Gini Coefficient, addresses that achieve a high score will be granted the right to rank the different DAOs analyzed by the Replica oracle, according the their corresponding ability to ensure that no single Human controls more than one identifier within its domain. 
+'''Fig. 2''' In order to counter weight false positives on the Gini Coefficient, addresses that achieve a high score will be granted the right to rank the different DAOs analyzed by the Replica oracle, according the their corresponding ability to ensure that no single Human controls more than one identifier within its domain. 
 
-''Fig. 3'' The Gini coefficient for democracy ranges from 0 to 1, with 0 representing perfect totalitarianism and 1 representing perfect democracy. It computes a score that measures the share distribution by each segment of addresses belonging to a DAO.
+'''Fig. 3''' The Gini coefficient for democracy ranges from 0 to 1, with 0 representing perfect totalitarianism and 1 representing perfect democracy. It computes a score that measures the share distribution by each segment of addresses belonging to a DAO.
 
-''Fig. 4''  A Democratic Index is calculated for each DAO, as a function of their position in the Quadratic Voting rank and their Gini Coefficient.
+'''Fig. 4'''  A Democratic Index is calculated for each DAO, as a function of their position in the Quadratic Voting rank and their Gini Coefficient.
 
