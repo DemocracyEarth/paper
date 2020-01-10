@@ -46,8 +46,7 @@ However, Idena demonstrates that "liveness" — a synchronous event  — can pla
 
 <div id="Replica"></div>
 
-==2. Replica — A probabilistic score to detect Sybil participants in blockchain networks 
-.==
+==2. Replica.==
 
 As the blockchain ecosystem is converging on smart contracts standardizing the structuring of organizations and identities, Democracy Earth Foundation is constructing an algorithm able to output a probabilistic score for Proof of Humanity to all addresses interacting on chain, facilitating democratic governance and preserving privacy. Replica is designed in the same way that algorithms like PageRank (developed by Google in 1997) were once created to make sense of the web. It serves as a proxy to estimate the chances of any given address corresponding to a single human participant within the network.
 
