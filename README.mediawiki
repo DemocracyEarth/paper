@@ -10,8 +10,8 @@
   Replaces: 0
 </pre>
 
-=Replica: 
-A probabilistic score to detect Sybil participants in blockchain networks=
+= Replica: 
+A probabilistic score to detect Sybil participants in blockchain networks =
 “It is important to differentiate between verifying an identity, and verifying  the right to use a technology” Edward Snowden, Berlin 2019.
 
 
