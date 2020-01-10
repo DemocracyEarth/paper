@@ -44,7 +44,7 @@ Idena implements a live event held over its entire network, where participants a
 However, Idena demonstrates that "liveness" — a synchronous event  — can play a critical role in Sybil prevention, as the time constraint prevents a single entity from solving more than a few sets of FLIPs. Such a method enables a modality of validation that involves no data point except that of proof of conscious cognitive ability. The tradeoff is a significantly high coordination cost to achieve recurrent, simultaneous solving of FLIPS: all nodes must continuously participate in the synchronous events, otherwise their identities expire.
 
 
-<div id="Introduction"></div>
+<div id="Replica"></div>
 
 ==2. Replica — A probabilistic score to detect Sybil participants in blockchain networks 
 .==
