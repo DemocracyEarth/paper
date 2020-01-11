@@ -81,7 +81,7 @@ For the purpose of Replica, a Quadratic Vote will be used to rank a long tail of
 
 '''Objective Input'''
 
-<img width="648" alt="gc" src="https://user-images.githubusercontent.com/18194034/72165558-02b34400-33c8-11ea-9208-02ebc348eb4d.png">
+<img width="707" alt="gini" src="https://user-images.githubusercontent.com/18194034/72210421-73875880-34bb-11ea-8fc9-7f93793a2bb4.png">
 
 The Gini Coefficient measures the distribution of income across percentiles of a population. It ranges from 0 to 1,  where 0 represents perfect equality and 1 represents perfect inequality. As "centralization" and "inequality" have striking similarities ([https://news.earn.com/quantifying-decentralization-e39db233c28e one can think of a non-uniform distribution of wealth as highly unequal, and a non-uniform distribution of power as highly undemocratic, or centralized]), a similar calculation can be made to measure how democratic is a DAO. 
 
