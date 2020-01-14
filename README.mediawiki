@@ -41,7 +41,7 @@ While traditional smart contracts are aimed mostly at delivering automated outco
 
 Idena implements a live event held over its entire network, where participants are required to simultaneously solve FLIP tests. A FLIP test consists of picking between two sets of the same images disposed in different order, where one makes sense as a story, and the other doesn't. Solving a FLIP requires a semantic interpretation of the relationship between objects, which is common sense for humans but difficult for computers: [ https://idena.io/IdenaPitchDeck.pdf the average AI accuracy on solving a set of FLIPs is 69%, while Human accuracy is at 95%]. Given that tests cannot be captured by existing machine learning, Idena successfully provides a Proof of Personhood. It is not a strictly anti-Sybil solution, since there is a probabilistic margin of error: although highly unlikely, a person with exceptional ability could solve more than one set of FLIPS within their allotted time and earn more than one credential within the network. 
 
-However, Idena demonstrates that "liveness" — a synchronous event  — can play a critical role in Sybil prevention, as the time constraint prevents a single entity from solving more than a few sets of FLIPs. Such a method enables a modality of validation that involves no data point except that of proof of conscious cognitive ability. The tradeoff is a significantly high coordination cost to achieve recurrent, simultaneous solving of FLIPS: all nodes must continuously participate in the synchronous events, otherwise their identities expire.
+However, Idena demonstrates that "liveness" — a synchronous event  — can play a critical role in Sybil prevention, as the time constraint prevents a single entity from solving more than a few sets of FLIPs. Such a method enables a modality of validation that involves no data point except that of proof of conscious cognitive ability. The tradeoff is a significantly high coordination cost to achieve recurrent, simultaneous solving of FLIPS: all nodes must continuously participate in the synchronous events, otherwise their identities expire.There is no mechanism to ensure that those who pass the FLIP test and are thus granted a credential continue to maintain control of their keys over time. This creates a scenario where people could pay Mechanical Turks to collect several genuine identities which could later be handed over to a single person.
 
 
 <div id="Replica"></div>
@@ -116,5 +116,13 @@ A protocol able to formalize humans can mint tokens for participants based on el
 Approaches aiming to prevent a Sybil Attack must ensure that it is possible for an individual to obtain one validation within its domain, but unfeasible to obtain two or more. Replica inverts the angle with which former protocols address this challenge: instead of establishing a binary output (human / sybil), it defines entities within a continuum, approaching identity from a probabilistic lens. Replica circumvents the formalization of a unique process for identity verification by creating an intersubjective space that draws metrics from the embedded trust and sociality already present within Decentralized Autonomous Organizations, as well as the objective measurement of their democratic virtue. As it assigns a score to addresses based on the intersection of DAOs into which they belong or their relative position in the social graph of blockchain transactions, it can begin to formalize a path for an intersectional blockchain-based identity, as outlined by Immorlica, Jackson & Weyl on [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3375436. “Verifying Identity as a Social Intersection” (2019)]. Finally, Replica can serve as a framework to benchmark the informational threshold needed for a consensus able to formalize humans in blockchain networks. 
 
 
+<div id="Acknowledgements"></div>
+
+==4. Acknowledgements.==
+
+These are some of the minds that have contributed to this paper either by reviewing it or by inspiring the ideas expressed here.
+
+E. Glen Weyl (RadicalxChange), Vitalik Buterin (Ethereum Foundation), Balajis Srinivasan (21.co & Anderssen Horowitz), John Searle, 
+Primavera De Filippi (CNRS & Harvard University).
 
 
