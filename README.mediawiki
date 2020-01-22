@@ -73,7 +73,7 @@ Replica is designed to create an intersubjective space able to address this need
 
 '''Fig. 4'''  A Democratic Index is calculated for each DAO, as a function of their position in the Quadratic Voting rank and their Gini Coefficient.
 
-This implementation implies that an initial arrangement needs to be made for the first cohort of applicants to be approved — after which, it can continue on its own. We plan to host an in-person validation event at a popular conference such as [Devcon https://devcon.org/], where DAO members with a solid public reputation can be the first to be approved and will kickstart the Quadratic Voting component. 
+This implementation implies that an initial arrangement needs to be made for the first cohort of applicants to be approved — after which, it can continue on its own. We plan to host an in-person validation event at a popular conference such as [https://devcon.org/ Devcon], where DAO members with a solid public reputation can be the first to be approved and will kickstart the Quadratic Voting component. 
 
 '''Subjective Input'''
 
