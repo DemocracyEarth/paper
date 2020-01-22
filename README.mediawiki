@@ -125,6 +125,6 @@ Approaches aiming to prevent a Sybil Attack must ensure that it is possible for 
 
 These are some of the minds that have contributed to this paper by reviewing it.
 
-Primavera De Filippi (CNRS & Harvard University).
+Primavera De Filippi (CNRS & Harvard University), Glen Weyl (RadicalxChange).
 
 
