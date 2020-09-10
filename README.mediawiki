@@ -139,7 +139,7 @@ The very nature of public blockchains cries out for universal equality. It cries
 
 Equality Protocol accounts for two variables: account addresses and their respective Equality scores. It stores the Equality scores of listed accounts on the Ethereum Main Network. As soon as the objective or subjective input for an account changes, the entry for this account is updated. Equality applications are fully interoperable with other chunks of code on Ethereum, such as token systems or financial applications.
 
-<img width="707" alt="Equality Protocl - Architecture" src="https://user-images.githubusercontent.com/59769856/89132193-b588f200-d512-11ea-9764-3ebeb8b4ba86.png">
+<img width="707" alt="Equality Protocl - Architecture - V2" src="https://user-images.githubusercontent.com/59769856/91452537-fad4e100-e87e-11ea-9c27-bf375b5b4dd9.png">
 
 At an on-chain engineering level, developers of Equality applications set a minimum required Equality score for accounts to transact with them. Hence, only accounts that meet the Equality score requirements may claim the right to participate in their application. See the figure above and consider the following examples. Only accounts with 0.84 Equality and up may claim the payout of the basic income application. Or, only accounts with 0.90 Equality and up may vote in the democratic body application. The scope for action is limitless. Each Equality application is free to determine its custom required score. Thus, it is up to developers of Equality applications to find the best trade-off between Sybil-attack resistance and openness. Experience will tell what Equality scores indicate trustworthy personhood.
 
