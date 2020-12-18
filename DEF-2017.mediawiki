@@ -1,11 +1,11 @@
 <pre>
-  DEF: 2
-  Title: Replica
+  DEF: 1
+  Title: The Social Smart Contract
   Author: @DemocracyEarth.
   Comments-Summary: No comments yet.
   Status: Active
   Type: Paper
-  Created: 2020-01-08
+  Created: 2017-06-08
   License: MIT
   Replaces: 0
 </pre>
