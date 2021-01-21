@@ -252,45 +252,45 @@ Der "Vote"-Token kann mit Smart-Contract-Code auf einer Vielzahl von Blockchains
 
 ** '''Rootstock''': Wir unternehmen die notwendigen Schritte, um Solidity-Code mit [http://www.rsk.co/ Rootstocks Smart-Contract-Interpreter für die Bitcoin-Blockchain] kompatibel zu machen.
 
-* '''Lightning''': With the activation of [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] in the Bitcoin protocol that enables routing of payment channels with the [http://lightning.network Lightning Network protocol], liquid democracy delegations can be mapped using satoshi-level transactions carrying an attached ''vote'' identifier. Blockchain settlement cost must be covered by the implementing organization.
+* '''Lightning''': Mit der Aktivierung von [https://en.bitcoin.it/wiki/Segregated_Witness segregated witness] im Bitcoin-Protokoll, welches das Routing von Zahlungskanälen mit dem [http://lightning.network Lightning Network protocol] ermöglicht, können Liquid-Democracy-Delegationen mithilfe von Transaktionen auf Satoshi-Ebene abgebildet werden und so eine angehängte "Vote"-Kennung tragen. Die Kosten der Blockchain-Abrechnung müssen von der implementierenden Organisation getragen werden.
 
-Also, multi-chain implementations are encouraged in the spirit of seeking greater experimentation and collaboration regarding these technologies.
+Auch Multi-Chain-Implementierungen werden im Sinne einer stärkeren Experimentierfreudigkeit und Zusammenarbeit in Bezug auf diese Technologien gefördert.
 
-===2.2 Voting.===
+===2.2 Abstimmung.===
 
-The ''vote'' token aims to be a standard for digital democracy able to interoperate with other tokens, setting a common language for the governance of blockchain based organizations. Within the context of liquid democracies, a range of voting transactions is permitted with ''votes'':
+Der Token ''vote'' zielt darauf ab ein Standard für digitale Demokratie zu sein, mit anderen Token zu interagieren und eine gemeinsame Sprache für  Blockchain-basierten Organisationen zu bilden. Im Rahmen von flexiblen Demokratien sind eine Reihe von Abstimmungstransaktionen mit ''votes'' erlaubt:
 
-* '''Direct Vote''': Selfish voter Alice is allowed to use her tokens to vote directly on issues as in a direct democracy.
+* '''Direkte Abstimmung''': Die egoistische Wählerin Alice darf ihre Token benutzen um wie in einer direkten Demokratie direkt über Themen abzustimmen.
 
-* '''Basic Delegation''': Alice may delegate ''votes'' to Bob. As long as Bob has access to those tokens he can use them to vote on Alice's behalf.
+* '''Einfache Delegation''': Alice kann ''votes'' an Bob delegieren. Solange Bob Zugriff auf diese Token hat, kann er sie verwenden, um im Namen von Alice abzustimmen.
 
-* '''Tag Limited Delegation''': Alice may delegate ''votes'' to Charlie under the specified condition that he can only use these tokens on issues carrying a specific tag. If the delegation specifies that delegated ''votes'' can only be used on decisions with the ''#environment'' tag, then Charlie won't be able to use these anywhere else but on those specific issues. This leads to a representation model not based on territory but on knowledge.
+* '''Tag Limited Delegation''': Alice kann ''votes'' an Charlie delegieren, unter der Bedingung, dass er diese Token nur für Themen mit einem bestimmten Tag verwenden kann. Wenn die Delegation festlegt, dass delegierte ''Stimmen'' nur für Entscheidungen mit dem ''#environment''-Tag verwendet werden können, dann kann Charlie diese nirgendwo anders als für diese speziellen Themen verwenden. Dies führt zu einem Repräsentationsmodell, das nicht auf einem Gebiet, sondern auf Wissen basiert.
 
-* '''Transitive Delegation''': If Bob received ''votes'' from Alice, he can then delegate these to Frank. This generates a chain of delegations that helps empower specific players within a community. If Alice does not desire to have third parties receiving the votes she delegated to Bob, she can turn off the transitive setting on the delegation contract. Circular delegations (e.g. Alice receiving the tokens she sent Bob from Frank) are prohibited since the original allocation of ''votes'' from an organization to its members carries a signature indicating who is the sovereign owner of the ''votes''.
+* '''Transitive Delegation''': Wenn Bob ''votes'' von Alice erhalten hat, kann er diese an Frank delegieren. Dies erzeugt eine Kette von Delegationen, die dazu beiträgt bestimmte Akteure innerhalb einer Gemeinschaft zu ermächtigen. Wenn Alice nicht möchte, dass Dritte die Stimmen erhalten die sie an Bob delegiert hat, kann sie die transitive Einstellung im Delegationsvertrag deaktivieren. Zirkuläre Delegationen (z. B. Alice erhält Token über Frank, welches Sie ursprünglich Bob geschickt hat ) sind verboten, da die ursprüngliche Zuweisung von "votes" von einer Organisation an ihre Mitglieder eine Signatur trägt die angibt wer der souveräne Besitzer der "Stimmen" ist.
 
-* '''Overriding Vote''': If Bob already used the delegated ''votes'' he received from Alice but she has a different opinion on a given issue, as the sovereign owner of her votes Alice can always override Bob's decision. Voters always have the final word on any given decision with their original ''votes''.
+* '''Overriding Vote''': Wenn Bob die delegierten ''votes'' die er von Alice erhalten hat bereits verwendet hat, diese aber eine andere Meinung zu einer bestimmten Frage hat, kann Alice als souveräne Besitzerin ihrer Stimmen Bobs Entscheidung immer überstimmen. Die Wähler haben mit ihren ursprünglichen ''votes'' immer das letzte Wort bei einer bestimmten Entscheidung.
 
-* '''Public Vote''': Often referred to as the ''golden rule'' of liquid democracies, all delegators have the right to know how their delegate has voted on any given issue with their ''votes''. In the same way congressmen votes are public, on liquid democracies competing delegates on any given tag have an incentive to build a public reputation based on their voting record in order to attract more delegations.
+* '''Public Vote''': Oft als die ''goldene Regel'' von flexiblen Demokratien bezeichnet, haben alle Delegierten das Recht zu wissen wie ihr Delegierter zu einem bestimmten Thema mit seiner ''Stimme'' abgestimmt hat. Genauso wie die Stimmen der Kongressabgeordneten öffentlich sind, haben in flexiblen Demokratien konkurrierende Delegierte an jedem beliebigen Tag einen Anreiz, sich durch ihr Abstimmungsverhalten einen öffentlichen Ruf aufzubauen um mehr Delegationen anzuziehen.
 
-* '''Secret Vote''': A method that is able to guarantee ''vote'' transactions untraceable to the voter. This is indispensable in contexts of public elections held within large populations that have a high risk of coercion. Even if perfect secrecy on ''vote'' transaction is achieved, users can still be fingerprinted with exposed meta-data. For this reason, research on integration with blockchains designed for anonymous transactions with a proven track record is encouraged. This might include a mining fee to settle the ''vote'' transaction that can be either subsidized by the implementing organization or directly paid by voters. We recommend research and integration of secret ''votes'' with these blockchains:
+* '''Secret Vote''': Eine Methode, die garantiert das "vote"-Transaktionen nicht für andere Wähler sichtbar sind. Dies ist unabdingbar im Kontext öffentlicher Wahlen, die in großen Bevölkerungsgruppen abgehalten werden und bei denen ein hohes Risiko der Nötigung besteht. Selbst wenn eine perfekte Geheimhaltung der ''Vote''-Transaktionen erreicht wird, können die Benutzer immer noch mit freigelegten Metadaten erkannt werden. Aus diesem Grund werden Forschungen zur Integration mit Blockchains, die für anonyme Transaktionen mit einer nachgewiesenen Erfolgsbilanz ausgelegt sind, gefördert. Dies könnte eine Mining-Gebühr zur Abwicklung der ''Vote''-Transaktion beinhalten, die entweder von der implementierenden Organisation subventioniert oder direkt von den Wählern bezahlt werden kann. Wir empfehlen die Erforschung und Integration von geheimen "votes" mit diesen Blockchains:
 
-** Ethereum: uses [https://github.com/ethereum/EIPs/pull/213 precompiled contracts for addition and scalar multiplication on the elliptic curve alt_bn128], for [https://github.com/ethereum/EIPs/pull/212 pairing checks], which permit [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ zk-SNARKs], also see [https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6 here], [https://github.com/ethereum/EIPs#finalized-eips-standards-that-have-been-adopted as implemented] in the [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ Byzantium hard fork].
+** Ethereum: verwendet [https://github.com/ethereum/EIPs/pull/213 vorkompilierte Verträge für Addition und skalare Multiplikation auf der elliptischen Kurve alt_bn128], für [https://github.com/ethereum/EIPs/pull/212 Paarungsprüfungen], die [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ zk-SNARKs] ermöglichen, siehe auch [https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6 hier], [https://github.com/ethereum/EIPs#finalized-eips-standards-that-have-been-adopted wie implementiert] in der [https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/ Byzantium hard fork].
 
-** [https://z.cash ZCash]: implements shielded transactions using [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs].
+** [https://z.cash ZCash]: implementiert abgeschirmte Transaktionen mit [https://en.wikipedia.org/wiki/Zero-knowledge_proof zero-knowledge proofs].
 
-** [https://getmonero.org Monero]: uses [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
+** [https://getmonero.org Monero]: verwendet [https://en.wikipedia.org/wiki/Ring_signature ring signatures with stealth addresses].
 
-===2.3 User Experience.===
+===2.3 Benutzererfahrung.===
 
-User Experience (UX) is a critical aspect of a decentralized architecture and becomes even more important as the redundant layers of centralized architectures condense to the user. In a centralized internet architecture, the user does not own the interface or experience. In a decentralized internet architecture, the user interface (UI) should be based on the user's perspective. In this sense, transactions get done under three distinct views:
+Benutzererfahrung (UX / User Experience) ist ein kritischer Aspekt einer dezentralen Architektur und wird umso wichtiger, je mehr sich die redundanten Ebenen zentralisierter Architekturen auf den Benutzer verdichten. In einer zentralisierten Internet-Architektur ist der Benutzer nicht Eigentümer der Benutzeroberfläche oder der Erfahrung. In einer dezentralen Internet-Architektur sollte die Benutzeroberfläche (UI / User Interface) auf der Perspektive des Benutzers basieren. In diesem Sinne werden Transaktionen unter drei verschiedenen Ansichten durchgeführt:
 
-* '''Self''': Using a public identity related to an individual.
+* '''Self''': Verwendung einer öffentlichen Identität, die sich auf eine Person bezieht.
 
-* '''Organization''': In representation of an organization that extended representation rights to individuals (e.g. workplace, club, political party, etc).
+* '''Organization''': In Vertretung einer Organisation, die Vertretungsrechte auf Einzelpersonen ausgedehnt hat (z. B. Arbeitsplatz, Verein, politische Partei usw.).
 
-* '''Anonymous''': Without any connection to a public identity.
+* '''Anonymous''': Ohne jegliche Verbindung zu einer öffentlichen Identität.
 
-This understanding of ''SELF / ORG / ANON'' shape-shifting requirement highly influenced our interface and token design. At any given time a Sovereign user can adopt any of these modes to interact with decentralized organizations.
+Dieses Verständnis der ''SELF / ORG / ANON''-Formveränderungsanforderung hat unser Interface- und Token-Design stark beeinflusst. Zu jedem Zeitpunkt kann ein Souveräner Benutzer jeden dieser Modi annehmen, um mit dezentralen Organisationen zu interagieren.
 
 ====2.3.1 Liquid.====
 
