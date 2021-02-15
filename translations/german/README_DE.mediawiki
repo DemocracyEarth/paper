@@ -242,8 +242,7 @@ Was eine Stimme von Geld unterscheidet (oder allgemeiner ausgedrückt: eine "pol
 
 ====2.1.1 Implementierung.====
 
-In Anbetracht der Meme Aussage von [https://en.wikipedia.org/wiki/Dogecoin  
- Dogecoin], wird der Democracy Earth Token, der das Wahlrecht gewährt, mit der wichtigsten Botschaft gebrandet die eine Demokratie vermitteln kann: "Wähle".
+In Anbetracht der Meme Aussage von Dogecoin, wird der Democracy Earth Token, der das Wahlrecht gewährt, mit der wichtigsten Botschaft gebrandet die eine Demokratie vermitteln kann: "Wähle".
 
 Der "Vote"-Token kann mit Smart-Contract-Code auf einer Vielzahl von Blockchains implementiert werden, die [https://en.wikipedia.org/wiki/Turing_completeness Turing Complete]-Skripte erlauben, einschließlich Bitcoin. Unser Design ist Blockchain-agnostisch und basiert auf den aktuellen Erkenntnissen der Informatik. Diese Technologie stecken diese noch in den Kinderschuhen und es müssen noch 
  bedeutende Innovationen erfunden werden. Nichtsdestotrotz arbeiten wir unter diesen Umgebungen von Smart-Contracts und an der Implementierung des "Vote"-Tokens:
