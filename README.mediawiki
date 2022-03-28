@@ -408,7 +408,7 @@ The basic settings to be found on a constitution are:
 
 * '''Voting''': The allowed <code>Ballots</code> to be used for the decisions to be made by the organization and specific settings such as ''quadratic voting''.
 
-* '''Reform''': The requirements to change any of the rules set on a ''Constitution'' (e.g. a special majority).
+* '''Reform''': The requirements to change any of the rules set in a ''Constitution'' (e.g. a special majority).
 
 Templates defining common practices for specific kinds of organizations are encouraged to simplify organizational setup. This will be aided and abetted through work with the Democracy Earth Foundation partnership with [https://aragon.one/ Aragon], who is working on a digital jurisdiction that will make decentralized organizations efficient. Sovereign will include templates for corporations, political parties, trade unions, clubs and cooperative businesses among others; whatever form the organization takes, Aragon's decentralized network ensures that a company will always work, even in the face of malicious tampering by hostile third parties or abusive governments.
 
