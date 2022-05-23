@@ -782,7 +782,7 @@ The described dripping dynamic ends up benefitting early-adopters as is often th
 
 * E = Amount of ''votes'' allocated to the ''Genesis Identity'' at present block height (T).
 
-We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' that gets approved by the network. With this information the next validated identity won't begin in disadvantage: it will have a wallet with the same amount of ''votes'' than the first participant in the network currently has. Since this rule applies to every participant it will guarantee ''Equality'' in terms of participation letting everyone have the same amount of Sovereign ''votes'' than everyone else, extending the UBI formula as follows:
+We refer to the ''Genesis Identity'' as the very first ''Proof of Identity'' that gets approved by the network. With this information the next validated identity won't begin at a disadvantage: it will have a wallet with the same amount of ''votes'' as the first participant in the network currently has. Since this rule applies to every participant it will guarantee ''Equality'' in terms of participation letting everyone have the same amount of Sovereign ''votes'' as everyone else, extending the UBI formula as follows:
 
 [[File:/images/ubi-equality-formula.png|Vᵢ = (E + ((B_present) - T(B_Pᵢ)) / r)) * Sᵢ]]
 
