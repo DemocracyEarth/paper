@@ -287,7 +287,7 @@ This understanding of ''SELF / ORG / ANON'' shape-shifting requirement highly in
 
 ====2.3.1 Liquid.====
 
-Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed on the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile or desktop devices.
+Sovereign aims to make liquid voting immediate and simple. Any friction in the process must be avoided and the delegation widget should be constantly exposed in the interface while browsing issues or looking at member profiles. For this purpose, Sovereign uses a ''liquid bar'' that permits transacting ''votes'' with a single gesture either on mobile or desktop devices.
 
 [[File:/images/liquid-mobile-ux.png|Sovereign mobile interface displaying decision, ballot and liquid voting.]]
 
