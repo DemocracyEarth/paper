@@ -471,7 +471,7 @@ Finally, counting methods for the final or ongoing result of a decision within a
 
 ====2.5.5 <code>Budget</code>====
 
-Every <code>Organization</code> can have 1 or more cryptocurrency addresses to fund its efforts. Sovereign permits to fund an <code>Organization</code> with Bitcoin and in its <code>Constitution</code> define a criteria on how these assets get distributed among <code>Members</code>:
+Every <code>Organization</code> can have 1 or more cryptocurrency addresses to fund its efforts. Sovereign permits funding an <code>Organization</code> with Bitcoin and, in its <code>Constitution</code>, defining criteria for how these assets get distributed among <code>Members</code>:
 
 * '''Percentage for ''Proof of Identity''''': Applicant <code>Members</code> can submit their ''Proof of Identity'' evidence to get membership approval to an <code>Organization</code>. If ''votes'' approve the new member, it strengthens the reputation of a self-sovereign identity in the open network by rewarding him or her a fixed amount of Bitcoin to permit hashing the ''Proof of Identity'' on a blockchain. Some <code>Organizations</code> may allow a bigger reward than others, effectively creating a Reputation score that can protect the network against ''Sybils'' or false identities. This process is detailed in [[#Executive|Section 3]].
 
