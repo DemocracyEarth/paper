@@ -394,7 +394,7 @@ The basic settings to be found in a constitution are:
 ** '''Voted''': Existing members must vote on applicant members. A percentage criteria must be set for approval.
 ** '''Fee''': The organization requires a payment for membership approval.
 
-* '''Content''': Defines who is allowed to post <code>Issues</code> on the organization.
+* '''Content''': Defines who is allowed to post <code>Issues</code> in the organization.
 
 ** '''Open''': Anyone (whether a member or not) can post. Only members get the right to vote.
 ** '''Members''': Only approved members have the right to post.
