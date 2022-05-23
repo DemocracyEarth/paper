@@ -422,7 +422,7 @@ Compatibility with decentralized identity protocols is encouraged for the purpos
 
 ====2.5.3 <code>Issues</code>====
 
-An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define member's voting and posting rights. An issue in its most basic form has these properties:
+An organization consists of a collection of ''issues'' each describing a decision to be made by the members. Membership properties described in the ''constitutional smart contract'' define a member's voting and posting rights. An issue in its most basic form has these properties:
 
 * <code>Description</code>: Text of the decision to be made.
 * <code>Tags</code>: Categories that describe the decision within the organization. This helps members navigate across issues, define areas or teams within an organization and limit the scope of a delegation of ''votes''. If the implementation is done with blockchain environments that are used to manage a fixed taxonomy (like [http://blockstack.org Blockstack]), a common distributed language for tags based on decentralized domains helps to make the democratic environment more fair as it avoids members trying to control naming conventions for their own benefit. For this reason, within an open network <code>Tags</code> that describe <code>Issues</code> or are used to constrain delegations, are pointers to other <code>Organizations</code>. This is detailed in the ''Proof of Identity'' process.
